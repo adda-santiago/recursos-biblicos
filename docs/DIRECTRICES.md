@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.19 · 13 de octubre de 2026
+Versión 2.20 · 14 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.20:** recurso complementario El exilio y los retornos, en cuatro rutas (historia, vida en el exilio, retornos y profecía) (§9).
 
 **Cambio de la versión 2.19:** recurso complementario Los últimos tiempos (esquema escatológico), con esquemas propios en SVG; nueva época «Los últimos tiempos» en la taxonomía (§9, §20).
 
@@ -301,6 +303,7 @@ Asignación actual:
 | Hechos de los Apóstoles | Nuevo | Iglesia primitiva | Hechos, Lucas, Joel, Romanos, 1 Corintios, Gálatas, 1 Tesalonicenses |
 | Los viajes de Pablo | Nuevo | Iglesia primitiva | Hechos y las trece cartas de Pablo |
 | Los últimos tiempos | Antiguo, Nuevo | Los últimos tiempos | Daniel, Ezequiel, Isaías, Jeremías, Joel, Zacarías, Mateo, Juan, Romanos, 1 Corintios, 1 y 2 Tesalonicenses, 2 Pedro, Apocalipsis |
+| El exilio y los retornos | Antiguo, Nuevo | Monarquía dividida, exilio, retorno | Levítico, Deuteronomio, 2 Reyes, 2 Crónicas, Esdras, Nehemías, Ester, Salmos, Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel, Amós, Hageo, Zacarías, Malaquías, Lucas, 1 Pedro |
 
 ## 10. Sin fines comerciales
 
@@ -492,7 +495,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Texto:** entre 250 y 450 palabras por estación; si necesita más, se divide. Cada estación cierra con **Para pensar**, siempre desde el texto bíblico y la línea doctrinal pentecostal clásica de las Asambleas de Dios, sin mencionarla.
 - **Historia y texto bíblico.** Cuando una fuente histórica parece diferir del relato bíblico, o dos textos bíblicos dan datos distintos, se usa el bloque de dos posturas (`posturas`) con ambas versiones y cómo se entienden; nunca se presenta el texto bíblico como error. En temas doctrinales prevalece la línea de las Asambleas de Dios.
 - **Recursos complementarios** (cada imperio, el exilio, el esquema escatológico) hablan de todos los libros donde aparece el tema, no solo del libro que los originó. Los recursos históricos incluyen además su legado (aportes, costumbres, inventos), verificado.
-- **Imágenes:** ilustraciones cinematográficas realistas generadas con IA, en 4:3, con el tema al centro; `foco` ajusta el recorte. Un objeto arqueológico real nunca se representa con una imagen generada: se usa una foto con licencia verificada o una escena que no se confunda con evidencia. Los prompts para Google Flow van en inglés y completos (estilo, formato 4:3 y restricciones dentro del prompt). Los personajes que se repiten (Pablo, Pedro, etc.) se crean como personajes de Flow, y cada prompt de escena los nombra igual que en Flow e indica cuáles adjuntar. Una portada generada en 4:3 se recorta al centro a 16:9 (1200×675), con su `-640.webp` y su `.jpg`. Los diagramas propios (esquemas, líneas proféticas) se dibujan en SVG con un script en `herramientas/` y se declaran con `origen: 'esquema'`: el motor los muestra completos, sin recorte, con el pie «Esquema del recurso».
+- **Imágenes:** ilustraciones cinematográficas realistas generadas con IA, en 4:3, con el tema al centro; `foco` ajusta el recorte. Un objeto arqueológico real nunca se representa con una imagen generada: se usa una foto con licencia verificada o una escena que no se confunda con evidencia. Los prompts para Google Flow van en inglés y completos (estilo, formato 4:3 y restricciones dentro del prompt). Los personajes que se repiten (Pablo, Pedro, etc.) se crean como personajes de Flow, y cada prompt de escena los nombra igual que en Flow e indica cuáles adjuntar. Si un personaje aparece en distintas etapas de su vida, se crea un personaje de Flow por etapa, con su propio nombre (Daniel-joven y Daniel-anciano, José-joven y José-adulto), y la escena usa el de la etapa que corresponde. Una portada generada en 4:3 se recorta al centro a 16:9 (1200×675), con su `-640.webp` y su `.jpg`. Los diagramas propios (esquemas, líneas proféticas) se dibujan en SVG con un script en `herramientas/` y se declaran con `origen: 'esquema'`: el motor los muestra completos, sin recorte, con el pie «Esquema del recurso».
 
 ### Pendientes
 
@@ -624,6 +627,9 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-13 | Nueva época de la taxonomía: «Los últimos tiempos» (`ultimos-tiempos`) | Los recursos sobre profecía futura no encajaban en ninguna época histórica |
 | 2026-10-13 | Esquemas propios en SVG (`origen: 'esquema'`), generados con `herramientas/esquemas_escatologia.py` | Un diagrama exacto y editable comunica la secuencia profética mejor que una ilustración |
 | 2026-10-13 | La profecía no fija fechas; las identificaciones modernas (Gog, Babilonia, la higuera) se presentan como posturas | Mt 24:36; las predicciones con fecha han fallado siempre |
+| 2026-10-14 | El exilio y los retornos: recurso complementario con cuatro rutas, coherente en fechas con los recursos de Asiria, Babilonia y Persia | Base común para Reyes, los profetas, Esdras, Nehemías, Ester y Daniel |
+| 2026-10-14 | Los retornos de Persia se presentan como cumplimiento parcial de las promesas del regreso, cuyo cumplimiento final es escatológico | Las promesas de Is 11:11-12, Ez 37 y Am 9:15 exceden lo ocurrido en 538–445 a.C. |
+| 2026-10-14 | Un personaje de Flow por cada etapa de vida (Daniel-joven, Daniel-anciano…) | Un mismo personaje con edades muy distintas no puede salir igual en todas las escenas |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

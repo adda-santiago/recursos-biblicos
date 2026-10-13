@@ -258,6 +258,8 @@ LUGARES = {
   'r-magog': ['Magog (¿?)', 43.0, 44.0], 'r-mesec': ['Mesec', 39.6, 31.6], 'r-tubal': ['Tubal', 38.2, 35.8],
   'r-gomer': ['Gomer', 40.6, 34.6, 'top'], 'r-togarma': ['Togarma', 39.3, 40.6], 'r-persia': ['Persia', 30.0, 53.0],
   'r-cus': ['Cus (Etiopía)', 19.0, 33.0], 'r-fut': ['Fut (Libia)', 30.8, 19.0],
+  # El exilio y los retornos
+  'tel-abib': ['Tel-abib (río Quebar)', 32.13, 45.23, 'bottom'],
   # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
   'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
   'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
@@ -326,6 +328,8 @@ TRAZOS = {
     'l': [[36.92,34.89],[36.6,35.9],[36.2,36.16],[34.8,35.6],[33.27,35.2],[32.5,34.9],[31.78,35.23],[32.5,34.9],[33.27,35.2],[34.8,35.6],[36.2,36.16]]},
   'pablo-despues': {'n': 'Viajes posibles después de Hechos (según las cartas pastorales)',
     'l': [[41.9,12.5],[38.2,15.6],[35.3,24.9],[37.53,27.28],[37.94,27.34],[39.75,26.16],[41.01,24.29],[40.64,22.94],[39.01,20.73],[40.4,17.5],[41.9,12.5]]},
+  'huida-egipto': {'n': 'El remanente huye a Egipto con Jeremías (Jer 41–43), aproximado',
+    'l': [[31.78,35.23],[31.88,35.22],[31.7,35.2],[31.5,34.46],[31.13,33.8],[30.87,32.17]]},
   'caida-539': {'n': 'Avance de Ciro, 539 a.C.',
     'l': [[34.80,48.52],[34.35,47.10],[34.0,45.6],[33.30,44.50],[33.06,44.25],[32.54,44.42]]},
 }
