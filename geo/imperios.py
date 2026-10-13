@@ -130,6 +130,31 @@ G['persia-539'] = unir('media-585', 'lidia-560', 'persia-oriente-539')
 G['persia-547'] = unir('media-585', 'lidia-560')
 G['persia-530'] = unir('media-585', 'lidia-560', 'persia-oriente-539', 'babilonia-545')
 
+# ---------------- La iglesia en Hechos (capa acumulativa) ----------------
+# Zonas APROXIMADAS alrededor de los lugares donde Hechos registra creyentes o iglesias.
+# Cada etapa suma lugares a la anterior: [lat, lng, radio en grados].
+from shapely.geometry import Point
+ETAPAS_IGLESIA = [
+  ('iglesia-30', 'c. 30 d.C., Pentecostés (Hch 2)', [[31.78,35.23,.28]]),
+  ('iglesia-34', 'c. 34 d.C., Judea y Samaria (Hch 8:1-25)', [[31.55,35.0,.35],[32.28,35.2,.35]]),
+  ('iglesia-35', 'c. 34 d.C., Felipe en la costa (Hch 8:26-40)', [[31.5,34.46,.22],[31.75,34.65,.22],[32.05,34.75,.22],[32.5,34.9,.22]]),
+  ('iglesia-36', 'c. 35 d.C., Damasco y Galilea (Hch 9:1-31)', [[33.51,36.29,.3],[32.8,35.4,.35]]),
+  ('iglesia-37', 'c. 37 d.C., Siria y Cilicia (Hch 9:30; 15:41)', [[36.92,34.89,.35]]),
+  ('iglesia-40', 'c. 40 d.C., Lida, Jope y Cesarea (Hch 9:32–10:48)', [[31.95,34.89,.25],[32.3,34.9,.25]]),
+  ('iglesia-44', 'c. 44 d.C., Fenicia, Chipre y Antioquía (Hch 11:19-26)', [[33.27,35.2,.25],[33.56,35.37,.25],[32.92,35.08,.22],[35.18,33.9,.35],[36.2,36.16,.35],[36.12,35.93,.22]]),
+  ('iglesia-48', 'c. 48 d.C., primer viaje (Hch 13–14)', [[34.76,32.41,.3],[36.96,30.85,.3],[38.31,31.19,.35],[37.87,32.48,.35],[37.58,32.45,.3],[37.35,33.36,.3]]),
+  ('iglesia-52', 'c. 52 d.C., Macedonia y Acaya (Hch 16–18)', [[41.01,24.29,.3],[40.64,22.94,.3],[40.52,22.2,.28],[37.97,23.73,.25],[37.906,22.88,.32]]),
+  ('iglesia-57', 'c. 57 d.C., Éfeso y toda Asia (Hch 19–20)', [[37.94,27.34,.4],[38.42,27.14,.3],[39.12,27.18,.3],[38.92,27.84,.3],[38.49,28.04,.3],[38.35,28.52,.3],
+                                                           [37.84,29.11,.3],[37.79,29.26,.25],[37.93,29.13,.25],[37.53,27.28,.25],[39.75,26.16,.3]]),
+  ('iglesia-62', 'c. 62 d.C., Pablo en Roma (Hch 28)', [[41.9,12.5,.4],[40.82,14.12,.28]]),
+]
+ESCALA_IGLESIA = 1.7  # agranda las zonas para que se lean como regiones en los mapas amplios
+_acum = []
+for _id, _per, _pts in ETAPAS_IGLESIA:
+    _acum += _pts
+    _g = unary_union([Point(lo, la).buffer(r * ESCALA_IGLESIA) for la, lo, r in _acum]).buffer(0.15).buffer(-0.15)
+    G[_id] = recortar_geom(_g)
+
 # ---------------- Capas: un imperio en un momento ----------------
 CAPAS = {
   'babilonia-620': {'n': 'Babilonia', 'periodo': 'c. 620 a.C.', 'imp': 'babilonia', 'polys': ['babilonia-nucleo']},
@@ -171,6 +196,9 @@ CAPAS = {
   'persia-539':    {'n': 'Imperio persa', 'periodo': '539 a.C., Ciro', 'imp': 'persia',
                     'polys': ['persia-539'], 'rot': [36.4, 57.0]},
 }
+# Las capas de la iglesia van al final, para dibujarse encima de los imperios
+for _id, _per, _pts in ETAPAS_IGLESIA:
+    CAPAS[_id] = {'n': 'La iglesia', 'periodo': _per.split(',')[0], 'imp': 'iglesia', 'polys': [_id], 'rot': [29.4, 39.6]}
 
 # ---------------- Lugares ----------------
 LUGARES = {
@@ -206,6 +234,25 @@ LUGARES = {
   'maraton': ['Maratón', 38.15, 23.96], 'salamina': ['Salamina', 37.95, 23.5, 'left'], 'termopilas': ['Termópilas', 38.8, 22.54, 'left'],
   'gaugamela': ['Gaugamela', 36.36, 43.25], 'granico': ['Gránico', 40.25, 27.25], 'issos': ['Issos', 36.84, 36.2, 'left'],
   'pella': ['Pela', 40.76, 22.52, 'left'], 'alejandria': ['Alejandría', 31.2, 29.92, 'left'],
+  # Hechos y los viajes de Pablo
+  'tarso': ['Tarso', 36.92, 34.89], 'lida': ['Lida', 31.95, 34.89], 'sidon': ['Sidón', 33.56, 35.37, 'left'],
+  'tolemaida': ['Tolemaida', 32.92, 35.08, 'left'], 'seleucia': ['Seleucia', 36.12, 35.93, 'left'],
+  'salamina-chipre': ['Salamina (Chipre)', 35.18, 33.90], 'pafos': ['Pafos', 34.76, 32.41, 'left'],
+  'perge': ['Perge', 36.96, 30.85, 'bottom'], 'atalia': ['Atalia', 36.89, 30.70, 'left'],
+  'antioquia-pisidia': ['Antioquía de Pisidia', 38.31, 31.19, 'top'], 'iconio': ['Iconio', 37.87, 32.48],
+  'listra': ['Listra', 37.58, 32.45], 'derbe': ['Derbe', 37.35, 33.36],
+  'troas': ['Troas', 39.75, 26.16, 'left'], 'neapolis': ['Neápolis', 40.94, 24.41, 'bottom'],
+  'anfipolis': ['Anfípolis', 40.82, 23.85, 'top'], 'berea': ['Berea', 40.52, 22.20, 'left'],
+  'cencrea': ['Cencrea', 37.88, 22.99, 'bottom'], 'mileto': ['Mileto', 37.53, 27.28, 'left'],
+  'rodas': ['Rodas', 36.43, 28.22, 'bottom'], 'patara': ['Pátara', 36.26, 29.31, 'bottom'],
+  'cirene': ['Cirene', 32.82, 21.86], 'hispania': ['Hispania (España)', 40.40, -3.70],
+  # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
+  'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
+  'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
+  'r-capadocia': ['Capadocia', 38.6, 35.4], 'r-ponto': ['Ponto', 40.7, 37.0], 'r-asia': ['Asia', 38.7, 28.2, 'left'],
+  'r-frigia': ['Frigia', 39.0, 30.6, 'top'], 'r-panfilia': ['Panfilia', 37.0, 31.1, 'bottom'],
+  'r-egipto': ['Egipto', 29.8, 31.0, 'left'], 'r-libia': ['África (Cirene)', 32.0, 21.5],
+  'r-roma': ['Romanos', 41.9, 12.5], 'r-creta': ['Cretenses', 35.2, 24.9, 'bottom'], 'r-arabia': ['Árabes', 29.5, 37.0, 'bottom'],
 }
 
 # ---------------- Trazos (rutas aproximadas) ----------------
@@ -239,6 +286,28 @@ TRAZOS = {
     'l': [[29.94,52.89],[34.80,48.52],[36.75,66.90],[34.5,69.2],[32.90,73.60],[29.0,68.5],[26.0,62.5],[29.94,52.89],[32.19,48.25],[32.54,44.42]]},
   'viaje-roma': {'n': 'Viaje de Pablo a Roma (Hch 27–28)',
     'l': [[32.50,34.90],[33.56,35.37],[36.26,29.98],[34.93,24.80],[35.90,14.40],[37.07,15.29],[38.11,15.65],[40.82,14.12],[41.90,12.50]]},
+  # Hechos: expansión de la iglesia y viajes de Pablo (rutas aproximadas)
+  'hch-samaria': {'n': 'El evangelio llega a Samaria (Hch 8)',
+    'l': [[31.78,35.23],[32.0,35.25],[32.28,35.20]]},
+  'hch-felipe': {'n': 'Felipe: camino a Gaza, Azoto y Cesarea (Hch 8:26-40)',
+    'l': [[31.78,35.23],[31.62,34.85],[31.50,34.46],[31.75,34.65],[32.05,34.75],[32.50,34.90]]},
+  'hch-damasco': {'n': 'Saulo, camino a Damasco (Hch 9)',
+    'l': [[31.78,35.23],[32.28,35.20],[32.70,35.50],[33.10,35.95],[33.51,36.29]]},
+  'hch-pedro': {'n': 'Pedro: Lida, Jope y Cesarea (Hch 9–10)',
+    'l': [[31.78,35.23],[31.95,34.89],[32.05,34.75],[32.50,34.90]]},
+  'hch-antioquia': {'n': 'Los esparcidos: Fenicia, Chipre y Antioquía (Hch 11:19)',
+    'l': [[31.78,35.23],[32.92,35.08],[33.27,35.20],[33.56,35.37],[35.18,33.90],[36.12,35.93],[36.20,36.16]]},
+  'viaje-1': {'n': 'Primer viaje de Pablo (Hch 13–14)',
+    'l': [[36.20,36.16],[36.12,35.93],[35.18,33.90],[34.76,32.41],[36.96,30.85],[38.31,31.19],[37.87,32.48],[37.58,32.45],[37.35,33.36],
+          [37.58,32.45],[37.87,32.48],[38.31,31.19],[36.96,30.85],[36.89,30.70],[36.12,35.93],[36.20,36.16]]},
+  'viaje-2': {'n': 'Segundo viaje de Pablo (Hch 15:36–18:22)',
+    'l': [[36.20,36.16],[36.92,34.89],[37.35,33.36],[37.58,32.45],[37.87,32.48],[38.31,31.19],[39.3,29.5],[39.75,26.16],[40.48,25.53],
+          [40.94,24.41],[41.01,24.29],[40.82,23.85],[40.64,22.94],[40.52,22.20],[38.6,23.9],[37.97,23.73],[37.906,22.88],[37.88,22.99],
+          [37.94,27.34],[34.5,31.5],[32.50,34.90],[31.78,35.23],[32.50,34.90],[33.6,35.6],[36.20,36.16]]},
+  'viaje-3': {'n': 'Tercer viaje de Pablo (Hch 18:23–21:16)',
+    'l': [[36.20,36.16],[36.92,34.89],[37.35,33.36],[37.58,32.45],[37.87,32.48],[38.31,31.19],[37.94,27.34],[39.75,26.16],[41.01,24.29],
+          [40.64,22.94],[40.52,22.20],[37.906,22.88],[40.52,22.20],[40.64,22.94],[41.01,24.29],[39.75,26.16],[39.10,26.55],[37.53,27.28],
+          [36.43,28.22],[36.26,29.31],[34.6,32.3],[33.27,35.20],[32.92,35.08],[32.50,34.90],[31.78,35.23]]},
   'caida-539': {'n': 'Avance de Ciro, 539 a.C.',
     'l': [[34.80,48.52],[34.35,47.10],[34.0,45.6],[33.30,44.50],[33.06,44.25],[32.54,44.42]]},
 }

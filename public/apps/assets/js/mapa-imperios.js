@@ -10,7 +10,8 @@
                  conVecinos: false, lugares: [...], trazos: [...] }, animar);
      m.ajustar();   // tras cambiar el tamaño del contenedor
    Colores por imperio: variables --babilonia, --asiria, --persia, --media,
-   --lidia, --egipto, --grecia, --roma (con valores por defecto aquí).
+   --lidia, --egipto, --grecia, --roma (con valores por defecto aquí), y --iglesia
+   para el avance de la iglesia en Hechos, que se dibuja siempre encima de los imperios.
    ========================================================== */
 (() => {
   'use strict';
@@ -124,6 +125,7 @@
         if (on) {
           c.grupo.eachLayer(p => p.getElement()?.classList.toggle('vecino', vecinas.includes(id)));
           c.rotulo.getElement()?.classList.toggle('vecino', vecinas.includes(id));
+          if (c.imp === 'iglesia') c.grupo.eachLayer(p => p.bringToFront());
         }
       });
       btnVec.hidden = !(e.vecinos || []).length;
@@ -194,9 +196,9 @@
 
   const css = document.createElement('style');
   css.textContent = `
-:root { --babilonia:#6b4e7c; --asiria:#5a5750; --persia:#4a6b7c; --media:#5e7d4f; --lidia:#8a5a44; --egipto:#a9772a; --grecia:#3f6fa3; --roma:#9e2b25; --hititas:#7d6b3d;
+:root { --babilonia:#6b4e7c; --asiria:#5a5750; --persia:#4a6b7c; --media:#5e7d4f; --lidia:#8a5a44; --egipto:#a9772a; --grecia:#3f6fa3; --roma:#9e2b25; --hititas:#7d6b3d; --iglesia:#1e8a4c;
   --mi-trazo:#b8322a; --mi-mar:#dbe4ea; --mi-tierra:#f4f2ec; --mi-costa:#c9c6bb; --mi-rio:#8cadc5; --mi-rotulo:#5d6372; }
-:root[data-theme="dark"] { --mi-mar:#141a22; --mi-tierra:#2c3038; --mi-costa:#444955; --mi-rio:#3f5f7a; --mi-rotulo:#a3a7b2; --mi-trazo:#e0786d; }
+:root[data-theme="dark"] { --mi-mar:#141a22; --mi-tierra:#2c3038; --mi-costa:#444955; --mi-rio:#3f5f7a; --mi-rotulo:#a3a7b2; --mi-trazo:#e0786d; --iglesia:#3fbf74; }
 .mi { position: relative; overflow: hidden; background: var(--mi-mar); }
 .mi-lienzo { position: absolute; inset: 0; background: var(--mi-mar); font-family: var(--sans, system-ui, sans-serif); }
 .mi .leaflet-pane > svg { max-width: none !important; max-height: none !important; }
@@ -208,7 +210,8 @@
 .mi-rio { fill: none; stroke: var(--mi-rio); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
 .mi-capa { fill-opacity: .3; stroke-width: 1.6; stroke-linejoin: round; }
 .mi-capa.vecino { fill-opacity: .13; stroke-width: 1.2; stroke-dasharray: 5 4; }
-${['babilonia', 'asiria', 'persia', 'media', 'lidia', 'egipto', 'grecia', 'roma', 'hititas'].map(i =>
+.mi-capa.imp-iglesia { fill-opacity: .62; stroke-width: 1.2; }
+${['babilonia', 'asiria', 'persia', 'media', 'lidia', 'egipto', 'grecia', 'roma', 'hititas', 'iglesia'].map(i =>
   `.mi-capa.imp-${i}{fill:var(--${i});stroke:var(--${i})}.mi-capa-n.imp-${i}{color:var(--${i})}.mi .sw.imp-${i}{background:var(--${i})}`).join('\n')}
 .mi-txt { background: none; border: 0; white-space: nowrap; pointer-events: none; }
 .mi-txt > span { display: block; transform: translate(-50%, -50%); }
