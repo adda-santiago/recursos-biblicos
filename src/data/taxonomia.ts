@@ -44,6 +44,7 @@ export const EPOCAS = {
   'intertestamentario': 'Período intertestamentario',
   'vida-de-jesus': 'Vida de Jesús',
   'iglesia-primitiva': 'Iglesia primitiva',
+  'ultimos-tiempos': 'Los últimos tiempos',
 } as const;
 
 export const TIPOS = {

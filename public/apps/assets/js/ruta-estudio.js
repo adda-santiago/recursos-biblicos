@@ -13,7 +13,7 @@
        estaciones: [{
          id, n, ref, fecha,                         // fecha: año o [desde, hasta]; negativos = a.C.
          visual: [                                  // uno o varios (pestañas)
-           { tipo: 'imagen', titulo, src, alt, pie, origen: 'ia' | 'foto', licencia, foco },  // foco: object-position del recorte
+           { tipo: 'imagen', titulo, src, alt, pie, origen: 'ia' | 'foto' | 'esquema', licencia, foco },  // foco: object-position del recorte; 'esquema' = diagrama propio (SVG)
            { tipo: 'mapa', titulo, estado: {...} }  // estado de mapa-imperios.js
            { tipo: 'mapa', titulo, pasos: [{ t, fecha, estado }] },
            { tipo: 'tabla', titulo, tabla: { titulo, cab, filas, nota } },
@@ -176,7 +176,8 @@
     if (!v) return;
     if (v.tipo === 'imagen') {
       const f = $('re-img');
-      const origen = v.origen === 'ia' ? 'Ilustración generada con IA' : `Foto${v.licencia ? ` · ${esc(v.licencia)}` : ''}`;
+      f.classList.toggle('re-esquema', v.origen === 'esquema');
+      const origen = v.origen === 'ia' ? 'Ilustración generada con IA' : v.origen === 'esquema' ? 'Esquema del recurso' : `Foto${v.licencia ? ` · ${esc(v.licencia)}` : ''}`;
       f.innerHTML = (v.src
         ? `<img src="${esc(v.src)}" alt="${esc(v.alt)}"${v.foco ? ` style="object-position:${esc(v.foco)}"` : ''}>`
         : `<div class="re-img-pend" role="img" aria-label="${esc(v.alt)}"><span>${esc(v.alt)}</span><small>${v.origen === 'ia' ? 'Ilustración por generar' : 'Foto por agregar, con licencia verificada'}</small></div>`)

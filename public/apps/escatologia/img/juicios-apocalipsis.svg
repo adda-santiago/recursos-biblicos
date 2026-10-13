@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1f2430"/></marker></defs>
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#1f2430" text-anchor="middle" font-weight="normal">Los juicios de Apocalipsis en la semana setenta</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a8f98" text-anchor="middle" font-weight="normal">Sellos, trompetas y copas: cada serie sale de la anterior y es más intensa</text>
+<rect x="100" y="628" width="500" height="24" fill="#b03a2e" opacity="0.55"/><rect x="600" y="628" width="500" height="24" fill="#b03a2e"/>
+<text x="350" y="688" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Primeros 3½ años (Ap 11:3; 12:6)</text>
+<text x="850" y="688" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Gran tribulación: 3½ años (Mt 24:21; Ap 13:5)</text>
+<line x1="600" y1="140" x2="600" y2="660" stroke="#1f2430" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="600" y="132" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Mitad: la abominación (Dn 9:27)</text>
+<text x="100" y="688" font-family="Helvetica, Arial, sans-serif" font-size="1" fill="#1f2430" text-anchor="middle" font-weight="normal"></text>
+<text x="216" y="206" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#2a6fb0" text-anchor="end" font-weight="bold">Sellos</text>
+<text x="216" y="228" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8f98" text-anchor="end" font-weight="normal">Ap 6:1–8:1</text>
+<circle cx="250" cy="200" r="17" fill="#2a6fb0"/>
+<text x="250" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="250" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Caballo</text>
+<circle cx="300" cy="200" r="17" fill="#2a6fb0"/>
+<text x="300" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="300" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Caballo</text>
+<circle cx="350" cy="200" r="17" fill="#2a6fb0"/>
+<text x="350" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="350" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Caballo</text>
+<circle cx="400" cy="200" r="17" fill="#2a6fb0"/>
+<text x="400" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<text x="400" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Caballo</text>
+<circle cx="450" cy="200" r="17" fill="#2a6fb0"/>
+<text x="450" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<text x="450" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Mártires</text>
+<circle cx="500" cy="200" r="17" fill="#2a6fb0"/>
+<text x="500" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">6</text>
+<text x="500" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Terremoto</text>
+<circle cx="550" cy="200" r="17" fill="#2a6fb0"/>
+<text x="550" y="206" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">7</text>
+<text x="550" y="240" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Silencio</text>
+<text x="325.0" y="170" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2a6fb0" text-anchor="middle" font-weight="normal" font-style="italic">Los cuatro jinetes</text>
+<text x="406" y="376" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#c08a1e" text-anchor="end" font-weight="bold">Trompetas</text>
+<text x="406" y="398" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8f98" text-anchor="end" font-weight="normal">Ap 8:2–11:19</text>
+<circle cx="440" cy="370" r="17" fill="#c08a1e"/>
+<text x="440" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="440" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Tierra</text>
+<circle cx="500" cy="370" r="17" fill="#c08a1e"/>
+<text x="500" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="500" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Mar</text>
+<circle cx="560" cy="370" r="17" fill="#c08a1e"/>
+<text x="560" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="560" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Ríos</text>
+<circle cx="620" cy="370" r="17" fill="#c08a1e"/>
+<text x="620" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<text x="620" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Astros</text>
+<circle cx="680" cy="370" r="17" fill="#c08a1e"/>
+<text x="680" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<text x="680" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Langostas</text>
+<circle cx="740" cy="370" r="17" fill="#c08a1e"/>
+<text x="740" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">6</text>
+<text x="740" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Éufrates</text>
+<circle cx="800" cy="370" r="17" fill="#c08a1e"/>
+<text x="800" y="376" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">7</text>
+<text x="800" y="410" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Reino</text>
+<text x="740" y="340" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c08a1e" text-anchor="middle" font-weight="normal" font-style="italic">Los tres «ayes»</text>
+<text x="686" y="526" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#b03a2e" text-anchor="end" font-weight="bold">Copas</text>
+<text x="686" y="548" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8f98" text-anchor="end" font-weight="normal">Ap 15–16</text>
+<circle cx="720" cy="520" r="17" fill="#b03a2e"/>
+<text x="720" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="720" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Úlceras</text>
+<circle cx="776" cy="520" r="17" fill="#b03a2e"/>
+<text x="776" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="776" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Mar</text>
+<circle cx="832" cy="520" r="17" fill="#b03a2e"/>
+<text x="832" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="832" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Ríos</text>
+<circle cx="888" cy="520" r="17" fill="#b03a2e"/>
+<text x="888" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">4</text>
+<text x="888" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Sol</text>
+<circle cx="944" cy="520" r="17" fill="#b03a2e"/>
+<text x="944" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">5</text>
+<text x="944" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Tinieblas</text>
+<circle cx="1000" cy="520" r="17" fill="#b03a2e"/>
+<text x="1000" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">6</text>
+<text x="1000" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Éufrates</text>
+<circle cx="1056" cy="520" r="17" fill="#b03a2e"/>
+<text x="1056" y="526" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">7</text>
+<text x="1056" y="560" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f2430" text-anchor="middle" font-weight="normal">Consumado</text>
+<path d="M550,218 C550,300 400,290 440,352" fill="none" stroke="#1f2430" stroke-width="2" marker-end="url(#f)"/>
+<path d="M800,388 C800,460 710,440 720,502" fill="none" stroke="#1f2430" stroke-width="2" marker-end="url(#f)"/>
+<text x="600" y="738" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8f98" text-anchor="middle" font-weight="normal" font-style="italic">Ubicación aproximada, según la lectura premilenial más común: los sellos al comienzo, las copas al final de la gran tribulación.</text>
+</svg>

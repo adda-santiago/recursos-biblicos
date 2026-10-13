@@ -253,6 +253,11 @@ LUGARES = {
   'creta-isla': ['Creta', 35.3, 24.9, 'bottom'],
   'r-galacia': ['Galacia', 39.3, 32.8], 'r-bitinia': ['Bitinia', 40.7, 30.5, 'top'], 'r-macedonia': ['Macedonia', 41.3, 22.6, 'top'],
   'r-acaya': ['Acaya', 37.4, 22.0, 'left'], 'r-cilicia': ['Cilicia', 37.1, 35.6], 'r-siria': ['Siria', 34.9, 37.4],
+  # Profecía (Los últimos tiempos). Ubicaciones antiguas aproximadas; las de Ezequiel 38 se discuten
+  'bosra': ['Bosra (Edom)', 30.73, 35.6], 'r-edom': ['Edom', 30.3, 35.2, 'left'],
+  'r-magog': ['Magog (¿?)', 43.0, 44.0], 'r-mesec': ['Mesec', 39.6, 31.6], 'r-tubal': ['Tubal', 38.2, 35.8],
+  'r-gomer': ['Gomer', 40.6, 34.6, 'top'], 'r-togarma': ['Togarma', 39.3, 40.6], 'r-persia': ['Persia', 30.0, 53.0],
+  'r-cus': ['Cus (Etiopía)', 19.0, 33.0], 'r-fut': ['Fut (Libia)', 30.8, 19.0],
   # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
   'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
   'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
