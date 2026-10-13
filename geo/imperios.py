@@ -246,6 +246,13 @@ LUGARES = {
   'cencrea': ['Cencrea', 37.88, 22.99, 'bottom'], 'mileto': ['Mileto', 37.53, 27.28, 'left'],
   'rodas': ['Rodas', 36.43, 28.22, 'bottom'], 'patara': ['Pátara', 36.26, 29.31, 'bottom'],
   'cirene': ['Cirene', 32.82, 21.86], 'hispania': ['Hispania (España)', 40.40, -3.70],
+  # Los viajes de Pablo
+  'petra': ['Petra (Arabia)', 30.33, 35.44], 'iliria': ['Ilírico', 41.6, 19.9], 'nicopolis': ['Nicópolis', 39.01, 20.73, 'left'],
+  'colosas': ['Colosas', 37.79, 29.26, 'bottom'], 'laodicea': ['Laodicea', 37.84, 29.11, 'left'], 'mira': ['Mira', 36.26, 29.98, 'bottom'],
+  'cos': ['Cos', 36.89, 27.29, 'left'], 'samotracia': ['Samotracia', 40.48, 25.53, 'top'], 'mitilene': ['Mitilene', 39.11, 26.55, 'left'],
+  'creta-isla': ['Creta', 35.3, 24.9, 'bottom'],
+  'r-galacia': ['Galacia', 39.3, 32.8], 'r-bitinia': ['Bitinia', 40.7, 30.5, 'top'], 'r-macedonia': ['Macedonia', 41.3, 22.6, 'top'],
+  'r-acaya': ['Acaya', 37.4, 22.0, 'left'], 'r-cilicia': ['Cilicia', 37.1, 35.6], 'r-siria': ['Siria', 34.9, 37.4],
   # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
   'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
   'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
@@ -308,6 +315,12 @@ TRAZOS = {
     'l': [[36.20,36.16],[36.92,34.89],[37.35,33.36],[37.58,32.45],[37.87,32.48],[38.31,31.19],[37.94,27.34],[39.75,26.16],[41.01,24.29],
           [40.64,22.94],[40.52,22.20],[37.906,22.88],[40.52,22.20],[40.64,22.94],[41.01,24.29],[39.75,26.16],[39.10,26.55],[37.53,27.28],
           [36.43,28.22],[36.26,29.31],[34.6,32.3],[33.27,35.20],[32.92,35.08],[32.50,34.90],[31.78,35.23]]},
+  'pablo-antes': {'n': 'Saulo: Damasco, Arabia, Jerusalén y Tarso (Hch 9; Gá 1:15-21)',
+    'l': [[31.78,35.23],[32.7,35.5],[33.51,36.29],[31.8,36.2],[30.33,35.44],[31.8,36.2],[33.51,36.29],[32.7,35.5],[31.78,35.23],[32.5,34.9],[34.6,34.0],[36.92,34.89]]},
+  'pablo-antioquia': {'n': 'De Tarso a Antioquía, y la ayuda a Jerusalén (Hch 11:25-30; 12:25)',
+    'l': [[36.92,34.89],[36.6,35.9],[36.2,36.16],[34.8,35.6],[33.27,35.2],[32.5,34.9],[31.78,35.23],[32.5,34.9],[33.27,35.2],[34.8,35.6],[36.2,36.16]]},
+  'pablo-despues': {'n': 'Viajes posibles después de Hechos (según las cartas pastorales)',
+    'l': [[41.9,12.5],[38.2,15.6],[35.3,24.9],[37.53,27.28],[37.94,27.34],[39.75,26.16],[41.01,24.29],[40.64,22.94],[39.01,20.73],[40.4,17.5],[41.9,12.5]]},
   'caida-539': {'n': 'Avance de Ciro, 539 a.C.',
     'l': [[34.80,48.52],[34.35,47.10],[34.0,45.6],[33.30,44.50],[33.06,44.25],[32.54,44.42]]},
 }

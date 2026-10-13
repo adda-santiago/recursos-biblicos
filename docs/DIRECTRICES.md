@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.17 · 12 de octubre de 2026
+Versión 2.18 · 12 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.18:** primer recurso general, Los viajes de Pablo, que usan Hechos y las cartas; las rutas de estudio pueden enlazar a otro recurso con un botón (`ir`) (§20).
 
 **Cambio de la versión 2.17:** primer estudio de un libro bíblico, Hechos de los Apóstoles, con las cuatro rutas fijas de estudio del libro más rutas de mapas y de temas; el mapa compartido suma la capa «La iglesia», que muestra en verde cómo se extiende la iglesia sobre los imperios (§9, §20).
 
@@ -295,6 +297,7 @@ Asignación actual:
 | El imperio persa | Antiguo, Nuevo | Exilio, retorno, intertestamentario | 2 Crónicas, Esdras, Nehemías, Ester, Isaías, Daniel, Hageo, Zacarías, Malaquías, Hechos |
 | El imperio babilónico | Antiguo, Nuevo | Monarquía dividida, exilio, retorno | 2 Reyes, 2 Crónicas, Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel, Habacuc, Apocalipsis |
 | Hechos de los Apóstoles | Nuevo | Iglesia primitiva | Hechos, Lucas, Joel, Romanos, 1 Corintios, Gálatas, 1 Tesalonicenses |
+| Los viajes de Pablo | Nuevo | Iglesia primitiva | Hechos y las trece cartas de Pablo |
 
 ## 10. Sin fines comerciales
 
@@ -475,7 +478,7 @@ Reglas:
 
 Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor usa para enseñar con texto breve: la ruta de estudio es para que la persona aprenda sola, y por eso el texto es extendido. Referencia: `imperio-babilonico/`.
 
-- **Motor compartido.** `assets/js/ruta-estudio.js` y `assets/css/ruta-estudio.css`. Cada recurso tiene solo `index.html`, `data.js` (`window.RUTA_DATA`, formato descrito en el encabezado del motor) e `img/`. Excepción a la estructura de cuatro archivos: con varios recursos del mismo tipo, copiar el motor en cada carpeta haría que las copias se desalinearan.
+- **Motor compartido.** `assets/js/ruta-estudio.js` y `assets/css/ruta-estudio.css`. Cada recurso tiene solo `index.html`, `data.js` (`window.RUTA_DATA`, formato descrito en el encabezado del motor) e `img/`. Un bloque `{ ir: { t, a } }` en el texto muestra un botón que abre otro recurso en la página completa (`a` es una ruta relativa, p. ej. `../../viajes-pablo/`). Excepción a la estructura de cuatro archivos: con varios recursos del mismo tipo, copiar el motor en cada carpeta haría que las copias se desalinearan.
 - **Lámina.** En escritorio, panel visual a la izquierda (imagen, mapa, tabla o pasaje, con pestañas si hay varios) y texto con desplazamiento propio a la derecha; en celular, visual arriba y texto debajo. Navegación Anterior/Siguiente y enlace propio por estación (`#ruta/numero`).
 - **Contenido por descubrir.** Una pestaña que el alumno no ha abierto se ve como un botón por tocar: borde y texto de acento y una flecha («Mapa ›»). Si tiene pasos, lo indica («Mapa · 5 pasos»). En la primera visita a la estación, la pestaña late tres veces (unos 2,7 s) y aparece una nota guía que se cierra sola. Los mapas por pasos muestran puntos de avance que se pueden tocar, y el botón «▶ Ver la evolución» los recorre solos, uno cada 3,5 s, con pausa. En la primera visita, «›» y «Ver la evolución» también laten. El motor recuerda en el dispositivo qué estaciones y pestañas ya se vieron (clave `fyp:v1:visto:<ruta de la app>`); `?reiniciar-vistos` en la dirección las vuelve a mostrar. Con «reducir movimiento» activado no hay pulsos.
 - **Selector de rutas** como botón flotante en la esquina, que abre y oculta un panel con las rutas y sus estaciones; las rutas en preparación aparecen deshabilitadas.
@@ -490,7 +493,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 
 ### Pendientes
 
-- **Los viajes de Pablo (recurso general):** rutas El recorrido completo, Las cartas en su contexto, Las ciudades, Los sufrimientos de Pablo y Después de Hechos. Los trazos `viaje-1`, `viaje-2`, `viaje-3` y `viaje-roma` ya están en `imperios-geo.js`. Al publicarlo, la ruta «Los viajes de Pablo» de Hechos debe enlazarlo.
+- **Estudios de las cartas de Pablo:** cuando se creen, enlazar desde ellos la estación correspondiente de Los viajes de Pablo (ruta Las cartas en su contexto) con el bloque `ir`.
 - **`citas.js` y los dos puntos:** una referencia seguida de dos puntos («Jl 2:28-32: el derramamiento…») se corta y no se reconoce completa. Mientras no se corrija el motor, en el contenido la referencia va en su propia celda o seguida de otro signo.
 - **Permiso de la Sociedad Bíblica (RV 1960):** El imperio babilónico cita unos 1.450 versículos, incluidos libros completos (Lamentaciones, Habacuc). Se publica igual, porque el sitio está en etapa de desarrollo y sirve también para mostrar el proyecto a la Sociedad Bíblica; si el permiso no se concede, se ajustan las burbujas antes de difundir el sitio.
 - **Títulos de los Salmos en la RV 1909:** la fuente los trae pegados al versículo 1 («Salmo de David. JEHOVÁ es mi pastor»).
@@ -611,6 +614,9 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-12 | Los viajes de Pablo como recurso general aparte; Hechos los resume en una ruta puente | Lo necesitan también los estudios de las cartas de Pablo |
 | 2026-10-12 | Personajes recurrentes creados en Google Flow y prompts de escena que los nombran | Que Pablo, Pedro y los demás se vean iguales en todas las imágenes |
 | 2026-10-12 | Corregida la errata «Espíritu Santolo» en Hechos 15:8 (RV 1960); no hay otras del mismo tipo | Error de origen en el texto bíblico del sitio |
+| 2026-10-12 | Los viajes de Pablo: recurso general con cinco rutas (recorrido, cartas, ciudades, sufrimientos, después de Hechos) | Base común para Hechos y los estudios de las cartas |
+| 2026-10-12 | Bloque `ir` en el motor de rutas para enlazar recursos | Que un estudio pueda abrir un recurso general sin repetir su contenido |
+| 2026-10-12 | Los viajes después de Hechos se presentan como reconstrucción probable, con dos posturas sobre uno o dos encarcelamientos | La Escritura no los narra; se apoyan en las pastorales y la tradición |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

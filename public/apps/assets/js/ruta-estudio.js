@@ -21,6 +21,7 @@
          ],
          texto: ['párrafo', { h: 'subtítulo' },
                  { posturas: { titulo, a: { n, t }, b: { n, t }, c } }, ...],  // dos posturas y cómo se entienden
+                // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa
          pensar: 'pregunta'
        }]
      }]
@@ -275,6 +276,7 @@
       if (t.posturas) { const q = t.posturas; return `<section class="re-posturas"><h3>${esc(q.titulo)}</h3>
         <div class="re-pos2"><div><b>${esc(q.a.n)}</b><p>${esc(q.a.t)}</p></div><div><b>${esc(q.b.n)}</b><p>${esc(q.b.t)}</p></div></div>
         ${q.c ? `<div class="re-pos-c"><b>Cómo se entiende</b><p>${esc(q.c)}</p></div>` : ''}</section>`; }
+      if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}" target="_top">${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
       return '';
     }).join('');
     $('re-pensar').hidden = !e.pensar;

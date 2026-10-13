@@ -1995,16 +1995,16 @@
             ['Los sufrimientos de Pablo', '2 Corintios 11:23-28 ubicado en el mapa'],
             ['Después de Hechos', 'La probable liberación, los viajes de las cartas pastorales y su muerte']
           ],
-          nota: 'Recurso general en preparación. Lo podrán usar también los estudios de las cartas de Pablo.'
+          nota: 'Recurso general del sitio. Lo usan también los estudios de las cartas de Pablo.'
         } }
       ],
       texto: [
-        'Esta ruta presenta los viajes de Pablo de forma resumida, porque forman parte de Hechos. Pero los viajes de Pablo no son solo un tema de Hechos: también los necesitan quienes estudian Romanos, Corintios, Gálatas, Filipenses, Tesalonicenses y las demás cartas. Por eso tendrán un recurso propio, Los viajes de Pablo, que se podrá abrir desde cualquiera de esos estudios.',
-        'Ese recurso recorrerá con más detalle cada etapa: los años antes de los viajes, que Hechos apenas menciona y que Pablo cuenta en Gálatas, como su estadía en Arabia y los catorce años antes del concilio (Gá 1:17–2:1); cada viaje, ciudad por ciudad; las cartas que escribió y el momento en que lo hizo, y lo que ocurrió después de los dos años en Roma.',
+        'Esta ruta presenta los viajes de Pablo de forma resumida, porque forman parte de Hechos. Pero los viajes de Pablo no son solo un tema de Hechos: también los necesitan quienes estudian Romanos, Corintios, Gálatas, Filipenses, Tesalonicenses y las demás cartas. Por eso tienen un recurso propio, Los viajes de Pablo, que se puede abrir desde cualquiera de esos estudios.',
+        'Ese recurso recorre con más detalle cada etapa: los años antes de los viajes, que Hechos apenas menciona y que Pablo cuenta en Gálatas, como su estadía en Arabia y los catorce años antes del concilio (Gá 1:17–2:1); cada viaje, ciudad por ciudad; las cartas que escribió y el momento en que lo hizo, y lo que ocurrió después de los dos años en Roma.',
         { h: 'Lo que Hechos no cuenta' },
         'Hechos es un relato selectivo. Pablo mismo enumera en 2 Corintios sufrimientos que Lucas no narra: cinco veces recibió treinta y nueve azotes de los judíos, tres veces fue azotado con varas, tres veces naufragó, y pasó una noche y un día como náufrago en alta mar (2 Co 11:24-25). Todo eso ocurrió antes del naufragio de Malta. Hechos muestra apenas una parte de lo que costó llevar el evangelio a los gentiles.',
         'Tampoco narra el final de su vida. Las cartas pastorales sugieren que fue liberado, que visitó otra vez algunas iglesias, que dejó a Tito en Creta (Tit 1:5) y que volvió a ser encarcelado. En su última carta, desde Roma, Pablo escribió: «He peleado la buena batalla, he acabado la carrera, he guardado la fe» (2 Ti 4:7). Según la tradición, murió en Roma bajo Nerón.',
-        'Mientras el recurso general está en preparación, las rutas La expansión de la iglesia y Comentario capítulo por capítulo de este estudio siguen los viajes en el mapa.'
+        { ir: { t: 'Abrir el recurso Los viajes de Pablo', a: '../../viajes-pablo/' } }
       ],
       pensar: 'Al final de su vida, Pablo pudo decir: «he acabado la carrera, he guardado la fe» (2 Ti 4:7). ¿Qué te gustaría poder decir tú al final de tu carrera?'
     }
