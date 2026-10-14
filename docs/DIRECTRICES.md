@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.20 · 14 de octubre de 2026
+Versión 2.21 · 14 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.21:** segundo estudio de libro, Daniel, con la misma estructura que Hechos (rutas I a IV, mapas y temas), apoyado en los imperios, el exilio y Los últimos tiempos (§9, §20).
 
 **Cambio de la versión 2.20:** recurso complementario El exilio y los retornos, en cuatro rutas (historia, vida en el exilio, retornos y profecía) (§9).
 
@@ -304,6 +306,7 @@ Asignación actual:
 | Los viajes de Pablo | Nuevo | Iglesia primitiva | Hechos y las trece cartas de Pablo |
 | Los últimos tiempos | Antiguo, Nuevo | Los últimos tiempos | Daniel, Ezequiel, Isaías, Jeremías, Joel, Zacarías, Mateo, Juan, Romanos, 1 Corintios, 1 y 2 Tesalonicenses, 2 Pedro, Apocalipsis |
 | El exilio y los retornos | Antiguo, Nuevo | Monarquía dividida, exilio, retorno | Levítico, Deuteronomio, 2 Reyes, 2 Crónicas, Esdras, Nehemías, Ester, Salmos, Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel, Amós, Hageo, Zacarías, Malaquías, Lucas, 1 Pedro |
+| Daniel | Antiguo, Nuevo | Exilio, retorno, intertestamentario, últimos tiempos | Daniel, Jeremías, Ezequiel, Isaías, 2 Reyes, Nehemías, Ester, Mateo, 2 Tesalonicenses, Apocalipsis |
 
 ## 10. Sin fines comerciales
 
@@ -630,6 +633,8 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-14 | El exilio y los retornos: recurso complementario con cuatro rutas, coherente en fechas con los recursos de Asiria, Babilonia y Persia | Base común para Reyes, los profetas, Esdras, Nehemías, Ester y Daniel |
 | 2026-10-14 | Los retornos de Persia se presentan como cumplimiento parcial de las promesas del regreso, cuyo cumplimiento final es escatológico | Las promesas de Is 11:11-12, Ez 37 y Am 9:15 exceden lo ocurrido en 538–445 a.C. |
 | 2026-10-14 | Un personaje de Flow por cada etapa de vida (Daniel-joven, Daniel-anciano…) | Un mismo personaje con edades muy distintas no puede salir igual en todas las escenas |
+| 2026-10-14 | Daniel: estudio de libro con nueve rutas (I a IV, dos de mapas, tres de temas) | Mismo modelo que Hechos; las rutas fijas I a IV se mantienen en todos los libros |
+| 2026-10-14 | En Daniel se sigue la autoría del siglo VI a.C. y el cuarto reino como Roma; la fecha del siglo II se presenta como postura | Mt 24:15 y las profecías posteriores al 165 a.C. (Dn 9:26) |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

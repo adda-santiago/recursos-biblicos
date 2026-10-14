@@ -260,6 +260,9 @@ LUGARES = {
   'r-cus': ['Cus (Etiopía)', 19.0, 33.0], 'r-fut': ['Fut (Libia)', 30.8, 19.0],
   # El exilio y los retornos
   'tel-abib': ['Tel-abib (río Quebar)', 32.13, 45.23, 'bottom'],
+  # Daniel 11: reyes del norte y del sur
+  'rafia': ['Rafia', 31.29, 34.25, 'bottom'], 'paneas': ['Paneas', 33.25, 35.69, 'top'],
+  'magnesia': ['Magnesia', 38.62, 27.43, 'left'], 'r-moab': ['Moab', 31.4, 35.8], 'r-amon': ['Amón', 31.95, 36.05],
   # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
   'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
   'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
