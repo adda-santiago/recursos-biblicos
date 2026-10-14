@@ -304,3 +304,33 @@ body.tabernaculo { overflow: hidden; }
   .tb-hint { display: none; }
   .btn { padding: 0.45rem 0.8rem; font-size: 0.8rem; }
 }
+
+/* ---------- Indicador de estado de las ceremonias ---------- */
+.tb-hud {
+  position: absolute; top: 1rem; left: 1rem; z-index: 2;
+  font-family: var(--sans); color: var(--ink);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border: 1px solid var(--line); border-radius: 10px; padding: .55rem .75rem;
+  pointer-events: none; max-width: min(17rem, calc(100% - 2rem));
+}
+.tb-hud[hidden] { display: none; }
+.tb-hud p { margin: 0; line-height: 1.35; }
+.hud-quien { display: flex; align-items: center; gap: .45rem; font-size: .9rem; }
+.hud-swatch { width: .9rem; height: .9rem; border-radius: 50%; flex: none; border: 1px solid var(--line-strong, #9a958c); }
+.hud-swatch.gloria { background: conic-gradient(#2c4a8a 0 50%, #c9a227 50% 100%); }
+.hud-swatch.lino { background: #f6f3ea; }
+.hud-swatch.sacerdote { background: linear-gradient(#eeeae0 60%, #2c4a8a 60%); }
+.hud-swatch.pueblo { background: #8a6a4a; }
+.hud-ropa { font-size: .74rem; color: var(--muted); margin-top: .1rem !important; }
+.hud-zonas { list-style: none; display: flex; gap: 3px; padding: 0; margin: .5rem 0 .25rem; }
+.hud-zonas li {
+  flex: 1; text-align: center; font-size: .66rem; font-weight: 500; padding: .2rem .25rem; border-radius: 4px;
+  color: var(--muted); background: color-mix(in srgb, var(--ink) 6%, transparent);
+}
+.hud-zonas li.on { color: #fff; background: var(--accent); }
+.hud-donde { font-size: .76rem; font-weight: 500; }
+@media (max-width: 720px) {
+  .tb-hud { top: auto; bottom: 3.6rem; left: .6rem; padding: .4rem .55rem; }
+  .hud-quien { font-size: .82rem; }
+}

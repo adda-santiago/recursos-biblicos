@@ -42,6 +42,14 @@
           </g>
         </svg>
       </div>
+      <div class="tb-hud" id="hud" aria-live="off" hidden>
+        <p class="hud-quien"><i class="hud-swatch" data-swatch></i><b data-quien></b></p>
+        <p class="hud-ropa" data-ropa></p>
+        <ol class="hud-zonas" aria-label="Dónde está">
+          <li data-zona="fuera">Fuera</li><li data-zona="atrio">Atrio</li><li data-zona="santo">Santo</li><li data-zona="santisimo">Santísimo</li>
+        </ol>
+        <p class="hud-donde" data-donde></p>
+      </div>
       <div class="tb-toolbar" role="toolbar" aria-label="Controles de la escena">
         <button class="btn" id="t-covers" type="button" aria-pressed="true">Cubiertas</button>
         <button class="btn" id="t-scale" type="button" aria-pressed="false">Escala</button>

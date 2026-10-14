@@ -189,7 +189,7 @@
         { n: 'El incienso de la mañana', ref: 'Éxodo 30:7–8, 34–38',
           rows: [['Quién', 'Aarón'], ['Dónde', 'El altar de oro, delante del velo']],
           desc: 'Mientras preparaba las lámparas, quemaba incienso aromático en el altar de oro. La mezcla era santa y nadie podía hacerla para uso propio.',
-          act: { priest: [-21.7, 0.2] }, fx: { type: 'incense', at: [-23, 2.2, 0] }, covers: false, view: V.incense, ring: [-23, 0, 1.1] },
+          act: { hp: [-21.7, 0.2] }, fx: { type: 'incense', at: [-23, 2.2, 0] }, covers: false, view: V.incense, ring: [-23, 0, 1.1] },
         { n: 'El pan de la proposición', ref: 'Levítico 24:5–9',
           rows: [['Quién', 'El sacerdote'], ['Cuándo', 'Cada día de reposo']],
           desc: 'No era diario: cada día de reposo se ponían doce panes nuevos sobre la mesa. Los retirados los comían Aarón y sus hijos en lugar santo.',
@@ -207,23 +207,23 @@
         { n: 'El becerro a la puerta', ref: 'Levítico 4:3–4',
           rows: [['Quién', 'El sacerdote ungido'], ['Dónde', 'A la puerta del tabernáculo']],
           desc: 'Si el sacerdote ungido pecaba y hacía culpable al pueblo, traía un becerro sin defecto, ponía la mano sobre su cabeza y lo degollaba delante de Jehová.',
-          act: { priest: [2, 0.8], bull: [0.2, -2.6] }, view: V.entrance, ring: [0.5, -1, 3] },
+          act: { hp: [2, 0.8], bull: [0.2, -2.6] }, view: V.entrance, ring: [0.5, -1, 3] },
         { n: 'Siete veces delante del velo', ref: 'Levítico 4:5–6',
           rows: [['Quién', 'El sacerdote ungido'], ['Dónde', 'Lugar Santo, frente al velo']],
           desc: 'Llevaba parte de la sangre dentro de la tienda, mojaba el dedo en ella y la rociaba siete veces delante de Jehová, frente al velo del santuario.',
-          act: { priest: [-22.1, 2.2] }, fx: { type: 'blood', at: [-24.4, 1.6, 1.3] }, covers: false, view: V.veil, ring: [-25, 0, 5.6] },
+          act: { hp: [-22.1, 2.2] }, fx: { type: 'blood', at: [-24.4, 1.6, 1.3] }, covers: false, view: V.veil, ring: [-25, 0, 5.6] },
         { n: 'Los cuernos del altar del incienso', ref: 'Levítico 4:7',
           rows: [['Quién', 'El sacerdote ungido'], ['Dónde', 'Altar del incienso']],
           desc: 'Ponía de la sangre sobre los cuernos del altar del incienso aromático, que está en el tabernáculo delante de Jehová.',
-          act: { priest: [-21.7, 0.9] }, fx: { type: 'blood', at: [-23, 2.15, 0] }, covers: false, view: V.incense, ring: [-23, 0, 1.1] },
+          act: { hp: [-21.7, 0.9] }, fx: { type: 'blood', at: [-23, 2.15, 0] }, covers: false, view: V.incense, ring: [-23, 0, 1.1] },
         { n: 'La sangre al pie del altar', ref: 'Levítico 4:7',
           rows: [['Quién', 'El sacerdote ungido'], ['Dónde', 'Base del altar del holocausto']],
           desc: 'El resto de la sangre lo derramaba al pie del altar del holocausto, que está a la puerta del tabernáculo.',
-          act: { priest: [16.4, 1.4] }, fx: { type: 'blood', at: [17.4, 0.6, 1.0] }, view: V.altarW, ring: [17.5, 1, 1.6] },
+          act: { hp: [16.4, 1.4] }, fx: { type: 'blood', at: [17.4, 0.6, 1.0] }, view: V.altarW, ring: [17.5, 1, 1.6] },
         { n: 'La grosura sobre el altar', ref: 'Levítico 4:8–10',
           rows: [['Quién', 'El sacerdote ungido'], ['Dónde', 'Sobre el altar del holocausto']],
           desc: 'Separaba toda la grosura, los dos riñones y la grosura del hígado, y los hacía arder sobre el altar del holocausto.',
-          act: { priest: P_ALTAR }, fx: { type: 'burn' }, view: V.altarN, ring: R_ALTAR },
+          act: { hp: P_ALTAR }, fx: { type: 'burn' }, view: V.altarN, ring: R_ALTAR },
         { n: 'El resto, fuera del campamento', ref: 'Levítico 4:11–12; Hebreos 13:11–12',
           rows: [['Quién', 'El sacerdote'], ['Dónde', 'Donde se echan las cenizas, fuera del campamento']],
           desc: 'La piel, la carne, la cabeza, las piernas y las entrañas se sacaban fuera del campamento, a un lugar limpio, y se quemaban al fuego sobre la leña. Hebreos toma esta imagen para hablar de Jesús, que padeció fuera de la puerta.',
@@ -236,35 +236,43 @@
         { n: 'Aarón se lava y se viste de lino', ref: 'Levítico 16:3–4, 29',
           rows: [['Quién', 'El sumo sacerdote'], ['Cuándo', 'Una vez al año, el día diez del mes séptimo']],
           desc: 'Aarón lavaba su cuerpo con agua y se vestía con la túnica, los calzoncillos, el cinto y la mitra de lino. Ese día dejaba a un lado las vestiduras de color y oro.',
-          act: { priest: [5, -2.3] }, view: V.laver, ring: [5, 0, 2.3] },
+          act: { hpl: [5, -2.3] }, view: V.laver, ring: [5, 0, 2.3] },
         { n: 'El becerro por sí y por su casa', ref: 'Levítico 16:6, 11',
           rows: [['Quién', 'Aarón'], ['Dónde', 'Junto al altar']],
           desc: 'Primero ofrecía un becerro como expiación por él mismo y por su familia, y lo degollaba.',
-          act: { priest: P_ALTAR, bull: [20.4, -6.2] }, view: V.altarN, ring: [20, -5.5, 3] },
+          act: { hpl: P_ALTAR, bull: [20.4, -6.2] }, view: V.altarN, ring: [20, -5.5, 3] },
         { n: 'Los dos machos cabríos', ref: 'Levítico 16:7–10',
           rows: [['Quién', 'Aarón'], ['Dónde', 'A la puerta del tabernáculo']],
           desc: 'Presentaba dos machos cabríos delante de Jehová y echaba suertes sobre ellos: uno para Jehová y otro para Azazel, que sería enviado vivo al desierto.',
-          act: { priest: [2.2, 0], goatA: [-0.6, 2], goatB: [-0.6, -2] }, view: V.entrance, ring: [0, 0, 3.2] },
+          act: { hpl: [2.2, 0], goatA: [-0.6, 2], goatB: [-0.6, -2] }, view: V.entrance, ring: [0, 0, 3.2] },
         { n: 'Incienso detrás del velo', ref: 'Levítico 16:12–13',
           rows: [['Quién', 'Aarón, solo'], ['Dónde', 'Lugar Santísimo']],
           desc: 'Tomaba un incensario lleno de brasas del altar y dos puñados de incienso, entraba detrás del velo y ponía el incienso sobre el fuego, para que la nube cubriera el propiciatorio.',
-          act: { priest: [-27.3, -0.2], goatA: [-0.6, 2], goatB: [-0.6, -2] }, fx: { type: 'incense', at: [-29.4, 1.9, 0], big: true }, covers: false, view: V.hoh, ring: [-30, 0, 2.1] },
+          act: { hpl: [-27.3, -0.2], goatA: [-0.6, 2], goatB: [-0.6, -2] }, fx: { type: 'incense', at: [-29.4, 1.9, 0], big: true }, covers: false, view: V.hoh, ring: [-30, 0, 2.1] },
         { n: 'Sangre sobre el propiciatorio', ref: 'Levítico 16:14–15',
           rows: [['Quién', 'Aarón'], ['Dónde', 'Lugar Santísimo']],
           desc: 'Rociaba con el dedo la sangre del becerro sobre el propiciatorio y siete veces delante de él. Luego degollaba el macho cabrío de Jehová y hacía lo mismo con su sangre.',
-          act: { priest: [-27.3, -0.2], goatB: [-0.6, -2] }, fx: { type: 'blood', at: [-30, 1.8, 0] }, covers: false, view: V.hoh, ring: [-30, 0, 2.1] },
+          act: { hpl: [-27.3, -0.2], goatB: [-0.6, -2] }, fx: { type: 'blood', at: [-30, 1.8, 0] }, covers: false, view: V.hoh, ring: [-30, 0, 2.1] },
         { n: 'Purificación del altar', ref: 'Levítico 16:16–19',
           rows: [['Quién', 'Aarón'], ['Dónde', 'Santuario, tienda y altar']],
           desc: 'Hacía expiación por el santuario y por la tienda. Después salía al altar, ponía de la sangre sobre sus cuernos y la rociaba siete veces para limpiarlo.',
-          act: { priest: [16.4, -3.3], goatB: [-0.6, -2] }, fx: { type: 'blood', at: [17.8, 3.3, -2.3] }, view: V.altarNW, ring: [17.75, -2.25, 1.4] },
+          act: { hpl: [16.4, -3.3], goatB: [-0.6, -2] }, fx: { type: 'blood', at: [17.8, 3.3, -2.3] }, view: V.altarNW, ring: [17.75, -2.25, 1.4] },
         { n: 'Las manos sobre el macho cabrío vivo', ref: 'Levítico 16:20–21',
           rows: [['Quién', 'Aarón'], ['Qué', 'Confiesa las iniquidades del pueblo']],
           desc: 'Aarón ponía ambas manos sobre la cabeza del macho cabrío vivo y confesaba sobre él todas las iniquidades, rebeliones y pecados de los hijos de Israel.',
-          act: { priest: [28.6, 0.2], goatB: [30.4, 0.6] }, view: V.altarE, ring: [29.5, 0.4, 2.2] },
+          act: { hpl: [28.6, 0.2], goatB: [30.4, 0.6] }, view: V.altarE, ring: [29.5, 0.4, 2.2] },
         { n: 'Enviado al desierto', ref: 'Levítico 16:21–22',
           rows: [['Quién', 'Un hombre designado'], ['Dónde', 'Tierra inhabitada']],
           desc: 'Un hombre designado llevaba el macho cabrío al desierto, y el animal cargaba sobre sí las iniquidades del pueblo hacia una tierra inhabitada.',
-          act: { priest: [28.6, 0.2], offerer: [OUT[0] - 2, 1.6], goatB: [OUT[0], 0] }, view: V.out, ring: [OUT[0] - 1, 0.6, 3] }
+          act: { hpl: [28.6, 0.2], offerer: [OUT[0] - 2, 1.6], goatB: [OUT[0], 0] }, view: V.out, ring: [OUT[0] - 1, 0.6, 3] },
+        { n: 'Vuelve a vestirse de gloria', ref: 'Levítico 16:23–25',
+          rows: [['Quién', 'Aarón'], ['Dónde', 'El tabernáculo y el altar']],
+          desc: 'Aarón entraba en el tabernáculo, se quitaba las vestiduras de lino y las dejaba allí. Lavaba su cuerpo con agua en el lugar santo, se ponía sus vestiduras y salía a ofrecer su holocausto y el holocausto del pueblo, y quemaba sobre el altar la grosura del sacrificio por el pecado.',
+          act: { hp: P_ALTAR, lamb: [19.6, -5.5] }, fx: { type: 'burn' }, view: V.altarN, ring: R_ALTAR },
+        { n: 'Quemados fuera del campamento', ref: 'Levítico 16:26–28; Hebreos 13:11–12',
+          rows: [['Quién', 'Un hombre designado'], ['Dónde', 'Fuera del campamento']],
+          desc: 'El becerro y el macho cabrío cuya sangre había entrado al santuario se sacaban fuera del campamento y se quemaban con su piel, su carne y su estiércol. El que los quemaba, como el que había llevado el macho cabrío al desierto, lavaba sus vestidos y su cuerpo antes de volver. Hebreos ve aquí a Jesús, que padeció fuera de la puerta.',
+          act: { offerer: OUT }, fx: { type: 'fire', at: [OUT[0] + 3, 0.2, 0] }, view: V.out, ring: [OUT[0] + 1.5, 0, 3.5] }
       ]
     }
   ];
@@ -745,6 +753,18 @@
     if (turban) mesh(new THREE.CylinderGeometry(0.27, 0.31, 0.3, 16), std({ color: 0xf1ede4, metalness: 0, roughness: 0.9 }), 0, 3.66, 0, g);
     return add(g, parent);
   }
+  // Sumo sacerdote: con vestiduras de gloria (manto azul, efod y pectoral, lámina de oro) o solo de lino (Lv 16:4)
+  function highPriest(linen) {
+    if (linen) return person(0xf6f3ea, 0xf6f3ea, true);
+    const g = person(0x2c4a8a, 0xc9a227, true);
+    const oro = std({ color: 0xc9a227, metalness: 0.45, roughness: 0.45 });
+    mesh(new THREE.CylinderGeometry(0.36, 0.41, 0.95, 16), oro, 0, 2.5, 0, g);               // efod
+    box(0.07, 0.42, 0.42, std({ color: 0xd9b440, metalness: 0.5, roughness: 0.4 }), 0.4, 2.62, 0, g); // pectoral
+    [0xb3261e, 0x2f8f5b, 0x2a5db0, 0x7a3fa0].forEach((c, i) =>                             // piedras, una por hilera
+      box(0.03, 0.07, 0.3, std({ color: c, metalness: 0.2, roughness: 0.3 }), 0.445, 2.76 - i * 0.095, 0, g));
+    box(0.04, 0.08, 0.2, oro, 0.3, 3.7, 0, g);                                                // lámina de oro en la mitra
+    return g;
+  }
   function animal(kind) {
     const S = {
       bull: { L: 2.6, H: 1.3, W: 1.0, leg: 1.3, col: 0x6b4a32, horns: true },
@@ -853,6 +873,8 @@
   /* ---------------- Actores de las ceremonias ---------------- */
   const actors = {
     priest: person(0xeeeae0, 0x2c4a8a, true),
+    hp: highPriest(false),
+    hpl: highPriest(true),
     offerer: person(0x8a6a4a, 0x5b4c3e, false),
     bull: animal('bull'),
     lamb: animal('lamb'),
@@ -887,6 +909,34 @@
       a.position.y = k < 1 ? Math.abs(Math.sin(k * w.dur / 110)) * 0.08 : 0;
       if (k >= 1) { a.userData.walk = null; a.rotation.y = Math.PI; }
     });
+  }
+
+  /* ---------------- Indicador de estado (ceremonias) ----------------
+     Dónde está quien oficia y con qué vestiduras. El lugar se deduce de su posición:
+     x > 200 fuera del campamento; x ≥ 0 atrio; −24 ≤ x < 0 lugar santo; x < −24 lugar santísimo (tras el velo). */
+  const hud = document.getElementById('hud');
+  const ZONAS = [['fuera', 'Fuera del campamento'], ['atrio', 'Atrio'], ['santo', 'Lugar santo'], ['santisimo', 'Lugar santísimo']];
+  const QUIEN = {
+    hp: ['Sumo sacerdote', 'Vestiduras de gloria: azul, oro y pectoral', 'gloria'],
+    hpl: ['Sumo sacerdote', 'Solo vestiduras de lino', 'lino'],
+    priest: ['Sacerdote', 'Vestiduras de lino', 'sacerdote'],
+    offerer: ['Israelita', '', 'pueblo']
+  };
+  function zona(x) { return x > 200 ? 'fuera' : x >= 0 ? 'atrio' : x >= -24 ? 'santo' : 'santisimo'; }
+  function showHud(step) {
+    if (!hud) return;
+    const k = step && ['hp', 'hpl', 'priest', 'offerer'].find(a => step.act[a]);
+    if (!k) { hud.hidden = true; return; }
+    const z = zona(step.act[k][0]);
+    let [quien, ropa, clase] = QUIEN[k];
+    if (k === 'offerer') { const r = (step.rows || []).find(x => x[0] === 'Quién'); if (r) quien = r[1]; }
+    hud.hidden = false;
+    hud.querySelector('[data-quien]').textContent = quien;
+    hud.querySelector('[data-ropa]').textContent = ropa;
+    hud.querySelector('[data-ropa]').hidden = !ropa;
+    hud.querySelector('[data-swatch]').className = 'hud-swatch ' + clase;
+    hud.querySelectorAll('[data-zona]').forEach(el => el.classList.toggle('on', el.dataset.zona === z));
+    hud.querySelector('[data-donde]').textContent = ZONAS.find(([id]) => id === z)[1];
   }
 
   /* ---------------- Efectos de las ceremonias ---------------- */
@@ -1145,6 +1195,7 @@
       ring.scale.setScalar(it.ring[2]);
     } else ring.visible = false;
     applyActors(t === 'partes' ? null : it, tourChanged || instant);
+    showHud(t === 'partes' ? null : it);
     setFx(t === 'partes' ? null : it.fx);
     flyTo(it.view, instant);
   }

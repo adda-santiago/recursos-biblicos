@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.23 · 14 de octubre de 2026
+Versión 2.24 · 14 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.24:** en el tabernáculo, el sumo sacerdote se distingue del sacerdote común (vestiduras de gloria o de lino), el Día de la Expiación se completa (Lv 16:23-28) y las ceremonias tienen indicador de estado (quién oficia, con qué vestiduras y dónde está) (§20).
 
 **Cambio de la versión 2.23:** nueva faceta obligatoria `enfoque` (estudio de libro, teología bíblica, teología sistemática, historia y geografía), primera en los filtros; la búsqueda pone primero el recurso cuyo título coincide con lo buscado (§8, §9, §14).
 
@@ -531,7 +533,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Despliegue en `adda-santiago`:** actualizar `publicar.yml`, reactivar Pages y verificar el sitio en la subcarpeta.
 - **`noindex` en las apps legadas** (§19, regla 5).
 - **Limpieza del código comercial:** eliminar `anuncios.ts`, `cuenta.ts`, `EspacioAnuncio`, `SITIO.anuncios` y la llamada a `iniciarAnuncios()`.
-- **Tabernáculo: rutas 3D pendientes.** Labores (el sumo sacerdote recorre el mobiliario) y Día de la Expiación (proceso con indicador de estado), unificada con la ceremonia que ya existe en `tabernaculo/`. El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras pasaron al recurso interactivo El sacerdocio en Israel.
+- **Tabernáculo:** las rutas de servicio y de expiación ya existen como ceremonias (Servicio diario y Día de la Expiación). El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras están en el recurso interactivo El sacerdocio en Israel.
 - **Crédito de la RV 1960 en las apps existentes:** revisar las apps que citan texto bíblico y agregarles el crédito (§15).
 - **El templo de Herodes: rutas pendientes.** Jesús y la iglesia en el templo, e Historia del segundo templo (de Zorobabel al año 70 y el templo de los últimos tiempos). Las estaciones «Dos destrucciones» y «Del exilio al Muro» ya remiten a esta última.
 - **El monte hoy (templo de Herodes, estación 9):** la situación del statu quo cambia con frecuencia; revisar las noticias y actualizar el texto, que hoy describe octubre de 2026.
@@ -660,6 +662,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-14 | El sacerdocio en Israel: recurso interactivo con cuatro rutas; Labores y Día de la Expiación pasan a rutas 3D del tabernáculo | Aplicación del criterio anterior a las rutas pendientes del sumo sacerdote |
 | 2026-10-14 | Nueva faceta `enfoque`: estudio de libro, teología bíblica, teología sistemática, historia y geografía | Quien quiere estudiar un libro o un tema no tenía cómo llegar directo; «Reconstrucción» y «Consulta» se descartaron por describir formato o ser demasiado amplias |
 | 2026-10-14 | La búsqueda pone primero el recurso cuyo título coincide con la consulta, y ante «libro de…», el estudio de libro | «libro de Hechos» mostraba muchos recursos antes que el estudio de Hechos |
+| 2026-10-14 | Tabernáculo: tres figuras en las ceremonias (sacerdote común de lino; sumo sacerdote con vestiduras de gloria; sumo sacerdote de lino en la Expiación), dos pasos nuevos en el Día de la Expiación (Lv 16:23-28) e indicador de estado | Las rutas de Labores y Expiación ya existían como ceremonias; faltaba distinguir al sumo sacerdote, completar Levítico 16 y mostrar dónde ocurre cada paso |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
