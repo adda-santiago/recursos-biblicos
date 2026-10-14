@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.21 · 14 de octubre de 2026
+Versión 2.22 · 14 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.22:** criterio para elegir motor: el 3D solo para lo que necesita simulación en el espacio; lo explicativo va en rutas interactivas. Nuevo recurso interactivo El sacerdocio en Israel; las rutas pendientes del sumo sacerdote se redistribuyen (§7, §20).
 
 **Cambio de la versión 2.21:** segundo estudio de libro, Daniel, con la misma estructura que Hechos (rutas I a IV, mapas y temas), apoyado en los imperios, el exilio y Los últimos tiempos (§9, §20).
 
@@ -223,6 +225,8 @@ El visor nunca contiene anuncios ni elementos ajenos al recurso.
 | `model-viewer` | Un solo `.glb` con hotspots (un objeto: arca, altar, lámpara, utensilio) | Implementado en el visor, **sin probar aún con un modelo real** |
 | `three` | Escenas compuestas, recorridos narrativos, comparaciones, modelos procedurales | Reservado. El build falla a propósito si un recurso lo declara antes de implementarlo |
 
+**¿3D o interactivo?** Un modelo 3D con ruta de aprendizaje solo se justifica cuando el tema necesita una simulación en el espacio: un recorrido por el santuario, una ceremonia que avanza de un lugar a otro, un mecanismo que se mueve o una pieza que se arma. En esos casos puede haber varias rutas 3D sobre el mismo modelo. Lo que se explica con texto, tablas, imágenes y mapas (comparaciones, listas, historia, teología) va en un recurso de rutas interactivas (`ruta-estudio.js`), que puede enlazar al 3D con un botón `ir`. Ejemplo: las vestiduras del sumo sacerdote van en 3D; los órdenes del sacerdocio y las doce piedras, en El sacerdocio en Israel.
+
 Las apps legadas no se reescriben por reescribir. Se migran a `three` nativo solo cuando necesitan algo que el iframe impide (por ejemplo, hotspots controlados desde la ficha).
 
 ### Convenciones de escena
@@ -306,6 +310,7 @@ Asignación actual:
 | Los viajes de Pablo | Nuevo | Iglesia primitiva | Hechos y las trece cartas de Pablo |
 | Los últimos tiempos | Antiguo, Nuevo | Los últimos tiempos | Daniel, Ezequiel, Isaías, Jeremías, Joel, Zacarías, Mateo, Juan, Romanos, 1 Corintios, 1 y 2 Tesalonicenses, 2 Pedro, Apocalipsis |
 | El exilio y los retornos | Antiguo, Nuevo | Monarquía dividida, exilio, retorno | Levítico, Deuteronomio, 2 Reyes, 2 Crónicas, Esdras, Nehemías, Ester, Salmos, Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel, Amós, Hageo, Zacarías, Malaquías, Lucas, 1 Pedro |
+| El sacerdocio en Israel | Antiguo, Nuevo | Éxodo, jueces, monarquía unida, retorno, vida de Jesús | Éxodo, Levítico, Números, 1 Samuel, 1 Crónicas, Esdras, Zacarías, Malaquías, Salmos, Lucas, Hebreos, 1 Pedro, Apocalipsis |
 | Daniel | Antiguo, Nuevo | Exilio, retorno, intertestamentario, últimos tiempos | Daniel, Jeremías, Ezequiel, Isaías, 2 Reyes, Nehemías, Ester, Mateo, 2 Tesalonicenses, Apocalipsis |
 
 ## 10. Sin fines comerciales
@@ -510,7 +515,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Despliegue en `adda-santiago`:** actualizar `publicar.yml`, reactivar Pages y verificar el sitio en la subcarpeta.
 - **`noindex` en las apps legadas** (§19, regla 5).
 - **Limpieza del código comercial:** eliminar `anuncios.ts`, `cuenta.ts`, `EspacioAnuncio`, `SITIO.anuncios` y la llamada a `iniciarAnuncios()`.
-- **El sumo sacerdote: rutas pendientes.** Labores (con el mobiliario del tabernáculo), Día de la Expiación (proceso con indicador de estado; coordinar con la ceremonia del mismo nombre en `tabernaculo/`), Sumo sacerdote, sacerdote y levita, y Las doce piedras. Al sumar la segunda ruta aparece el selector (`ROUTES` en `app.js`).
+- **Tabernáculo: rutas 3D pendientes.** Labores (el sumo sacerdote recorre el mobiliario) y Día de la Expiación (proceso con indicador de estado), unificada con la ceremonia que ya existe en `tabernaculo/`. El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras pasaron al recurso interactivo El sacerdocio en Israel.
 - **Crédito de la RV 1960 en las apps existentes:** revisar las apps que citan texto bíblico y agregarles el crédito (§15).
 - **El templo de Herodes: rutas pendientes.** Jesús y la iglesia en el templo, e Historia del segundo templo (de Zorobabel al año 70 y el templo de los últimos tiempos). Las estaciones «Dos destrucciones» y «Del exilio al Muro» ya remiten a esta última.
 - **El monte hoy (templo de Herodes, estación 9):** la situación del statu quo cambia con frecuencia; revisar las noticias y actualizar el texto, que hoy describe octubre de 2026.
@@ -635,6 +640,8 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-14 | Un personaje de Flow por cada etapa de vida (Daniel-joven, Daniel-anciano…) | Un mismo personaje con edades muy distintas no puede salir igual en todas las escenas |
 | 2026-10-14 | Daniel: estudio de libro con nueve rutas (I a IV, dos de mapas, tres de temas) | Mismo modelo que Hechos; las rutas fijas I a IV se mantienen en todos los libros |
 | 2026-10-14 | En Daniel se sigue la autoría del siglo VI a.C. y el cuarto reino como Roma; la fecha del siglo II se presenta como postura | Mt 24:15 y las profecías posteriores al 165 a.C. (Dn 9:26) |
+| 2026-10-14 | El motor 3D se usa solo para lo que necesita simulación en el espacio (recorridos, ceremonias, mecanismos), y puede tener varias rutas; lo que se explica con texto, tablas, imágenes y mapas va en rutas interactivas | Cada motor para lo que hace mejor; evitar rutas 3D que no aprovechan el modelo |
+| 2026-10-14 | El sacerdocio en Israel: recurso interactivo con cuatro rutas; Labores y Día de la Expiación pasan a rutas 3D del tabernáculo | Aplicación del criterio anterior a las rutas pendientes del sumo sacerdote |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
