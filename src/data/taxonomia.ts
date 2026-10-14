@@ -55,10 +55,19 @@ export const TIPOS = {
   'interactivo': 'Interactivo',
 } as const;
 
+// Enfoque: cómo estudia la Biblia el recurso (§9). Distinto del tipo, que es el formato.
+export const ENFOQUES = {
+  'estudio-libro': 'Estudio de libro',
+  'teologia-biblica': 'Teología bíblica',
+  'teologia-sistematica': 'Teología sistemática',
+  'historia-geografia': 'Historia y geografía',
+} as const;
+
 export type Testamento = keyof typeof TESTAMENTOS;
 export type Libro = keyof typeof LIBROS;
 export type Epoca = keyof typeof EPOCAS;
 export type Tipo = keyof typeof TIPOS;
+export type Enfoque = keyof typeof ENFOQUES;
 
 const claves = <T extends object>(o: T) =>
   Object.keys(o) as [keyof T & string, ...(keyof T & string)[]];
@@ -66,6 +75,7 @@ export const CLAVES_TESTAMENTO = claves(TESTAMENTOS);
 export const CLAVES_LIBRO = claves(LIBROS);
 export const CLAVES_EPOCA = claves(EPOCAS);
 export const CLAVES_TIPO = claves(TIPOS);
+export const CLAVES_ENFOQUE = claves(ENFOQUES);
 
 // Nombres que no pueden usarse como slug de un recurso: chocan con páginas
 // y carpetas del sitio, porque las fichas viven en /{slug}/.

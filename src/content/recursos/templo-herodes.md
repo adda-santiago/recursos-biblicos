@@ -8,6 +8,7 @@ testamento: [nuevo, antiguo]
 libros: [mateo, marcos, lucas, juan, hechos, hebreos, esdras, hageo]
 epocas: [vida-de-jesus, iglesia-primitiva, intertestamentario]
 tipo: 3d
+enfoque: teologia-biblica
 tags: [santuario, jerusalen, herodes, templo, arqueologia, muro-occidental, israel]
 visor:
   motor: legado

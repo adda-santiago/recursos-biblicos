@@ -8,6 +8,7 @@ testamento: [antiguo]
 libros: [exodo, levitico, numeros]
 epocas: [exodo]
 tipo: 3d
+enfoque: teologia-biblica
 tags: [sacerdocio, vestiduras, aaron, santuario, levitico]
 visor:
   motor: legado

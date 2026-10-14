@@ -13,7 +13,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import TarjetaRecurso from '../components/TarjetaRecurso.astro';
 import { SITIO } from '../config/sitio';
-import { EPOCAS, LIBROS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
+import { ENFOQUES, EPOCAS, LIBROS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
 import { ruta, rutaRecurso } from '../lib/url';
 
 const recursos = (await getCollection('recursos', (r) => r.data.publicado))
@@ -34,6 +34,7 @@ const tags = [...contarTags.entries()].sort((a, b) => b[1] - a[1] || a[0].locale
 
 // Solo se muestran las facetas con al menos un valor en uso
 const facetas = [
+  { clave: 'enfoque', titulo: 'Enfoque', items: opciones(ENFOQUES, recursos.map((r) => r.data.enfoque ?? '')) },
   { clave: 'testamento', titulo: 'Testamento', items: opciones(TESTAMENTOS, recursos.flatMap((r) => r.data.testamento)) },
   { clave: 'epoca', titulo: 'Época', items: opciones(EPOCAS, recursos.flatMap((r) => r.data.epocas)) },
   { clave: 'libro', titulo: 'Libro', items: opciones(LIBROS, recursos.flatMap((r) => r.data.libros)) },
@@ -49,7 +50,9 @@ const extra = (clave: string, i: number) => VISIBLES[clave] !== undefined && i >
 const catalogo = recursos.map((r) => ({
   uid: r.data.uid,
   u: rutaRecurso(r.id),
-  k: [r.data.titulo, r.data.resumen, TIPOS[r.data.tipo], ...r.data.testamento.map((t) => TESTAMENTOS[t]),
+  t: r.data.titulo,
+  e: r.data.enfoque ?? '',
+  k: [r.data.titulo, r.data.resumen, TIPOS[r.data.tipo], r.data.enfoque ? ENFOQUES[r.data.enfoque] : '', ...r.data.testamento.map((t) => TESTAMENTOS[t]),
       ...r.data.libros.map((l) => LIBROS[l]), ...r.data.epocas.map((e) => EPOCAS[e]), ...r.data.tags].join(' '),
 }));
 ---
@@ -126,14 +129,14 @@ const catalogo = recursos.map((r) => ({
   import { almacen } from '../lib/storage';
   import { registrar } from '../lib/analitica';
 
-  type Item = { uid: string; u: string; k: string };
+  type Item = { uid: string; u: string; t: string; e: string; k: string };
   const catalogo: Item[] = JSON.parse(document.getElementById('catalogo')!.textContent!);
   const { base, buzon } = (window as any).__AV as { base: string; buzon: string };
 
   const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
 
-  const CLAVES = ['testamento', 'libro', 'epoca', 'tipo', 'tag'] as const;
+  const CLAVES = ['enfoque', 'testamento', 'libro', 'epoca', 'tipo', 'tag'] as const;
   type Clave = (typeof CLAVES)[number];
 
   const form = document.querySelector<HTMLFormElement>('[data-buscador]')!;
@@ -183,7 +186,31 @@ const catalogo = recursos.map((r) => ({
     } catch { pagefind = null; }
   })();
 
+  // Lo que coincide con el título va primero: «Hechos» o «libro de Hechos» muestra primero el estudio de Hechos.
+  // Si se pide un «libro» o un «estudio de», el estudio de libro va antes que los demás recursos con ese título.
+  const VACIAS = /^(?:(?:el|la|los|las)\s+)?(?:libro|estudio|recurso)s?\s+(?:de|del)\s+(?:(?:el|la|los|las)\s+)?/;
+  const ARTICULO = /^(?:el|la|los|las)\s+/;
+  function priorizar(q: string, uids: string[]): string[] {
+    const consulta = norm(q).trim();
+    const nucleo = consulta.replace(VACIAS, '').replace(ARTICULO, '').trim();
+    if (!nucleo) return uids;
+    const pideLibro = /\blibros?\b/.test(consulta);
+    const puntaje = (uid: string) => {
+      const it = catalogo.find((i) => i.uid === uid);
+      if (!it) return 9;
+      const titulo = norm(it.t).replace(ARTICULO, '');
+      let p = titulo === nucleo ? 0 : titulo.startsWith(nucleo + ' ') ? 1 : new RegExp(`\\b${nucleo.replace(/[.*+?^${}()|[\]\\]/g, '')}\\b`).test(titulo) ? 2 : 5;
+      if (p < 5 && pideLibro && it.e !== 'estudio-libro') p += 2;
+      return p;
+    };
+    return uids.map((u, i) => ({ u, i, p: puntaje(u) })).sort((a, b) => a.p - b.p || a.i - b.i).map((x) => x.u);
+  }
+
   async function buscar(q: string): Promise<string[]> {
+    return priorizar(q, await buscarSinOrden(q));
+  }
+
+  async function buscarSinOrden(q: string): Promise<string[]> {
     const terminos = norm(q).split(/\s+/).filter(Boolean);
     await cargarPagefind;
     if (pagefind) {

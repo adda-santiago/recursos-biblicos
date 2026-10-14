@@ -7,7 +7,7 @@ interface Props { r: CollectionEntry<'recursos'>; }
 const { r } = Astro.props;
 const d = r.data;
 ---
-<li data-uid={d.uid} data-testamento={d.testamento.join(' ')} data-tipo={d.tipo} data-epoca={d.epocas.join(' ')} data-tags={d.tags.join(' ')}>
+<li data-uid={d.uid} data-testamento={d.testamento.join(' ')} data-tipo={d.tipo} data-enfoque={d.enfoque ?? ''} data-epoca={d.epocas.join(' ')} data-tags={d.tags.join(' ')}>
   <a class="item" href={rutaRecurso(r.id)}>
     <span class="emoji" aria-hidden="true">{d.emoji}</span>
     <span><h3>{d.titulo}</h3></span>

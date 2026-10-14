@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [daniel, jeremias, ezequiel, isaias, 2-reyes, nehemias, ester, mateo, 2-tesalonicenses, apocalipsis]
 epocas: [exilio, retorno, intertestamentario, ultimos-tiempos]
 tipo: interactivo
+enfoque: estudio-libro
 tags: [daniel, profecia, imperios, babilonia, persia, grecia, roma, anticristo, setenta-semanas, hijo-del-hombre]
 visor:
   motor: legado

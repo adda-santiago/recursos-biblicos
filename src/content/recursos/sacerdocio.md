@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [exodo, levitico, numeros, 1-samuel, 1-cronicas, esdras, zacarias, malaquias, salmos, lucas, hebreos, 1-pedro, apocalipsis]
 epocas: [exodo, jueces, monarquia-unida, retorno, vida-de-jesus]
 tipo: interactivo
+enfoque: teologia-biblica
 tags: [sacerdocio, sumo-sacerdote, levitas, tabernaculo, templo, pectoral, melquisedec, hebreos, expiacion]
 visor:
   motor: legado

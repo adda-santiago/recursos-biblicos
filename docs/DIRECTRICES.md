@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.22 · 14 de octubre de 2026
+Versión 2.23 · 14 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.23:** nueva faceta obligatoria `enfoque` (estudio de libro, teología bíblica, teología sistemática, historia y geografía), primera en los filtros; la búsqueda pone primero el recurso cuyo título coincide con lo buscado (§8, §9, §14).
 
 **Cambio de la versión 2.22:** criterio para elegir motor: el 3D solo para lo que necesita simulación en el espacio; lo explicativo va en rutas interactivas. Nuevo recurso interactivo El sacerdocio en Israel; las rutas pendientes del sumo sacerdote se redistribuyen (§7, §20).
 
@@ -262,6 +264,7 @@ Cada recurso es un archivo `src/content/recursos/{slug}.md`. El esquema está en
 | `epocas` | Sí, si está publicado | Uno o más de `EPOCAS` (§9) |
 | `libros` | No | Valores de `LIBROS` (§9). Libros donde el tema es central, no toda mención |
 | `tipo` | Sí | Valor de `TIPOS` |
+| `enfoque` | Sí, si está publicado | Valor de `ENFOQUES` (§9). El build falla si un recurso publicado no lo declara |
 | `tags` | No | Minúsculas con guiones, sin `#`. No repiten lo que ya dicen testamento, época o libro |
 | `visor.motor` | Sí | `legado`, `model-viewer` o `three` |
 | `visor.ruta` / `visor.modelo` / `visor.poster` | Según motor | Carpeta en `public/apps/`, o URL absoluta (con `https://`) del `.glb` y su póster. Una ruta que empiece con `/` se rompe en la subcarpeta |
@@ -287,8 +290,20 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 | `testamento` | `antiguo`, `nuevo` | Un recurso puede tener ambos |
 | `epocas` | `creacion`, `patriarcas`, `exodo`, `jueces`, `monarquia-unida`, `monarquia-dividida`, `exilio`, `retorno`, `intertestamentario`, `vida-de-jesus`, `iglesia-primitiva` | Uno o más. Coinciden con las franjas del árbol genealógico (`public/apps/genealogias/epocas.js`), que junta en una sola franja la vida de Jesús y la iglesia primitiva. Un recurso transversal (atlas, genealogías) lleva todas las que recorre |
 | `libros` | Los 66 libros del canon protestante, con identificador fijo en minúsculas y guiones (`genesis`, `1-reyes`, `cantares`, `apocalipsis`) | Libros donde el tema del recurso es central, no toda mención |
-| `tipo` | modelo 3D, mapa, línea de tiempo, árbol genealógico, interactivo | Se mantiene |
+| `tipo` | modelo 3D, mapa, línea de tiempo, árbol genealógico, interactivo | El formato del recurso |
+| `enfoque` | `estudio-libro`, `teologia-biblica`, `teologia-sistematica`, `historia-geografia` | Cómo estudia la Biblia el recurso; uno por recurso. Es la primera faceta de la portada |
 | `tags` | Libres, en minúsculas con guiones | Antes de crear uno, revisar si ya existe una variante. No se usan para testamento, época ni libro |
+
+**Enfoques.** Responden a la pregunta «¿cómo estudia la Biblia este recurso?», no a su formato (eso es `tipo`):
+
+| Enfoque | Qué responde | Recursos |
+|---|---|---|
+| Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel |
+| Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
+| Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | Los últimos tiempos |
+| Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica |
+
+Un recurso 3D no es un enfoque: el tabernáculo es teología bíblica en formato 3D. Los recursos no bíblicos están ocultos (`publicado: false`) y no llevan enfoque.
 
 Asignación actual:
 
@@ -371,6 +386,7 @@ Las tarjetas se generan en el HTML (SEO y uso sin JavaScript); el navegador solo
 
 - Pagefind indexa solo el `<article data-pagefind-body>` de cada ficha. Filtros: los de §9.
 - La portada filtra los resultados de Pagefind para exigir que cada término aparezca por su raíz en el texto: evita falsos positivos por coincidencias parciales.
+- Después, la portada reordena: primero el recurso cuyo título coincide con la consulta (sin artículos ni «libro de», «estudio de»), luego los que lo contienen, y al final el resto por relevancia. Si la consulta pide un «libro», el estudio de libro va antes que los demás.
 - En `npm run dev` (sin índice) se usa una búsqueda local sobre el catálogo, insensible a tildes.
 - Búsqueda sin resultados: mensaje con enlace al buzón con la consulta precargada, y evento de analítica.
 - Variantes de nombres bíblicos (Salomón/Salomon, Jerusalén/Jerusalem, Nabucodonosor/Nebucadnezar): a medida que aparezcan en las búsquedas sin resultado, se agregan como texto de la ficha o como tags.
@@ -642,6 +658,8 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-14 | En Daniel se sigue la autoría del siglo VI a.C. y el cuarto reino como Roma; la fecha del siglo II se presenta como postura | Mt 24:15 y las profecías posteriores al 165 a.C. (Dn 9:26) |
 | 2026-10-14 | El motor 3D se usa solo para lo que necesita simulación en el espacio (recorridos, ceremonias, mecanismos), y puede tener varias rutas; lo que se explica con texto, tablas, imágenes y mapas va en rutas interactivas | Cada motor para lo que hace mejor; evitar rutas 3D que no aprovechan el modelo |
 | 2026-10-14 | El sacerdocio en Israel: recurso interactivo con cuatro rutas; Labores y Día de la Expiación pasan a rutas 3D del tabernáculo | Aplicación del criterio anterior a las rutas pendientes del sumo sacerdote |
+| 2026-10-14 | Nueva faceta `enfoque`: estudio de libro, teología bíblica, teología sistemática, historia y geografía | Quien quiere estudiar un libro o un tema no tenía cómo llegar directo; «Reconstrucción» y «Consulta» se descartaron por describir formato o ser demasiado amplias |
+| 2026-10-14 | La búsqueda pone primero el recurso cuyo título coincide con la consulta, y ante «libro de…», el estudio de libro | «libro de Hechos» mostraba muchos recursos antes que el estudio de Hechos |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

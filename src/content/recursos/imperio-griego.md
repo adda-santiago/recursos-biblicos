@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [daniel, zacarias, joel, juan, hechos, 1-corintios, galatas]
 epocas: [retorno, intertestamentario, vida-de-jesus, iglesia-primitiva]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [grecia, imperios, alejandro, antioco, macabeos, helenismo, septuaginta, arqueologia, profecia]
 visor:
   motor: legado

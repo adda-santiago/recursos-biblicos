@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [2-reyes, 2-cronicas, isaias, oseas, amos, jonas, miqueas, nahum, sofonias, mateo, hechos]
 epocas: [monarquia-dividida, exilio]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [asiria, imperios, ninive, senaquerib, samaria, ezequias, jonas, arqueologia, profecia]
 visor:
   motor: legado

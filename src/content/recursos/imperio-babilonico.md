@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [2-reyes, 2-cronicas, isaias, jeremias, lamentaciones, ezequiel, daniel, habacuc, apocalipsis]
 epocas: [monarquia-dividida, exilio, retorno]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [babilonia, imperios, nabucodonosor, caldeos, deportacion, arqueologia, profecia]
 visor:
   motor: legado

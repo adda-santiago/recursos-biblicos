@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [daniel, mateo, lucas, juan, hechos, romanos, filipenses, apocalipsis]
 epocas: [intertestamentario, vida-de-jesus, iglesia-primitiva]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [roma, imperios, cesar, pilato, herodes, jerusalen, apocalipsis, arqueologia, profecia]
 visor:
   motor: legado

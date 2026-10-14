@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [daniel, ezequiel, isaias, jeremias, joel, zacarias, mateo, juan, romanos, 1-corintios, 1-tesalonicenses, 2-tesalonicenses, 2-pedro, apocalipsis]
 epocas: [ultimos-tiempos]
 tipo: interactivo
+enfoque: teologia-sistematica
 tags: [profecia, escatologia, arrebatamiento, tribulacion, milenio, segunda-venida, israel, apocalipsis]
 visor:
   motor: legado

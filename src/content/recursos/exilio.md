@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [levitico, deuteronomio, 2-reyes, 2-cronicas, esdras, nehemias, ester, salmos, isaias, jeremias, lamentaciones, ezequiel, daniel, amos, hageo, zacarias, malaquias, lucas, 1-pedro]
 epocas: [monarquia-dividida, exilio, retorno]
 tipo: interactivo
+enfoque: teologia-biblica
 tags: [exilio, cautiverio, babilonia, asiria, persia, retorno, templo, jerusalen, profecia, diaspora]
 visor:
   motor: legado

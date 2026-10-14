@@ -8,6 +8,7 @@ testamento: [nuevo]
 libros: [hechos, romanos, 1-corintios, 2-corintios, galatas, efesios, filipenses, colosenses, 1-tesalonicenses, 2-tesalonicenses, 1-timoteo, 2-timoteo, tito, filemon]
 epocas: [iglesia-primitiva]
 tipo: mapa
+enfoque: historia-geografia
 tags: [pablo, viajes-misioneros, cartas, mision, iglesia, mapas, roma]
 visor:
   motor: legado

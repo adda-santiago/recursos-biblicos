@@ -8,6 +8,7 @@ testamento: [nuevo]
 libros: [hechos, lucas, joel, romanos, 1-corintios, galatas, 1-tesalonicenses]
 epocas: [iglesia-primitiva]
 tipo: interactivo
+enfoque: estudio-libro
 tags: [espiritu-santo, pentecostes, iglesia, pablo, pedro, mision, milagros, mapas]
 visor:
   motor: legado

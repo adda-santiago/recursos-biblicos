@@ -8,6 +8,7 @@ testamento: [antiguo]
 libros: [jueces, 1-samuel, 2-samuel, 1-reyes, 2-reyes, 1-cronicas, 2-cronicas]
 epocas: [jueces, monarquia-unida, monarquia-dividida, exilio, retorno]
 tipo: linea-tiempo
+enfoque: historia-geografia
 tags: [reyes, profetas, jueces, cronologia]
 visor:
   motor: legado

@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [2-cronicas, esdras, nehemias, ester, isaias, daniel, hageo, zacarias, malaquias, hechos]
 epocas: [exilio, retorno, intertestamentario]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [persia, imperios, ciro, asuero, medos, retorno, arqueologia, profecia]
 visor:
   motor: legado

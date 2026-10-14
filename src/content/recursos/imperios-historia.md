@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [genesis, exodo, 2-reyes, isaias, jeremias, daniel, habacuc, lucas, hechos, apocalipsis]
 epocas: [exodo, monarquia-dividida, exilio, retorno, intertestamentario, vida-de-jesus, iglesia-primitiva]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [imperios, daniel, profecia, estatua, cuatro-bestias, tiempos-de-los-gentiles, naciones, pentecostes]
 visor:
   motor: legado

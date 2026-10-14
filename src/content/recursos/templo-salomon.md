@@ -8,6 +8,7 @@ testamento: [antiguo]
 libros: [1-reyes, 2-cronicas]
 epocas: [monarquia-unida]
 tipo: 3d
+enfoque: teologia-biblica
 tags: [reyes, santuario, jerusalen]
 visor:
   motor: legado

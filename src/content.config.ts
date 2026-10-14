@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { CLAVES_EPOCA, CLAVES_LIBRO, CLAVES_TESTAMENTO, CLAVES_TIPO } from './data/taxonomia';
+import { CLAVES_ENFOQUE, CLAVES_EPOCA, CLAVES_LIBRO, CLAVES_TESTAMENTO, CLAVES_TIPO } from './data/taxonomia';
 
 /*
  * Esquema de un recurso (DIRECTRICES §8). Si un archivo no cumple, el build falla:
@@ -31,6 +31,7 @@ const recursos = defineCollection({
     libros: z.array(z.enum(CLAVES_LIBRO)).default([]),     // libros donde el tema es central
     epocas: z.array(z.enum(CLAVES_EPOCA)).default([]),
     tipo: z.enum(CLAVES_TIPO),
+    enfoque: z.enum(CLAVES_ENFOQUE).optional(),           // cómo estudia la Biblia; obligatorio si está publicado
     tags: z.array(z.string().regex(/^[a-z0-9-]+$/)).default([]),
 
     // Visor
@@ -65,6 +66,7 @@ const recursos = defineCollection({
     if (!d.publicado) return;
     if (!d.testamento.length) ctx.addIssue({ code: 'custom', path: ['testamento'], message: 'Un recurso publicado necesita al menos un testamento.' });
     if (!d.epocas.length) ctx.addIssue({ code: 'custom', path: ['epocas'], message: 'Un recurso publicado necesita al menos una época.' });
+    if (!d.enfoque) ctx.addIssue({ code: 'custom', path: ['enfoque'], message: 'Un recurso publicado necesita un enfoque (estudio-libro, teologia-biblica, teologia-sistematica o historia-geografia).' });
   }),
 });
 

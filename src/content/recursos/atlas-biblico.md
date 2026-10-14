@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [genesis, exodo, numeros, josue, 1-reyes, 2-reyes, hechos]
 epocas: [patriarcas, exodo, jueces, monarquia-unida, monarquia-dividida, exilio, retorno, intertestamentario, vida-de-jesus, iglesia-primitiva]
 tipo: mapa
+enfoque: historia-geografia
 tags: [geografia-biblica, pablo, exodo, exilio]
 visor:
   motor: legado

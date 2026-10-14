@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [genesis, rut, 1-cronicas, mateo, lucas]
 epocas: [creacion, patriarcas, exodo, jueces, monarquia-unida, monarquia-dividida, exilio, retorno, intertestamentario, vida-de-jesus]
 tipo: genealogia
+enfoque: historia-geografia
 tags: [genealogias, sacerdocio]
 visor:
   motor: legado

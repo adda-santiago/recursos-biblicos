@@ -8,6 +8,7 @@ testamento: [antiguo, nuevo]
 libros: [genesis, exodo, 1-reyes, 2-reyes, isaias, jeremias, ezequiel, oseas, mateo, hechos]
 epocas: [patriarcas, exodo, monarquia-unida, monarquia-dividida, exilio, intertestamentario, vida-de-jesus]
 tipo: interactivo
+enfoque: historia-geografia
 tags: [egipto, imperios, faraon, nilo, exodo, jose, moises, arqueologia, profecia]
 visor:
   motor: legado
