@@ -5,3 +5,6 @@ dist/
 
 # Fuentes del generador de la Biblia (se descargan aparte; ver herramientas/biblia/generar.py)
 herramientas/biblia/fuentes/
+
+# Datos de Natural Earth para los generadores de geo/ (se descargan aparte; ver geo/imperios.py y geo/palestina.py)
+geo/ne_*.geojson

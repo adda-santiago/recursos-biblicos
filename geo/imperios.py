@@ -263,6 +263,16 @@ LUGARES = {
   # Daniel 11: reyes del norte y del sur
   'rafia': ['Rafia', 31.29, 34.25, 'bottom'], 'paneas': ['Paneas', 33.25, 35.69, 'top'],
   'magnesia': ['Magnesia', 38.62, 27.43, 'left'], 'r-moab': ['Moab', 31.4, 35.8], 'r-amon': ['Amón', 31.95, 36.05],
+  # Evangelios (armonía). Caná según la identificación tradicional (Kafr Kanna); Betábara, el lugar del bautismo junto al Jordán
+  'cana': ['Caná', 32.75, 35.34, 'left'], 'capernaum': ['Capernaum', 32.881, 35.575, 'top'], 'betsaida': ['Betsaida', 32.91, 35.63, 'right'],
+  'betabara': ['Betábara (Jordán)', 31.84, 35.55, 'top'], 'desierto-judea': ['Desierto de Judea', 31.55, 35.32, 'bottom'],
+  'montana-judea': ['Montaña de Judea', 31.66, 35.06, 'left'], 'r-galilea': ['Galilea', 32.95, 35.3, 'top'],
+  'mar-galilea': ['Mar de Galilea', 32.8, 35.6, 'right'],
+  'enon': ['Enón', 32.37, 35.53, 'right'], 'maqueronte': ['Maqueronte', 31.56, 35.62, 'right'], 'sicar': ['Sicar (pozo de Jacob)', 32.21, 35.28, 'left'],
+  'betania': ['Betania', 31.77, 35.26, 'right'], 'nain': ['Naín', 32.63, 35.35, 'left'], 'corazin': ['Corazín', 32.91, 35.56, 'top'],
+  'cesarea-filipo': ['Cesarea de Filipo', 33.25, 35.69, 'top'], 'jerico': ['Jericó', 31.87, 35.44, 'right'], 'emaus': ['Emaús (aprox.)', 31.84, 35.14, 'left'],
+  'gadara': ['Gadara', 32.65, 35.68, 'right'], 'tiro-sidon': ['Tiro y Sidón', 33.27, 35.2, 'left'], 'decapolis': ['Decápolis', 32.45, 35.9, 'right'],
+  'getsemani': ['Getsemaní', 31.779, 35.24, 'right'], 'magdala': ['Magdala', 32.825, 35.515, 'left'], 'efrain': ['Efraín', 31.95, 35.3, 'right'], 'monte-olivos': ['Monte de los Olivos', 31.778, 35.245, 'bottom'], 'golgota': ['Gólgota', 31.778, 35.229, 'left'], 'perea': ['Perea', 31.95, 35.65, 'right'],
   # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
   'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
   'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
@@ -333,6 +343,11 @@ TRAZOS = {
     'l': [[41.9,12.5],[38.2,15.6],[35.3,24.9],[37.53,27.28],[37.94,27.34],[39.75,26.16],[41.01,24.29],[40.64,22.94],[39.01,20.73],[40.4,17.5],[41.9,12.5]]},
   'huida-egipto': {'n': 'El remanente huye a Egipto con Jeremías (Jer 41–43), aproximado',
     'l': [[31.78,35.23],[31.88,35.22],[31.7,35.2],[31.5,34.46],[31.13,33.8],[30.87,32.17]]},
+  'jesus-belen': {'n': 'De Nazaret a Belén (Lc 2:4)', 'l': [[32.7,35.3],[32.4,35.33],[32.0,35.35],[31.78,35.235],[31.7,35.2]]},
+  'jesus-egipto': {'n': 'La huida a Egipto (Mt 2:14), aproximado', 'l': [[31.7,35.2],[31.5,34.46],[31.13,33.8],[30.87,32.17],[30.4,31.5]]},
+  'jesus-nazaret': {'n': 'De Egipto a Nazaret (Mt 2:21-23), aproximado', 'l': [[30.4,31.5],[30.87,32.17],[31.13,33.8],[31.5,34.46],[32.0,34.85],[32.5,35.05],[32.7,35.3]]},
+  'jesus-samaria': {'n': 'De Judea a Galilea por Samaria (Jn 4:3-4)', 'l': [[31.84,35.55],[31.95,35.4],[32.21,35.28],[32.5,35.3],[32.75,35.34]]},
+  'jesus-jerusalen': {'n': 'Camino a Jerusalén por Perea y Jericó (Lc 9:51; 18:35)', 'l': [[32.7,35.3],[32.55,35.55],[32.2,35.58],[31.95,35.6],[31.87,35.44],[31.77,35.26],[31.778,35.235]]},
   'caida-539': {'n': 'Avance de Ciro, 539 a.C.',
     'l': [[34.80,48.52],[34.35,47.10],[34.0,45.6],[33.30,44.50],[33.06,44.25],[32.54,44.42]]},
 }

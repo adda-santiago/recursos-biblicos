@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.24 · 14 de octubre de 2026
+Versión 2.28 · 16 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,13 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.28:** recorrido de Jesús en el mapa ampliado de la armonía (red de caminos del siglo I, itinerario por pasaje), capa de detalle de Palestina en alta resolución y nuevas opciones del motor de mapas; Emaús a 60 estadios (§7, §20).
+
+**Cambio de la versión 2.27:** la armonía de los evangelios pasa a 246 pasajes y cubre todos los versículos de los cuatro evangelios (§20).
+
+**Cambio de la versión 2.26:** nueva plantilla Armonía de los evangelios (`public/apps/evangelios/`), con 194 pasajes; tabla común de palabras de Jesús; `Citas.capitulo()`; varias erratas de la RV 1960 corregidas (§20).
+**Cambio de la versión 2.25:** las rutas pendientes del templo de Herodes se reasignan: «Jesús y la iglesia en el templo» se hará con los Evangelios; «Historia del segundo templo» queda absorbida por otros recursos (§20).
 
 **Cambio de la versión 2.24:** en el tabernáculo, el sumo sacerdote se distingue del sacerdote común (vestiduras de gloria o de lino), el Día de la Expiación se completa (Lv 16:23-28) y las ceremonias tienen indicador de estado (quién oficia, con qué vestiduras y dónde está) (§20).
 
@@ -229,7 +236,19 @@ El visor nunca contiene anuncios ni elementos ajenos al recurso.
 | `model-viewer` | Un solo `.glb` con hotspots (un objeto: arca, altar, lámpara, utensilio) | Implementado en el visor, **sin probar aún con un modelo real** |
 | `three` | Escenas compuestas, recorridos narrativos, comparaciones, modelos procedurales | Reservado. El build falla a propósito si un recurso lo declara antes de implementarlo |
 
+**Plantilla de armonía (`public/apps/evangelios/`).** Para estudiar textos paralelos con el texto bíblico en pantalla. Dos tercios para las columnas (de 1 a 4, en orden Mateo, Marcos, Lucas, Juan) y un tercio para el comentario, con divisor ajustable que siempre parte en dos tercios. Reglas:
+- El texto bíblico no se copia en los datos: se lee de `public/biblia/` con `Citas.capitulo(versión, libro, capítulo)`, en la versión elegida. Las referencias de cada evangelio admiten varios tramos (`'26:57-58; 26:69-75'`).
+- Palabras de Jesús en rojo desde `palabras-jesus.js` (tabla común de los cuatro evangelios: 1 = verso completo, ':' = desde los dos puntos, o tramos exactos). Un pasaje puede fijar su propio rojo y tiene prioridad.
+- Lo exclusivo de un evangelio en un pasaje paralelo va en negrita, sin rombos. Las marcas A, B, C… se insertan después de una frase exacta de la RV 1960 y enlazan con su comentario; no hay límite de letras.
+- Cada pasaje lleva símbolos, dónde y cuándo (mapa con lugares y trazos de `imperios-geo.js`, y etapa de la vida de Jesús), la Escritura citada con su texto (profecía cumplida, cita o alusión), para pensar y enlaces. Sin mapa, el título dice solo «Cuándo».
+- El glosario es común a la armonía y marca la primera aparición de cada término en cada columna. Las referencias del texto que ya está en pantalla no se abren como burbuja.
+- Todas las frases (marcas, exclusivos, rojo) se validan contra la RV 1960 antes de publicar.
+- **Recorrido de Jesús** (opción del mapa ampliado): línea punteada desde el bautismo hasta el pasaje actual, un color por etapa en líneas paralelas para que no se tapen, cruces del lago en barca con otro trazo, distancia acumulada, leyenda para mostrar u ocultar etapas, barra para avanzar de pasaje sin cerrar el mapa, y nombres de ciudades que al tocarlos muestran sus pasajes. Datos: `caminos.js` (red de caminos aproximados del siglo I: nodos y tramos con su trazado; los cruces en barca se marcan `barca`), `ARMONIA.itinerario` en `data.js` (dónde está Jesús en cada pasaje en que se mueve; si no se mueve, no figura) y `ruta-jesus.js` (camino más corto por la red, suavizado). Al agregar un pasaje con desplazamiento de Jesús, se agrega su entrada al itinerario.
+- Sin el recorrido activo, los lugares del pasaje en el mapa ampliado también se pueden tocar y muestran todos los pasajes de la armonía en ese lugar.
+
 **¿3D o interactivo?** Un modelo 3D con ruta de aprendizaje solo se justifica cuando el tema necesita una simulación en el espacio: un recorrido por el santuario, una ceremonia que avanza de un lugar a otro, un mecanismo que se mueve o una pieza que se arma. En esos casos puede haber varias rutas 3D sobre el mismo modelo. Lo que se explica con texto, tablas, imágenes y mapas (comparaciones, listas, historia, teología) va en un recurso de rutas interactivas (`ruta-estudio.js`), que puede enlazar al 3D con un botón `ir`. Ejemplo: las vestiduras del sumo sacerdote van en 3D; los órdenes del sacerdocio y las doce piedras, en El sacerdocio en Israel.
+
+**Motor de mapas: opciones.** `MapaImperios.crear(contenedor, { detalle, maxZoom, zoomEncuadre, alTocarLugar })`. Sin opciones se comporta como siempre (zoom máximo 9, encuadre hasta 8). `detalle` superpone una geografía regional de alta resolución, como `MAPA_DETALLE` de `mapa-detalle-palestina.js` (generado por `geo/palestina.py` desde Natural Earth 1:10m, con el mar Muerto unido como en el siglo I y el lago Hula, desecado en el siglo XX). `alTocarLugar(id, latlng)` hace tocables los lugares. Los datos `geo/ne_*.geojson` se descargan aparte y no van al repositorio.
 
 Las apps legadas no se reescriben por reescribir. Se migran a `three` nativo solo cuando necesitan algo que el iframe impide (por ejemplo, hotspots controlados desde la ficha).
 
@@ -535,7 +554,9 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Limpieza del código comercial:** eliminar `anuncios.ts`, `cuenta.ts`, `EspacioAnuncio`, `SITIO.anuncios` y la llamada a `iniciarAnuncios()`.
 - **Tabernáculo:** las rutas de servicio y de expiación ya existen como ceremonias (Servicio diario y Día de la Expiación). El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras están en el recurso interactivo El sacerdocio en Israel.
 - **Crédito de la RV 1960 en las apps existentes:** revisar las apps que citan texto bíblico y agregarles el crédito (§15).
-- **El templo de Herodes: rutas pendientes.** Jesús y la iglesia en el templo, e Historia del segundo templo (de Zorobabel al año 70 y el templo de los últimos tiempos). Las estaciones «Dos destrucciones» y «Del exilio al Muro» ya remiten a esta última.
+- **Armonía de los evangelios.** Publicada en borrador con 246 pasajes que cubren los 3.779 versículos de los cuatro evangelios, en orden cronológico: los 194 del libro de Cristóbal Alarcón y 52 agregados en su lugar (se insertan con `ARMONIA.insertar(tras, lista)` y llevan `nuevo: true` solo como dato interno, sin marca visible). Pendiente: revisión de los comentarios.
+- **Recursos derivados de la armonía (pendientes):** un recurso interactivo de recorridos temáticos (parábolas, milagros, los «Yo soy», oraciones de Jesús, las siete palabras, apariciones del resucitado, la Semana Santa día por día) y un estudio de libro para cada evangelio (Mateo, Marcos, Lucas y Juan), con las rutas I a IV, conectados con la armonía.
+- **Templo de Herodes y los Evangelios.** La ruta 3D «Jesús y la iglesia en el templo» (presentación, Jesús a los doce años, la purificación, el pórtico de Salomón, la ofrenda de la viuda, la Puerta la Hermosa, las gradas de la Antonia) se construirá junto con los estudios de los Evangelios, enlazada desde ellos y desde Hechos con botones `ir`. «Historia del segundo templo» no será ruta 3D: su contenido ya está en El exilio y los retornos, Daniel y El sacerdocio, y lo que falta (Herodes y la ampliación del templo) irá en los Evangelios.
 - **El monte hoy (templo de Herodes, estación 9):** la situación del statu quo cambia con frecuencia; revisar las noticias y actualizar el texto, que hoy describe octubre de 2026.
 - **Viajes de Colón** (`viajes-colon/`, oculto) usa todavía el panel lateral con selector; pasarlo al diseño común si se vuelve a publicar o si se crea otro recurso de mapa con recorridos sobre esa base.
 - Revisar la respuesta en celular de las apps legadas con barra lateral fija: dentro del visor, en pantallas angostas, quedan apretadas. Solución de fondo: panel lateral colapsable por defecto bajo cierto ancho. Es prioritario, porque el estudio personal ocurre sobre todo en el celular.
@@ -546,7 +567,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Templo de Herodes (hecho, faltan dos rutas) y recursos nuevos según el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Templo de Herodes (hecho; su ruta de Jesús irá con los Evangelios) y recursos nuevos según el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, enlace directo a estaciones (`fyp:ir-a`) | Uso sostenido medible |
 
 ## 22. Decisiones abiertas
@@ -663,6 +684,14 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-14 | Nueva faceta `enfoque`: estudio de libro, teología bíblica, teología sistemática, historia y geografía | Quien quiere estudiar un libro o un tema no tenía cómo llegar directo; «Reconstrucción» y «Consulta» se descartaron por describir formato o ser demasiado amplias |
 | 2026-10-14 | La búsqueda pone primero el recurso cuyo título coincide con la consulta, y ante «libro de…», el estudio de libro | «libro de Hechos» mostraba muchos recursos antes que el estudio de Hechos |
 | 2026-10-14 | Tabernáculo: tres figuras en las ceremonias (sacerdote común de lino; sumo sacerdote con vestiduras de gloria; sumo sacerdote de lino en la Expiación), dos pasos nuevos en el Día de la Expiación (Lv 16:23-28) e indicador de estado | Las rutas de Labores y Expiación ya existían como ceremonias; faltaba distinguir al sumo sacerdote, completar Levítico 16 y mostrar dónde ocurre cada paso |
+| 2026-10-15 | «Jesús y la iglesia en el templo» se construye con los Evangelios; «Historia del segundo templo» no se hace como ruta | Las escenas del templo tienen sentido dentro de la historia de los Evangelios; la historia ya está repartida en otros recursos |
+| 2026-10-15 | Armonía de los evangelios: plantilla nueva de columnas paralelas con comentario, basada en el libro de Cristóbal Alarcón; 194 pasajes | Formato propio para estudiar los evangelios en paralelo, con el texto en pantalla |
+| 2026-10-15 | Palabras de Jesús en rojo desde una tabla común (World English Bible, dominio público, ajustada a la RV 1960) | Marcar 1.954 versos a mano no es viable; la fuente marca verso por verso y los diálogos se revisan |
+| 2026-10-15 | Erratas corregidas en la RV 1960 del sitio: Mt 3:3, Mt 5:16, Lc 4:18, Lc 8:22, Lc 12:25, Lc 24:19 y Hch 1:20 | Aparecieron al poner el texto en pantalla en la armonía |
+| 2026-10-16 | Se agregan 52 pasajes que faltaban en la armonía (Jairo, la sirofenicia, los cuatro mil, Juan 7 a 11, Mateo 25, el discurso del aposento alto, Juan 21 y otros), en su lugar cronológico | La armonía debe cubrir todos los evangelios en orden cronológico |
+| 2026-10-16 | Recorrido de Jesús como opción del mapa ampliado: por los caminos de la época (no en línea recta), suavizado, desde el bautismo, con colores por etapa en paralelo, distancia, leyenda y ciudades que muestran sus pasajes | Ver cuánto caminó Jesús y cómo todo converge en Jerusalén; el mapa pequeño queda como referencia del dónde |
+| 2026-10-16 | Capa de detalle de Palestina (Natural Earth 1:10m) solo para la armonía, con el mar de Galilea, el mar Muerto del siglo I y el lago Hula | El mapa base 1:50m no tenía los lagos ni el detalle necesario para seguir los recorridos |
+| 2026-10-16 | Emaús se ubica a unos 11 km de Jerusalén (El-Qubeibeh, aproximado) en lugar de Nicópolis | Lucas 24:13 indica «sesenta estadios» |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

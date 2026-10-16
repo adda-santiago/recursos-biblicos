@@ -21,7 +21,8 @@
   const OFF = { right: [7, 0], left: [-7, 0], top: [0, -7], bottom: [0, 7] };
   const ARROW = '<svg viewBox="-6 -6 12 12" aria-hidden="true"><path d="M0 -5 L4.5 4 L0 1.8 L-4.5 4 Z" fill="currentColor"/></svg>';
 
-  function crear(cont) {
+  function crear(cont, opciones) {
+    const op = opciones || {};
     const GEO = window.IMPERIOS_GEO, BASE = window.MAPA_BASE;
     if (typeof L === 'undefined' || !GEO) {
       cont.innerHTML = '<p class="mi-error">No se pudo cargar el mapa. Revisa tu conexión y vuelve a abrir la página.</p>';
@@ -40,7 +41,7 @@
     btnVec.setAttribute('aria-pressed', 'false');
     cont.append(leyenda, btnVec);
 
-    const map = L.map(lienzo, { zoomControl: false, zoomSnap: 0.25, minZoom: 3, maxZoom: 9, attributionControl: true });
+    const map = L.map(lienzo, { zoomControl: false, zoomSnap: 0.25, minZoom: 3, maxZoom: op.maxZoom || 9, attributionControl: true });
     map.setView([32, 42], 4); // antes de agregar capas
     L.control.zoom({ position: 'bottomright' }).addTo(map);
     map.attributionControl.setPrefix(false);
@@ -53,6 +54,14 @@
         ...BASE.tierra.map(p => L.polygon(p, { ...o, className: 'mi-tierra' })),
         ...BASE.lagos.map(p => L.polygon(p, { ...o, className: 'mi-agua' })),
         ...BASE.rios.map(l => L.polyline(l, { ...o, className: 'mi-rio' }))
+      ]).addTo(map);
+      // Detalle regional opcional (p. ej. Palestina en alta resolución): se superpone dentro de su caja
+      const D = op.detalle;
+      if (D) L.layerGroup([
+        ...D.mar.map(p => L.polygon(p, { ...o, className: 'mi-agua mi-det' })),
+        ...D.tierra.map(p => L.polygon(p, { ...o, className: 'mi-tierra mi-det' })),
+        ...D.lagos.map(p => L.polygon(p, { ...o, className: 'mi-agua' })),
+        ...D.rios.map(l => L.polyline(l, { ...o, className: 'mi-rio' }))
       ]).addTo(map);
       map.attributionControl.addAttribution('Mapa base: Natural Earth');
     } else {
@@ -138,6 +147,14 @@
         l.dot.unbindTooltip();
         l.dot.bindTooltip(esc(l.n), { className: 'mi-lbl', direction: l.lado, offset: OFF[l.lado], permanent: true });
         capaLugares.addLayer(l.dot);
+        // Opcional: al tocar un lugar (punto o nombre), avisar a quien usa el mapa
+        if (op.alTocarLugar) {
+          const tocar = ev => { L.DomEvent.stop(ev); op.alTocarLugar(id, l.dot.getLatLng()); };
+          const el = l.dot.getTooltip() && l.dot.getTooltip().getElement();
+          if (el) { el.style.pointerEvents = 'auto'; el.style.cursor = 'pointer'; L.DomEvent.on(el, 'click', tocar); }
+          const zona = L.circleMarker(l.dot.getLatLng(), { radius: 16, opacity: 0, fillOpacity: 0, interactive: true, bubblingMouseEvents: false });
+          zona.on('click', tocar); capaLugares.addLayer(zona);
+        }
       });
 
       const activos = e.trazos || [];
@@ -176,7 +193,7 @@
     }
     function encuadrar(animar) {
       if (!estado || !estado.view) return;
-      const opts = { padding: [28, 28], maxZoom: 8 };
+      const opts = { padding: [28, 28], maxZoom: op.zoomEncuadre || 8 };
       if (animar && !reduceMotion) map.flyToBounds(estado.view, { ...opts, duration: 1 });
       else map.fitBounds(estado.view, { ...opts, animate: false });
     }
@@ -206,6 +223,7 @@
 :root[data-theme="dark"] .mi .leaflet-control-attribution { background: rgba(21,23,28,.7); color: var(--muted, #9a9ca6); }
 :root[data-theme="dark"] .mi .leaflet-control-attribution a { color: inherit; }
 .mi-tierra { fill: var(--mi-tierra); fill-opacity: 1; stroke: var(--mi-costa); stroke-width: .8; }
+.mi-det { stroke: none !important; }
 .mi-agua { fill: var(--mi-mar); fill-opacity: 1; stroke: var(--mi-costa); stroke-width: .6; }
 .mi-rio { fill: none; stroke: var(--mi-rio); stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
 .mi-capa { fill-opacity: .3; stroke-width: 1.6; stroke-linejoin: round; }

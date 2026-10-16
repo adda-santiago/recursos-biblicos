@@ -20,7 +20,7 @@
    = { versiones, indice, capitulos: { 'rv1960/dn/5': [...] } }.
 
    API: Citas.procesar(nodo), Citas.faltantes(), Citas.version(), Citas.cambiarVersion(id),
-        Citas.versiones() → promesa con la lista.
+        Citas.versiones() → promesa con la lista, Citas.capitulo(ver, libro, cap) → promesa con los versículos.
    Para excluir una zona: clase «no-citas». Trae sus propios estilos.
    ========================================================== */
 (() => {
@@ -429,6 +429,7 @@ button.cita-ref { font: inherit !important; color: inherit !important; backgroun
 
   window.Citas = {
     procesar, faltantes: () => [...faltan].sort(), libros: NOMBRE, listo,
-    version, cambiarVersion, versiones: () => listo.then(() => VERSIONES)
+    version, cambiarVersion, versiones: () => listo.then(() => VERSIONES),
+    capitulo: (ver, libro, cap) => listo.then(() => capitulo(ver, libro, cap))   // texto de un capítulo (array de versículos)
   };
 })();

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Armonía de los evangelios · Recursos Bíblicos</title>
+  <meta name="description" content="Los cuatro evangelios en columnas paralelas, con las palabras de Jesús en rojo, los versos exclusivos marcados y comentario bíblico al lado.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%9D%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+  <link rel="stylesheet" href="evangelios.css">
+</head>
+<body>
+  <div class="ar-app" id="ar-app">
+    <header class="ar-bar">
+      <a class="ar-brand" href="../../">Recursos Bíblicos</a>
+      <button class="ar-btn ar-lista-btn" id="ar-lista-btn" type="button" aria-expanded="false" aria-controls="ar-lista">
+        <span aria-hidden="true">☰</span> <span id="ar-lista-label">Pasajes</span>
+      </button>
+      <div class="ar-nav">
+        <button class="ar-btn" id="ar-ant" type="button" aria-label="Pasaje anterior">‹</button>
+        <span class="ar-pos" id="ar-pos"></span>
+        <button class="ar-btn" id="ar-sig" type="button" aria-label="Pasaje siguiente">›</button>
+      </div>
+      <label class="ar-version"><span class="vh">Versión</span><select id="ar-version"></select></label>
+      <button class="ar-btn" id="ar-tema" type="button">Fondo oscuro</button>
+    </header>
+
+    <nav class="ar-lista" id="ar-lista" hidden aria-label="Pasajes de la armonía">
+      <div class="ar-lista-head">
+        <p class="ar-lista-titulo">Armonía de los evangelios</p>
+        <div class="ar-filtros" id="ar-filtros" aria-label="Filtrar por tema"></div>
+      </div>
+      <div class="ar-lista-cuerpo" id="ar-lista-cuerpo"></div>
+    </nav>
+
+    <main class="ar-texto" id="ar-texto">
+      <header class="ar-pasaje-head no-citas">
+        <p class="ar-seccion" id="ar-seccion"></p>
+        <h1 id="ar-titulo"></h1>
+        <p class="ar-refs" id="ar-refs"></p>
+      </header>
+      <div class="ar-herr" id="ar-herr">
+        <button type="button" class="ar-coinc-btn" id="ar-coinc" aria-pressed="false" title="Resaltar las palabras que comparten los evangelios de este pasaje">Coincidencias</button>
+        <p class="ar-coinc-ley" id="ar-coinc-ley" hidden><span class="co-todos">En todos</span> <span class="co-algunos">En algunos</span></p>
+      </div>
+      <div class="ar-tabs" id="ar-tabs" role="tablist" aria-label="Evangelios"></div>
+      <div class="ar-columnas no-citas" id="ar-columnas"></div>
+      <p class="ar-credito" id="ar-credito"></p>
+    </main>
+
+    <div class="ar-divisor" id="ar-divisor" role="separator" aria-orientation="vertical" aria-label="Ajustar el ancho del texto y del comentario" aria-valuemin="40" aria-valuemax="80" tabindex="0" title="Arrastra para ajustar · doble clic para volver a dos tercios"></div>
+
+    <div class="ar-glosa" id="ar-glosa" role="dialog" aria-modal="false" hidden><p class="ar-glosa-t" id="ar-glosa-t"></p><p id="ar-glosa-d"></p><button type="button" class="ar-glosa-x" id="ar-glosa-x" aria-label="Cerrar">×</button></div>
+
+    <aside class="ar-comentario" id="ar-comentario" aria-label="Comentario">
+      <div class="ar-sim" id="ar-sim"></div>
+      <section class="ar-donde" id="ar-donde">
+        <h3 id="ar-donde-t">Dónde y cuándo</h3>
+        <div class="ar-mapa-wrap" id="ar-mapa-wrap">
+          <div class="ar-mapa" id="ar-mapa" role="img"></div>
+          <button type="button" class="ar-mapa-btn" id="ar-mapa-btn" aria-label="Ampliar el mapa" title="Ampliar el mapa">⤢</button>
+          <div class="ar-rec-nav" id="ar-rec-nav" hidden>
+            <button type="button" id="ar-rec-ant" aria-label="Pasaje anterior">‹</button>
+            <p id="ar-rec-pasaje"></p>
+            <button type="button" id="ar-rec-sig" aria-label="Pasaje siguiente">›</button>
+          </div>
+          <div class="ar-rec-vacio" id="ar-rec-vacio" hidden>
+            <p>El recorrido de Jesús comienza con su bautismo en el Jordán, al iniciar su ministerio. Este pasaje es anterior.</p>
+            <button type="button" id="ar-rec-ir">Ir al bautismo de Jesús</button>
+          </div>
+          <div class="ar-rec" id="ar-rec" hidden>
+            <button type="button" class="ar-rec-btn" id="ar-rec-btn" aria-pressed="false">Recorrido de Jesús</button>
+            <details class="ar-rec-panel" id="ar-rec-panel" hidden>
+              <summary>Etapas y distancia</summary>
+              <ul class="ar-rec-etapas" id="ar-rec-etapas"></ul>
+              <p class="ar-rec-km" id="ar-rec-km"></p>
+              <p class="ar-rec-nota">Recorrido aproximado por los caminos de la época. Toca una ciudad para ver los pasajes que ocurrieron allí.</p>
+            </details>
+          </div>
+        </div>
+        <p class="ar-rec-aviso" id="ar-rec-aviso">Amplía el mapa <span aria-hidden="true">⤢</span> para ver el recorrido de Jesús hasta este pasaje.</p>
+        <div class="ar-vida" id="ar-vida">
+          <p class="ar-vida-t">En la vida de Jesús</p>
+          <ol class="ar-etapas" id="ar-etapas" aria-label="Etapas de la vida de Jesús"></ol>
+          <p class="ar-vida-ext" aria-hidden="true"><span>Nacimiento</span><span>Resurrección</span></p>
+        </div>
+        <p class="ar-etapa-txt" id="ar-etapa-txt"></p>
+      </section>
+      <h2 class="ar-com-titulo">Comentario</h2>
+      <div id="ar-com"></div>
+      <section class="ar-escritura no-citas" id="ar-escritura-sec">
+        <h3>La Escritura en este pasaje</h3>
+        <div id="ar-escritura"></div>
+      </section>
+      <section class="ar-pensar" id="ar-pensar-sec">
+        <h3>Para pensar</h3>
+        <p id="ar-pensar"></p>
+      </section>
+      <section class="ar-ir" id="ar-ir-sec">
+        <h3>Para profundizar</h3>
+        <div id="ar-ir"></div>
+      </section>
+      <section class="ar-conc" id="ar-conc-sec">
+        <h3>Concordancias</h3>
+        <p id="ar-conc"></p>
+      </section>
+      <section class="ar-leyenda">
+        <h3>Cómo leer</h3>
+        <p><span class="jesus">Rojo</span>: palabras de Jesús. <span class="excl">Negrita</span>: lo que solo registra este evangelio en un pasaje paralelo. <sup class="marca-demo">A</sup>: toca la letra para ir a su comentario. <span class="glosa-demo">Palabra en azul</span>: tócala para ver qué significa. <b>Recorrido de Jesús</b>: amplía el mapa y activa la opción para ver el camino que Jesús ha recorrido desde su bautismo hasta el pasaje que estás leyendo. <b>Coincidencias</b>: en los pasajes paralelos, resalta las palabras que comparten los evangelios.</p>
+        <p class="ar-nota-fechas" id="ar-nota-fechas"></p>
+      </section>
+    </aside>
+  </div>
+  <noscript><p style="padding:2rem">La armonía de los evangelios necesita JavaScript.</p></noscript>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  <script src="../assets/js/mapa-base.js"></script>
+  <script src="../assets/js/imperios-geo.js"></script>
+  <script src="../assets/js/mapa-imperios.js"></script>
+  <script src="../assets/js/mapa-detalle-palestina.js"></script>
+  <script src="palabras-jesus.js"></script>
+  <script src="data.js"></script>
+  <script src="../assets/js/citas.js"></script>
+  <script src="caminos.js"></script>
+  <script src="ruta-jesus.js"></script>
+  <script src="evangelios.js"></script>
+  <script src="../visor-bridge.js"></script>
+</body>
+</html>
