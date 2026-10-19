@@ -26,7 +26,7 @@ fuentes:
   - Ramsay, W. M. (1904). The Letters to the Seven Churches of Asia. Londres, Hodder and Stoughton.
   - Hemer, C. J. (1986). The Letters to the Seven Churches of Asia in Their Local Setting. Sheffield, JSOT Press.
   - Walvoord, J. F. (1966). The Revelation of Jesus Christ. Chicago, Moody Press.
-  - Horton, S. M. (1991). The Ultimate Victory: An Exposition of the Book of Revelation. Springfield, Gospel Publishing House.
+  - "Horton, S. M. (1991). The Ultimate Victory: An Exposition of the Book of Revelation. Springfield, Gospel Publishing House."
   - Pentecost, J. D. (1958). Things to Come. Grand Rapids, Zondervan.
   - Natural Earth, datos vectoriales 1:50m (naturalearthdata.com).
 revision:
