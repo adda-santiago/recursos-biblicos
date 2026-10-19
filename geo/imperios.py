@@ -276,6 +276,7 @@ LUGARES = {
   # Regiones de Hechos 2:9-11 (ubicación aproximada del centro de cada región)
   'r-partia': ['Partos', 36.5, 56.0], 'r-media': ['Medos', 35.0, 48.8], 'r-elam': ['Elamitas', 31.8, 48.6, 'bottom'],
   'r-mesopotamia': ['Mesopotamia', 33.6, 43.0], 'r-judea': ['Judea', 31.5, 35.1, 'left'],
+  'esmirna': ['Esmirna', 38.42, 27.14, 'left'], 'tiatira': ['Tiatira', 38.92, 27.84], 'filadelfia': ['Filadelfia', 38.35, 28.52], 'hierapolis': ['Hierápolis', 37.93, 29.12],
   'r-capadocia': ['Capadocia', 38.6, 35.4], 'r-ponto': ['Ponto', 40.7, 37.0], 'r-asia': ['Asia', 38.7, 28.2, 'left'],
   'r-frigia': ['Frigia', 39.0, 30.6, 'top'], 'r-panfilia': ['Panfilia', 37.0, 31.1, 'bottom'],
   'r-egipto': ['Egipto', 29.8, 31.0, 'left'], 'r-libia': ['África (Cirene)', 32.0, 21.5],
@@ -348,6 +349,8 @@ TRAZOS = {
   'jesus-nazaret': {'n': 'De Egipto a Nazaret (Mt 2:21-23), aproximado', 'l': [[30.4,31.5],[30.87,32.17],[31.13,33.8],[31.5,34.46],[32.0,34.85],[32.5,35.05],[32.7,35.3]]},
   'jesus-samaria': {'n': 'De Judea a Galilea por Samaria (Jn 4:3-4)', 'l': [[31.84,35.55],[31.95,35.4],[32.21,35.28],[32.5,35.3],[32.75,35.34]]},
   'jesus-jerusalen': {'n': 'Camino a Jerusalén por Perea y Jericó (Lc 9:51; 18:35)', 'l': [[32.7,35.3],[32.55,35.55],[32.2,35.58],[31.95,35.6],[31.87,35.44],[31.77,35.26],[31.778,35.235]]},
+  'siete-iglesias': {'n': 'Recorrido de las siete cartas',
+    'l': [[37.31,26.55],[37.94,27.34],[38.42,27.14],[39.12,27.18],[38.92,27.84],[38.49,28.04],[38.35,28.52],[37.84,29.11]]},
   'caida-539': {'n': 'Avance de Ciro, 539 a.C.',
     'l': [[34.80,48.52],[34.35,47.10],[34.0,45.6],[33.30,44.50],[33.06,44.25],[32.54,44.42]]},
 }

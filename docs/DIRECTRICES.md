@@ -1,6 +1,6 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.28 · 16 de octubre de 2026
+Versión 2.29 · 19 de octubre de 2026
 
 Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
 
@@ -9,6 +9,8 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 **Cambio de la versión 2.1:** nombre visible *Recursos Bíblicos*; taxonomía bíblica implementada (testamento, época, libro); las fichas pasan a `/{slug}/`.
 
 **Cambio de la versión 2.2:** cuando un recurso tiene más de una ruta, se eligen en un selector de ruta (lista desplegable) en lugar de pestañas y acordeones (§20).
+
+**Cambio de la versión 2.29:** tercer estudio de libro, Apocalipsis, con las rutas I a IV, la ruta de mapas Las siete iglesias de Asia y dos rutas de temas; los pasajes de las pestañas se copian de la RV 1960 del sitio al armar los datos (§9, §20).
 
 **Cambio de la versión 2.28:** recorrido de Jesús en el mapa ampliado de la armonía (red de caminos del siglo I, itinerario por pasaje), capa de detalle de Palestina en alta resolución y nuevas opciones del motor de mapas; Emaús a 60 estadios (§7, §20).
 
@@ -319,7 +321,7 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 
 | Enfoque | Qué responde | Recursos |
 |---|---|---|
-| Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel |
+| Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis |
 | Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
 | Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | Los últimos tiempos |
 | Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica |
@@ -348,6 +350,7 @@ Asignación actual:
 | El exilio y los retornos | Antiguo, Nuevo | Monarquía dividida, exilio, retorno | Levítico, Deuteronomio, 2 Reyes, 2 Crónicas, Esdras, Nehemías, Ester, Salmos, Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel, Amós, Hageo, Zacarías, Malaquías, Lucas, 1 Pedro |
 | El sacerdocio en Israel | Antiguo, Nuevo | Éxodo, jueces, monarquía unida, retorno, vida de Jesús | Éxodo, Levítico, Números, 1 Samuel, 1 Crónicas, Esdras, Zacarías, Malaquías, Salmos, Lucas, Hebreos, 1 Pedro, Apocalipsis |
 | Daniel | Antiguo, Nuevo | Exilio, retorno, intertestamentario, últimos tiempos | Daniel, Jeremías, Ezequiel, Isaías, 2 Reyes, Nehemías, Ester, Mateo, 2 Tesalonicenses, Apocalipsis |
+| Apocalipsis | Nuevo, Antiguo | Iglesia primitiva, últimos tiempos | Apocalipsis, Daniel, Ezequiel, Zacarías, Isaías, Génesis, Mateo, 1 y 2 Tesalonicenses |
 
 ## 10. Sin fines comerciales
 
@@ -536,6 +539,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Línea de tiempo inferior** opcional por ruta (`linea-tiempo.js`): hitos y un marcador que se desliza a la fecha de cada estación o de cada paso del mapa.
 - **Mapas** con `mapa-imperios.js`: capas por imperio y período, lugares, trazos animados y pasos dentro de una estación. Geografía compartida en `imperios-geo.js`, generada por `geo/imperios.py`. La capa «La iglesia» (`iglesia-30` a `iglesia-62`, color `--iglesia`) es acumulativa por etapas, se dibuja siempre encima de los imperios y marca zonas aproximadas alrededor de los lugares donde Hechos registra creyentes o iglesias; para ajustar una zona se edita la lista `ETAPAS_IGLESIA`. Para regenerar hace falta `geo/ne_50m_land.geojson` (Natural Earth), que no se sube al repositorio.
 - **Estudio de un libro bíblico.** Cuatro rutas fijas: I. Introducción y trasfondo, II. Visión panorámica, III. Comentario capítulo por capítulo (una estación por capítulo; un capítulo largo se divide) y IV. Teología del libro. Después van las rutas de mapas y de temas propias del libro, agrupadas en el selector como «Estudio del libro», «Mapas» y «Temas». Primer recurso: Hechos de los Apóstoles.
+- **Pasajes copiados de la Biblia del sitio.** En los estudios grandes, el contenido puede escribirse en partes (`herramientas/<recurso>/parte*.js`) con las pestañas de pasaje marcadas `'@@libro/capítulo/versículos'`; un script (referencia: `herramientas/apocalipsis_citas.py`) arma el `data.js` y copia el texto exacto de `public/biblia/rv1960`. Así el pasaje mostrado nunca difiere de la versión. Para corregir el texto se editan las partes y se vuelve a correr el script, no el `data.js`.
 - **Recursos generales.** Cuando un tema sirve a varios libros (por ejemplo, los viajes de Pablo para Hechos y las cartas), se crea como recurso aparte y el estudio del libro lo resume en una ruta puente.
 - **Texto:** entre 250 y 450 palabras por estación; si necesita más, se divide. Cada estación cierra con **Para pensar**, siempre desde el texto bíblico y la línea doctrinal pentecostal clásica de las Asambleas de Dios, sin mencionarla.
 - **Historia y texto bíblico.** Cuando una fuente histórica parece diferir del relato bíblico, o dos textos bíblicos dan datos distintos, se usa el bloque de dos posturas (`posturas`) con ambas versiones y cómo se entienden; nunca se presenta el texto bíblico como error. En temas doctrinales prevalece la línea de las Asambleas de Dios.
@@ -692,6 +696,9 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-16 | Recorrido de Jesús como opción del mapa ampliado: por los caminos de la época (no en línea recta), suavizado, desde el bautismo, con colores por etapa en paralelo, distancia, leyenda y ciudades que muestran sus pasajes | Ver cuánto caminó Jesús y cómo todo converge en Jerusalén; el mapa pequeño queda como referencia del dónde |
 | 2026-10-16 | Capa de detalle de Palestina (Natural Earth 1:10m) solo para la armonía, con el mar de Galilea, el mar Muerto del siglo I y el lago Hula | El mapa base 1:50m no tenía los lagos ni el detalle necesario para seguir los recorridos |
 | 2026-10-16 | Emaús se ubica a unos 11 km de Jerusalén (El-Qubeibeh, aproximado) en lugar de Nicópolis | Lucas 24:13 indica «sesenta estadios» |
+| 2026-10-19 | Apocalipsis: estudio de libro con siete rutas (I a IV, Las siete iglesias de Asia y dos de temas), apoyado en Los últimos tiempos; lectura futurista, premilenial y pretribulacional | Mismo modelo que Hechos y Daniel; la cronología de los eventos del fin vive en un solo recurso y aquí se resume |
+| 2026-10-19 | La geografía compartida suma Esmirna, Tiatira, Filadelfia y Hierápolis, y el trazo «siete-iglesias» | La ruta de las siete iglesias y los mapas de las cartas |
+| 2026-10-19 | En las visiones, Cristo glorificado se ilustra con el rostro oculto por la luz | Evitar representar su rostro en escenas de gloria (Ap 1:16), en línea con el criterio de no confundir ilustración con revelación |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
