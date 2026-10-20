@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Examinadlo todo; retened lo bueno</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Tres preguntas para examinar una experiencia espiritual (1 Ts 5:21)</text>
+<rect x="70" y="160" width="330" height="300" rx="14" fill="#fff" stroke="#b03a2e" stroke-width="2"/>
+<circle cx="235" cy="215" r="30" fill="#b03a2e"/>
+<text x="235" y="225" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="235" y="295" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">¿Concuerda con</text>
+<text x="235" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">la Escritura?</text>
+<text x="235" y="375" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Ni un ángel puede</text>
+<text x="235" y="398" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">anunciar otro evangelio</text>
+<text x="235" y="435" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#b03a2e" text-anchor="middle" font-weight="normal" font-style="italic">Gá 1:8; Is 8:20</text>
+<line x1="235" y1="462" x2="235" y2="545" stroke="#b03a2e" stroke-width="4" marker-end="url(#fl)"/>
+<rect x="435" y="160" width="330" height="300" rx="14" fill="#fff" stroke="#c08a1e" stroke-width="2"/>
+<circle cx="600" cy="215" r="30" fill="#c08a1e"/>
+<text x="600" y="225" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="600" y="295" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">¿Glorifica a</text>
+<text x="600" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Cristo?</text>
+<text x="600" y="375" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">El Espíritu</text>
+<text x="600" y="398" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">«me glorificará»</text>
+<text x="600" y="435" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c08a1e" text-anchor="middle" font-weight="normal" font-style="italic">Jn 16:14; 1 Jn 4:2</text>
+<line x1="600" y1="462" x2="600" y2="545" stroke="#c08a1e" stroke-width="4" marker-end="url(#fl)"/>
+<rect x="800" y="160" width="330" height="300" rx="14" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<circle cx="965" cy="215" r="30" fill="#2f7d4a"/>
+<text x="965" y="225" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="965" y="295" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">¿Produce el fruto</text>
+<text x="965" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">del Espíritu?</text>
+<text x="965" y="375" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Amor, gozo, paz… y</text>
+<text x="965" y="398" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">orden, no confusión</text>
+<text x="965" y="435" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2f7d4a" text-anchor="middle" font-weight="normal" font-style="italic">Gá 5:22-23; 1 Co 14:33</text>
+<line x1="965" y1="462" x2="965" y2="545" stroke="#2f7d4a" stroke-width="4" marker-end="url(#fl)"/>
+<rect x="70" y="555" width="1060" height="90" rx="14" fill="#1f2430"/>
+<text x="600" y="595" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="normal">La Escritura: la norma que juzga toda experiencia</text>
+<text x="600" y="625" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#e8e4da" text-anchor="middle" font-weight="normal" font-style="italic">«Mas esto es lo dicho por el profeta Joel» (Hch 2:16)</text>
+<text x="600" y="715" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">La experiencia se somete a la Palabra; la Palabra no se somete a la experiencia.</text>
+</svg>

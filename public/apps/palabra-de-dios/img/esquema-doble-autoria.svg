@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Un texto, dos autores</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">«Los santos hombres de Dios hablaron siendo inspirados por el Espíritu Santo» (2 P 1:21)</text>
+<rect x="70" y="170" width="380" height="250" rx="14" fill="#f6dcd8"/>
+<text x="260" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#b03a2e" text-anchor="middle" font-weight="bold">El Espíritu Santo</text>
+<text x="260" y="248" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">autor divino</text>
+<text x="100" y="290" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Origen: el texto es «exhalado por Dios»</text>
+<text x="100" y="322" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Verdad: sin error en lo que afirma</text>
+<text x="100" y="354" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Autoridad: lo que dice, Dios lo dice</text>
+<text x="100" y="386" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Unidad: un solo Autor en 66 libros</text>
+<rect x="750" y="170" width="380" height="250" rx="14" fill="#dde8f3"/>
+<text x="940" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2a6fb0" text-anchor="middle" font-weight="bold">El autor humano</text>
+<text x="940" y="248" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Moisés, David, Isaías, Lucas, Pablo…</text>
+<text x="780" y="290" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Lengua: hebreo, arameo, griego</text>
+<text x="780" y="322" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Estilo y vocabulario propios</text>
+<text x="780" y="354" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Investigación y memoria (Lc 1:1-4)</text>
+<text x="780" y="386" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Su época, cultura y circunstancias</text>
+<path d="M260,425 C260,500 520,500 560,540" fill="none" stroke="#b03a2e" stroke-width="5" marker-end="url(#fl)"/>
+<path d="M940,425 C940,500 680,500 640,540" fill="none" stroke="#2a6fb0" stroke-width="5" marker-end="url(#fl)"/>
+<rect x="380" y="550" width="440" height="110" rx="14" fill="#1f2430"/>
+<text x="600" y="595" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#fff" text-anchor="middle" font-weight="normal">La Escritura</text>
+<text x="600" y="630" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#e8e4da" text-anchor="middle" font-weight="normal">plenamente Palabra de Dios y plenamente escrito humano</text>
+<text x="600" y="715" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Porque es divina, se obedece; porque es humana en su forma, se estudia.</text>
+</svg>

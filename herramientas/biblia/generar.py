@@ -67,6 +67,7 @@ CORRECCIONES = [
     ('rv1960', 'lc', 16, 2, 'de tí', 'de ti'),
     ('rv1960', 'est', 2, 7, 'húerfana', 'huérfana'),
     ('rv1960', 'dn', 7, 6, 'tembién', 'también'),
+    ('rv1960', '1co', 1, 7, 'nuesto', 'nuestro'),
 ]
 
 def limpiar(t):

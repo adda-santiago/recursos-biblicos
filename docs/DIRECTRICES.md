@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.30 · 20 de octubre de 2026
+Versión 2.31 · 20 de octubre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.31:** segundo recurso de la ola 0, La Palabra de Dios (revelación, inspiración, canon y autoridad de la Escritura), con cuatro rutas y 27 estaciones. Registro de personajes de Flow en la hoja «Personajes Flow» de la planilla del plan, que se consulta antes de escribir los prompts. Las imágenes «cinematográficas realistas» se piden como fotograma fotorrealista de película, nunca como ilustración (§20, §25).
 
 **Cambio de la versión 2.30:** este documento absorbe el antiguo archivo de contexto (`CONTEXTO-RECURSOS-BIBLICOS.md`) y queda como documento único: público y línea teológica (§1), forma de trabajo con Claude (§25), plan de publicación (§20) y texto de la solicitud de la RV 1960 (anexo A). Nuevo enfoque «Herramientas de estudio», exento de época (§8, §9). Nuevo bloque de ejercicios de opción múltiple en las rutas de estudio (§20). Primer recurso de la ola 0: Cómo interpretar la Biblia, con cinco rutas y 35 estaciones; los pasajes largos del panel visual usan letra menor y se desplazan. Google Fonts y Leaflet desde cdnjs se aceptan como servicios externos (§5).
 
@@ -167,7 +169,7 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 │  │  ├─ tabernaculo/ templo-salomon/ templo-herodes/ sumo-sacerdote/   (3D, §7 y §20)
 │  │  ├─ evangelios/         plantilla de armonía (§7)
 │  │  ├─ imperio-*/ egipto/ imperios-historia/ exilio/ escatologia/ sacerdocio/
-│  │  │  viajes-pablo/ hechos/ daniel/ apocalipsis/ interpretar-biblia/   (rutas de estudio: index.html, data.js, img/)
+│  │  │  viajes-pablo/ hechos/ daniel/ apocalipsis/ interpretar-biblia/ palabra-de-dios/   (rutas de estudio: index.html, data.js, img/)
 │  │  ├─ adn/ motor-combustion/ viajes-colon/ segunda-guerra-mundial/   (fichas ocultas, §1)
 │  ├─ biblia/                texto bíblico: versiones.json, indice.json y {versión}/{libro}/{capítulo}.json
 │  └─ robots.txt             sin efecto mientras el sitio esté en subcarpeta (§19)
@@ -175,7 +177,7 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 ├─ geo/palestina.py         genera assets/js/mapa-detalle-palestina.js (Natural Earth 1:10m)
 ├─ herramientas/biblia/     generar.py: genera public/biblia/ desde las fuentes (fuentes/ no se sube al repositorio)
 ├─ herramientas/            verificar_citas.py (citas textuales contra la RV 1960), esquemas_*.py (SVG propios),
-│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar)
+│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra)
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
 │  ├─ data/taxonomia.ts      vocabulario controlado (§9)
@@ -340,7 +342,7 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 |---|---|---|
 | Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis, Armonía de los evangelios |
 | Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
-| Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | Los últimos tiempos |
+| Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | La Palabra de Dios, Los últimos tiempos |
 | Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica |
 | Herramientas de estudio | ¿Cómo leo, interpreto y enseño la Biblia por mi cuenta? | Cómo interpretar la Biblia; después, lenguas (hebreo y griego), interlineales, pesos y medidas, taller de sermón |
 
@@ -373,6 +375,7 @@ Asignación actual:
 | Daniel | Antiguo, Nuevo | Exilio, retorno, intertestamentario, últimos tiempos | Daniel, Jeremías, Ezequiel, Isaías, 2 Reyes, Nehemías, Ester, Mateo, 2 Tesalonicenses, Apocalipsis |
 | Apocalipsis | Nuevo, Antiguo | Iglesia primitiva, últimos tiempos | Apocalipsis, Daniel, Ezequiel, Zacarías, Isaías, Génesis, Mateo, 1 y 2 Tesalonicenses |
 | Cómo interpretar la Biblia | Antiguo, Nuevo | Ninguna (herramientas de estudio) | Nehemías, Jeremías, Lucas, Hechos, 1 Corintios, 2 Timoteo, 2 Pedro |
+| La Palabra de Dios | Antiguo, Nuevo | Éxodo, retorno, intertestamentario, iglesia primitiva (formación del canon) | Deuteronomio, Salmos, Jeremías, Lucas, Juan, Hechos, 1 Corintios, 2 Timoteo, Hebreos, 2 Pedro, Judas, Apocalipsis |
 
 ## 10. Sin fines comerciales
 
@@ -578,7 +581,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Texto:** entre 250 y 450 palabras por estación; si necesita más, se divide. Cada estación cierra con **Para pensar**, siempre desde el texto bíblico y la línea doctrinal pentecostal clásica de las Asambleas de Dios, sin mencionarla.
 - **Historia y texto bíblico.** Cuando una fuente histórica parece diferir del relato bíblico, o dos textos bíblicos dan datos distintos, se usa el bloque de dos posturas (`posturas`) con ambas versiones y cómo se entienden; nunca se presenta el texto bíblico como error. En temas doctrinales prevalece la línea de las Asambleas de Dios.
 - **Recursos complementarios** (cada imperio, el exilio, el esquema escatológico) hablan de todos los libros donde aparece el tema, no solo del libro que los originó. Los recursos históricos incluyen además su legado (aportes, costumbres, inventos), verificado.
-- **Imágenes:** ilustraciones cinematográficas realistas generadas con IA, en 4:3, con el tema al centro; `foco` ajusta el recorte. Un objeto arqueológico real nunca se representa con una imagen generada: se usa una foto con licencia verificada o una escena que no se confunda con evidencia. Los prompts para Google Flow van en inglés y completos (estilo, formato 4:3 y restricciones dentro del prompt). Los personajes que se repiten (Pablo, Pedro, etc.) se crean como personajes de Flow, y cada prompt de escena los nombra igual que en Flow e indica cuáles adjuntar. Si un personaje aparece en distintas etapas de su vida, se crea un personaje de Flow por etapa, con su propio nombre (Daniel-joven y Daniel-anciano, José-joven y José-adulto), y la escena usa el de la etapa que corresponde. Una portada generada en 4:3 se recorta al centro a 16:9 (1200×675), con su `-640.webp` y su `.jpg`. Los diagramas propios (esquemas, líneas proféticas) se dibujan en SVG con un script en `herramientas/` y se declaran con `origen: 'esquema'`: el motor los muestra completos, sin recorte, con el pie «Esquema del recurso».
+- **Imágenes:** imágenes fotorrealistas generadas con IA, como fotogramas de una película histórica (nunca ilustración, pintura ni render), en 4:3, con el tema al centro; `foco` ajusta el recorte. Un objeto arqueológico real nunca se representa con una imagen generada: se usa una foto con licencia verificada o una escena que no se confunda con evidencia. Los prompts para Google Flow van en inglés y completos (estilo, formato 4:3 y restricciones dentro del prompt). Toda persona bíblica con nombre que aparece en una escena es un personaje de Flow, aunque se use por primera vez: se crea con un prompt de referencia (foto de estudio de una persona real con vestuario), y cada prompt de escena la nombra igual que en Flow e indica cuáles adjuntar. Las personas anónimas (una multitud, un pastor) se declaran anónimas en el prompt. El registro de personajes vive en la hoja «Personajes Flow» de la planilla del plan (nombre en Flow, persona bíblica, etapa, rasgos fijos, recursos y estado); se consulta antes de escribir los prompts y se actualiza en cada recurso. Jesús se crea solo de espaldas (Jesús-adulto-espalda): su rostro no se muestra. Si un personaje aparece en distintas etapas de su vida, se crea un personaje de Flow por etapa, con su propio nombre (Daniel-joven y Daniel-anciano, José-joven y José-adulto), y la escena usa el de la etapa que corresponde. Una portada generada en 4:3 se recorta al centro a 16:9 (1200×675), con su `-640.webp` y su `.jpg`. Los diagramas propios (esquemas, líneas proféticas) se dibujan en SVG con un script en `herramientas/` y se declaran con `origen: 'esquema'`: el motor los muestra completos, sin recorte, con el pie «Esquema del recurso».
 
 ### Pendientes
 
@@ -604,7 +607,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Recursos según el plan de publicación (§20): 23 de 134 publicados al 20 de octubre de 2026; se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Recursos según el plan de publicación (§20): 24 de 134 publicados al 20 de octubre de 2026; se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, enlace directo a estaciones (`fyp:ir-a`) | Uso sostenido medible |
 
@@ -743,6 +746,11 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-20 | Claude actualiza el estado de la planilla del plan de publicación en cada entrega | El avance queda al día sin trabajo manual |
 | 2026-10-20 | Primer recurso de la ola 0: Cómo interpretar la Biblia (publicado el mismo día), con rutas I. Fundamentos, II. El método, III. Los géneros literarios, IV. Errores comunes y Taller práctico; imágenes mixtas (esquemas SVG y pocas escenas de Flow) | Es la base de los demás recursos de fundamentos y de los estudios de libro |
 | 2026-10-20 | El panel de pasaje de las rutas usa letra menor sobre ~400 caracteres y se desplaza si no cabe | Los pasajes del taller (seis a nueve versículos) se cortaban por arriba |
+| 2026-10-20 | La Palabra de Dios: recurso de teología sistemática con las rutas I. La revelación, II. La inspiración, III. El canon (con línea de tiempo) y IV. Autoridad y suficiencia; inspiración verbal y plenaria, inerrancia y canon hebreo para el AT, con las posturas contrarias en bloques `posturas` | Segundo recurso de la ola 0; base de De la Biblia a nosotros y de Dios y la Trinidad |
+| 2026-10-20 | Canon cerrado y dones del Espíritu vigentes: la profecía de hoy edifica y se juzga por la Escritura, sin su autoridad | Postura continuista de las Asambleas de Dios frente al cesacionismo |
+| 2026-10-20 | Corregida la errata «nuesto» en 1 Corintios 1:7 (RV 1960), registrada en `CORRECCIONES` | Apareció al revisar las citas de La Palabra de Dios |
+| 2026-10-20 | Hoja «Personajes Flow» en la planilla del plan como registro de personajes; toda persona bíblica con nombre en una escena es un personaje de Flow | Varios prompts nombraban personas sin crear ni adjuntar su personaje |
+| 2026-10-20 | Las imágenes se piden como fotograma fotorrealista de película, no como «illustration» | Con «cinematic realistic illustration», Flow generaba ilustraciones |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
@@ -776,9 +784,9 @@ Reglas para trabajar con Claude en este proyecto (antes vivían en el archivo de
 
 ### Imágenes (Google Flow)
 
-- Claude pide las imágenes que necesita entregando el prompt en **inglés**, completo y listo para copiar y pegar, sin nada que agregar (estilo cinematográfico realista, 4:3, restricciones dentro del prompt). Cada recurso incluye además el prompt de su portada.
-- Personajes recurrentes como personajes de Flow: Claude entrega el prompt de cada personaje, indica cuáles van en cada imagen y los nombra en el prompt de escena. Un personaje por etapa de vida (§20, Imágenes).
-- Las imágenes se suben al chat, no a GitHub. Claude las optimiza (WebP, recortes, versiones -640 y .jpg de la portada) y las integra en el ZIP.
+- Claude pide las imágenes que necesita entregando el prompt en **inglés**, completo y listo para copiar y pegar, sin nada que agregar (fotograma fotorrealista de película, 4:3, restricciones dentro del prompt). El prompt empieza con «Photorealistic film still…» y termina excluyendo ilustración, pintura, concept art, arte digital y render 3D: la palabra «illustration» al comienzo hace que Flow dibuje. Cada recurso incluye además el prompt de su portada.
+- Personajes como personajes de Flow: antes de escribir los prompts, Claude revisa la hoja «Personajes Flow»; reutiliza los que existen, entrega el prompt de los nuevos, indica cuáles van en cada imagen, los nombra en el prompt de escena y actualiza la hoja. Un personaje por etapa de vida (§20, Imágenes).
+- Las imágenes se suben al chat (sueltas o en un ZIP, con dos variantes por escena cuando las haya), no a GitHub. Claude elige la variante, las optimiza (WebP, recortes, versiones -640 y .jpg de la portada) y las integra en el ZIP.
 
 ## Anexo A. Solicitud de permiso de la RV 1960
 
