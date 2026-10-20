@@ -1,6 +1,6 @@
-# Aula Visual (nombre provisional)
+# Recursos Bíblicos
 
-Modelos 3D, mapas y líneas de tiempo interactivas para estudiar y enseñar.
+Mapas, modelos 3D, líneas de tiempo y rutas de estudio interactivas para profundizar en el estudio de la Biblia.
 Las reglas del proyecto están en [`docs/DIRECTRICES.md`](docs/DIRECTRICES.md): léelas antes de agregar un recurso.
 
 ```bash

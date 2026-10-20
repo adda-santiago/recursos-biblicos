@@ -127,7 +127,9 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 .re-tabla tbody th { font-weight: 600; }
 .re-nota { font: 0.78rem/1.5 var(--sans); color: var(--muted); margin: 0.75rem 0 0; }
 
-.re-cita { display: grid; place-content: center; padding: 4rem clamp(1.5rem, 6vw, 5rem); }
+.re-cita { display: grid; place-content: safe center; overflow-y: auto; padding: 4rem clamp(1.5rem, 6vw, 5rem); }
+/* Pasajes largos (más de ~400 caracteres): letra menor para que quepan; si aun así no caben, el panel se desplaza */
+.re-cita.largo p { font-size: clamp(1.1rem, 1.7vw, 1.4rem); max-width: 44ch; }
 .re-cita p { font: 400 clamp(1.4rem, 2.6vw, 2.1rem)/1.45 var(--serif); margin: 0; max-width: 34ch; }
 .re-cita footer { font: 600 0.85rem var(--sans); color: var(--accent); margin-top: 1rem; }
 
@@ -222,3 +224,29 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 /* Esquemas propios (origen: 'esquema'): se ven completos, sin recorte, sobre fondo claro */
 .re-img.re-esquema { background: #f6f3ec; }
 .re-img.re-esquema img { object-fit: contain; padding: 0.5rem 0.5rem 4.2rem; box-sizing: border-box; }
+
+/* ---------- Ejercicios de opción múltiple (v2.30) ---------- */
+.re-app { --ej-ok: #2d7a4c; --ej-no: #b4472c; }
+:root[data-theme="dark"] .re-app { --ej-ok: #73c493; --ej-no: #ec8b70; }
+.re-ej { max-width: 38rem; margin: 0.6rem 0 1.5rem; border: 1px solid var(--line); border-radius: 10px; padding: 0.95rem 1.05rem 1rem; }
+.re-ej-tit { font: 600 0.72rem var(--sans); color: var(--accent); margin: 0 0 0.3rem; letter-spacing: .02em; text-transform: uppercase; }
+.re-ej-preg { font: 500 1.08rem/1.45 var(--serif); margin: 0 0 0.8rem; }
+.re-ej-ops { display: grid; gap: 0.5rem; }
+.re-ej-op { display: flex; gap: 0.7rem; align-items: flex-start; width: 100%; text-align: left; cursor: pointer;
+  font: 400 1rem/1.45 var(--serif); color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 0.6rem 0.75rem; }
+.re-ej-op:hover:not(:disabled) { border-color: var(--accent); }
+.re-ej-op:disabled { cursor: default; opacity: 0.55; }
+.re-ej-letra { flex: none; font: 600 0.78rem/1.6rem var(--sans); width: 1.6rem; height: 1.6rem; text-align: center; border-radius: 50%; border: 1px solid var(--line); color: var(--muted); }
+.re-ej-op.ok, .re-ej-op.ok:hover { border-color: var(--ej-ok); opacity: 1; background: color-mix(in srgb, var(--ej-ok) 9%, transparent); }
+.re-ej-op.ok { cursor: default; }
+.re-ej-op.ok .re-ej-letra { background: var(--ej-ok); border-color: var(--ej-ok); color: var(--bg); }
+.re-ej-op.no { border-color: var(--ej-no); opacity: 1; text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--ej-no) 60%, transparent); }
+.re-ej-op.no .re-ej-letra { border-color: var(--ej-no); color: var(--ej-no); }
+.re-ej-fb { margin-top: 0.8rem; padding: 0.75rem 0.9rem; border-radius: 8px; font-size: 0.99rem; line-height: 1.55; }
+.re-ej-fb[hidden] { display: none; }
+.re-ej-fb.ok { border-left: 3px solid var(--ej-ok); background: color-mix(in srgb, var(--ej-ok) 8%, transparent); }
+.re-ej-fb.no { border-left: 3px solid var(--ej-no); background: color-mix(in srgb, var(--ej-no) 8%, transparent); }
+.re-ej-fb b { font: 600 0.85rem var(--sans); }
+.re-ej-fb.ok b { color: var(--ej-ok); } .re-ej-fb.no b { color: var(--ej-no); }
+.re-ej-fb p { margin: 0.55rem 0 0; font-size: inherit; line-height: inherit; }
+.re-ej-fb small { display: block; margin-top: 0.4rem; font: 500 0.78rem var(--sans); color: var(--muted); }

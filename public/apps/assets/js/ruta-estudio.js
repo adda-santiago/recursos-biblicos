@@ -22,6 +22,11 @@
          texto: ['párrafo', { h: 'subtítulo' },
                  { posturas: { titulo, a: { n, t }, b: { n, t }, c } }, ...],  // dos posturas y cómo se entienden
                 // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa
+                // { ejercicio: { pregunta, opciones: [{ t, ok, por_que }], explicacion } }: opción múltiple.
+                //   Una sola opción con ok: true. Al tocar una opción se muestra su por_que; si es la correcta,
+                //   también la explicación general y se cierran las demás. Se puede reintentar.
+                //   No hay puntaje ni se guarda nada. El texto de las opciones no lleva referencias bíblicas
+                //   (no se vuelven burbuja); van en por_que o en la explicación.
          pensar: 'pregunta'
        }]
      }]
@@ -197,6 +202,8 @@
       $('re-tabla').hidden = false;
     } else if (v.tipo === 'cita') {
       $('re-cita').innerHTML = `<p>${esc(v.texto)}</p><footer>${esc(v.ref)}</footer>`;
+      $('re-cita').classList.toggle('largo', String(v.texto).length > 400);
+      $('re-cita').scrollTop = 0;
       $('re-cita').hidden = false;
     }
   }
@@ -271,12 +278,17 @@
     $('re-titulo').textContent = e.n;
     $('re-ref').textContent = e.ref || '';
     $('re-ref').hidden = !e.ref;
-    $('re-parrafos').innerHTML = (e.texto || []).map(t => {
+    $('re-parrafos').innerHTML = (e.texto || []).map((t, k) => {
       if (typeof t === 'string') return `<p>${esc(t)}</p>`;
       if (t.h) return `<h2>${esc(t.h)}</h2>`;
       if (t.posturas) { const q = t.posturas; return `<section class="re-posturas"><h3>${esc(q.titulo)}</h3>
         <div class="re-pos2"><div><b>${esc(q.a.n)}</b><p>${esc(q.a.t)}</p></div><div><b>${esc(q.b.n)}</b><p>${esc(q.b.t)}</p></div></div>
         ${q.c ? `<div class="re-pos-c"><b>Cómo se entiende</b><p>${esc(q.c)}</p></div>` : ''}</section>`; }
+      if (t.ejercicio) { const q = t.ejercicio; return `<section class="re-ej" data-k="${k}">
+        <p class="re-ej-tit">Ejercicio</p><p class="re-ej-preg">${esc(q.pregunta)}</p>
+        <div class="re-ej-ops no-citas" role="group" aria-label="Opciones">${q.opciones.map((o, j) =>
+          `<button type="button" class="re-ej-op" data-o="${j}"><span class="re-ej-letra" aria-hidden="true">${'ABCDEFG'[j]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
+        <div class="re-ej-fb" aria-live="polite" hidden></div></section>`; }
       if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}" target="_top">${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
       return '';
     }).join('');
@@ -294,6 +306,27 @@
       history.replaceState(null, '', `#${ruta.id}/${idx + 1}`);
     }
   }
+  /* ---------------- Ejercicios ---------------- */
+  $('re-parrafos').addEventListener('click', ev => {
+    const b = ev.target.closest('.re-ej-op');
+    if (!b || b.disabled || b.classList.contains('ok')) return;
+    const sec = b.closest('.re-ej');
+    const q = (est().texto || [])[+sec.dataset.k];
+    if (!q || !q.ejercicio) return;
+    const o = q.ejercicio.opciones[+b.dataset.o];
+    sec.querySelectorAll('.re-ej-op').forEach(x => { if (!x.classList.contains('no')) x.classList.remove('elegida'); });
+    b.classList.add(o.ok ? 'ok' : 'no', 'elegida');
+    b.setAttribute('aria-pressed', 'true');
+    const fb = sec.querySelector('.re-ej-fb');
+    fb.className = `re-ej-fb ${o.ok ? 'ok' : 'no'}`;
+    fb.innerHTML = `<b>${o.ok ? 'Correcto.' : 'No exactamente.'}</b>${o.por_que ? ` ${esc(o.por_que)}` : ''}`
+      + (o.ok && q.ejercicio.explicacion ? `<p>${esc(q.ejercicio.explicacion)}</p>` : '')
+      + (o.ok ? '' : '<small>Prueba con otra opción.</small>');
+    fb.hidden = false;
+    if (o.ok) sec.querySelectorAll('.re-ej-op').forEach(x => { if (x !== b) x.disabled = true; });
+    else b.disabled = true;
+  });
+
   $('re-ant').addEventListener('click', () => ir(ruta.id, idx - 1));
   $('re-sig').addEventListener('click', () => ir(ruta.id, idx + 1));
   document.addEventListener('keydown', e => {

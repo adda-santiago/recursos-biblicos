@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">La perspectiva profética</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">De lejos, el profeta ve dos cumbres como una sola</text>
+<circle cx="110" cy="470" r="16" fill="#1f2430"/><path d="M110,486 L110,560 M110,505 L86,535 M110,505 L134,535 M110,560 L92,610 M110,560 L128,610" stroke="#1f2430" stroke-width="5" fill="none" stroke-linecap="round"/>
+<text x="110" y="650" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">El profeta</text>
+<text x="110" y="672" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Isaías 61:1-2</text>
+<line x1="128" y1="470" x2="560" y2="300" stroke="#c9c6be" stroke-width="2" stroke-dasharray="8 8"/><line x1="128" y1="470" x2="1000" y2="290" stroke="#c9c6be" stroke-width="2" stroke-dasharray="8 8"/>
+<path d="M380,610 L560,290 L740,610 Z" fill="#2a6fb0" opacity="0.85"/>
+<text x="560" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Primera venida</text>
+<text x="560" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">«El año de la buena voluntad</text>
+<text x="560" y="672" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">de Jehová» · cumplido (Lc 4:21)</text>
+<path d="M820,610 L1000,280 L1170,610 Z" fill="#9e2b25" opacity="0.85"/>
+<text x="1000" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">Venida en gloria</text>
+<text x="1000" y="650" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">«El día de venganza</text>
+<text x="1000" y="672" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">del Dios nuestro» · por cumplirse</text>
+<path d="M740,610 Q780,560 820,610 Z" fill="#2f7d4a" opacity="0.6"/>
+<rect x="700" y="400" width="160" height="70" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="780" y="428" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f7d4a" text-anchor="middle" font-weight="bold">El valle:</text>
+<text x="780" y="452" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f7d4a" text-anchor="middle" font-weight="normal">la era de la iglesia</text>
+<line x1="780" y1="472" x2="780" y2="585" stroke="#2f7d4a" stroke-width="2" marker-end="url(#fl)"/>
+<text x="600" y="735" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jesús leyó Isaías 61 y se detuvo antes del «día de venganza»</text>
+</svg>

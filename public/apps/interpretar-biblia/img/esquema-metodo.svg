@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El método en tres pasos</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Esdras 7:10: inquirir, cumplir y enseñar</text>
+<rect x="60" y="160" width="320" height="470" rx="16" fill="#fff" stroke="#2a6fb0" stroke-width="3"/>
+<rect x="60" y="160" width="320" height="120" rx="16" fill="#2a6fb0"/><rect x="60" y="250" width="320" height="30" fill="#2a6fb0"/>
+<circle cx="110" cy="220" r="28" fill="#fff"/>
+<text x="110" y="231" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2a6fb0" text-anchor="middle" font-weight="bold">1</text>
+<text x="250" y="213" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#fff" text-anchor="middle" font-weight="normal">Observación</text>
+<text x="250" y="248" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">¿Qué dice?</text>
+<circle cx="94" cy="338" r="6" fill="#2a6fb0"/>
+<text x="112" y="345" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Quién habla y a quién?</text>
+<circle cx="94" cy="408" r="6" fill="#2a6fb0"/>
+<text x="112" y="415" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Qué pasa, dónde, cuándo?</text>
+<circle cx="94" cy="478" r="6" fill="#2a6fb0"/>
+<text x="112" y="485" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Qué palabras se repiten?</text>
+<circle cx="94" cy="548" r="6" fill="#2a6fb0"/>
+<text x="112" y="555" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Qué conectores hay?</text>
+<line x1="386" y1="395" x2="432" y2="395" stroke="#1f2430" stroke-width="4" marker-end="url(#fl)"/>
+<rect x="440" y="160" width="320" height="470" rx="16" fill="#fff" stroke="#c08a1e" stroke-width="3"/>
+<rect x="440" y="160" width="320" height="120" rx="16" fill="#c08a1e"/><rect x="440" y="250" width="320" height="30" fill="#c08a1e"/>
+<circle cx="490" cy="220" r="28" fill="#fff"/>
+<text x="490" y="231" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#c08a1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="630" y="213" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#fff" text-anchor="middle" font-weight="normal">Interpretación</text>
+<text x="630" y="248" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">¿Qué significa?</text>
+<circle cx="474" cy="338" r="6" fill="#c08a1e"/>
+<text x="492" y="345" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Contexto literario</text>
+<circle cx="474" cy="408" r="6" fill="#c08a1e"/>
+<text x="492" y="415" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Contexto histórico y cultural</text>
+<circle cx="474" cy="478" r="6" fill="#c08a1e"/>
+<text x="492" y="485" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Palabras y género</text>
+<circle cx="474" cy="548" r="6" fill="#c08a1e"/>
+<text x="492" y="555" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Toda la Escritura y Cristo</text>
+<line x1="766" y1="395" x2="812" y2="395" stroke="#1f2430" stroke-width="4" marker-end="url(#fl)"/>
+<rect x="820" y="160" width="320" height="470" rx="16" fill="#fff" stroke="#2f7d4a" stroke-width="3"/>
+<rect x="820" y="160" width="320" height="120" rx="16" fill="#2f7d4a"/><rect x="820" y="250" width="320" height="30" fill="#2f7d4a"/>
+<circle cx="870" cy="220" r="28" fill="#fff"/>
+<text x="870" y="231" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2f7d4a" text-anchor="middle" font-weight="bold">3</text>
+<text x="1010" y="213" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#fff" text-anchor="middle" font-weight="normal">Aplicación</text>
+<text x="1010" y="248" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">¿Cómo lo vivo?</text>
+<circle cx="854" cy="338" r="6" fill="#2f7d4a"/>
+<text x="872" y="345" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Qué enseña de Dios?</text>
+<circle cx="854" cy="408" r="6" fill="#2f7d4a"/>
+<text x="872" y="415" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Hay promesa o mandato?</text>
+<circle cx="854" cy="478" r="6" fill="#2f7d4a"/>
+<text x="872" y="485" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Qué debo cambiar?</text>
+<circle cx="854" cy="548" r="6" fill="#2f7d4a"/>
+<text x="872" y="555" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">¿Qué haré esta semana?</text>
+<text x="600" y="700" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Antes de todo, orar: «Abre mis ojos, y miraré las maravillas de tu ley» (Sal 119:18)</text>
+</svg>

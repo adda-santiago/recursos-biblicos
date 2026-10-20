@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Exégesis y eiségesis</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Sacar del texto su sentido, o meter en el texto nuestras ideas</text>
+<rect x="40" y="190" width="220" height="160" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="150" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">El texto</text>
+<text x="150" y="292" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">bíblico</text>
+<rect x="540" y="190" width="220" height="160" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="650" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">El lector</text>
+<text x="650" y="292" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">y sus ideas</text>
+<line x1="270" y1="270" x2="528" y2="270" stroke="#2f7d4a" stroke-width="8" marker-end="url(#fl)"/>
+<text x="400" y="245" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Exégesis</text>
+<text x="400" y="308" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f7d4a" text-anchor="middle" font-weight="normal" font-style="italic">«sacar afuera»</text>
+<circle cx="805" cy="234" r="6" fill="#2f7d4a"/>
+<text x="822" y="240" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">El sentido sale del texto</text>
+<circle cx="805" cy="272" r="6" fill="#2f7d4a"/>
+<text x="822" y="278" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">El lector escucha</text>
+<circle cx="805" cy="310" r="6" fill="#2f7d4a"/>
+<text x="822" y="316" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">El texto corrige al lector</text>
+<rect x="40" y="450" width="220" height="160" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="150" y="522" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">El texto</text>
+<text x="150" y="552" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">bíblico</text>
+<rect x="540" y="450" width="220" height="160" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="650" y="522" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">El lector</text>
+<text x="650" y="552" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">y sus ideas</text>
+<line x1="530" y1="530" x2="272" y2="530" stroke="#b03a2e" stroke-width="8" marker-end="url(#fl)"/>
+<text x="400" y="505" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#b03a2e" text-anchor="middle" font-weight="bold">Eiségesis</text>
+<text x="400" y="568" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#b03a2e" text-anchor="middle" font-weight="normal" font-style="italic">«meter adentro»</text>
+<circle cx="805" cy="494" r="6" fill="#b03a2e"/>
+<text x="822" y="500" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">La idea entra en el texto</text>
+<circle cx="805" cy="532" r="6" fill="#b03a2e"/>
+<text x="822" y="538" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">El lector se escucha a sí mismo</text>
+<circle cx="805" cy="570" r="6" fill="#b03a2e"/>
+<text x="822" y="576" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">El texto confirma lo que ya pensaba</text>
+<text x="600" y="720" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«Procura con diligencia… usa bien la palabra de verdad» (2 Ti 2:15)</text>
+</svg>

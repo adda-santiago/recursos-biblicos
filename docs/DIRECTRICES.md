@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.29 · 19 de octubre de 2026
+Versión 2.30 · 20 de octubre de 2026
 
-Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**.
+Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.30:** este documento absorbe el antiguo archivo de contexto (`CONTEXTO-RECURSOS-BIBLICOS.md`) y queda como documento único: público y línea teológica (§1), forma de trabajo con Claude (§25), plan de publicación (§20) y texto de la solicitud de la RV 1960 (anexo A). Nuevo enfoque «Herramientas de estudio», exento de época (§8, §9). Nuevo bloque de ejercicios de opción múltiple en las rutas de estudio (§20). Primer recurso de la ola 0: Cómo interpretar la Biblia, con cinco rutas y 35 estaciones; los pasajes largos del panel visual usan letra menor y se desplazan. Google Fonts y Leaflet desde cdnjs se aceptan como servicios externos (§5).
 
 **Cambio de la versión 2.0:** el proyecto deja de ser una plataforma escolar con fines comerciales y pasa a ser un recurso de la iglesia para el estudio bíblico, sin anuncios ni planes pagados.
 
@@ -67,13 +69,19 @@ Este documento es la fuente de verdad del proyecto. Cualquier decisión nueva qu
 
 Biblioteca de modelos 3D, mapas, líneas de tiempo y árboles genealógicos interactivos para los miembros de la iglesia que quieren profundizar en el estudio de la Biblia. Es un proyecto de la iglesia, sin fines comerciales.
 
+**Para quién.** Para miembros de distintas iglesias, no solo de la propia, y para cualquier persona de habla hispana: la perspectiva es latinoamericana, no solo chilena. Por eso el sitio no incluye contenido propio de una denominación (por ejemplo, la historia de la ADDA) ni filtros por la malla de un instituto bíblico. La malla de cinco años del instituto bíblico de la iglesia (Teología Bíblica del AT y del NT, Teología Sistemática, Teología y Ministerio, Griego y Hebreo) sirve solo como referencia para detectar recursos que faltan.
+
+**Línea teológica.** Pentecostal clásica, en la línea de las Asambleas de Dios, con escatología dispensacionalista (futurista, premilenial y pretribulacional). Cuando dos posturas teológicas son defendibles, se muestran ambas y prevalece la de las Asambleas de Dios. El contenido nunca menciona explícitamente esa línea: la aplica.
+
+**Objetivo.** Recursos de estudio para cada uno de los 66 libros de la Biblia, más los recursos de apoyo que esos estudios necesitan (fundamentos, historia, geografía, teología, lenguas, hermenéutica y ministerio). El orden está en el plan de publicación (§20).
+
 Queda dentro del alcance: recursos visuales interactivos sobre la Biblia y su contexto (geografía, historia, arqueología, personajes), cada uno con su ficha escrita y su ruta de aprendizaje; búsqueda; exploración por testamento, libro y época; pantalla completa para proyectar en reuniones; compartir.
 
 **Antecedente.** El proyecto nace de Fuego y Palabra (`crist-alarc/Fuego-y-Palabra`). Este repositorio es la fuente oficial de todas sus apps (§24).
 
 **Recursos no bíblicos.** El ADN, el motor de combustión, los viajes de Colón y la Segunda Guerra Mundial se crearon cuando el proyecto apuntaba a colegios. Quedan ocultos (`publicado: false`), sin borrarse, por si se retoman en otro proyecto.
 
-Queda fuera: anuncios y cualquier forma de monetización, cuentas de usuario, evaluaciones calificadas, foros o comentarios públicos, contenido generado por usuarios.
+Queda fuera: anuncios y cualquier forma de monetización, evaluaciones calificadas, foros o comentarios públicos, contenido generado por usuarios. Las cuentas de usuario también quedan fuera por ahora: una futura sección para leer la Biblia completa con comentarios propios y «Guardar» a nivel de usuario necesitaría base de datos y perfiles, y se evaluará primero en un documento de visión de la app de estudio bíblico (§21). Los ejercicios de opción múltiple de las rutas (§20) no son evaluaciones calificadas: no registran puntaje ni guardan respuestas.
 
 ## 2. Público y casos de uso
 
@@ -136,6 +144,9 @@ Reglas:
 | Hosting | GitHub Pages, organización `adda-santiago`, repositorio `recursos-biblicos` | Gratis y permanente: sin uso comercial no hace falta otro hosting. Sitio de proyecto en la subcarpeta `/recursos-biblicos/` |
 | Modelos pesados (`.glb`) | Almacenamiento externo con CDN | Pendiente hasta el primer modelo pesado (§22) |
 | CI/CD | GitHub Actions (`.github/workflows/publicar.yml`) | Build, validación del esquema y despliegue |
+| Tipografías y bibliotecas | Google Fonts (Newsreader, Inter) y Leaflet desde cdnjs | Servicios externos confiables, aceptados (v2.30). Las apps declaran tipografías de respaldo del sistema |
+
+**Qué puede venir de fuera y qué no.** El contenido nunca depende de otro sitio: texto bíblico, mapas base, imágenes, datos y Three.js se sirven desde el propio sitio, porque en algunas redes los sitios externos están bloqueados. Las tipografías de Google Fonts y Leaflet desde cdnjs son la única excepción aceptada; si no cargan, el recurso debe seguir siendo legible. No se agregan otros servicios externos sin registrarlo en la bitácora.
 
 No hay base de datos ni servidor propio. El contenido vive en archivos Markdown dentro del repositorio; Git actúa como base de datos, con historial y reversión.
 
@@ -152,13 +163,19 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 │  │  │                      ruta-estudio.js, citas.js,
 │  │  │                      linea-tiempo.js, mapa-imperios.js, imperios-geo.js, mapa-base.js
 │  │  ├─ visor-bridge.js     contrato visor ↔ app (§6)
-│  │  ├─ atlas/ linea-reyes/ genealogias/ tabernaculo/ templo-salomon/
-│  │  ├─ imperio-babilonico/ (ruta de estudio: index.html, data.js, img/)
+│  │  ├─ atlas/ linea-reyes/ genealogias/   (apps legadas 2D)
+│  │  ├─ tabernaculo/ templo-salomon/ templo-herodes/ sumo-sacerdote/   (3D, §7 y §20)
+│  │  ├─ evangelios/         plantilla de armonía (§7)
+│  │  ├─ imperio-*/ egipto/ imperios-historia/ exilio/ escatologia/ sacerdocio/
+│  │  │  viajes-pablo/ hechos/ daniel/ apocalipsis/ interpretar-biblia/   (rutas de estudio: index.html, data.js, img/)
 │  │  ├─ adn/ motor-combustion/ viajes-colon/ segunda-guerra-mundial/   (fichas ocultas, §1)
 │  ├─ biblia/                texto bíblico: versiones.json, indice.json y {versión}/{libro}/{capítulo}.json
 │  └─ robots.txt             sin efecto mientras el sitio esté en subcarpeta (§19)
 ├─ geo/imperios.py          genera assets/js/imperios-geo.js (fronteras aproximadas recortadas con Natural Earth)
+├─ geo/palestina.py         genera assets/js/mapa-detalle-palestina.js (Natural Earth 1:10m)
 ├─ herramientas/biblia/     generar.py: genera public/biblia/ desde las fuentes (fuentes/ no se sube al repositorio)
+├─ herramientas/            verificar_citas.py (citas textuales contra la RV 1960), esquemas_*.py (SVG propios),
+│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar)
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
 │  ├─ data/taxonomia.ts      vocabulario controlado (§9)
@@ -178,7 +195,7 @@ Todas cuelgan de la base `/recursos-biblicos/`.
 
 | Ruta | Contenido | Indexable |
 |---|---|---|
-| `/?q=&testamento=&epoca=&libro=&tipo=&tag=&guardados=1` | Portada = catálogo completo: recién agregados, filtros y búsqueda. Valores múltiples separados por coma | Sí |
+| `/?q=&enfoque=&testamento=&epoca=&libro=&tipo=&tag=&guardados=1` | Portada = catálogo completo: recién agregados, filtros y búsqueda. Valores múltiples separados por coma | Sí |
 | `/explorar/` | Redirección a la portada (enlaces antiguos) | No |
 | `/{slug}/` | Ficha: visor + artículo + fuentes | Sí (única página indexada por Pagefind) |
 | `/religion/{slug}/` | Redirección a `/{slug}/` (URL de las fichas hasta la v2.0) | No |
@@ -284,7 +301,7 @@ Cada recurso es un archivo `src/content/recursos/{slug}.md`. El esquema está en
 | `emoji` | No | Un emoji representativo; se usa solo si el recurso no tiene `imagen` |
 | `imagen` | Sí, en todo recurso publicado nuevo | Portada 16:9 en `public/portadas/`: `{slug}.webp` (1200 px), `{slug}-640.webp` (tarjetas) y `{slug}.jpg` (vista previa al compartir). En la ficha se escribe `portadas/{slug}.webp`. Cada recurso nuevo incluye su prompt de portada para Flow, cinematográfico, con el tema al centro |
 | `testamento` | Sí, si está publicado | Uno o ambos de `TESTAMENTOS` (§9) |
-| `epocas` | Sí, si está publicado | Uno o más de `EPOCAS` (§9) |
+| `epocas` | Sí, si está publicado, salvo enfoque `herramientas-estudio` | Uno o más de `EPOCAS` (§9). Un recurso de herramientas de estudio (hermenéutica, lenguas, interlineal, medidas, taller de sermón) puede ir sin época |
 | `libros` | No | Valores de `LIBROS` (§9). Libros donde el tema es central, no toda mención |
 | `tipo` | Sí | Valor de `TIPOS` |
 | `enfoque` | Sí, si está publicado | Valor de `ENFOQUES` (§9). El build falla si un recurso publicado no lo declara |
@@ -311,22 +328,23 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 | Faceta | Valores | Regla |
 |---|---|---|
 | `testamento` | `antiguo`, `nuevo` | Un recurso puede tener ambos |
-| `epocas` | `creacion`, `patriarcas`, `exodo`, `jueces`, `monarquia-unida`, `monarquia-dividida`, `exilio`, `retorno`, `intertestamentario`, `vida-de-jesus`, `iglesia-primitiva` | Uno o más. Coinciden con las franjas del árbol genealógico (`public/apps/genealogias/epocas.js`), que junta en una sola franja la vida de Jesús y la iglesia primitiva. Un recurso transversal (atlas, genealogías) lleva todas las que recorre |
+| `epocas` | `creacion`, `patriarcas`, `exodo`, `jueces`, `monarquia-unida`, `monarquia-dividida`, `exilio`, `retorno`, `intertestamentario`, `vida-de-jesus`, `iglesia-primitiva`, `ultimos-tiempos` | Uno o más (ninguno, si el enfoque es `herramientas-estudio`). Coinciden con las franjas del árbol genealógico (`public/apps/genealogias/epocas.js`), que junta en una sola franja la vida de Jesús y la iglesia primitiva. Un recurso transversal (atlas, genealogías) lleva todas las que recorre |
 | `libros` | Los 66 libros del canon protestante, con identificador fijo en minúsculas y guiones (`genesis`, `1-reyes`, `cantares`, `apocalipsis`) | Libros donde el tema del recurso es central, no toda mención |
 | `tipo` | modelo 3D, mapa, línea de tiempo, árbol genealógico, interactivo | El formato del recurso |
-| `enfoque` | `estudio-libro`, `teologia-biblica`, `teologia-sistematica`, `historia-geografia` | Cómo estudia la Biblia el recurso; uno por recurso. Es la primera faceta de la portada |
+| `enfoque` | `estudio-libro`, `teologia-biblica`, `teologia-sistematica`, `historia-geografia`, `herramientas-estudio` | Cómo estudia la Biblia el recurso; uno por recurso. Es la primera faceta de la portada |
 | `tags` | Libres, en minúsculas con guiones | Antes de crear uno, revisar si ya existe una variante. No se usan para testamento, época ni libro |
 
 **Enfoques.** Responden a la pregunta «¿cómo estudia la Biblia este recurso?», no a su formato (eso es `tipo`):
 
 | Enfoque | Qué responde | Recursos |
 |---|---|---|
-| Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis |
+| Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis, Armonía de los evangelios |
 | Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
 | Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | Los últimos tiempos |
 | Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica |
+| Herramientas de estudio | ¿Cómo leo, interpreto y enseño la Biblia por mi cuenta? | Cómo interpretar la Biblia; después, lenguas (hebreo y griego), interlineales, pesos y medidas, taller de sermón |
 
-Un recurso 3D no es un enfoque: el tabernáculo es teología bíblica en formato 3D. Los recursos no bíblicos están ocultos (`publicado: false`) y no llevan enfoque.
+Un recurso 3D no es un enfoque: el tabernáculo es teología bíblica en formato 3D. Los recursos no bíblicos están ocultos (`publicado: false`) y no llevan enfoque. Se pueden agregar más enfoques cuando un grupo de recursos no calce en ninguno; cada uno se registra en la bitácora.
 
 Asignación actual:
 
@@ -337,6 +355,9 @@ Asignación actual:
 | Árbol genealógico | Antiguo, Nuevo | Creación a vida de Jesús | Génesis, Rut, 1 Crónicas, Mateo, Lucas |
 | El tabernáculo | Antiguo, Nuevo | Éxodo y desierto | Éxodo, Levítico, Números, Hebreos |
 | El templo de Salomón | Antiguo | Monarquía unida | 1 Reyes, 2 Crónicas |
+| El templo de Herodes | Nuevo, Antiguo | Intertestamentario, vida de Jesús, iglesia primitiva | Mateo, Marcos, Lucas, Juan, Hechos, Hebreos, Esdras, Hageo |
+| El sumo sacerdote | Antiguo | Éxodo y desierto | Éxodo, Levítico, Números |
+| Armonía de los evangelios | Nuevo, Antiguo | Vida de Jesús | Mateo, Marcos, Lucas, Juan |
 | Los imperios en la historia bíblica | Antiguo, Nuevo | Éxodo a iglesia primitiva | Daniel, Isaías, Jeremías, Habacuc, Lucas, Hechos, Apocalipsis y otros |
 | El imperio romano | Antiguo, Nuevo | Intertestamentario, vida de Jesús, iglesia primitiva | Daniel, Mateo, Lucas, Juan, Hechos, Romanos, Filipenses, Apocalipsis |
 | El imperio griego | Antiguo, Nuevo | Retorno, intertestamentario, vida de Jesús, iglesia primitiva | Daniel, Zacarías, Joel, Juan, Hechos, 1 Corintios, Gálatas |
@@ -351,6 +372,7 @@ Asignación actual:
 | El sacerdocio en Israel | Antiguo, Nuevo | Éxodo, jueces, monarquía unida, retorno, vida de Jesús | Éxodo, Levítico, Números, 1 Samuel, 1 Crónicas, Esdras, Zacarías, Malaquías, Salmos, Lucas, Hebreos, 1 Pedro, Apocalipsis |
 | Daniel | Antiguo, Nuevo | Exilio, retorno, intertestamentario, últimos tiempos | Daniel, Jeremías, Ezequiel, Isaías, 2 Reyes, Nehemías, Ester, Mateo, 2 Tesalonicenses, Apocalipsis |
 | Apocalipsis | Nuevo, Antiguo | Iglesia primitiva, últimos tiempos | Apocalipsis, Daniel, Ezequiel, Zacarías, Isaías, Génesis, Mateo, 1 y 2 Tesalonicenses |
+| Cómo interpretar la Biblia | Antiguo, Nuevo | Ninguna (herramientas de estudio) | Nehemías, Jeremías, Lucas, Hechos, 1 Corintios, 2 Timoteo, 2 Pedro |
 
 ## 10. Sin fines comerciales
 
@@ -361,7 +383,7 @@ El proyecto no tiene anuncios, planes pagados ni ninguna forma de monetización.
 
 ## 11. Usuarios
 
-No hay cuentas ni se planean.
+No hay cuentas. Una futura versión con lectura de la Biblia completa, comentarios propios y «Guardar» a nivel de usuario necesitaría base de datos y perfiles: queda postergada hasta redactar el documento de visión de la app de estudio bíblico (§21).
 
 - "Guardar" marca recursos solo en el dispositivo, a través de `almacen` (`src/lib/storage.ts`, `localStorage` con prefijo `fyp:v1:`).
 - Ningún componente usa `localStorage` directamente; todo pasa por `almacen`.
@@ -400,7 +422,7 @@ La portada es el catálogo completo, a ancho de pantalla:
 | Zona | Comportamiento |
 |---|---|
 | Cabecera fija | Marca (símbolo + nombre en serif grande), buscador (presente en todas las páginas; desde otra página envía a la portada con `?q=`) y Sugerencias |
-| Panel de filtros | Columna izquierda desde arriba, a la altura de "Recién agregados". Testamento, época, libro, tipo y etiquetas. En libro y etiquetas, 8 opciones visibles y el resto tras "Ver más"; "Solo mis guardados" si el visitante guardó algo. Fijo al hacer scroll en escritorio; plegable en celular, antes de "Recién agregados". Cada opción muestra cuántos recursos quedarían |
+| Panel de filtros | Columna izquierda desde arriba, a la altura de "Recién agregados". Enfoque, testamento, época, libro, tipo y etiquetas. En libro y etiquetas, 8 opciones visibles y el resto tras "Ver más"; "Solo mis guardados" si el visitante guardó algo. Fijo al hacer scroll en escritorio; plegable en celular, antes de "Recién agregados". Cada opción muestra cuántos recursos quedarían |
 | Recién agregados | Columna derecha, arriba del catálogo. Los 4 recursos con `fechaPublicacion` más reciente. Se oculta mientras hay búsqueda o filtros activos, para que los resultados queden arriba. En celular, carrusel horizontal |
 | Catálogo | Rejilla de tarjetas (imagen o emoji, tipo, título, resumen). En celular, tarjetas horizontales compactas |
 
@@ -462,6 +484,8 @@ Reglas: el artículo explica lo que se ve; no repite el resumen ni rellena para 
 - Todo recurso declara `fuentes` y `licencia`. Sin ellas, no compila.
 - Modelos de terceros: solo con licencia explícita que permita el uso (CC0, CC-BY o dominio público). Repositorios candidatos: Smithsonian 3D (gran parte CC0), Sketchfab filtrado por licencia CC. Se revisa la licencia de cada modelo individualmente y se copia la atribución exacta.
 - Antes de construir un modelo nuevo se evalúa la certeza de la evidencia (textual o arqueológica) junto con su complejidad. Lo incierto se muestra como tal en la ficha.
+- **Licencia excepcional aceptada:** geometría de mapas derivada de historical-basemaps (GPL-3.0), limitada al archivo de mapas del recurso que la usa y documentada con su propio archivo de licencia junto a él (hoy `segunda-guerra-mundial/LICENCIA-MAPAS.txt`). No se extiende a la geografía compartida (`imperios-geo.js`), que se genera desde Natural Earth.
+- Imágenes: ilustraciones generadas con IA (Google Flow) o fotos de dominio público o licencia libre verificada (§20, Imágenes).
 - Revisión: todo recurso nace como `borrador`. Pasa a `revisado` cuando alguien distinto del autor lo revisa, idealmente alguien con formación bíblica.
 
 ## 19. Hosting y despliegue
@@ -483,6 +507,14 @@ Reglas:
 8. **Carga masiva por ZIP.** Subir por la web pierde la estructura de carpetas. Para cargar o actualizar muchos archivos, se sube un `.zip` a la raíz del repositorio: el flujo `desempaquetar.yml` lo descomprime conservando las carpetas, lo borra, confirma los cambios y lanza `publicar.yml`. Cada archivo del ZIP **reemplaza completo** al del repositorio: nunca se incluyen fragmentos. Los ZIP no pueden modificar `.github/` (GitHub no permite que un flujo edite flujos): los archivos de `.github/workflows/` se crean o editan a mano desde la web. **Se sube un ZIP a la vez** y se espera a que `desempaquetar.yml` termine: dos ejecuciones simultáneas chocan al confirmar (error «fetch first»). Un ZIP tampoco puede borrar archivos: los que quedan obsoletos se eliminan a mano en GitHub.
 
 ## 20. Flujos de trabajo
+
+### Plan de publicación
+
+- El orden de todos los recursos (134: 66 estudios de libro y 68 recursos de apoyo) vive en la planilla de Google **«Orden publicación recursos»** (hoja «Orden de publicación», con un resumen de avance por ola y por categoría). Columnas: número, ola, bloque, recurso, categoría, tipo, «Se apoya en» y estado.
+- Las olas siguen el canon y las dependencias: 0 Fundamentos, 1 Hebreo y Pentateuco, 2 Conquista y monarquía, 3 Libros poéticos, 4 Profetas preexílicos y exílicos, 5 Retorno y cierre del AT, 6 Griego, introducción al NT y evangelios, 7 Cartas de Pablo y misiones, 8 Cartas generales, 9 Después del NT y ministerio.
+- **Regla de dependencias:** un recurso de apoyo se publica antes que los estudios que se apoyan en él. Si al preparar un estudio aparece un tema que serviría a varios libros, se propone como recurso aparte; si se acepta, se crea primero, se agrega a la planilla y el estudio lo referencia con un botón `ir`.
+- **Estados** (los valores exactos que cuentan las fórmulas del Resumen): Pendiente → En desarrollo (opcional, mientras se construye) → Demo en revisión (al entregar el demo) → Publicado (al entregar el ZIP). Claude actualiza la columna Estado de la planilla en cada entrega.
+- La planilla es la referencia del avance; las fichas `publicado: false` (recursos no bíblicos) no figuran en ella.
 
 ### Agregar un recurso nuevo
 
@@ -538,9 +570,11 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Selector de rutas** como botón flotante en la esquina, que abre y oculta un panel con las rutas y sus estaciones; las rutas en preparación aparecen deshabilitadas.
 - **Línea de tiempo inferior** opcional por ruta (`linea-tiempo.js`): hitos y un marcador que se desliza a la fecha de cada estación o de cada paso del mapa.
 - **Mapas** con `mapa-imperios.js`: capas por imperio y período, lugares, trazos animados y pasos dentro de una estación. Geografía compartida en `imperios-geo.js`, generada por `geo/imperios.py`. La capa «La iglesia» (`iglesia-30` a `iglesia-62`, color `--iglesia`) es acumulativa por etapas, se dibuja siempre encima de los imperios y marca zonas aproximadas alrededor de los lugares donde Hechos registra creyentes o iglesias; para ajustar una zona se edita la lista `ETAPAS_IGLESIA`. Para regenerar hace falta `geo/ne_50m_land.geojson` (Natural Earth), que no se sube al repositorio.
-- **Estudio de un libro bíblico.** Cuatro rutas fijas: I. Introducción y trasfondo, II. Visión panorámica, III. Comentario capítulo por capítulo (una estación por capítulo; un capítulo largo se divide) y IV. Teología del libro. Después van las rutas de mapas y de temas propias del libro, agrupadas en el selector como «Estudio del libro», «Mapas» y «Temas». Primer recurso: Hechos de los Apóstoles.
+- **Estudio de un libro bíblico.** Cuatro rutas fijas: I. Introducción y trasfondo (isagógica: contexto histórico, cultural y geográfico; autoría y destinatarios; motivo u ocasión; género literario), II. Visión panorámica (estructura y bosquejo, palabras y versículos clave, temas principales), III. Comentario capítulo por capítulo (una estación por capítulo; un capítulo largo se divide) y IV. Teología del libro (con escatología dispensacionalista, neumatología y cristología cuando el libro las toca). Después van las rutas de mapas y de temas propias del libro, agrupadas en el selector como «Estudio del libro», «Mapas» y «Temas». Primer recurso: Hechos de los Apóstoles.
 - **Pasajes copiados de la Biblia del sitio.** En los estudios grandes, el contenido puede escribirse en partes (`herramientas/<recurso>/parte*.js`) con las pestañas de pasaje marcadas `'@@libro/capítulo/versículos'`; un script (referencia: `herramientas/apocalipsis_citas.py`) arma el `data.js` y copia el texto exacto de `public/biblia/rv1960`. Así el pasaje mostrado nunca difiere de la versión. Para corregir el texto se editan las partes y se vuelve a correr el script, no el `data.js`.
 - **Recursos generales.** Cuando un tema sirve a varios libros (por ejemplo, los viajes de Pablo para Hechos y las cartas), se crea como recurso aparte y el estudio del libro lo resume en una ruta puente.
+- **Ejercicios de opción múltiple** (desde la v2.30, para las herramientas de estudio y donde ayuden a fijar un método). Un bloque `{ ejercicio: { pregunta, opciones: [{ t, ok, por_que }], explicacion } }` dentro de `texto`: la persona elige una opción y ve de inmediato si acertó, con la retroalimentación de esa opción (`por_que`) y la explicación general. Puede reintentar. No hay puntaje, no se guardan respuestas y no se califica (§1). Las opciones incorrectas deben ser errores plausibles de lectura, no absurdos. Formato exacto en el encabezado de `ruta-estudio.js`. Primer uso: Cómo interpretar la Biblia (36 ejercicios).
+- **Taller práctico.** En las herramientas de estudio, una ruta final aplica el método a pasajes concretos, paso a paso, con ejercicios. Prefiere pasajes muy citados que suelen leerse fuera de contexto.
 - **Texto:** entre 250 y 450 palabras por estación; si necesita más, se divide. Cada estación cierra con **Para pensar**, siempre desde el texto bíblico y la línea doctrinal pentecostal clásica de las Asambleas de Dios, sin mencionarla.
 - **Historia y texto bíblico.** Cuando una fuente histórica parece diferir del relato bíblico, o dos textos bíblicos dan datos distintos, se usa el bloque de dos posturas (`posturas`) con ambas versiones y cómo se entienden; nunca se presenta el texto bíblico como error. En temas doctrinales prevalece la línea de las Asambleas de Dios.
 - **Recursos complementarios** (cada imperio, el exilio, el esquema escatológico) hablan de todos los libros donde aparece el tema, no solo del libro que los originó. Los recursos históricos incluyen además su legado (aportes, costumbres, inventos), verificado.
@@ -552,12 +586,11 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **`citas.js` y los dos puntos:** una referencia seguida de dos puntos («Jl 2:28-32: el derramamiento…») se corta y no se reconoce completa. Mientras no se corrija el motor, en el contenido la referencia va en su propia celda o seguida de otro signo.
 - **Permiso de la Sociedad Bíblica (RV 1960):** El imperio babilónico cita unos 1.450 versículos, incluidos libros completos (Lamentaciones, Habacuc). Se publica igual, porque el sitio está en etapa de desarrollo y sirve también para mostrar el proyecto a la Sociedad Bíblica; si el permiso no se concede, se ajustan las burbujas antes de difundir el sitio.
 - **Títulos de los Salmos en la RV 1909:** la fuente los trae pegados al versículo 1 («Salmo de David. JEHOVÁ es mi pastor»).
-- **`desempaquetar.yml` con turnos y `git pull --rebase`** (§19): aplicar a mano la versión corregida si aún no se hizo.
-- **Despliegue en `adda-santiago`:** actualizar `publicar.yml`, reactivar Pages y verificar el sitio en la subcarpeta.
-- **`noindex` en las apps legadas** (§19, regla 5).
+- **`noindex` en las apps legadas** (§19, regla 5): falta en `atlas/`, `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/` (y en las apps de las fichas ocultas).
 - **Limpieza del código comercial:** eliminar `anuncios.ts`, `cuenta.ts`, `EspacioAnuncio`, `SITIO.anuncios` y la llamada a `iniciarAnuncios()`.
 - **Tabernáculo:** las rutas de servicio y de expiación ya existen como ceremonias (Servicio diario y Día de la Expiación). El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras están en el recurso interactivo El sacerdocio en Israel.
-- **Crédito de la RV 1960 en las apps existentes:** revisar las apps que citan texto bíblico y agregarles el crédito (§15).
+- **Crédito de la RV 1960 en las apps existentes** (§15): falta en `atlas/`, `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/`, que usan la burbuja de citas.
+- **Sistema de diseño** (hecho en Claude Design a partir de `tokens.css`, `global.css` y estas directrices). Brechas: contraste WCAG de `--muted` y `--surface-2` en modo claro, y de `--line-strong` sobre `--surface` en el contorno de controles (no llega a 3:1); colores de datos sin sincronizar entre apps (`--judah`, `--israel`); faltan íconos SVG propios; no hay logo ni isotipo (§4, §22).
 - **Armonía de los evangelios.** Publicada en borrador con 246 pasajes que cubren los 3.779 versículos de los cuatro evangelios, en orden cronológico: los 194 del libro de Cristóbal Alarcón y 52 agregados en su lugar (se insertan con `ARMONIA.insertar(tras, lista)` y llevan `nuevo: true` solo como dato interno, sin marca visible). Pendiente: revisión de los comentarios.
 - **Recursos derivados de la armonía (pendientes):** un recurso interactivo de recorridos temáticos (parábolas, milagros, los «Yo soy», oraciones de Jesús, las siete palabras, apariciones del resucitado, la Semana Santa día por día) y un estudio de libro para cada evangelio (Mateo, Marcos, Lucas y Juan), con las rutas I a IV, conectados con la armonía.
 - **Templo de Herodes y los Evangelios.** La ruta 3D «Jesús y la iglesia en el templo» (presentación, Jesús a los doce años, la purificación, el pórtico de Salomón, la ofrenda de la viuda, la Puerta la Hermosa, las gradas de la Antonia) se construirá junto con los estudios de los Evangelios, enlazada desde ellos y desde Hechos con botones `ir`. «Historia del segundo templo» no será ruta 3D: su contenido ya está en El exilio y los retornos, Daniel y El sacerdocio, y lo que falta (Herodes y la ampliación del templo) irá en los Evangelios.
@@ -571,7 +604,8 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Templo de Herodes (hecho; su ruta de Jesús irá con los Evangelios) y recursos nuevos según el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Recursos según el plan de publicación (§20): 23 de 134 publicados al 20 de octubre de 2026; se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, enlace directo a estaciones (`fyp:ir-a`) | Uso sostenido medible |
 
 ## 22. Decisiones abiertas
@@ -580,7 +614,8 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 |---|---|---|
 | Dominio propio | Seguir en `github.io` / dominio de la iglesia | Pendiente; decidir antes de difundir masivamente |
 | Logo | Imagen propia junto al nombre en la cabecera | Pendiente; la cabecera ya lo admite (`SITIO.logo`, §4) |
-| Permiso de la RV 1960 | Autorización de las Sociedades Bíblicas para alojar el texto completo de la RV 1960 en el sitio (consulta en burbujas). Si no se concede, se borra `public/biblia/rv1960/` y la RV 1909 pasa a ser la versión por defecto en `versiones.json` | En trámite (octubre de 2026); resolver antes de difundir masivamente |
+| Permiso de la RV 1960 | Autorización para citar más de ~500 versículos, ofrecer el selector de versión y alojar el texto completo en el sitio. Solicitud enviada en octubre de 2026 por el formulario web de la Sociedad Bíblica de Chile; contacto cristobal.alarcon@hotmail.com; texto en el anexo A. Mientras tanto, la RV 1960 queda en el repositorio como está (decisión del 20-10-2026). Si no se concede, se borra `public/biblia/rv1960/`, la RV 1909 pasa a ser la versión por defecto en `versiones.json` y se cambia el crédito de las fichas | En trámite; resolver antes de difundir masivamente |
+| Hosting alternativo | Seguir en GitHub Pages / plan gratuito de administrable.cl (250 MB) | GitHub Pages; la alternativa queda en evaluación (el repositorio ya pesa cerca de 95 MB) |
 | Proveedor del buzón | Tally / Google Forms | Pendiente |
 | Almacenamiento de `.glb` | Cloudflare R2 / otro | Pendiente hasta el primer modelo pesado |
 | Destino final de los recursos no bíblicos | Mantener ocultos / borrar / mover a otro repositorio | Ocultos por ahora |
@@ -699,9 +734,68 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-19 | Apocalipsis: estudio de libro con siete rutas (I a IV, Las siete iglesias de Asia y dos de temas), apoyado en Los últimos tiempos; lectura futurista, premilenial y pretribulacional | Mismo modelo que Hechos y Daniel; la cronología de los eventos del fin vive en un solo recurso y aquí se resume |
 | 2026-10-19 | La geografía compartida suma Esmirna, Tiatira, Filadelfia y Hierápolis, y el trazo «siete-iglesias» | La ruta de las siete iglesias y los mapas de las cartas |
 | 2026-10-19 | En las visiones, Cristo glorificado se ilustra con el rostro oculto por la luz | Evitar representar su rostro en escenas de gloria (Ap 1:16), en línea con el criterio de no confundir ilustración con revelación |
+| 2026-10-20 | Este documento es el único documento de referencia; absorbe el archivo de contexto del traspaso desde la cuenta de trabajo y el proyecto de Claude guarda una copia idéntica | Dos documentos que se complementan terminan contradiciéndose; el contexto ya estaba desfasado respecto del repositorio |
+| 2026-10-20 | Público: varias iglesias e hispanohablantes en general, con perspectiva latinoamericana; sin contenido denominacional propio ni filtros por la malla del instituto | El sitio sirve a quien quiera estudiar la Biblia, no a una sola congregación |
+| 2026-10-20 | Nuevo enfoque `herramientas-estudio`, exento de la época obligatoria | Hermenéutica, lenguas, interlineales, medidas y taller de sermón no calzaban en los cuatro enfoques ni pertenecen a una época |
+| 2026-10-20 | Bloque de ejercicios de opción múltiple en `ruta-estudio.js`, con retroalimentación por opción, sin puntaje ni registro | Las herramientas de estudio se aprenden practicando; un ejercicio sin calificación no contradice §1 |
+| 2026-10-20 | Google Fonts y Leaflet desde cdnjs se aceptan como servicios externos; el contenido sigue sin depender de otros sitios | Son servicios confiables y estables; lo que no puede fallar (texto bíblico, mapas base, datos) ya está en el sitio |
+| 2026-10-20 | La RV 1960 completa se mantiene en el repositorio mientras se tramita el permiso | El sitio está en desarrollo y sirve para mostrar el proyecto a la Sociedad Bíblica |
+| 2026-10-20 | Claude actualiza el estado de la planilla del plan de publicación en cada entrega | El avance queda al día sin trabajo manual |
+| 2026-10-20 | Primer recurso de la ola 0: Cómo interpretar la Biblia (publicado el mismo día), con rutas I. Fundamentos, II. El método, III. Los géneros literarios, IV. Errores comunes y Taller práctico; imágenes mixtas (esquemas SVG y pocas escenas de Flow) | Es la base de los demás recursos de fundamentos y de los estudios de libro |
+| 2026-10-20 | El panel de pasaje de las rutas usa letra menor sobre ~400 caracteres y se desplaza si no cabe | Los pasajes del taller (seis a nueve versículos) se cortaban por arriba |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
 - `crist-alarc/Fuego-y-Palabra` queda **congelado**: no se le hacen mejoras. Toda corrección a las apps bíblicas se hace aquí.
 - Su sitio sigue publicado para no romper enlaces existentes.
 - Cuando este sitio esté estable en `adda-santiago`, se reemplaza el contenido de ese repositorio por páginas de redirección hacia las fichas nuevas (misma técnica de §19, regla 2), y se deja un README que apunte aquí.
+
+## 25. Forma de trabajo con Claude
+
+Reglas para trabajar con Claude en este proyecto (antes vivían en el archivo de contexto del proyecto de Claude).
+
+### Proceso
+
+- Se trabaja en español.
+- Claude lee el repositorio directo desde GitHub (`adda-santiago/recursos-biblicos`, público); no hace falta subir un ZIP del código. Antes de construir, estudia el código existente para seguir los patrones establecidos.
+- **Recurso nuevo:** primero un **demo publicado** (enlace) para revisar y cerrar; recién después el **ZIP** para cargar a GitHub (§19, regla 8).
+- **Entregas completas:** código funcional y ZIP con archivos enteros, nunca fragmentos. Cada recurso se entrega completo de una vez: todas sus rutas, el demo, los prompts de imágenes y el de portada; no estación por estación.
+- Los ZIP de recursos nuevos van con `publicado: true` en la ficha, aunque haya permisos en trámite: el sitio es una versión de desarrollo.
+- **Revisión de recursos publicados:** los hallazgos se acumulan y se compilan en **un solo ZIP** cuando se avisa que terminó la revisión.
+- **Verificar el build antes de empaquetar:** un error de YAML en una ficha rompe todo el sitio. Antes de cada ZIP: `npm run build` sin errores, `Citas.faltantes()` vacío y las citas textuales contrastadas con la RV 1960 (`herramientas/verificar_citas.py`).
+- Cada entrega que cambia una regla actualiza este documento en el mismo ZIP (versión, línea de cambio y bitácora), y el proyecto de Claude recibe la misma copia.
+- Claude actualiza el estado del recurso en la planilla del plan de publicación (§20).
+
+### Contenido
+
+- Citas bíblicas en **Reina-Valera 1960**, salvo indicación contraria (§15). Toda cita se puede tocar y muestra el pasaje en la burbuja; una cita de capítulo completo muestra el capítulo entero.
+- «Para pensar»: siempre desde el punto de vista bíblico y la línea pentecostal clásica, sin mencionarla (§1).
+- Historia frente al relato bíblico: se aclaran los puntos y se muestran ambas posturas sin contradecir la Biblia (bloque `posturas`). Entre dos posturas teológicas, prevalece la de las Asambleas de Dios.
+- Recursos complementarios: hablan de todos los libros donde aparece el tema. Recursos históricos: incluyen su legado (inventos, costumbres, aportes).
+- Presentación (para que un maestro enseñe) ≠ ruta de estudio (para que la persona aprenda sola): en las rutas el texto es extendido.
+
+### Imágenes (Google Flow)
+
+- Claude pide las imágenes que necesita entregando el prompt en **inglés**, completo y listo para copiar y pegar, sin nada que agregar (estilo cinematográfico realista, 4:3, restricciones dentro del prompt). Cada recurso incluye además el prompt de su portada.
+- Personajes recurrentes como personajes de Flow: Claude entrega el prompt de cada personaje, indica cuáles van en cada imagen y los nombra en el prompt de escena. Un personaje por etapa de vida (§20, Imágenes).
+- Las imágenes se suben al chat, no a GitHub. Claude las optimiza (WebP, recortes, versiones -640 y .jpg de la portada) y las integra en el ZIP.
+
+## Anexo A. Solicitud de permiso de la RV 1960
+
+Enviada en octubre de 2026 por el formulario web de la Sociedad Bíblica de Chile. Contacto: cristobal.alarcon@hotmail.com. Reutilizable para pedir otras versiones.
+
+> Les escribo para solicitar autorización para usar el texto de la Reina-Valera 1960 en Recursos Bíblicos, un sitio web de estudio bíblico que desarrollo para mi congregación.
+>
+> **El proyecto.** Recursos Bíblicos reúne material visual e interactivo para profundizar en el estudio de la Biblia: mapas, líneas de tiempo, genealogías, modelos 3D (por ejemplo, el Tabernáculo, el Templo de Salomón y la vestimenta del sumo sacerdote) y estudios guiados por libro. Cada recurso se acompaña de una ficha explicativa con sus fuentes y referencias bíblicas. El objetivo a mediano plazo es contar con recursos de estudio para cada libro de la Biblia.
+>
+> **Público.** Está dirigido a miembros de iglesia y a cualquier persona de habla hispana que quiera estudiar la Biblia con mayor profundidad. Su uso es libre y gratuito, sin registro.
+>
+> **Carácter no comercial.** El sitio no tiene fines de lucro: no muestra publicidad, no cobra por acceso ni por ninguna función, y no vende productos, en algún momento se podría pedir ofrendas para sostener el sitio web.
+>
+> **Uso que solicito.** Actualmente uso la Reina-Valera 1909, por ser de dominio público, pero la RV 1960 es la versión que nuestra congregación y la mayoría de los lectores de habla hispana usan y reconocen. Quisiera: (1) Citar pasajes de la RV 1960 dentro de los recursos y estudios, en una cantidad que, al cubrir progresivamente todos los libros, superará el límite de citas que la versión permite sin autorización escrita. (2) Ofrecer un selector de versión, para que el lector elija entre la RV 1960 y versiones de dominio público al leer los pasajes de cada recurso. (3) Más adelante, incorporar una sección de lectura de la Biblia completa dentro del sitio.
+>
+> **Compromisos.** Me comprometo a reproducir el texto sin alteraciones, a incluir en cada página donde aparezca la nota de derechos de autor que ustedes indiquen, a no ofrecer el texto como archivo descargable ni para redistribución, y a retirarlo si el permiso se revoca o si así me lo solicitan. Estoy disponible para ajustar el alcance según sus condiciones.
+>
+> Quedo atento a sus indicaciones y agradezco de antemano su consideración. Que la paz de Cristo esté en sus vidas.
+>
+> Cristóbal Alarcón — cristobal.alarcon@hotmail.com

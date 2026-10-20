@@ -61,6 +61,7 @@ export const ENFOQUES = {
   'teologia-biblica': 'Teología bíblica',
   'teologia-sistematica': 'Teología sistemática',
   'historia-geografia': 'Historia y geografía',
+  'herramientas-estudio': 'Herramientas de estudio',
 } as const;
 
 export type Testamento = keyof typeof TESTAMENTOS;

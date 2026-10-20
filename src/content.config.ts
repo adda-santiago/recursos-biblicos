@@ -65,8 +65,9 @@ const recursos = defineCollection({
     // Los recursos ocultos pueden quedar sin taxonomía; los publicados, no.
     if (!d.publicado) return;
     if (!d.testamento.length) ctx.addIssue({ code: 'custom', path: ['testamento'], message: 'Un recurso publicado necesita al menos un testamento.' });
-    if (!d.epocas.length) ctx.addIssue({ code: 'custom', path: ['epocas'], message: 'Un recurso publicado necesita al menos una época.' });
-    if (!d.enfoque) ctx.addIssue({ code: 'custom', path: ['enfoque'], message: 'Un recurso publicado necesita un enfoque (estudio-libro, teologia-biblica, teologia-sistematica o historia-geografia).' });
+    // Las herramientas de estudio (hermenéutica, lenguas, medidas…) no pertenecen a una época (§8).
+    if (!d.epocas.length && d.enfoque !== 'herramientas-estudio') ctx.addIssue({ code: 'custom', path: ['epocas'], message: 'Un recurso publicado necesita al menos una época.' });
+    if (!d.enfoque) ctx.addIssue({ code: 'custom', path: ['enfoque'], message: 'Un recurso publicado necesita un enfoque (estudio-libro, teologia-biblica, teologia-sistematica, historia-geografia o herramientas-estudio).' });
   }),
 });
 
