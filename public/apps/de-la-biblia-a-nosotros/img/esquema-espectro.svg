@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Formas de traducir</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Del texto más literal al más libre</text>
+<defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#2a6fb0"/><stop offset=".55" stop-color="#7a3fa0"/><stop offset="1" stop-color="#c08a1e"/></linearGradient></defs>
+<rect x="80" y="300" width="1040" height="22" rx="11" fill="url(#gr)"/>
+<text x="80" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#2a6fb0" text-anchor="start" font-weight="bold">Equivalencia formal</text>
+<text x="80" y="255" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">palabra por palabra</text>
+<text x="600" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Equivalencia dinámica</text>
+<text x="600" y="255" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">idea por idea</text>
+<text x="1120" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#c08a1e" text-anchor="end" font-weight="bold">Paráfrasis</text>
+<text x="1120" y="255" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">texto vuelto a contar</text>
+<line x1="105" y1="325" x2="105" y2="347" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="105" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="105" y="365" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="bold">Interlineal</text>
+<line x1="230" y1="325" x2="230" y2="383" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="230" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="230" y="401" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">La Biblia de las Américas</text>
+<line x1="330" y1="325" x2="330" y2="419" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="330" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="330" y="437" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Biblia Textual</text>
+<line x1="430" y1="325" x2="430" y2="347" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="430" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="430" y="365" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Reina-Valera 1960</text>
+<line x1="570" y1="325" x2="570" y2="383" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="570" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="570" y="401" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Nueva Versión Internacional</text>
+<line x1="710" y1="325" x2="710" y2="347" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="710" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="710" y="365" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Nueva Traducción Viviente</text>
+<line x1="790" y1="325" x2="790" y2="419" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="790" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="790" y="437" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Dios Habla Hoy</text>
+<line x1="935" y1="325" x2="935" y2="383" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="935" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="935" y="401" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Traducción en Lenguaje Actual</text>
+<line x1="1090" y1="325" x2="1090" y2="347" stroke="#1f2430" stroke-width="1.5"/>
+<circle cx="1090" cy="311" r="6" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="1090" y="365" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="end" font-weight="bold">La Biblia al Día</text>
+<rect x="80" y="490" width="320" height="150" rx="14" fill="#fff" stroke="#2a6fb0" stroke-width="2"/>
+<text x="240" y="528" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Ventajas</text>
+<text x="240" y="564" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Muestra la forma del original</text>
+<text x="240" y="594" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Útil para estudiar palabras</text>
+<rect x="440" y="490" width="320" height="150" rx="14" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="600" y="528" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Ventajas</text>
+<text x="600" y="564" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Se entiende con facilidad</text>
+<text x="600" y="594" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Útil para leer y comparar</text>
+<rect x="800" y="490" width="320" height="150" rx="14" fill="#fff" stroke="#c08a1e" stroke-width="2"/>
+<text x="960" y="528" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c08a1e" text-anchor="middle" font-weight="bold">Uso</text>
+<text x="960" y="564" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Captar el tono general</text>
+<text x="960" y="594" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">No sirve para fundar doctrina</text>
+<text x="600" y="705" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">La posición de cada versión es aproximada: toda traducción combina ambas formas en distinta medida.</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Sobre qué se escribió la Biblia</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Materiales de escritura del mundo bíblico</text>
+<rect x="25" y="160" width="170" height="330" rx="14" fill="#fff" stroke="#4a4a4a" stroke-width="2"/>
+<path d="M65,300 L65,215 Q65,190 88,190 Q110,190 110,215 L110,300 Z" fill="#b8b4aa" stroke="#4a4a4a" stroke-width="2"/>
+<path d="M115,300 L115,215 Q115,190 137,190 Q160,190 160,215 L160,300 Z" fill="#b8b4aa" stroke="#4a4a4a" stroke-width="2"/>
+<text x="110" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#4a4a4a" text-anchor="middle" font-weight="bold">Piedra</text>
+<text x="110" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Tablas de</text>
+<text x="110" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">la ley</text>
+<text x="110" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Éx 32:16</text>
+<rect x="221" y="160" width="170" height="330" rx="14" fill="#fff" stroke="#b03a2e" stroke-width="2"/>
+<rect x="266" y="195" width="80" height="100" rx="18" fill="#d9a67a" stroke="#b03a2e" stroke-width="2"/>
+<line x1="278" y1="215" x2="334" y2="215" stroke="#b03a2e" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="278" y1="231" x2="334" y2="231" stroke="#b03a2e" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="278" y1="247" x2="334" y2="247" stroke="#b03a2e" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="278" y1="263" x2="334" y2="263" stroke="#b03a2e" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="278" y1="279" x2="334" y2="279" stroke="#b03a2e" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="306" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#b03a2e" text-anchor="middle" font-weight="bold">Arcilla</text>
+<text x="306" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Tablillas con</text>
+<text x="306" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">punzón</text>
+<text x="306" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Mesopotamia</text>
+<rect x="417" y="160" width="170" height="330" rx="14" fill="#fff" stroke="#c08a1e" stroke-width="2"/>
+<path d="M457,210 L532,195 L550,260 L512,298 L462,280 Z" fill="#c98b5a" stroke="#c08a1e" stroke-width="2"/>
+<line x1="474" y1="228" x2="527" y2="222" stroke="#1f2430" stroke-width="2"/>
+<line x1="474" y1="246" x2="527" y2="240" stroke="#1f2430" stroke-width="2"/>
+<line x1="474" y1="264" x2="527" y2="258" stroke="#1f2430" stroke-width="2"/>
+<text x="502" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#c08a1e" text-anchor="middle" font-weight="bold">Ostraca</text>
+<text x="502" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Trozos de</text>
+<text x="502" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">cerámica</text>
+<text x="502" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Cartas y recibos</text>
+<rect x="613" y="160" width="170" height="330" rx="14" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<rect x="658" y="205" width="80" height="85" fill="#e9dcae" stroke="#2f7d4a" stroke-width="2"/>
+<rect x="646" y="195" width="16" height="105" rx="8" fill="#e9dcae" stroke="#2f7d4a" stroke-width="2"/>
+<rect x="734" y="195" width="16" height="105" rx="8" fill="#e9dcae" stroke="#2f7d4a" stroke-width="2"/>
+<line x1="670" y1="222" x2="724" y2="222" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="670" y1="239" x2="724" y2="239" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="670" y1="256" x2="724" y2="256" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="670" y1="273" x2="724" y2="273" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<text x="698" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Papiro</text>
+<text x="698" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Rollo de caña</text>
+<text x="698" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">del Nilo</text>
+<text x="698" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Liviano y frágil</text>
+<rect x="809" y="160" width="170" height="330" rx="14" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<rect x="854" y="205" width="80" height="85" fill="#efe4cf" stroke="#7a3fa0" stroke-width="2"/>
+<rect x="842" y="195" width="16" height="105" rx="8" fill="#efe4cf" stroke="#7a3fa0" stroke-width="2"/>
+<rect x="930" y="195" width="16" height="105" rx="8" fill="#efe4cf" stroke="#7a3fa0" stroke-width="2"/>
+<line x1="866" y1="222" x2="920" y2="222" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="866" y1="239" x2="920" y2="239" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="866" y1="256" x2="920" y2="256" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="866" y1="273" x2="920" y2="273" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<text x="894" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Pergamino</text>
+<text x="894" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Rollo de</text>
+<text x="894" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">piel</text>
+<text x="894" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">2 Ti 4:13</text>
+<rect x="1005" y="160" width="170" height="330" rx="14" fill="#fff" stroke="#2a6fb0" stroke-width="2"/>
+<path d="M1090,205 L1040,195 L1040,290 L1090,300 Z" fill="#efe4cf" stroke="#2a6fb0" stroke-width="2"/>
+<path d="M1090,205 L1140,195 L1140,290 L1090,300 Z" fill="#efe4cf" stroke="#2a6fb0" stroke-width="2"/>
+<line x1="1050" y1="218" x2="1082" y2="222" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1098" y1="222" x2="1130" y2="218" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1050" y1="235" x2="1082" y2="239" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1098" y1="239" x2="1130" y2="235" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1050" y1="252" x2="1082" y2="256" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1098" y1="256" x2="1130" y2="252" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1050" y1="269" x2="1082" y2="273" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<line x1="1098" y1="273" x2="1130" y2="269" stroke="#1f2430" stroke-width="2" opacity=".6"/>
+<text x="1090" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Códice</text>
+<text x="1090" y="385" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Hojas cosidas:</text>
+<text x="1090" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">el libro</text>
+<text x="1090" y="450" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Iglesia, siglos I–IV</text>
+<line x1="40" y1="545" x2="1160" y2="545" stroke="#c9c6be" stroke-width="3" marker-end="url(#fl)"/>
+<text x="60" y="580" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">más antiguo</text>
+<text x="1140" y="580" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">más práctico</text>
+<text x="600" y="690" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">La iglesia adoptó el códice muy pronto: varios libros en un volumen, fácil de llevar y de consultar.</text>
+</svg>

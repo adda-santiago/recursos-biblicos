@@ -224,6 +224,9 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 /* Esquemas propios (origen: 'esquema'): se ven completos, sin recorte, sobre fondo claro */
 .re-img.re-esquema { background: #f6f3ec; }
 .re-img.re-esquema img { object-fit: contain; padding: 0.5rem 0.5rem 4.2rem; box-sizing: border-box; }
+/* Fotos completas (completa: true): manuscritos y portadas sin recorte, sobre fondo neutro */
+.re-img.re-completa img { object-fit: contain; padding: 1rem 1rem 4.6rem; box-sizing: border-box; }
+.re-tabs:not([hidden]) ~ .re-img.re-completa img { padding-top: 3.8rem; }
 
 /* ---------- Ejercicios de opción múltiple (v2.30) ---------- */
 .re-app { --ej-ok: #2d7a4c; --ej-no: #b4472c; }
@@ -250,3 +253,27 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 .re-ej-fb.ok b { color: var(--ej-ok); } .re-ej-fb.no b { color: var(--ej-no); }
 .re-ej-fb p { margin: 0.55rem 0 0; font-size: inherit; line-height: inherit; }
 .re-ej-fb small { display: block; margin-top: 0.4rem; font: 500 0.78rem var(--sans); color: var(--muted); }
+
+/* ---------- Lupa para fotos reales (origen: 'foto') ---------- */
+.re-lupa-btn { position: absolute; right: 1rem; bottom: 1rem; font: 600 0.8rem var(--sans); color: var(--ink); cursor: pointer;
+  background: color-mix(in srgb, var(--bg) 88%, transparent); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.8rem; }
+.re-lupa-btn:hover, .re-lupa-btn:focus-visible { border-color: var(--accent); color: var(--accent); }
+.re-img:has(.re-lupa-btn) img { cursor: zoom-in; }
+.re-lupa { position: fixed; inset: 0; z-index: 1000; background: #0e0f12; display: flex; flex-direction: column; }
+.re-lupa[hidden] { display: none; }
+.re-lupa-lienzo { flex: 1; min-height: 0; overflow: hidden; display: grid; place-items: center; touch-action: none; cursor: zoom-in; }
+.re-lupa-lienzo.acercada { cursor: grab; }
+.re-lupa-lienzo.acercada:active { cursor: grabbing; }
+.re-lupa-lienzo img { max-width: 100%; max-height: 100%; object-fit: contain; transform-origin: center; user-select: none; -webkit-user-drag: none; }
+.re-lupa-barra { position: absolute; top: max(0.75rem, env(safe-area-inset-top, 0px)); right: max(0.75rem, env(safe-area-inset-right, 0px)); display: flex; gap: 0.4rem; }
+.re-lupa-barra button { font: 600 0.85rem var(--sans); color: #f1efe9; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25);
+  border-radius: 999px; min-width: 2.4rem; padding: 0.45rem 0.8rem; cursor: pointer; }
+.re-lupa-barra button:hover, .re-lupa-barra button:focus-visible { background: rgba(255,255,255,.24); outline: none; }
+.re-lupa-pie { margin: 0; padding: 0.6rem max(1rem, env(safe-area-inset-left, 0px)) max(0.8rem, env(safe-area-inset-bottom, 0px)); font: 500 0.8rem/1.4 var(--sans); color: #c9c6be; text-align: center; }
+.re-img:has(.re-lupa-btn) figcaption { max-width: min(34rem, calc(100% - 9.5rem)); }
+@media (max-width: 760px) {
+  .re-lupa-btn { top: 0.6rem; bottom: auto; right: 0.6rem; padding: 0.4rem 0.7rem; }
+  .re-img:has(.re-lupa-btn) figcaption { max-width: calc(100% - 2rem); }
+  .re-tabs:not([hidden]) ~ .re-img.re-completa img { padding: 3.2rem 0.6rem 3.6rem; }
+}

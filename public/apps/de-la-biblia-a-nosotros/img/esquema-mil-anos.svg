@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Mil años más cerca de Isaías</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Lo que cambiaron los rollos del mar Muerto</text>
+<line x1="90" y1="360" x2="1110" y2="360" stroke="#1f2430" stroke-width="3"/>
+<line x1="90.0" y1="352" x2="90.0" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="90.0" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">800 a.C.</text>
+<line x1="197.36842105263156" y1="352" x2="197.36842105263156" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="197.36842105263156" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">600 a.C.</text>
+<line x1="304.7368421052631" y1="352" x2="304.7368421052631" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="304.7368421052631" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">400 a.C.</text>
+<line x1="412.10526315789474" y1="352" x2="412.10526315789474" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="412.10526315789474" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">200 a.C.</text>
+<line x1="519.4736842105262" y1="352" x2="519.4736842105262" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="519.4736842105262" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">0</text>
+<line x1="626.8421052631579" y1="352" x2="626.8421052631579" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="626.8421052631579" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">200 d.C.</text>
+<line x1="734.2105263157895" y1="352" x2="734.2105263157895" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="734.2105263157895" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">400 d.C.</text>
+<line x1="841.578947368421" y1="352" x2="841.578947368421" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="841.578947368421" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">600 d.C.</text>
+<line x1="948.9473684210526" y1="352" x2="948.9473684210526" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="948.9473684210526" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">800 d.C.</text>
+<line x1="1056.3157894736842" y1="352" x2="1056.3157894736842" y2="368" stroke="#1f2430" stroke-width="2"/>
+<text x="1056.3157894736842" y="395" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">1000 d.C.</text>
+<circle cx="143.68421052631578" cy="360" r="12" fill="#c08a1e"/>
+<line x1="143.68421052631578" y1="348" x2="143.68421052631578" y2="310" stroke="#c08a1e" stroke-width="2"/>
+<text x="143.68421052631578" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#c08a1e" text-anchor="start" font-weight="bold">Isaías profetiza</text>
+<text x="143.68421052631578" y="296" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">hacia 700 a.C.</text>
+<circle cx="452.36842105263156" cy="360" r="12" fill="#2f7d4a"/>
+<line x1="452.36842105263156" y1="348" x2="452.36842105263156" y2="230" stroke="#2f7d4a" stroke-width="2"/>
+<text x="452.36842105263156" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Gran rollo de Isaías</text>
+<text x="452.36842105263156" y="216" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Qumrán, hacia 125 a.C.</text>
+<circle cx="1018.7368421052632" cy="360" r="12" fill="#2a6fb0"/>
+<line x1="1018.7368421052632" y1="348" x2="1018.7368421052632" y2="270" stroke="#2a6fb0" stroke-width="2"/>
+<text x="1018.7368421052632" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#2a6fb0" text-anchor="end" font-weight="bold">Códice de Alepo</text>
+<text x="1018.7368421052632" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">la copia completa más antigua antes de 1947</text>
+<path d="M452.36842105263156,430 L452.36842105263156,450 L1018.7368421052632,450 L1018.7368421052632,430" fill="none" stroke="#b03a2e" stroke-width="3"/>
+<text x="735.5526315789474" y="485" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b03a2e" text-anchor="middle" font-weight="bold">unos mil años de copias a mano</text>
+<rect x="160" y="540" width="880" height="110" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="600" y="582" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Resultado de la comparación</text>
+<text x="600" y="615" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Las dos copias coinciden en la inmensa mayoría de los versículos;</text>
+<text x="600" y="638" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">las diferencias son sobre todo de ortografía.</text>
+<text x="600" y="715" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«La palabra del Dios nuestro permanece para siempre» (Is 40:8).</text>
+</svg>

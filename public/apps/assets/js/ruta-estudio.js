@@ -13,7 +13,7 @@
        estaciones: [{
          id, n, ref, fecha,                         // fecha: año o [desde, hasta]; negativos = a.C.
          visual: [                                  // uno o varios (pestañas)
-           { tipo: 'imagen', titulo, src, alt, pie, origen: 'ia' | 'foto' | 'esquema', licencia, foco },  // foco: object-position del recorte; 'esquema' = diagrama propio (SVG)
+           { tipo: 'imagen', titulo, src, alt, pie, origen: 'ia' | 'foto' | 'esquema', licencia, foco, completa },  // las fotos ('foto') llevan botón «Ampliar»: lupa a pantalla completa con zoom  // foco: object-position del recorte; 'esquema' = diagrama propio (SVG); completa: true muestra la foto entera, sin recorte (manuscritos, portadas)
            { tipo: 'mapa', titulo, estado: {...} }  // estado de mapa-imperios.js
            { tipo: 'mapa', titulo, pasos: [{ t, fecha, estado }] },
            { tipo: 'tabla', titulo, tabla: { titulo, cab, filas, nota } },
@@ -182,12 +182,16 @@
     if (v.tipo === 'imagen') {
       const f = $('re-img');
       f.classList.toggle('re-esquema', v.origen === 'esquema');
+      f.classList.toggle('re-completa', !!v.completa && v.origen !== 'esquema');
       const origen = v.origen === 'ia' ? 'Ilustración generada con IA' : v.origen === 'esquema' ? 'Esquema del recurso' : `Foto${v.licencia ? ` · ${esc(v.licencia)}` : ''}`;
       f.innerHTML = (v.src
         ? `<img src="${esc(v.src)}" alt="${esc(v.alt)}"${v.foco ? ` style="object-position:${esc(v.foco)}"` : ''}>`
         : `<div class="re-img-pend" role="img" aria-label="${esc(v.alt)}"><span>${esc(v.alt)}</span><small>${v.origen === 'ia' ? 'Ilustración por generar' : 'Foto por agregar, con licencia verificada'}</small></div>`)
-        + (v.pie ? `<figcaption>${esc(v.pie)} <em>${origen}</em></figcaption>` : '');
+        + (v.pie ? `<figcaption>${esc(v.pie)} <em>${origen}</em></figcaption>` : '')
+        + (v.src && v.origen === 'foto' ? '<button type="button" class="re-lupa-btn" aria-label="Ampliar la foto">🔍 Ampliar</button>' : '');
       f.hidden = false;
+      const lb = f.querySelector('.re-lupa-btn');
+      if (lb) { lb.addEventListener('click', () => lupa.abrir(v)); f.querySelector('img').addEventListener('dblclick', () => lupa.abrir(v)); }
     } else if (v.tipo === 'mapa') {
       $('re-mapa').hidden = false;
       if (!mapa && window.MapaImperios) mapa = window.MapaImperios.crear($('re-mapa'));
@@ -329,7 +333,79 @@
 
   $('re-ant').addEventListener('click', () => ir(ruta.id, idx - 1));
   $('re-sig').addEventListener('click', () => ir(ruta.id, idx + 1));
+  /* ---------- Lupa: fotos reales a pantalla completa, con zoom y arrastre ---------- */
+  const lupa = (() => {
+    const cap = document.createElement('div');
+    cap.className = 're-lupa'; cap.hidden = true;
+    cap.setAttribute('role', 'dialog'); cap.setAttribute('aria-modal', 'true'); cap.setAttribute('aria-label', 'Foto ampliada');
+    cap.innerHTML = `<div class="re-lupa-lienzo"><img alt=""></div>
+      <div class="re-lupa-barra"><button type="button" data-z="-1" aria-label="Alejar">−</button><button type="button" data-z="0">Ajustar</button>
+      <button type="button" data-z="1" aria-label="Acercar">+</button><button type="button" class="re-lupa-cerrar" aria-label="Cerrar">× Cerrar</button></div>
+      <p class="re-lupa-pie"></p>`;
+    document.body.appendChild(cap);
+    const lienzo = cap.querySelector('.re-lupa-lienzo'), img = lienzo.querySelector('img');
+    let z = 1, x = 0, y = 0, volver = null;
+    const punteros = new Map(); let pinza = null;
+    const pintar = () => { img.style.transform = `translate(${x}px, ${y}px) scale(${z})`; lienzo.classList.toggle('acercada', z > 1); };
+    const limitar = () => {
+      const r = lienzo.getBoundingClientRect(), w = img.offsetWidth * z, h = img.offsetHeight * z;
+      const mx = Math.max(0, (w - r.width) / 2), my = Math.max(0, (h - r.height) / 2);
+      x = Math.min(mx, Math.max(-mx, x)); y = Math.min(my, Math.max(-my, y));
+    };
+    function zoom(nuevo, cx, cy) {
+      nuevo = Math.min(8, Math.max(1, nuevo));
+      const r = lienzo.getBoundingClientRect();
+      const px = (cx ?? r.left + r.width / 2) - (r.left + r.width / 2), py = (cy ?? r.top + r.height / 2) - (r.top + r.height / 2);
+      x = px - (px - x) * nuevo / z; y = py - (py - y) * nuevo / z; z = nuevo;
+      if (z === 1) { x = 0; y = 0; }
+      limitar(); pintar();
+    }
+    function abrir(v) {
+      volver = document.activeElement;
+      img.src = v.src; img.alt = v.alt || '';
+      cap.querySelector('.re-lupa-pie').textContent = v.pie || '';
+      z = 1; x = 0; y = 0; pintar();
+      cap.hidden = false;
+      cap.querySelector('.re-lupa-cerrar').focus();
+      if (cap.requestFullscreen) cap.requestFullscreen().catch(() => {});
+    }
+    function cerrar() {
+      if (cap.hidden) return;
+      cap.hidden = true;
+      if (document.fullscreenElement === cap) document.exitFullscreen().catch(() => {});
+      if (volver && volver.focus) volver.focus();
+    }
+    document.addEventListener('fullscreenchange', () => { if (!document.fullscreenElement && !cap.hidden) cerrar(); });
+    cap.querySelector('.re-lupa-barra').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      if (b.classList.contains('re-lupa-cerrar')) return cerrar();
+      const d = +b.dataset.z; zoom(d === 0 ? 1 : z * (d > 0 ? 1.6 : 1 / 1.6));
+    });
+    lienzo.addEventListener('wheel', e => { e.preventDefault(); zoom(z * (e.deltaY < 0 ? 1.2 : 1 / 1.2), e.clientX, e.clientY); }, { passive: false });
+    lienzo.addEventListener('dblclick', e => zoom(z > 1 ? 1 : 3, e.clientX, e.clientY));
+    lienzo.addEventListener('pointerdown', e => { lienzo.setPointerCapture(e.pointerId); punteros.set(e.pointerId, [e.clientX, e.clientY]); });
+    lienzo.addEventListener('pointermove', e => {
+      if (!punteros.has(e.pointerId)) return;
+      const [ax, ay] = punteros.get(e.pointerId); punteros.set(e.pointerId, [e.clientX, e.clientY]);
+      if (punteros.size === 2) {
+        const [p1, p2] = [...punteros.values()], d = Math.hypot(p1[0] - p2[0], p1[1] - p2[1]);
+        if (pinza) zoom(z * d / pinza, (p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2);
+        pinza = d; return;
+      }
+      if (z > 1) { x += e.clientX - ax; y += e.clientY - ay; limitar(); pintar(); }
+    });
+    const soltar = e => { punteros.delete(e.pointerId); if (punteros.size < 2) pinza = null; };
+    lienzo.addEventListener('pointerup', soltar); lienzo.addEventListener('pointercancel', soltar);
+    cap.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { e.stopPropagation(); cerrar(); }
+      else if (e.key === '+' || e.key === '=') zoom(z * 1.6);
+      else if (e.key === '-') zoom(z / 1.6);
+    });
+    return { abrir, cerrar, abierta: () => !cap.hidden };
+  })();
+
   document.addEventListener('keydown', e => {
+    if (lupa.abierta()) return;
     if (e.target.closest && e.target.closest('input, textarea, select')) return;
     if (e.key === 'Escape' && !panel.hidden) { abrirPanel(false); btnRutas.focus(); return; }
     if (!panel.hidden) return;

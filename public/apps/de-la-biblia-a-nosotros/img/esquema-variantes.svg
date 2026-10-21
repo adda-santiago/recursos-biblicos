@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">¿Qué clase de diferencias hay entre las copias?</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Variantes entre los manuscritos griegos del Nuevo Testamento</text>
+<rect x="220.0" y="140" width="760" height="105" rx="10" fill="#c9c6be"/>
+<text x="600" y="182" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Ortografía y errores evidentes</text>
+<text x="600" y="212" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Letras cambiadas, palabras repetidas o saltadas</text>
+<text x="1000.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">la gran mayoría</text>
+<rect x="300.0" y="265" width="600" height="105" rx="10" fill="#a9b8c9"/>
+<text x="600" y="307" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Sinónimos y orden de palabras</text>
+<text x="600" y="337" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">«Cristo Jesús» o «Jesucristo»; «el Señor» o «Jesús»</text>
+<text x="920.0" y="323" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">muchas</text>
+<rect x="370.0" y="390" width="460" height="105" rx="10" fill="#c08a1e"/>
+<text x="600" y="432" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Con sentido, sin apoyo antiguo</text>
+<text x="600" y="462" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Lecturas de un solo manuscrito tardío</text>
+<text x="850.0" y="448" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">algunas</text>
+<rect x="435.0" y="515" width="330" height="105" rx="10" fill="#b03a2e"/>
+<text x="600" y="557" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#fff" text-anchor="middle" font-weight="bold">Con sentido y con apoyo antiguo</text>
+<text x="600" y="583" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">Ro 5:1 «tenemos» o</text>
+<text x="600" y="602" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">«tengamos»; los pasajes discutidos</text>
+<text x="785.0" y="573" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">menos del 1 %</text>
+<text x="600" y="690" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Ninguna variante pone en duda una doctrina de la fe cristiana.</text>
+<text x="600" y="725" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Las proporciones son ilustrativas, según las estimaciones de los especialistas.</text>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Siete siglos de la Biblia en español</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Algunas traducciones y revisiones principales</text>
+<line x1="70" y1="400" x2="1130" y2="400" stroke="#1f2430" stroke-width="3"/>
+<line x1="140.66666666666669" y1="392" x2="140.66666666666669" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="140.66666666666669" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1300</text>
+<line x1="282.0" y1="392" x2="282.0" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="282.0" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1400</text>
+<line x1="423.3333333333333" y1="392" x2="423.3333333333333" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="423.3333333333333" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1500</text>
+<line x1="564.6666666666667" y1="392" x2="564.6666666666667" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="564.6666666666667" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1600</text>
+<line x1="706.0" y1="392" x2="706.0" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="706.0" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1700</text>
+<line x1="847.3333333333333" y1="392" x2="847.3333333333333" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="847.3333333333333" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1800</text>
+<line x1="988.6666666666667" y1="392" x2="988.6666666666667" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="988.6666666666667" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1900</text>
+<line x1="1130.0" y1="392" x2="1130.0" y2="408" stroke="#1f2430" stroke-width="2"/>
+<text x="1130.0" y="430" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">2000</text>
+<circle cx="112.4" cy="400" r="8" fill="#4a4a4a"/>
+<line x1="112.4" y1="400" x2="112.4" y2="360" stroke="#4a4a4a" stroke-width="1.5" opacity=".7"/>
+<text x="112.4" y="330" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4a4a4a" text-anchor="start" font-weight="bold">Biblia alfonsina</text>
+<text x="112.4" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">de la Vulgata</text>
+<circle cx="324.4" cy="400" r="8" fill="#c08a1e"/>
+<line x1="324.4" y1="400" x2="324.4" y2="280" stroke="#c08a1e" stroke-width="1.5" opacity=".7"/>
+<text x="324.4" y="250" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="middle" font-weight="bold">Biblia de Alba</text>
+<text x="324.4" y="270" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">AT del hebreo</text>
+<circle cx="498.24" cy="400" r="8" fill="#c08a1e"/>
+<line x1="498.24" y1="400" x2="498.24" y2="360" stroke="#c08a1e" stroke-width="1.5" opacity=".7"/>
+<text x="498.24" y="330" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="middle" font-weight="bold">Ferrara</text>
+<text x="498.24" y="350" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">AT sefardí</text>
+<circle cx="520.8533333333334" cy="400" r="8" fill="#b03a2e"/>
+<line x1="520.8533333333334" y1="400" x2="520.8533333333334" y2="200" stroke="#b03a2e" stroke-width="1.5" opacity=".7"/>
+<text x="520.8533333333334" y="170" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="middle" font-weight="bold">Biblia del Oso</text>
+<text x="520.8533333333334" y="190" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Casiodoro de Reina</text>
+<circle cx="1001.3866666666667" cy="400" r="8" fill="#b03a2e"/>
+<line x1="1001.3866666666667" y1="400" x2="1001.3866666666667" y2="280" stroke="#b03a2e" stroke-width="1.5" opacity=".7"/>
+<text x="1001.3866666666667" y="250" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="end" font-weight="bold">Revisión 1909</text>
+<circle cx="1073.4666666666667" cy="400" r="8" fill="#b03a2e"/>
+<line x1="1073.4666666666667" y1="400" x2="1073.4666666666667" y2="200" stroke="#b03a2e" stroke-width="1.5" opacity=".7"/>
+<text x="1073.4666666666667" y="170" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="end" font-weight="bold">Reina-Valera 1960</text>
+<circle cx="484.1066666666667" cy="400" r="8" fill="#2a6fb0"/>
+<line x1="484.1066666666667" y1="400" x2="484.1066666666667" y2="454" stroke="#2a6fb0" stroke-width="1.5" opacity=".7"/>
+<text x="484.1066666666667" y="480" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2a6fb0" text-anchor="middle" font-weight="bold">NT de Enzinas</text>
+<text x="484.1066666666667" y="500" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">del griego</text>
+<circle cx="502.47999999999996" cy="400" r="8" fill="#2a6fb0"/>
+<line x1="502.47999999999996" y1="400" x2="502.47999999999996" y2="534" stroke="#2a6fb0" stroke-width="1.5" opacity=".7"/>
+<text x="502.47999999999996" y="560" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2a6fb0" text-anchor="middle" font-weight="bold">NT de Pérez de Pineda</text>
+<text x="502.47999999999996" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ginebra</text>
+<circle cx="567.4933333333333" cy="400" r="8" fill="#b03a2e"/>
+<line x1="567.4933333333333" y1="400" x2="567.4933333333333" y2="614" stroke="#b03a2e" stroke-width="1.5" opacity=".7"/>
+<text x="567.4933333333333" y="640" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="middle" font-weight="bold">Revisión de Valera</text>
+<text x="567.4933333333333" y="660" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ámsterdam</text>
+<circle cx="837.4399999999999" cy="400" r="8" fill="#7a3fa0"/>
+<line x1="837.4399999999999" y1="400" x2="837.4399999999999" y2="454" stroke="#7a3fa0" stroke-width="1.5" opacity=".7"/>
+<text x="837.4399999999999" y="480" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Scío</text>
+<text x="837.4399999999999" y="500" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">católica, de la Vulgata</text>
+<circle cx="934.9599999999999" cy="400" r="8" fill="#b03a2e"/>
+<line x1="934.9599999999999" y1="400" x2="934.9599999999999" y2="534" stroke="#b03a2e" stroke-width="1.5" opacity=".7"/>
+<text x="934.9599999999999" y="560" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="middle" font-weight="bold">Revisiones de 1862 y 1865</text>
+<circle cx="1050.8533333333335" cy="400" r="8" fill="#7a3fa0"/>
+<line x1="1050.8533333333335" y1="400" x2="1050.8533333333335" y2="614" stroke="#7a3fa0" stroke-width="1.5" opacity=".7"/>
+<text x="1050.8533333333335" y="640" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#7a3fa0" text-anchor="end" font-weight="bold">Nácar-Colunga</text>
+<text x="1050.8533333333335" y="660" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">católica, de los originales</text>
+<rect x="506.71999999999997" y="380" width="326.47999999999996" height="8" fill="#b03a2e" opacity=".25"/>
+<text x="669.9599999999999" y="375" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="normal" font-style="italic">prohibida en España (1559–hacia 1790)</text>
+<rect x="110" y="705" width="16" height="16" rx="3" fill="#b03a2e"/>
+<text x="134" y="719" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Reina-Valera</text>
+<rect x="370" y="705" width="16" height="16" rx="3" fill="#2a6fb0"/>
+<text x="394" y="719" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Reforma española</text>
+<rect x="630" y="705" width="16" height="16" rx="3" fill="#c08a1e"/>
+<text x="654" y="719" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Traducciones judías</text>
+<rect x="890" y="705" width="16" height="16" rx="3" fill="#7a3fa0"/>
+<text x="914" y="719" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Traducciones católicas</text>
+</svg>
