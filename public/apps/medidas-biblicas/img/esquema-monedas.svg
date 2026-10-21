@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Las monedas del Nuevo Testamento</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Equivalencias en tiempos de Jesús</text>
+<rect x="120.0" y="140.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#4a4a4a" stroke-width="3"/>
+<circle cx="160" cy="175" r="22" fill="#4a4a4a"/>
+<text x="160.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="200.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">2 blancas (leptos)</text>
+<text x="450.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4a4a4a" text-anchor="start" font-weight="bold">= 1 cuadrante</text>
+<text x="865.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Mr 12:42</text>
+<rect x="160.0" y="228.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#7a3fa0" stroke-width="3"/>
+<circle cx="200" cy="263" r="22" fill="#7a3fa0"/>
+<text x="200.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="240.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">4 cuadrantes</text>
+<text x="490.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#7a3fa0" text-anchor="start" font-weight="bold">= 1 cuarto (as)</text>
+<text x="905.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Mt 10:29</text>
+<rect x="200.0" y="316.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#2a6fb0" stroke-width="3"/>
+<circle cx="240" cy="351" r="22" fill="#2a6fb0"/>
+<text x="240.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="280.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">16 cuartos</text>
+<text x="530.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2a6fb0" text-anchor="start" font-weight="bold">= 1 denario = 1 dracma</text>
+<text x="945.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Mt 20:2; Lc 15:8</text>
+<rect x="240.0" y="404.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#1e8a8a" stroke-width="3"/>
+<circle cx="280" cy="439" r="22" fill="#1e8a8a"/>
+<text x="280.0" y="446.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="320.0" y="448.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">2 dracmas</text>
+<text x="570.0" y="448.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1e8a8a" text-anchor="start" font-weight="bold">= impuesto del templo</text>
+<text x="985.0" y="448.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Mt 17:24</text>
+<rect x="280.0" y="492.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#2f7d4a" stroke-width="3"/>
+<circle cx="320" cy="527" r="22" fill="#2f7d4a"/>
+<text x="320.0" y="534.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="360.0" y="536.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">4 dracmas</text>
+<text x="610.0" y="536.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f7d4a" text-anchor="start" font-weight="bold">= 1 estatero (siclo de Tiro)</text>
+<text x="1025.0" y="536.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Mt 17:27</text>
+<rect x="320.0" y="580.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#c08a1e" stroke-width="3"/>
+<circle cx="360" cy="615" r="22" fill="#c08a1e"/>
+<text x="360.0" y="622.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="400.0" y="624.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">100 dracmas</text>
+<text x="650.0" y="624.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c08a1e" text-anchor="start" font-weight="bold">= 1 mina</text>
+<text x="1065.0" y="624.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Lc 19:13</text>
+<rect x="360.0" y="668.0" width="760.0" height="70.0" rx="12" fill="#ffffff" stroke="#b03a2e" stroke-width="3"/>
+<circle cx="400" cy="703" r="22" fill="#b03a2e"/>
+<text x="400.0" y="710.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+<text x="440.0" y="712.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">6.000 denarios</text>
+<text x="690.0" y="712.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#b03a2e" text-anchor="start" font-weight="bold">= 1 talento</text>
+<text x="1105.0" y="712.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Mt 25:15</text>
+<rect x="120.0" y="770.0" width="960.0" height="56.0" rx="10" fill="#e7e2d6"/>
+<text x="600.0" y="806.0" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">1 denario = el pago de un día de trabajo · 1 denario = 128 blancas</text>
+</svg>

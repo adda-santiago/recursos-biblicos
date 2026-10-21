@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Las horas del día y las vigilias de la noche</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Equivalencias aproximadas: hora bíblica + 6 = hora del reloj</text>
+<path d="M340.0,500.0 A260,260 0 0 1 348.9,432.7 L455.1,461.2 A150,150 0 0 0 450.0,500.0 Z" fill="#f2d48a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="395.8" y="480.1" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">1</text>
+<path d="M348.9,432.7 A260,260 0 0 1 374.8,370.0 L470.1,425.0 A150,150 0 0 0 455.1,461.2 Z" fill="#ead08a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="409.7" y="428.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">2</text>
+<path d="M374.8,370.0 A260,260 0 0 1 416.2,316.2 L493.9,393.9 A150,150 0 0 0 470.1,425.0 Z" fill="#c08a1e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="436.6" y="381.6" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<path d="M416.2,316.2 A260,260 0 0 1 470.0,274.8 L525.0,370.1 A150,150 0 0 0 493.9,393.9 Z" fill="#ead08a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="474.6" y="343.6" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">4</text>
+<path d="M470.0,274.8 A260,260 0 0 1 532.7,248.9 L561.2,355.1 A150,150 0 0 0 525.0,370.1 Z" fill="#f2d48a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="521.2" y="316.7" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">5</text>
+<path d="M532.7,248.9 A260,260 0 0 1 600.0,240.0 L600.0,350.0 A150,150 0 0 0 561.2,355.1 Z" fill="#c08a1e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="573.1" y="302.8" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<path d="M600.0,240.0 A260,260 0 0 1 667.3,248.9 L638.8,355.1 A150,150 0 0 0 600.0,350.0 Z" fill="#f2d48a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="626.9" y="302.8" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">7</text>
+<path d="M667.3,248.9 A260,260 0 0 1 730.0,274.8 L675.0,370.1 A150,150 0 0 0 638.8,355.1 Z" fill="#ead08a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="678.8" y="316.7" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">8</text>
+<path d="M730.0,274.8 A260,260 0 0 1 783.8,316.2 L706.1,393.9 A150,150 0 0 0 675.0,370.1 Z" fill="#c08a1e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="725.4" y="343.6" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">9</text>
+<path d="M783.8,316.2 A260,260 0 0 1 825.2,370.0 L729.9,425.0 A150,150 0 0 0 706.1,393.9 Z" fill="#ead08a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="763.4" y="381.6" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">10</text>
+<path d="M825.2,370.0 A260,260 0 0 1 851.1,432.7 L744.9,461.2 A150,150 0 0 0 729.9,425.0 Z" fill="#c08a1e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="790.3" y="428.2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">11</text>
+<path d="M851.1,432.7 A260,260 0 0 1 860.0,500.0 L750.0,500.0 A150,150 0 0 0 744.9,461.2 Z" fill="#ead08a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="804.2" y="480.1" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">12</text>
+<path d="M860.0,500.0 A260,260 0 0 1 783.8,683.8 L706.1,606.1 A150,150 0 0 0 750.0,500.0 Z" fill="#2b3350" stroke="#f6f3ec" stroke-width="2"/>
+<text x="790.3" y="584.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1.ª anochecer</text>
+<path d="M783.8,683.8 A260,260 0 0 1 600.0,760.0 L600.0,650.0 A150,150 0 0 0 706.1,606.1 Z" fill="#38426a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="678.8" y="696.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2.ª medianoche</text>
+<path d="M600.0,760.0 A260,260 0 0 1 416.2,683.8 L493.9,606.1 A150,150 0 0 0 600.0,650.0 Z" fill="#2b3350" stroke="#f6f3ec" stroke-width="2"/>
+<text x="521.2" y="696.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3.ª canto del gallo</text>
+<path d="M416.2,683.8 A260,260 0 0 1 340.0,500.0 L450.0,500.0 A150,150 0 0 0 493.9,606.1 Z" fill="#38426a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="409.7" y="584.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4.ª la mañana</text>
+<circle cx="600" cy="500" r="146" fill="#ffffff" stroke="#c9c6be" stroke-width="2"/>
+<text x="600.0" y="628.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">0:00</text>
+<text x="513.7" y="592.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">3:00</text>
+<text x="478.0" y="506.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">6:00</text>
+<text x="513.7" y="419.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">9:00</text>
+<text x="600.0" y="384.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">12:00</text>
+<text x="686.3" y="419.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">15:00</text>
+<text x="722.0" y="506.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">18:00</text>
+<text x="686.3" y="592.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">21:00</text>
+<text x="600.0" y="492.0" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal">Las horas</text>
+<text x="600.0" y="518.0" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal">del reloj</text>
+<line x1="392.1" y1="340.5" x2="338.0" y2="254.0" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="330.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Hora tercera · 9:00</text>
+<text x="330.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Pentecostés (Hch 2:15)</text>
+<line x1="565.8" y1="240.2" x2="508.0" y2="204.0" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="500.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Hora sexta · 12:00</text>
+<text x="500.0" y="222.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">El pozo de Sicar (Jn 4:6)</text>
+<line x1="759.5" y1="292.1" x2="862.0" y2="254.0" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="870.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Hora novena · 15:00</text>
+<text x="870.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">La hora de la oración (Hch 3:1)</text>
+<line x1="842.1" y1="399.7" x2="892.0" y2="404.0" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="900.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Hora undécima · 17:00</text>
+<text x="900.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">Los últimos obreros (Mt 20:6)</text>
+<text x="60.0" y="800.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2b3350" text-anchor="start" font-weight="bold">Noche: cuatro vigilias romanas (Mr 13:35)</text>
+<text x="1140.0" y="800.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="end" font-weight="bold">Día: doce horas, del amanecer al ocaso (Jn 11:9)</text>
+</svg>

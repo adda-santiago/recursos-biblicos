@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Las pesas de Israel</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Del gera al talento (siclo de 11,4 g)</text>
+<path d="M110,520 Q110,484.8 132,484.8 Q154,484.8 154,520 Z" fill="#4a4a4a"/>
+<text x="132.0" y="554.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Gera</text>
+<text x="132.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4a4a4a" text-anchor="middle" font-weight="bold">0,57 g</text>
+<text x="132.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1/20 de siclo</text>
+<path d="M210,520 Q210,464.0 245,464.0 Q280,464.0 280,520 Z" fill="#1e8a8a"/>
+<text x="245.0" y="554.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Beka</text>
+<text x="245.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1e8a8a" text-anchor="middle" font-weight="bold">5,7 g</text>
+<text x="245.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">medio siclo</text>
+<path d="M336,520 Q336,443.2 384,443.2 Q432,443.2 432,520 Z" fill="#2a6fb0"/>
+<text x="384.0" y="554.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Pim</text>
+<text x="384.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2a6fb0" text-anchor="middle" font-weight="bold">7,8 g</text>
+<text x="384.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">2/3 de siclo</text>
+<path d="M488,520 Q488,422.4 549,422.4 Q610,422.4 610,520 Z" fill="#2f7d4a"/>
+<text x="549.0" y="554.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Siclo</text>
+<text x="549.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2f7d4a" text-anchor="middle" font-weight="bold">11,4 g</text>
+<text x="549.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">20 geras</text>
+<path d="M666,520 Q666,401.6 740,401.6 Q814,401.6 814,520 Z" fill="#c08a1e"/>
+<text x="740.0" y="554.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Mina</text>
+<text x="740.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c08a1e" text-anchor="middle" font-weight="bold">570 g</text>
+<text x="740.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">50 siclos</text>
+<path d="M870,520 Q870,380.79999999999995 957,380.79999999999995 Q1044,380.79999999999995 1044,520 Z" fill="#b03a2e"/>
+<text x="957.0" y="554.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Talento</text>
+<text x="957.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#b03a2e" text-anchor="middle" font-weight="bold">34 kg</text>
+<text x="957.0" y="600.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">60 minas · 3.000 siclos</text>
+<line x1="70.0" y1="520.0" x2="1130.0" y2="520.0" stroke="#c9c6be" stroke-width="3"/>
+<rect x="160.0" y="650.0" width="880.0" height="120.0" rx="12" fill="#ffffff" stroke="#c9c6be" stroke-width="2"/>
+<text x="600.0" y="688.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal">Éxodo 38:25-26: 603.550 hombres × medio siclo = 301.775 siclos</text>
+<text x="600.0" y="720.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#9e2b25" text-anchor="middle" font-weight="bold">= 100 talentos + 1.775 siclos  →  1 talento = 3.000 siclos</text>
+<text x="600.0" y="750.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">El propio texto bíblico conserva la clave del sistema.</text>
+<text x="600.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Las pesas no están a escala: un talento pesa unas 60.000 veces más que un gera.</text>
+</svg>

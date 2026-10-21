@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El codo y sus divisiones</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Medidas tomadas del cuerpo humano (codo común de 44,5 cm)</text>
+<path d="M300,210 Q270,245 300,280 L618.3461538461538,272 Q669.6923076923076,290 710.7692307692307,278 L813.4615384615385,254 Q823.4615384615385,245 813.4615384615385,238 L710.7692307692307,220 Q659.4230769230769,202 608.0769230769231,216 Z" fill="#e7e2d6" stroke="#c9c6be" stroke-width="2"/>
+<text x="280.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">codo</text>
+<text x="837.5" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">punta del dedo medio</text>
+<rect x="300.0" y="340.0" width="21.3" height="44.0" rx="6" fill="#1e8a8a"/>
+<text x="284.0" y="369.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Dedo</text>
+<text x="335.3" y="369.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">1,9 cm</text>
+<rect x="300.0" y="416.0" width="85.4" height="44.0" rx="6" fill="#2a6fb0"/>
+<text x="284.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Palmo menor</text>
+<text x="399.4" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">4 dedos · 7,4 cm</text>
+<rect x="300.0" y="492.0" width="256.7" height="44.0" rx="6" fill="#2f7d4a"/>
+<line x1="385.6" y1="496.0" x2="385.6" y2="532.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="471.2" y1="496.0" x2="471.2" y2="532.0" stroke="#f6f3ec" stroke-width="2"/>
+<text x="284.0" y="521.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Palmo</text>
+<text x="570.7" y="521.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">3 palmos menores · 22 cm</text>
+<rect x="300.0" y="568.0" width="513.5" height="44.0" rx="6" fill="#c08a1e"/>
+<line x1="385.6" y1="572.0" x2="385.6" y2="608.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="471.2" y1="572.0" x2="471.2" y2="608.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="556.7" y1="572.0" x2="556.7" y2="608.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="642.3" y1="572.0" x2="642.3" y2="608.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="727.9" y1="572.0" x2="727.9" y2="608.0" stroke="#f6f3ec" stroke-width="2"/>
+<text x="284.0" y="597.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Codo común</text>
+<text x="827.5" y="597.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">2 palmos · 44,5 cm</text>
+<rect x="300.0" y="644.0" width="598.8" height="44.0" rx="6" fill="#b03a2e"/>
+<line x1="385.6" y1="648.0" x2="385.6" y2="684.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="471.2" y1="648.0" x2="471.2" y2="684.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="556.7" y1="648.0" x2="556.7" y2="684.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="642.3" y1="648.0" x2="642.3" y2="684.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="727.9" y1="648.0" x2="727.9" y2="684.0" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="813.5" y1="648.0" x2="813.5" y2="684.0" stroke="#f6f3ec" stroke-width="2"/>
+<text x="284.0" y="673.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Codo largo</text>
+<text x="912.8" y="673.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">codo y palmo menor · 52 cm</text>
+<text x="600.0" y="790.0" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Dos codos comunes son casi un metro (89 cm). Las líneas claras marcan los palmos menores.</text>
+</svg>

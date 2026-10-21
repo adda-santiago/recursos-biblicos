@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Medidas de capacidad</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Áridos (grano y harina) y líquidos: efa y bato son la misma medida</text>
+<rect x="400.0" y="148.0" width="520.0" height="54.0" rx="8" fill="#b03a2e"/>
+<text x="934.0" y="183.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#b03a2e" text-anchor="start" font-weight="bold">220 L</text>
+<text x="380.0" y="172.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Homer o coro</text>
+<text x="380.0" y="196.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">= 10 efas o 10 batos</text>
+<text x="1150.0" y="183.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Ez 45:11</text>
+<rect x="400.0" y="240.0" width="164.4" height="54.0" rx="8" fill="#c08a1e"/>
+<text x="578.4" y="275.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#c08a1e" text-anchor="start" font-weight="bold">22 L</text>
+<text x="380.0" y="264.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Efa · bato</text>
+<text x="380.0" y="288.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">= 3 seahs = 10 gomeres = 6 hines</text>
+<text x="1150.0" y="275.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Rt 2:17; 1 R 7:26</text>
+<rect x="400.0" y="332.0" width="94.7" height="54.0" rx="8" fill="#2f7d4a"/>
+<text x="508.7" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2f7d4a" text-anchor="start" font-weight="bold">7,3 L</text>
+<text x="380.0" y="356.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Seah («medida»)</text>
+<text x="380.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">= 6 cabs</text>
+<text x="1150.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Gn 18:6; Mt 13:33</text>
+<rect x="400.0" y="424.0" width="67.4" height="54.0" rx="8" fill="#1e8a8a"/>
+<text x="481.4" y="459.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1e8a8a" text-anchor="start" font-weight="bold">3,7 L</text>
+<text x="380.0" y="448.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Hin (líquidos)</text>
+<text x="380.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">= 12 logs</text>
+<text x="1150.0" y="459.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Éx 29:40</text>
+<rect x="400.0" y="516.0" width="52.0" height="54.0" rx="8" fill="#2a6fb0"/>
+<text x="466.0" y="551.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2a6fb0" text-anchor="start" font-weight="bold">2,2 L</text>
+<text x="380.0" y="540.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Gomer</text>
+<text x="380.0" y="564.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">décima parte del efa</text>
+<text x="1150.0" y="551.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Éx 16:16, 36</text>
+<rect x="400.0" y="608.0" width="38.4" height="54.0" rx="8" fill="#7a3fa0"/>
+<text x="452.4" y="643.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#7a3fa0" text-anchor="start" font-weight="bold">1,2 L</text>
+<text x="380.0" y="632.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Cab</text>
+<text x="380.0" y="656.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">= 4 logs</text>
+<text x="1150.0" y="643.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">2 R 6:25</text>
+<rect x="400.0" y="700.0" width="19.2" height="54.0" rx="8" fill="#4a4a4a"/>
+<text x="433.2" y="735.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#4a4a4a" text-anchor="start" font-weight="bold">0,3 L</text>
+<text x="380.0" y="724.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Log</text>
+<text x="380.0" y="748.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">la medida más pequeña</text>
+<text x="1150.0" y="735.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">Lv 14:10</text>
+<text x="600.0" y="820.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">El largo de cada barra es proporcional a la raíz de su capacidad, para que las pequeñas se vean.</text>
+</svg>

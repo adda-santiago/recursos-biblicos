@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El año de Israel</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Meses lunares, fiestas y estaciones (hemisferio norte)</text>
+<rect x="63.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#f2d48a"/>
+<text x="105.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">1</text>
+<text x="105.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Nisán</text>
+<text x="105.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic">Abib</text>
+<text x="105.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">mar-abr</text>
+<text x="105.0" y="350.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Pascua</text>
+<text x="105.0" y="376.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Primicias</text>
+<rect x="153.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#e6dcc0"/>
+<text x="195.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">2</text>
+<text x="195.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Iyar</text>
+<text x="195.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic">Zif</text>
+<text x="195.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">abr-may</text>
+<rect x="243.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#f2d48a"/>
+<text x="285.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">3</text>
+<text x="285.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Siván</text>
+<text x="285.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="285.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">may-jun</text>
+<text x="285.0" y="350.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Pentecostés</text>
+<rect x="333.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#e6dcc0"/>
+<text x="375.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">4</text>
+<text x="375.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Tamuz</text>
+<text x="375.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="375.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">jun-jul</text>
+<rect x="423.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#efe6cf"/>
+<text x="465.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">5</text>
+<text x="465.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Ab</text>
+<text x="465.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="465.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">jul-ago</text>
+<rect x="513.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#e6dcc0"/>
+<text x="555.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">6</text>
+<text x="555.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Elul</text>
+<text x="555.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="555.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">ago-sep</text>
+<rect x="603.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#f2d48a"/>
+<text x="645.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">7</text>
+<text x="645.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Tisri</text>
+<text x="645.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic">Etanim</text>
+<text x="645.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">sep-oct</text>
+<text x="645.0" y="350.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Trompetas</text>
+<text x="645.0" y="376.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Expiación</text>
+<text x="645.0" y="402.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Tabernáculos</text>
+<rect x="693.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#e6dcc0"/>
+<text x="735.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">8</text>
+<text x="735.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Hesván</text>
+<text x="735.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic">Bul</text>
+<text x="735.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">oct-nov</text>
+<rect x="783.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#f2d48a"/>
+<text x="825.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">9</text>
+<text x="825.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Quisleu</text>
+<text x="825.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="825.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">nov-dic</text>
+<text x="825.0" y="350.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Dedicación</text>
+<rect x="873.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#e6dcc0"/>
+<text x="915.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">10</text>
+<text x="915.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Tebet</text>
+<text x="915.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="915.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">dic-ene</text>
+<rect x="963.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#efe6cf"/>
+<text x="1005.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">11</text>
+<text x="1005.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Sebat</text>
+<text x="1005.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="1005.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">ene-feb</text>
+<rect x="1053.0" y="160.0" width="84.0" height="270.0" rx="10" fill="#f2d48a"/>
+<text x="1095.0" y="194.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="normal">12</text>
+<text x="1095.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Adar</text>
+<text x="1095.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic"></text>
+<text x="1095.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">feb-mar</text>
+<text x="1095.0" y="350.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Purim</text>
+<text x="60.0" y="460.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Nombres antiguos en rojo (Abib, Zif, Etanim, Bul); los demás, desde el exilio.</text>
+<text x="60.0" y="544.0" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="bold">El campo (Dt 11:14)</text>
+<rect x="63.0" y="560.0" width="84.0" height="54.0" rx="8" fill="#c08a1e"/>
+<text x="105.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Cebada</text>
+<rect x="153.0" y="560.0" width="174.0" height="54.0" rx="8" fill="#c08a1e"/>
+<text x="240.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Trigo</text>
+<rect x="333.0" y="560.0" width="264.0" height="54.0" rx="8" fill="#2f7d4a"/>
+<text x="465.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Uvas, higos, dátiles</text>
+<rect x="603.0" y="560.0" width="84.0" height="54.0" rx="8" fill="#2f7d4a"/>
+<text x="645.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Vendimia</text>
+<rect x="693.0" y="560.0" width="174.0" height="54.0" rx="8" fill="#2a6fb0"/>
+<text x="780.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Lluvia temprana, siembra</text>
+<rect x="873.0" y="560.0" width="174.0" height="54.0" rx="8" fill="#2a6fb0"/>
+<text x="960.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Lluvias de invierno</text>
+<rect x="1053.0" y="560.0" width="84.0" height="54.0" rx="8" fill="#2a6fb0"/>
+<text x="1095.0" y="593.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Ll. tardía</text>
+<text x="600.0" y="670.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Cada dos o tres años se agregaba un segundo Adar, para que la Pascua cayera en primavera, con la siega de la cebada.</text>
+<text x="600.0" y="700.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">En el hemisferio sur las estaciones están invertidas: la Pascua de Jerusalén cae en otoño austral.</text>
+</svg>

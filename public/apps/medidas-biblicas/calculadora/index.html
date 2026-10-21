@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Calculadora de medidas bíblicas · Recursos Bíblicos</title>
+  <meta name="description" content="Convierte codos, estadios, efas, siclos, talentos, denarios y horas de la Biblia a medidas actuales, días de trabajo y la moneda de tu país.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%96%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Calculadora de medidas bíblicas. Colores de datos: ninguno; solo tokens. */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .volver { font: 500 0.84rem var(--sans); color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    main { max-width: 52rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2rem) 4rem; }
+    h1 { font: 500 clamp(1.7rem, 5vw, 2.4rem)/1.15 var(--serif); margin: 0.2rem 0 0.4rem; }
+    .intro { color: var(--ink-2); margin: 0 0 1.4rem; max-width: 40rem; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.2rem; }
+    .tabs button { font: 600 0.85rem var(--sans); padding: 0.55rem 0.9rem; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+    .tabs button[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: clamp(1rem, 3vw, 1.5rem); }
+    .fila { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: end; }
+    label { display: grid; gap: 0.3rem; font: 500 0.8rem var(--sans); color: var(--muted); }
+    input, select { font: 500 1rem var(--sans); color: var(--ink); background: var(--bg); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 0.6rem 0.7rem; min-width: 0; }
+    input[type="number"] { width: 9rem; }
+    select { max-width: 100%; }
+    .grande { font: 500 clamp(1.6rem, 6vw, 2.3rem)/1.15 var(--serif); margin: 1.2rem 0 0.2rem; }
+    .grande small { display: block; font: 500 0.85rem var(--sans); color: var(--muted); margin-top: 0.3rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; font: 500 0.9rem var(--sans); }
+    th, td { text-align: left; padding: 0.5rem 0.4rem; border-top: 1px solid var(--line); vertical-align: top; }
+    th { font-weight: 500; color: var(--ink-2); }
+    td.num { text-align: right; white-space: nowrap; color: var(--ink); font-weight: 600; }
+    td.ref { color: var(--muted); font-weight: 500; white-space: nowrap; }
+    .nota { font: 500 0.8rem/1.5 var(--sans); color: var(--muted); margin: 1rem 0 0; }
+    .ejemplos { margin-top: 1.4rem; }
+    .ejemplos p { font: 600 0.8rem var(--sans); color: var(--muted); margin: 0 0 0.5rem; }
+    .ejemplos div { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .ejemplos button { font: 500 0.82rem var(--sans); padding: 0.45rem 0.7rem; border: 1px dashed var(--line-strong); border-radius: var(--radius); background: transparent; color: var(--ink-2); cursor: pointer; text-align: left; }
+    .ejemplos button:hover, .tabs button:hover { border-color: var(--accent); }
+    .opc { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 0.9rem; font: 500 0.85rem var(--sans); color: var(--ink-2); }
+    .opc label { display: flex; gap: 0.4rem; align-items: center; color: var(--ink-2); font-size: 0.85rem; }
+    .moneda { margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+    .moneda h2, .horas h2 { font: 600 0.9rem var(--sans); margin: 0 0 0.6rem; }
+    .credito { font: 500 0.75rem var(--sans); color: var(--muted); margin-top: 2.5rem; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 560px) { td.ref { display: none; } input[type="number"] { width: 100%; } .fila > label { flex: 1 1 100%; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca" href="../../../">Recursos Bíblicos</a>
+    <a class="volver" href="../../../medidas-biblicas/">Volver al recurso</a>
+  </header>
+  <main>
+    <p class="nota" style="margin:0">Pesos, medidas, monedas y horas bíblicas</p>
+    <h1>Calculadora de medidas bíblicas</h1>
+    <p class="intro">Escribe una cantidad, elige la unidad y mira su equivalencia actual. Los valores son aproximados: sirven para imaginar las escenas de la Biblia, no para reconstrucciones exactas.</p>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <section class="panel" id="panel" aria-live="polite"></section>
+    <p class="credito">Citas: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso.</p>
+  </main>
+
+  <script src="unidades.js"></script>
+  <script>
+  (() => {
+    'use strict';
+    const U = window.UNIDADES;
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const $ = id => document.getElementById(id);
+    // Tema: sigue al sistema, como las rutas de estudio
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark';
+
+    const fmt = (x, max = 2) => {
+      if (!isFinite(x)) return '—';
+      const a = Math.abs(x);
+      const d = a >= 100 ? 0 : a >= 10 ? Math.min(1, max) : a >= 1 ? max : 3;
+      return x.toLocaleString('es', { maximumFractionDigits: d });
+    };
+    const CATS = [['longitud', 'Longitud'], ['capacidad', 'Capacidad'], ['peso', 'Peso'], ['dinero', 'Dinero'], ['horas', 'Horas']];
+    const estado = { cat: 'longitud', valor: { longitud: 300, capacidad: 1, peso: 1, dinero: 1, horas: 3 }, unidad: { longitud: 'codo', capacidad: 'efa', peso: 'talento', dinero: 'denario' }, largo: false, jornal: '', simbolo: '', epoca: 'eq', tipoHora: 'dia' };
+
+    $('tabs').innerHTML = CATS.map(([id, n]) => `<button type="button" role="tab" data-c="${id}" aria-selected="${id === estado.cat}">${n}</button>`).join('');
+    $('tabs').addEventListener('click', e => { const b = e.target.closest('button[data-c]'); if (!b) return; estado.cat = b.dataset.c; [...$('tabs').children].forEach(x => x.setAttribute('aria-selected', String(x === b))); pintar(); });
+
+    function pintar() {
+      if (estado.cat === 'horas') return pintarHoras();
+      const C = U[estado.cat];
+      const uni = C.unidades.find(u => u.id === estado.unidad[estado.cat]) || C.unidades[0];
+      $('panel').innerHTML = `
+        <div class="fila">
+          <label>Cantidad <input type="number" id="valor" min="0" step="any" inputmode="decimal" value="${esc(estado.valor[estado.cat])}"></label>
+          <label>Unidad bíblica <select id="unidad">${C.unidades.map(u => `<option value="${u.id}"${u.id === uni.id ? ' selected' : ''}>${esc(u.n)}</option>`).join('')}</select></label>
+        </div>
+        ${estado.cat === 'longitud' ? `<div class="opc"><label><input type="checkbox" id="largo"${estado.largo ? ' checked' : ''}> Usar el codo largo (52 cm, Ez 40:5)</label></div>` : ''}
+        <div id="res"></div>
+        ${estado.cat === 'dinero' ? `<div class="moneda"><h2>En tu moneda</h2><div class="fila">
+          <label>Lo que gana un trabajador por un día de trabajo en tu país <input type="number" id="jornal" min="0" step="any" inputmode="decimal" placeholder="Ej.: 25000" value="${esc(estado.jornal)}"></label>
+          <label>Moneda <input type="text" id="simbolo" maxlength="8" placeholder="CLP, MXN, USD…" value="${esc(estado.simbolo)}" style="width:7rem"></label></div>
+          <p class="nota">Un denario era el jornal de un día. Por eso se convierte por salario y no por el precio de la plata.</p></div>` : ''}
+        <p class="nota">${esc(C.nota)}</p>
+        <div class="ejemplos"><p>Ejemplos de la Biblia</p><div>${C.ejemplos.map(([v, u, t], i) => `<button type="button" data-e="${i}">${esc(t)}</button>`).join('')}</div></div>`;
+      $('valor').addEventListener('input', e => { estado.valor[estado.cat] = e.target.value; resultado(); });
+      $('unidad').addEventListener('change', e => { estado.unidad[estado.cat] = e.target.value; resultado(); });
+      $('largo')?.addEventListener('change', e => { estado.largo = e.target.checked; resultado(); });
+      $('jornal')?.addEventListener('input', e => { estado.jornal = e.target.value; resultado(); });
+      $('simbolo')?.addEventListener('input', e => { estado.simbolo = e.target.value; resultado(); });
+      $('panel').querySelector('.ejemplos').addEventListener('click', e => {
+        const b = e.target.closest('button[data-e]'); if (!b) return;
+        const [v, u] = C.ejemplos[+b.dataset.e];
+        estado.valor[estado.cat] = v; estado.unidad[estado.cat] = u; pintar();
+      });
+      resultado();
+    }
+
+    function baseDe(u) {
+      if (estado.cat === 'longitud' && estado.largo && u.codo) return u.base * 51.9 / 44.5;
+      return u.base;
+    }
+
+    function resultado() {
+      const C = U[estado.cat];
+      const uni = C.unidades.find(u => u.id === estado.unidad[estado.cat]);
+      const v = parseFloat(String(estado.valor[estado.cat]).replace(',', '.'));
+      const res = $('res');
+      if (!uni || !isFinite(v) || v < 0) { res.innerHTML = '<p class="nota">Escribe una cantidad.</p>'; return; }
+      const total = v * baseDe(uni);
+      let grande = '', filas = '';
+      if (estado.cat === 'dinero') {
+        const dias = total;
+        const tiempo = dias < 1 ? `${fmt(dias * 12 * 60, 0)} minutos de una jornada de 12 horas`
+          : dias < 25 ? `${fmt(dias)} día${dias === 1 ? '' : 's'} de trabajo`
+          : dias < 300 ? `unos ${fmt(dias / 25, 1)} meses de trabajo`
+          : `unos ${fmt(dias / 300, 1)} años de trabajo`;
+        const j = parseFloat(String(estado.jornal).replace(',', '.'));
+        const enMoneda = isFinite(j) && j > 0 ? `<small>≈ ${fmt(dias * j, 0)} ${esc(estado.simbolo || '')} hoy en tu país</small>` : '';
+        grande = `${fmt(dias)} denario${dias === 1 ? '' : 's'}<small>${tiempo}</small>${enMoneda}`;
+        filas = C.unidades.filter(u => u.id !== uni.id && u.id !== 'dracma' && u.id !== 'pieza').map(u => `<tr><th scope="row">${esc(u.n)}</th><td class="num">${fmt(total / u.base)}</td><td class="ref">${esc(u.ref)}</td></tr>`).join('');
+      } else {
+        const sal = C.salida.find(([, f]) => total >= f) || C.salida[C.salida.length - 1];
+        grande = `${fmt(total / sal[1])} ${sal[0]}<small>${esc(sal[2])} aproximadamente</small>`;
+        filas = C.unidades.filter(u => u.id !== uni.id).map(u => `<tr><th scope="row">${esc(u.n)}</th><td class="num">${fmt(total / baseDe(u))}</td><td class="ref">${esc(u.ref)}</td></tr>`).join('');
+      }
+      res.innerHTML = `<p class="grande">${grande}</p><table><caption class="nota" style="text-align:left;caption-side:top;margin:0">Lo mismo en otras unidades bíblicas</caption><tbody>${filas}</tbody></table>`;
+    }
+
+    /* ---- Horas: horas desiguales según la época del año (Jerusalén, hora solar) ---- */
+    const EPOCAS = { eq: ['Marzo o septiembre (equinoccio)', 12], ver: ['Junio (días más largos)', 14.2], inv: ['Diciembre (días más cortos)', 10.07] };
+    const reloj = h => { let m = Math.round(h * 60 / 5) * 5; m = ((m % 1440) + 1440) % 1440; return `${Math.floor(m / 60)}:${String(m % 60).padStart(2, '0')}`; };
+    const HORAS_NOMBRE = ['primera', 'segunda', 'tercera', 'cuarta', 'quinta', 'sexta', 'séptima', 'octava', 'novena', 'décima', 'undécima', 'duodécima'];
+    const HORAS_REF = { 3: 'Hch 2:15; Mr 15:25', 6: 'Jn 4:6; Hch 10:9', 7: 'Jn 4:52', 9: 'Hch 3:1; Mr 15:34', 10: 'Jn 1:39', 11: 'Mt 20:6' };
+    const VIGILIAS = [
+      ['dia', 'Horas del día'], ['nt', 'Vigilias del NT (cuatro)'], ['at', 'Vigilias del AT (tres)']
+    ];
+    function pintarHoras() {
+      $('panel').innerHTML = `<div class="horas">
+        <div class="fila">
+          <label>Contar <select id="tipo">${VIGILIAS.map(([id, n]) => `<option value="${id}"${id === estado.tipoHora ? ' selected' : ''}>${n}</option>`).join('')}</select></label>
+          <label>Época del año <select id="epoca">${Object.entries(EPOCAS).map(([id, [n]]) => `<option value="${id}"${id === estado.epoca ? ' selected' : ''}>${n}</option>`).join('')}</select></label>
+        </div>
+        <div id="res"></div>
+        <p class="nota">El día bíblico tenía doce horas, del amanecer a la puesta del sol (Jn 11:9). En verano cada hora duraba más de sesenta minutos y en invierno menos. Las horas se dan en hora solar de Jerusalén (el sol en lo más alto a las 12:00).</p></div>`;
+      $('tipo').addEventListener('change', e => { estado.tipoHora = e.target.value; tablaHoras(); });
+      $('epoca').addEventListener('change', e => { estado.epoca = e.target.value; tablaHoras(); });
+      tablaHoras();
+    }
+    function tablaHoras() {
+      const L = EPOCAS[estado.epoca][1];
+      const sale = 12 - L / 2, pone = 12 + L / 2, h = L / 12, noche = 24 - L;
+      let filas = '';
+      if (estado.tipoHora === 'dia') {
+        filas = HORAS_NOMBRE.map((n, k) => `<tr><th scope="row">Hora ${n}</th><td class="num">${reloj(sale + k * h)} a ${reloj(sale + (k + 1) * h)}</td><td class="ref">${HORAS_REF[k + 1] || ''}</td></tr>`).join('');
+      } else {
+        const v = estado.tipoHora === 'nt'
+          ? [['Primera: al anochecer', 'Mr 13:35'], ['Segunda: medianoche', 'Lc 12:38'], ['Tercera: canto del gallo', 'Mr 13:35'], ['Cuarta: la mañana', 'Mt 14:25']]
+          : [['Primera: al comenzar las vigilias', 'Lm 2:19'], ['Media: la guardia de la medianoche', 'Jue 7:19'], ['De la mañana', 'Éx 14:24']];
+        const d = noche / v.length;
+        filas = v.map(([n, r], k) => `<tr><th scope="row">${n}</th><td class="num">${reloj(pone + k * d)} a ${reloj(pone + (k + 1) * d)}</td><td class="ref">${r}</td></tr>`).join('');
+      }
+      $('res').innerHTML = `<p class="grande">${reloj(sale)} a ${reloj(pone)}<small>sale y se pone el sol · cada hora del día dura unos ${Math.round(h * 60)} minutos</small></p>
+        <table><tbody>${filas}</tbody></table>`;
+      window.Citas?.procesar?.($('res'));
+    }
+
+    pintar();
+  })();
+  </script>
+  <script src="../../assets/js/citas.js"></script>
+</body>
+</html>
