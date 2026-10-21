@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.33 · 20 de octubre de 2026
+Versión 2.34 · 20 de octubre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.34:** el Atlas bíblico se rehace como mapa de consulta (§20, Atlas bíblico): búsqueda por lugar, sitio o libro, una sola época con el imperio de fondo, tipos plegables y un lugar por ubicación con todos sus eventos. Los recorridos (patriarcas, éxodo, conquista, exilio, Jesús, Pablo) salen a sus propios recursos y el botón «Recorridos» los reúne. Cada lugar muestra «Para aprender más»: las estaciones del sitio donde aparece, generadas por `herramientas/atlas_recursos.mjs`, que se corre antes de cada ZIP. El `#` de una ficha pasa a la app: `/{slug}/#ruta/3` abre esa estación y `/atlas-biblico/#jerusalen`, ese lugar (§6). El atlas ofrece tipo de mapa (Mapa, Físico y Satélite; Acuarela y Atlas cuando se activen sus cuentas), con respaldo de teselas propias de la NASA, como única excepción a «sin teselas externas» (§5).
 
 **Cambio de la versión 2.33:** cuarto recurso de la ola 0, Pesos, medidas, monedas y horas bíblicas, con cuatro rutas y un taller práctico (30 estaciones) y una calculadora propia (`medidas-biblicas/calculadora/`). Una herramienta de estudio puede incluir una página auxiliar dentro de su carpeta, abierta con un botón `ir`, y las equivalencias de medidas del sitio son las de la calculadora (§20). Si un objeto real no tiene foto con licencia libre verificada, la estación se queda sin esa foto (§20, Imágenes).
 
@@ -95,7 +97,7 @@ Queda fuera: anuncios y cualquier forma de monetización, evaluaciones calificad
 |---|---|---|
 | Miembro estudiando por su cuenta | Lee la Biblia en casa, desde el celular o el computador, y quiere ver el contexto: lugar, época, personajes | Buscar por libro, pasaje o personaje; ficha con citas y fuentes; recursos que se entiendan sin alguien que los explique |
 | Líder de estudio o grupo pequeño | Prepara una reunión y a veces proyecta | Pantalla completa, restaurar vista, compartir por WhatsApp |
-| Predicador o maestro | Usa un recurso como apoyo visual en una prédica o clase | Lo mismo que el líder; a futuro, enlace directo a una estación de la ruta (`fyp:ir-a`, §6) |
+| Predicador o maestro | Usa un recurso como apoyo visual en una prédica o clase | Lo mismo que el líder, y enlace directo a una estación o a un lugar del atlas (§6) |
 
 ## 3. Principios de producto
 
@@ -146,7 +148,7 @@ Reglas:
 | Búsqueda | Pagefind | Índice estático generado en el build, sin servidor, con filtros por faceta |
 | Visor 3D simple | `<model-viewer>` (Google) | Hotspots, carga diferida, gestos táctiles, AR y Draco incluidos |
 | Visor 3D complejo | Three.js | Escenas compuestas, recorridos, comparaciones a escala |
-| Mapas | Leaflet. Recursos nuevos: mapa base vectorial propio (Natural Earth, `mapa-base.js`); apps legadas: teselas Esri | Sin clave de API y, en los recursos nuevos, sin depender de un servicio externo |
+| Mapas | Leaflet. Recursos nuevos: mapa base vectorial propio (Natural Earth, `mapa-base.js`); apps legadas: teselas Esri. Excepción: el atlas ofrece mapas de terceros como opción, con respaldo propio (§20, Atlas bíblico) | Sin clave de API y, en los recursos nuevos, sin depender de un servicio externo |
 | Hosting | GitHub Pages, organización `adda-santiago`, repositorio `recursos-biblicos` | Gratis y permanente: sin uso comercial no hace falta otro hosting. Sitio de proyecto en la subcarpeta `/recursos-biblicos/` |
 | Modelos pesados (`.glb`) | Almacenamiento externo con CDN | Pendiente hasta el primer modelo pesado (§22) |
 | CI/CD | GitHub Actions (`.github/workflows/publicar.yml`) | Build, validación del esquema y despliegue |
@@ -183,7 +185,8 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 ├─ geo/palestina.py         genera assets/js/mapa-detalle-palestina.js (Natural Earth 1:10m)
 ├─ herramientas/biblia/     generar.py: genera public/biblia/ desde las fuentes (fuentes/ no se sube al repositorio)
 ├─ herramientas/            verificar_citas.py (citas textuales contra la RV 1960), esquemas_*.py (SVG propios),
-│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas)
+│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas),
+│                           atlas_recursos.mjs (genera atlas/recursos.js, §20)
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
 │  ├─ data/taxonomia.ts      vocabulario controlado (§9)
@@ -251,7 +254,9 @@ El visor nunca contiene anuncios ni elementos ajenos al recurso.
 - Mensajes emitidos: `{ tipo: 'fyp:lista' }` al terminar de cargar.
 - Cada app legada declara `window.fypReset = () => {...}`. Si no lo hace, el puente intenta `#t-home` o `#zoom-reset`; si no hay nada, recarga la app.
 - Dentro del iframe, el puente agrega la clase `en-visor` a `<html>` y oculta la marca interna de la app.
-- Mensajes nuevos se agregan aquí antes de implementarse (candidato: `fyp:ir-a`, para abrir una estación de la ruta o un hotspot desde la URL; útil para predicadores y maestros).
+- Mensajes nuevos se agregan aquí antes de implementarse.
+
+**Enlace directo** (desde la v2.34). El `#` de la dirección de una ficha pasa al `src` del iframe (`Visor.astro`): `/{slug}/#ruta/3` abre la estación 3 de esa ruta en una ruta de estudio, `/evangelios/#samaritana` un pasaje de la armonía y `/atlas-biblico/#jerusalen` un lugar del atlas. Así se enlaza una estación desde otro recurso o se comparte con un grupo. Queda pendiente que la dirección de la ficha se actualice al avanzar dentro de la app.
 
 ## 7. Motores y convenciones 3D
 
@@ -358,7 +363,7 @@ Asignación actual:
 
 | Recurso | Testamento | Épocas | Libros |
 |---|---|---|---|
-| Atlas bíblico | Antiguo, Nuevo | Patriarcas a iglesia primitiva | Génesis, Éxodo, Números, Josué, 1 y 2 Reyes, Hechos |
+| Atlas bíblico | Antiguo, Nuevo | Todas (creación a últimos tiempos) | Génesis, Éxodo, Josué, Jueces, 1 Samuel, 1 y 2 Reyes, Mateo, Lucas, Juan, Hechos |
 | Reyes, jueces y profetas | Antiguo | Conquista y jueces a retorno | Jueces, 1 y 2 Samuel, 1 y 2 Reyes, 1 y 2 Crónicas |
 | Árbol genealógico | Antiguo, Nuevo | Creación a vida de Jesús | Génesis, Rut, 1 Crónicas, Mateo, Lucas |
 | El tabernáculo | Antiguo, Nuevo | Éxodo y desierto | Éxodo, Levítico, Números, Hebreos |
@@ -592,16 +597,31 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 - **Recursos complementarios** (cada imperio, el exilio, el esquema escatológico) hablan de todos los libros donde aparece el tema, no solo del libro que los originó. Los recursos históricos incluyen además su legado (aportes, costumbres, inventos), verificado.
 - **Imágenes:** imágenes fotorrealistas generadas con IA, como fotogramas de una película histórica (nunca ilustración, pintura ni render), con el tema al centro; `foco` ajusta el recorte. **Formato:** las escenas de las estaciones se generan en 4:3 (1200×896, el panel visual) y la portada del recurso en 16:9 (1200×675, tarjetas y vista previa al compartir); el prompt de cada imagen dice cuál corresponde. Un objeto arqueológico real nunca se representa con una imagen generada: se usa una foto con licencia verificada o una escena que no se confunda con evidencia. Si no se encuentra una foto con licencia libre verificada (por ejemplo, una pesa o una moneda concreta), la estación queda sin esa foto: no se reemplaza por una foto de otro objeto parecido ni por una imagen generada, y una foto con derechos reservados no se publica aunque esté en internet. Los prompts para Google Flow van en inglés y completos (estilo, formato 4:3 y restricciones dentro del prompt). Toda persona bíblica con nombre que aparece en una escena es un personaje de Flow, aunque se use por primera vez: se crea con un prompt de referencia (foto de estudio de una persona real con vestuario), y cada prompt de escena la nombra igual que en Flow e indica cuáles adjuntar. Lo mismo vale para las personas históricas con nombre que no son bíblicas (Jerónimo, Casiodoro de Reina), que se registran en la misma hoja. Las personas anónimas (una multitud, un pastor) se declaran anónimas en el prompt. El registro de personajes vive en la hoja «Personajes Flow» de la planilla del plan (nombre en Flow, persona bíblica, etapa, rasgos fijos, recursos y estado); se consulta antes de escribir los prompts y se actualiza en cada recurso. Jesús se crea solo de espaldas (Jesús-adulto-espalda): su rostro no se muestra. Si un personaje aparece en distintas etapas de su vida, se crea un personaje de Flow por etapa, con su propio nombre (Daniel-joven y Daniel-anciano, José-joven y José-adulto), y la escena usa el de la etapa que corresponde. Las fotos de manuscritos, portadas de libros antiguos y otros objetos que deben verse enteros llevan `completa: true`: el motor las muestra sin recorte, con su pie. Toda foto (`origen: 'foto'`) muestra además el botón «Ampliar»: la abre a pantalla completa, con zoom (botones, rueda, doble toque o pellizco) y arrastre, para ver el detalle. Por eso las fotos se guardan con su resolución original. La portada se genera directamente en 16:9 y no se recorta: Claude solo la optimiza a 1200×675, con su `-640.webp` y su `.jpg`. Los diagramas propios (esquemas, líneas proféticas) se dibujan en SVG con un script en `herramientas/` y se declaran con `origen: 'esquema'`: el motor los muestra completos, sin recorte, con el pie «Esquema del recurso».
 
+### Atlas bíblico (mapa de consulta)
+
+El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni campañas: esos van en su propio recurso (§20, Plan de publicación) y el atlas los reúne en el botón «Recorridos». Referencia: `public/apps/atlas/`.
+
+- **Motor:** `mapa-imperios.js` con el mapa base propio y la capa de detalle de Palestina. Marcadores, búsqueda y fichas en `atlas.js`; estilos en `atlas.css`.
+- **Tipo de mapa** (botón abajo a la derecha con menú; se recuerda en el dispositivo), elegidos por el responsable el 21 de octubre: **Mapa** (el propio, por defecto), **Físico** (Esri `World_Physical_Map`: relieve, vegetación y desierto, sin calles; detalle propio solo hasta zoom 8, después se ve ampliado), **Satélite** (Esri `World_Imagery`), **Acuarela** (Stamen Watercolor, de Stadia Maps) y **Atlas** (Thunderforest Atlas). Es la única excepción a «sin teselas externas» (§5). Acuarela y Atlas necesitan cuenta, así que solo aparecen cuando se activan en `MAPAS_CUENTAS` (`atlas.js`): Stadia con el dominio del sitio autorizado en su panel (plan gratuito para uso no comercial, sin clave en el código) y Thunderforest con su clave (plan gratuito de 150.000 teselas al mes; la clave queda visible en el código público). Si un servidor no responde tras tres teselas fallidas, se usan las teselas de la NASA alojadas en `atlas/relieve/` (Blue Marble con relieve sombreado, dominio público; zoom 3 a 7, más detalle entre Roma y Persia) y un aviso lo explica. Las teselas propias salen del paquete npm `@freetiler/nasa-bluemarble`; no se editan a mano.
+- **Controles:** buscador (lugar, alias o sitio dentro del lugar, título de un evento o libro; un libro filtra el mapa y aparece como filtro activo), una época a la vez (con el imperio de esa época de fondo, que se puede ocultar) y tipos plegables. No hay listas de casillas por libro ni por período.
+- **Datos (`lugares.js`, a mano):** un lugar por ubicación (también montes y serranías: Hermón, Tabor, Seir, Galaad), con `id` fijo, `alias`, los ids de `imperios-geo.js` que le corresponden (`geo`) y sus `eventos` (título, tipo, épocas de la taxonomía, libros, referencia y descripción). Tipos: ciudad, evento histórico, batalla, milagro, predicación, revelación y profecía, pacto y culto. Dos sitios a menos de unos 2 km (Getsemaní y el Gólgota en Jerusalén, Mamre en Hebrón) se reúnen como eventos del mismo lugar.
+- **Para aprender más (`recursos.js`, generado):** `node herramientas/atlas_recursos.mjs` recorre los `data.js` de las rutas de estudio (lugares de sus mapas y estaciones cuyo título nombra el lugar), los pasajes de la armonía y una lista manual de recursos 3D (`MANUAL`), y escribe para cada lugar las estaciones con su enlace directo (§6). Ordena primero las estaciones que nombran el lugar y, con una época elegida, las de esa época. Los lugares de `imperios-geo.js` que usan los recursos y no están en `lugares.js` se agregan como puntos grises. **Se corre antes de cada ZIP** (§25), para que cada recurso nuevo aparezca en el atlas. Un recurso 3D o legado nuevo se agrega a `MANUAL`.
+- **Recorridos:** lista `RECORRIDOS` del mismo script, con el slug que tendrá cada recurso de mapas del plan (`tierra-de-israel`, `patriarcas`, `exodo-desierto`, `conquista-tribus`, `vida-de-david`, `jerusalen-historia`, `expansion-cristianismo`). Mientras la ficha no exista o esté oculta, aparece «En preparación»; al publicarse con ese slug, se activa sola. Si un recurso se publica con otro slug, se corrige la lista.
+- **Enlaces:** desde el atlas, `../../{slug}/#ruta/n` con `target="_top"`, para abrir la ficha completa.
+
 ### Pendientes
 
 - **Estudios de las cartas de Pablo:** cuando se creen, enlazar desde ellos la estación correspondiente de Los viajes de Pablo (ruta Las cartas en su contexto) con el bloque `ir`.
+- **Archivos obsoletos del atlas (borrar a mano en GitHub):** `public/apps/atlas/fronteras.js`, `public/apps/atlas/viajes.js` y `public/apps/assets/css/atlas.css`. Un ZIP no puede borrarlos (§19, regla 8).
+- **Atlas: activar Acuarela y Atlas.** Crear cuenta en Stadia Maps y autorizar el dominio del sitio, y crear cuenta en Thunderforest; luego `stadia: true` y la clave en `MAPAS_CUENTAS` (`atlas.js`).
+- **Atlas: lugares sin eventos propios.** Los grises vienen de los recursos y no tienen descripción; los más consultados (Esmirna, Pérgamo, Tiro, Betsaida, Magdala) se pueden pasar a `lugares.js` con sus eventos.
 - **`citas.js` y los dos puntos:** una referencia seguida de dos puntos («Jl 2:28-32: el derramamiento…») se corta y no se reconoce completa. Mientras no se corrija el motor, en el contenido la referencia va en su propia celda o seguida de otro signo.
 - **Permiso de la Sociedad Bíblica (RV 1960):** El imperio babilónico cita unos 1.450 versículos, incluidos libros completos (Lamentaciones, Habacuc). Se publica igual, porque el sitio está en etapa de desarrollo y sirve también para mostrar el proyecto a la Sociedad Bíblica; si el permiso no se concede, se ajustan las burbujas antes de difundir el sitio.
 - **Títulos de los Salmos en la RV 1909:** la fuente los trae pegados al versículo 1 («Salmo de David. JEHOVÁ es mi pastor»).
-- **`noindex` en las apps legadas** (§19, regla 5): falta en `atlas/`, `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/` (y en las apps de las fichas ocultas).
+- **`noindex` en las apps legadas** (§19, regla 5): falta en `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/` (y en las apps de las fichas ocultas).
 - **Limpieza del código comercial:** eliminar `anuncios.ts`, `cuenta.ts`, `EspacioAnuncio`, `SITIO.anuncios` y la llamada a `iniciarAnuncios()`.
 - **Tabernáculo:** las rutas de servicio y de expiación ya existen como ceremonias (Servicio diario y Día de la Expiación). El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras están en el recurso interactivo El sacerdocio en Israel.
-- **Crédito de la RV 1960 en las apps existentes** (§15): falta en `atlas/`, `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/`, que usan la burbuja de citas.
+- **Crédito de la RV 1960 en las apps existentes** (§15): falta en `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/`, que usan la burbuja de citas.
 - **Sistema de diseño** (hecho en Claude Design a partir de `tokens.css`, `global.css` y estas directrices). Brechas: contraste WCAG de `--muted` y `--surface-2` en modo claro, y de `--line-strong` sobre `--surface` en el contorno de controles (no llega a 3:1); colores de datos sin sincronizar entre apps (`--judah`, `--israel`); faltan íconos SVG propios; no hay logo ni isotipo (§4, §22).
 - **Armonía de los evangelios.** Publicada en borrador con 246 pasajes que cubren los 3.779 versículos de los cuatro evangelios, en orden cronológico: los 194 del libro de Cristóbal Alarcón y 52 agregados en su lugar (se insertan con `ARMONIA.insertar(tras, lista)` y llevan `nuevo: true` solo como dato interno, sin marca visible). Pendiente: revisión de los comentarios.
 - **Recursos derivados de la armonía (pendientes):** un recurso interactivo de recorridos temáticos (parábolas, milagros, los «Yo soy», oraciones de Jesús, las siete palabras, apariciones del resucitado, la Semana Santa día por día) y un estudio de libro para cada evangelio (Mateo, Marcos, Lucas y Juan), con las rutas I a IV, conectados con la armonía.
@@ -619,7 +639,7 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
 | 2. Contenido | Recursos según el plan de publicación (§20): 26 de 134 publicados al 20 de octubre de 2026; se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
-| 3. Crecimiento | Analítica activa, PWA con modo sin conexión, enlace directo a estaciones (`fyp:ir-a`) | Uso sostenido medible |
+| 3. Crecimiento | Analítica activa, PWA con modo sin conexión, dirección de la ficha que sigue la estación abierta (§6) | Uso sostenido medible |
 
 ## 22. Decisiones abiertas
 
@@ -773,6 +793,11 @@ Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor us
 | 2026-10-20 | Página auxiliar `calculadora/` dentro del recurso, abierta con un botón `ir`; sus equivalencias (`unidades.js`) son las del sitio | Una herramienta de estudio necesita algo que el lector use mientras lee cualquier libro; un solo juego de valores evita cifras distintas entre recursos |
 | 2026-10-20 | El dinero bíblico se convierte por salario (un denario = un día de trabajo), no por el precio de la plata | Es la equivalencia que da la misma Biblia (Mt 20:2) y la que permite a cada lector calcular en la moneda de su país |
 | 2026-10-20 | Sin foto con licencia libre verificada, la estación queda sin foto (pesa «pim», siclo de Tiro, blanca); el denario queda pendiente porque la foto disponible tiene derechos reservados | Una foto de otro objeto o con derechos reservados no cumple §18; el texto y los esquemas cubren la explicación |
+| 2026-10-20 | El Atlas bíblico pasa a ser un mapa de consulta: búsqueda, una época a la vez, tipos plegables y un lugar por ubicación con sus eventos; sin teselas externas | Siete grupos de filtros y unas 75 casillas confundían; nueve lugares (Getsemaní, Gólgota, Emaús y otros) nunca aparecían por un tipo sin registrar |
+| 2026-10-20 | Los recorridos del atlas (éxodo, exilio, viajes de Pablo) salen a sus recursos; el botón «Recorridos» los reúne y marca «En preparación» los que faltan | Los recursos de mapas del plan los explican paso a paso; el atlas no debe repetirlos. Todos ya figuraban en la planilla, no se agregaron filas |
+| 2026-10-20 | «Para aprender más» en cada lugar del atlas, generado por `herramientas/atlas_recursos.mjs` desde los datos de los recursos | Que la lista crezca sola con cada publicación, sin mantenerla a mano |
+| 2026-10-21 | El atlas vuelve a ofrecer tipo de mapa: Mapa, Físico y Satélite (Esri), y Acuarela (Stadia) y Atlas (Thunderforest) cuando se activen sus cuentas; respaldo con teselas propias de la NASA | Sin relieve no se encuentran las zonas montañosas; los estilos los eligió el responsable; el respaldo propio mantiene el atlas usable si un servidor falla |
+| 2026-10-20 | El `#` de la ficha pasa a la app (`/{slug}/#ruta/3`, `/atlas-biblico/#jerusalen`) | Enlazar una estación o un lugar desde otro recurso; reemplaza al candidato `fyp:ir-a` |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
@@ -792,7 +817,7 @@ Reglas para trabajar con Claude en este proyecto (antes vivían en el archivo de
 - **Entregas completas:** código funcional y ZIP con archivos enteros, nunca fragmentos. Cada recurso se entrega completo de una vez: todas sus rutas, el demo, los prompts de imágenes y el de portada; no estación por estación.
 - Los ZIP de recursos nuevos van con `publicado: true` en la ficha, aunque haya permisos en trámite: el sitio es una versión de desarrollo.
 - **Revisión de recursos publicados:** los hallazgos se acumulan y se compilan en **un solo ZIP** cuando se avisa que terminó la revisión.
-- **Verificar el build antes de empaquetar:** un error de YAML en una ficha rompe todo el sitio. Antes de cada ZIP: `npm run build` sin errores, `Citas.faltantes()` vacío y las citas textuales contrastadas con la RV 1960 (`herramientas/verificar_citas.py`).
+- **Verificar el build antes de empaquetar:** un error de YAML en una ficha rompe todo el sitio. Antes de cada ZIP: `node herramientas/atlas_recursos.mjs` (actualiza «Para aprender más» del atlas), `npm run build` sin errores, `Citas.faltantes()` vacío y las citas textuales contrastadas con la RV 1960 (`herramientas/verificar_citas.py`).
 - Cada entrega que cambia una regla actualiza este documento en el mismo ZIP (versión, línea de cambio y bitácora), y el proyecto de Claude recibe la misma copia.
 - Claude actualiza el estado del recurso en la planilla del plan de publicación (§20).
 

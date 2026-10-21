@@ -50,7 +50,11 @@ if (d.visor.motor === 'three') throw new Error(`[${r.id}] El motor "three" nativ
 
   <div class="visor-lienzo">
     {srcLegado && (
-      <iframe src={srcLegado} title={d.titulo} allow="fullscreen" allowfullscreen loading="eager"></iframe>
+      <>
+        <iframe src={srcLegado} title={d.titulo} allow="fullscreen" allowfullscreen loading="eager"></iframe>
+        {/* Enlace directo (/{slug}/#ruta/3, /atlas-biblico/#jerusalen): el # de la ficha pasa a la app */}
+        <script is:inline set:html={`(() => { const f = document.currentScript.previousElementSibling; if (f && location.hash.length > 1) f.src = f.getAttribute('src').split('#')[0] + location.hash; })();`}></script>
+      </>
     )}
     {d.visor.motor === 'model-viewer' && (
       <model-viewer
