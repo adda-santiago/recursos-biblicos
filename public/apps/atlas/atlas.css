@@ -112,12 +112,13 @@ button { font: inherit; color: inherit; }
 .t-otros { fill: var(--t-otros); background: var(--t-otros); }
 .leaflet-tooltip.at-lbl {
   font: 600 .74rem var(--sans); color: var(--ink); background: color-mix(in srgb, var(--bg) 86%, transparent);
-  border: 0; border-radius: 4px; box-shadow: none; padding: .02rem .32rem; display: none;
+  border: 0; border-radius: 4px; box-shadow: none; padding: .02rem .32rem;
 }
 .leaflet-tooltip.at-lbl::before { display: none; }
 .leaflet-tooltip.at-lbl.extra { font-weight: 500; color: var(--ink-2); }
-.at.nombres .leaflet-tooltip.at-lbl:not(.extra), .at.nombres-todos .leaflet-tooltip.at-lbl { display: block; }
-.leaflet-tooltip.at-lbl.sel { display: block; color: var(--accent); }
+.leaflet-tooltip.at-lbl.tapado { visibility: hidden; }
+.leaflet-tooltip.at-lbl.hover { visibility: visible; z-index: 10; }
+.leaflet-tooltip.at-lbl.sel { visibility: visible; color: var(--accent); z-index: 9; }
 
 /* ---------- Ficha del lugar ---------- */
 .at-ficha {

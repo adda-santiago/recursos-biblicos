@@ -85,7 +85,19 @@ function frontmatter(texto) {
 
 // --- Datos de entrada ---
 const LUGARES = cargar(path.join(APPS, 'atlas/lugares.js'), 'ATLAS_LUGARES');
-const GEO = cargar(path.join(APPS, 'assets/js/imperios-geo.js'), 'IMPERIOS_GEO').lugares;
+// Geografía compartida más las extensiones propias de algunos recursos (p. ej. tierra-de-israel/tierra-geo.js),
+// que agregan lugares a IMPERIOS_GEO al cargarse
+const GEO = (() => {
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(path.join(APPS, 'assets/js/imperios-geo.js'), 'utf8'), ctx);
+  for (const app of fs.readdirSync(APPS)) {
+    const dir = path.join(APPS, app);
+    if (!fs.statSync(dir).isDirectory()) continue;
+    for (const f of fs.readdirSync(dir).filter(f => /-geo\.js$/.test(f))) vm.runInContext(fs.readFileSync(path.join(dir, f), 'utf8'), ctx);
+  }
+  return ctx.window.IMPERIOS_GEO.lugares;
+})();
 const REGION = id => /^r-/.test(id) || ['desierto-judea', 'montana-judea', 'decapolis', 'perea', 'tiro-sidon', 'medos', 'hispania', 'iliria', 'rio-egipto'].includes(id);
 
 // Fichas publicadas: carpeta de la app → { slug, titulo }
@@ -105,6 +117,7 @@ LUGARES.forEach(l => (l.geo || []).forEach(g => { porGeo[g] = l.id; }));
 const extra = {};
 const lugarDeGeo = g => {
   if (porGeo[g]) return porGeo[g];
+  if (LUGARES.some(l => l.id === g)) return g;   // mismo id que un lugar del atlas
   if (REGION(g) || !GEO[g]) return null;
   if (!extra[g]) { const [n, lat, lng] = GEO[g]; extra[g] = { id: g, n: n.replace(/\s*\(aprox\.\)|\s*\(trad\.\)|\s*\(¿\?\)/g, ''), lat, lng, ep: new Set() }; }
   return g;

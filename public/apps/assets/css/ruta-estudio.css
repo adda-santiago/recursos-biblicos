@@ -136,6 +136,20 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 .re-pasos { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 0.75rem; padding: 0.55rem 1rem;
   border-top: 1px solid var(--line); background: var(--bg); }
 .re-pasos[hidden] { display: none; }
+/* Selector del mapa (p. ej. «Compara con tu país») */
+.re-sel { display: grid; grid-template-columns: auto minmax(0, 18rem) 1fr; align-items: center; gap: 0.4rem 0.75rem; padding: 0.55rem 1rem;
+  border-top: 1px solid var(--line); background: var(--bg); }
+.re-sel[hidden] { display: none; }
+.re-sel label { font: 600 0.78rem var(--sans); color: var(--muted); }
+.re-sel select { font: 500 0.9rem var(--sans); color: var(--ink); background: var(--bg); border: 1px solid var(--accent); border-radius: 8px; padding: 0.35rem 0.5rem; min-width: 0; }
+.re-sel-nota { margin: 0; font: 0.95rem/1.4 var(--serif); }
+@media (max-width: 760px) {
+  /* Con barra de pasos o selector bajo el mapa, las pestañas suben sobre ella (--re-barra la fija ruta-estudio.js) */
+  .re-app .re-tabs { bottom: calc(0.6rem + var(--re-barra, 0px)); }
+  .re-app .re-tabs-nota { bottom: calc(3.3rem + var(--re-barra, 0px)); }
+  .re-sel { grid-template-columns: auto 1fr; }
+  .re-sel-nota { grid-column: 1 / -1; font-size: 0.88rem; }
+}
 .re-paso-txt { margin: 0; font: 1rem/1.4 var(--serif); }
 .re-paso-centro { min-width: 0; }
 .re-paso-puntos { display: flex; gap: .35rem; margin-bottom: .3rem; }

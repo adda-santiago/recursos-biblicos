@@ -16,12 +16,17 @@
            { tipo: 'imagen', titulo, src, alt, pie, origen: 'ia' | 'foto' | 'esquema', licencia, foco, completa },  // las fotos ('foto') llevan botón «Ampliar»: lupa a pantalla completa con zoom  // foco: object-position del recorte; 'esquema' = diagrama propio (SVG); completa: true muestra la foto entera, sin recorte (manuscritos, portadas)
            { tipo: 'mapa', titulo, estado: {...} }  // estado de mapa-imperios.js
            { tipo: 'mapa', titulo, pasos: [{ t, fecha, estado }] },
+           { tipo: 'mapa', titulo, selector: { etiqueta, clave, opciones: [{ id, t, region, estado, nota }] } },
+              // selector: lista para elegir qué mostrar en el mapa (p. ej. «Compara con tu país»).
+              // Se recuerda en el dispositivo (clave fyp:v1:sel:<clave>); la primera vez se elige
+              // la opción cuya region (código ISO de país, p. ej. 'CL') coincide con el idioma del navegador.
            { tipo: 'tabla', titulo, tabla: { titulo, cab, filas, nota } },
            { tipo: 'cita', titulo, texto, ref }
          ],
          texto: ['párrafo', { h: 'subtítulo' },
                  { posturas: { titulo, a: { n, t }, b: { n, t }, c } }, ...],  // dos posturas y cómo se entienden
-                // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa
+                // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa;
+                //   a = '#ruta/n' salta a otra estación del mismo recurso
                 // { ejercicio: { pregunta, opciones: [{ t, ok, por_que }], explicacion } }: opción múltiple.
                 //   Una sola opción con ok: true. Al tocar una opción se muestra su por_que; si es la correcta,
                 //   también la explicación general y se cierran las demás. Se puede reintentar.
@@ -32,7 +37,8 @@
      }]
    }
    Componentes opcionales que aprovecha si están cargados: citas.js,
-   linea-tiempo.js, mapa-imperios.js.
+   linea-tiempo.js, mapa-imperios.js. RUTA_DATA.mapa (opcional) son las opciones de
+   MapaImperios.crear para todos los mapas del recurso (detalle, relieve, rotulos, maxZoom…).
    ========================================================== */
 (() => {
   'use strict';
@@ -63,6 +69,11 @@
         </div>
         <button type="button" class="re-paso-btn" id="re-paso-sig" aria-label="Paso siguiente">›</button>
         <button type="button" class="re-paso-play" id="re-paso-play">▶ Ver la evolución</button>
+      </div>
+      <div class="re-sel" id="re-sel" hidden>
+        <label for="re-sel-sel" id="re-sel-et"></label>
+        <select id="re-sel-sel"></select>
+        <p class="re-sel-nota" id="re-sel-nota" aria-live="polite"></p>
       </div>
     </div>
     <article class="re-texto" id="re-texto">
@@ -178,6 +189,8 @@
     const v = lista[i];
     vistas.forEach(id => { $(id).hidden = true; });
     $('re-pasos').hidden = true;
+    $('re-sel').hidden = true;
+    medirBarra();
     if (!v) return;
     if (v.tipo === 'imagen') {
       const f = $('re-img');
@@ -194,8 +207,9 @@
       if (lb) { lb.addEventListener('click', () => lupa.abrir(v)); f.querySelector('img').addEventListener('dblclick', () => lupa.abrir(v)); }
     } else if (v.tipo === 'mapa') {
       $('re-mapa').hidden = false;
-      if (!mapa && window.MapaImperios) mapa = window.MapaImperios.crear($('re-mapa'));
+      if (!mapa && window.MapaImperios) mapa = window.MapaImperios.crear($('re-mapa'), D.mapa);
       if (v.pasos) { paso = Math.min(paso, v.pasos.length - 1); pintarPaso(v, true); }
+      else if (v.selector) pintarSelector(v.selector);
       else if (mapa) mapa.mostrar(v.estado, true);
     } else if (v.tipo === 'tabla') {
       const t = v.tabla;
@@ -211,6 +225,44 @@
       $('re-cita').hidden = false;
     }
   }
+  /* Selector: una lista que cambia lo que muestra el mapa (p. ej. «Compara con tu país») */
+  let selActual = null;
+  const claveSel = s => `fyp:v1:sel:${s.clave || 'mapa'}`;
+  function elegidoInicial(s) {
+    try { const g = localStorage.getItem(claveSel(s)); if (g && s.opciones.some(o => o.id === g)) return g; } catch (e) { /* sin almacenamiento */ }
+    const regiones = (navigator.languages || [navigator.language || '']).map(l => (String(l).split('-')[1] || '').toUpperCase()).filter(Boolean);
+    for (const r of regiones) { const o = s.opciones.find(x => x.region === r); if (o) return o.id; }
+    return s.opciones[0].id;
+  }
+  function pintarSelector(s) {
+    selActual = s;
+    const sel = $('re-sel-sel');
+    $('re-sel-et').textContent = s.etiqueta || 'Elegir';
+    sel.innerHTML = s.opciones.map(o => `<option value="${esc(o.id)}">${esc(o.t)}</option>`).join('');
+    sel.value = elegidoInicial(s);
+    $('re-sel').hidden = false;
+    medirBarra();
+    mostrarOpcion(true);
+  }
+  function mostrarOpcion(animar) {
+    const s = selActual; if (!s) return;
+    const o = s.opciones.find(x => x.id === $('re-sel-sel').value) || s.opciones[0];
+    $('re-sel-nota').textContent = o.nota || '';
+    medirBarra();
+    if (mapa) mapa.mostrar(o.estado, animar);
+  }
+  $('re-sel-sel').addEventListener('change', () => {
+    try { localStorage.setItem(claveSel(selActual), $('re-sel-sel').value); } catch (e) { /* sin almacenamiento */ }
+    mostrarOpcion(true);
+  });
+
+  // Alto de la barra visible bajo el mapa (pasos o selector): en celular, las pestañas se ubican sobre ella
+  const medirBarra = () => {
+    const b = [$('re-pasos'), $('re-sel')].find(x => !x.hidden);
+    raiz.style.setProperty('--re-barra', b ? `${b.offsetHeight}px` : '0px');
+  };
+  window.addEventListener('resize', () => medirBarra());
+
   let reloj = null;
   function detener() {
     if (reloj) { clearInterval(reloj); reloj = null; }
@@ -224,6 +276,7 @@
     $('re-paso-puntos').innerHTML = v.pasos.map((_, k) =>
       `<button type="button" class="${k < paso ? 'hecho' : k === paso ? 'actual' : ''}" data-p="${k}" aria-label="Paso ${k + 1} de ${v.pasos.length}"${k === paso ? ' aria-current="step"' : ''}></button>`).join('');
     $('re-paso-txt').innerHTML = `<b>${paso + 1} de ${v.pasos.length}</b> ${esc(p.t)}`;
+    medirBarra();
     $('re-paso-ant').disabled = paso === 0;
     $('re-paso-sig').disabled = paso === v.pasos.length - 1;
     // En la primera visita, el botón «siguiente» late para mostrar que el mapa avanza
@@ -293,7 +346,8 @@
         <div class="re-ej-ops no-citas" role="group" aria-label="Opciones">${q.opciones.map((o, j) =>
           `<button type="button" class="re-ej-op" data-o="${j}"><span class="re-ej-letra" aria-hidden="true">${'ABCDEFG'[j]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
         <div class="re-ej-fb" aria-live="polite" hidden></div></section>`; }
-      if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}" target="_top">${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
+      // a = '#ruta/n' lleva a otra estación del mismo recurso (sin salir de la app)
+      if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}"${t.ir.a.startsWith('#') ? '' : ' target="_top"'}>${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
       return '';
     }).join('');
     $('re-pensar').hidden = !e.pensar;

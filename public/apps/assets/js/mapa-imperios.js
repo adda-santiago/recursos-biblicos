@@ -12,6 +12,17 @@
    Colores por imperio: variables --babilonia, --asiria, --persia, --media,
    --lidia, --egipto, --grecia, --roma (con valores por defecto aquí), y --iglesia
    para el avance de la iglesia en Hechos, que se dibuja siempre encima de los imperios.
+
+   Opciones de crear(contenedor, { ... }):
+     detalle, maxZoom, zoomEncuadre, alTocarLugar   (ver DIRECTRICES §7)
+     minZoom, maxBounds: límite para alejarse y desplazarse (p. ej. hasta donde hay teselas de relieve)
+     rotulos: [[texto, lat, lng, clase]]   reemplaza los rótulos fijos de la geografía compartida
+     relieve: { url, max, bounds, attr, detalle: { url, min, max, bounds } }
+              teselas de relieve sobre el mapa base (p. ej. las de la NASA del atlas), con el botón
+              «Relieve» para quitarlas; detalle = un nivel de zoom más, solo dentro de su caja.
+   Capas con color propio (recursos que no son de imperios): en la geografía, una capa puede llevar
+     color: '#hex'  en lugar de un imperio, borde: true (solo contorno punteado) y sinRotulo: true.
+   Trazos: sinFlecha: true (caminos) y color: '#hex'.
    ========================================================== */
 (() => {
   'use strict';
@@ -28,12 +39,12 @@
       cont.innerHTML = '<p class="mi-error">No se pudo cargar el mapa. Revisa tu conexión y vuelve a abrir la página.</p>';
       return { mostrar() {}, ajustar() {} };
     }
-    cont.classList.add('mi');
+    cont.classList.add('mi', 'no-citas');
     const lienzo = document.createElement('div');
     lienzo.className = 'mi-lienzo';
     cont.appendChild(lienzo);
     const leyenda = document.createElement('div');
-    leyenda.className = 'mi-leyenda';
+    leyenda.className = 'mi-leyenda no-citas';
     const btnVec = document.createElement('button');
     btnVec.type = 'button';
     btnVec.className = 'mi-btn';
@@ -41,7 +52,8 @@
     btnVec.setAttribute('aria-pressed', 'false');
     cont.append(leyenda, btnVec);
 
-    const map = L.map(lienzo, { zoomControl: false, zoomSnap: 0.25, minZoom: 3, maxZoom: op.maxZoom || 9, attributionControl: true });
+    const map = L.map(lienzo, { zoomControl: false, zoomSnap: 0.25, minZoom: op.minZoom || 3, maxZoom: op.maxZoom || 9, attributionControl: true,
+      ...(op.maxBounds ? { maxBounds: op.maxBounds, maxBoundsViscosity: 1 } : {}) });
     map.setView([32, 42], 4); // antes de agregar capas
     L.control.zoom({ position: 'bottomright' }).addTo(map);
     map.attributionControl.setPrefix(false);
@@ -69,21 +81,53 @@
         { maxNativeZoom: 16, attribution: 'Teselas © Esri' }).addTo(map);
     }
 
+    // Relieve opcional (teselas propias del sitio), entre el mapa base y las capas
+    const R = op.relieve;
+    let relieve = null, btnRel = null;
+    if (R) {
+      map.createPane('fondo').style.zIndex = 300;
+      const VACIO = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+      // Cada tesela 1 px más grande y sin la mezcla «plus-lighter» de Leaflet 1.9: evita rendijas entre teselas
+      // Demos sin servidor: window.RELIEVE_EMBEBIDO = { 'z/x/y': 'data:image/jpeg;base64,…' }
+      const EMB = window.RELIEVE_EMBEBIDO;
+      const Capa = L.TileLayer.extend({ ...(EMB ? { getTileUrl: c => EMB[`${c.z}/${c.x}/${c.y}`] || VACIO } : {}), _initTile(tile) { L.TileLayer.prototype._initTile.call(this, tile); const s = this.getTileSize(); tile.style.width = `${s.x + 1}px`; tile.style.height = `${s.y + 1}px`; tile.style.mixBlendMode = "normal"; } });
+      const capasRel = [new Capa(R.url, { pane: 'fondo', minZoom: 3, maxNativeZoom: R.max || 7, maxZoom: 12, bounds: R.bounds, errorTileUrl: VACIO, attribution: R.attr || '' })];
+      if (R.detalle) capasRel.push(new Capa(R.detalle.url || R.url, { pane: 'fondo', minZoom: R.detalle.min, maxNativeZoom: R.detalle.max, maxZoom: 12, bounds: R.detalle.bounds, errorTileUrl: VACIO }));
+      relieve = L.layerGroup(capasRel);
+      btnRel = document.createElement('button');
+      btnRel.type = 'button';
+      btnRel.className = 'mi-btn mi-relieve';
+      btnRel.textContent = 'Relieve';
+      cont.appendChild(btnRel);
+      const ponerRelieve = si => {
+        if (si && !map.hasLayer(relieve)) relieve.addTo(map);
+        if (!si && map.hasLayer(relieve)) map.removeLayer(relieve);
+        btnRel.setAttribute('aria-pressed', String(si));
+        cont.classList.toggle('con-relieve', si);
+      };
+      ponerRelieve(R.inicial !== false);
+      btnRel.addEventListener('click', () => ponerRelieve(!map.hasLayer(relieve)));
+    }
+
     // Capas de imperios
     const capas = {};
     Object.entries(GEO.capas).forEach(([id, c]) => {
+      // Color propio (c.color) en lugar del color de un imperio; borde: solo contorno
+      const imp = c.color ? 'propio' : c.imp;
+      const estilo = c.color ? { color: c.color, fillColor: c.color } : {};
       const shapes = c.polys.flatMap(pid => GEO.polys[pid] || [])
-        .map(p => L.polygon(p, { pane: 'capas', className: `mi-capa imp-${c.imp}`, interactive: false }));
+        .map(p => L.polygon(p, { pane: 'capas', className: `mi-capa imp-${imp}${c.borde ? ' mi-borde' : ''}`, interactive: false, ...estilo }));
       let mayor = null, area = -1;
       shapes.forEach(s => { const b = s.getBounds(), a = (b.getNorth() - b.getSouth()) * (b.getEast() - b.getWest()); if (a > area) { area = a; mayor = s; } });
       const rotulo = L.marker(c.rot || (mayor ? mayor.getBounds().getCenter() : [0, 0]), {
         pane: 'rotulos', interactive: false, keyboard: false,
-        icon: L.divIcon({ className: `mi-txt mi-capa-n imp-${c.imp}`, html: `<span>${esc(c.n)}<em>${esc(c.periodo)}</em></span>`, iconSize: null })
+        icon: L.divIcon({ className: `mi-txt mi-capa-n imp-${imp}${c.sinRotulo ? ' mi-oculto' : ''}`, iconSize: null,
+          html: `<span${c.color ? ` style="color:${esc(c.color)}"` : ''}>${esc(c.n)}${c.periodo ? `<em>${esc(c.periodo)}</em>` : ''}</span>` })
       });
-      capas[id] = { ...c, grupo: L.layerGroup(shapes), rotulo };
+      capas[id] = { ...c, imp, grupo: L.layerGroup(shapes), rotulo };
     });
-    // Rótulos fijos
-    L.layerGroup(GEO.rotulos.map(([t, la, lo, cls]) => L.marker([la, lo], {
+    // Rótulos fijos (op.rotulos los reemplaza)
+    L.layerGroup((op.rotulos || GEO.rotulos).map(([t, la, lo, cls]) => L.marker([la, lo], {
       pane: 'rotulos', interactive: false, keyboard: false,
       icon: L.divIcon({ className: `mi-txt mi-fijo ${cls}`, html: `<span>${esc(t)}</span>`, iconSize: null })
     }))).addTo(map);
@@ -101,9 +145,9 @@
     const trazos = {};
     Object.entries(GEO.trazos).forEach(([id, t]) => {
       const n = t.l.length;
-      const linea = L.polyline(t.l, { pane: 'trazos', className: 'mi-trazo', interactive: false });
+      const linea = L.polyline(t.l, { pane: 'trazos', className: `mi-trazo${t.sinFlecha ? ' mi-camino' : ''}`, interactive: false, ...(t.color ? { color: t.color } : {}) });
       const flecha = L.marker(t.l[n - 1], { pane: 'trazos', interactive: false, keyboard: false,
-        icon: L.divIcon({ className: 'mi-flecha', iconSize: [14, 14], html: `<div style="transform:rotate(${bearing(t.l[n - 2], t.l[n - 1])}deg)">${ARROW}</div>` }) });
+        icon: L.divIcon({ className: `mi-flecha${t.sinFlecha ? ' mi-oculto' : ''}`, iconSize: [14, 14], html: `<div style="transform:rotate(${bearing(t.l[n - 2], t.l[n - 1])}deg)">${ARROW}</div>` }) });
       trazos[id] = { ...t, linea, flecha, grupo: L.layerGroup([linea, flecha]) };
     });
     function parcial(pts, f) {
@@ -139,6 +183,7 @@
       });
       btnVec.hidden = !(e.vecinos || []).length;
       btnVec.setAttribute('aria-pressed', String(conVecinos));
+      cont.classList.toggle('con-vecinos', !btnVec.hidden);
 
       capaLugares.clearLayers();
       (e.lugares || []).forEach(id => {
@@ -164,9 +209,9 @@
         if (!on && map.hasLayer(t.grupo)) map.removeLayer(t.grupo);
         t.linea.setLatLngs(t.l);
         // Un segundo trazo en el mismo mapa se dibuja con otro color, para distinguirlos en la leyenda
-        const segundo = on && activos.indexOf(id) > 0;
+        const segundo = on && activos.indexOf(id) > 0 && !t.color;
         const el = t.linea.getElement && t.linea.getElement();
-        if (el) el.classList.toggle('mi-trazo-2', segundo);
+        if (el) { el.classList.toggle('mi-trazo-2', segundo); if (t.color) el.style.stroke = t.color; }
         const fl = t.flecha.getElement && t.flecha.getElement();
         if (fl) fl.classList.toggle('mi-flecha-2', segundo);
       });
@@ -184,10 +229,14 @@
         anim = requestAnimationFrame(tick);
       }
 
-      const filas = [...propias, ...vecinas].filter(id => capas[id]).map(id => {
+      const filas = [...propias, ...vecinas].filter(id => capas[id] && !capas[id].sinLeyenda).map(id => {
         const c = capas[id];
-        return `<span class="${vecinas.includes(id) ? 'vec' : ''}"><i class="sw imp-${c.imp}"></i>${esc(c.n)}, ${esc(c.periodo)}</span>`;
-      }).concat(activos.filter(id => trazos[id]).map((id, k) => `<span><i class="sw-trazo${k ? ' sw-trazo-2' : ''}"></i>${esc(trazos[id].n)}</span>`));
+        const sw = c.color ? ` style="background:${esc(c.color)}"` : '';
+        return `<span class="${vecinas.includes(id) ? 'vec' : ''}"><i class="sw imp-${c.imp}${c.borde ? ' sw-borde' : ''}"${sw}></i>${esc(c.n)}${c.periodo ? `, ${esc(c.periodo)}` : ''}</span>`;
+      }).concat(activos.filter(id => trazos[id]).map((id, k) => {
+        const t = trazos[id];
+        return `<span><i class="sw-trazo${k && !t.color ? ' sw-trazo-2' : ''}${t.sinFlecha ? ' sw-camino' : ''}"${t.color ? ` style="border-top-color:${esc(t.color)}"` : ''}></i>${esc(t.n)}</span>`;
+      }));
       leyenda.innerHTML = filas.join('');
       leyenda.hidden = !filas.length;
     }
@@ -269,6 +318,24 @@ ${['babilonia', 'asiria', 'persia', 'media', 'lidia', 'egipto', 'grecia', 'roma'
 .mi-btn::before { content: ""; width: .5rem; height: .5rem; border-radius: 50%; border: 1.5px solid var(--muted, #6b7080); }
 .mi-btn[aria-pressed="true"]::before { background: var(--accent, #9e2b25); border-color: var(--accent, #9e2b25); }
 .mi-error { position: absolute; inset: 0; display: grid; place-items: center; padding: 2rem; text-align: center; color: var(--muted, #6b7080); }
+/* Capas con color propio, contornos, caminos y relieve */
+.mi-oculto { display: none !important; }
+.mi-capa.mi-borde { fill-opacity: 0; stroke-width: 2; stroke-dasharray: 6 4; }
+.mi-capa.imp-propio { fill-opacity: .32; }
+.mi-leyenda .sw-borde { background: none !important; border: 2px dashed currentColor; opacity: 1; }
+.mi-trazo.mi-camino { stroke-width: 3.2; stroke-dasharray: 2 5; }
+.mi-leyenda .sw-trazo.sw-camino { border-top-style: dotted; border-top-width: 3px; }
+.mi-relieve { top: .75rem; }
+.mi.con-vecinos .mi-relieve { margin-top: 2.6rem; }
+
+.mi.con-relieve .mi-fijo { color: #fff; text-shadow: 0 0 3px rgba(0,0,0,.85), 0 0 8px rgba(0,0,0,.5); }
+.mi.con-relieve .mi-fijo.mar, .mi.con-relieve .mi-fijo.rio { color: #e3eef6; }
+.mi.con-relieve .mi-capa-n > span { color: #1f2430 !important; font-weight: 600; text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 8px #fff, 0 0 12px rgba(255,255,255,.9); }
+:root[data-theme="dark"] .mi.con-relieve .mi-capa-n > span { color: #fff !important; text-shadow: 0 0 2px #000, 0 0 5px #000, 0 0 10px #000; }
+:root[data-theme="dark"] .mi.con-relieve .mi-capa-n { filter: none; }
+.mi.con-relieve .mi-capa { fill-opacity: .38; }
+.mi.con-relieve .mi-capa.mi-borde { fill-opacity: 0; }
+.mi.con-relieve .mi-capa.vecino { fill-opacity: .18; }
 @media (max-width: 760px) { .mi .leaflet-control-zoom { display: none; } .mi-leyenda { font-size: .66rem; } }`;
   document.head.appendChild(css);
 

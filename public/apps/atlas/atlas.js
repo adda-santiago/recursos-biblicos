@@ -177,19 +177,38 @@
     l.m = L.circleMarker([l.lat, l.lng], { pane: 'lugares', radius: l.extra ? 4.5 : 7, className: 'at-pt', bubblingMouseEvents: false });
     l.m.bindTooltip(esc(l.n), { pane: 'etiquetas', permanent: true, direction: 'right', offset: [8, 0], className: 'at-lbl' + (l.extra ? ' extra' : '') });
     l.m.on('click', () => abrir(l.id, false));
+    // Al pasar el cursor, el nombre se muestra aunque esté tapado
+    l.m.on('mouseover', () => l.m.getTooltip()?.getElement()?.classList.add('hover'));
+    l.m.on('mouseout', () => l.m.getTooltip()?.getElement()?.classList.remove('hover'));
+    l.prio = l.extra ? l.enlaces.length : 1000 + l.eventos.length * 60 + l.enlaces.length;
   });
   const capa = L.layerGroup().addTo(map);
 
-  function nombresPorZoom() {
-    const z = map.getZoom();
-    app.classList.toggle('nombres', z >= 7);
-    app.classList.toggle('nombres-todos', z >= 9);
+  /* Nombres: siempre visibles, salvo los que chocan con uno más importante.
+     Prioridad: el lugar abierto, luego los del atlas (más eventos y enlaces primero), luego los grises. */
+  let visibles = [];
+  function ordenarEtiquetas() {
+    const cajas = [];
+    const choca = r => cajas.some(c => r.left < c.right + 3 && r.right > c.left - 3 && r.top < c.bottom + 1 && r.bottom > c.top - 1);
+    // Los puntos de los lugares más importantes también cuentan como obstáculo
+    visibles.slice().sort((a, b) => (b.id === estado.sel) - (a.id === estado.sel) || b.prio - a.prio).forEach(l => {
+      const el = l.m.getTooltip()?.getElement();
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      const tapar = l.id !== estado.sel && choca(r);
+      el.classList.toggle('tapado', tapar);
+      if (!tapar) cajas.push(r);
+      const p = l.m.getElement()?.getBoundingClientRect();
+      if (p && !l.extra) cajas.push(p);
+    });
   }
-  map.on('zoomend', nombresPorZoom);
+  map.on('zoomend', ordenarEtiquetas);
+  window.addEventListener('resize', () => setTimeout(ordenarEtiquetas, 150));
 
   function pintar(encuadrar) {
     capa.clearLayers();
     const vis = lugares.filter(visible);
+    visibles = vis;
     vis.forEach(l => {
       const t = tipoDe(l);
       capa.addLayer(l.m);
@@ -201,7 +220,7 @@
     // Imperio de la época
     const capas = estado.imperio && estado.epoca ? (IMPERIO[estado.epoca] || []) : [];
     mi.mostrar({ capas });
-    nombresPorZoom();
+    requestAnimationFrame(ordenarEtiquetas);
     if (encuadrar) {
       const b = vis.length && (estado.epoca || estado.libro) ? L.latLngBounds(vis.map(l => [l.lat, l.lng])) : L.latLngBounds(VISTA);
       map.flyToBounds(b, { maxZoom: 9, duration: .8, ...margenes() });
