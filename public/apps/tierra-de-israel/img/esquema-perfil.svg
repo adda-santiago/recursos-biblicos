@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">De la costa a Moab</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Perfil del terreno de oeste a este, a la altura de Jerusalén (alturas exageradas)</text>
+<polygon points="90.0,640.0 90.0,487.0 142.0,479.0 211.3,467.8 280.7,451.9 332.7,426.4 376.0,391.3 419.3,365.8 454.0,321.2 497.3,279.7 532.0,257.4 558.0,244.6 571.0,228.7 592.7,263.8 627.3,308.4 662.0,365.8 696.7,448.7 722.7,566.7 766.0,592.2 809.3,611.3 844.0,595.4 878.7,534.8 913.3,423.2 948.0,308.4 965.3,263.8 1008.7,244.6 1078.0,238.3 1130.0,231.9 1130.0,640.0" fill="#c9b48a" stroke="#a88a5c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="30.0,487.0 90.0,487.0 90.0,640.0 30.0,640.0" fill="#9cc3e0"/>
+<line x1="30.0" y1="487.0" x2="1130.0" y2="487.0" stroke="#2a6fb0" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="1134.0" y="481.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2a6fb0" text-anchor="end" font-weight="normal">0 m</text>
+<circle cx="809.3" cy="607.3" r="6" fill="#2a6fb0"/>
+<circle cx="558.0" cy="244.6" r="5" fill="#9e2b25"/>
+<text x="544.0" y="226.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Jerusalén · 750 m</text>
+<circle cx="571.0" cy="228.7" r="5" fill="#9e2b25"/>
+<text x="585.0" y="210.7" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Monte de los Olivos · 818 m</text>
+<circle cx="722.7" cy="566.7" r="5" fill="#9e2b25"/>
+<text x="708.7" y="592.7" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Jericó · −250 m</text>
+<circle cx="809.3" cy="611.3" r="5" fill="#9e2b25"/>
+<text x="823.3" y="637.3" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Jordán · −390 m</text>
+<circle cx="965.3" cy="263.8" r="5" fill="#9e2b25"/>
+<text x="951.3" y="245.8" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Monte Nebo · 700 m</text>
+<circle cx="90.0" cy="487.0" r="5" fill="#9e2b25"/>
+<text x="90.0" y="469.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Mediterráneo</text>
+<rect x="92.0" y="700.0" width="238.7" height="40.0" rx="6" fill="#c08a1e" fill-opacity="0.9"/>
+<text x="211.3" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Llanura costera</text>
+<rect x="334.7" y="700.0" width="100.0" height="40.0" rx="6" fill="#7f9a3c" fill-opacity="0.9"/>
+<text x="384.7" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold">Sefela</text>
+<rect x="438.7" y="700.0" width="152.0" height="40.0" rx="6" fill="#a88a5c" fill-opacity="0.9"/>
+<text x="514.7" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Serranía de Judá</text>
+<rect x="594.7" y="700.0" width="126.0" height="40.0" rx="6" fill="#c27a33" fill-opacity="0.9"/>
+<text x="657.7" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold">Desierto de Judea</text>
+<rect x="724.7" y="700.0" width="160.7" height="40.0" rx="6" fill="#2a6fb0" fill-opacity="0.9"/>
+<text x="805.0" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Valle del Jordán</text>
+<rect x="889.3" y="700.0" width="238.7" height="40.0" rx="6" fill="#7a3fa0" fill-opacity="0.9"/>
+<text x="1008.7" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Meseta de Moab</text>
+<line x1="90.0" y1="646.0" x2="90.0" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="90.0" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">0 km</text>
+<line x1="263.3" y1="646.0" x2="263.3" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="263.3" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">20 km</text>
+<line x1="436.7" y1="646.0" x2="436.7" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="436.7" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">40 km</text>
+<line x1="610.0" y1="646.0" x2="610.0" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="610.0" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">60 km</text>
+<line x1="783.3" y1="646.0" x2="783.3" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="783.3" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">80 km</text>
+<line x1="956.7" y1="646.0" x2="956.7" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="956.7" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">100 km</text>
+<line x1="1130.0" y1="646.0" x2="1130.0" y2="654.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="1130.0" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">120 km</text>
+<text x="600.0" y="790.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">En unos 120 km el terreno sube a más de 800 m, baja a casi 400 m bajo el nivel del mar y vuelve a subir a 700 m.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">¿Cuánto llueve?</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Lluvia anual aproximada, en milímetros (promedios modernos)</text>
+<rect x="360.0" y="148.0" width="672.0" height="38.0" rx="5" fill="#2a6fb0"/>
+<text x="346.0" y="174.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Monte Hermón</text>
+<text x="1044.0" y="174.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">más de 1.000 mm</text>
+<rect x="360.0" y="214.0" width="392.0" height="38.0" rx="5" fill="#2a6fb0"/>
+<text x="346.0" y="240.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Alta Galilea (Safed)</text>
+<text x="764.0" y="240.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 700 mm</text>
+<rect x="360.0" y="280.0" width="308.0" height="38.0" rx="5" fill="#2a6fb0"/>
+<text x="346.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Jerusalén</text>
+<text x="680.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 550 mm</text>
+<rect x="360.0" y="346.0" width="302.4" height="38.0" rx="5" fill="#2a6fb0"/>
+<text x="346.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Costa (Tel Aviv, Haifa)</text>
+<text x="674.4" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 540 mm</text>
+<rect x="360.0" y="412.0" width="196.0" height="38.0" rx="5" fill="#1e8a8a"/>
+<text x="346.0" y="438.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Gaza</text>
+<text x="568.0" y="438.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 350 mm</text>
+<rect x="360.0" y="478.0" width="112.0" height="38.0" rx="5" fill="#c27a33"/>
+<text x="346.0" y="504.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Beerseba</text>
+<text x="484.0" y="504.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 200 mm</text>
+<rect x="360.0" y="544.0" width="89.6" height="38.0" rx="5" fill="#c27a33"/>
+<text x="346.0" y="570.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Jericó</text>
+<text x="461.6" y="570.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">menos de 200 mm</text>
+<rect x="360.0" y="610.0" width="28.0" height="38.0" rx="5" fill="#b03a2e"/>
+<text x="346.0" y="636.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Mar Muerto</text>
+<text x="400.0" y="636.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 50 mm</text>
+<rect x="360.0" y="676.0" width="14.0" height="38.0" rx="5" fill="#b03a2e"/>
+<text x="346.0" y="702.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="normal">Eilat</text>
+<text x="386.0" y="702.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">unos 25 mm</text>
+<text x="600.0" y="790.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Llueve más en el norte y en las alturas, y menos hacia el sur y el este.</text>
+<text x="600.0" y="820.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Bajo unos 250 mm al año, el cultivo sin riego se vuelve muy difícil.</text>
+</svg>

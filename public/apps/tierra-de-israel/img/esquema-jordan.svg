@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El valle del Jordán y el Arabá</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Perfil de norte a sur, del Hermón al golfo de Áqaba (alturas exageradas)</text>
+<polygon points="80.0,700.0 80.0,195.2 95.4,362.5 105.7,408.1 128.8,447.6 157.0,484.1 180.1,532.7 236.6,532.7 285.3,544.9 362.3,560.1 439.3,575.3 503.5,601.2 708.8,601.2 773.0,560.1 850.0,453.7 891.0,398.9 978.3,432.4 1081.0,456.7 1140.0,468.9 1140.0,700.0" fill="#e3cf9f" stroke="#a88a5c" stroke-width="2" stroke-linejoin="round"/>
+<line x1="80.0" y1="468.9" x2="1140.0" y2="468.9" stroke="#2a6fb0" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="1080.0" y="460.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2a6fb0" text-anchor="end" font-weight="normal">nivel del mar</text>
+<polygon points="180.1,532.7 236.6,532.7 228.9,544.9 187.8,544.9" fill="#9cc3e0" stroke="#2a6fb0" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="503.5,601.2 708.8,601.2 683.1,639.2 593.3,692.4 529.2,639.2" fill="#9cc3e0" stroke="#2a6fb0" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="123.6,447.6 133.9,447.6 132.6,450.6 124.9,450.6" fill="#9cc3e0" stroke="#2a6fb0" stroke-width="1" stroke-linejoin="round"/>
+<line x1="236.6" y1="532.7" x2="503.5" y2="601.2" stroke="#2a6fb0" stroke-width="3"/>
+<text x="80.0" y="179.2" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Hermón</text>
+<text x="105.7" y="408.1" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold"></text>
+<text x="128.8" y="431.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Lago Hula</text>
+<text x="208.3" y="510.7" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Mar de Galilea · −210 m</text>
+<text x="375.2" y="603.2" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Río Jordán</text>
+<text x="606.2" y="583.2" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Mar Muerto · −435 m</text>
+<text x="891.0" y="382.9" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Arabá · unos 230 m</text>
+<text x="1140.0" y="452.9" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Áqaba</text>
+<text x="119.7" y="414.1" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Dan · fuentes del Jordán</text>
+<text x="606.2" y="663.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2a6fb0" text-anchor="middle" font-weight="normal">fondo: unos 730 m bajo el nivel del mar</text>
+<line x1="80.0" y1="706.0" x2="80.0" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="80.0" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">0 km</text>
+<line x1="208.3" y1="706.0" x2="208.3" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="208.3" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">50 km</text>
+<line x1="336.7" y1="706.0" x2="336.7" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="336.7" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">100 km</text>
+<line x1="465.0" y1="706.0" x2="465.0" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="465.0" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">150 km</text>
+<line x1="593.3" y1="706.0" x2="593.3" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="593.3" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">200 km</text>
+<line x1="721.6" y1="706.0" x2="721.6" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="721.6" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">250 km</text>
+<line x1="850.0" y1="706.0" x2="850.0" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="850.0" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">300 km</text>
+<line x1="978.3" y1="706.0" x2="978.3" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="978.3" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">350 km</text>
+<line x1="1106.6" y1="706.0" x2="1106.6" y2="714.0" stroke="#6b7080" stroke-width="1.5"/>
+<text x="1106.6" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">400 km</text>
+<text x="600.0" y="790.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">El Jordán baja unos 700 m desde sus fuentes hasta el mar Muerto, el lugar más bajo de la tierra firme.</text>
+</svg>

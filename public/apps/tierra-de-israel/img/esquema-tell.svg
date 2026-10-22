@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Un tell: ciudades una sobre otra</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Corte de una colina formada por siglos de ciudades construidas sobre las ruinas de las anteriores</text>
+<defs><clipPath id="colina"><path d="M70,700 C190,690 220,340 330,300 L750,300 C860,340 890,690 1010,700 Z"/></clipPath></defs>
+<rect x="0.0" y="700.0" width="1200.0" height="40.0" rx="0" fill="#b9a582"/>
+<g clip-path="url(#colina)">
+<path d="M0,700 Q540.0,686 1200,700 L1200,630 Q540.0,616 0,630 Z" fill="#a8977c" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,630 Q540.0,616 1200,630 L1200,550 Q540.0,536 0,550 Z" fill="#d2b386" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,550 Q540.0,536 1200,550 L1200,490 Q540.0,476 0,490 Z" fill="#c49c6c" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,490 Q540.0,476 1200,490 L1200,480 Q540.0,466 0,480 Z" fill="#3f3630" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,480 Q540.0,466 1200,480 L1200,398 Q540.0,384 0,398 Z" fill="#e0c89a" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,398 Q540.0,384 1200,398 L1200,388 Q540.0,374 0,388 Z" fill="#3f3630" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,388 Q540.0,374 1200,388 L1200,348 Q540.0,334 0,348 Z" fill="#cdb894" stroke="#7d6b55" stroke-width="1"/>
+<path d="M0,348 Q540.0,334 1200,348 L1200,300 Q540.0,286 0,300 Z" fill="#e9dcbc" stroke="#7d6b55" stroke-width="1"/>
+<rect x="250.0" y="560.0" width="16.0" height="52.0" rx="1" fill="#8f7b5e"/>
+<rect x="760.0" y="560.0" width="16.0" height="52.0" rx="1" fill="#8f7b5e"/>
+<rect x="230.0" y="504.0" width="70.0" height="30.0" rx="2" fill="#a98c64" stroke="#7d6b55" stroke-width="1"/>
+<rect x="700.0" y="504.0" width="70.0" height="30.0" rx="2" fill="#a98c64" stroke="#7d6b55" stroke-width="1"/>
+<rect x="260.0" y="400.0" width="22.0" height="78.0" rx="1" fill="#7e6d55"/>
+<rect x="805.0" y="400.0" width="22.0" height="78.0" rx="1" fill="#7e6d55"/>
+<rect x="300.0" y="432.0" width="80.0" height="36.0" rx="2" fill="#c8ad7e" stroke="#7d6b55" stroke-width="1"/>
+<line x1="327.0" y1="432.0" x2="327.0" y2="468.0" stroke="#7d6b55" stroke-width="1.5"/>
+<line x1="354.0" y1="432.0" x2="354.0" y2="468.0" stroke="#7d6b55" stroke-width="1.5"/>
+<rect x="650.0" y="432.0" width="80.0" height="36.0" rx="2" fill="#c8ad7e" stroke="#7d6b55" stroke-width="1"/>
+<line x1="677.0" y1="432.0" x2="677.0" y2="468.0" stroke="#7d6b55" stroke-width="1.5"/>
+<line x1="704.0" y1="432.0" x2="704.0" y2="468.0" stroke="#7d6b55" stroke-width="1.5"/>
+<rect x="570.0" y="302.0" width="12.0" height="34.0" rx="1.5" fill="#f4ecd8" stroke="#9a8a6c" stroke-width="1"/>
+<rect x="630.0" y="302.0" width="12.0" height="34.0" rx="1.5" fill="#f4ecd8" stroke="#9a8a6c" stroke-width="1"/>
+</g>
+<path d="M70,700 C190,690 220,340 330,300 L750,300 C860,340 890,690 1010,700 Z" fill="none" stroke="#6b5a44" stroke-width="2.5"/>
+<polygon points="700,298 700,370 750,370 750,450 800,450 800,530 850,530 850,610 1012,610 1012,298" fill="#f6f3ec"/>
+<polyline points="700,298 700,370 750,370 750,450 800,450 800,530 850,530 850,610" fill="none" stroke="#9e2b25" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="860.0" y="282.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">zanja de excavación</text>
+<text x="985.0" y="430.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">los arqueólogos</text>
+<text x="985.0" y="448.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">bajan por escalones</text>
+<circle cx="1050" cy="654" r="6" fill="#4a4038"/>
+<rect x="1045" y="661" width="10" height="39" rx="3" fill="#4a4038"/>
+<text x="1050.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">persona</text>
+<line x1="1140.0" y1="700.0" x2="1140.0" y2="300.0" stroke="#1f2430" stroke-width="1.5"/>
+<line x1="1132.0" y1="700.0" x2="1148.0" y2="700.0" stroke="#1f2430" stroke-width="1.5"/>
+<line x1="1132.0" y1="300.0" x2="1148.0" y2="300.0" stroke="#1f2430" stroke-width="1.5"/>
+<text x="1132.0" y="492.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="end" font-weight="bold">unos</text>
+<text x="1132.0" y="512.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="end" font-weight="bold">20 m</text>
+<text x="470.0" y="670.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Roca natural</text>
+<text x="470.0" y="595.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Ciudad cananea (Bronce antiguo y medio)</text>
+<text x="470.0" y="525.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Ciudad cananea destruida (Bronce tardío)</text>
+<text x="470.0" y="489.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#f4ecd8" text-anchor="middle" font-weight="bold">Ceniza</text>
+<text x="470.0" y="444.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Ciudad israelita (Hierro)</text>
+<text x="470.0" y="397.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#f4ecd8" text-anchor="middle" font-weight="bold">Ceniza: conquista asiria o babilónica</text>
+<text x="470.0" y="373.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Período persa</text>
+<text x="470.0" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Helenístico y romano</text>
+<text x="600.0" y="790.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Cada capa es una época. Al excavar de arriba hacia abajo, se retrocede en la historia.</text>
+<text x="600.0" y="820.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«y la redujo a un montón de escombros» (Josué 8:28): en hebreo, un tel.</text>
+</svg>
