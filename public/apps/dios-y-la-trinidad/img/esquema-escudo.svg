@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El escudo de la Trinidad</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Un diagrama usado desde la Edad Media para enseñar la doctrina</text>
+<line x1="412" y1="205" x2="788" y2="205" stroke="#4a4a4a" stroke-width="10" stroke-linecap="round"/>
+<text x="600" y="183" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#4a4a4a" text-anchor="middle" font-weight="normal" font-style="italic" transform="rotate(0.0 600 183)">no es</text>
+<line x1="827" y1="275" x2="643" y2="570" stroke="#4a4a4a" stroke-width="10" stroke-linecap="round"/>
+<text x="760" y="446" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#4a4a4a" text-anchor="middle" font-weight="normal" font-style="italic" transform="rotate(301.8 760 446)">no es</text>
+<line x1="557" y1="570" x2="373" y2="275" stroke="#4a4a4a" stroke-width="10" stroke-linecap="round"/>
+<text x="440" y="446" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#4a4a4a" text-anchor="middle" font-weight="normal" font-style="italic" transform="rotate(58.2 440 446)">no es</text>
+<line x1="401" y1="247" x2="523" y2="319" stroke="#c08a1e" stroke-width="8" stroke-linecap="round"/>
+<polygon points="538,328 515,332 530,306" fill="#c08a1e"/>
+<text x="458" y="314" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#c08a1e" text-anchor="middle" font-weight="bold" font-style="italic" transform="rotate(30.7 458 314)">es</text>
+<line x1="799" y1="247" x2="677" y2="319" stroke="#b03a2e" stroke-width="8" stroke-linecap="round"/>
+<polygon points="662,328 670,306 685,332" fill="#b03a2e"/>
+<text x="719" y="277" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#b03a2e" text-anchor="middle" font-weight="bold" font-style="italic" transform="rotate(329.3 719 277)">es</text>
+<line x1="600" y1="558" x2="600" y2="455" stroke="#2a6fb0" stroke-width="8" stroke-linecap="round"/>
+<polygon points="600,437 615,455 585,455" fill="#2a6fb0"/>
+<text x="622" y="506" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#2a6fb0" text-anchor="middle" font-weight="bold" font-style="italic" transform="rotate(-90.0 622 506)">es</text>
+<circle cx="330" cy="205" r="78" fill="#fff" stroke="#c08a1e" stroke-width="6"/>
+<text x="330" y="201" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#c08a1e" text-anchor="middle" font-weight="bold">el</text>
+<text x="330" y="229" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#c08a1e" text-anchor="middle" font-weight="bold">Padre</text>
+<circle cx="870" cy="205" r="78" fill="#fff" stroke="#b03a2e" stroke-width="6"/>
+<text x="870" y="201" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#b03a2e" text-anchor="middle" font-weight="bold">el</text>
+<text x="870" y="229" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#b03a2e" text-anchor="middle" font-weight="bold">Hijo</text>
+<circle cx="600" cy="640" r="78" fill="#fff" stroke="#2a6fb0" stroke-width="6"/>
+<text x="600" y="636" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2a6fb0" text-anchor="middle" font-weight="bold">el Espíritu</text>
+<text x="600" y="664" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Santo</text>
+<circle cx="600" cy="365" r="66" fill="#1f2430"/>
+<text x="600" y="376" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#fff" text-anchor="middle" font-weight="normal">Dios</text>
+<text x="600" y="740" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Cada persona es Dios; ninguna es la otra; y no son tres dioses, sino un solo Dios.</text>
+</svg>

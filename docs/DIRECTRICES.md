@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.35 · 21 de octubre de 2026
+Versión 2.36 · 22 de octubre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.36:** sexto recurso de la ola 0, Dios y la Trinidad (teología propia), con seis rutas y 37 estaciones: conocer a Dios, sus nombres, sus atributos, la Trinidad, la doctrina en la historia (de la iglesia primitiva a Nicea, Constantinopla y los errores de hoy) y los textos difíciles. Los errores actuales se describen nombrando a los grupos que los enseñan (pentecostales unicitarios, Testigos de Jehová, mormones), con respeto por sus miembros. Los «Yo soy» de Jesús quedan para La persona y obra de Cristo. Geografía propia de los concilios (`geo/trinidad.py` → `dios-y-la-trinidad/trinidad-geo.js`). Cuando Claude propone una foto real, entrega el enlace directo a la página donde se descarga, en la respuesta y en el PROMPTS-FLOW.md (§25). Se corrigen dos erratas de la RV 1960 del sitio (Éx 17:15 y 2 Ti 2:13).
 
 **Cambio de la versión 2.35:** quinto recurso de la ola 0, La tierra de Israel (historia y geografía), con seis rutas y 41 estaciones: panorama, regiones, clima, caminos, la tierra después de la Biblia (del año 70 a octubre de 2026) y la tierra en el plan de Dios. Sus mapas usan el relieve de la NASA del atlas (con un nivel más de detalle en la región) y su geografía propia (`geo/tierra.py` → `tierra-de-israel/tierra-geo.js`), que extiende `imperios-geo.js` sin modificarlo. El motor de mapas suma relieve con botón, rótulos propios, capas de color propio o solo contorno y caminos sin flecha (§7). El motor de rutas suma el visual con selector («Compara con tu país», que se recuerda en el dispositivo) y el botón `ir` a otra estación del mismo recurso (`#ruta/n`); en celular, las pestañas ya no tapan la barra de pasos (§20). El atlas muestra siempre los nombres de los lugares, ocultando los que chocan con uno más importante, y «Para aprender más» lee también las geografías propias de los recursos (§20, Atlas bíblico). Jesús puede mostrarse de frente (personaje Jesús-adulto) cuando su rostro es el centro de la escena (§20, Imágenes).
 
@@ -622,6 +624,7 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 
 ### Pendientes
 
+- **Dios y la Trinidad, La persona y obra de Cristo y El Espíritu Santo:** cuando se publiquen los recursos nº 10 y nº 11, agregar sus botones `ir` en las estaciones IV.5 «El Hijo es Dios» y IV.6 «El Espíritu Santo es Dios y es persona» de Dios y la Trinidad, y enlazar desde ellos la ruta IV.
 - **La tierra de Israel, estación «De 1948 a hoy» (V.6):** describe la situación al 21 de octubre de 2026 (alto el fuego en Gaza, tregua en el Líbano, reconocimientos de Palestina, población). Revisar las noticias y actualizarla periódicamente, junto con la tabla de fechas.
 - **La tierra de Israel y Los pueblos vecinos de Israel:** cuando se publique Los pueblos vecinos (nº 35), agregar su botón `ir` en la estación I.7 «Rodeada de vecinos».
 - **`geo/imperios.py` desalineado:** al regenerarlo no reproduce el `imperios-geo.js` publicado (faltan lugares como `r-capadocia`, agregados a mano después). Antes de volver a correrlo, pasar esos lugares al script.
@@ -651,7 +654,7 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Recursos según el plan de publicación (§20): 27 de 134 publicados al 21 de octubre de 2026; se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Recursos según el plan de publicación (§20): 28 de 134 publicados al 22 de octubre de 2026; se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, dirección de la ficha que sigue la estación abierta (§6) | Uso sostenido medible |
 
@@ -820,6 +823,11 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 | 2026-10-21 | La tierra de Israel: fotos del calendario de Gézer (Osama Shukir Muhammed Amin, CC BY-SA 4.0), del Arco de Tito (Jebulon, CC0) y del mapa de Madaba (Carole Raddato, CC BY-SA 2.0), con licencia verificada en Wikimedia Commons | Objetos arqueológicos reales: solo con foto de licencia libre (§20, Imágenes) |
 | 2026-10-21 | Atlas: nombres siempre visibles, ocultando los que chocan con uno más importante (aprobado el 21 de octubre) | Desde el zoom 7 recién aparecían los nombres y el mapa no se podía leer de lejos |
 | 2026-10-20 | El `#` de la ficha pasa a la app (`/{slug}/#ruta/3`, `/atlas-biblico/#jerusalen`) | Enlazar una estación o un lugar desde otro recurso; reemplaza al candidato `fyp:ir-a` |
+| 2026-10-22 | Dios y la Trinidad nombra a los grupos que enseñan hoy cada error (pentecostales unicitarios, Testigos de Jehová, mormones), describiendo su doctrina oficial y con respeto por sus miembros | Decisión del responsable: el lector se encuentra con esos grupos y necesita reconocer sus enseñanzas |
+| 2026-10-22 | Los «Yo soy» de Jesús salen de Dios y la Trinidad y van a La persona y obra de Cristo; la ruta de textos difíciles lleva ejercicios | Decisión del responsable al aprobar el bosquejo |
+| 2026-10-22 | Erratas de la RV 1960 del sitio: Éx 17:15 («Jehová- nisi») y 2 Ti 2:13 (traía pegado el título «Un obrero aprobado»), corregidas en `CORRECCIONES` de `herramientas/biblia/generar.py` | Se detectaron al citar los pasajes |
+| 2026-10-22 | Dios y la Trinidad: fotos de la estela de Mesa (Tangopaso, dominio público) y del icono de Nicea (autor desconocido, PD-Art), con licencia verificada en Wikimedia Commons | Objetos reales: solo con foto de licencia libre (§20, Imágenes) |
+| 2026-10-22 | Toda foto real propuesta va con el enlace directo a la página donde se descarga, en la respuesta y en el PROMPTS-FLOW.md del recurso | Pedido del responsable: indicar solo dónde buscar obliga a buscar de nuevo |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
@@ -856,7 +864,7 @@ Reglas para trabajar con Claude en este proyecto (antes vivían en el archivo de
 - Claude pide las imágenes que necesita entregando el prompt en **inglés**, completo y listo para copiar y pegar, sin nada que agregar (fotograma fotorrealista de película, 4:3 para las escenas y 16:9 para la portada, restricciones dentro del prompt). El prompt empieza con «Photorealistic film still…» y termina excluyendo ilustración, pintura, concept art, arte digital y render 3D: la palabra «illustration» al comienzo hace que Flow dibuje. Cada recurso incluye además el prompt de su portada.
 - Personajes como personajes de Flow: antes de escribir los prompts, Claude revisa la hoja «Personajes Flow»; reutiliza los que existen, entrega el prompt de los nuevos, indica cuáles van en cada imagen, los nombra en el prompt de escena y actualiza la hoja. Un personaje por etapa de vida (§20, Imágenes).
 - Las imágenes se suben al chat (sueltas o en un ZIP, con dos variantes por escena cuando las haya), no a GitHub. Claude elige la variante, las optimiza (WebP, recortes, versiones -640 y .jpg de la portada) y las integra en el ZIP.
-- **Fotos reales:** Claude indica dónde buscar cada foto (de preferencia Wikimedia Commons o colecciones de museos con acceso abierto) y la persona las descarga y las sube al chat con su licencia. Claude verifica la licencia antes de integrarlas; si no se puede verificar o tiene derechos reservados, no se publica (§20, Imágenes).
+- **Fotos reales:** Claude entrega, para cada foto, el enlace directo a la página del archivo donde se descarga (de preferencia Wikimedia Commons o colecciones de museos con acceso abierto), en la respuesta y en el PROMPTS-FLOW.md del recurso; no basta con indicar dónde buscar. La persona las descarga y las sube al chat con su licencia. Claude verifica la licencia antes de integrarlas; si no se puede verificar o tiene derechos reservados, no se publica (§20, Imágenes).
 
 ## Anexo A. Solicitud de permiso de la RV 1960
 

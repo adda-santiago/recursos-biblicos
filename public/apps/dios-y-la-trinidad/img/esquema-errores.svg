@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Tres maneras de apartarse</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Cada error niega una de las verdades que la Trinidad sostiene a la vez</text>
+<rect x="400" y="150" width="400" height="210" rx="14" fill="#1f2430"/>
+<text x="600" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#fff" text-anchor="middle" font-weight="normal">La Trinidad</text>
+<text x="600" y="245" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f3e7c9" text-anchor="middle" font-weight="normal">1. Dios es uno</text>
+<text x="600" y="281" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f6dcd8" text-anchor="middle" font-weight="normal">2. Padre, Hijo y Espíritu son Dios</text>
+<text x="600" y="317" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#dde8f3" text-anchor="middle" font-weight="normal">3. Los tres son personas distintas</text>
+<rect x="70" y="460" width="340" height="220" rx="14" fill="#dde8f3" stroke="#2a6fb0" stroke-width="2"/>
+<line x1="500" y1="362" x2="252" y2="452" stroke="#2a6fb0" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 7"/>
+<polygon points="240,456 249,441 256,462" fill="#2a6fb0"/>
+<text x="240" y="504" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Modalismo</text>
+<text x="240" y="544" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Niega 3: una sola persona</text>
+<text x="240" y="568" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">con tres modos</text>
+<line x1="110" y1="592" x2="370" y2="592" stroke="#2a6fb0" stroke-width="1.5" opacity=".6"/>
+<text x="240" y="624" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Antes: Sabelio (s. III)</text>
+<text x="240" y="652" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Hoy: pentecostales unicitarios</text>
+<rect x="430" y="460" width="340" height="220" rx="14" fill="#f6dcd8" stroke="#b03a2e" stroke-width="2"/>
+<line x1="600" y1="362" x2="600" y2="443" stroke="#b03a2e" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 7"/>
+<polygon points="600,456 589,443 611,443" fill="#b03a2e"/>
+<text x="600" y="504" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#b03a2e" text-anchor="middle" font-weight="bold">Arrianismo</text>
+<text x="600" y="544" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Niega 2: el Hijo es criatura;</text>
+<text x="600" y="568" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">el Espíritu, una fuerza</text>
+<line x1="470" y1="592" x2="730" y2="592" stroke="#b03a2e" stroke-width="1.5" opacity=".6"/>
+<text x="600" y="624" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Antes: Arrio (s. IV)</text>
+<text x="600" y="652" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Hoy: Testigos de Jehová</text>
+<rect x="790" y="460" width="340" height="220" rx="14" fill="#f3e7c9" stroke="#c08a1e" stroke-width="2"/>
+<line x1="700" y1="362" x2="948" y2="452" stroke="#c08a1e" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 7"/>
+<polygon points="960,456 944,462 951,441" fill="#c08a1e"/>
+<text x="960" y="504" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#c08a1e" text-anchor="middle" font-weight="bold">Triteísmo</text>
+<text x="960" y="544" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Niega 1: tres seres,</text>
+<text x="960" y="568" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">tres dioses</text>
+<line x1="830" y1="592" x2="1090" y2="592" stroke="#c08a1e" stroke-width="1.5" opacity=".6"/>
+<text x="960" y="624" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Antes: algunos maestros (s. VI)</text>
+<text x="960" y="652" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Hoy: mormones</text>
+<text x="600" y="735" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">La fe bíblica no elige entre estas verdades: las confiesa todas juntas.</text>
+</svg>

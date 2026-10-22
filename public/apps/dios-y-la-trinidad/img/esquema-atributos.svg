@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los atributos de Dios</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Lo que solo Dios es, y lo que Dios forma en sus hijos</text>
+<rect x="60" y="130" width="520" height="545" rx="14" fill="#ece3f2"/>
+<text x="320" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Solo Dios es…</text>
+<text x="320" y="204" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">atributos incomunicables</text>
+<rect x="100" y="290.5" width="210" height="66" rx="10" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="205" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Eterno</text>
+<text x="205" y="343.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Sal 90:2</text>
+<rect x="100" y="378.5" width="210" height="66" rx="10" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="205" y="409.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Independiente</text>
+<text x="205" y="431.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Hch 17:25</text>
+<rect x="100" y="466.5" width="210" height="66" rx="10" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="205" y="497.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Inmutable</text>
+<text x="205" y="519.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Mal 3:6</text>
+<rect x="340" y="290.5" width="210" height="66" rx="10" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="445" y="321.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Omnipresente</text>
+<text x="445" y="343.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Sal 139:7</text>
+<rect x="340" y="378.5" width="210" height="66" rx="10" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="445" y="409.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Omnisciente</text>
+<text x="445" y="431.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Sal 147:5</text>
+<rect x="340" y="466.5" width="210" height="66" rx="10" fill="#fff" stroke="#7a3fa0" stroke-width="2"/>
+<text x="445" y="497.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Omnipotente</text>
+<text x="445" y="519.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jer 32:17</text>
+<line x1="120" y1="615" x2="520" y2="615" stroke="#7a3fa0" stroke-width="2" opacity=".5"/>
+<text x="320" y="648" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#7a3fa0" text-anchor="middle" font-weight="normal" font-style="italic">nos llevan a adorarle y a confiar</text>
+<rect x="620" y="130" width="520" height="545" rx="14" fill="#e0eee4"/>
+<text x="880" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Dios forma en sus hijos…</text>
+<text x="880" y="204" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">atributos comunicables</text>
+<rect x="660" y="246.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="765" y="277.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Santidad</text>
+<text x="765" y="299.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">1 P 1:16</text>
+<rect x="660" y="334.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="765" y="365.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Justicia</text>
+<text x="765" y="387.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Dt 32:4</text>
+<rect x="660" y="422.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="765" y="453.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Amor</text>
+<text x="765" y="475.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">1 Jn 4:8</text>
+<rect x="660" y="510.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="765" y="541.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Misericordia</text>
+<text x="765" y="563.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Lc 6:36</text>
+<rect x="900" y="246.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1005" y="277.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Gracia</text>
+<text x="1005" y="299.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ef 2:8</text>
+<rect x="900" y="334.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1005" y="365.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Fidelidad</text>
+<text x="1005" y="387.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Lm 3:23</text>
+<rect x="900" y="422.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1005" y="453.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Sabiduría</text>
+<text x="1005" y="475.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Stg 1:5</text>
+<rect x="900" y="510.5" width="210" height="66" rx="10" fill="#fff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1005" y="541.5" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Verdad</text>
+<text x="1005" y="563.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 17:17</text>
+<line x1="680" y1="615" x2="1080" y2="615" stroke="#2f7d4a" stroke-width="2" opacity=".5"/>
+<text x="880" y="648" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#2f7d4a" text-anchor="middle" font-weight="normal" font-style="italic">nos llaman a imitarle</text>
+<text x="600" y="722" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Cada atributo es Dios entero: su amor es santo, su justicia es amorosa, su poder es sabio.</text>
+</svg>

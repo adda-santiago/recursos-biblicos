@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Comparaciones y sus límites</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Lo que cada una ilustra y el error al que lleva si se toma en serio</text>
+<text x="330" y="140" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="bold">Comparación</text>
+<text x="640" y="140" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="bold">Ilustra</text>
+<text x="900" y="140" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="bold">Falla</text>
+<rect x="60" y="160" width="1080" height="90" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<path d="M100,223 q0,-22 12,-40 q12,18 12,40 a12,12 0 0 1 -24,0z" fill="#2a6fb0" opacity=".85"/>
+<rect x="128" y="201" width="20" height="20" rx="3" fill="#bcd6ee" stroke="#2a6fb0" stroke-width="2"/>
+<path d="M152,213 q8,-12 0,-24 q8,-12 0,-24" fill="none" stroke="#c9c6be" stroke-width="4"/>
+<text x="190" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="bold">Agua: líquido, hielo, vapor</text>
+<text x="640" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">una sustancia en</text>
+<text x="640" y="222" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">tres formas</text>
+<text x="900" y="200" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2a6fb0" text-anchor="start" font-weight="bold">Modalismo</text>
+<text x="900" y="222" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">no está en las tres a la vez</text>
+<rect x="60" y="264" width="1080" height="90" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<circle cx="130" cy="291" r="12" fill="#2a6fb0"/><path d="M112,337 q0,-30 18,-30 q18,0 18,30z" fill="#2a6fb0"/>
+<text x="190" y="316" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="bold">Un hombre: padre, hijo, esposo</text>
+<text x="640" y="304" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">una persona con</text>
+<text x="640" y="326" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">tres relaciones</text>
+<text x="900" y="304" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2a6fb0" text-anchor="start" font-weight="bold">Modalismo</text>
+<text x="900" y="326" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">tres papeles de uno solo</text>
+<rect x="60" y="368" width="1080" height="90" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<circle cx="130" cy="399" r="13" fill="#2f7d4a"/>
+<circle cx="118" cy="420" r="13" fill="#2f7d4a"/>
+<circle cx="142" cy="420" r="13" fill="#2f7d4a"/>
+<line x1="130" y1="417" x2="136" y2="445" stroke="#2f7d4a" stroke-width="4"/>
+<text x="190" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="bold">Huevo o trébol de tres hojas</text>
+<text x="640" y="408" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">tres elementos</text>
+<text x="640" y="430" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">forman uno</text>
+<text x="900" y="408" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="start" font-weight="bold">Partes</text>
+<text x="900" y="430" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">cada persona sería un tercio</text>
+<rect x="60" y="472" width="1080" height="90" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<circle cx="130" cy="517" r="16" fill="#c08a1e"/>
+<line x1="152" y1="517" x2="162" y2="517" stroke="#c08a1e" stroke-width="4"/>
+<line x1="146" y1="533" x2="153" y2="540" stroke="#c08a1e" stroke-width="4"/>
+<line x1="130" y1="539" x2="130" y2="549" stroke="#c08a1e" stroke-width="4"/>
+<line x1="114" y1="533" x2="107" y2="540" stroke="#c08a1e" stroke-width="4"/>
+<line x1="108" y1="517" x2="98" y2="517" stroke="#c08a1e" stroke-width="4"/>
+<line x1="114" y1="501" x2="107" y2="494" stroke="#c08a1e" stroke-width="4"/>
+<line x1="130" y1="495" x2="130" y2="485" stroke="#c08a1e" stroke-width="4"/>
+<line x1="146" y1="501" x2="153" y2="494" stroke="#c08a1e" stroke-width="4"/>
+<text x="190" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="bold">El sol, su luz y su calor</text>
+<text x="640" y="512" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">el Hijo y el</text>
+<text x="640" y="534" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">Espíritu vienen del Padre</text>
+<text x="900" y="512" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#7a3fa0" text-anchor="start" font-weight="bold">Cosas</text>
+<text x="900" y="534" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">la luz y el calor no son personas</text>
+<rect x="60" y="576" width="1080" height="90" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<circle cx="104" cy="607" r="9" fill="#b03a2e"/><path d="M91,645 q0,-26 13,-26 q13,0 13,26z" fill="#b03a2e"/>
+<circle cx="130" cy="607" r="9" fill="#b03a2e"/><path d="M117,645 q0,-26 13,-26 q13,0 13,26z" fill="#b03a2e"/>
+<circle cx="156" cy="607" r="9" fill="#b03a2e"/><path d="M143,645 q0,-26 13,-26 q13,0 13,26z" fill="#b03a2e"/>
+<text x="190" y="628" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="bold">Tres personas humanas</text>
+<text x="640" y="616" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">tres que se aman</text>
+<text x="640" y="638" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="normal">y se hablan</text>
+<text x="900" y="616" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="start" font-weight="bold">Triteísmo</text>
+<text x="900" y="638" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">serían tres dioses</text>
+<text x="600" y="740" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Ninguna criatura es imagen exacta del Creador: «¿A qué, pues, me haréis semejante?» (Is 40:25).</text>
+</svg>
