@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">¿Dos o tres obras de gracia?</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Las dos maneras en que los primeros pentecostales ordenaron la vida cristiana</text>
+<text x="330.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">Santidad pentecostal (desde 1906)</text>
+<rect x="90.0" y="200.0" width="480.0" height="120.0" rx="12" fill="#ffffff" stroke="#9e2b25" stroke-width="2.5"/>
+<text x="330.0" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">1. Conversión</text>
+<text x="330.0" y="286.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Justificación: el perdón de los pecados</text>
+<line x1="330.0" y1="322.0" x2="330.0" y2="372.0" stroke="#9e2b25" stroke-width="3" marker-end="url(#fl)"/>
+<rect x="90.0" y="375.0" width="480.0" height="120.0" rx="12" fill="#ffffff" stroke="#9e2b25" stroke-width="2.5"/>
+<text x="330.0" y="427.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">2. Santificación completa</text>
+<text x="330.0" y="461.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Una segunda obra instantánea</text>
+<line x1="330.0" y1="497.0" x2="330.0" y2="547.0" stroke="#9e2b25" stroke-width="3" marker-end="url(#fl)"/>
+<rect x="90.0" y="550.0" width="480.0" height="120.0" rx="12" fill="#ffffff" stroke="#9e2b25" stroke-width="2.5"/>
+<text x="330.0" y="602.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">3. Bautismo en el Espíritu</text>
+<text x="330.0" y="636.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Poder para servir, con lenguas</text>
+<text x="870.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3f6fa3" text-anchor="middle" font-weight="bold">Obra consumada (Durham, 1910)</text>
+<rect x="630.0" y="200.0" width="480.0" height="120.0" rx="12" fill="#ffffff" stroke="#3f6fa3" stroke-width="2.5"/>
+<text x="870.0" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3f6fa3" text-anchor="middle" font-weight="bold">1. Conversión</text>
+<text x="870.0" y="286.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Justificación y comienzo de la santificación</text>
+<line x1="870.0" y1="322.0" x2="870.0" y2="372.0" stroke="#3f6fa3" stroke-width="3" marker-end="url(#fl)"/>
+<rect x="630.0" y="375.0" width="480.0" height="120.0" rx="12" fill="#e7e2d6" stroke="#3f6fa3" stroke-width="2.5"/>
+<text x="870.0" y="427.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3f6fa3" text-anchor="middle" font-weight="bold">Santificación progresiva</text>
+<text x="870.0" y="461.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Toda la vida, por la obra de Cristo en la cruz</text>
+<line x1="870.0" y1="497.0" x2="870.0" y2="547.0" stroke="#3f6fa3" stroke-width="3" marker-end="url(#fl)"/>
+<rect x="630.0" y="550.0" width="480.0" height="120.0" rx="12" fill="#ffffff" stroke="#3f6fa3" stroke-width="2.5"/>
+<text x="870.0" y="602.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#3f6fa3" text-anchor="middle" font-weight="bold">2. Bautismo en el Espíritu</text>
+<text x="870.0" y="636.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Poder para servir, con lenguas</text>
+<text x="600.0" y="760.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Las dos coinciden en que el bautismo en el Espíritu Santo es una experiencia distinta de la conversión.</text>
+<text x="600.0" y="792.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">La mayoría de los pentecostales de hoy, entre ellos las Asambleas de Dios, sigue la segunda.</text>
+</svg>

@@ -148,7 +148,8 @@
         'La prensa se burló y las autoridades de la iglesia metodista se alarmaron. En la conferencia anual de 1910, Hoover fue acusado de enseñar doctrinas contrarias al metodismo. Él renunció, y con las congregaciones de Valparaíso y de Santiago que lo siguieron formó una iglesia independiente, que con el tiempo se llamó Iglesia Metodista Pentecostal.',
         { h: 'Un pentecostalismo chileno' },
         'Lo más notable de este movimiento fue que desde el principio fue chileno: no dependía de misioneros ni de dinero extranjero. Sus pastores eran obreros y campesinos que se formaban en la práctica, predicando en las calles, y sus himnos y su estilo nacieron del pueblo. En los años siguientes se formaron otras iglesias pentecostales a partir de esta y de otras raíces, y el pentecostalismo llegó a ser la mayoría de los evangélicos de Chile. Casi al mismo tiempo, en 1910 y 1911, nacieron en Brasil las primeras iglesias pentecostales, en São Paulo y en Belém, y en las décadas siguientes el movimiento se extendió por todo el continente. Lucas lo resume así: «el Señor añadía cada día a la iglesia los que habían de ser salvos» (Hch 2:47).',
-        'Esta estación es un panorama; la historia del pentecostalismo latinoamericano se estudiará en detalle en el recurso sobre el movimiento pentecostal (en preparación).',
+        'Esta estación es un panorama; la historia del pentecostalismo latinoamericano se estudia en detalle en El movimiento pentecostal.',
+        ir('Estudiar el pentecostalismo en América Latina', '../../movimiento-pentecostal/#america/1'),
         { ejercicio: {
           pregunta: '¿Qué rasgo distinguió al pentecostalismo chileno desde sus comienzos?',
           opciones: [

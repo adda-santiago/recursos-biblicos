@@ -24,7 +24,8 @@
           b: { n: 'Continuismo', t: 'La promesa del Espíritu es «para vosotros es la promesa … y para todos los que están lejos» (Hch 2:39), los dones están dados para edificar a la iglesia «esperando la manifestación de nuestro Señor Jesucristo» (1 Co 1:7), y «lo perfecto» es la venida de Cristo, cuando veremos «cara a cara» (1 Co 13:10, 12).' },
           c: 'Este recurso sigue la segunda postura: el bautismo en el Espíritu Santo y los dones espirituales son para hoy, para edificación de la iglesia y para el testimonio. Se ejercen con amor (1 Co 13), con orden (1 Co 14:40) y bajo la autoridad de la Escritura, que es completa y no se aumenta.'
         } },
-        'Este recurso dedica a Azusa una sola estación porque el movimiento pentecostal tendrá su propio recurso (en preparación). La ruta VII cuenta el avivamiento de Valparaíso, que dio origen al pentecostalismo latinoamericano.',
+        'Este recurso dedica a Azusa una sola estación porque el movimiento pentecostal tiene su propio recurso, El movimiento pentecostal. La ruta VII cuenta el avivamiento de Valparaíso, que dio origen al pentecostalismo latinoamericano.',
+        ir('Estudiar El movimiento pentecostal: Azusa y la primera expansión', '../../movimiento-pentecostal/#azusa/1'),
         { ejercicio: {
           pregunta: '¿Qué rasgo del avivamiento de la calle Azusa llamó especialmente la atención en la sociedad de 1906?',
           opciones: [

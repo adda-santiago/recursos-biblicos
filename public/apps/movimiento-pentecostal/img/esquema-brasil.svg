@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El pentecostalismo en Brasil</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Tres etapas, según los estudiosos del movimiento</text>
+<rect x="70.0" y="150.0" width="330.0" height="70.0" rx="10" fill="#9e2b25" fill-opacity="0.9"/>
+<text x="235.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">Primera etapa</text>
+<text x="235.0" y="207.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">1910-1911</text>
+<rect x="70.0" y="240.0" width="330.0" height="260.0" rx="10" fill="#ffffff" stroke="#9e2b25" stroke-width="2"/>
+<text x="235.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Congregación Cristiana</text>
+<text x="235.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">(São Paulo, 1910)</text>
+<text x="235.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Asambleas de Dios</text>
+<text x="235.0" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">(Belém, 1911)</text>
+<text x="235.0" y="560.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold">Iglesias pioneras: lenguas,</text>
+<text x="235.0" y="586.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold">santidad estricta y vida sencilla</text>
+<line x1="402.0" y1="370.0" x2="433.0" y2="370.0" stroke="#c9c6be" stroke-width="3" marker-end="url(#fl)"/>
+<rect x="435.0" y="150.0" width="330.0" height="70.0" rx="10" fill="#3f6fa3" fill-opacity="0.9"/>
+<text x="600.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">Segunda etapa</text>
+<text x="600.0" y="207.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">Décadas de 1950 y 1960</text>
+<rect x="435.0" y="240.0" width="330.0" height="260.0" rx="10" fill="#ffffff" stroke="#3f6fa3" stroke-width="2"/>
+<text x="600.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Cuadrangular (1951)</text>
+<text x="600.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Brasil para Cristo (1955)</text>
+<text x="600.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Dios es Amor (1962)</text>
+<text x="600.0" y="560.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#3f6fa3" text-anchor="middle" font-weight="bold">Cruzadas de sanidad en carpas,</text>
+<text x="600.0" y="586.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#3f6fa3" text-anchor="middle" font-weight="bold">radio y grandes ciudades</text>
+<line x1="767.0" y1="370.0" x2="798.0" y2="370.0" stroke="#c9c6be" stroke-width="3" marker-end="url(#fl)"/>
+<rect x="800.0" y="150.0" width="330.0" height="70.0" rx="10" fill="#a9772a" fill-opacity="0.9"/>
+<text x="965.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">Tercera etapa</text>
+<text x="965.0" y="207.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">Desde 1977</text>
+<rect x="800.0" y="240.0" width="330.0" height="260.0" rx="10" fill="#ffffff" stroke="#a9772a" stroke-width="2"/>
+<text x="965.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Iglesia Universal</text>
+<text x="965.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">del Reino de Dios (1977)</text>
+<text x="965.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Internacional de la Gracia (1980)</text>
+<text x="965.0" y="560.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#a9772a" text-anchor="middle" font-weight="bold">Neopentecostales: televisión,</text>
+<text x="965.0" y="586.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#a9772a" text-anchor="middle" font-weight="bold">liberación y, en muchas, prosperidad</text>
+<text x="600.0" y="680.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">En el censo de 2022, el 26,9 % de los brasileños de 10 años o más se declaró evangélico:</text>
+<text x="600.0" y="708.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">más de 47 millones de personas, en su mayoría pentecostales.</text>
+<text x="600.0" y="790.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Fuentes: P. Freston (1994); IBGE, Censo Demográfico 2022 (publicado en junio de 2025).</text>
+</svg>

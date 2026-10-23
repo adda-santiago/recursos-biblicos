@@ -74,8 +74,9 @@
         'Muchas cosas que un creyente evangélico vive cada domingo tienen una historia. La Biblia en su propia lengua, la predicación en el centro del culto, el canto de toda la congregación, la convicción de que somos salvos por la fe y no por obras, el bautismo de los que creen, las reuniones de oración, las misiones, la experiencia del Espíritu Santo: cada una se recuperó o se abrió camino en algún momento de estos cinco siglos, muchas veces a un alto costo. Conocer esa historia ayuda a valorar lo recibido y a entender por qué la iglesia es como es.',
         'La historia también enseña humildad. En estas rutas aparecen creyentes valientes y fieles, pero también errores, divisiones, guerras en nombre de la fe y silencios ante la injusticia. La Biblia no esconde los pecados de sus héroes, y una historia honesta de la iglesia tampoco debe hacerlo. El protagonista de esta historia no es ningún reformador ni ninguna denominación, sino el Señor de la iglesia, que prometió: «edificaré mi iglesia; y las puertas del Hades no prevalecerán contra ella» (Mt 16:18).',
         { h: 'Cómo usar este recurso' },
-        'Las ocho rutas siguen un orden cronológico, salvo la ruta VII, que reúne la historia de América Latina desde la colonia. Cada estación tiene un panel visual (mapa, esquema, tabla, pasaje o ilustración) y una pregunta para pensar, y cada ruta incluye al menos un ejercicio. La línea de tiempo de la parte inferior muestra dónde está cada estación en el conjunto. Algunos temas tienen su propio recurso: la historia de la Biblia en español está en De la Biblia a nosotros, y el movimiento pentecostal tendrá un recurso propio (en preparación).',
-        ir('Ver cómo llegó la Biblia hasta nosotros', '../../de-la-biblia-a-nosotros/')
+        'Las ocho rutas siguen un orden cronológico, salvo la ruta VII, que reúne la historia de América Latina desde la colonia. Cada estación tiene un panel visual (mapa, esquema, tabla, pasaje o ilustración) y una pregunta para pensar, y cada ruta incluye al menos un ejercicio. La línea de tiempo de la parte inferior muestra dónde está cada estación en el conjunto. Algunos temas tienen su propio recurso: la historia de la Biblia en español está en De la Biblia a nosotros, y el movimiento pentecostal, en El movimiento pentecostal.',
+        ir('Ver cómo llegó la Biblia hasta nosotros', '../../de-la-biblia-a-nosotros/'),
+        ir('Estudiar El movimiento pentecostal', '../../movimiento-pentecostal/')
       ],
       pensar: 'Hebreos 12:1 habla de «tan grande nube de testigos» que nos rodea. ¿Qué creyente del pasado, de la Biblia o de la historia, ha sido para ti un ejemplo que te anima a correr con paciencia?'
     },
@@ -1171,7 +1172,8 @@
           b: { n: 'Continuismo', t: 'La promesa del Espíritu es «para vosotros es la promesa … y para todos los que están lejos» (Hch 2:39), los dones están dados para edificar a la iglesia «esperando la manifestación de nuestro Señor Jesucristo» (1 Co 1:7), y «lo perfecto» es la venida de Cristo, cuando veremos «cara a cara» (1 Co 13:10, 12).' },
           c: 'Este recurso sigue la segunda postura: el bautismo en el Espíritu Santo y los dones espirituales son para hoy, para edificación de la iglesia y para el testimonio. Se ejercen con amor (1 Co 13), con orden (1 Co 14:40) y bajo la autoridad de la Escritura, que es completa y no se aumenta.'
         } },
-        'Este recurso dedica a Azusa una sola estación porque el movimiento pentecostal tendrá su propio recurso (en preparación). La ruta VII cuenta el avivamiento de Valparaíso, que dio origen al pentecostalismo latinoamericano.',
+        'Este recurso dedica a Azusa una sola estación porque el movimiento pentecostal tiene su propio recurso, El movimiento pentecostal. La ruta VII cuenta el avivamiento de Valparaíso, que dio origen al pentecostalismo latinoamericano.',
+        ir('Estudiar El movimiento pentecostal: Azusa y la primera expansión', '../../movimiento-pentecostal/#azusa/1'),
         { ejercicio: {
           pregunta: '¿Qué rasgo del avivamiento de la calle Azusa llamó especialmente la atención en la sociedad de 1906?',
           opciones: [
@@ -1551,7 +1553,8 @@
         'La prensa se burló y las autoridades de la iglesia metodista se alarmaron. En la conferencia anual de 1910, Hoover fue acusado de enseñar doctrinas contrarias al metodismo. Él renunció, y con las congregaciones de Valparaíso y de Santiago que lo siguieron formó una iglesia independiente, que con el tiempo se llamó Iglesia Metodista Pentecostal.',
         { h: 'Un pentecostalismo chileno' },
         'Lo más notable de este movimiento fue que desde el principio fue chileno: no dependía de misioneros ni de dinero extranjero. Sus pastores eran obreros y campesinos que se formaban en la práctica, predicando en las calles, y sus himnos y su estilo nacieron del pueblo. En los años siguientes se formaron otras iglesias pentecostales a partir de esta y de otras raíces, y el pentecostalismo llegó a ser la mayoría de los evangélicos de Chile. Casi al mismo tiempo, en 1910 y 1911, nacieron en Brasil las primeras iglesias pentecostales, en São Paulo y en Belém, y en las décadas siguientes el movimiento se extendió por todo el continente. Lucas lo resume así: «el Señor añadía cada día a la iglesia los que habían de ser salvos» (Hch 2:47).',
-        'Esta estación es un panorama; la historia del pentecostalismo latinoamericano se estudiará en detalle en el recurso sobre el movimiento pentecostal (en preparación).',
+        'Esta estación es un panorama; la historia del pentecostalismo latinoamericano se estudia en detalle en El movimiento pentecostal.',
+        ir('Estudiar el pentecostalismo en América Latina', '../../movimiento-pentecostal/#america/1'),
         { ejercicio: {
           pregunta: '¿Qué rasgo distinguió al pentecostalismo chileno desde sus comienzos?',
           opciones: [

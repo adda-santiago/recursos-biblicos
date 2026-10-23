@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Pentecostales, carismáticos y tercera ola</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Tres grandes corrientes, que hoy se cuentan juntas</text>
+<rect x="127.7" y="170.0" width="1022.3" height="54.0" rx="8" fill="#9e2b25" fill-opacity="0.88"/>
+<text x="145.7" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#ffffff" text-anchor="start" font-weight="bold">Pentecostales clásicos (desde 1901)</text>
+<text x="127.7" y="254.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Denominaciones nacidas de Topeka, Azusa y sus derivados</text>
+<text x="127.7" y="280.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">Bautismo en el Espíritu, distinto de la conversión; lenguas como evidencia inicial</text>
+<rect x="581.5" y="335.0" width="568.5" height="54.0" rx="8" fill="#6b4e7c" fill-opacity="0.88"/>
+<text x="599.5" y="370.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#ffffff" text-anchor="start" font-weight="bold">Carismáticos (desde 1960)</text>
+<text x="1150.0" y="419.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="normal">Creyentes de iglesias históricas, protestantes y católicas</text>
+<text x="1150.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">Experiencia del Espíritu sin dejar su iglesia; diversas doctrinas</text>
+<rect x="735.4" y="500.0" width="414.6" height="54.0" rx="8" fill="#1e7a7a" fill-opacity="0.88"/>
+<text x="753.4" y="535.0" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#ffffff" text-anchor="start" font-weight="bold">Tercera ola (desde 1980)</text>
+<text x="1150.0" y="584.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="normal">Evangélicos que no se llaman pentecostales</text>
+<text x="1150.0" y="610.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">Señales y sanidades; el bautismo en el Espíritu es la conversión</text>
+<line x1="120.0" y1="700.0" x2="1120.0" y2="700.0" stroke="#1f2430" stroke-width="2"/>
+<line x1="120.0" y1="692.0" x2="120.0" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="120.0" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">1900</text>
+<line x1="273.8" y1="692.0" x2="273.8" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="273.8" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">1920</text>
+<line x1="427.7" y1="692.0" x2="427.7" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="427.7" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">1940</text>
+<line x1="581.5" y1="692.0" x2="581.5" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="581.5" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">1960</text>
+<line x1="735.4" y1="692.0" x2="735.4" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="735.4" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">1980</text>
+<line x1="889.2" y1="692.0" x2="889.2" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="889.2" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">2000</text>
+<line x1="1043.1" y1="692.0" x2="1043.1" y2="708.0" stroke="#1f2430" stroke-width="2"/>
+<text x="1043.1" y="734.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">2020</text>
+<text x="600.0" y="790.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Las estadísticas mundiales suman las tres corrientes y las iglesias independientes de estilo pentecostal.</text>
+</svg>
