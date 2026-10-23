@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El olivo de Romanos 11</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Las ramas viven de la raíz: las promesas de Dios a los patriarcas</text>
+<rect x="60" y="610" width="1080" height="110" rx="12" fill="#e9dfcc"/>
+<path d="M600,612 C 536.0,630 456.0,640 440,660" fill="none" stroke="#8a5a2b" stroke-width="7" stroke-linecap="round"/>
+<path d="M600,612 C 564.0,630 519.0,640 510,660" fill="none" stroke="#8a5a2b" stroke-width="7" stroke-linecap="round"/>
+<path d="M600,612 C 588.0,630 573.0,640 570,660" fill="none" stroke="#8a5a2b" stroke-width="7" stroke-linecap="round"/>
+<path d="M600,612 C 612.0,630 627.0,640 630,660" fill="none" stroke="#8a5a2b" stroke-width="7" stroke-linecap="round"/>
+<path d="M600,612 C 636.0,630 681.0,640 690,660" fill="none" stroke="#8a5a2b" stroke-width="7" stroke-linecap="round"/>
+<path d="M600,612 C 664.0,630 744.0,640 760,660" fill="none" stroke="#8a5a2b" stroke-width="7" stroke-linecap="round"/>
+<text x="600" y="700" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#8a5a2b" text-anchor="middle" font-weight="bold">La raíz: los patriarcas y las promesas (Ro 11:16-18, 28)</text>
+<path d="M570,612 C 560,520 585,470 580,400 L 620,400 C 615,470 640,520 630,612 Z" fill="#8a5a2b"/>
+<path d="M600,400 Q 480.0,230 360,250" fill="none" stroke="#2f7d4a" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="492" cy="314" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 492 314)"/>
+<ellipse cx="451" cy="289" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 451 289)"/>
+<ellipse cx="410" cy="264" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 410 264)"/>
+<ellipse cx="370" cy="238" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 370 238)"/>
+<path d="M600,400 Q 535.0,170 470,190" fill="none" stroke="#2f7d4a" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="542" cy="288" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 542 288)"/>
+<ellipse cx="519" cy="252" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 519 252)"/>
+<ellipse cx="497" cy="216" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 497 216)"/>
+<ellipse cx="475" cy="180" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 475 180)"/>
+<path d="M600,400 Q 600.0,140 600,160" fill="none" stroke="#2f7d4a" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="600" cy="274" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 600 274)"/>
+<ellipse cx="600" cy="233" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 600 233)"/>
+<ellipse cx="600" cy="192" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 600 192)"/>
+<ellipse cx="600" cy="152" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 600 152)"/>
+<path d="M600,400 Q 665.0,170 730,190" fill="none" stroke="#2f7d4a" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="658" cy="288" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 658 288)"/>
+<ellipse cx="681" cy="252" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 681 252)"/>
+<ellipse cx="703" cy="216" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 703 216)"/>
+<ellipse cx="725" cy="180" rx="16" ry="7" fill="#2f7d4a" transform="rotate(-25 725 180)"/>
+<path d="M300,520 l 80,-26" stroke="#c9c6be" stroke-width="10" stroke-linecap="round" transform="rotate(-30 300 520)"/>
+<path d="M400,560 l 80,-26" stroke="#c9c6be" stroke-width="10" stroke-linecap="round" transform="rotate(20 400 560)"/>
+<text x="250" y="590" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">ramas desgajadas por incredulidad (v. 20)</text>
+<path d="M600,430 Q 730.0,270 860,300" fill="none" stroke="#c08a1e" stroke-width="11" stroke-linecap="round"/>
+<circle cx="630" cy="424" r="9" fill="#fff" stroke="#c08a1e" stroke-width="4"/>
+<ellipse cx="743" cy="338" rx="15" ry="7" fill="#c08a1e" transform="rotate(-20 743 338)"/>
+<ellipse cx="787" cy="316" rx="15" ry="7" fill="#c08a1e" transform="rotate(-20 787 316)"/>
+<ellipse cx="831" cy="294" rx="15" ry="7" fill="#c08a1e" transform="rotate(-20 831 294)"/>
+<path d="M600,450 Q 750.0,370 900,400" fill="none" stroke="#c08a1e" stroke-width="11" stroke-linecap="round"/>
+<circle cx="630" cy="444" r="9" fill="#fff" stroke="#c08a1e" stroke-width="4"/>
+<ellipse cx="765" cy="402" rx="15" ry="7" fill="#c08a1e" transform="rotate(-20 765 402)"/>
+<ellipse cx="816" cy="394" rx="15" ry="7" fill="#c08a1e" transform="rotate(-20 816 394)"/>
+<ellipse cx="867" cy="386" rx="15" ry="7" fill="#c08a1e" transform="rotate(-20 867 386)"/>
+<rect x="60" y="140" width="300" height="170" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<line x1="84" y1="180" x2="124" y2="180" stroke="#2f7d4a" stroke-width="10" stroke-linecap="round"/>
+<text x="140" y="178" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Ramas naturales</text>
+<text x="140" y="198" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">Israel</text>
+<line x1="84" y1="226" x2="124" y2="226" stroke="#c9c6be" stroke-width="10" stroke-linecap="round"/>
+<text x="140" y="224" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Ramas desgajadas</text>
+<text x="140" y="244" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">israelitas incrédulos</text>
+<line x1="84" y1="272" x2="124" y2="272" stroke="#c08a1e" stroke-width="10" stroke-linecap="round"/>
+<text x="140" y="270" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Olivo silvestre injertado</text>
+<text x="140" y="290" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">gentiles que creen</text>
+<rect x="900" y="140" width="240" height="110" rx="12" fill="#f3e7c9" stroke="#c08a1e" stroke-width="2"/>
+<text x="1020" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«no sustentas tú</text>
+<text x="1020" y="202" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">a la raíz, sino</text>
+<text x="1020" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">la raíz a ti» (v. 18)</text>
+<text x="950" y="560" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f7d4a" text-anchor="middle" font-weight="normal" font-style="italic">Dios puede volver a injertar</text>
+<text x="950" y="582" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2f7d4a" text-anchor="middle" font-weight="normal" font-style="italic">las ramas naturales (vv. 23-24)</text>
+</svg>

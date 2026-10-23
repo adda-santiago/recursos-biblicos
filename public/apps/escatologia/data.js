@@ -116,7 +116,8 @@
         { h: 'Las siete dispensaciones' },
         'Muchos maestros distinguen siete dispensaciones, que aparecen en la tabla. No todos usan los mismos nombres ni el mismo número, y no se trata de un dogma, sino de una herramienta para ordenar la lectura de la Biblia. Lo importante de esta manera de leer la Escritura está en tres convicciones: la interpretación literal de la profecía, la distinción entre Israel y la iglesia, y el propósito de Dios de glorificarse en toda la historia.',
         { h: 'Por qué importa para la profecía' },
-        'Si la iglesia es distinta de Israel, las promesas que Dios hizo a Israel sobre su tierra, su rey y su reino no se cumplen en la iglesia, sino que esperan un cumplimiento futuro. Y si la iglesia comenzó en un momento preciso, Pentecostés, también puede terminar su etapa en la tierra en un momento preciso, el arrebatamiento. Después, Dios volverá a tratar con Israel en la última semana de Daniel.'
+        'Si la iglesia es distinta de Israel, las promesas que Dios hizo a Israel sobre su tierra, su rey y su reino no se cumplen en la iglesia, sino que esperan un cumplimiento futuro. Y si la iglesia comenzó en un momento preciso, Pentecostés, también puede terminar su etapa en la tierra en un momento preciso, el arrebatamiento. Después, Dios volverá a tratar con Israel en la última semana de Daniel.',
+        { ir: { t: 'Ver el recurso Pactos y dispensaciones', a: '../../pactos-y-dispensaciones/#dispensaciones/1' } }
       ],
       pensar: 'Pablo dice que Dios reveló un misterio: que judíos y gentiles forman un solo cuerpo en Cristo (Ef 3:6). ¿Qué privilegio y qué responsabilidad implica para ti formar parte de la iglesia en esta etapa del plan de Dios?'
     },
@@ -781,7 +782,8 @@
         'La iglesia participa de las bendiciones espirituales de esos pactos por medio de Cristo, la simiente de Abraham (Gá 3:14, 29). Pablo usa la imagen de un olivo: los gentiles son ramas de olivo silvestre injertadas en el olivo natural, y las ramas naturales, Israel, fueron desgajadas por su incredulidad, pero pueden ser injertadas otra vez (Ro 11:17-24). La iglesia no reemplaza a Israel: recibe una bendición que tiene raíces judías.',
         { h: 'No ha desechado Dios a su pueblo' },
         'En Romanos 9 a 11, Pablo enfrenta la pregunta: si Israel rechazó a su Mesías, ¿Dios lo ha desechado? Su respuesta es categórica: «En ninguna manera» (Ro 11:1). El endurecimiento de Israel es parcial, porque siempre hay un remanente de judíos creyentes, y temporal, «hasta que haya entrado la plenitud de los gentiles; y luego todo Israel será salvo» (Ro 11:25-26). «Porque irrevocables son los dones y el llamamiento de Dios» (Ro 11:29).',
-        'Por eso la profecía bíblica espera la restauración de Israel: recogido de las naciones, convertido a su Mesías en la segunda venida, y establecido en su tierra en el reino de Cristo (Ez 37:21-28).'
+        'Por eso la profecía bíblica espera la restauración de Israel: recogido de las naciones, convertido a su Mesías en la segunda venida, y establecido en su tierra en el reino de Cristo (Ez 37:21-28).',
+        { ir: { t: 'Ver «Los pactos de Dios» en Pactos y dispensaciones', a: '../../pactos-y-dispensaciones/#pactos/1' } }
       ],
       pensar: 'Pablo dice que «irrevocables son los dones y el llamamiento de Dios» (Ro 11:29). ¿Cómo te da seguridad saber que Dios cumple siempre sus promesas, aun cuando su pueblo le ha fallado?'
     },
