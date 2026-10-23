@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Pentecostales y carismáticos en el mundo</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">En millones de personas</text>
+<line x1="160.0" y1="720.0" x2="1080.0" y2="720.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="726.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">0</text>
+<line x1="160.0" y1="640.0" x2="1080.0" y2="640.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="646.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">100</text>
+<line x1="160.0" y1="560.0" x2="1080.0" y2="560.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="566.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">200</text>
+<line x1="160.0" y1="480.0" x2="1080.0" y2="480.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="486.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">300</text>
+<line x1="160.0" y1="400.0" x2="1080.0" y2="400.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="406.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">400</text>
+<line x1="160.0" y1="320.0" x2="1080.0" y2="320.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">500</text>
+<line x1="160.0" y1="240.0" x2="1080.0" y2="240.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">600</text>
+<line x1="160.0" y1="160.0" x2="1080.0" y2="160.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="145.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">700</text>
+<rect x="210.0" y="719.2" width="140.0" height="3.0" rx="4" fill="#9e2b25" fill-opacity="0.9"/>
+<text x="280.0" y="705.2" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">menos de 1</text>
+<text x="280.0" y="754.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">1900</text>
+<rect x="430.0" y="673.9" width="140.0" height="46.1" rx="4" fill="#9e2b25" fill-opacity="0.9"/>
+<text x="500.0" y="659.9" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">57,6</text>
+<text x="500.0" y="754.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">1970</text>
+<rect x="650.0" y="365.9" width="140.0" height="354.1" rx="4" fill="#9e2b25" fill-opacity="0.9"/>
+<text x="720.0" y="351.9" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">442,6</text>
+<text x="720.0" y="754.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">2000</text>
+<rect x="870.0" y="179.1" width="140.0" height="540.9" rx="4" fill="#9e2b25" fill-opacity="0.9"/>
+<text x="940.0" y="165.1" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#9e2b25" text-anchor="middle" font-weight="bold">676,1</text>
+<text x="940.0" y="754.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">2026</text>
+<line x1="160.0" y1="720.0" x2="1080.0" y2="720.0" stroke="#1f2430" stroke-width="2"/>
+<text x="600.0" y="810.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Fuente: Status of Global Christianity, 2026. Incluye pentecostales clásicos, carismáticos e independientes.</text>
+</svg>

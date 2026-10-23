@@ -32,6 +32,7 @@ export const LIBROS = {
 
 // Épocas en orden cronológico. Coinciden con las franjas del árbol genealógico
 // (public/apps/genealogias/epocas.js), que separa además la iglesia primitiva.
+// «Historia de la iglesia» (desde la v2.36) es la época posterior al Nuevo Testamento.
 export const EPOCAS = {
   'creacion': 'Creación y primeros patriarcas',
   'patriarcas': 'Patriarcas',
@@ -44,6 +45,7 @@ export const EPOCAS = {
   'intertestamentario': 'Período intertestamentario',
   'vida-de-jesus': 'Vida de Jesús',
   'iglesia-primitiva': 'Iglesia primitiva',
+  'historia-iglesia': 'Historia de la iglesia',
   'ultimos-tiempos': 'Los últimos tiempos',
 } as const;
 

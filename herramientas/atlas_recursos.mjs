@@ -118,7 +118,8 @@ const extra = {};
 const lugarDeGeo = g => {
   if (porGeo[g]) return porGeo[g];
   if (LUGARES.some(l => l.id === g)) return g;   // mismo id que un lugar del atlas
-  if (REGION(g) || !GEO[g]) return null;
+  // Lugares posteriores a la Biblia (prefijo h-, p. ej. historia-iglesia-2/historia-geo.js): no van al atlas bíblico
+  if (REGION(g) || /^h-/.test(g) || !GEO[g]) return null;
   if (!extra[g]) { const [n, lat, lng] = GEO[g]; extra[g] = { id: g, n: n.replace(/\s*\(aprox\.\)|\s*\(trad\.\)|\s*\(¿\?\)/g, ''), lat, lng, ep: new Set() }; }
   return g;
 };

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Religión en América Latina</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Porcentaje de la población, 1995 y 2024 (Latinobarómetro)</text>
+<line x1="150.0" y1="700.0" x2="1090.0" y2="700.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="706.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">0 %</text>
+<line x1="150.0" y1="641.1" x2="1090.0" y2="641.1" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="647.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">10 %</text>
+<line x1="150.0" y1="582.2" x2="1090.0" y2="582.2" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="588.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">20 %</text>
+<line x1="150.0" y1="523.3" x2="1090.0" y2="523.3" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="529.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">30 %</text>
+<line x1="150.0" y1="464.4" x2="1090.0" y2="464.4" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="470.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">40 %</text>
+<line x1="150.0" y1="405.6" x2="1090.0" y2="405.6" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="411.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">50 %</text>
+<line x1="150.0" y1="346.7" x2="1090.0" y2="346.7" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">60 %</text>
+<line x1="150.0" y1="287.8" x2="1090.0" y2="287.8" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="293.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">70 %</text>
+<line x1="150.0" y1="228.9" x2="1090.0" y2="228.9" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">80 %</text>
+<line x1="150.0" y1="170.0" x2="1090.0" y2="170.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="135.0" y="176.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">90 %</text>
+<rect x="195.0" y="228.9" width="95.0" height="471.1" rx="4" fill="#a9772a" fill-opacity="0.45"/>
+<text x="243.0" y="216.9" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#a9772a" text-anchor="middle" font-weight="bold">80 %</text>
+<rect x="310.0" y="382.0" width="95.0" height="318.0" rx="4" fill="#a9772a" fill-opacity="0.95"/>
+<text x="357.0" y="370.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#a9772a" text-anchor="middle" font-weight="bold">54 %</text>
+<text x="243.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1995</text>
+<text x="357.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">2024</text>
+<text x="300.0" y="762.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">Católicos</text>
+<rect x="505.0" y="664.7" width="95.0" height="35.3" rx="4" fill="#9e2b25" fill-opacity="0.45"/>
+<text x="553.0" y="652.7" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#9e2b25" text-anchor="middle" font-weight="bold">6 %</text>
+<rect x="620.0" y="588.1" width="95.0" height="111.9" rx="4" fill="#9e2b25" fill-opacity="0.95"/>
+<text x="667.0" y="576.1" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#9e2b25" text-anchor="middle" font-weight="bold">19 %</text>
+<text x="553.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1995</text>
+<text x="667.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">2024</text>
+<text x="610.0" y="762.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">Evangélicos</text>
+<rect x="815.0" y="676.4" width="95.0" height="23.6" rx="4" fill="#6b7080" fill-opacity="0.45"/>
+<text x="863.0" y="664.4" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#6b7080" text-anchor="middle" font-weight="bold">4 %</text>
+<rect x="930.0" y="588.1" width="95.0" height="111.9" rx="4" fill="#6b7080" fill-opacity="0.95"/>
+<text x="977.0" y="576.1" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#6b7080" text-anchor="middle" font-weight="bold">19 %</text>
+<text x="863.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1995</text>
+<text x="977.0" y="728.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">2024</text>
+<text x="920.0" y="762.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">Sin religión</text>
+<line x1="150.0" y1="700.0" x2="1090.0" y2="700.0" stroke="#1f2430" stroke-width="2"/>
+<text x="600.0" y="815.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Promedio regional de las encuestas de Latinobarómetro; cada país tiene cifras distintas.</text>
+</svg>

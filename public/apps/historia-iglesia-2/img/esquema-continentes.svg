@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Cristianos por continente</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">En millones de personas, 1900 y 2026</text>
+<line x1="300.0" y1="140.0" x2="300.0" y2="720.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="300.0" y="748.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">0</text>
+<line x1="500.0" y1="140.0" x2="500.0" y2="720.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="500.0" y="748.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">200</text>
+<line x1="700.0" y1="140.0" x2="700.0" y2="720.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="700.0" y="748.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">400</text>
+<line x1="900.0" y1="140.0" x2="900.0" y2="720.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="900.0" y="748.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">600</text>
+<line x1="1100.0" y1="140.0" x2="1100.0" y2="720.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="1100.0" y="748.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">800</text>
+<text x="282.0" y="202.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Europa (con Rusia)</text>
+<rect x="300.0" y="168.0" width="380.6" height="28.0" rx="4" fill="#c9c6be"/>
+<text x="690.6" y="189.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">380,6</text>
+<rect x="300.0" y="202.0" width="553.3" height="32.0" rx="4" fill="#9e2b25"/>
+<text x="863.3" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="start" font-weight="bold">553,3</text>
+<text x="282.0" y="296.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Norteamérica</text>
+<rect x="300.0" y="262.0" width="79.3" height="28.0" rx="4" fill="#c9c6be"/>
+<text x="389.3" y="283.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">79,3</text>
+<rect x="300.0" y="296.0" width="275.2" height="32.0" rx="4" fill="#9e2b25"/>
+<text x="585.2" y="319.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="start" font-weight="bold">275,2</text>
+<text x="282.0" y="390.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">América Latina</text>
+<rect x="300.0" y="356.0" width="62.0" height="28.0" rx="4" fill="#c9c6be"/>
+<text x="372.0" y="377.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">62,0</text>
+<rect x="300.0" y="390.0" width="619.5" height="32.0" rx="4" fill="#9e2b25"/>
+<text x="929.5" y="413.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="start" font-weight="bold">619,5</text>
+<text x="282.0" y="484.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">África</text>
+<rect x="300.0" y="450.0" width="9.6" height="28.0" rx="4" fill="#c9c6be"/>
+<text x="319.6" y="471.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">9,6</text>
+<rect x="300.0" y="484.0" width="779.6" height="32.0" rx="4" fill="#9e2b25"/>
+<text x="1089.6" y="507.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="start" font-weight="bold">779,6</text>
+<text x="282.0" y="578.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Asia</text>
+<rect x="300.0" y="544.0" width="22.0" height="28.0" rx="4" fill="#c9c6be"/>
+<text x="332.0" y="565.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">22,0</text>
+<rect x="300.0" y="578.0" width="415.8" height="32.0" rx="4" fill="#9e2b25"/>
+<text x="725.8" y="601.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="start" font-weight="bold">415,8</text>
+<text x="282.0" y="672.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Oceanía</text>
+<rect x="300.0" y="638.0" width="4.8" height="28.0" rx="4" fill="#c9c6be"/>
+<text x="314.8" y="659.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">4,8</text>
+<rect x="300.0" y="672.0" width="30.6" height="32.0" rx="4" fill="#9e2b25"/>
+<text x="340.6" y="695.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="start" font-weight="bold">30,6</text>
+<rect x="330.0" y="785.0" width="22.0" height="16.0" rx="3" fill="#c9c6be"/>
+<text x="360.0" y="799.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">1900</text>
+<rect x="440.0" y="785.0" width="22.0" height="16.0" rx="3" fill="#9e2b25"/>
+<text x="470.0" y="799.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">2026</text>
+<text x="560.0" y="799.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Fuente: Status of Global Christianity, 2026 (estimaciones).</text>
+</svg>

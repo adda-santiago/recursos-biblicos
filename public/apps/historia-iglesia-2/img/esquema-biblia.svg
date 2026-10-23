@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600.0" y="64.0" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">La Escritura en las lenguas del mundo</text>
+<text x="600.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Número de lenguas, al 1 de agosto de 2025</text>
+<line x1="470.0" y1="150.0" x2="470.0" y2="600.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="470.0" y="628.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">0</text>
+<line x1="627.5" y1="150.0" x2="627.5" y2="600.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="627.5" y="628.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">500</text>
+<line x1="785.0" y1="150.0" x2="785.0" y2="600.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="785.0" y="628.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1.000</text>
+<line x1="942.5" y1="150.0" x2="942.5" y2="600.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="942.5" y="628.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1.500</text>
+<line x1="1100.0" y1="150.0" x2="1100.0" y2="600.0" stroke="#e7e2d6" stroke-width="1.5"/>
+<text x="1100.0" y="628.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">2.000</text>
+<text x="452.0" y="218.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Con la Biblia completa</text>
+<rect x="470.0" y="192.0" width="244.4" height="44.0" rx="5" fill="#9e2b25" fill-opacity="0.9"/>
+<text x="726.4" y="222.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#9e2b25" text-anchor="start" font-weight="bold">776</text>
+<text x="452.0" y="323.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Con el Nuevo Testamento</text>
+<rect x="470.0" y="297.0" width="566.4" height="44.0" rx="5" fill="#3f6fa3" fill-opacity="0.9"/>
+<text x="1048.4" y="327.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#3f6fa3" text-anchor="start" font-weight="bold">1.798</text>
+<text x="452.0" y="428.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Con algunas porciones</text>
+<rect x="470.0" y="402.0" width="451.4" height="44.0" rx="5" fill="#4f7d43" fill-opacity="0.9"/>
+<text x="933.4" y="432.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#4f7d43" text-anchor="start" font-weight="bold">1.433</text>
+<text x="452.0" y="533.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="end" font-weight="bold">Esperan que comience una traducción</text>
+<rect x="470.0" y="507.0" width="171.4" height="44.0" rx="5" fill="#6b7080" fill-opacity="0.9"/>
+<text x="653.4" y="537.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#6b7080" text-anchor="start" font-weight="bold">544</text>
+<rect x="150.0" y="665.0" width="900.0" height="100.0" rx="8" fill="#e7e2d6" stroke="#c9c6be" stroke-width="2"/>
+<text x="600.0" y="705.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">Hay traducción en curso en 4.457 lenguas. En el mundo se hablan más de 7.000.</text>
+<text x="600.0" y="740.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Las 544 lenguas que esperan las hablan unos 36,8 millones de personas.</text>
+<text x="600.0" y="815.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Fuente: Wycliffe Global Alliance, estadísticas de acceso a la Escritura (2025).</text>
+</svg>
