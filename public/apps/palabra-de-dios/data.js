@@ -518,6 +518,7 @@
         { h: '¿Y la cita de Enoc en Judas?' },
         'Judas cita una profecía de Enoc (Jud 14-15) que aparece en un libro judío llamado 1 Enoc, que tampoco forma parte del canon. Citar una frase verdadera de un libro no convierte al libro en Escritura: Pablo cita a poetas griegos (Hch 17:28; Tit 1:12) sin que nadie piense que sus obras sean inspiradas. Lo inspirado es lo que Judas escribe, que incluye esa frase verdadera.',
         'Los apócrifos tienen valor histórico. 1 Macabeos, por ejemplo, es la principal fuente sobre la fiesta de la Dedicación que Jesús celebró en Jerusalén (Jn 10:22). Se pueden leer como historia o literatura del período entre los testamentos, como se usan en el recurso El imperio griego, pero no como Palabra de Dios.',
+        { ir: { t: 'Recorrer los apócrifos y los pseudoepígrafos uno por uno', a: '../../libros-apocrifos/#que/1' } },
         { ejercicio: {
           pregunta: '¿Cuál de estos argumentos apoya que los apócrifos no son parte del canon?',
           opciones: [
@@ -663,6 +664,7 @@
         { h: 'Los evangelios falsos' },
         'Otros escritos son de otra clase. El Evangelio de Tomás, el de Pedro o el de Judas fueron escritos en el siglo II o después, mucho tiempo después de los apóstoles, por grupos que se llamaban gnósticos. Enseñaban que la salvación viene de un conocimiento secreto, que la materia es mala y que Cristo no tuvo un cuerpo verdadero o no sufrió de verdad. Les ponían nombres de apóstoles para darse autoridad. Los primeros cristianos los rechazaron con la regla que Juan había dado: «todo espíritu que no confiesa que Jesucristo ha venido en carne, no es de Dios» (1 Jn 4:3).',
         'La iglesia no escondió estos libros: los conoció, los examinó y los rechazó, y escritores como Ireneo explicaron públicamente por qué. Muchos de ellos se conocieron mejor en el siglo XX gracias a hallazgos en Egipto, como la biblioteca de Nag Hammadi (1945). Su lectura confirma lo que la iglesia antigua dijo: son tardíos y enseñan otro evangelio. Pablo ya había advertido sobre quienes querían pervertir el evangelio de Cristo (Gá 1:7).',
+        { ir: { t: 'Ver los apócrifos del Nuevo Testamento', a: '../../libros-apocrifos/#nt/1' } },
         { ejercicio: {
           pregunta: 'Un amigo te dice que el Evangelio de Tomás fue escondido por la iglesia porque mostraba al verdadero Jesús. ¿Qué respuesta es más fiel a la historia?',
           opciones: [

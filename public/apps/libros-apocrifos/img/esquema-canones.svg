@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+<rect width="1200" height="720" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los libros de cada Biblia</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">El Antiguo Testamento cambia según la tradición; el Nuevo Testamento es el mismo</text>
+<text x="226" y="194" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="end" font-weight="bold">Evangélica</text>
+<text x="226" y="220" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">66 libros</text>
+<rect x="250" y="160" width="354.79999999999995" height="70" rx="8" fill="#2a6fb0"/>
+<text x="427.4" y="204" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">39</text>
+<rect x="638.8" y="160" width="244.39999999999998" height="70" rx="8" fill="#2f7d4a"/>
+<text x="761.0" y="204" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">27</text>
+<text x="226" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="end" font-weight="bold">Católica</text>
+<text x="226" y="350" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">73 libros</text>
+<rect x="250" y="290" width="354.79999999999995" height="70" rx="8" fill="#2a6fb0"/>
+<text x="427.4" y="334" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">39</text>
+<rect x="608.8" y="290" width="60.39999999999999" height="70" rx="8" fill="#c08a1e"/>
+<text x="639.0" y="334" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">+7</text>
+<rect x="703.1999999999999" y="290" width="244.39999999999998" height="70" rx="8" fill="#2f7d4a"/>
+<text x="825.3999999999999" y="334" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">27</text>
+<text x="226" y="454" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="end" font-weight="bold">Ortodoxa griega</text>
+<text x="226" y="480" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">unos 77 libros</text>
+<rect x="250" y="420" width="354.79999999999995" height="70" rx="8" fill="#2a6fb0"/>
+<text x="427.4" y="464" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">39</text>
+<rect x="608.8" y="420" width="60.39999999999999" height="70" rx="8" fill="#c08a1e"/>
+<text x="639.0" y="464" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">+7</text>
+<rect x="673.1999999999999" y="420" width="32.8" height="70" rx="8" fill="#7a3fa0"/>
+<text x="689.5999999999999" y="464" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">+4</text>
+<rect x="739.9999999999999" y="420" width="244.39999999999998" height="70" rx="8" fill="#2f7d4a"/>
+<text x="862.1999999999998" y="464" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">27</text>
+<text x="429.4" y="146" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="bold">Antiguo Testamento</text>
+<text x="763.8" y="146" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="bold">Nuevo Testamento</text>
+<rect x="120" y="542" width="24" height="24" rx="5" fill="#2a6fb0"/>
+<text x="158" y="560" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Los libros de la Biblia hebrea</text>
+<rect x="120" y="576" width="24" height="24" rx="5" fill="#c08a1e"/>
+<text x="158" y="594" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Tobías, Judit, 1-2 Macabeos, Sabiduría, Eclesiástico y Baruc, con las adiciones</text>
+<rect x="120" y="610" width="24" height="24" rx="5" fill="#7a3fa0"/>
+<text x="158" y="628" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">1 Esdras, 3 Macabeos, Oración de Manasés y salmo adicional</text>
+<rect x="120" y="644" width="24" height="24" rx="5" fill="#2f7d4a"/>
+<text x="158" y="662" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal">Los 27 libros del Nuevo Testamento</text>
+<text x="600" y="700" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">La iglesia de Etiopía tiene unos 81 libros: incluye además 1 Enoc y Jubileos.</text>
+</svg>

@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.39 · 22 de octubre de 2026
+Versión 2.40 · 29 de octubre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.40:** recurso nuevo en la ola 5, Los libros apócrifos y pseudoepígrafos (nº 85, historia y geografía), que se agrega al plan antes de Entre los Testamentos: el plan pasa a 136 recursos y los números desde el 85 se corren en uno (Entre los Testamentos es el 86, Historia de la Iglesia I el 132, El movimiento pentecostal el 134). Siete rutas y 33 estaciones: qué son estos libros y cómo llegaron a las Biblias, los libros históricos, los relatos y adiciones, los de sabiduría, los pseudoepígrafos, los apócrifos del Nuevo Testamento y cómo leerlos hoy. La pregunta del canon sigue en La Palabra de Dios, que suma dos botones `ir` hacia el recurso. Los apócrifos no están en la Biblia del sitio: su contenido se parafrasea, sin comillas, y no se escriben referencias que la burbuja tomaría por capítulos inexistentes (§15). La doctrina católica (purgatorio, intercesión de los santos, Trento, el Protoevangelio de Santiago) se describe según sus documentos oficiales y con respeto por sus miembros. Geografía propia `geo/apocrifos.py` → `libros-apocrifos/apocrifos-geo.js`.
 
 **Cambio de la versión 2.39:** segundo recurso de la ola 9 adelantado, El movimiento pentecostal (historia y geografía), con siete rutas y 49 estaciones: las raíces (de Pentecostés a Topeka), Azusa y la primera expansión, la organización y las controversias, América Latina, la renovación y las nuevas olas, lo que enseñan los pentecostales y los desafíos de hoy. Usa el mapa base del mundo y su geografía propia (`geo/pentecostal.py` → `movimiento-pentecostal/pentecostal-geo.js`, sin polígonos). Nombra a los maestros y grupos de cada desvío (prosperidad, nueva reforma apostólica, Toronto) por su enseñanza y por hechos documentados, y presenta el evangelio de la prosperidad como contrario a la sana doctrina. Una denominación se puede mencionar brevemente como un caso entre otros dentro de una historia general (§1): la estación de Chile nombra a las Asambleas de Dios Autónomas. Historia de la Iglesia II suma tres botones `ir` hacia el recurso. Se restituye en el repositorio la versión unificada de este documento (la copia del repositorio había quedado en una 2.37 sin Historia de la Iglesia II).
 
@@ -187,9 +189,10 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 │  │  ├─ imperio-*/ egipto/ imperios-historia/ exilio/ escatologia/ sacerdocio/
 │  │  │  viajes-pablo/ hechos/ daniel/ apocalipsis/ interpretar-biblia/ palabra-de-dios/
 │  │  │  de-la-biblia-a-nosotros/ medidas-biblicas/ tierra-de-israel/ historia-iglesia-2/ dios-y-la-trinidad/
-│  │  │  pactos-y-dispensaciones/ movimiento-pentecostal/   (rutas de estudio: index.html, data.js, img/;
+│  │  │  pactos-y-dispensaciones/ movimiento-pentecostal/ libros-apocrifos/   (rutas de estudio: index.html, data.js, img/;
 │  │  │                      tierra-de-israel/ suma tierra-geo.js, historia-iglesia-2/ suma historia-geo.js
-│  │  │                      y movimiento-pentecostal/ suma pentecostal-geo.js, su geografía propia;
+│  │  │                      movimiento-pentecostal/ suma pentecostal-geo.js y libros-apocrifos/ suma apocrifos-geo.js,
+│  │  │                      su geografía propia;
 │  │  │                      medidas-biblicas/ suma calculadora/, página auxiliar, §20)
 │  │  ├─ adn/ motor-combustion/ viajes-colon/ segunda-guerra-mundial/   (fichas ocultas, §1)
 │  ├─ biblia/                texto bíblico: versiones.json, indice.json y {versión}/{libro}/{capítulo}.json
@@ -200,9 +203,10 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 ├─ geo/mundo.py             genera assets/js/mapa-mundo.js (mapa base del mundo, Natural Earth 1:50m)
 ├─ geo/historia_iglesia.py  genera historia-iglesia-2/historia-geo.js (confesiones hacia 1600, lugares h- y viajes)
 ├─ geo/pentecostal.py       genera movimiento-pentecostal/pentecostal-geo.js (lugares h- y viajes; no usa Natural Earth)
+├─ geo/apocrifos.py         genera libros-apocrifos/apocrifos-geo.js (lugares de los libros y de sus hallazgos; no usa Natural Earth)
 ├─ herramientas/biblia/     generar.py: genera public/biblia/ desde las fuentes (fuentes/ no se sube al repositorio)
 ├─ herramientas/            verificar_citas.py (citas textuales contra la RV 1960), esquemas_*.py (SVG propios),
-│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas, tierra, trinidad, historia2, pactos, pentecostal),
+│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas, tierra, trinidad, historia2, pactos, pentecostal, apocrifos),
 │                           atlas_recursos.mjs (genera atlas/recursos.js, §20)
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
@@ -375,7 +379,7 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 | Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis, Armonía de los evangelios |
 | Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
 | Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | La Palabra de Dios, Dios y la Trinidad, Pactos y dispensaciones, Los últimos tiempos |
-| Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, La tierra de Israel, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica, Historia de la Iglesia II, El movimiento pentecostal |
+| Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, La tierra de Israel, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica, Historia de la Iglesia II, El movimiento pentecostal, Los libros apócrifos y pseudoepígrafos |
 | Herramientas de estudio | ¿Cómo leo, interpreto y enseño la Biblia por mi cuenta? | Cómo interpretar la Biblia, De la Biblia a nosotros, Pesos, medidas, monedas y horas bíblicas; después, lenguas (hebreo y griego), interlineales, taller de sermón |
 
 Un recurso 3D no es un enfoque: el tabernáculo es teología bíblica en formato 3D. Los recursos no bíblicos están ocultos (`publicado: false`) y no llevan enfoque. Se pueden agregar más enfoques cuando un grupo de recursos no calce en ninguno; cada uno se registra en la bitácora.
@@ -414,6 +418,7 @@ Asignación actual:
 | Historia de la Iglesia II (de la Reforma a hoy) | Nuevo | Historia de la iglesia | Habacuc, Mateo, Hechos, Romanos, Gálatas |
 | Pactos y dispensaciones | Antiguo, Nuevo | Creación, patriarcas, éxodo, monarquía unida, exilio, vida de Jesús, iglesia primitiva, últimos tiempos | Génesis, Éxodo, Deuteronomio, 2 Samuel, Salmos, Jeremías, Ezequiel, Malaquías, Mateo, Lucas, Hechos, Romanos, 2 Corintios, Gálatas, Efesios, Hebreos |
 | El movimiento pentecostal | Nuevo, Antiguo | Iglesia primitiva, historia de la iglesia | Joel, Lucas, Hechos, 1 Corintios, Gálatas, 1 Tesalonicenses, 1 Timoteo, 1 Juan |
+| Los libros apócrifos y pseudoepígrafos | Antiguo, Nuevo | Exilio, retorno, intertestamentario, iglesia primitiva, historia de la iglesia | 2 Crónicas, Ester, Daniel, 2 Corintios, Colosenses, 2 Tesalonicenses, Hebreos, Judas |
 
 ## 10. Sin fines comerciales
 
@@ -502,6 +507,7 @@ Reglas: el artículo explica lo que se ve; no repite el resumen ni rellena para 
 - Versiones: **RV 1960** (por defecto; derechos de las SBU, permiso en trámite), **RV 1909** y **RV 1865** (dominio público). La Biblia del Oso (1569) se descartó: su fuente trae Daniel y Ester con las adiciones griegas y otra numeración de los Salmos.
 - Cada edición numera algunos versículos de otra manera (Jonás 1:17 es 2:1 en la RV 1909). La burbuja lo explica en vez de quedar vacía; el generador deja la lista en `herramientas/biblia/informe.txt`.
 - Las citas textuales dentro de los párrafos de un recurso van siempre en RV 1960; la versión elegida cambia solo el texto de la burbuja.
+- **Libros que no están en la Biblia del sitio** (desde la v2.40; apócrifos, pseudoepígrafos, apócrifos del Nuevo Testamento): su contenido se resume con palabras propias, sin comillas, y sus referencias siguen la numeración de las Biblias católicas. No se escribe una referencia que la burbuja tomaría por un capítulo inexistente de la Biblia («Daniel 13», «Ester 11», «Salmo 151»): se dice «el capítulo 13 de Daniel en las Biblias católicas» o «el salmo adicional».
 - **Elegir la versión:** selector en la cabecera del sitio y en la propia burbuja. Es una preferencia del dispositivo (§11).
 - **Lectura en la burbuja:** cuando una cita salta versículos dentro de un capítulo (Dn 8:3-8, 20-22), los tramos se separan con la marca «versículos omitidos»; un cambio de capítulo lleva su subtítulo. Se reconocen rangos entre capítulos (Is 44:28–45:4) y versículos que siguen a capítulos (Daniel 1–7; 9:2). La cabecera de la burbuja queda fija al desplazar el texto.
 - **Citas textuales en los párrafos:** cada frase entre comillas «…» seguida de su referencia se contrasta automáticamente con el texto de la RV 1960 antes de publicar; una cita que no coincide se corrige o se reformula como paráfrasis sin comillas.
@@ -551,7 +557,7 @@ Reglas:
 
 ### Plan de publicación
 
-- El orden de todos los recursos (135: 66 estudios de libro y 69 recursos de apoyo) vive en la planilla de Google **«Orden publicación recursos»** (hoja «Orden de publicación», con un resumen de avance por ola y por categoría). Columnas: número, ola, bloque, recurso, categoría, tipo, «Se apoya en» y estado.
+- El orden de todos los recursos (136: 66 estudios de libro y 70 recursos de apoyo) vive en la planilla de Google **«Orden publicación recursos»** (hoja «Orden de publicación», con un resumen de avance por ola y por categoría). Columnas: número, ola, bloque, recurso, categoría, tipo, «Se apoya en» y estado.
 - Las olas siguen el canon y las dependencias: 0 Fundamentos, 1 Hebreo y Pentateuco, 2 Conquista y monarquía, 3 Libros poéticos, 4 Profetas preexílicos y exílicos, 5 Retorno y cierre del AT, 6 Griego, introducción al NT y evangelios, 7 Cartas de Pablo y misiones, 8 Cartas generales, 9 Después del NT y ministerio.
 - **Regla de dependencias:** un recurso de apoyo se publica antes que los estudios que se apoyan en él. Si al preparar un estudio aparece un tema que serviría a varios libros, se propone como recurso aparte; si se acepta, se crea primero, se agrega a la planilla y el estudio lo referencia con un botón `ir`.
 - **Estados** (los valores exactos que cuentan las fórmulas del Resumen): Pendiente → En desarrollo (opcional, mientras se construye) → Demo en revisión (al entregar el demo) → Publicado (al entregar el ZIP). Claude actualiza la columna Estado de la planilla en cada entrega.
@@ -642,9 +648,11 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 ### Pendientes
 
 - **Historia de la Iglesia II, cifras actuales:** las estaciones VII.9 y la ruta VIII usan cifras con fecha (Status of Global Christianity 2026, Lista Mundial de la Persecución 2026, Wycliffe agosto de 2025, censos de Brasil 2022 y Chile 2024, Latinobarómetro 2024). Revisarlas cuando salgan las ediciones nuevas (la Lista Mundial, cada enero; Status of Global Christianity, cada año), en las partes y en `herramientas/esquemas_historia2.py`.
-- **Historia de la Iglesia II y los recursos que faltan:** cuando se publique Historia de la Iglesia I (nº 131), agregar su botón `ir` en I.1 (Quinientos años de historia) y II.1 (Europa hacia 1500), que hoy la mencionan «en preparación». Hacer lo mismo con Pactos y dispensaciones (nº 9) en V.9. Los botones hacia El movimiento pentecostal (nº 133) ya están en I.1, VI.1 y VII.6 (v2.39).
+- **Historia de la Iglesia II y los recursos que faltan:** cuando se publique Historia de la Iglesia I (nº 132), agregar su botón `ir` en I.1 (Quinientos años de historia) y II.1 (Europa hacia 1500), que hoy la mencionan «en preparación». Hacer lo mismo con Pactos y dispensaciones (nº 9) en V.9. Los botones hacia El movimiento pentecostal (nº 134) ya están en I.1, VI.1 y VII.6 (v2.39).
 - **El movimiento pentecostal, cifras y fotos:** las estaciones IV.2, IV.9 y V.7 usan cifras con fecha (Status of Global Christianity 2026, Fraternidad Mundial de las Asambleas de Dios 2025, Pew Research Center 2014, Latinobarómetro 2024, censos de Brasil 2022 y Chile 2024); revisarlas con las de Historia de la Iglesia II. Las fotos de Parham, Seymour, La fe apostólica, Barratt, Ramabai y Hoover están integradas con licencia verificada; IV.3 (Brasil) queda sin foto, porque la de Daniel Berg tiene uso restringido en Wikipedia (si hiciera falta, se generaría una escena con IA).
-- **El movimiento pentecostal y El Espíritu Santo:** cuando se publique El Espíritu Santo (nº 11), agregar su botón `ir` en I.1 «La promesa y Pentecostés», VI.1 «El evangelio completo», VI.2 «El bautismo en el Espíritu Santo» y VI.3 «Los dones del Espíritu hoy», que hoy lo mencionan «en preparación». Cuando se publique Historia de la Iglesia I (nº 131), enlazarla desde I.3 «Los dones a lo largo de la historia de la iglesia».
+- **El movimiento pentecostal y El Espíritu Santo:** cuando se publique El Espíritu Santo (nº 11), agregar su botón `ir` en I.1 «La promesa y Pentecostés», VI.1 «El evangelio completo», VI.2 «El bautismo en el Espíritu Santo» y VI.3 «Los dones del Espíritu hoy», que hoy lo mencionan «en preparación». Cuando se publique Historia de la Iglesia I (nº 132), enlazarla desde I.3 «Los dones a lo largo de la historia de la iglesia».
+- **Los libros apócrifos y pseudoepígrafos y Entre los Testamentos:** cuando se publique Entre los Testamentos (nº 86), agregar su botón `ir` en I.3 «Cuándo y dónde se escribieron», II.1 «1 Macabeos» y V.4 «Los Salmos de Salomón», y desde ese recurso enlazar este en su ruta de los grupos e instituciones. La estación «Lo que cambió entre Malaquías y Mateo» de El imperio griego queda como resumen con un botón hacia Entre los Testamentos (decisión del responsable, 27-10-2026).
+- **Los libros apócrifos y pseudoepígrafos, fotos:** integrada la portada de la Biblia del Cántaro (1602). Quedan sin foto 1 Enoc (V.1) y los evangelios gnósticos (VI.3): las fotos propuestas resultaron ser una tapa moderna y una reconstrucción con errores. Candidata para VI.3: `File:Nag_Hammadi_Codex_II.jpg` en Wikimedia Commons, licencia por verificar.
 - **Pactos y dispensaciones:** cuando se publiquen La ley de Moisés (nº 22) y El Espíritu Santo (nº 11), agregar sus botones `ir` en las estaciones II.6 «El Sinaí», III.4 «¿Qué pasa con el pacto del Sinaí?» y III.5 «El Espíritu, promesa del nuevo pacto».
 - **Dios y la Trinidad, La persona y obra de Cristo y El Espíritu Santo:** cuando se publiquen los recursos nº 10 y nº 11, agregar sus botones `ir` en las estaciones IV.5 «El Hijo es Dios» y IV.6 «El Espíritu Santo es Dios y es persona» de Dios y la Trinidad, y enlazar desde ellos la ruta IV.
 - **La tierra de Israel, estación «De 1948 a hoy» (V.6):** describe la situación al 21 de octubre de 2026 (alto el fuego en Gaza, tregua en el Líbano, reconocimientos de Palestina, población). Revisar las noticias y actualizarla periódicamente, junto con la tabla de fechas.
@@ -676,7 +684,7 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Recursos según el plan de publicación (§20): 31 de 135 publicados al 22 de octubre de 2026 (Historia de la Iglesia II y El movimiento pentecostal se adelantaron de la ola 9); se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Recursos según el plan de publicación (§20): 32 de 136 publicados al 29 de octubre de 2026 (Historia de la Iglesia II y El movimiento pentecostal se adelantaron de la ola 9); se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, dirección de la ficha que sigue la estación abierta (§6) | Uso sostenido medible |
 
@@ -868,6 +876,12 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 | 2026-10-22 | El evangelio de la prosperidad se presenta como contrario a la sana doctrina: para el pentecostalismo clásico es hacer negocio con el evangelio (2 P 2:3; 1 Ti 6:5) | Indicación del responsable al aprobar el bosquejo |
 | 2026-10-22 | La ruta de desafíos nombra a los maestros y grupos de cada desvío (Kenyon, Hagin y Copeland, la Iglesia Universal del Reino de Dios, Wagner, Toronto, Branham, los escándalos de 1987 y 1988), describiendo su enseñanza y hechos documentados, con respeto por sus miembros | Decisión del responsable, como en Dios y la Trinidad |
 | 2026-10-22 | Una denominación se puede mencionar brevemente como un caso entre otros dentro de una historia general; la estación de Chile nombra a las Asambleas de Dios Autónomas, nacidas de misioneros suecos (Santiago, 1939) | Decisión del responsable; §1 sigue excluyendo la historia propia de una denominación |
+| 2026-10-27 | Los libros apócrifos y pseudoepígrafos, recurso aparte (nº 85, ola 5), antes de Entre los Testamentos; el plan pasa a 136 recursos | Decisión del responsable: hay varios libros de ese período y merecen su propio recurso; la pregunta del canon queda en La Palabra de Dios |
+| 2026-10-27 | Entre los Testamentos: «De Malaquías a Mateo» como estación propia del panorama; los grupos e instituciones (fariseos, saduceos, sinagoga, Sanedrín) solo en su origen, y su actuación en los evangelios en El mundo judío en tiempos de Jesús (nº 91) | Decisión del responsable al aprobar el bosquejo |
+| 2026-10-27 | 1 y 2 Macabeos se citan como fuente histórica, nunca como Escritura, parafraseados y sin burbuja; los «cuatrocientos años de silencio» son silencio profético, no silencio de Dios | Decisión del responsable; línea del canon hebreo (§1) |
+| 2026-10-27 | El recurso de los apócrifos nombra a la Iglesia católica y su doctrina oficial (Catecismo, 1032; Trento) al tratar la oración por los muertos y la intercesión, con respeto por sus miembros | Decisión del responsable, como en Dios y la Trinidad |
+| 2026-10-27 | Los apócrifos del Nuevo Testamento (evangelios de la infancia y gnósticos, hechos, cartas y apocalipsis de Pedro y de Pablo) se suman como ruta VI del mismo recurso | Pedido del responsable: el lector espera encontrarlos bajo el nombre «apócrifos» |
+| 2026-10-29 | Los libros apócrifos: foto de la portada de la Biblia del Cántaro (ejemplar de la Biblioteca Nacional de España, CC BY-SA 4.0, Wikimedia Commons); se descartan la tapa finlandesa de 1 Enoc y la reconstrucción del Evangelio de Tomás | §20, Imágenes: la foto debe mostrar el objeto real |
 | 2026-10-22 | Posturas del recurso: obra consumada frente a tres obras de gracia, lenguas como evidencia inicial, subsecuencia del bautismo en el Espíritu, continuismo, guerra espiritual (con la armadura de Dios, sin mapeo de espíritus territoriales), oficios apostólicos y manifestaciones extrañas | Línea pentecostal clásica de las Asambleas de Dios (§1), con las otras lecturas en bloques `posturas` |
 
 ## 24. Relación con el repositorio Fuego y Palabra
