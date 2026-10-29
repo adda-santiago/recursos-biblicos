@@ -127,7 +127,8 @@
         'Es el mismo título que el ángel usó para anunciar el nacimiento de Jesús a los pastores: «un Salvador, que es CRISTO el Señor» (Lc 2:11). Los pastores entendieron que había llegado el que Israel esperaba.',
         { h: 'Un Mesías distinto' },
         'Esta esperanza ayuda a entender muchas escenas de los evangelios. Cuando Jesús alimentó a la multitud, querían hacerlo rey por la fuerza (Jn 6:15). Después de la resurrección, los discípulos todavía preguntaban: «Señor, ¿restaurarás el reino a Israel en este tiempo?» (Hch 1:6). Jesús no negó que el reino vendría, pero les dijo que primero recibirían el poder del Espíritu Santo para ser sus testigos hasta lo último de la tierra (Hch 1:8).',
-        'Jesús es el Hijo de David y el Rey, pero vino primero a morir por los pecadores, judíos y gentiles. El reino que esperaban los Salmos de Salomón no fue cancelado: el Mesías volverá a reinar sobre la tierra desde Jerusalén, como anunciaron los profetas. Pero antes había que resolver el problema más profundo, el pecado, y eso solo podía hacerlo el Cordero de Dios.'
+        'Jesús es el Hijo de David y el Rey, pero vino primero a morir por los pecadores, judíos y gentiles. El reino que esperaban los Salmos de Salomón no fue cancelado: el Mesías volverá a reinar sobre la tierra desde Jerusalén, como anunciaron los profetas. Pero antes había que resolver el problema más profundo, el pecado, y eso solo podía hacerlo el Cordero de Dios.',
+        ir('Ver en Entre los Testamentos: Pompeyo en el Lugar Santísimo', '../../entre-los-testamentos/#roma/1')
       ],
       pensar: 'Muchos esperaban un Mesías que resolviera sus problemas políticos. ¿Qué esperas tú de Jesús: que cambie tus circunstancias o que reine en tu corazón?'
     },

@@ -1,0 +1,12 @@
+/* ==========================================================
+   entre-geo.js — Geografía propia de «Entre los Testamentos»
+   Generado por geo/entre_testamentos.py: NO EDITAR A MANO, editar el script.
+   Se carga después de imperios-geo.js y de ../tierra-de-israel/tierra-geo.js.
+   *** Contornos y trazos APROXIMADOS e ILUSTRATIVOS. ***
+   ========================================================== */
+(() => {
+  const G = window.IMPERIOS_GEO;
+  if (!G) return;
+  const X = {"polys":{"a-judas":[[[32.02,35.35],[31.85,35.5],[31.6,35.45],[31.52,35.15],[31.6,34.95],[31.85,34.93],[32.0,35.0],[32.02,35.35]]],"a-simon":[[[32.15,35.0],[32.1,35.35],[31.95,35.5],[31.7,35.5],[31.52,35.45],[31.5,35.1],[31.6,34.85],[31.85,34.82],[31.962,34.715],[32.06,34.743],[32.067,34.757],[32.128,34.78],[32.15,35.0]]],"a-hircano":[[[32.58,35.5],[32.3,35.62],[32.0,35.92],[31.735,35.885],[31.686,35.836],[31.662,35.83],[31.5,35.62],[31.2,35.42],[30.98,35.2],[31.02,34.7],[31.45,34.72],[31.75,34.66],[31.862,34.66],[31.926,34.693],[31.952,34.712],[32.06,34.743],[32.067,34.757],[32.281,34.838],[32.618,34.916],[32.58,35.5]]]},"capas":{"a-judas":{"n":"Judea de Judas Macabeo","periodo":"164 a.C.","color":"#5e7d4f","polys":["a-judas"],"rot":[31.78,35.2]},"a-simon":{"n":"Judea independiente","periodo":"Simón, 142 a.C.","color":"#5e7d4f","polys":["a-simon"],"rot":[31.85,35.15]},"a-hircano":{"n":"Reino de Juan Hircano","periodo":"c. 104 a.C.","color":"#5e7d4f","polys":["a-hircano"],"rot":[31.75,35.15]}},"lugares":{"bet-sur":["Bet-sur",31.59,35.08,"left"],"monte-gerizim":["Monte Gerizim",32.2,35.27,"right"],"iraq-el-emir":["Araq el-Emir (Tobíadas)",31.91,35.75,"right"],"herodion":["Herodión",31.666,35.241,"right"],"maresa":["Maresa",31.6,34.9,"left"],"pelusio":["Pelusio",31.04,32.55,"bottom"],"dafne":["Dafne",36.13,36.15,"left"],"ipso":["Ipso",38.6,30.9],"accion":["Accio",38.95,20.75,"left"],"seforis":["Séforis",32.75,35.28,"left"]},"trazos":{"et-antioco-168":{"n":"Antíoco IV contra Egipto (169–168 a.C.)","l":[[36.2,36.16],[34.4,35.85],[33.27,35.2],[31.5,34.46],[31.04,32.55],[31.2,29.92]]},"et-antioco-regreso":{"n":"El regreso por Jerusalén (168–167 a.C.)","l":[[31.2,29.92],[31.04,32.55],[31.5,34.46],[31.78,35.23]]},"et-pompeyo":{"n":"Pompeyo hacia Jerusalén (63 a.C.)","l":[[33.51,36.29],[32.65,35.68],[32.2,35.6],[31.87,35.44],[31.78,35.23]]}}};
+  ['polys', 'capas', 'lugares', 'trazos'].forEach(k => Object.assign(G[k], X[k]));
+})();

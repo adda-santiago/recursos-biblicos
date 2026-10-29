@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860">
+<rect width="1200" height="860" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los asmoneos</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">De Matatías a Mariamne, la esposa de Herodes · en color, los que gobernaron</text>
+<rect x="512" y="131" width="176" height="58" rx="10" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="600" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Matatías</text>
+<text x="600" y="178" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">† 166 a.C.</text>
+<rect x="42" y="241" width="176" height="58" rx="10" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="130" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Juan</text>
+<text x="130" y="288" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">† 160 a.C.</text>
+<path d="M600,189 V215 H130 V241" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="272" y="241" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="360" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Simón</text>
+<text x="360" y="288" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">142–134 a.C.</text>
+<path d="M600,189 V215 H360 V241" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="512" y="241" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="600" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Judas Macabeo</text>
+<text x="600" y="288" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">166–160 a.C.</text>
+<path d="M600,189 V215 H600 V241" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="742" y="241" width="176" height="58" rx="10" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="830" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Eleazar</text>
+<text x="830" y="288" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">† 162 a.C.</text>
+<path d="M600,189 V215 H830 V241" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="977" y="241" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="1065" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Jonatán</text>
+<text x="1065" y="288" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">160–143 a.C.</text>
+<path d="M600,189 V215 H1065 V241" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="272" y="351" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="360" y="376" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Juan Hircano I</text>
+<text x="360" y="398" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">134–104 a.C.</text>
+<path d="M360,299 V325 H360 V351" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="112" y="461" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="200" y="486" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Aristóbulo I</text>
+<text x="200" y="508" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">104–103 a.C.</text>
+<path d="M360,409 V435 H200 V461" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="382" y="461" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="470" y="486" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Alejandro Janeo</text>
+<text x="470" y="508" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">103–76 a.C.</text>
+<path d="M360,409 V435 H470 V461" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="652" y="461" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="740" y="486" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Salomé Alejandra</text>
+<text x="740" y="508" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">76–67 a.C.</text>
+<line x1="558" y1="486" x2="652" y2="486" stroke="#9e2b25" stroke-width="2"/>
+<line x1="558" y1="494" x2="652" y2="494" stroke="#9e2b25" stroke-width="2"/>
+<line x1="605" y1="494" x2="605" y2="545" stroke="#6b7080" stroke-width="2"/>
+<rect x="382" y="571" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="470" y="596" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Hircano II</text>
+<text x="470" y="618" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">63–40 a.C.</text>
+<rect x="752" y="571" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="840" y="596" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Aristóbulo II</text>
+<text x="840" y="618" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">67–63 a.C.</text>
+<path d="M605,545 H470 V571" fill="none" stroke="#6b7080" stroke-width="2"/>
+<path d="M605,545 H840 V571" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="382" y="681" width="176" height="58" rx="10" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="470" y="706" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Alejandra</text>
+<text x="470" y="728" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">hija de Hircano II</text>
+<path d="M470,629 V655 H470 V681" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="672" y="681" width="176" height="58" rx="10" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="760" y="706" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Alejandro</text>
+<text x="760" y="728" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">hijo de Aristóbulo II</text>
+<path d="M840,629 V655 H760 V681" fill="none" stroke="#6b7080" stroke-width="2"/>
+<rect x="952" y="681" width="176" height="58" rx="10" fill="#5e7d4f" stroke="#5e7d4f" stroke-width="2"/>
+<text x="1040" y="706" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Antígono</text>
+<text x="1040" y="728" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">40–37 a.C.</text>
+<path d="M840,629 V655 H1040 V681" fill="none" stroke="#6b7080" stroke-width="2"/>
+<line x1="558" y1="706" x2="672" y2="706" stroke="#9e2b25" stroke-width="2"/>
+<line x1="558" y1="714" x2="672" y2="714" stroke="#9e2b25" stroke-width="2"/>
+<rect x="527" y="781" width="176" height="58" rx="10" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="615" y="806" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Mariamne</text>
+<text x="615" y="828" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">† 29 a.C.</text>
+<line x1="615" y1="714" x2="615" y2="781" stroke="#6b7080" stroke-width="2"/>
+<rect x="827" y="781" width="176" height="58" rx="10" fill="#9e2b25" stroke="#9e2b25" stroke-width="2"/>
+<text x="915" y="806" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Herodes</text>
+<text x="915" y="828" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="normal">rey 37–4 a.C.</text>
+<line x1="703" y1="806" x2="827" y2="806" stroke="#9e2b25" stroke-width="2"/>
+<line x1="703" y1="814" x2="827" y2="814" stroke="#9e2b25" stroke-width="2"/>
+<rect x="40" y="790" width="22" height="22" rx="5" fill="#5e7d4f"/>
+<text x="72" y="807" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Gobernó Judea</text>
+<line x1="40" y1="836" x2="62" y2="836" stroke="#9e2b25" stroke-width="2"/><line x1="40" y1="844" x2="62" y2="844" stroke="#9e2b25" stroke-width="2"/>
+<text x="72" y="846" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Matrimonio</text>
+</svg>

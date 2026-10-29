@@ -157,7 +157,8 @@
         'Estos siglos fueron difíciles. Judea pasó de los persas a Alejandro Magno, después a los Ptolomeos de Egipto y luego a los seléucidas de Siria. Hacia el 167 a.C., el rey Antíoco IV prohibió la ley de Moisés y profanó el templo, como Daniel había anunciado: «profanarán el santuario y la fortaleza, y quitarán el continuo sacrificio, y pondrán la abominación desoladora» (Dn 11:31). La rebelión de los macabeos, la independencia y, desde el 63 a.C., el dominio romano dejaron su huella en muchos de estos libros.',
         'Por eso se los lee para conocer la fe, las preguntas y las esperanzas de los judíos que vivían cuando «vino el cumplimiento del tiempo» (Gá 4:4). Hablan de la ley, del templo, de la resurrección, de los ángeles y del Mesías, temas que encontramos después en los evangelios.',
         { h: 'Copias halladas en el siglo XX' },
-        'De varios de estos libros se conocía solo una traducción griega, latina o etíope, hasta que aparecieron copias antiguas. En 1896 se identificaron páginas en hebreo de Eclesiástico en la genizá de una sinagoga de El Cairo, un depósito donde se guardaban textos gastados. Desde 1947, las cuevas de Qumrán entregaron fragmentos de Tobías, Eclesiástico, 1 Enoc, Jubileos y otros escritos, y en 1964 apareció en Masada un rollo de Eclesiástico. Mira el mapa paso a paso.'
+        'De varios de estos libros se conocía solo una traducción griega, latina o etíope, hasta que aparecieron copias antiguas. En 1896 se identificaron páginas en hebreo de Eclesiástico en la genizá de una sinagoga de El Cairo, un depósito donde se guardaban textos gastados. Desde 1947, las cuevas de Qumrán entregaron fragmentos de Tobías, Eclesiástico, 1 Enoc, Jubileos y otros escritos, y en 1964 apareció en Masada un rollo de Eclesiástico. Mira el mapa paso a paso.',
+        ir('Ver la historia de estos siglos en Entre los Testamentos', '../../entre-los-testamentos/')
       ],
       pensar: 'Durante cuatro siglos Dios no envió profetas, pero preparó al mundo para la venida de su Hijo (Gá 4:4). ¿Cómo te anima saber que Dios sigue obrando aun cuando parece callar?'
     },
@@ -262,6 +263,7 @@
         'También ayuda a entender a los judíos del tiempo de Jesús. Muchos esperaban un Mesías que hiciera lo mismo que los macabeos: expulsar a los extranjeros y restaurar el reino. Por eso algunos quisieron hacer rey a Jesús por la fuerza (Jn 6:15), y los discípulos preguntaron si restauraría el reino a Israel (Hch 1:6).',
         { h: 'Lo que el libro no pretende' },
         'El autor escribe como historiador, no como profeta. Casi nunca nombra a Dios directamente; prefiere decir «el Cielo». Y reconoce, como se vio en la ruta anterior, que en su tiempo no había profeta en Israel. Leído así, como un buen libro de historia, 1 Macabeos es un gran aporte para el estudio de la Biblia.',
+        ir('Ver la rebelión de los macabeos en Entre los Testamentos', '../../entre-los-testamentos/#asmoneos/1'),
         { ejercicio: {
           pregunta: '¿Qué fiesta del evangelio de Juan se explica gracias a 1 Macabeos?',
           opciones: [
@@ -804,7 +806,8 @@
         'Es el mismo título que el ángel usó para anunciar el nacimiento de Jesús a los pastores: «un Salvador, que es CRISTO el Señor» (Lc 2:11). Los pastores entendieron que había llegado el que Israel esperaba.',
         { h: 'Un Mesías distinto' },
         'Esta esperanza ayuda a entender muchas escenas de los evangelios. Cuando Jesús alimentó a la multitud, querían hacerlo rey por la fuerza (Jn 6:15). Después de la resurrección, los discípulos todavía preguntaban: «Señor, ¿restaurarás el reino a Israel en este tiempo?» (Hch 1:6). Jesús no negó que el reino vendría, pero les dijo que primero recibirían el poder del Espíritu Santo para ser sus testigos hasta lo último de la tierra (Hch 1:8).',
-        'Jesús es el Hijo de David y el Rey, pero vino primero a morir por los pecadores, judíos y gentiles. El reino que esperaban los Salmos de Salomón no fue cancelado: el Mesías volverá a reinar sobre la tierra desde Jerusalén, como anunciaron los profetas. Pero antes había que resolver el problema más profundo, el pecado, y eso solo podía hacerlo el Cordero de Dios.'
+        'Jesús es el Hijo de David y el Rey, pero vino primero a morir por los pecadores, judíos y gentiles. El reino que esperaban los Salmos de Salomón no fue cancelado: el Mesías volverá a reinar sobre la tierra desde Jerusalén, como anunciaron los profetas. Pero antes había que resolver el problema más profundo, el pecado, y eso solo podía hacerlo el Cordero de Dios.',
+        ir('Ver en Entre los Testamentos: Pompeyo en el Lugar Santísimo', '../../entre-los-testamentos/#roma/1')
       ],
       pensar: 'Muchos esperaban un Mesías que resolviera sus problemas políticos. ¿Qué esperas tú de Jesús: que cambie tus circunstancias o que reine en tu corazón?'
     },

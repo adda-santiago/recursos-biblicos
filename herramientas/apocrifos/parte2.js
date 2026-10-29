@@ -34,6 +34,7 @@
         'También ayuda a entender a los judíos del tiempo de Jesús. Muchos esperaban un Mesías que hiciera lo mismo que los macabeos: expulsar a los extranjeros y restaurar el reino. Por eso algunos quisieron hacer rey a Jesús por la fuerza (Jn 6:15), y los discípulos preguntaron si restauraría el reino a Israel (Hch 1:6).',
         { h: 'Lo que el libro no pretende' },
         'El autor escribe como historiador, no como profeta. Casi nunca nombra a Dios directamente; prefiere decir «el Cielo». Y reconoce, como se vio en la ruta anterior, que en su tiempo no había profeta en Israel. Leído así, como un buen libro de historia, 1 Macabeos es un gran aporte para el estudio de la Biblia.',
+        ir('Ver la rebelión de los macabeos en Entre los Testamentos', '../../entre-los-testamentos/#asmoneos/1'),
         { ejercicio: {
           pregunta: '¿Qué fiesta del evangelio de Juan se explica gracias a 1 Macabeos?',
           opciones: [

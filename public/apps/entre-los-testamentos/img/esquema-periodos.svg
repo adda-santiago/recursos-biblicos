@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+<rect width="1200" height="700" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">De Malaquías a Mateo</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Los cinco períodos entre los testamentos (430–4 a.C.)</text>
+<rect x="72" y="200" width="240" height="92" rx="8" fill="#4a6b7c"/>
+<text x="192" y="240" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#fff" text-anchor="middle" font-weight="bold">Persa</text>
+<text x="192" y="266" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">Yehud bajo Persia</text>
+<rect x="316" y="200" width="329" height="92" rx="8" fill="#c08a1e"/>
+<text x="481" y="240" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#fff" text-anchor="middle" font-weight="bold">Alejandro y Ptolomeos</text>
+<text x="481" y="266" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">Judea bajo Egipto</text>
+<rect x="649" y="200" width="135" height="92" rx="8" fill="#7a3fa0"/>
+<text x="717" y="240" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Seléucida</text>
+<text x="717" y="266" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">Judea bajo Siria</text>
+<rect x="789" y="200" width="193" height="92" rx="8" fill="#5e7d4f"/>
+<text x="885" y="240" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#fff" text-anchor="middle" font-weight="bold">Asmoneo</text>
+<text x="885" y="266" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">Judea independiente</text>
+<rect x="985" y="200" width="143" height="92" rx="8" fill="#9e2b25"/>
+<text x="1057" y="240" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">Romano</text>
+<text x="1057" y="266" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">Roma y Herodes</text>
+<line x1="145" y1="298" x2="145" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="145" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">400 a.C.</text>
+<line x1="269" y1="298" x2="269" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="269" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">350 a.C.</text>
+<line x1="393" y1="298" x2="393" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="393" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">300 a.C.</text>
+<line x1="518" y1="298" x2="518" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="518" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">250 a.C.</text>
+<line x1="642" y1="298" x2="642" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="642" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">200 a.C.</text>
+<line x1="767" y1="298" x2="767" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="767" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">150 a.C.</text>
+<line x1="891" y1="298" x2="891" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="891" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">100 a.C.</text>
+<line x1="1016" y1="298" x2="1016" y2="308" stroke="#6b7080" stroke-width="2"/>
+<text x="1016" y="328" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">50 a.C.</text>
+<text x="70" y="186" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal">430 a.C.</text>
+<text x="1130" y="186" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">4 a.C.</text>
+<line x1="70" y1="292" x2="70" y2="354" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="127" y1="292" x2="127" y2="424" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="314" y1="292" x2="314" y2="354" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="391" y1="292" x2="391" y2="424" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="493" y1="292" x2="493" y2="494" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="642" y1="292" x2="642" y2="354" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="705" y1="292" x2="705" y2="494" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="724" y1="292" x2="724" y2="424" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="787" y1="292" x2="787" y2="354" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="864" y1="292" x2="864" y2="494" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="983" y1="292" x2="983" y2="354" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="1048" y1="292" x2="1048" y2="424" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="1090" y1="292" x2="1090" y2="494" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="1128" y1="292" x2="1128" y2="354" stroke="#c9c6be" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect x="21" y="378" width="98" height="40" fill="#f6f3ec"/>
+<circle cx="70" cy="368" r="6" fill="#1f2430"/>
+<text x="70" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Malaquías</text>
+<text x="70" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">430 a.C.</text>
+<rect x="74" y="448" width="107" height="40" fill="#f6f3ec"/>
+<circle cx="127" cy="438" r="6" fill="#1f2430"/>
+<text x="127" y="464" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Elefantina</text>
+<text x="127" y="482" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">407 a.C.</text>
+<rect x="265" y="378" width="98" height="40" fill="#f6f3ec"/>
+<circle cx="314" cy="368" r="6" fill="#1f2430"/>
+<text x="314" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Alejandro</text>
+<text x="314" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">332 a.C.</text>
+<rect x="355" y="448" width="72" height="40" fill="#f6f3ec"/>
+<circle cx="391" cy="438" r="6" fill="#1f2430"/>
+<text x="391" y="464" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Ipso</text>
+<text x="391" y="482" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">301 a.C.</text>
+<rect x="435" y="518" width="116" height="40" fill="#f6f3ec"/>
+<circle cx="493" cy="508" r="6" fill="#1f2430"/>
+<text x="493" y="534" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Septuaginta</text>
+<text x="493" y="552" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">260 a.C.</text>
+<rect x="606" y="378" width="72" height="40" fill="#f6f3ec"/>
+<circle cx="642" cy="368" r="6" fill="#1f2430"/>
+<text x="642" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Panión</text>
+<text x="642" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">200 a.C.</text>
+<rect x="669" y="518" width="72" height="40" fill="#f6f3ec"/>
+<circle cx="705" cy="508" r="6" fill="#1f2430"/>
+<text x="705" y="534" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Jasón</text>
+<text x="705" y="552" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">175 a.C.</text>
+<rect x="642" y="448" width="164" height="40" fill="#f6f3ec"/>
+<circle cx="724" cy="438" r="6" fill="#1f2430"/>
+<text x="724" y="464" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Rebelión macabea</text>
+<text x="724" y="482" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">167–164 a.C.</text>
+<rect x="719" y="378" width="136" height="40" fill="#f6f3ec"/>
+<circle cx="787" cy="368" r="6" fill="#1f2430"/>
+<text x="787" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Independencia</text>
+<text x="787" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">142 a.C.</text>
+<rect x="825" y="518" width="78" height="40" fill="#f6f3ec"/>
+<circle cx="864" cy="508" r="6" fill="#1f2430"/>
+<text x="864" y="534" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Gerizim</text>
+<text x="864" y="552" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">111 a.C.</text>
+<rect x="944" y="378" width="78" height="40" fill="#f6f3ec"/>
+<circle cx="983" cy="368" r="6" fill="#1f2430"/>
+<text x="983" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Pompeyo</text>
+<text x="983" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">63 a.C.</text>
+<rect x="990" y="448" width="116" height="40" fill="#f6f3ec"/>
+<circle cx="1048" cy="438" r="6" fill="#1f2430"/>
+<text x="1048" y="464" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Herodes rey</text>
+<text x="1048" y="482" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">37 a.C.</text>
+<rect x="1056" y="518" width="69" height="40" fill="#f6f3ec"/>
+<circle cx="1090" cy="508" r="6" fill="#1f2430"/>
+<text x="1090" y="534" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Templo</text>
+<text x="1090" y="552" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">20 a.C.</text>
+<rect x="1098" y="378" width="60" height="40" fill="#f6f3ec"/>
+<circle cx="1128" cy="368" r="6" fill="#1f2430"/>
+<text x="1128" y="394" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Jesús</text>
+<text x="1128" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">5 a.C.</text>
+<text x="600" y="670" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Dios «muda los tiempos y las edades; quita reyes, y pone reyes» (Daniel 2:21).</text>
+</svg>
