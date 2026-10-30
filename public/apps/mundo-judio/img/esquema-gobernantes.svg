@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<rect width="1200" height="900" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los gobernantes del Nuevo Testamento</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Del nacimiento de Jesús a la caída de Masada (6 a.C.–74 d.C.)</text>
+<text x="40" y="190" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Emperador</text>
+<rect x="252" y="162" width="224" height="48" rx="6" fill="#9e2b25"/>
+<text x="364" y="192" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Augusto</text>
+<rect x="479" y="162" width="259" height="48" rx="6" fill="#9e2b25"/>
+<text x="608" y="192" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Tiberio</text>
+<rect x="741" y="162" width="42" height="48" rx="6" fill="#9e2b25"/>
+<rect x="786" y="162" width="145" height="48" rx="6" fill="#9e2b25"/>
+<text x="859" y="192" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Claudio</text>
+<rect x="934" y="162" width="156" height="48" rx="6" fill="#9e2b25"/>
+<text x="1012" y="192" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Nerón</text>
+<rect x="1105" y="162" width="54" height="48" rx="6" fill="#9e2b25"/>
+<text x="1132" y="192" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Vesp.</text>
+<text x="40" y="274" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Judea</text>
+<rect x="252" y="246" width="20" height="48" rx="6" fill="#9e2b25"/>
+<text x="261" y="276" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">H.</text>
+<rect x="274" y="246" width="111" height="48" rx="6" fill="#9e2b25"/>
+<text x="330" y="276" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Arquelao</text>
+<rect x="388" y="246" width="224" height="48" rx="6" fill="#c9c6be"/>
+<text x="500" y="276" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Prefectos</text>
+<rect x="616" y="246" width="111" height="48" rx="6" fill="#9e2b25"/>
+<text x="671" y="276" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Pilato</text>
+<rect x="729" y="246" width="54" height="48" rx="6" fill="#c9c6be"/>
+<text x="756" y="276" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2430" text-anchor="middle" font-weight="bold">Pref.</text>
+<rect x="786" y="246" width="31" height="48" rx="6" fill="#9e2b25"/>
+<rect x="820" y="246" width="247" height="48" rx="6" fill="#9e2b25"/>
+<text x="944" y="276" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Procuradores (Félix, Festo)</text>
+<rect x="1070" y="246" width="88" height="48" rx="6" fill="#c9c6be"/>
+<text x="1114" y="276" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Guerra</text>
+<text x="40" y="358" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Galilea y Perea</text>
+<rect x="252" y="330" width="20" height="48" rx="6" fill="#2f8a8a"/>
+<text x="261" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">H.</text>
+<rect x="274" y="330" width="486" height="48" rx="6" fill="#2f8a8a"/>
+<text x="517" y="360" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Herodes Antipas</text>
+<rect x="763" y="330" width="54" height="48" rx="6" fill="#2f8a8a"/>
+<text x="790" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Ag. I</text>
+<rect x="820" y="330" width="247" height="48" rx="6" fill="#2f8a8a"/>
+<text x="944" y="360" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Procuradores y Agripa II</text>
+<rect x="1070" y="330" width="88" height="48" rx="6" fill="#c9c6be"/>
+<text x="1114" y="360" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Guerra</text>
+<text x="40" y="442" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Tetrarquía de Felipe</text>
+<rect x="252" y="414" width="20" height="48" rx="6" fill="#a0603a"/>
+<text x="261" y="444" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">H.</text>
+<rect x="274" y="414" width="429" height="48" rx="6" fill="#a0603a"/>
+<text x="489" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Felipe</text>
+<rect x="706" y="414" width="31" height="48" rx="6" fill="#c9c6be"/>
+<rect x="741" y="414" width="77" height="48" rx="6" fill="#a0603a"/>
+<text x="779" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Agripa I</text>
+<rect x="820" y="414" width="99" height="48" rx="6" fill="#c9c6be"/>
+<text x="870" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Procur.</text>
+<rect x="923" y="414" width="236" height="48" rx="6" fill="#a0603a"/>
+<text x="1041" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Agripa II</text>
+<text x="40" y="526" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Sumo sacerdote</text>
+<rect x="388" y="498" width="99" height="48" rx="6" fill="#c08a1e"/>
+<text x="438" y="528" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Anás</text>
+<rect x="490" y="498" width="31" height="48" rx="6" fill="#c9c6be"/>
+<text x="506" y="528" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">…</text>
+<rect x="524" y="498" width="202" height="48" rx="6" fill="#c08a1e"/>
+<text x="625" y="528" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Caifás</text>
+<rect x="729" y="498" width="122" height="48" rx="6" fill="#c08a1e"/>
+<text x="790" y="528" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">Fam. de Anás</text>
+<rect x="854" y="498" width="134" height="48" rx="6" fill="#c08a1e"/>
+<text x="921" y="528" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Ananías</text>
+<rect x="991" y="498" width="122" height="48" rx="6" fill="#c9c6be"/>
+<text x="1052" y="528" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Varios</text>
+<line x1="250" y1="580" x2="1160" y2="580" stroke="#6b7080" stroke-width="2"/>
+<line x1="250" y1="580" x2="250" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="250" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">6 a.C.</text>
+<line x1="330" y1="580" x2="330" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="330" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1 d.C.</text>
+<line x1="432" y1="580" x2="432" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="432" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">10 d.C.</text>
+<line x1="546" y1="580" x2="546" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="546" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">20 d.C.</text>
+<line x1="660" y1="580" x2="660" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="660" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">30 d.C.</text>
+<line x1="773" y1="580" x2="773" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="773" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">40 d.C.</text>
+<line x1="887" y1="580" x2="887" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="887" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">50 d.C.</text>
+<line x1="1001" y1="580" x2="1001" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="1001" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">60 d.C.</text>
+<line x1="1114" y1="580" x2="1114" y2="590" stroke="#6b7080" stroke-width="2"/>
+<text x="1114" y="610" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">70 d.C.</text>
+<line x1="261" y1="158" x2="261" y2="640" stroke="#4a6b7c" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="261" cy="650" r="7" fill="#4a6b7c"/>
+<text x="261" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Nace Jesús</text>
+<text x="261" y="696" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">c. 6–4 a.C.</text>
+<line x1="386" y1="158" x2="386" y2="716" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="386" cy="726" r="7" fill="#9e2b25"/>
+<text x="386" y="754" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Censo de Quirinio</text>
+<text x="386" y="772" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">6 d.C.</text>
+<line x1="637" y1="158" x2="637" y2="640" stroke="#4a6b7c" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="637" cy="650" r="7" fill="#4a6b7c"/>
+<text x="637" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Ministerio de Jesús</text>
+<text x="637" y="696" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">c. 27–30</text>
+<line x1="671" y1="158" x2="671" y2="716" stroke="#4a6b7c" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="671" cy="726" r="7" fill="#4a6b7c"/>
+<text x="671" y="754" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Cruz y resurrección</text>
+<text x="671" y="772" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">c. 30 o 33</text>
+<line x1="819" y1="158" x2="819" y2="640" stroke="#3f8a4f" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="819" cy="650" r="7" fill="#3f8a4f"/>
+<text x="819" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Muere Jacobo</text>
+<text x="819" y="696" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Hechos 12</text>
+<line x1="1024" y1="158" x2="1024" y2="716" stroke="#3f8a4f" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="1024" cy="726" r="7" fill="#3f8a4f"/>
+<text x="1024" y="754" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Muere Santiago</text>
+<text x="1024" y="772" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">hermano del Señor</text>
+<line x1="1114" y1="158" x2="1114" y2="640" stroke="#5b4b6b" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.6"/>
+<circle cx="1114" cy="650" r="7" fill="#5b4b6b"/>
+<text x="1114" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="bold">Cae el templo</text>
+<text x="1114" y="696" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">70 d.C.</text>
+<text x="600" y="880" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Las fechas de la vida de Jesús son aproximadas; se estudian en la Cronología del Nuevo Testamento.</text>
+</svg>

@@ -10,7 +10,7 @@
    sin comillas ni burbuja. No se escriben referencias que la burbuja tomaría por capítulos
    inexistentes de la Biblia (los Macabeos se nombran sin capítulo o como «el primer libro de los Macabeos»).
    Los grupos e instituciones (ruta VII) se estudian en su origen; su actuación en los evangelios va en
-   El mundo judío en tiempos de Jesús (nº 91). Los libros del período se estudian en Los libros apócrifos.
+   El mundo judío en tiempos de Jesús (nº 91), que se enlaza con botones ir. Los libros del período se estudian en Los libros apócrifos.
    ========================================================== */
 (() => {
   const V = {
@@ -38,7 +38,8 @@
   const R = {
     apocrifos: '../../libros-apocrifos/', daniel: '../../daniel/', griego: '../../imperio-griego/', persa: '../../imperio-persa/',
     romano: '../../imperio-romano/', palabra: '../../palabra-de-dios/', biblia: '../../de-la-biblia-a-nosotros/',
-    templo: '../../templo-herodes/', exilio: '../../exilio/', tierra: '../../tierra-de-israel/', sacerdocio: '../../sacerdocio/'
+    templo: '../../templo-herodes/', exilio: '../../exilio/', tierra: '../../tierra-de-israel/', sacerdocio: '../../sacerdocio/',
+    mundo: '../../mundo-judio/'
   };
   window.__ET = { V, mapa, pasos, img, esq, foto, cita, tabla, ir, R };
 

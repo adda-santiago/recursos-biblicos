@@ -1,6 +1,6 @@
 /* Entre los Testamentos · ruta VII. Lo que nació en estos siglos (ver encabezado en parte1.js)
    Cada grupo o institución se estudia en su origen; su actuación en los evangelios va en El mundo judío
-   en tiempos de Jesús (nº 91, en preparación). */
+   en tiempos de Jesús (nº 91), enlazado con un botón ir al final de cada estación. */
 (() => {
   const { V, mapa, pasos, img, esq, foto, cita, tabla, ir, R } = window.__ET;
 
@@ -33,7 +33,8 @@
         'Una inscripción hallada en Jerusalén, anterior al año 70, cuenta que un sacerdote llamado Teodoto construyó una sinagoga «para la lectura de la ley y la enseñanza de los mandamientos», con un albergue para los peregrinos que venían del extranjero.',
         { h: 'Un instrumento de Dios' },
         'La sinagoga mantuvo viva la Palabra de Dios en cada pueblo judío del imperio. Jacobo lo dijo en el concilio de Jerusalén: «Moisés desde tiempos antiguos tiene en cada ciudad quien lo predique en las sinagogas, donde es leído cada día de reposo» (Hch 15:21). Y las primeras iglesias, que se reunían para leer la Escritura, orar y enseñar, heredaron mucho de su forma.',
-        'La sinagoga de Magdala, contemporánea de Jesús, se estudiará en su propio recurso (en preparación).'
+        'La sinagoga de Magdala, contemporánea de Jesús, se estudiará en su propio recurso (en preparación).',
+        ir('Ver en El mundo judío en tiempos de Jesús: la sinagoga en tiempos de Jesús', R.mundo + '#fe/3')
       ],
       pensar: 'Jesús iba a la sinagoga «conforme a su costumbre». ¿Tienes tú la costumbre de reunirte con la iglesia para oír la Palabra, aun cuando no tienes ganas?'
     },
@@ -61,7 +62,8 @@
         'Para aplicar la ley a la vida diaria, los escribas formularon una enorme cantidad de reglas: qué trabajos estaban prohibidos en el día de reposo, cómo lavar las manos antes de comer, cómo dar el diezmo de cada hierba del huerto. Esas explicaciones se transmitían de maestro a discípulo, de memoria, y se llamaban «la tradición de los ancianos» (Mr 7:3). Los fariseos enseñaban que tenía casi la misma autoridad que la ley escrita, porque venía, decían, de Moisés. Esa tradición se puso por escrito alrededor del año 200 d.C., en la Misná.',
         'En el tiempo de Herodes se destacaron dos grandes maestros, Hillel y Samai, con escuelas que discutían sobre casi todo. Gamaliel, nieto de Hillel, fue el maestro de Pablo: «instruido a los pies de Gamaliel, estrictamente conforme a la ley de nuestros padres» (Hch 22:3).',
         { h: 'Lo que Jesús reconoció y lo que reprendió' },
-        'Jesús reconoció la autoridad de los escribas como maestros de la ley: «En la cátedra de Moisés se sientan los escribas y los fariseos. Así que, todo lo que os digan que guardéis, guardadlo y hacedlo; mas no hagáis conforme a sus obras» (Mt 23:2-3). Pero reprendió con dureza que la tradición ocupara el lugar de la Palabra: «Porque dejando el mandamiento de Dios, os aferráis a la tradición de los hombres» (Mr 7:8). La tradición de los ancianos les permitía, por ejemplo, dejar sin ayuda a los padres con el pretexto de una ofrenda (Mr 7:10-13).'
+        'Jesús reconoció la autoridad de los escribas como maestros de la ley: «En la cátedra de Moisés se sientan los escribas y los fariseos. Así que, todo lo que os digan que guardéis, guardadlo y hacedlo; mas no hagáis conforme a sus obras» (Mt 23:2-3). Pero reprendió con dureza que la tradición ocupara el lugar de la Palabra: «Porque dejando el mandamiento de Dios, os aferráis a la tradición de los hombres» (Mr 7:8). La tradición de los ancianos les permitía, por ejemplo, dejar sin ayuda a los padres con el pretexto de una ofrenda (Mr 7:10-13).',
+        ir('Ver en El mundo judío en tiempos de Jesús: los escribas, intérpretes de la ley', R.mundo + '#grupos/3')
       ],
       pensar: 'Jesús no rechazó a los maestros, sino la tradición que anulaba la Palabra. ¿Hay costumbres en tu vida cristiana que pesan más que lo que Dios dice en la Escritura?'
     },
@@ -88,7 +90,8 @@
             { t: 'Porque Pablo era sacerdote del templo.', ok: false, por_que: 'Pablo era de la tribu de Benjamín (Fil 3:5), no sacerdote.' }
           ],
           explicacion: 'Conocer el origen de los grupos ayuda a entender escenas como esta.'
-        } }
+        } },
+        ir('Ver en El mundo judío en tiempos de Jesús: los fariseos en tiempos de Jesús', R.mundo + '#grupos/1')
       ],
       pensar: 'Los fariseos sabían mucho de la ley, pero algunos descuidaron la misericordia. ¿Puede tu conocimiento de la Biblia volverse orgullo si no lleva a la misericordia?'
     },
@@ -119,7 +122,8 @@
         'Los saduceos solo reconocían como norma la ley escrita, y rechazaban la tradición oral de los fariseos. Negaban la resurrección de los muertos, el juicio futuro, los ángeles y los espíritus: «los saduceos dicen que no hay resurrección, ni ángel, ni espíritu» (Hch 23:8). Para ellos, la recompensa de Dios se recibía en esta vida.',
         { h: 'Jesús les responde con la ley' },
         'Un día, unos saduceos le presentaron a Jesús el caso de una mujer que se casó con siete hermanos, uno tras otro, para burlarse de la resurrección. Jesús les respondió: «Erráis, ignorando las Escrituras y el poder de Dios» (Mt 22:29), y les citó precisamente la ley de Moisés, que ellos aceptaban: «Yo soy el Dios de Abraham, el Dios de Isaac y el Dios de Jacob. Dios no es Dios de muertos, sino de vivos» (Mt 22:32; Éx 3:6).',
-        'Después de Pentecostés, fueron los saduceos los que más se opusieron a los apóstoles, «resentidos de que enseñasen al pueblo, y anunciasen en Jesús la resurrección de entre los muertos» (Hch 4:2). Cuando los romanos destruyeron el templo en el año 70, los saduceos desaparecieron con él; el judaísmo que sobrevivió fue el de los fariseos.'
+        'Después de Pentecostés, fueron los saduceos los que más se opusieron a los apóstoles, «resentidos de que enseñasen al pueblo, y anunciasen en Jesús la resurrección de entre los muertos» (Hch 4:2). Cuando los romanos destruyeron el templo en el año 70, los saduceos desaparecieron con él; el judaísmo que sobrevivió fue el de los fariseos.',
+        ir('Ver en El mundo judío en tiempos de Jesús: los saduceos y la aristocracia del templo', R.mundo + '#grupos/2')
       ],
       pensar: 'Los saduceos conocían la ley de memoria, pero no creían en el poder de Dios para resucitar. ¿Lees la Biblia esperando que Dios actúe, o solo como un libro que conoces?'
     },
@@ -150,7 +154,8 @@
         { h: 'Una comunidad que se apartó' },
         'Los escritos propios de la comunidad cuentan su origen. Un grupo de sacerdotes, guiado por un hombre al que llaman «el Maestro de justicia», rompió con el templo de Jerusalén porque lo consideraba contaminado por un «sacerdote impío», probablemente uno de los primeros asmoneos (V.4), y por un calendario equivocado. Se retiraron al desierto para preparar el camino del Señor, citando Isaías: «Voz que clama en el desierto: Preparad camino a Jehová» (Is 40:3). Esperaban una guerra final entre los hijos de la luz y los hijos de las tinieblas, y la llegada de dos mesías, uno sacerdotal y otro real.',
         { h: 'Juan el Bautista y Qumrán' },
-        'Ese mismo versículo de Isaías es el que los evangelios aplican a Juan el Bautista, que predicaba en el desierto de Judea, no lejos de Qumrán (Mt 3:1-3). Algunos han pensado que Juan tuvo contacto con los esenios. Lo que la Escritura deja claro es la diferencia: los esenios se apartaron para formar una comunidad pura y esperar; Juan clamó en el desierto para llamar a todo el pueblo al arrepentimiento y señalar al que ya venía: «He aquí el Cordero de Dios» (Jn 1:29).'
+        'Ese mismo versículo de Isaías es el que los evangelios aplican a Juan el Bautista, que predicaba en el desierto de Judea, no lejos de Qumrán (Mt 3:1-3). Algunos han pensado que Juan tuvo contacto con los esenios. Lo que la Escritura deja claro es la diferencia: los esenios se apartaron para formar una comunidad pura y esperar; Juan clamó en el desierto para llamar a todo el pueblo al arrepentimiento y señalar al que ya venía: «He aquí el Cordero de Dios» (Jn 1:29).',
+        ir('Ver en El mundo judío en tiempos de Jesús: los esenios en tiempos de Jesús', R.mundo + '#grupos/4')
       ],
       pensar: 'Los esenios se apartaron del mundo para preparar el camino del Señor; Juan lo preparó llamando a todos al arrepentimiento. ¿Tu fe te aparta de la gente o te lleva a ella con el mensaje de Cristo?'
     },
@@ -180,7 +185,8 @@
         { h: 'Cómo funcionaba' },
         'Según la tradición judía, tenía setenta y un miembros y lo presidía el sumo sacerdote. Lo formaban los principales sacerdotes, en su mayoría saduceos; los escribas, muchos de ellos fariseos; y los ancianos, jefes de las familias importantes. Se ocupaba de los asuntos de la ley, del templo y de la vida de la comunidad judía. Bajo los romanos podía juzgar, pero no ejecutar una sentencia de muerte sin permiso del gobernador. Por eso le dijeron a Pilato: «A nosotros no nos está permitido dar muerte a nadie» (Jn 18:31).',
         { h: 'Un tribunal dividido' },
-        'El Sanedrín no era un bloque. Cuando Pablo compareció ante él, bastó mencionar la resurrección para que fariseos y saduceos se dividieran (Hch 23:6-10). Algunos de sus miembros fueron discípulos de Jesús, aunque en secreto: Nicodemo, que lo defendió (Jn 7:50-51), y José de Arimatea, «miembro del concilio, varón bueno y justo», que «no había consentido en el acuerdo ni en los hechos de ellos» (Lc 23:50-51) y pidió el cuerpo de Jesús para sepultarlo.'
+        'El Sanedrín no era un bloque. Cuando Pablo compareció ante él, bastó mencionar la resurrección para que fariseos y saduceos se dividieran (Hch 23:6-10). Algunos de sus miembros fueron discípulos de Jesús, aunque en secreto: Nicodemo, que lo defendió (Jn 7:50-51), y José de Arimatea, «miembro del concilio, varón bueno y justo», que «no había consentido en el acuerdo ni en los hechos de ellos» (Lc 23:50-51) y pidió el cuerpo de Jesús para sepultarlo.',
+        ir('Ver en El mundo judío en tiempos de Jesús: el Sanedrín y el juicio de Jesús', R.mundo + '#poder/4')
       ],
       pensar: 'José de Arimatea no se dejó arrastrar por la decisión de la mayoría del concilio. ¿Te atreves a no consentir cuando un grupo decide algo contra la justicia?'
     },
@@ -241,7 +247,8 @@
         { h: 'Los que esperaban en silencio' },
         'Lucas presenta a algunos de ellos en el templo, cuando José y María llevaron al niño Jesús: Simeón, que era «justo y piadoso, esperaba la consolación de Israel», y Ana, la profetisa, que hablaba del niño «a todos los que esperaban la redención en Jerusalén» (Lc 2:25, 38). No eran poderosos ni famosos. Esperaban orando, y vieron el cumplimiento.',
         { h: 'Un Mesías inesperado' },
-        'Jesús cumplió todas esas esperanzas, pero de una manera que nadie imaginaba. Era el Hijo de David, el Profeta, el Sacerdote y el Hijo del Hombre; pero vino primero a sufrir y morir. Por eso, para muchos fue tropezadero: «nosotros predicamos a Cristo crucificado, para los judíos ciertamente tropezadero» (1 Co 1:23). El mismo Jesús resucitado tuvo que explicar a dos discípulos que el Cristo debía padecer antes de entrar en su gloria (Lc 24:25-27). Su reino vendrá en gloria cuando vuelva.'
+        'Jesús cumplió todas esas esperanzas, pero de una manera que nadie imaginaba. Era el Hijo de David, el Profeta, el Sacerdote y el Hijo del Hombre; pero vino primero a sufrir y morir. Por eso, para muchos fue tropezadero: «nosotros predicamos a Cristo crucificado, para los judíos ciertamente tropezadero» (1 Co 1:23). El mismo Jesús resucitado tuvo que explicar a dos discípulos que el Cristo debía padecer antes de entrar en su gloria (Lc 24:25-27). Su reino vendrá en gloria cuando vuelva.',
+        ir('Ver en El mundo judío en tiempos de Jesús: qué Mesías esperaban', R.mundo + '#fe/8')
       ],
       pensar: 'Muchos esperaban un Mesías a su medida y no reconocieron al que vino. ¿Esperas tú que Jesús cumpla tus expectativas, o te dejas sorprender por lo que él quiere hacer?'
     }

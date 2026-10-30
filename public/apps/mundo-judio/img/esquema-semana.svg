@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820">
+<rect width="1200" height="820" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">La última semana</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">De la entrada en Jerusalén a la resurrección, día por día</text>
+<rect x="52" y="150" width="130" height="60" rx="8" fill="#4a6b7c"/>
+<text x="117" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Domingo</text>
+<rect x="52" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#4a6b7c" stroke-width="2"/>
+<text x="117" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Entrada en</text>
+<text x="117" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Jerusalén</text>
+<text x="117" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 21:1-11</text>
+<rect x="190" y="150" width="130" height="60" rx="8" fill="#4a6b7c"/>
+<text x="255" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Lunes</text>
+<rect x="190" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#4a6b7c" stroke-width="2"/>
+<text x="255" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Purifica</text>
+<text x="255" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">el templo</text>
+<text x="255" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Marcos 11:15-19</text>
+<rect x="328" y="150" width="130" height="60" rx="8" fill="#4a6b7c"/>
+<text x="393" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Martes</text>
+<rect x="328" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#4a6b7c" stroke-width="2"/>
+<text x="393" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Preguntas</text>
+<text x="393" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">en el templo</text>
+<text x="393" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 22–25</text>
+<rect x="466" y="150" width="130" height="60" rx="8" fill="#6b7080"/>
+<text x="531" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Miércoles</text>
+<rect x="466" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#6b7080" stroke-width="2"/>
+<text x="531" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Judas pacta</text>
+<text x="531" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">la entrega</text>
+<text x="531" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 26:14-16</text>
+<rect x="604" y="150" width="130" height="60" rx="8" fill="#c08a1e"/>
+<text x="669" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Jueves</text>
+<rect x="604" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#c08a1e" stroke-width="2"/>
+<text x="669" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Cena pascual</text>
+<text x="669" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">y Getsemaní</text>
+<text x="669" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 26:17-56</text>
+<rect x="742" y="150" width="130" height="60" rx="8" fill="#9e2b25"/>
+<text x="807" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Viernes</text>
+<rect x="742" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="2"/>
+<text x="807" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Juicio, cruz</text>
+<text x="807" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">y sepultura</text>
+<text x="807" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 27:1-61</text>
+<rect x="880" y="150" width="130" height="60" rx="8" fill="#6b7080"/>
+<text x="945" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Sábado</text>
+<rect x="880" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#6b7080" stroke-width="2"/>
+<text x="945" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">El sepulcro</text>
+<text x="945" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">sellado</text>
+<text x="945" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 27:62-66</text>
+<rect x="1018" y="150" width="130" height="60" rx="8" fill="#3f8a4f"/>
+<text x="1083" y="188" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">Domingo</text>
+<rect x="1018" y="222" width="130" height="112" rx="8" fill="#fff" stroke="#3f8a4f" stroke-width="2"/>
+<text x="1083" y="256" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">¡Ha</text>
+<text x="1083" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">resucitado!</text>
+<text x="1083" y="308" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo 28:1-10</text>
+<text x="600" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">El viernes, hora por hora (las horas judías se cuentan desde el amanecer)</text>
+<line x1="80" y1="520" x2="1120" y2="520" stroke="#9e2b25" stroke-width="4"/>
+<circle cx="80" cy="520" r="9" fill="#9e2b25"/>
+<line x1="80" y1="529" x2="80" y2="542" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="80" y="560" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Al amanecer</text>
+<text x="80" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal">El Sanedrín confirma la sentencia</text>
+<text x="80" y="598" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal">Lucas 22:66</text>
+<circle cx="288" cy="520" r="9" fill="#9e2b25"/>
+<line x1="288" y1="529" x2="288" y2="622" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="288" y="640" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="bold">Por la mañana</text>
+<text x="288" y="660" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Pilato, Herodes Antipas y otra vez Pilato</text>
+<text x="288" y="678" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Lucas 23:1-25</text>
+<circle cx="496" cy="520" r="9" fill="#9e2b25"/>
+<line x1="496" y1="529" x2="496" y2="542" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="496" y="560" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="bold">Hora tercera (9 h)</text>
+<text x="496" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Lo crucifican</text>
+<text x="496" y="598" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Marcos 15:25</text>
+<circle cx="704" cy="520" r="9" fill="#9e2b25"/>
+<line x1="704" y1="529" x2="704" y2="622" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="704" y="640" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="bold">Hora sexta a novena</text>
+<text x="704" y="660" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Tinieblas sobre la tierra</text>
+<text x="704" y="678" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Marcos 15:33</text>
+<circle cx="912" cy="520" r="9" fill="#9e2b25"/>
+<line x1="912" y1="529" x2="912" y2="542" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="912" y="560" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="middle" font-weight="bold">Hora novena (15 h)</text>
+<text x="912" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Jesús entrega el espíritu</text>
+<text x="912" y="598" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Marcos 15:34-37</text>
+<circle cx="1120" cy="520" r="9" fill="#9e2b25"/>
+<line x1="1120" y1="529" x2="1120" y2="622" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="1120" y="640" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="end" font-weight="bold">Antes de la puesta del sol</text>
+<text x="1120" y="660" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="end" font-weight="normal">José de Arimatea lo sepulta</text>
+<text x="1120" y="678" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Lucas 23:50-54</text>
+<text x="600" y="740" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">El orden de algunos hechos del lunes al miércoles es aproximado; la Armonía de los evangelios los sigue paso a paso.</text>
+<text x="600" y="786" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«Y al tercer día resucitará» (Mateo 20:19).</text>
+</svg>

@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.41 · 29 de octubre de 2026
+Versión 2.42 · 30 de octubre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.42:** recurso nº 91 de la ola 6, El mundo judío en tiempos de Jesús (historia y geografía), con siete rutas y 49 estaciones: panorama, el poder (Pilato, Antipas, Anás y Caifás, el Sanedrín, impuestos, soldados y rebeldes), los grupos judíos, la fe vivida, la vida diaria, Jesús en su mundo y de Jesús al año 70 (la iglesia de Jerusalén, Agripa I, la rebelión, la caída del templo y Yavne, con el gancho hacia Historia de la Iglesia I). Continúa Entre los Testamentos, que suma siete botones `ir` hacia sus estaciones. Usa el relieve y las capas de La tierra de Israel (con `mapa-detalle-palestina.js`, que con relieve no tapa el mar) y su geografía propia `geo/mundo_judio.py` → `mundo-judio/mundo-geo.js`. La responsabilidad por la muerte de Jesús se presenta según Hechos 2–4: los líderes y la multitud de Jerusalén de esa generación, Herodes, Pilato y los gentiles, y detrás de todos los pecados de la humanidad; nunca culpa colectiva de los judíos de otras épocas. Lo que solo cuenta la Mishná se presenta con cautela (§20). Se corrigen dos erratas de la RV 1960 del sitio (Mt 4:15 y Mr 7:18).
 
 **Cambio de la versión 2.41:** recurso nº 86 de la ola 5, Entre los Testamentos (historia y geografía), con ocho rutas y 46 estaciones: un panorama con «De Malaquías a Mateo» en dos estaciones, cinco rutas de historia período por período (el final del período persa, Alejandro y los Ptolomeos, la crisis seléucida, los macabeos y los asmoneos, Roma y Herodes), lo que nació en esos siglos (la sinagoga, los escribas, los fariseos, los saduceos, los esenios, el Sanedrín, los libros y la esperanza del Mesías, solo en su origen) y «Cuando vino el cumplimiento del tiempo». Línea de tiempo del 450 a.C. al 75 d.C. Usa el mapa de los imperios, reutiliza las capas de épocas de `tierra-de-israel/tierra-geo.js` y suma su geografía propia `geo/entre_testamentos.py` → `entre-los-testamentos/entre-geo.js` (tres etapas del territorio asmoneo recortadas con la costa de tierra-geo, lugares y campañas de Antíoco IV y Pompeyo). No usa `mapa-detalle-palestina.js`, que tapa el mar en zoom medio sin relieve (pendiente, §20). Suma botones `ir` hacia el recurso desde El imperio griego y desde tres estaciones de Los libros apócrifos.
 
@@ -191,10 +193,10 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 │  │  ├─ imperio-*/ egipto/ imperios-historia/ exilio/ escatologia/ sacerdocio/
 │  │  │  viajes-pablo/ hechos/ daniel/ apocalipsis/ interpretar-biblia/ palabra-de-dios/
 │  │  │  de-la-biblia-a-nosotros/ medidas-biblicas/ tierra-de-israel/ historia-iglesia-2/ dios-y-la-trinidad/
-│  │  │  pactos-y-dispensaciones/ movimiento-pentecostal/ libros-apocrifos/ entre-los-testamentos/   (rutas de estudio: index.html, data.js, img/;
+│  │  │  pactos-y-dispensaciones/ movimiento-pentecostal/ libros-apocrifos/ entre-los-testamentos/ mundo-judio/   (rutas de estudio: index.html, data.js, img/;
 │  │  │                      tierra-de-israel/ suma tierra-geo.js, historia-iglesia-2/ suma historia-geo.js
 │  │  │                      movimiento-pentecostal/ suma pentecostal-geo.js, libros-apocrifos/ suma apocrifos-geo.js
-│  │  │                      y entre-los-testamentos/ suma entre-geo.js (y carga tierra-geo.js),
+│  │  │                      y entre-los-testamentos/ suma entre-geo.js (y carga tierra-geo.js), mundo-judio/ suma mundo-geo.js (y carga tierra-geo.js),
 │  │  │                      su geografía propia;
 │  │  │                      medidas-biblicas/ suma calculadora/, página auxiliar, §20)
 │  │  ├─ adn/ motor-combustion/ viajes-colon/ segunda-guerra-mundial/   (fichas ocultas, §1)
@@ -208,9 +210,10 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 ├─ geo/pentecostal.py       genera movimiento-pentecostal/pentecostal-geo.js (lugares h- y viajes; no usa Natural Earth)
 ├─ geo/apocrifos.py         genera libros-apocrifos/apocrifos-geo.js (lugares de los libros y de sus hallazgos; no usa Natural Earth)
 ├─ geo/entre_testamentos.py genera entre-los-testamentos/entre-geo.js (etapas asmoneas recortadas con la costa de tierra-geo, lugares y campañas; requiere shapely)
+├─ geo/mundo_judio.py       genera mundo-judio/mundo-geo.js (reino de Agripa I, provincia de los procuradores, lugares del siglo I y la guerra del 66–73; no usa Natural Earth)
 ├─ herramientas/biblia/     generar.py: genera public/biblia/ desde las fuentes (fuentes/ no se sube al repositorio)
 ├─ herramientas/            verificar_citas.py (citas textuales contra la RV 1960), esquemas_*.py (SVG propios),
-│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas, tierra, trinidad, historia2, pactos, pentecostal, apocrifos, entre),
+│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas, tierra, trinidad, historia2, pactos, pentecostal, apocrifos, entre, mundo),
 │                           atlas_recursos.mjs (genera atlas/recursos.js, §20)
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
@@ -383,7 +386,7 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 | Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis, Armonía de los evangelios |
 | Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
 | Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | La Palabra de Dios, Dios y la Trinidad, Pactos y dispensaciones, Los últimos tiempos |
-| Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, La tierra de Israel, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica, Historia de la Iglesia II, El movimiento pentecostal, Los libros apócrifos y pseudoepígrafos, Entre los Testamentos |
+| Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, La tierra de Israel, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica, Historia de la Iglesia II, El movimiento pentecostal, Los libros apócrifos y pseudoepígrafos, Entre los Testamentos, El mundo judío en tiempos de Jesús |
 | Herramientas de estudio | ¿Cómo leo, interpreto y enseño la Biblia por mi cuenta? | Cómo interpretar la Biblia, De la Biblia a nosotros, Pesos, medidas, monedas y horas bíblicas; después, lenguas (hebreo y griego), interlineales, taller de sermón |
 
 Un recurso 3D no es un enfoque: el tabernáculo es teología bíblica en formato 3D. Los recursos no bíblicos están ocultos (`publicado: false`) y no llevan enfoque. Se pueden agregar más enfoques cuando un grupo de recursos no calce en ninguno; cada uno se registra en la bitácora.
@@ -424,6 +427,7 @@ Asignación actual:
 | El movimiento pentecostal | Nuevo, Antiguo | Iglesia primitiva, historia de la iglesia | Joel, Lucas, Hechos, 1 Corintios, Gálatas, 1 Tesalonicenses, 1 Timoteo, 1 Juan |
 | Los libros apócrifos y pseudoepígrafos | Antiguo, Nuevo | Exilio, retorno, intertestamentario, iglesia primitiva, historia de la iglesia | 2 Crónicas, Ester, Daniel, 2 Corintios, Colosenses, 2 Tesalonicenses, Hebreos, Judas |
 | Entre los Testamentos | Antiguo, Nuevo | Retorno, intertestamentario, vida de Jesús | Nehemías, Daniel, Zacarías, Malaquías, Mateo, Lucas, Juan, Gálatas |
+| El mundo judío en tiempos de Jesús | Nuevo, Antiguo | Vida de Jesús, iglesia primitiva | Mateo, Marcos, Lucas, Juan, Hechos, Levítico, Deuteronomio, Romanos, Gálatas |
 
 ## 10. Sin fines comerciales
 
@@ -656,7 +660,9 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 - **Historia de la Iglesia II y los recursos que faltan:** cuando se publique Historia de la Iglesia I (nº 132), agregar su botón `ir` en I.1 (Quinientos años de historia) y II.1 (Europa hacia 1500), que hoy la mencionan «en preparación». Hacer lo mismo con Pactos y dispensaciones (nº 9) en V.9. Los botones hacia El movimiento pentecostal (nº 134) ya están en I.1, VI.1 y VII.6 (v2.39).
 - **El movimiento pentecostal, cifras y fotos:** las estaciones IV.2, IV.9 y V.7 usan cifras con fecha (Status of Global Christianity 2026, Fraternidad Mundial de las Asambleas de Dios 2025, Pew Research Center 2014, Latinobarómetro 2024, censos de Brasil 2022 y Chile 2024); revisarlas con las de Historia de la Iglesia II. Las fotos de Parham, Seymour, La fe apostólica, Barratt, Ramabai y Hoover están integradas con licencia verificada; IV.3 (Brasil) queda sin foto, porque la de Daniel Berg tiene uso restringido en Wikipedia (si hiciera falta, se generaría una escena con IA).
 - **El movimiento pentecostal y El Espíritu Santo:** cuando se publique El Espíritu Santo (nº 11), agregar su botón `ir` en I.1 «La promesa y Pentecostés», VI.1 «El evangelio completo», VI.2 «El bautismo en el Espíritu Santo» y VI.3 «Los dones del Espíritu hoy», que hoy lo mencionan «en preparación». Cuando se publique Historia de la Iglesia I (nº 132), enlazarla desde I.3 «Los dones a lo largo de la historia de la iglesia».
-- **Entre los Testamentos y los recursos que faltan:** cuando se publiquen El mundo judío en tiempos de Jesús (nº 91), La dinastía de Herodes (nº 92) y La sinagoga de Magdala (nº 94), agregar sus botones `ir`: El mundo judío en las estaciones de la ruta VII (la sinagoga, los escribas, los fariseos, los saduceos, los esenios, el Sanedrín), donde se continúa la historia de cada grupo; La dinastía de Herodes en VI.3 «Herodes, rey de los judíos» y La sinagoga de Magdala en VII.1 «La sinagoga», que hoy los mencionan «en preparación».
+- **Entre los Testamentos y los recursos que faltan:** los botones hacia El mundo judío en tiempos de Jesús ya están en la ruta VII (v2.42). Cuando se publiquen La dinastía de Herodes (nº 92) y La sinagoga de Magdala (nº 94), agregar sus botones `ir` en VI.3 «Herodes, rey de los judíos» y VII.1 «La sinagoga», que hoy los mencionan «en preparación».
+- **El mundo judío en tiempos de Jesús, imágenes:** falta regenerar la escena `mj-antipas-jesus.webp` (VI.6; la variante A duplicaba a Jesús y la B mostraba su rostro; prompt corregido en `herramientas/mundo/PROMPTS-FLOW.md`) y quedan sin foto la tumba con piedra rodante (V.9) y el talón de Yehohanán (VI.7). La foto de la piedra de Magdala (IV.3) es de 2012 en el sitio; confirmar si muestra el original o una réplica.
+- **El mundo judío y los recursos que faltan:** cuando se publiquen La dinastía de Herodes (nº 92), La sinagoga de Magdala (nº 94), Las fiestas de Israel (nº 26), Cronología del Nuevo Testamento (nº 95) e Historia de la Iglesia I (nº 132), agregar sus botones `ir` en II.2, IV.3, IV.2, el esquema de los gobernantes y VII.5, que hoy los mencionan «en preparación».
 - **Entre los Testamentos, foto del Herodión (VI.3):** la propuesta resultó ser un letrero con el plano del palacio y se descartó; la estación queda con la escena de la construcción. Candidata: `File:Herodium_from_above_2.jpg` en Wikimedia Commons, licencia por confirmar.
 - **`mapa-detalle-palestina.js` tapa el mar:** en zoom medio (≈7–9), si el recurso no carga el relieve de La tierra de Israel, la capa de detalle pinta tierra sobre el Mediterráneo. Entre los Testamentos no la usa. Corregir la capa antes de volver a usarla en otro recurso sin relieve.
 - **Los libros apócrifos y pseudoepígrafos, fotos:** integrada la portada de la Biblia del Cántaro (1602). Quedan sin foto 1 Enoc (V.1) y los evangelios gnósticos (VI.3): las fotos propuestas resultaron ser una tapa moderna y una reconstrucción con errores. Candidata para VI.3: `File:Nag_Hammadi_Codex_II.jpg` en Wikimedia Commons, licencia por verificar.
@@ -691,7 +697,7 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Recursos según el plan de publicación (§20): 33 de 136 publicados al 29 de octubre de 2026 (Historia de la Iglesia II y El movimiento pentecostal se adelantaron de la ola 9); se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Recursos según el plan de publicación (§20): 34 de 136 publicados al 30 de octubre de 2026 (Historia de la Iglesia II y El movimiento pentecostal se adelantaron de la ola 9); se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, dirección de la ficha que sigue la estación abierta (§6) | Uso sostenido medible |
 
@@ -893,6 +899,11 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 | 2026-10-29 | Entre los Testamentos: fotos con licencia verificada en Wikimedia Commons (papiro de Elefantina, dominio público; Pascua samaritana, CC BY 2.0; moneda de Alejandro Janeo, CC BY-SA 4.0; réplica de la inscripción de Teodoto, CC BY-SA 3.0); se descarta la del Herodión, que era un letrero con el plano | Revisión de las páginas de licencia enviadas por el responsable |
 | 2026-10-29 | `mapa-detalle-palestina.js` no se usa en recursos sin relieve hasta corregir que tapa el mar en zoom medio | Defecto encontrado al preparar Entre los Testamentos |
 | 2026-10-22 | Posturas del recurso: obra consumada frente a tres obras de gracia, lenguas como evidencia inicial, subsecuencia del bautismo en el Espíritu, continuismo, guerra espiritual (con la armadura de Dios, sin mapeo de espíritus territoriales), oficios apostólicos y manifestaciones extrañas | Línea pentecostal clásica de las Asambleas de Dios (§1), con las otras lecturas en bloques `posturas` |
+| 2026-10-30 | El mundo judío en tiempos de Jesús: siete rutas y 49 estaciones, enfoque historia y geografía, con relieve, línea de tiempo del 8 a.C. al 75 d.C. y geografía propia `mundo-geo.js`; termina brevemente en Yavne, con el gancho hacia Historia de la Iglesia I | Bosquejo aprobado por el responsable |
+| 2026-10-30 | La responsabilidad por la muerte de Jesús se presenta según Hechos 2:23, 36; 3:13-17 y 4:27: los líderes y la multitud de Jerusalén de esa generación, Herodes, Pilato y los gentiles, y detrás de todos los pecados de la humanidad; nunca culpa colectiva de los judíos de otras épocas | Decisión del responsable al aprobar el bosquejo |
+| 2026-10-30 | Lo que solo cuenta la Mishná (escrita hacia el 200 d.C.) se presenta con cautela, en bloques `posturas` cuando importa (la legalidad del juicio de Jesús) | Decisión del responsable al aprobar el bosquejo |
+| 2026-10-30 | Fotos con licencia verificada en Wikimedia Commons: réplica de la inscripción de Pilato (CC BY-SA 2.0), osario de Caifás (CC BY-SA 3.0), Gamla (dominio público), advertencia del templo (CC BY-SA 3.0), piedra de Magdala (CC BY-SA 3.0), mikve de Jerusalén (CC BY-SA 3.0) y barca de Galilea (CC BY-SA 4.0) | §20, Imágenes |
+| 2026-10-30 | Erratas de la RV 1960 del sitio: Mt 4:15 («alilea») y Mr 7:18 (faltaba un espacio), corregidas en `CORRECCIONES` | Se detectaron al citar los pasajes |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 
