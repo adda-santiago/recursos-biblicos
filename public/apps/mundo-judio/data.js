@@ -272,7 +272,8 @@
         cita('Lucas 13:31-33', 'Aquel mismo día llegaron unos fariseos, diciéndole: Sal, y vete de aquí, porque Herodes te quiere matar. Y les dijo: Id, y decid a aquella zorra: He aquí, echo fuera demonios y hago curaciones hoy y mañana, y al tercer día termino mi obra. Sin embargo, es necesario que hoy y mañana y pasado mañana siga mi camino; porque no es posible que un profeta muera fuera de Jerusalén.')
       ],
       texto: [
-        'Cuando los evangelios hablan de «Herodes» durante el ministerio de Jesús, se refieren a Herodes Antipas, hijo de Herodes el Grande, que gobernó Galilea y Perea del año 4 a.C. al 39 d.C. No tenía el título de rey sino el de tetrarca, que significa gobernante de una cuarta parte. Su vida y la de su familia se estudian en La dinastía de Herodes (en preparación); aquí basta con lo que importa para leer los evangelios.',
+        'Cuando los evangelios hablan de «Herodes» durante el ministerio de Jesús, se refieren a Herodes Antipas, hijo de Herodes el Grande, que gobernó Galilea y Perea del año 4 a.C. al 39 d.C. No tenía el título de rey sino el de tetrarca, que significa gobernante de una cuarta parte. Su vida y la de su familia se estudian en La dinastía de Herodes; aquí basta con lo que importa para leer los evangelios.',
+        ir('Ver La dinastía de Herodes: Antipas, el constructor de Galilea', '../../dinastia-herodes/#hijos/3'),
         { h: 'Un constructor de ciudades' },
         'Antipas reconstruyó Séforis, a unos seis kilómetros de Nazaret, destruida por los romanos después de la muerte de su padre. Más tarde fundó una nueva capital a orillas del lago y la llamó Tiberíades, en honor del emperador. La construyó sobre un antiguo cementerio, por lo que muchos judíos piadosos se negaban a vivir allí; los evangelios nunca dicen que Jesús entrara en ella.',
         { h: 'Juan el Bautista y Herodías' },
@@ -1499,7 +1500,8 @@
         { h: 'La muerte de Agripa' },
         'Lucas cuenta que, en Cesarea, Agripa se sentó en el tribunal con ropas reales y habló al pueblo, que gritaba: «¡Voz de Dios, y no de hombre!». Al momento un ángel del Señor lo hirió, «por cuanto no dio la gloria a Dios», y murió (Hch 12:22-23). Josefo cuenta la misma escena con detalles propios: en unos juegos en honor del emperador, Agripa apareció en el teatro de Cesarea con un manto de plata que brillaba con el sol, sus aduladores lo llamaron dios y él no los reprendió; enseguida sintió un dolor terrible y murió a los cinco días. Las dos fuentes, independientes, coinciden en lo esencial.',
         '«Pero la palabra del Señor crecía y se multiplicaba» (Hch 12:24). Después de Agripa, toda la tierra pasó a ser gobernada por procuradores romanos. Su hijo, Agripa II, recibió algunos territorios del norte; ante él y su hermana Berenice dio Pablo su defensa en Cesarea (Hch 25–26).',
-        ir('Ver Los viajes de Pablo', R.pablo)
+        ir('Ver Los viajes de Pablo', R.pablo),
+        ir('Ver La dinastía de Herodes: Agripa I, de la cárcel al trono', '../../dinastia-herodes/#agripas/1')
       ],
       pensar: 'Agripa mató a Jacobo y encarceló a Pedro, pero la iglesia oró y la Palabra siguió creciendo. ¿Qué te enseña este pasaje sobre el poder de la oración de la iglesia frente a la persecución?'
     },

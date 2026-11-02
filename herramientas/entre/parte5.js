@@ -88,7 +88,8 @@
         { h: 'Un rey temeroso' },
         'Pero Herodes vivía con miedo a perder el trono. Para ganar legitimidad se casó con Mariamne, una princesa asmonea, y luego hizo morir a todos los que podían hacerle sombra: ahogó en una piscina de Jericó a su cuñado Aristóbulo III, de diecisiete años, a quien él mismo había nombrado sumo sacerdote; ejecutó al anciano Hircano II, a Mariamne, a la madre de ella y a tres de sus propios hijos, el último cinco días antes de morir. Un escritor romano cuenta que Augusto bromeaba diciendo que era mejor ser cerdo de Herodes que hijo de Herodes.',
         'Con ese carácter, no sorprende lo que cuenta Mateo. Cuando los magos preguntaron por el rey de los judíos que había nacido, «el rey Herodes se turbó, y toda Jerusalén con él» (Mt 2:3); y cuando se vio burlado, mandó matar a todos los niños menores de dos años de Belén (Mt 2:16). Herodes murió poco después, en Jericó, y su reino se repartió entre sus hijos Arquelao, Antipas y Felipe.',
-        'La historia de sus descendientes se estudiará en La dinastía de Herodes (en preparación).',
+        'La historia de sus descendientes se estudia en La dinastía de Herodes.',
+        ir('Ver La dinastía de Herodes: la familia completa', '../../dinastia-herodes/'),
         { posturas: {
           titulo: '¿Cuándo murió Herodes?',
           a: { n: 'En el 4 a.C.', t: 'La fecha más aceptada, según Josefo y los reinados de sus hijos. Jesús habría nacido hacia el 6–5 a.C.' },

@@ -73,7 +73,8 @@
         { h: 'La muerte de Agripa' },
         'Lucas cuenta que, en Cesarea, Agripa se sentó en el tribunal con ropas reales y habló al pueblo, que gritaba: «¡Voz de Dios, y no de hombre!». Al momento un ángel del Señor lo hirió, «por cuanto no dio la gloria a Dios», y murió (Hch 12:22-23). Josefo cuenta la misma escena con detalles propios: en unos juegos en honor del emperador, Agripa apareció en el teatro de Cesarea con un manto de plata que brillaba con el sol, sus aduladores lo llamaron dios y él no los reprendió; enseguida sintió un dolor terrible y murió a los cinco días. Las dos fuentes, independientes, coinciden en lo esencial.',
         '«Pero la palabra del Señor crecía y se multiplicaba» (Hch 12:24). Después de Agripa, toda la tierra pasó a ser gobernada por procuradores romanos. Su hijo, Agripa II, recibió algunos territorios del norte; ante él y su hermana Berenice dio Pablo su defensa en Cesarea (Hch 25–26).',
-        ir('Ver Los viajes de Pablo', R.pablo)
+        ir('Ver Los viajes de Pablo', R.pablo),
+        ir('Ver La dinastía de Herodes: Agripa I, de la cárcel al trono', '../../dinastia-herodes/#agripas/1')
       ],
       pensar: 'Agripa mató a Jacobo y encarceló a Pedro, pero la iglesia oró y la Palabra siguió creciendo. ¿Qué te enseña este pasaje sobre el poder de la oración de la iglesia frente a la persecución?'
     },

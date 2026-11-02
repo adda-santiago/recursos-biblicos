@@ -45,7 +45,8 @@
         cita('Lucas 13:31-33', '@@lc/13/31-33')
       ],
       texto: [
-        'Cuando los evangelios hablan de «Herodes» durante el ministerio de Jesús, se refieren a Herodes Antipas, hijo de Herodes el Grande, que gobernó Galilea y Perea del año 4 a.C. al 39 d.C. No tenía el título de rey sino el de tetrarca, que significa gobernante de una cuarta parte. Su vida y la de su familia se estudian en La dinastía de Herodes (en preparación); aquí basta con lo que importa para leer los evangelios.',
+        'Cuando los evangelios hablan de «Herodes» durante el ministerio de Jesús, se refieren a Herodes Antipas, hijo de Herodes el Grande, que gobernó Galilea y Perea del año 4 a.C. al 39 d.C. No tenía el título de rey sino el de tetrarca, que significa gobernante de una cuarta parte. Su vida y la de su familia se estudian en La dinastía de Herodes; aquí basta con lo que importa para leer los evangelios.',
+        ir('Ver La dinastía de Herodes: Antipas, el constructor de Galilea', '../../dinastia-herodes/#hijos/3'),
         { h: 'Un constructor de ciudades' },
         'Antipas reconstruyó Séforis, a unos seis kilómetros de Nazaret, destruida por los romanos después de la muerte de su padre. Más tarde fundó una nueva capital a orillas del lago y la llamó Tiberíades, en honor del emperador. La construyó sobre un antiguo cementerio, por lo que muchos judíos piadosos se negaban a vivir allí; los evangelios nunca dicen que Jesús entrara en ella.',
         { h: 'Juan el Bautista y Herodías' },

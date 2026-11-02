@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000">
+<rect width="1200" height="1000" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">La familia de Herodes</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Las personas que nombra el Nuevo Testamento van en rojo; el árbol completo, en la página interactiva</text>
+<rect x="385" y="120" width="170" height="54" rx="8" fill="#fff" stroke="#8a5a44" stroke-width="2"/>
+<text x="470" y="143" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Antípatro</text>
+<text x="470" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">idumeo, † 43 a.C.</text>
+<rect x="645" y="120" width="170" height="54" rx="8" fill="#fff" stroke="#8a5a44" stroke-width="2"/>
+<text x="730" y="143" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Cipros</text>
+<text x="730" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">noble nabatea</text>
+<line x1="555" y1="147" x2="645" y2="147" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="85" y="240" width="130" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="150" y="263" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Fasael</text>
+<text x="150" y="282" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">† 40 a.C.</text>
+<rect x="370" y="240" width="200" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="470" y="263" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Herodes el Grande</text>
+<text x="470" y="282" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">rey, 37–4 a.C.</text>
+<rect x="725" y="240" width="150" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="800" y="263" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Feroras</text>
+<text x="800" y="282" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">tetrarca de Perea</text>
+<rect x="965" y="240" width="170" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="1050" y="263" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Salomé</text>
+<text x="1050" y="282" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">hermana de Herodes</text>
+<line x1="600" y1="147" x2="600" y2="218" stroke="#6b7080" stroke-width="2"/>
+<line x1="150" y1="218" x2="1050" y2="218" stroke="#6b7080" stroke-width="2"/>
+<line x1="150" y1="218" x2="150" y2="240" stroke="#6b7080" stroke-width="2"/>
+<line x1="470" y1="218" x2="470" y2="240" stroke="#6b7080" stroke-width="2"/>
+<line x1="800" y1="218" x2="800" y2="240" stroke="#6b7080" stroke-width="2"/>
+<line x1="1050" y1="218" x2="1050" y2="240" stroke="#6b7080" stroke-width="2"/>
+<line x1="470" y1="294" x2="470" y2="350" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="115" y1="350" x2="975" y2="350" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="482" y="332" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">diez esposas; aquí, las cinco cuyos hijos importan</text>
+<line x1="115" y1="350" x2="115" y2="380" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="25" y="380" width="180" height="54" rx="8" fill="#fff" stroke="#8a5a44" stroke-width="2"/>
+<text x="115" y="403" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Doris</text>
+<text x="115" y="422" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">primera esposa</text>
+<line x1="330" y1="350" x2="330" y2="380" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="240" y="380" width="180" height="54" rx="8" fill="#fff" stroke="#5e7d4f" stroke-width="2"/>
+<text x="330" y="403" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Mariamne</text>
+<text x="330" y="422" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">princesa asmonea</text>
+<line x1="545" y1="350" x2="545" y2="380" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="455" y="380" width="180" height="54" rx="8" fill="#fff" stroke="#8a5a44" stroke-width="2"/>
+<text x="545" y="403" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Mariamne II</text>
+<text x="545" y="422" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">hija de Boeto</text>
+<line x1="760" y1="350" x2="760" y2="380" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="670" y="380" width="180" height="54" rx="8" fill="#fff" stroke="#8a5a44" stroke-width="2"/>
+<text x="760" y="403" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Maltace</text>
+<text x="760" y="422" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">samaritana</text>
+<line x1="975" y1="350" x2="975" y2="380" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="885" y="380" width="180" height="54" rx="8" fill="#fff" stroke="#8a5a44" stroke-width="2"/>
+<text x="975" y="403" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Cleopatra</text>
+<text x="975" y="422" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">de Jerusalén</text>
+<rect x="35" y="510" width="160" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="115" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Antípatro</text>
+<text x="115" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">ejecutado 4 a.C.</text>
+<line x1="115" y1="434" x2="115" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="115" y1="488" x2="115" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="115" y1="488" x2="115" y2="510" stroke="#6b7080" stroke-width="2"/>
+<rect x="198" y="510" width="125" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="260" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Alejandro</text>
+<text x="260" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">ejecutado 7 a.C.</text>
+<rect x="332" y="510" width="135" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="400" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Aristóbulo</text>
+<text x="400" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">ejecutado 7 a.C.</text>
+<line x1="330" y1="434" x2="330" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="260" y1="488" x2="400" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="260" y1="488" x2="260" y2="510" stroke="#6b7080" stroke-width="2"/>
+<line x1="400" y1="488" x2="400" y2="510" stroke="#6b7080" stroke-width="2"/>
+<rect x="480" y="510" width="160" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="560" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Herodes II</text>
+<text x="560" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">«Felipe» en Mr 6:17</text>
+<line x1="545" y1="434" x2="545" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="545" y1="488" x2="560" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="560" y1="488" x2="560" y2="510" stroke="#6b7080" stroke-width="2"/>
+<rect x="648" y="510" width="135" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="715" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Arquelao</text>
+<text x="715" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">etnarca, Mt 2:22</text>
+<rect x="798" y="510" width="145" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="870" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Antipas</text>
+<text x="870" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">tetrarca, Lc 3:1</text>
+<line x1="760" y1="434" x2="760" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="715" y1="488" x2="870" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="715" y1="488" x2="715" y2="510" stroke="#6b7080" stroke-width="2"/>
+<line x1="870" y1="488" x2="870" y2="510" stroke="#6b7080" stroke-width="2"/>
+<rect x="990" y="510" width="140" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="1060" y="533" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Felipe</text>
+<text x="1060" y="552" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">tetrarca, Lc 3:1</text>
+<line x1="975" y1="434" x2="975" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="975" y1="488" x2="1060" y2="488" stroke="#6b7080" stroke-width="2"/>
+<line x1="1060" y1="488" x2="1060" y2="510" stroke="#6b7080" stroke-width="2"/>
+<rect x="325" y="640" width="150" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="400" y="663" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Berenice</text>
+<text x="400" y="682" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">hija de Salomé</text>
+<line x1="400" y1="564" x2="400" y2="640" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="410" y="628" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">se casa con</text>
+<path d="M 1135 267 L 1185 267 L 1185 667 L 475 667" fill="none" stroke="#c9c6be" stroke-width="2" stroke-dasharray="3 5"/>
+<text x="1170" y="658" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="end" font-weight="normal" font-style="italic">hija de Salomé</text>
+<rect x="160" y="770" width="140" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="230" y="793" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Agripa I</text>
+<text x="230" y="812" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">rey, Hch 12</text>
+<rect x="310" y="770" width="180" height="54" rx="8" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="400" y="793" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="bold">Herodes de Calcis</text>
+<text x="400" y="812" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">rey de Calcis</text>
+<rect x="525" y="770" width="150" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="600" y="793" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Herodías</text>
+<text x="600" y="812" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">Mt 14; Mr 6</text>
+<line x1="400" y1="694" x2="400" y2="748" stroke="#6b7080" stroke-width="2"/>
+<line x1="230" y1="748" x2="600" y2="748" stroke="#6b7080" stroke-width="2"/>
+<line x1="230" y1="748" x2="230" y2="770" stroke="#6b7080" stroke-width="2"/>
+<line x1="400" y1="748" x2="400" y2="770" stroke="#6b7080" stroke-width="2"/>
+<line x1="600" y1="748" x2="600" y2="770" stroke="#6b7080" stroke-width="2"/>
+<path d="M 560 564 C 560 690, 610 700, 610 770" fill="none" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M 870 564 C 870 720, 660 720, 660 770" fill="none" stroke="#2f8a8a" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="905" y="700" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2f8a8a" text-anchor="start" font-weight="normal" font-style="italic">2.º esposo de Herodías</text>
+<text x="600" y="690" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">1.er esposo</text>
+<rect x="675" y="890" width="170" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="760" y="913" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Salomé</text>
+<text x="760" y="932" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">la hija de Herodías</text>
+<line x1="600" y1="824" x2="600" y2="917" stroke="#6b7080" stroke-width="2"/>
+<line x1="600" y1="917" x2="675" y2="917" stroke="#6b7080" stroke-width="2"/>
+<path d="M 1060 564 L 1060 917 L 845 917" fill="none" stroke="#c08a1e" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="1068" y="900" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c08a1e" text-anchor="start" font-weight="normal" font-style="italic">esposo de Salomé</text>
+<rect x="40" y="890" width="140" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="110" y="913" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Agripa II</text>
+<text x="110" y="932" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">rey, Hch 25–26</text>
+<rect x="205" y="890" width="130" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="270" y="913" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Berenice</text>
+<text x="270" y="932" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">Hch 25:13</text>
+<rect x="350" y="890" width="140" height="54" rx="8" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="420" y="913" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Drusila</text>
+<text x="420" y="932" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7080" text-anchor="middle" font-weight="normal">esposa de Félix</text>
+<line x1="230" y1="824" x2="230" y2="868" stroke="#6b7080" stroke-width="2"/>
+<line x1="110" y1="868" x2="420" y2="868" stroke="#6b7080" stroke-width="2"/>
+<line x1="110" y1="868" x2="110" y2="890" stroke="#6b7080" stroke-width="2"/>
+<line x1="270" y1="868" x2="270" y2="890" stroke="#6b7080" stroke-width="2"/>
+<line x1="420" y1="868" x2="420" y2="890" stroke="#6b7080" stroke-width="2"/>
+<rect x="900" y="772" width="22" height="22" rx="4" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="930" y="789" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal">aparece en el Nuevo Testamento</text>
+<line x1="900" y1="815" x2="922" y2="815" stroke="#8a5a44" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="930" y="820" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal">matrimonio</text>
+</svg>

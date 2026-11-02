@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los Herodes y el Nuevo Testamento</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Quién gobernó dónde, del 40 a.C. al 100 d.C. (fechas aproximadas)</text>
+<line x1="300" y1="132" x2="300" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="300" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">40 a.C.</text>
+<line x1="423" y1="132" x2="423" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="423" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">20 a.C.</text>
+<line x1="546" y1="132" x2="546" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="546" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">1 d.C.</text>
+<line x1="669" y1="132" x2="669" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="669" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">20 d.C.</text>
+<line x1="791" y1="132" x2="791" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="791" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">40 d.C.</text>
+<line x1="914" y1="132" x2="914" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="914" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">60 d.C.</text>
+<line x1="1037" y1="132" x2="1037" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="1037" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">80 d.C.</text>
+<line x1="1160" y1="132" x2="1160" y2="604" stroke="#c9c6be" stroke-width="1"/>
+<text x="1160" y="124" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">100 d.C.</text>
+<text x="284" y="172" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Herodes el Grande</text>
+<text x="284" y="193" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">rey de todo el país</text>
+<rect x="318" y="156" width="203" height="40" rx="6" fill="#8a5a44"/>
+<text x="529" y="181" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Mt 2; Lc 1:5</text>
+<text x="284" y="238" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Arquelao</text>
+<text x="284" y="259" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Judea, Samaria, Idumea</text>
+<rect x="521" y="222" width="61" height="40" rx="6" fill="#9e2b25"/>
+<text x="591" y="247" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Mt 2:22</text>
+<text x="284" y="304" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Gobernadores romanos</text>
+<text x="284" y="325" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Judea, Samaria, Idumea</text>
+<rect x="583" y="288" width="215" height="40" rx="6" fill="#6b5a7a"/>
+<text x="690" y="313" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">prefectos</text>
+<rect x="816" y="288" width="135" height="40" rx="6" fill="#6b5a7a"/>
+<text x="884" y="313" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">procuradores</text>
+<text x="959" y="313" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Pilato, Félix, Festo</text>
+<text x="284" y="370" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Herodes Antipas</text>
+<text x="284" y="391" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Galilea y Perea</text>
+<rect x="521" y="354" width="264" height="40" rx="6" fill="#2f8a8a"/>
+<text x="793" y="379" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Lc 3:1; 13:32; 23:7</text>
+<text x="284" y="436" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Felipe</text>
+<text x="284" y="457" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">el noreste</text>
+<rect x="521" y="420" width="233" height="40" rx="6" fill="#c08a1e"/>
+<text x="763" y="445" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Lc 3:1</text>
+<text x="284" y="502" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Agripa I</text>
+<text x="284" y="523" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">del norte a todo el país</text>
+<rect x="773" y="486" width="43" height="40" rx="6" fill="#4a6b7c"/>
+<text x="824" y="511" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Hch 12</text>
+<text x="284" y="568" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="end" font-weight="bold">Agripa II</text>
+<text x="284" y="589" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Calcis y el noreste</text>
+<rect x="853" y="552" width="258" height="40" rx="6" fill="#7a3fa0"/>
+<text x="1119" y="577" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">Hch 25–26</text>
+<text x="284" y="672" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#9e2b25" text-anchor="end" font-weight="bold">Nuevo Testamento</text>
+<line x1="515" y1="142" x2="515" y2="650" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="515" cy="650" r="6" fill="#9e2b25"/>
+<text x="525" y="656" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Nace Jesús</text>
+<line x1="718" y1="142" x2="718" y2="684" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="718" cy="684" r="6" fill="#9e2b25"/>
+<text x="728" y="690" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Ministerio de Jesús</text>
+<line x1="730" y1="142" x2="730" y2="718" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="730" cy="718" r="6" fill="#9e2b25"/>
+<text x="740" y="724" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Cruz y resurrección</text>
+<line x1="816" y1="142" x2="816" y2="650" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="816" cy="650" r="6" fill="#9e2b25"/>
+<text x="826" y="656" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Hechos 12</text>
+<line x1="908" y1="142" x2="908" y2="684" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="908" cy="684" r="6" fill="#9e2b25"/>
+<text x="918" y="690" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Pablo ante Agripa</text>
+<line x1="976" y1="142" x2="976" y2="718" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="976" cy="718" r="6" fill="#9e2b25"/>
+<text x="986" y="724" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Cae el templo</text>
+<text x="600" y="778" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Herodes muere en el 4 a.C. según la cuenta más aceptada; otros estudiosos proponen el 1 a.C. (estación II.7).</text>
+</svg>

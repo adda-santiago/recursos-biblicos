@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Árbol de la familia de Herodes · Recursos Bíblicos</title>
+  <meta name="description" content="Árbol interactivo de la familia de Herodes: toca a cada persona para ver quién era, qué dice la Biblia de ella y dónde estudiarla.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%91%91%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Árbol de la familia de Herodes. Colores de datos: --nt (personas del Nuevo Testamento),
+       --asmoneo (sangre asmonea), --conyuge (líneas de matrimonio). */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root { --nt: #9e2b25; --asmoneo: #5e7d4f; --conyuge: #8a5a44; --rama: #9a9ca6; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d; --nt: #e0786d; --asmoneo: #8db07c; --conyuge: #c49478; --rama: #6b7080; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { white-space: nowrap; display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .cab-der { display: flex; gap: 1rem; align-items: center; }
+    .volver { white-space: nowrap; font: 500 0.84rem var(--sans); color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .tema { white-space: nowrap; font: 500 0.8rem var(--sans); border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 0.35rem 0.75rem; cursor: pointer; }
+    .intro { padding: 1.2rem clamp(1rem, 4vw, 2rem) 0.4rem; }
+    .intro p.sup { font: 500 0.8rem var(--sans); color: var(--muted); margin: 0; }
+    h1 { font: 500 clamp(1.6rem, 4.5vw, 2.3rem)/1.15 var(--serif); margin: 0.2rem 0 0.35rem; }
+    .intro p.txt { color: var(--ink-2); margin: 0 0 0.8rem; max-width: 46rem; }
+    .controles { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; align-items: center; font: 500 0.82rem var(--sans); color: var(--ink-2); }
+    .controles label { display: flex; gap: 0.4rem; align-items: center; cursor: pointer; }
+    .ley { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; color: var(--muted); }
+    .ley span { display: inline-flex; align-items: center; gap: 0.35rem; }
+    .ley i { display: inline-block; width: 1.1rem; height: 0.8rem; border-radius: 3px; border: 2px solid var(--line-strong); background: var(--surface); }
+    .ley i.nt { border-color: var(--nt); }
+    .ley i.asm { border-color: var(--asmoneo); }
+    .ley i.mat { border: 0; border-top: 2px dashed var(--conyuge); height: 0; border-radius: 0; }
+    .zona { display: grid; grid-template-columns: minmax(0, 1fr) 24rem; gap: 0; border-top: 1px solid var(--line); margin-top: 0.8rem; min-height: calc(100vh - 12rem); }
+    .lienzo { overflow: auto; background: var(--surface-2); position: relative; -webkit-overflow-scrolling: touch; }
+    .lienzo svg { display: block; }
+    .ficha { border-left: 1px solid var(--line); background: var(--surface); padding: 1.3rem 1.4rem 2rem; overflow: auto; }
+    .ficha .vacia { color: var(--muted); font-style: italic; }
+    .ficha h2 { font: 500 1.6rem/1.15 var(--serif); margin: 0; }
+    .ficha .otro { font: 500 0.82rem var(--sans); color: var(--muted); margin: 0.25rem 0 0; }
+    .ficha .rol { font: 600 0.88rem/1.4 var(--sans); color: var(--ink-2); margin: 0.8rem 0 0; }
+    .ficha .vida { font: 500 0.82rem var(--sans); color: var(--muted); margin: 0.2rem 0 0; }
+    .ficha .refs { margin: 0.9rem 0 0; padding: 0.6rem 0.75rem; border-left: 3px solid var(--nt); background: var(--surface-2); font: 500 0.9rem/1.5 var(--sans); }
+    .ficha .refs b { display: block; font: 600 0.72rem var(--sans); letter-spacing: 0.04em; text-transform: uppercase; color: var(--nt); margin-bottom: 0.15rem; }
+    .ficha p.texto { margin: 0.9rem 0 0; }
+    .ficha .rel { margin: 1rem 0 0; font: 500 0.85rem/1.6 var(--sans); color: var(--ink-2); }
+    .ficha .rel b { color: var(--muted); font-weight: 600; }
+    .ficha .rel button { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+    .ficha .est { margin: 1.2rem 0 0; padding: 0; list-style: none; }
+    .ficha .est li { margin: 0.4rem 0; }
+    .ficha .est a { display: block; font: 600 0.85rem/1.35 var(--sans); color: var(--accent); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 0.55rem 0.7rem; text-decoration: none; }
+    .ficha .est a:hover { border-color: var(--accent); }
+    .ficha .est-t { font: 600 0.72rem var(--sans); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin: 1.3rem 0 0; }
+    .nodo { cursor: pointer; }
+    .nodo rect { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1.5; transition: opacity .2s; }
+    .nodo.nt rect { stroke: var(--nt); stroke-width: 2.5; }
+    .nodo.asm rect { stroke: var(--asmoneo); stroke-width: 2.5; }
+    .nodo.ext rect { stroke-dasharray: 5 4; }
+    .nodo text { font-family: var(--sans); fill: var(--ink); pointer-events: none; }
+    .nodo .nom { font-size: 14px; font-weight: 600; }
+    .nodo.nt .nom { fill: var(--nt); }
+    .nodo .sub { font-size: 11px; fill: var(--muted); font-weight: 500; }
+    .nodo:hover rect, .nodo:focus rect { stroke: var(--accent); }
+    .nodo:focus { outline: none; }
+    .nodo:focus-visible rect { stroke-width: 3.5; }
+    .nodo.sel rect { fill: var(--accent); stroke: var(--accent); }
+    .nodo.sel .nom, .nodo.sel .sub { fill: #fff; }
+    .rama { fill: none; stroke: var(--rama); stroke-width: 1.6; transition: opacity .2s; }
+    .mat { fill: none; stroke: var(--conyuge); stroke-width: 1.6; stroke-dasharray: 6 5; transition: opacity .2s; }
+    .fila-t { font: 600 11px var(--sans); fill: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; }
+    .solo-nt .nodo:not(.nt) rect, .solo-nt .nodo:not(.nt) text { opacity: 0.3; }
+    .resaltado .rama, .resaltado .mat { opacity: 0.18; }
+    .resaltado .rama.on, .resaltado .mat.on { opacity: 1; stroke-width: 2.6; }
+    .resaltado .rama.on { stroke: var(--accent); }
+    .credito { font: 500 0.75rem var(--sans); color: var(--muted); margin: 1.6rem 0 0; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 900px) {
+      .zona { grid-template-columns: 1fr; }
+      .lienzo { max-height: 62vh; }
+      .ficha { border-left: 0; border-top: 1px solid var(--line); }
+    }
+    @media (max-width: 520px) { .cab { padding: 0.7rem 1rem; } .marca { font-size: 0.78rem; } .cab-der { gap: 0.6rem; } .tema { padding: 0.3rem 0.55rem; font-size: 0.74rem; } .volver { font-size: 0.78rem; } }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca" href="../../../">Recursos Bíblicos</a>
+    <div class="cab-der">
+      <button type="button" class="tema" id="tema">Fondo oscuro</button>
+      <a class="volver" href="../../../dinastia-herodes/">Volver al recurso</a>
+    </div>
+  </header>
+  <section class="intro">
+    <p class="sup">La dinastía de Herodes</p>
+    <h1>Árbol de la familia de Herodes</h1>
+    <p class="txt">Toca a una persona para ver quién era, qué dice la Biblia de ella y en qué estación del recurso se estudia. El árbol muestra a las personas que ayudan a leer el Nuevo Testamento; Herodes tuvo diez esposas y muchos más descendientes.</p>
+    <div class="controles">
+      <label><input type="checkbox" id="solo-nt"> Destacar solo a los del Nuevo Testamento</label>
+      <div class="ley" aria-hidden="true">
+        <span><i class="nt"></i>en el Nuevo Testamento</span>
+        <span><i class="asm"></i>asmonea</span>
+        <span><i class="mat"></i>matrimonio</span>
+      </div>
+    </div>
+  </section>
+  <div class="zona">
+    <div class="lienzo no-citas" id="lienzo" aria-label="Árbol de la familia de Herodes"></div>
+    <aside class="ficha" id="ficha" aria-live="polite"><p class="vacia">Toca a una persona del árbol.</p></aside>
+  </div>
+  <p class="credito" style="padding:0 clamp(1rem,4vw,2rem) 2rem">Fechas aproximadas, según Flavio Josefo. Citas: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso.</p>
+
+  <script src="personas.js"></script>
+  <script>
+  (() => {
+    'use strict';
+    const A = window.ARBOL_HERODES;
+    const P = Object.fromEntries(A.personas.map(p => [p.id, p]));
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const root = document.documentElement;
+
+    // Tema
+    const bTema = document.getElementById('tema');
+    const tema = o => { root.dataset.theme = o ? 'dark' : 'light'; bTema.textContent = o ? 'Fondo claro' : 'Fondo oscuro'; };
+    tema(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    bTema.addEventListener('click', () => tema(root.dataset.theme !== 'dark'));
+
+    // Geometría
+    const U = 150, W = 136, H = 54, ROW = 118, MX = 30, MY = 46;
+    const cx = p => MX + p.x * U + W / 2;
+    const top = p => MY + p.fila * ROW;
+    const maxX = Math.max(...A.personas.map(p => p.x));
+    const ancho = MX * 2 + maxX * U + W;
+    const alto = MY + A.filas.length * ROW;
+
+    let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${ancho}" height="${alto}" viewBox="0 0 ${ancho} ${alto}" role="group">`;
+    A.filas.forEach((f, i) => { svg += `<text class="fila-t" x="${MX}" y="${MY + i * ROW - 10}">${esc(f)}</text>`; });
+
+    // Ramas de padres a hijos: salen del padre o la madre que está más abajo (o del medio, si están en la misma fila)
+    A.personas.forEach(h => {
+      if (!h.padres) return;
+      const ps = h.padres.map(id => P[id]).filter(Boolean);
+      let sx, sy;
+      if (ps.length === 2 && ps[0].fila === ps[1].fila) { sx = (cx(ps[0]) + cx(ps[1])) / 2; sy = top(ps[0]) + H / 2; }
+      else { const b = ps.reduce((a, c) => (c.fila > a.fila ? c : a)); sx = cx(b); sy = top(b) + H; }
+      const ty = top(h), my = ty - 18;
+      svg += `<path class="rama" data-a="${h.padres.join(' ')}" data-b="${h.id}" d="M${sx} ${sy} V${my} H${cx(h)} V${ty}"/>`;
+    });
+    // Matrimonios
+    const hechos = new Set();
+    A.personas.forEach(p => (p.conyuges || []).forEach(c => {
+      const q = P[c]; const k = [p.id, c].sort().join('|');
+      if (!q || hechos.has(k)) return; hechos.add(k);
+      let d;
+      if (p.fila === q.fila) {
+        const [a, b] = cx(p) < cx(q) ? [p, q] : [q, p];
+        const y = top(a) + H / 2;
+        d = Math.abs(cx(b) - cx(a)) <= U * 1.3 ? `M${cx(a) + W / 2} ${y} H${cx(b) - W / 2}` : `M${cx(a)} ${top(a) + H} C${cx(a)} ${y + 60}, ${cx(b)} ${y + 60}, ${cx(b)} ${top(b) + H}`;
+      } else {
+        const [a, b] = p.fila < q.fila ? [p, q] : [q, p];
+        d = `M${cx(a)} ${top(a) + H} C${cx(a)} ${top(a) + H + 40}, ${cx(b)} ${top(b) - 40}, ${cx(b)} ${top(b)}`;
+      }
+      svg += `<path class="mat" data-a="${p.id}" data-b="${c}" d="${d}"/>`;
+    }));
+    // Personas. Bajo el nombre: el otro nombre si es corto; si no, las fechas abreviadas
+    const sub = p => (p.otro && p.otro.length < 24 ? p.otro : p.vida.replace('después del ', 'd. ').replace('hacia ', ''));
+    A.personas.forEach(p => {
+      const x = MX + p.x * U, y = top(p);
+      const cl = ['nodo', p.nt ? 'nt' : '', p.asmonea ? 'asm' : '', p.externo ? 'ext' : ''].join(' ');
+      const nom = p.n.length > 17 ? `<text class="nom" x="${x + W / 2}" y="${y + 21}" text-anchor="middle" font-size="12.5">${esc(p.n)}</text>` : `<text class="nom" x="${x + W / 2}" y="${y + 23}" text-anchor="middle">${esc(p.n)}</text>`;
+      svg += `<g class="${cl}" data-id="${p.id}" tabindex="0" role="button" aria-label="${esc(p.n + (p.otro ? ', ' + p.otro : '') + '. ' + p.rol)}">
+        <rect x="${x}" y="${y}" width="${W}" height="${H}" rx="8"/>${nom}
+        <text class="sub" x="${x + W / 2}" y="${y + 41}" text-anchor="middle"${sub(p).length > 19 ? ' font-size="10"' : ''}>${esc(sub(p))}</text></g>`;
+    });
+    svg += '</svg>';
+    const lienzo = document.getElementById('lienzo');
+    lienzo.innerHTML = svg;
+    const S = lienzo.querySelector('svg');
+
+    // Ficha
+    const ficha = document.getElementById('ficha');
+    const nombre = id => P[id] ? `<button type="button" data-ir="${id}">${esc(P[id].n)}${P[id].otro && !P[id].otro.startsWith('«') ? ' (' + esc(P[id].otro) + ')' : ''}</button>` : '';
+    function abrir(id, desplazar) {
+      const p = P[id];
+      if (!p) return;
+      S.querySelectorAll('.nodo').forEach(g => g.classList.toggle('sel', g.dataset.id === id));
+      S.classList.add('resaltado');
+      S.querySelectorAll('.rama, .mat').forEach(l => l.classList.toggle('on', l.dataset.b === id || l.dataset.a.split(' ').includes(id)));
+      const hijos = A.personas.filter(h => (h.padres || []).includes(id));
+      const padres = (p.padres || []).filter(x => P[x]);
+      ficha.innerHTML = `<h2>${esc(p.n)}</h2>${p.otro ? `<p class="otro">${esc(p.otro)}</p>` : ''}
+        <p class="rol">${esc(p.rol)}</p><p class="vida">${esc(p.vida)}</p>
+        ${p.refs ? `<div class="refs"><b>En la Biblia</b>${esc(p.refs)}</div>` : ''}
+        <p class="texto">${esc(p.texto)}</p>
+        <div class="rel">
+          ${padres.length ? `<div><b>Padres:</b> ${padres.map(nombre).join(' y ')}</div>` : ''}
+          ${(p.conyuges || []).length ? `<div><b>${p.conyuges.length > 1 ? 'Matrimonios' : 'Matrimonio'}:</b> ${p.conyuges.map(nombre).join(', ')}</div>` : ''}
+          ${hijos.length ? `<div><b>Hijos en el árbol:</b> ${hijos.map(h => nombre(h.id)).join(', ')}</div>` : ''}
+        </div>
+        ${p.est ? `<p class="est-t">Estudiar en el recurso</p><ul class="est">${p.est.map(([t, h]) => `<li><a href="../../../dinastia-herodes/${h}" target="_top">${esc(t)}</a></li>`).join('')}</ul>` : ''}`;
+      if (location.hash.slice(1) !== id) history.replaceState(null, '', '#' + id);
+      if (desplazar) {
+        const g = S.querySelector(`.nodo[data-id="${id}"] rect`);
+        const x = +g.getAttribute('x'), y = +g.getAttribute('y');
+        lienzo.scrollTo({ left: Math.max(0, x - lienzo.clientWidth / 2 + W / 2), top: Math.max(0, y - lienzo.clientHeight / 2 + H / 2), behavior: desplazar === 'ya' ? 'auto' : 'smooth' });
+      }
+    }
+    S.addEventListener('click', e => { const g = e.target.closest('.nodo'); if (g) abrir(g.dataset.id); });
+    S.addEventListener('keydown', e => { const g = e.target.closest('.nodo'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); abrir(g.dataset.id); } });
+    ficha.addEventListener('click', e => { const b = e.target.closest('[data-ir]'); if (b) { abrir(b.dataset.ir, true); S.querySelector(`.nodo[data-id="${b.dataset.ir}"]`).focus({ preventScroll: true }); } });
+    document.getElementById('solo-nt').addEventListener('change', e => S.classList.toggle('solo-nt', e.target.checked));
+    const inicial = location.hash.slice(1);
+    requestAnimationFrame(() => abrir(P[inicial] ? inicial : 'herodes', 'ya'));
+    window.addEventListener('hashchange', () => { const id = location.hash.slice(1); if (P[id]) abrir(id, true); });
+  })();
+  </script>
+  <script src="../../assets/js/citas.js"></script>
+</body>
+</html>
