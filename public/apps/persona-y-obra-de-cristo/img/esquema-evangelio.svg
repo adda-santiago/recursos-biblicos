@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El evangelio completo</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Cuatro verdades sobre Jesús, centradas en Él</text>
+<circle cx="600" cy="420" r="92" fill="#fff" stroke="#1f2430" stroke-width="3"/>
+<text x="600" y="414" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#1f2430" text-anchor="middle" font-weight="bold">Jesucristo</text>
+<text x="600" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">He 13:8</text>
+<rect x="100" y="140" width="400" height="160" rx="16" fill="#f6e2df" stroke="#b03a2e" stroke-width="2"/>
+<text x="300" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b03a2e" text-anchor="middle" font-weight="bold">Salvador</text>
+<text x="300" y="228" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«En ningún otro hay salvación»</text>
+<text x="300" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Hch 4:12</text>
+<text x="300" y="284" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#b03a2e" text-anchor="middle" font-weight="bold">Rutas V y VI</text>
+<line x1="500" y1="300" x2="541" y2="349" stroke="#b03a2e" stroke-width="3"/>
+<rect x="700" y="140" width="400" height="160" rx="16" fill="#e0eaf4" stroke="#2a6fb0" stroke-width="2"/>
+<text x="900" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Bautiza con el Espíritu</text>
+<text x="900" y="228" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«Él os bautizará en Espíritu Santo»</text>
+<text x="900" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Mt 3:11; Hch 2:33</text>
+<text x="900" y="284" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Ruta VI</text>
+<line x1="700" y1="300" x2="659" y2="349" stroke="#2a6fb0" stroke-width="3"/>
+<rect x="100" y="520" width="400" height="160" rx="16" fill="#e0eee4" stroke="#2f7d4a" stroke-width="2"/>
+<text x="300" y="570" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Sanador</text>
+<text x="300" y="608" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«Tomó nuestras enfermedades»</text>
+<text x="300" y="636" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Mt 8:17</text>
+<text x="300" y="664" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Ruta V</text>
+<line x1="500" y1="520" x2="535" y2="485" stroke="#2f7d4a" stroke-width="3"/>
+<rect x="700" y="520" width="400" height="160" rx="16" fill="#f6ecd6" stroke="#c08a1e" stroke-width="2"/>
+<text x="900" y="570" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#c08a1e" text-anchor="middle" font-weight="bold">Rey que viene</text>
+<text x="900" y="608" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«Así vendrá como le habéis visto ir»</text>
+<text x="900" y="636" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Hch 1:11</text>
+<text x="900" y="664" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c08a1e" text-anchor="middle" font-weight="bold">Ruta VII</text>
+<line x1="700" y1="520" x2="665" y2="485" stroke="#c08a1e" stroke-width="3"/>
+</svg>

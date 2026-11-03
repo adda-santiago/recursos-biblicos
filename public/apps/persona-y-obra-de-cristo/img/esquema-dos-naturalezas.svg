@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Una persona, dos naturalezas</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">La definición del Concilio de Calcedonia (451) y los errores que excluye</text>
+<rect x="400" y="130" width="400" height="86" rx="16" fill="#fff" stroke="#1f2430" stroke-width="2"/>
+<text x="600" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="bold">Una sola persona</text>
+<text x="600" y="196" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">el Hijo eterno de Dios, Jesucristo</text>
+<rect x="170" y="270" width="340" height="230" rx="16" fill="#f6ecd6" stroke="#c08a1e" stroke-width="2"/>
+<text x="340" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#c08a1e" text-anchor="middle" font-weight="bold">Naturaleza divina</text>
+<text x="340" y="350" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Eterno, sin principio</text>
+<text x="340" y="386" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Todopoderoso, lo sabe todo</text>
+<text x="340" y="422" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Creador y sustentador</text>
+<text x="340" y="458" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Igual al Padre</text>
+<line x1="540" y1="218" x2="353" y2="265" stroke="#1f2430" stroke-width="3" stroke-linecap="round"/>
+<polygon points="340,268 350,254 355,275" fill="#1f2430"/>
+<rect x="690" y="270" width="340" height="230" rx="16" fill="#e0eaf4" stroke="#2a6fb0" stroke-width="2"/>
+<text x="860" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Naturaleza humana</text>
+<text x="860" y="350" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Cuerpo y alma humanos</text>
+<text x="860" y="386" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Mente y voluntad humanas</text>
+<text x="860" y="422" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Nació, creció, murió</text>
+<text x="860" y="458" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Igual a nosotros, sin pecado</text>
+<line x1="660" y1="218" x2="847" y2="265" stroke="#1f2430" stroke-width="3" stroke-linecap="round"/>
+<polygon points="860,268 845,275 850,254" fill="#1f2430"/>
+<text x="600" y="548" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#9e2b25" text-anchor="middle" font-weight="normal" font-style="italic">verdadero Dios y verdadero hombre · sin confusión, sin cambio, sin división, sin separación</text>
+<rect x="120" y="586" width="220" height="112" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="230" y="620" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Eutiquianismo</text>
+<text x="230" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">las naturalezas se mezclan</text>
+<text x="230" y="672" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">lo excluye:</text>
+<text x="230" y="690" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">sin confusión ni cambio</text>
+<rect x="380" y="586" width="220" height="112" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="490" y="620" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Nestorianismo</text>
+<text x="490" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">dos personas</text>
+<text x="490" y="672" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">lo excluye:</text>
+<text x="490" y="690" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">sin división ni separación</text>
+<rect x="640" y="586" width="220" height="112" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="750" y="620" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Apolinarismo</text>
+<text x="750" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">falta la mente humana</text>
+<text x="750" y="672" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">lo excluye:</text>
+<text x="750" y="690" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">alma racional y cuerpo</text>
+<rect x="900" y="586" width="220" height="112" rx="12" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="1010" y="620" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Docetismo y ebionismo</text>
+<text x="1010" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">falta una naturaleza</text>
+<text x="1010" y="672" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">lo excluye:</text>
+<text x="1010" y="690" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">verdadero Dios y hombre</text>
+<text x="600" y="738" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Calcedonia no explica el misterio: pone límites para no decir algo falso.</text>
+</svg>
