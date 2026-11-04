@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820">
+<rect width="1200" height="820" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El mismo orden</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Diez pasajes de Marcos 2–5 y sus paralelos</text>
+<text x="200" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Mateo</text>
+<text x="600" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#b03a2e" text-anchor="middle" font-weight="bold">Marcos</text>
+<text x="1000" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Lucas</text>
+<line x1="450.0" y1="192" x2="350.0" y2="312" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="192" x2="850.0" y2="192" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="252" x2="350.0" y2="372" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="252" x2="850.0" y2="252" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="312" x2="350.0" y2="432" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="312" x2="850.0" y2="312" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="372" x2="350.0" y2="612" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="372" x2="850.0" y2="372" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="432" x2="350.0" y2="672" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="432" x2="850.0" y2="432" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="492" x2="350.0" y2="552" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="492" x2="850.0" y2="492" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="552" x2="350.0" y2="732" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="552" x2="850.0" y2="552" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="612" x2="350.0" y2="192" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="612" x2="850.0" y2="612" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="672" x2="350.0" y2="252" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="672" x2="850.0" y2="672" stroke="#c9c6be" stroke-width="2"/>
+<line x1="450.0" y1="732" x2="350.0" y2="492" stroke="#9e2b25" stroke-width="3"/>
+<line x1="750.0" y1="732" x2="850.0" y2="732" stroke="#c9c6be" stroke-width="2"/>
+<rect x="450.0" y="170" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El paralítico</text>
+<text x="736.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 2:1</text>
+<rect x="850.0" y="170" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El paralítico</text>
+<text x="1136.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 5:17</text>
+<rect x="450.0" y="230" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="258" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Leví</text>
+<text x="736.0" y="258" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 2:13</text>
+<rect x="850.0" y="230" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="258" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Leví</text>
+<text x="1136.0" y="258" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 5:27</text>
+<rect x="450.0" y="290" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="318" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El ayuno</text>
+<text x="736.0" y="318" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 2:18</text>
+<rect x="850.0" y="290" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="318" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El ayuno</text>
+<text x="1136.0" y="318" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 5:33</text>
+<rect x="450.0" y="350" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="378" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Las espigas</text>
+<text x="736.0" y="378" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 2:23</text>
+<rect x="850.0" y="350" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="378" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Las espigas</text>
+<text x="1136.0" y="378" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 6:1</text>
+<rect x="450.0" y="410" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="438" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">La mano seca</text>
+<text x="736.0" y="438" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 3:1</text>
+<rect x="850.0" y="410" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="438" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">La mano seca</text>
+<text x="1136.0" y="438" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 6:6</text>
+<rect x="450.0" y="470" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="498" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Los doce</text>
+<text x="736.0" y="498" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 3:13</text>
+<rect x="850.0" y="470" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="498" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Los doce</text>
+<text x="1136.0" y="498" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 6:12</text>
+<rect x="450.0" y="530" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="558" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El sembrador</text>
+<text x="736.0" y="558" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 4:1</text>
+<rect x="850.0" y="530" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="558" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El sembrador</text>
+<text x="1136.0" y="558" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 8:4</text>
+<rect x="450.0" y="590" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="618" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">La tempestad</text>
+<text x="736.0" y="618" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 4:35</text>
+<rect x="850.0" y="590" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="618" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">La tempestad</text>
+<text x="1136.0" y="618" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 8:22</text>
+<rect x="450.0" y="650" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="678" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El gadareno</text>
+<text x="736.0" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 5:1</text>
+<rect x="850.0" y="650" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="678" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El gadareno</text>
+<text x="1136.0" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 8:26</text>
+<rect x="450.0" y="710" width="300" height="44" rx="10" fill="#b03a2e" fill-opacity="0.14"/>
+<text x="464.0" y="738" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Jairo</text>
+<text x="736.0" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mr 5:21</text>
+<rect x="850.0" y="710" width="300" height="44" rx="10" fill="#2f7d4a" fill-opacity="0.14"/>
+<text x="864.0" y="738" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Jairo</text>
+<text x="1136.0" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Lc 8:40</text>
+<rect x="50.0" y="170" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">La tempestad</text>
+<text x="336.0" y="198" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 8:23</text>
+<rect x="50.0" y="230" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="258" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El gadareno</text>
+<text x="336.0" y="258" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 8:28</text>
+<rect x="50.0" y="290" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="318" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El paralítico</text>
+<text x="336.0" y="318" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 9:1</text>
+<rect x="50.0" y="350" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="378" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Leví</text>
+<text x="336.0" y="378" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 9:9</text>
+<rect x="50.0" y="410" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="438" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El ayuno</text>
+<text x="336.0" y="438" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 9:14</text>
+<rect x="50.0" y="470" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="498" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Jairo</text>
+<text x="336.0" y="498" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 9:18</text>
+<rect x="50.0" y="530" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="558" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Los doce</text>
+<text x="336.0" y="558" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 10:1</text>
+<rect x="50.0" y="590" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="618" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Las espigas</text>
+<text x="336.0" y="618" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 12:1</text>
+<rect x="50.0" y="650" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="678" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">La mano seca</text>
+<text x="336.0" y="678" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 12:9</text>
+<rect x="50.0" y="710" width="300" height="44" rx="10" fill="#2a6fb0" fill-opacity="0.14"/>
+<text x="64.0" y="738" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">El sembrador</text>
+<text x="336.0" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="end" font-weight="normal">Mt 13:1</text>
+<text x="600" y="790" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Lucas sigue el orden de Marcos; Mateo agrupa milagros en los cap. 8–9 y parábolas en el cap. 13 (líneas rojas).</text>
+</svg>

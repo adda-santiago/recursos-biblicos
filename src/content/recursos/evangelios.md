@@ -9,7 +9,7 @@ libros: [mateo, marcos, lucas, juan]
 epocas: [vida-de-jesus]
 tipo: interactivo
 enfoque: estudio-libro
-tags: [evangelios, armonia, vida-de-jesus, palabras-de-jesus, parabolas, milagros, sermon-del-monte, semana-santa, resurreccion]
+tags: [evangelios, armonia, vida-de-jesus, palabras-de-jesus, parabolas, milagros, sermon-del-monte, semana-santa, resurreccion, problema-sinoptico]
 visor:
   motor: legado
   ruta: evangelios
@@ -22,6 +22,8 @@ fuentes:
   - Mateo, Marcos, Lucas y Juan; Antiguo Testamento en las citas y alusiones de cada pasaje.
   - World English Bible (dominio público), marca de las palabras de Jesús verso por verso.
   - Flavio Josefo, Antigüedades judías XVIII.5.2 (Juan el Bautista en Maqueronte).
+  - 'Ruta El problema sinóptico: Eusebio de Cesarea, Historia eclesiástica 3.39 (Papías) y 6.14 (Clemente de Alejandría); Ireneo, Contra las herejías 3.1.1; Agustín, De la concordancia de los evangelistas.'
+  - 'Ruta El problema sinóptico: B. H. Streeter, The Four Gospels (1924); W. R. Farmer, The Synoptic Problem (1964); M. Goodacre, The Case Against Q (2002); E. Linnemann, Is There a Synoptic Problem? (1992); R. Bauckham, Jesus and the Eyewitnesses (2006).'
 revision:
   estado: borrador
 fechaPublicacion: 2026-10-15
@@ -43,6 +45,10 @@ Cada evangelio se identifica con su emblema: Mateo, el hombre; Marcos, el león;
 
 Cada pasaje tiene sus temas (mesianismo, Espíritu Santo, plan de salvación, milagros, liberación, enseñanza, parábolas, conflictos, oración y familia), un mapa con los lugares y la etapa de la vida de Jesús, el comentario por puntos enlazados con el texto, los textos del Antiguo Testamento que se cumplen, se citan o se aluden, una pregunta para pensar y enlaces a otros recursos.
 
+### La ruta El problema sinóptico
+
+El botón «El problema sinóptico» de la barra superior abre una ruta de estudio de 13 estaciones sobre por qué Mateo, Marcos y Lucas se parecen tanto y en qué se diferencian: lo que comparten (el contenido, el orden y las palabras), las diferencias, la tradición de los testigos, las respuestas que se han dado en la historia, las posturas de Marcos primero y de Mateo primero, las teorías que no se siguen, la relación entre fuentes e inspiración, el lugar de Juan y un taller para estudiar pasajes paralelos. Cada estación abre en la Armonía los pasajes que estudia, con las coincidencias resaltadas.
+
 ### Las secciones
 
 1. **Nacimiento y preparación de Jesucristo** (pasajes 1 a 21).
@@ -54,4 +60,4 @@ Para estudiar un pasaje, lee primero las columnas comparando los evangelios, y d
 
 ## Qué es reconstrucción / limitaciones
 
-El orden de los pasajes sigue una armonía posible: los evangelistas no siempre ordenan los hechos de manera cronológica, y algunos pasajes parecidos pueden ser ocasiones distintas. Las fechas son aproximadas; se sigue la cronología del sitio, con la crucifixión hacia el 33 d.C. Algunas ubicaciones son tradicionales (Caná, Betábara, Emaús). El recorrido de Jesús es aproximado: sigue los caminos conocidos de la época entre los lugares que nombran los evangelios, y la distancia total es una estimación. Las palabras de Jesús en rojo se identificaron con una fuente verso por verso y se ajustaron a la RV 1960; en otras versiones el rojo es aproximado.
+El orden de los pasajes sigue una armonía posible: los evangelistas no siempre ordenan los hechos de manera cronológica, y algunos pasajes parecidos pueden ser ocasiones distintas. Las fechas son aproximadas; se sigue la cronología del sitio, con la crucifixión hacia el 33 d.C. Algunas ubicaciones son tradicionales (Caná, Betábara, Emaús). El recorrido de Jesús es aproximado: sigue los caminos conocidos de la época entre los lugares que nombran los evangelios, y la distancia total es una estimación. Las palabras de Jesús en rojo se identificaron con una fuente verso por verso y se ajustaron a la RV 1960; en otras versiones el rojo es aproximado. En la ruta El problema sinóptico, las cifras de versículos comunes y propios son aproximadas y cambian según cómo se cuenten; las posturas sobre qué evangelio se escribió primero se presentan sin tomar partido.

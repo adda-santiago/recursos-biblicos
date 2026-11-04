@@ -11,7 +11,7 @@
    Coordinación con otros recursos:
    - El canon y los manuscritos se resumen (I.7): su desarrollo está en La Palabra de Dios y en
      De la Biblia a nosotros.
-   - El problema sinóptico se resume (II.7): su desarrollo irá en la Armonía (nº 99).
+   - El problema sinóptico se resume (II.7): su desarrollo está en la ruta El problema sinóptico de la Armonía (nº 99).
    - Cada libro enlaza con su estudio; hoy existen Hechos y Apocalipsis.
    ========================================================== */
 (() => {

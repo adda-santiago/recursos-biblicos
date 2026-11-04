@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" width="1200" height="880">
+<rect width="1200" height="880" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Lo que comparten y lo que es propio</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Versículos aproximados de Mateo, Marcos y Lucas</text>
+<circle cx="440" cy="360" r="230" fill="#2a6fb0" fill-opacity="0.13" stroke="#2a6fb0" stroke-width="3"/>
+<circle cx="760" cy="360" r="230" fill="#2f7d4a" fill-opacity="0.13" stroke="#2f7d4a" stroke-width="3"/>
+<circle cx="600" cy="560" r="230" fill="#b03a2e" fill-opacity="0.13" stroke="#b03a2e" stroke-width="3"/>
+<text x="300" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Mateo</text>
+<text x="300" y="198" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1.071 versículos</text>
+<text x="900" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Lucas</text>
+<text x="900" y="198" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">1.151 versículos</text>
+<text x="600" y="826" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#b03a2e" text-anchor="middle" font-weight="bold">Marcos · 678 versículos</text>
+<text x="320" y="350" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Propio de Mateo</text>
+<text x="320" y="376" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">cerca de 300</text>
+<text x="320" y="402" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">los magos, la cizaña</text>
+<text x="880" y="350" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Propio de Lucas</text>
+<text x="880" y="376" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">cerca de 500</text>
+<text x="880" y="402" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">el hijo pródigo, Emaús</text>
+<text x="600" y="262" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">Doble tradición</text>
+<text x="600" y="288" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo y Lucas: unos 230</text>
+<text x="600" y="312" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">el Padre nuestro, el centurión</text>
+<text x="600" y="430" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Triple tradición</text>
+<text x="600" y="456" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">en los tres</text>
+<text x="600" y="480" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">el paralítico, la tempestad</text>
+<text x="475" y="560" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Mateo y Marcos</text>
+<text x="725" y="560" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Marcos y Lucas</text>
+<text x="600" y="690" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="bold">Propio de Marcos: unos 30</text>
+<text x="600" y="714" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">la semilla que crece sola</text>
+<text x="600" y="862" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Cerca del 90 % de Marcos está en Mateo, y más de la mitad en Lucas</text>
+</svg>

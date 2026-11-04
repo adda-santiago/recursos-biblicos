@@ -32,6 +32,7 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
   border: 1px solid var(--line); border-radius: 999px; padding: .4rem .8rem; cursor: pointer;
 }
 .ar-btn:hover { border-color: var(--muted); }
+.ar-sinop { color: var(--accent); text-decoration: none; }
 .ar-nav { display: flex; align-items: center; gap: .35rem; }
 .ar-nav .ar-btn { padding: .3rem .7rem; font-size: 1rem; line-height: 1; }
 .ar-pos { font: 500 .78rem var(--sans); color: var(--muted); min-width: 4.5rem; text-align: center; font-variant-numeric: tabular-nums; }

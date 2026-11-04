@@ -7,6 +7,8 @@
    La página solo necesita <div id="ruta-app"></div> y window.RUTA_DATA:
    {
      titulo, marca, inicio (href de la marca), credito (línea de derechos de la versión bíblica),
+     volver: { t, a }   // opcional: enlace visible también dentro del visor, en el mismo marco
+                        // (páginas auxiliares que vuelven a su recurso, p. ej. la ruta sinóptica de la Armonía)
      rutas: [{
        id, grupo, n, info, pendiente,             // pendiente: aparece deshabilitada
        linea: { desde, hasta, hitos: [{ a, t }] },  // opcional (linea-tiempo.js)
@@ -26,7 +28,8 @@
          texto: ['párrafo', { h: 'subtítulo' },
                  { posturas: { titulo, a: { n, t }, b: { n, t }, c } }, ...],  // dos posturas y cómo se entienden
                 // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa;
-                //   a = '#ruta/n' salta a otra estación del mismo recurso
+                //   a = '#ruta/n' salta a otra estación del mismo recurso;
+                //   marco: true abre a en el mismo marco (página auxiliar que vuelve a su recurso, p. ej. '../#pasaje')
                 // { ejercicio: { pregunta, opciones: [{ t, ok, por_que }], explicacion } }: opción múltiple.
                 //   Una sola opción con ok: true. Al tocar una opción se muestra su por_que; si es la correcta,
                 //   también la explicación general y se cierran las demás. Se puede reintentar.
@@ -79,6 +82,7 @@
     <article class="re-texto" id="re-texto">
       <div class="re-cab">
         <a class="re-marca brand" href="${esc(D.inicio || '../../')}">${esc(D.marca || '')}</a>
+        ${D.volver ? `<a class="re-volver" href="${esc(D.volver.a)}">‹ ${esc(D.volver.t)}</a>` : ''}
         <button type="button" class="re-tema" id="re-tema">Fondo oscuro</button>
       </div>
       <div class="re-cuerpo" id="re-cuerpo" tabindex="-1">
@@ -347,7 +351,7 @@
           `<button type="button" class="re-ej-op" data-o="${j}"><span class="re-ej-letra" aria-hidden="true">${'ABCDEFG'[j]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
         <div class="re-ej-fb" aria-live="polite" hidden></div></section>`; }
       // a = '#ruta/n' lleva a otra estación del mismo recurso (sin salir de la app)
-      if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}"${t.ir.a.startsWith('#') ? '' : ' target="_top"'}>${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
+      if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}"${t.ir.a.startsWith('#') || t.ir.marco ? '' : ' target="_top"'}>${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
       return '';
     }).join('');
     $('re-pensar').hidden = !e.pensar;

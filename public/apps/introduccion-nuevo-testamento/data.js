@@ -11,7 +11,7 @@
    Coordinación con otros recursos:
    - El canon y los manuscritos se resumen (I.7): su desarrollo está en La Palabra de Dios y en
      De la Biblia a nosotros.
-   - El problema sinóptico se resume (II.7): su desarrollo irá en la Armonía (nº 99).
+   - El problema sinóptico se resume (II.7): su desarrollo está en la ruta El problema sinóptico de la Armonía (nº 99).
    - Cada libro enlaza con su estudio; hoy existen Hechos y Apocalipsis.
    ========================================================== */
 (() => {
@@ -505,10 +505,11 @@
           titulo: '¿Cuál se escribió primero?',
           a: { n: 'Marcos primero', t: 'La postura más extendida hoy, también entre muchos estudiosos evangélicos, sostiene que Marcos se escribió primero y que Mateo y Lucas lo usaron, junto con una colección de dichos de Jesús que ambos comparten (a la que se suele llamar Q, por la palabra alemana que significa fuente). Se apoya en que casi todo Marcos está en los otros dos, y en que Mateo y Lucas casi nunca coinciden entre sí contra Marcos.' },
           b: { n: 'Mateo primero', t: 'Los escritores cristianos de los primeros siglos, como Papías, Ireneo y Agustín, dicen que Mateo escribió primero, y así está ordenado en la Biblia. Algunos estudiosos actuales defienden esta tradición y piensan que Marcos resumió a Mateo y a Lucas, o que los tres dependen del testimonio oral de los apóstoles más que de un documento.' },
-          c: 'Este recurso no toma partido: las dos posturas son defendibles y ninguna doctrina depende de ellas. Las dos aceptan que los evangelios transmiten fielmente lo que Jesús hizo y enseñó, contado por testigos y por quienes los escucharon. Las teorías que niegan esa fidelidad no se siguen. La ruta sobre el problema sinóptico de la Armonía, en preparación, estudiará el tema con ejemplos.'
+          c: 'Este recurso no toma partido: las dos posturas son defendibles y ninguna doctrina depende de ellas. Las dos aceptan que los evangelios transmiten fielmente lo que Jesús hizo y enseñó, contado por testigos y por quienes los escucharon. Las teorías que niegan esa fidelidad no se siguen. La ruta El problema sinóptico, dentro de la Armonía de los evangelios, estudia el tema con ejemplos.'
         } },
         { h: 'Juan, el que completa' },
         'Juan conoce a los sinópticos y no repite lo que ellos ya contaron. Su independencia es un testimonio más: un cuarto testigo que confirma lo esencial (la muerte y resurrección de Jesús, la multiplicación de los panes, la entrada en Jerusalén) y agrega lo que los otros no dijeron.',
+        { ir: { t: 'Estudiar el problema sinóptico en la Armonía', a: '../../evangelios/#sinoptico/1' } },
         { ir: { t: 'Abrir la Armonía de los evangelios', a: '../../evangelios/' } }
       ],
       pensar: 'El Espíritu prometió recordar a los apóstoles todo lo que Jesús les dijo (Jn 14:26). ¿Qué confianza te da saber que el mismo Espíritu que los guió te ayuda hoy a entender lo que escribieron?'

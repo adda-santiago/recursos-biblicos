@@ -412,10 +412,13 @@
     document.querySelectorAll('#ar-columnas .co').forEach(s => s.replaceWith(document.createTextNode(s.textContent)));
     document.querySelectorAll('#ar-columnas .ar-col p').forEach(p => p.normalize());
   }
-  $('ar-coinc').onclick = () => {
-    coinc = !coinc;
+  function fijarCoinc(si) {
+    coinc = si;
     $('ar-coinc').setAttribute('aria-pressed', String(coinc));
     $('ar-coinc-ley').hidden = !coinc;
+  }
+  $('ar-coinc').onclick = () => {
+    fijarCoinc(!coinc);
     coinc ? resaltarCoincidencias() : quitarCoincidencias();
   };
 
@@ -495,7 +498,20 @@
   $('ar-tema').onclick = () => { raiz.dataset.theme = oscuro() ? 'light' : 'dark'; rotular(); };
   rotular();
 
-  window.addEventListener('hashchange', () => { const i = ORDEN.indexOf(location.hash.slice(1)); if (i >= 0 && i !== actual) ir(i, false); });
+  // Dirección: #pasaje abre ese pasaje; #pasaje/coincidencias lo abre con Coincidencias activado;
+  // #sinoptico o #sinoptico/n abre la ruta «El problema sinóptico» (página auxiliar sinoptico/, en el mismo marco)
+  function leerHash() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (/^sinoptico(\/\d+)?$/.test(h)) { location.replace('sinoptico/#' + (h.includes('/') ? h : 'sinoptico/1')); return -2; }
+    const [id, extra] = h.split('/');
+    if (extra === 'coincidencias') fijarCoinc(true);
+    return ORDEN.indexOf(id);
+  }
+  window.addEventListener('hashchange', () => {
+    const antes = coinc, i = leerHash();
+    if (i >= 0 && i !== actual) ir(i, false);
+    else if (i === actual && coinc && !antes) resaltarCoincidencias();
+  });
 
   // Divisor entre texto y comentario: parte en 2/3; se arrastra entre 40 % y 80 %; doble clic vuelve a 2/3
   const app = $('ar-app'), div = $('ar-divisor');
@@ -517,8 +533,9 @@
   });
 
   // Inicio
-  const h = location.hash.slice(1);
+  const inicial = leerHash();
+  if (inicial === -2) return;
   pintarLista();
-  ir(Math.max(0, ORDEN.indexOf(h)), false);
+  ir(Math.max(0, inicial), false);
   window.fypReset = () => ir(0);
 })();

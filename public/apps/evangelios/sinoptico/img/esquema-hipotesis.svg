@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820">
+<rect width="1200" height="820" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Cómo se explica la relación</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Cuatro propuestas; todas parten de la enseñanza de los testigos</text>
+<rect x="40" y="130" width="540" height="270" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#c9c6be" stroke-width="2"/>
+<text x="310" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Agustín (hacia 400)</text>
+<text x="310" y="192" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo, Marcos, Lucas</text>
+<rect x="620" y="130" width="540" height="270" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#c9c6be" stroke-width="2"/>
+<text x="890" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Griesbach · dos evangelios</text>
+<text x="890" y="192" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Mateo primero; Marcos combina</text>
+<rect x="40" y="420" width="540" height="270" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#c9c6be" stroke-width="2"/>
+<text x="310" y="456" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Dos fuentes (siglo XIX)</text>
+<text x="310" y="482" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Marcos primero, más Q</text>
+<rect x="620" y="420" width="540" height="270" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#c9c6be" stroke-width="2"/>
+<text x="890" y="456" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Farrer (1955)</text>
+<text x="890" y="482" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">Marcos primero, sin Q</text>
+<rect x="85.0" y="274" width="130" height="52" rx="10" fill="#2a6fb0" fill-opacity="0.18" stroke="#2a6fb0" stroke-width="2"/>
+<text x="150" y="307" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Mateo</text>
+<rect x="245.0" y="274" width="130" height="52" rx="10" fill="#b03a2e" fill-opacity="0.18" stroke="#b03a2e" stroke-width="2"/>
+<text x="310" y="307" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Marcos</text>
+<rect x="405.0" y="274" width="130" height="52" rx="10" fill="#2f7d4a" fill-opacity="0.18" stroke="#2f7d4a" stroke-width="2"/>
+<text x="470" y="307" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Lucas</text>
+<line x1="215" y1="300" x2="235.0" y2="300.0" stroke="#1f2430" stroke-width="3"/>
+<polygon points="243,300 230.1,305.5 230.1,294.5" fill="#1f2430"/>
+<line x1="375" y1="300" x2="395.0" y2="300.0" stroke="#1f2430" stroke-width="3"/>
+<polygon points="403,300 390.1,305.5 390.1,294.5" fill="#1f2430"/>
+<text x="310" y="370" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Cada uno conoce al anterior</text>
+<rect x="685.0" y="224" width="130" height="52" rx="10" fill="#2a6fb0" fill-opacity="0.18" stroke="#2a6fb0" stroke-width="2"/>
+<text x="750" y="257" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Mateo</text>
+<rect x="965.0" y="224" width="130" height="52" rx="10" fill="#2f7d4a" fill-opacity="0.18" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1030" y="257" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Lucas</text>
+<rect x="825.0" y="324" width="130" height="52" rx="10" fill="#b03a2e" fill-opacity="0.18" stroke="#b03a2e" stroke-width="2"/>
+<text x="890" y="357" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Marcos</text>
+<line x1="815" y1="250" x2="955.0" y2="250.0" stroke="#1f2430" stroke-width="3"/>
+<polygon points="963,250 950.1,255.5 950.1,244.5" fill="#1f2430"/>
+<line x1="780" y1="276" x2="843.4" y2="319.5" stroke="#1f2430" stroke-width="3"/>
+<polygon points="850,324 836.3,321.2 842.4,312.2" fill="#1f2430"/>
+<line x1="1000" y1="276" x2="936.6" y2="319.5" stroke="#1f2430" stroke-width="3"/>
+<polygon points="930,324 937.6,312.2 943.7,321.2" fill="#1f2430"/>
+<rect x="145.0" y="509" width="130" height="52" rx="10" fill="#b03a2e" fill-opacity="0.18" stroke="#b03a2e" stroke-width="2"/>
+<text x="210" y="542" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Marcos</text>
+<rect x="365.0" y="509" width="90" height="52" rx="10" fill="#c08a1e" fill-opacity="0.18" stroke="#c08a1e" stroke-width="2"/>
+<text x="410" y="542" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Q</text>
+<rect x="145.0" y="614" width="130" height="52" rx="10" fill="#2a6fb0" fill-opacity="0.18" stroke="#2a6fb0" stroke-width="2"/>
+<text x="210" y="647" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Mateo</text>
+<rect x="345.0" y="614" width="130" height="52" rx="10" fill="#2f7d4a" fill-opacity="0.18" stroke="#2f7d4a" stroke-width="2"/>
+<text x="410" y="647" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Lucas</text>
+<line x1="210" y1="561" x2="210.0" y2="604.0" stroke="#1f2430" stroke-width="3"/>
+<polygon points="210,612 204.5,599.1 215.5,599.1" fill="#1f2430"/>
+<line x1="250" y1="561" x2="362.7" y2="610.8" stroke="#1f2430" stroke-width="3"/>
+<polygon points="370,614 356.0,613.8 360.4,603.8" fill="#1f2430"/>
+<line x1="410" y1="561" x2="410.0" y2="604.0" stroke="#1f2430" stroke-width="3"/>
+<polygon points="410,612 404.5,599.1 415.5,599.1" fill="#1f2430"/>
+<line x1="375" y1="561" x2="262.3" y2="610.8" stroke="#1f2430" stroke-width="3"/>
+<polygon points="255,614 264.6,603.8 269.0,613.8" fill="#1f2430"/>
+<text x="510" y="540" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">colección</text>
+<text x="510" y="558" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">de dichos</text>
+<rect x="685.0" y="514" width="130" height="52" rx="10" fill="#b03a2e" fill-opacity="0.18" stroke="#b03a2e" stroke-width="2"/>
+<text x="750" y="547" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Marcos</text>
+<rect x="965.0" y="514" width="130" height="52" rx="10" fill="#2a6fb0" fill-opacity="0.18" stroke="#2a6fb0" stroke-width="2"/>
+<text x="1030" y="547" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Mateo</text>
+<rect x="825.0" y="614" width="130" height="52" rx="10" fill="#2f7d4a" fill-opacity="0.18" stroke="#2f7d4a" stroke-width="2"/>
+<text x="890" y="647" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Lucas</text>
+<line x1="815" y1="540" x2="955.0" y2="540.0" stroke="#1f2430" stroke-width="3"/>
+<polygon points="963,540 950.1,545.5 950.1,534.5" fill="#1f2430"/>
+<line x1="780" y1="566" x2="843.4" y2="609.5" stroke="#1f2430" stroke-width="3"/>
+<polygon points="850,614 836.3,611.2 842.4,602.2" fill="#1f2430"/>
+<line x1="1000" y1="566" x2="936.6" y2="609.5" stroke="#1f2430" stroke-width="3"/>
+<polygon points="930,614 937.6,602.2 943.7,611.2" fill="#1f2430"/>
+<rect x="40" y="716" width="1120" height="60" rx="10" fill="#c08a1e" fill-opacity="0.16" stroke="#c08a1e" stroke-width="2"/>
+<text x="600" y="754" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal">Debajo de todas: la enseñanza oral de los apóstoles y testigos (Lc 1:2; Hch 2:42)</text>
+</svg>
