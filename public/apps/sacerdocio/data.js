@@ -452,7 +452,7 @@
       pensar: 'Jesús es un sumo sacerdote que puede compadecerse de nuestras debilidades (He 4:15). ¿Qué debilidad o lucha puedes llevarle hoy con confianza?'
     },
     {
-      id: 'un-sacrificio', n: 'Un sacrificio, una vez para siempre', ref: 'Levítico 16; Hebreos 9:6-14, 24-28; 10:1-18', fecha: 30,
+      id: 'un-sacrificio', n: 'Un sacrificio, una vez para siempre', ref: 'Levítico 16; Hebreos 9:6-14, 24-28; 10:1-18', fecha: 33,
       visual: [ { tipo: 'tabla', titulo: 'El Día de la Expiación', tabla: {
         titulo: 'El Día de la Expiación y la obra de Cristo',
         cab: ['El Día de la Expiación (Lv 16)', 'La obra de Cristo (Hebreos 9–10)'],
@@ -482,7 +482,7 @@
       pensar: 'Cristo, «con una sola ofrenda hizo perfectos para siempre a los santificados» (He 10:14). ¿Vives con la seguridad de que su sacrificio es suficiente, o sigues tratando de ganar el perdón de Dios?'
     },
     {
-      id: 'velo', n: 'El velo rasgado', ref: 'Éxodo 26:31-33; Mateo 27:50-51; Hebreos 10:19-22', fecha: 30,
+      id: 'velo', n: 'El velo rasgado', ref: 'Éxodo 26:31-33; Mateo 27:50-51; Hebreos 10:19-22', fecha: 33,
       visual: [ { tipo: 'imagen', titulo: 'Imagen', src: 'img/sac-velo.webp', alt: 'Dentro del templo de Jerusalén en penumbra, el enorme velo de azul, púrpura y carmesí, bordado con querubines, se rasga de arriba abajo, dejando ver el lugar santísimo vacío mientras una luz intensa entra por la abertura y los sacerdotes retroceden asombrados', pie: '«El velo del templo se rasgó en dos, de arriba abajo» (Mt 27:51).', origen: 'ia' } ],
       texto: [
         'Entre el lugar santo y el lugar santísimo del tabernáculo y del templo colgaba un velo, una cortina gruesa de azul, púrpura, carmesí y lino torcido, con querubines bordados (Éx 26:31). Separaba la presencia de Dios del resto del santuario. Solo el sumo sacerdote podía cruzarlo, una vez al año.',

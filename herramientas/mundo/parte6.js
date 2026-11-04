@@ -28,7 +28,7 @@
       pensar: 'Jesús pasó treinta años en una aldea pequeña y sin fama, y sus propios vecinos no lo reconocieron. ¿Qué te enseña esto sobre la manera en que Dios obra, muchas veces en lo pequeño y lo escondido?'
     },
     {
-      id: 'maestro', n: 'Un maestro sin escuela: «Rabí», discípulos y parábolas', ref: 'Juan 1:38; Juan 7:15; Mateo 5:1-2; Mateo 7:28-29; Marcos 3:13-15; Mateo 13:34; Lucas 9:57-62', fecha: [27, 30],
+      id: 'maestro', n: 'Un maestro sin escuela: «Rabí», discípulos y parábolas', ref: 'Juan 1:38; Juan 7:15; Mateo 5:1-2; Mateo 7:28-29; Marcos 3:13-15; Mateo 13:34; Lucas 9:57-62', fecha: [29, 33],
       visual: [
         img('mj-sermon-ladera.webp', 'En una ladera verde junto al mar de Galilea, en primavera, Jesús, visto de espaldas, está sentado sobre una roca enseñando a sus discípulos sentados cerca de él, mientras una gran multitud de galileos anónimos, familias, ancianos y niños, escucha sentada en la hierba; abajo brilla el lago', '«Viendo la multitud, subió al monte; y sentándose, vinieron a él sus discípulos» (Mateo 5:1). Recreación.'),
         tabla({
@@ -66,7 +66,7 @@
       pensar: 'Jesús llamó a sus discípulos para que estuvieran con Él antes de enviarlos. ¿Cuánto tiempo pasas con Jesús, en su Palabra y en oración, antes de intentar servirle?'
     },
     {
-      id: 'ley', n: 'Jesús y la ley: «no he venido para abrogar»', ref: 'Mateo 5:17-48; Mateo 22:35-40; Marcos 7:18-19; Romanos 10:4; Gálatas 4:4-5', fecha: [27, 30],
+      id: 'ley', n: 'Jesús y la ley: «no he venido para abrogar»', ref: 'Mateo 5:17-48; Mateo 22:35-40; Marcos 7:18-19; Romanos 10:4; Gálatas 4:4-5', fecha: [29, 33],
       visual: [
         cita('Mateo 5:17-20', '@@mt/5/17-20'),
         tabla({
@@ -101,7 +101,7 @@
       pensar: 'Jesús enseñó que Dios mira el corazón y no solo los actos. Cuando lees Mateo 5, ¿qué te revela sobre tu propio corazón, y qué te enseña sobre tu necesidad de la gracia de Cristo?'
     },
     {
-      id: 'frente-grupos', n: 'Jesús frente a cada grupo', ref: 'Mateo 22:15-46; Marcos 12:13-34; Lucas 20:20-26; Romanos 13:1-7', fecha: [30, 33],
+      id: 'frente-grupos', n: 'Jesús frente a cada grupo', ref: 'Mateo 22:15-46; Marcos 12:13-34; Lucas 20:20-26; Romanos 13:1-7', fecha: [32, 33],
       visual: [
         img('mj-tributo-cesar.webp', 'En un pórtico del templo de Jerusalén, Jesús, visto de espaldas, sostiene en alto un denario de plata frente a un grupo de fariseos con flecos azules en sus mantos y de herodianos con ropas finas de cortesanos, que miran la moneda con expresión tensa; alrededor, la multitud escucha', '«¿De quién es esta imagen, y la inscripción?» (Mateo 22:20). Recreación.'),
         tabla({
@@ -131,7 +131,7 @@
       pensar: 'Jesús enseñó a dar al gobierno lo que le corresponde y a Dios lo que le pertenece. Si llevas la imagen de Dios, ¿qué significa en tu vida dar «a Dios lo que es de Dios»?'
     },
     {
-      id: 'barreras', n: 'Barreras que Jesús cruzó', ref: 'Marcos 1:40-42; Juan 4:7-9, 27; Lucas 7:36-50; Mateo 8:5-13; Marcos 7:24-30; Lucas 19:1-10; Efesios 2:13-16', fecha: [27, 30],
+      id: 'barreras', n: 'Barreras que Jesús cruzó', ref: 'Marcos 1:40-42; Juan 4:7-9, 27; Lucas 7:36-50; Mateo 8:5-13; Marcos 7:24-30; Lucas 19:1-10; Efesios 2:13-16', fecha: [29, 33],
       visual: [
         img('../dios-y-la-trinidad/img/samaritana.webp', 'Junto al pozo de Jacob, al mediodía, una mujer samaritana con un cántaro escucha a Jesús, que está sentado en el brocal y se ve de espaldas; al fondo, el monte Gerizim', 'Una mujer, samaritana y con una vida marcada por el pecado: tres barreras que Jesús cruzó junto al pozo de Jacob (Juan 4). Recreación.'),
         tabla({
@@ -160,7 +160,7 @@
       pensar: 'Jesús cruzó las barreras que separaban a las personas, sin dejar de ser santo. ¿Qué barreras de cultura, clase social, nacionalidad o prejuicio te cuesta cruzar para llevar el amor de Cristo?'
     },
     {
-      id: 'ultima-semana', n: 'La última semana: Pascua, Sanedrín y Pilato', ref: 'Marcos 14:1-2; Juan 18:28; Lucas 23:1-25; Mateo 27:24-25; Hechos 2:23, 36; Hechos 3:13-17; Hechos 4:27-28; Isaías 53:5', fecha: [30, 33],
+      id: 'ultima-semana', n: 'La última semana: Pascua, Sanedrín y Pilato', ref: 'Marcos 14:1-2; Juan 18:28; Lucas 23:1-25; Mateo 27:24-25; Hechos 2:23, 36; Hechos 3:13-17; Hechos 4:27-28; Isaías 53:5', fecha: 33,
       visual: [
         esq('esquema-semana.svg', 'Esquema de la última semana de Jesús, de domingo a domingo, y del viernes hora por hora, del Sanedrín al amanecer hasta la sepultura antes de la puesta del sol', 'La última semana de Jesús, día por día, y el viernes hora por hora.'),
         img('mj-antipas-jesus.webp', 'En un salón del palacio asmoneo de Jerusalén, Herodes Antipas, de unos cincuenta años, sentado en un trono, se ríe con desprecio mientras sus soldados ponen sobre los hombros de Jesús, que está de pie, atado y sereno, visto de espaldas, una ropa espléndida y brillante; los principales sacerdotes acusan con gestos al fondo', '«Herodes con sus soldados le menospreció y escarneció, vistiéndole de una ropa espléndida» (Lucas 23:11). Recreación.'),
@@ -175,12 +175,13 @@
         { h: '¿Quién mató a Jesús?' },
         'El Nuevo Testamento responde de varias maneras, y todas son verdad. Pedro dijo a los habitantes de Jerusalén: «a este Jesús a quien vosotros crucificasteis, Dios le ha hecho Señor y Cristo» (Hch 2:36). Los líderes y la multitud de Jerusalén que pidieron su muerte fueron responsables, y Pedro los llamó al arrepentimiento. Pero en el mismo discurso agregó: «sé que por ignorancia lo habéis hecho, como también vuestros gobernantes» (Hch 3:17), y les ofreció el perdón. La iglesia, en oración, dijo que se unieron contra Jesús «Herodes y Poncio Pilato, con los gentiles y el pueblo de Israel» (Hch 4:27): judíos y gentiles juntos.',
         'Y detrás de todos estaba algo más profundo. Jesús fue entregado «por el determinado consejo y anticipado conocimiento de Dios» (Hch 2:23), y dio su vida voluntariamente: «Nadie me la quita, sino que yo de mí mismo la pongo» (Jn 10:18). Murió por los pecados de la humanidad entera, judíos y gentiles: «él herido fue por nuestras rebeliones, molido por nuestros pecados» (Is 53:5). Cada persona que ha pecado es parte de la causa de la cruz.',
-        'Por eso es un grave error, y una injusticia que causó siglos de persecución, culpar de la muerte de Jesús a los judíos de otras épocas o al pueblo judío en general. Los primeros creyentes eran judíos, el mismo Jesús oró por quienes lo crucificaban: «Padre, perdónalos, porque no saben lo que hacen» (Lc 23:34), y el evangelio se ofreció primero en Jerusalén.'
+        'Por eso es un grave error, y una injusticia que causó siglos de persecución, culpar de la muerte de Jesús a los judíos de otras épocas o al pueblo judío en general. Los primeros creyentes eran judíos, el mismo Jesús oró por quienes lo crucificaban: «Padre, perdónalos, porque no saben lo que hacen» (Lc 23:34), y el evangelio se ofreció primero en Jerusalén.',
+        ir('Ver la Cronología del Nuevo Testamento: la última semana, día por día', '../../cronologia-nuevo-testamento/#semana/1')
       ],
       pensar: 'Jesús murió por los pecados de quienes lo crucificaron y también por los tuyos. ¿Has reconocido que tus pecados también llevaron a Jesús a la cruz, y has recibido el perdón que Él ofreció desde allí?'
     },
     {
-      id: 'crucificado', n: 'Un Mesías crucificado: «tropezadero» para los judíos', ref: 'Deuteronomio 21:22-23; Gálatas 3:13; 1 Corintios 1:22-24; Lucas 24:19-27; Hechos 5:30-31; 1 Pedro 2:24', fecha: [30, 60],
+      id: 'crucificado', n: 'Un Mesías crucificado: «tropezadero» para los judíos', ref: 'Deuteronomio 21:22-23; Gálatas 3:13; 1 Corintios 1:22-24; Lucas 24:19-27; Hechos 5:30-31; 1 Pedro 2:24', fecha: [33, 60],
       visual: [
         foto('foto-talon-yehohanan.jpg', 'Réplica de un hueso del talón humano atravesado por un clavo de hierro doblado, con restos de madera, conservado en una vitrina de museo', 'Réplica del talón de Yehohanán, un judío crucificado en el siglo I, hallado en 1968 en una tumba de Jerusalén con el clavo todavía en el hueso. Es la única prueba arqueológica directa de una crucifixión en la tierra de Israel. Museo de Israel.', 'Licencia por verificar'),
         img('../interpretar-biblia/img/camino-a-emaus.webp', 'Jesús resucitado camina de espaldas junto a dos discípulos por un camino de tierra entre colinas al atardecer, explicándoles las Escrituras', '«¿No era necesario que el Cristo padeciera estas cosas, y que entrara en su gloria?» (Lucas 24:26). Recreación.'),

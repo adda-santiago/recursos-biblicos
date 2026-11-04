@@ -73,7 +73,7 @@ def reinados():
     # hechos del Nuevo Testamento
     yb = Y0 + DY * len(filas) + 30
     o.append(t(X0 - 16, yb + 30, 'Nuevo Testamento', 19, ACC, anchor='end', weight='bold'))
-    hechos = [(-5, 'Nace Jesús', 0), (28, 'Ministerio de Jesús', 1), (30, 'Cruz y resurrección', 2), (44, 'Hechos 12', 0),
+    hechos = [(-5, 'Nace Jesús', 0), (30, 'Ministerio de Jesús', 1), (33, 'Cruz y resurrección', 2), (44, 'Hechos 12', 0),
               (59, 'Pablo ante Agripa', 1), (70, 'Cae el templo', 2)]
     for a, s, fila in hechos:
         x = X(a)

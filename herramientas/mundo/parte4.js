@@ -100,7 +100,7 @@
       pensar: 'Jesús tenía la costumbre de ir a la sinagoga cada día de reposo, aunque conocía las fallas de sus dirigentes. ¿Qué lugar ocupa en tu vida la reunión con el pueblo de Dios para escuchar su Palabra?'
     },
     {
-      id: 'sabado', n: 'El día de reposo y sus disputas', ref: 'Marcos 2:23-28; Marcos 3:1-6; Lucas 13:10-17; Juan 5:8-18; Juan 9:13-16; Mateo 12:5-8; Hechos 1:12', fecha: [27, 30],
+      id: 'sabado', n: 'El día de reposo y sus disputas', ref: 'Marcos 2:23-28; Marcos 3:1-6; Lucas 13:10-17; Juan 5:8-18; Juan 9:13-16; Mateo 12:5-8; Hechos 1:12', fecha: [29, 33],
       visual: [
         img('mj-espigas-sabado.webp', 'Un sábado de primavera, en un campo de trigo maduro de Galilea, Pedro y Juan, junto a otros discípulos, arrancan espigas, las frotan entre las manos y comen los granos mientras caminan; Jesús camina adelante, visto de espaldas, y en el borde del campo dos fariseos con flecos azules en sus mantos los señalan con desaprobación', '«Mira, ¿por qué hacen en el día de reposo lo que no es lícito?» (Marcos 2:24). Recreación.'),
         tabla({

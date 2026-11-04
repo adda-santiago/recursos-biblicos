@@ -5,7 +5,7 @@
   // ================== RUTA VII. De Jesús al año 70 ==================
   const despues = [
     {
-      id: 'iglesia-jerusalen', n: 'La iglesia de Jerusalén dentro del judaísmo', ref: 'Hechos 2:41-47; Hechos 3:1; Hechos 5:12-14; Hechos 6:1-9; Hechos 6:7; Hechos 24:5, 14', fecha: [30, 44],
+      id: 'iglesia-jerusalen', n: 'La iglesia de Jerusalén dentro del judaísmo', ref: 'Hechos 2:41-47; Hechos 3:1; Hechos 5:12-14; Hechos 6:1-9; Hechos 6:7; Hechos 24:5, 14', fecha: [33, 44],
       visual: [
         img('../hechos/img/hechos-portico-salomon.webp', 'Los apóstoles enseñan a una multitud en el pórtico de Salomón, una larga columnata de piedra en el atrio del templo de Jerusalén, con enfermos traídos en camillas a su alrededor', 'Los apóstoles en el pórtico de Salomón (Hechos 5:12-16). Recreación.'),
         tabla({
@@ -156,7 +156,7 @@
   delete window.__MJ;
   const LINEA = { desde: -8, hasta: 75, hitos: [
     { a: -4, t: 'Muere Herodes' }, { a: 6, t: 'Judea, provincia' }, { a: [26, 36], t: 'Pilato' },
-    { a: [27, 30], t: 'Ministerio de Jesús' }, { a: [41, 44], t: 'Agripa I' }, { a: 66, t: 'Rebelión' }, { a: 70, t: 'Cae el templo' }
+    { a: [29, 33], t: 'Ministerio de Jesús' }, { a: [41, 44], t: 'Agripa I' }, { a: 66, t: 'Rebelión' }, { a: 70, t: 'Cae el templo' }
   ] };
   window.RUTA_DATA = {
     titulo: 'El mundo judío en tiempos de Jesús',

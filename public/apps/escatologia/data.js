@@ -32,7 +32,7 @@
       pensar: 'Pablo llama al regreso de Cristo «la esperanza bienaventurada» (Tit 2:13). ¿Piensas en la venida del Señor con esperanza o con temor? ¿Qué te ayudaría a esperarla con gozo?'
     },
     {
-      id: 'interpretar', n: 'Cómo interpretar la profecía', ref: 'Miqueas 5:2; Isaías 7:14; Zacarías 9:9; Salmo 22:16-18; Lucas 24:25-27, 44', fecha: 30,
+      id: 'interpretar', n: 'Cómo interpretar la profecía', ref: 'Miqueas 5:2; Isaías 7:14; Zacarías 9:9; Salmo 22:16-18; Lucas 24:25-27, 44', fecha: 33,
       visual: [
         { tipo: 'tabla', titulo: 'Cumplidas', tabla: {
           titulo: 'Profecías de la primera venida, cumplidas al pie de la letra',

@@ -657,7 +657,7 @@
   ];
 
   const LINEA = { desde: 20, hasta: 165, hitos: [
-    { a: 30, t: 'Pentecostés' }, { a: 54, t: 'Pablo en Éfeso' }, { a: 70, t: 'Cae Jerusalén' },
+    { a: 33, t: 'Pentecostés' }, { a: 54, t: 'Pablo en Éfeso' }, { a: 70, t: 'Cae Jerusalén' },
     { a: 95, t: 'Patmos, bajo Domiciano' }, { a: 155, t: 'Martirio de Policarpo' }
   ] };
 

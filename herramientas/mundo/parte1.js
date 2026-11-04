@@ -105,7 +105,8 @@
         { h: 'El sumo sacerdote y el Sanedrín' },
         'Dentro de Judea, los asuntos religiosos y buena parte del gobierno diario quedaban en manos del sumo sacerdote y del Sanedrín, el consejo de Jerusalén. Pero el sumo sacerdote ya no lo era de por vida: lo nombraba y lo quitaba el prefecto romano. El consejo podía juzgar según la ley, pero no ejecutar una sentencia de muerte sin el gobernador: «A nosotros no nos está permitido dar muerte a nadie» (Jn 18:31).',
         'Esta red de poderes explica por qué Jesús pasó por tantos tribunales en una sola noche y una mañana: Anás, Caifás, el Sanedrín, Pilato, Herodes y otra vez Pilato. La ruta II la estudia uno por uno.',
-        ir('Ver la ruta II: el poder', '#poder/1')
+        ir('Ver la ruta II: el poder', '#poder/1'),
+        ir('Ver la Cronología del Nuevo Testamento: los gobernantes y las fechas', '../../cronologia-nuevo-testamento/#fechar/4')
       ],
       pensar: 'Lucas sitúa el comienzo del evangelio entre emperadores, gobernadores y sumos sacerdotes, pero «vino palabra de Dios a Juan» en el desierto (Lc 3:2). ¿Qué te enseña que Dios hable por medio de alguien que no tenía ningún poder político?'
     },

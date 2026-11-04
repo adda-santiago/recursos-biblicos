@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+<rect width="1200" height="700" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Las setenta semanas de Daniel 9</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Sesenta y nueve semanas hasta el Mesías Príncipe, y una semana todavía futura</text>
+<rect x="90" y="250" width="140" height="60" rx="6" fill="#5a6b3f"/>
+<text x="160" y="276" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">7 semanas</text>
+<text x="160" y="298" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">49 años</text>
+<rect x="234" y="250" width="526" height="60" rx="6" fill="#2f6f9e"/>
+<text x="495" y="276" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#fff" text-anchor="middle" font-weight="bold">62 semanas</text>
+<text x="495" y="298" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="normal">434 años</text>
+<line x1="766" y1="280" x2="894" y2="280" stroke="#6b7080" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="830" y="236" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="bold">Paréntesis</text>
+<rect x="900" y="250" width="210" height="60" rx="6" fill="#fff" stroke="#9e2b25" stroke-width="3"/>
+<text x="1005" y="276" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold">Semana 70</text>
+<text x="1005" y="298" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="middle" font-weight="normal">7 años: la tribulación</text>
+<line x1="90" y1="210" x2="90" y2="350" stroke="#1f2430" stroke-width="2"/>
+<text x="90" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Nisán del 444 a.C.</text>
+<text x="90" y="374" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal">Artajerjes ordena edificar Jerusalén (Neh 2:1-8)</text>
+<line x1="760" y1="210" x2="760" y2="350" stroke="#9e2b25" stroke-width="2"/>
+<text x="760" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#9e2b25" text-anchor="middle" font-weight="bold">Marzo del 33 d.C.</text>
+<text x="760" y="374" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">El Mesías Príncipe; luego «se quitará la vida al Mesías»</text>
+<rect x="160" y="430" width="880" height="150" rx="10" fill="#fff" stroke="#c9c6be" stroke-width="1.5"/>
+<text x="600" y="466" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">69 semanas × 7 años = 483 años proféticos</text>
+<text x="600" y="498" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">483 × 360 días = 173.880 días (años de 360 días: Dn 7:25; Ap 12:6, 14)</text>
+<text x="600" y="530" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="normal">Del 1 de nisán del 444 a.C. al 30 de marzo del 33 d.C. (cálculo de H. Hoehner)</text>
+<text x="600" y="560" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Entre la semana 69 y la 70: la destrucción de Jerusalén en el 70 (Dn 9:26) y la edad de la iglesia</text>
+<text x="600" y="640" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Otra lectura cuenta desde el decreto a Esdras (458 a.C.) con años solares y llega al 26–27 d.C.</text>
+</svg>

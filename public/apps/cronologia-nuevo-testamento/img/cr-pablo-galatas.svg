@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820">
+<rect width="1200" height="820" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los años de Gálatas, al lado de Hechos</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">De la conversión de Pablo al concilio de Jerusalén</text>
+<line x1="150" y1="186" x2="1150" y2="186" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="191" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">34 d.C.</text>
+<line x1="150" y1="258" x2="1150" y2="258" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="263" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">36 d.C.</text>
+<line x1="150" y1="329" x2="1150" y2="329" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="334" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">38 d.C.</text>
+<line x1="150" y1="401" x2="1150" y2="401" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="406" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">40 d.C.</text>
+<line x1="150" y1="473" x2="1150" y2="473" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="478" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">42 d.C.</text>
+<line x1="150" y1="545" x2="1150" y2="545" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="550" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">44 d.C.</text>
+<line x1="150" y1="616" x2="1150" y2="616" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="621" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">46 d.C.</text>
+<line x1="150" y1="688" x2="1150" y2="688" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="693" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">48 d.C.</text>
+<line x1="150" y1="760" x2="1150" y2="760" stroke="#c9c6be" stroke-width="1"/>
+<text x="130" y="765" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">50 d.C.</text>
+<text x="420" y="132" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f7d4f" text-anchor="middle" font-weight="bold">Hechos</text>
+<text x="880" y="132" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f6f9e" text-anchor="middle" font-weight="bold">Gálatas</text>
+<circle cx="300" cy="204" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="202" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Conversión en el camino a Damasco</text>
+<text x="316" y="221" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 9:1-19</text>
+<circle cx="300" cy="240" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="238" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Predica en Damasco</text>
+<text x="316" y="257" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 9:20-22</text>
+<circle cx="300" cy="294" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="292" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Huye en un canasto; visita a Jerusalén</text>
+<text x="316" y="311" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 9:23-29</text>
+<circle cx="300" cy="344" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="342" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Enviado a Tarso</text>
+<text x="316" y="361" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 9:30</text>
+<circle cx="300" cy="563" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="561" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Bernabé lo lleva a Antioquía</text>
+<text x="316" y="580" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 11:25-26</text>
+<circle cx="300" cy="634" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="632" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Visita con la ofrenda</text>
+<text x="316" y="651" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 11:30; 12:25</text>
+<circle cx="300" cy="670" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="668" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Primer viaje</text>
+<text x="316" y="687" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 13–14</text>
+<circle cx="300" cy="724" r="9" fill="#2f7d4f" stroke="#f6f3ec" stroke-width="2"/>
+<text x="316" y="722" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">El concilio</text>
+<text x="316" y="741" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Hch 15</text>
+<circle cx="760" cy="204" r="9" fill="#2f6f9e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="776" y="202" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Dios me reveló a su Hijo</text>
+<text x="776" y="221" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Gá 1:15-16</text>
+<circle cx="760" cy="240" r="9" fill="#2f6f9e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="776" y="238" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Arabia y otra vez Damasco</text>
+<text x="776" y="257" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Gá 1:17</text>
+<circle cx="760" cy="294" r="9" fill="#2f6f9e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="776" y="292" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">«Pasados tres años»: quince días con Pedro</text>
+<text x="776" y="311" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Gá 1:18-19</text>
+<circle cx="760" cy="347" r="9" fill="#2f6f9e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="776" y="345" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">Siria y Cilicia</text>
+<text x="776" y="364" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Gá 1:21</text>
+<circle cx="760" cy="670" r="9" fill="#2f6f9e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="776" y="668" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="start" font-weight="bold">«Pasados catorce años»: otra vez a Jerusalén</text>
+<text x="776" y="687" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal" font-style="italic">Gá 2:1-10</text>
+<path d="M740 204 C700 204, 700 294, 740 294" fill="none" stroke="#2f6f9e" stroke-width="2"/>
+<text x="690" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2f6f9e" text-anchor="end" font-weight="bold">3 años</text>
+<path d="M740 204 C640 258, 640 616, 740 670" fill="none" stroke="#2f6f9e" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="640" y="478" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2f6f9e" text-anchor="end" font-weight="bold">14 años</text>
+<text x="600" y="798" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«Pasados catorce años» se cuenta desde la conversión: la visita de Gálatas 2 es la de la ofrenda o la del concilio.</text>
+</svg>

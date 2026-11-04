@@ -1250,7 +1250,7 @@
           ['El cuerno pequeño profana el santuario', 'Dn 8:9-14; 11:31', 'Antíoco IV', '167 a.C.'],
           ['El santuario purificado', 'Dn 8:14', 'Judas Macabeo', '164 a.C.'],
           ['Un cuarto reino de hierro', 'Dn 2:40; 7:7', 'Roma', '146 a.C.–'],
-          ['La muerte del Mesías', 'Dn 9:26', 'La crucifixión de Jesús', 'c. 30–33 d.C.'],
+          ['La muerte del Mesías', 'Dn 9:26', 'La crucifixión de Jesús', '33 d.C.'],
           ['La ciudad y el santuario destruidos', 'Dn 9:26', 'Roma destruye Jerusalén', '70 d.C.']
         ]
       } } ],
@@ -1329,7 +1329,7 @@
   /* ---------------- Ruta IX · Daniel en el Nuevo Testamento ---------------- */
   const nt = [
     {
-      id: 'n-hijo-hombre', n: 'Jesús, el Hijo del Hombre', ref: 'Daniel 7:13-14; Mateo 16:27-28; 24:30; 26:63-66; Hechos 7:56; Apocalipsis 1:7, 13', fecha: 30,
+      id: 'n-hijo-hombre', n: 'Jesús, el Hijo del Hombre', ref: 'Daniel 7:13-14; Mateo 16:27-28; 24:30; 26:63-66; Hechos 7:56; Apocalipsis 1:7, 13', fecha: 33,
       visual: [ { tipo: 'imagen', titulo: 'Imagen', src: 'img/dan-anciano-dias.webp', alt: 'El Anciano de días en su trono de fuego, y uno como un hijo de hombre que viene con las nubes del cielo', pie: 'El Hijo del Hombre ante el Anciano de días (Dn 7:13).', origen: 'ia' } ],
       texto: [
         'Esta ruta muestra cómo Daniel se cumple y se retoma en el Nuevo Testamento. El primer y más importante punto de contacto es el título que Jesús usó para sí mismo.',
@@ -1344,13 +1344,13 @@
       pensar: 'Jesús se presentó como el Hijo del Hombre que recibirá un reino eterno, y por eso fue condenado (Mt 26:64-66). ¿Reconoces a Jesús como el Rey al que todos los pueblos servirán?'
     },
     {
-      id: 'n-abominacion', n: 'La abominación desoladora', ref: 'Daniel 9:27; 11:31; 12:11; Mateo 24:15-21; Marcos 13:14; Lucas 21:20-24; 2 Tesalonicenses 2:3-4', fecha: 30,
+      id: 'n-abominacion', n: 'La abominación desoladora', ref: 'Daniel 9:27; 11:31; 12:11; Mateo 24:15-21; Marcos 13:14; Lucas 21:20-24; 2 Tesalonicenses 2:3-4', fecha: 33,
       visual: [ { tipo: 'tabla', titulo: 'Tres momentos', tabla: {
         titulo: 'La abominación desoladora en la historia y en la profecía',
         cab: ['Momento', 'Pasaje', 'Qué ocurre'],
         filas: [
           ['Antíoco IV (167 a.C.)', 'Dn 11:31; 1 Macabeos 1:54', 'Altar a Zeus en el templo: el anticipo'],
-          ['Jesús la anuncia (c. 30 d.C.)', 'Mt 24:15', 'Todavía futura, después de Antíoco'],
+          ['Jesús la anuncia (33 d.C.)', 'Mt 24:15', 'Todavía futura, después de Antíoco'],
           ['Roma destruye el templo (70 d.C.)', 'Lc 21:20-24', 'Cumplimiento cercano: Jerusalén rodeada de ejércitos'],
           ['El anticristo (futuro)', 'Dn 9:27; 12:11; 2 Ts 2:4', 'Cumplimiento final en la mitad de la semana setenta']
         ]

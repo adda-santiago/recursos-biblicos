@@ -276,7 +276,7 @@
       pensar: 'Augusto creía que gobernaba el mundo, pero su edicto sirvió para cumplir una profecía de Dios (Mi 5:2). ¿Cómo has visto a Dios usar circunstancias que no controlabas para guiarte a su propósito?'
     },
     {
-      id: 'jesus-pilato', n: 'Jesús ante Roma', ref: 'Mateo 22:15-22; 27:11-26; Juan 18:28–19:22', fecha: 30,
+      id: 'jesus-pilato', n: 'Jesús ante Roma', ref: 'Mateo 22:15-22; 27:11-26; Juan 18:28–19:22', fecha: 33,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/roma-jesus-pilato.webp', foco: '45% 50%', alt: 'Jesús, de pie con las manos atadas, ante Poncio Pilato sentado en su tribunal en el pretorio de Jerusalén', pie: 'Jesús ante Pilato (Jn 18:33-38).', origen: 'ia' },
         { tipo: 'cita', titulo: 'Pasaje', texto: 'Mi reino no es de este mundo; si mi reino fuera de este mundo, mis servidores pelearían para que yo no fuera entregado a los judíos.', ref: 'Juan 18:36' }
@@ -290,7 +290,7 @@
       pensar: 'Pilato tenía el poder de Roma, pero Jesús le dijo que esa autoridad le había sido dada «de arriba» (Jn 19:11). ¿Qué paz te da saber que ningún poder humano está por encima de Dios?'
     },
     {
-      id: 'iglesia', n: 'La iglesia en el imperio', ref: 'Hechos 10; 16:37; 22:25-29; 25:11; 27–28; Filipenses 1:12-14; 4:22', fecha: [30, 64],
+      id: 'iglesia', n: 'La iglesia en el imperio', ref: 'Hechos 10; 16:37; 22:25-29; 25:11; 27–28; Filipenses 1:12-14; 4:22', fecha: [33, 64],
       visual: [
         { tipo: 'mapa', titulo: 'Mapa', estado: { view: [[30.5, 10], [43.5, 37.5]], capas: ['roma-14'], lugares: ['cesarea', 'creta', 'malta', 'puteoli', 'roma'], trazos: ['viaje-roma'] } },
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/roma-naufragio.webp', alt: 'Un barco de carga romano lucha contra una gran tormenta en el Mediterráneo, con las velas rasgadas y los marineros echando la carga al mar', pie: 'La tempestad y el naufragio de Pablo (Hch 27).', origen: 'ia' }
@@ -368,13 +368,13 @@
       { id: 'historia', grupo: 'El imperio romano', n: 'Historia', info: 'De la república al imperio, Judea, los emperadores, la destrucción de Jerusalén y la caída',
         linea: { desde: -200, hasta: 500, hitos: [
           { a: -146, t: 'Cartago' }, { a: -63, t: 'Pompeyo' }, { a: -27, t: 'Augusto' },
-          { a: 30, t: 'La cruz' }, { a: 70, t: 'Jerusalén' }, { a: 313, t: 'Constantino' }, { a: 476, t: 'Fin de Occidente' }
+          { a: 33, t: 'La cruz' }, { a: 70, t: 'Jerusalén' }, { a: 313, t: 'Constantino' }, { a: 476, t: 'Fin de Occidente' }
         ] },
         estaciones: historia },
       { id: 'sociedad', grupo: 'El imperio romano', n: 'Sociedad, ley y religión', info: 'La vida, la ciudadanía, el ejército, el culto al emperador y el legado', estaciones: sociedad },
       { id: 'biblia', grupo: 'El imperio romano', n: 'Roma y la Biblia', info: 'Daniel, el nacimiento y la muerte de Jesús, la iglesia en el imperio, el año 70 y el Apocalipsis',
         linea: { desde: -80, hasta: 130, hitos: [
-          { a: -63, t: 'Pompeyo' }, { a: -5, t: 'Nace Jesús' }, { a: 30, t: 'La cruz' },
+          { a: -63, t: 'Pompeyo' }, { a: -5, t: 'Nace Jesús' }, { a: 33, t: 'La cruz' },
           { a: 60, t: 'Pablo en Roma' }, { a: 70, t: 'Cae el templo' }, { a: 95, t: 'Apocalipsis' }
         ] },
         estaciones: biblia }

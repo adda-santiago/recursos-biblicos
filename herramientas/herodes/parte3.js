@@ -98,7 +98,7 @@
       pensar: 'Antipas escuchaba a Juan con gusto, pero no se arrepintió, y terminó cediendo ante la presión de los demás. ¿Hay algo que Dios te ha mostrado y que todavía postergas por lo que dirán los que te rodean?'
     },
     {
-      id: 'jesus', n: 'Antipas y Jesús: «aquella zorra»', ref: 'Lucas 9:7-9; Lucas 13:31-33; Marcos 8:15; Lucas 23:6-12; Hechos 4:27', fecha: [29, 30],
+      id: 'jesus', n: 'Antipas y Jesús: «aquella zorra»', ref: 'Lucas 9:7-9; Lucas 13:31-33; Marcos 8:15; Lucas 23:6-12; Hechos 4:27', fecha: [29, 33],
       visual: [
         img('../mundo-judio/img/mj-antipas-jesus.webp', 'En una sala del palacio asmoneo de Jerusalén, Herodes Antipas, sentado, observa con curiosidad burlona a Jesús, que está de pie en silencio, visto de espaldas, mientras soldados de Antipas lo rodean y sacerdotes lo acusan', 'Jesús ante Herodes Antipas en Jerusalén (Lucas 23:8-11). Recreación.'),
         cita('Lucas 23:6-12', '@@lc/23/6-12'),

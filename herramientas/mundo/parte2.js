@@ -123,7 +123,7 @@
         { posturas: {
           titulo: '¿Fue ilegal el juicio de Jesús?',
           a: { n: 'Un juicio contrario a la ley', t: 'La Mishná da reglas para los juicios de pena de muerte: no podían hacerse de noche, ni en víspera de sábado o de fiesta, y la sentencia debía esperar al día siguiente. Según estas reglas, el juicio de Jesús habría violado muchas normas, lo que mostraría la urgencia y la injusticia de sus jueces.' },
-          b: { n: 'No se sabe si esas reglas regían entonces', t: 'La Mishná se escribió hacia el año 200, cuando el Sanedrín ya no existía, y refleja el ideal de los maestros fariseos más que la práctica del tribunal saduceo de Caifás. No hay forma de saber si esas reglas estaban vigentes en el año 30.' },
+          b: { n: 'No se sabe si esas reglas regían entonces', t: 'La Mishná se escribió hacia el año 200, cuando el Sanedrín ya no existía, y refleja el ideal de los maestros fariseos más que la práctica del tribunal saduceo de Caifás. No hay forma de saber si esas reglas estaban vigentes en tiempos de Jesús.' },
           c: 'Lo que los evangelios dejan claro, sin depender de la Mishná, es que se buscaron testigos falsos (Mr 14:55-56), que la decisión estaba tomada antes del juicio (Jn 11:53) y que Jesús era inocente. Su condena no fue un error judicial, sino parte del plan de Dios para nuestra salvación (Hch 2:23).'
         } },
         { h: 'Un consejo dividido' },
@@ -196,7 +196,7 @@
           cab: ['Quién', 'Cuándo', 'Qué hizo', 'Fuente'],
           filas: [
             ['Judas el galileo', '6 d.C.', 'Llama a rechazar el censo: solo Dios es Señor de Israel', 'Hechos 5:37; Josefo'],
-            ['Barrabás', 'c. 30 d.C.', 'Preso por una sedición en la ciudad y por homicidio', 'Lucas 23:19'],
+            ['Barrabás', 'c. 33 d.C.', 'Preso por una sedición en la ciudad y por homicidio', 'Lucas 23:19'],
             ['Teudas', 'antes del 34 (Hechos) o c. 45 (Josefo)', 'Promete abrir el Jordán; muere con sus seguidores', 'Hechos 5:36; Josefo'],
             ['El egipcio', 'c. 55 d.C.', 'Reúne a miles en el monte de los Olivos; huye ante Félix', 'Hechos 21:38; Josefo'],
             ['Los sicarios', 'Desde c. 50 d.C.', 'Asesinan con puñales en medio de las multitudes', 'Hechos 21:38; Josefo']

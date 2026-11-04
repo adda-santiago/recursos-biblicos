@@ -45,7 +45,7 @@
   // ================== RUTA I. Las raíces ==================
   const raices = [
     {
-      id: 'promesa', n: 'La promesa y Pentecostés', ref: 'Joel 2:28-29; Hechos 2:1-21; Hechos 1:8', fecha: 30,
+      id: 'promesa', n: 'La promesa y Pentecostés', ref: 'Joel 2:28-29; Hechos 2:1-21; Hechos 1:8', fecha: 33,
       visual: [
         img('pentecostes.webp', 'En una sala alta de Jerusalén, unos ciento veinte discípulos, hombres y mujeres, oran juntos; sobre la cabeza de cada uno se posa una pequeña llama, y un viento recio agita los mantos y las lámparas; Pedro y Juan están entre ellos', '«Y se les aparecieron lenguas repartidas, como de fuego, asentándose sobre cada uno de ellos» (Hechos 2:3). Recreación.'),
         cita('Hechos 2:1-4', '@@hch/2/1-4'),
@@ -78,7 +78,7 @@
       pensar: 'Pedro dijo que la promesa del Espíritu es también «para todos los que están lejos» (Hch 2:39). ¿Crees que esa promesa es para ti? ¿Qué lugar ocupa en tu vida de oración?'
     },
     {
-      id: 'hechos', n: 'El Espíritu en el libro de los Hechos', ref: 'Hechos 2:1-4; Hechos 8:14-17; Hechos 9:17; Hechos 10:44-46; Hechos 19:1-7', fecha: [30, 55],
+      id: 'hechos', n: 'El Espíritu en el libro de los Hechos', ref: 'Hechos 2:1-4; Hechos 8:14-17; Hechos 9:17; Hechos 10:44-46; Hechos 19:1-7', fecha: [33, 55],
       visual: [
         tabla({
           titulo: 'Cinco veces en que el Espíritu vino sobre creyentes en Hechos',

@@ -53,12 +53,12 @@
 <line x1="515" y1="142" x2="515" y2="650" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
 <circle cx="515" cy="650" r="6" fill="#9e2b25"/>
 <text x="525" y="656" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Nace Jesús</text>
-<line x1="718" y1="142" x2="718" y2="684" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
-<circle cx="718" cy="684" r="6" fill="#9e2b25"/>
-<text x="728" y="690" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Ministerio de Jesús</text>
-<line x1="730" y1="142" x2="730" y2="718" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
-<circle cx="730" cy="718" r="6" fill="#9e2b25"/>
-<text x="740" y="724" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Cruz y resurrección</text>
+<line x1="730" y1="142" x2="730" y2="684" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="730" cy="684" r="6" fill="#9e2b25"/>
+<text x="740" y="690" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Ministerio de Jesús</text>
+<line x1="748" y1="142" x2="748" y2="718" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+<circle cx="748" cy="718" r="6" fill="#9e2b25"/>
+<text x="758" y="724" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Cruz y resurrección</text>
 <line x1="816" y1="142" x2="816" y2="650" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
 <circle cx="816" cy="650" r="6" fill="#9e2b25"/>
 <text x="826" y="656" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Hechos 12</text>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 980" width="1200" height="980">
+<rect width="1200" height="980" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Cuándo se escribió cada libro</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Los 27 libros del Nuevo Testamento en el orden en que se escribieron (fechas probables)</text>
+<line x1="331" y1="140" x2="331" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="331" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">45</text>
+<line x1="409" y1="140" x2="409" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="409" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">50</text>
+<line x1="488" y1="140" x2="488" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="488" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">55</text>
+<line x1="566" y1="140" x2="566" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="566" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">60</text>
+<line x1="644" y1="140" x2="644" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="644" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">65</text>
+<line x1="722" y1="140" x2="722" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="722" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">70</text>
+<line x1="800" y1="140" x2="800" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="800" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">75</text>
+<line x1="879" y1="140" x2="879" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="879" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">80</text>
+<line x1="957" y1="140" x2="957" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="957" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">85</text>
+<line x1="1035" y1="140" x2="1035" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="1035" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">90</text>
+<line x1="1113" y1="140" x2="1113" y2="900" stroke="#c9c6be" stroke-width="1"/>
+<text x="1113" y="132" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">95</text>
+<rect x="720" y="140" width="4" height="760" rx="1" fill="#9e2b25"/>
+<text x="730" y="158" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9e2b25" text-anchor="start" font-weight="bold">Año 70: cae el templo</text>
+<text x="286" y="191" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Santiago</text>
+<rect x="331" y="176" width="63" height="22" rx="4" fill="#c08a1e" opacity="0.88"/>
+<text x="286" y="227" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Gálatas</text>
+<rect x="378" y="212" width="16" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="263" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">1 y 2 Tesalonicenses</text>
+<rect x="409" y="248" width="16" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="299" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Mateo</text>
+<rect x="409" y="284" width="156" height="22" rx="4" fill="#9e2b25" opacity="0.88"/>
+<text x="286" y="335" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">1 Corintios</text>
+<rect x="488" y="320" width="16" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="371" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">2 Corintios</text>
+<rect x="503" y="356" width="10" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="407" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Romanos</text>
+<rect x="514" y="392" width="10" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="443" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Marcos</text>
+<rect x="488" y="428" width="156" height="22" rx="4" fill="#9e2b25" opacity="0.88"/>
+<text x="286" y="479" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Lucas</text>
+<rect x="566" y="464" width="16" height="22" rx="4" fill="#9e2b25" opacity="0.88"/>
+<text x="286" y="515" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Efesios, Colosenses, Filemón</text>
+<rect x="566" y="500" width="16" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="551" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Filipenses</text>
+<rect x="581" y="536" width="16" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="587" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Hechos</text>
+<rect x="597" y="572" width="11" height="22" rx="4" fill="#9e2b25" opacity="0.88"/>
+<text x="286" y="623" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">1 Timoteo, Tito</text>
+<rect x="597" y="608" width="31" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="659" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">1 Pedro</text>
+<rect x="613" y="644" width="16" height="22" rx="4" fill="#c08a1e" opacity="0.88"/>
+<text x="286" y="695" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">2 Pedro</text>
+<rect x="628" y="680" width="47" height="22" rx="4" fill="#c08a1e" opacity="0.88"/>
+<text x="286" y="731" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Hebreos</text>
+<rect x="628" y="716" width="63" height="22" rx="4" fill="#c08a1e" opacity="0.88"/>
+<text x="286" y="767" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Judas</text>
+<rect x="644" y="752" width="78" height="22" rx="4" fill="#c08a1e" opacity="0.88"/>
+<text x="286" y="803" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">2 Timoteo</text>
+<rect x="660" y="788" width="16" height="22" rx="4" fill="#2f6f9e" opacity="0.88"/>
+<text x="286" y="839" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Juan</text>
+<rect x="957" y="824" width="78" height="22" rx="4" fill="#7a3fa0" opacity="0.88"/>
+<text x="286" y="875" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">1, 2 y 3 Juan</text>
+<rect x="957" y="860" width="156" height="22" rx="4" fill="#7a3fa0" opacity="0.88"/>
+<text x="286" y="911" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="end" font-weight="bold">Apocalipsis</text>
+<rect x="1113" y="896" width="13" height="22" rx="4" fill="#7a3fa0" opacity="0.88"/>
+<rect x="200" y="950" width="22" height="16" rx="3" fill="#9e2b25"/>
+<text x="230" y="964" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Evangelios y Hechos</text>
+<rect x="430" y="950" width="22" height="16" rx="3" fill="#2f6f9e"/>
+<text x="460" y="964" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Cartas de Pablo</text>
+<rect x="660" y="950" width="22" height="16" rx="3" fill="#c08a1e"/>
+<text x="690" y="964" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Cartas generales</text>
+<rect x="890" y="950" width="22" height="16" rx="3" fill="#7a3fa0"/>
+<text x="920" y="964" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Escritos de Juan</text>
+</svg>

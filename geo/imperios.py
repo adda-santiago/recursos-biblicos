@@ -135,7 +135,7 @@ G['persia-530'] = unir('media-585', 'lidia-560', 'persia-oriente-539', 'babiloni
 # Cada etapa suma lugares a la anterior: [lat, lng, radio en grados].
 from shapely.geometry import Point
 ETAPAS_IGLESIA = [
-  ('iglesia-30', 'c. 30 d.C., Pentecostés (Hch 2)', [[31.78,35.23,.28]]),
+  ('iglesia-30', '33 d.C., Pentecostés (Hch 2)', [[31.78,35.23,.28]]),
   ('iglesia-34', 'c. 34 d.C., Judea y Samaria (Hch 8:1-25)', [[31.55,35.0,.35],[32.28,35.2,.35]]),
   ('iglesia-35', 'c. 34 d.C., Felipe en la costa (Hch 8:26-40)', [[31.5,34.46,.22],[31.75,34.65,.22],[32.05,34.75,.22],[32.5,34.9,.22]]),
   ('iglesia-36', 'c. 35 d.C., Damasco y Galilea (Hch 9:1-31)', [[33.51,36.29,.3],[32.8,35.4,.35]]),

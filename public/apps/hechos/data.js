@@ -15,7 +15,7 @@
   /* ---------------- Ruta I · Introducción y trasfondo ---------------- */
   const introduccion = [
     {
-      id: 'portada', n: 'Hechos de los Apóstoles', ref: 'Hechos 1:1-11', fecha: [30, 62],
+      id: 'portada', n: 'Hechos de los Apóstoles', ref: 'Hechos 1:1-11', fecha: [33, 62],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: OTRA + 'imperios-historia/img/integrador-pentecostes.webp', alt: 'El día de Pentecostés en Jerusalén: los discípulos llenos del Espíritu Santo hablan a una multitud de judíos de muchas naciones', pie: 'Pentecostés, el comienzo de la historia que narra Hechos.', origen: 'ia' }
       ],
@@ -45,7 +45,7 @@
       pensar: 'Lucas dice que su primer libro trató de lo que Jesús «comenzó» a hacer y a enseñar (Hch 1:1). Si Hechos es la continuación, ¿qué dice eso de lo que Jesús sigue haciendo hoy por medio de su iglesia?'
     },
     {
-      id: 'dos-tomos', n: 'Lucas-Hechos, una obra en dos tomos', ref: 'Lucas 3:21-22; 4:18; 24:49; Hechos 1:8; 2:4', fecha: 30,
+      id: 'dos-tomos', n: 'Lucas-Hechos, una obra en dos tomos', ref: 'Lucas 3:21-22; 4:18; 24:49; Hechos 1:8; 2:4', fecha: 33,
       visual: [
         { tipo: 'tabla', titulo: 'Paralelos', tabla: {
           titulo: 'El Evangelio y Hechos, lado a lado',
@@ -170,7 +170,7 @@
       pensar: 'Pablo estaba preso, esperando un juicio que podía costarle la vida, y aun así pasó esos dos años predicando «abiertamente y sin impedimento» (Hch 28:31). ¿Qué te enseña su actitud sobre cómo vivir los tiempos de espera?'
     },
     {
-      id: 'trasfondo-politico', n: 'El mundo romano de Hechos', ref: 'Hechos 11:28; 12:1-23; 18:2, 12; 23–26; 25:11', fecha: [30, 62],
+      id: 'trasfondo-politico', n: 'El mundo romano de Hechos', ref: 'Hechos 11:28; 12:1-23; 18:2, 12; 23–26; 25:11', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Autoridades', tabla: {
           titulo: 'Gobernantes que aparecen en Hechos',
@@ -226,7 +226,7 @@
       pensar: 'El Señor le prometió a Pablo que nadie le haría daño en Corinto, y esa promesa se cumplió por medio de la decisión de un gobernador pagano (Hch 18:9-17). ¿Cómo puede Dios cumplir sus promesas usando a personas que ni siquiera lo conocen?'
     },
     {
-      id: 'trasfondo-religioso', n: 'El mundo religioso de Hechos', ref: 'Hechos 4:1-2; 5:34; 8:9-11; 13:14; 17:16-23; 19:23-27; 23:6-8', fecha: [30, 62],
+      id: 'trasfondo-religioso', n: 'El mundo religioso de Hechos', ref: 'Hechos 4:1-2; 5:34; 8:9-11; 13:14; 17:16-23; 19:23-27; 23:6-8', fecha: [33, 62],
       visual: [
         { tipo: 'imagen', titulo: 'Sinagoga', src: OTRA + 'imperio-griego/img/grecia-sinagoga.webp', alt: 'Una sinagoga del siglo I con hombres judíos sentados en bancos de piedra escuchando la lectura de un rollo', pie: 'En la sinagoga comenzaba Pablo su predicación en cada ciudad.', origen: 'ia' },
         { tipo: 'imagen', titulo: 'Templo pagano', src: OTRA + 'imperio-griego/img/grecia-templo-diosa.webp', alt: 'El interior de un templo griego con una gran estatua de una diosa, iluminado por lámparas, con ofrendas en el altar', pie: 'Un templo pagano, como el de la diosa Diana en Éfeso.', origen: 'ia' }
@@ -243,10 +243,10 @@
       pensar: 'En Éfeso, los que habían practicado la magia quemaron públicamente sus libros, que valían una fortuna (Hch 19:19). ¿Qué enseña esa escena sobre lo que significa romper con el pasado cuando una persona se convierte a Cristo?'
     },
     {
-      id: 'mapa', n: 'El mundo de Hechos en el mapa', ref: 'Hechos 1:8; 2:9-11', fecha: [30, 62],
+      id: 'mapa', n: 'El mundo de Hechos en el mapa', ref: 'Hechos 1:8; 2:9-11', fecha: [33, 62],
       visual: [
         { tipo: 'mapa', titulo: 'Mapa', pasos: [
-          { t: 'Jerusalén: allí nace la iglesia el día de Pentecostés (Hch 2).', fecha: 30,
+          { t: 'Jerusalén: allí nace la iglesia el día de Pentecostés (Hch 2).', fecha: 33,
             estado: { view: [[30.8, 33.6], [33.8, 36.8]], capas: ['roma-14'], lugares: ['jerusalen'] } },
           { t: 'Judea y Samaria: la persecución dispersa a los creyentes, que predican por toda la región (Hch 8–9).', fecha: 34,
             estado: { view: [[30.8, 33.6], [33.8, 36.8]], capas: ['roma-14'], lugares: ['jerusalen', 'samaria', 'jope', 'cesarea', 'gaza'] } },
@@ -269,7 +269,7 @@
       pensar: 'El día de Pentecostés, personas de muchas naciones oyeron las maravillas de Dios en su propia lengua (Hch 2:11). ¿Qué te dice eso sobre el deseo de Dios de alcanzar a personas de toda lengua y cultura, también en tu propia ciudad?'
     },
     {
-      id: 'tema', n: 'El tema del libro', ref: 'Hechos 1:8; 6:7; 9:31; 12:24; 16:5; 19:20; 28:31', fecha: 30,
+      id: 'tema', n: 'El tema del libro', ref: 'Hechos 1:8; 6:7; 9:31; 12:24; 16:5; 19:20; 28:31', fecha: 33,
       visual: [
         { tipo: 'cita', titulo: 'Versículo clave', texto: 'pero recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo, y me seréis testigos en Jerusalén, en toda Judea, en Samaria, y hasta lo último de la tierra.', ref: 'Hechos 1:8' },
         { tipo: 'imagen', titulo: 'Imagen', src: OTRA + 'imperios-historia/img/integrador-jerusalen-caminos.webp', alt: 'Vista de Jerusalén antigua sobre sus colinas al amanecer, con caminos que parten hacia el mar, el desierto y el norte', pie: 'Desde Jerusalén, hasta lo último de la tierra.', origen: 'ia' }
@@ -286,7 +286,7 @@
       pensar: 'Jesús unió el poder del Espíritu con el testimonio: «recibiréis poder… y me seréis testigos» (Hch 1:8). ¿Qué relación ves entre la llenura del Espíritu Santo y el deseo de hablar de Cristo a otros?'
     },
     {
-      id: 'proposito', n: 'Para qué se escribió', ref: 'Lucas 1:1-4; Hechos 1:1; 18:14-15; 23:29; 25:25; 26:31-32', fecha: [30, 62],
+      id: 'proposito', n: 'Para qué se escribió', ref: 'Lucas 1:1-4; Hechos 1:1; 18:14-15; 23:29; 25:25; 26:31-32', fecha: [33, 62],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: OTRA + 'imperio-romano/img/roma-pablo-festo.webp', alt: 'El apóstol Pablo de pie ante el gobernador romano Festo en su tribunal, rodeado de soldados y consejeros', pie: 'Pablo ante Festo: ninguna autoridad romana halló delito en él.', origen: 'ia' },
         { tipo: 'tabla', titulo: 'Veredictos', tabla: {
@@ -316,7 +316,7 @@
       pensar: 'Los primeros creyentes eran acusados de trastornar el mundo (Hch 17:6), pero ninguna autoridad podía probar que hubieran hecho algo malo. ¿Cómo puede un creyente hoy ser al mismo tiempo un ciudadano irreprochable y un testigo que causa impacto en su entorno?'
     },
     {
-      id: 'caracteristicas', n: 'Características especiales', ref: 'Hechos 1:14; 2:42; 4:31; 12:5; 13:2-3; 16:25', fecha: [30, 62],
+      id: 'caracteristicas', n: 'Características especiales', ref: 'Hechos 1:14; 2:42; 4:31; 12:5; 13:2-3; 16:25', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Rasgos', tabla: {
           titulo: 'Lo que distingue al libro de los Hechos',
@@ -370,7 +370,7 @@
       pensar: 'La Biblia no necesita la confirmación de la arqueología para ser verdad, pero los hallazgos muestran una y otra vez que sus relatos son exactos. ¿Cómo puede este conocimiento fortalecer tu fe y ayudarte a responder a quienes dudan de la Biblia (1 P 3:15)?'
     },
     {
-      id: 'describe-o-ensena', n: '¿Hechos describe o enseña?', ref: '2 Timoteo 3:16-17; Romanos 15:4; Hechos 2:4; 8:14-19; 9:17; 10:44-46; 19:1-6', fecha: [30, 57],
+      id: 'describe-o-ensena', n: '¿Hechos describe o enseña?', ref: '2 Timoteo 3:16-17; Romanos 15:4; Hechos 2:4; 8:14-19; 9:17; 10:44-46; 19:1-6', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'El patrón', tabla: {
           titulo: 'Cuando el Espíritu vino sobre los creyentes',
@@ -402,7 +402,7 @@
       pensar: 'Pedro dijo que la promesa del Espíritu es «para vosotros es la promesa, y para vuestros hijos, y para todos los que están lejos» (Hch 2:39). ¿Qué razones da el propio texto para esperar hoy la misma experiencia de Pentecostés?'
     },
     {
-      id: 'principios', n: 'Principios para interpretar Hechos', ref: 'Hechos 1:6-7; 3:19-21; 5:1-11; 15:14-17, 39', fecha: [30, 62],
+      id: 'principios', n: 'Principios para interpretar Hechos', ref: 'Hechos 1:6-7; 3:19-21; 5:1-11; 15:14-17, 39', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Principios', tabla: {
           titulo: 'Siete principios para leer Hechos',
@@ -431,15 +431,15 @@
       pensar: 'Jesús no les negó a sus discípulos que el reino sería restaurado a Israel; solo les dijo que no les tocaba saber cuándo, y les encargó ser sus testigos (Hch 1:6-8). ¿Por qué crees que el Señor puso el testimonio por delante de la curiosidad sobre los tiempos del fin?'
     },
     {
-      id: 'cronologia', n: 'Cronología de Hechos', ref: 'Hechos 2; 9; 12; 15; 18:12; 21:27-36; 28:30', fecha: [30, 62],
+      id: 'cronologia', n: 'Cronología de Hechos', ref: 'Hechos 2; 9; 12; 15; 18:12; 21:27-36; 28:30', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Cronología', tabla: {
           titulo: 'Fechas aproximadas del libro de los Hechos',
           cab: ['Año (d.C.)', 'Acontecimiento', 'Pasaje'],
           filas: [
-            ['c. 30', 'Ascensión de Jesús y Pentecostés', 'Hch 1–2'],
-            ['c. 32–34', 'Muerte de Esteban; el evangelio llega a Samaria', 'Hch 7–8'],
-            ['c. 33–34', 'Conversión de Saulo', 'Hch 9'],
+            ['33', 'Ascensión de Jesús y Pentecostés', 'Hch 1–2'],
+            ['c. 34', 'Muerte de Esteban; el evangelio llega a Samaria', 'Hch 7–8'],
+            ['c. 34–35', 'Conversión de Saulo', 'Hch 9'],
             ['c. 40', 'Cornelio, primer gentil en recibir el Espíritu', 'Hch 10'],
             ['44', 'Muerte de Herodes Agripa I', 'Hch 12:20-23'],
             ['c. 46–48', 'Primer viaje misionero', 'Hch 13–14'],
@@ -458,8 +458,9 @@
         'Lucas casi nunca da fechas. Cuenta cuánto tiempo pasó entre algunos hechos, como el año y medio de Pablo en Corinto (Hch 18:11), los tres años en Éfeso (Hch 20:31), los dos años de prisión en Cesarea (Hch 24:27) o los dos años en Roma (Hch 28:30), pero no dice en qué año ocurrieron. Para fecharlos hay que relacionar el relato con la historia conocida.',
         'Algunos puntos sirven de ancla. La muerte de Herodes Agripa I, narrada en Hechos 12, ocurrió en el año 44, según el historiador Josefo. El proconsulado de Galión, gracias a la inscripción de Delfos, se ubica hacia 51 y 52. El cambio de gobernador de Félix a Festo (Hch 24:27) ocurrió hacia el año 59 o 60. A partir de esos puntos, y de los intervalos que da el propio Lucas, se reconstruye el resto.',
         { h: 'Unos treinta años' },
-        'El resultado es que Hechos cubre unos treinta años, desde la ascensión de Jesús, hacia el año 30, hasta el final de los dos años de Pablo en Roma, hacia el 62. En ese tiempo, el evangelio pasó de un grupo de ciento veinte personas reunidas en Jerusalén (Hch 1:15) a iglesias establecidas en las principales ciudades del imperio.',
-        'Hay que tener presente que estas fechas son aproximadas. Los estudiosos discuten, por ejemplo, si la crucifixión fue en el año 30 o en el 33, y eso mueve todas las fechas de los primeros capítulos. Las diferencias entre las cronologías suelen ser de uno a tres años, y no cambian el orden de los acontecimientos.',
+        'El resultado es que Hechos cubre unos treinta años, desde la ascensión de Jesús, en el año 33, hasta el final de los dos años de Pablo en Roma, hacia el 62. En ese tiempo, el evangelio pasó de un grupo de ciento veinte personas reunidas en Jerusalén (Hch 1:15) a iglesias establecidas en las principales ciudades del imperio.',
+        'Hay que tener presente que estas fechas son aproximadas. Los estudiosos discuten, por ejemplo, si la crucifixión fue en el año 30 o en el 33, y eso mueve las fechas de los primeros capítulos; el sitio sigue el 33. Las diferencias entre las cronologías suelen ser de uno a tres años, y no cambian el orden de los acontecimientos.',
+        { ir: { t: 'Ver la Cronología del Nuevo Testamento: el año de la cruz y las fechas de Pablo', a: '../../cronologia-nuevo-testamento/#semana/4' } },
         'Las cartas de Pablo se escribieron durante estos mismos años. Por ejemplo, las cartas a los Tesalonicenses, desde Corinto en el segundo viaje; 1 Corintios, desde Éfeso en el tercero, y Filipenses, Colosenses, Efesios y Filemón, probablemente desde la prisión en Roma. El recurso Los viajes de Pablo las ubica en el mapa.'
       ],
       pensar: 'En unos treinta años, un grupo de ciento veinte personas reunidas en oración llegó a tener iglesias en las principales ciudades del imperio. ¿Qué crees que puede hacer Dios con una congregación pequeña que se entrega por completo a su propósito?'
@@ -486,14 +487,14 @@
   /* ---------------- Ruta II · Visión panorámica ---------------- */
   const panorama = [
     {
-      id: 'vistazo', n: 'El libro de un vistazo', ref: 'Hechos 1:1-8; 28:30-31', fecha: [30, 62],
+      id: 'vistazo', n: 'El libro de un vistazo', ref: 'Hechos 1:1-8; 28:30-31', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Ficha', tabla: {
           titulo: 'Hechos de los Apóstoles en cifras',
           cab: ['Dato', 'Hechos'],
           filas: [
             ['Extensión', '28 capítulos y 1.007 versículos'],
-            ['Período que cubre', 'Unos treinta años, de c. 30 a c. 62 d.C.'],
+            ['Período que cubre', 'Unos treinta años, del 33 a c. 62 d.C.'],
             ['Escenario', 'De Jerusalén a Roma, por Judea, Samaria, Siria, Asia Menor, Grecia y el Mediterráneo'],
             ['Protagonistas humanos', 'Pedro en los capítulos 1 a 12; Pablo en los capítulos 13 a 28'],
             ['Protagonista divino', 'El Espíritu Santo: 54 menciones del «Espíritu» con mayúscula en la RV 1960'],
@@ -506,7 +507,7 @@
       ],
       texto: [
         'La ruta de introducción respondió quién escribió Hechos, cuándo y para qué. Esta ruta mira el libro desde arriba, como quien observa un territorio desde un monte antes de recorrerlo a pie. Aquí no se comenta cada capítulo: se trata de ver la forma del libro, cómo se ordena, qué palabras repite y qué temas lo atraviesan de principio a fin.',
-        'Hechos tiene 28 capítulos y 1.007 versículos. Cubre unos treinta años, desde la ascensión de Jesús hacia el año 30 hasta los dos años de Pablo en Roma, hacia el 62. En ese tiempo, el relato se desplaza miles de kilómetros: de un aposento en Jerusalén a la capital del imperio.',
+        'Hechos tiene 28 capítulos y 1.007 versículos. Cubre unos treinta años, desde la ascensión de Jesús en el año 33 hasta los dos años de Pablo en Roma, hacia el 62. En ese tiempo, el relato se desplaza miles de kilómetros: de un aposento en Jerusalén a la capital del imperio.',
         { h: 'Dos apóstoles y un protagonista' },
         'El libro se divide de manera natural en dos mitades según su personaje principal. En los capítulos 1 a 12 el protagonista humano es Pedro, junto a Juan, Esteban, Felipe y Bernabé. En los capítulos 13 a 28 es Pablo. El nombre de Pedro aparece 57 veces; el de Pablo, 135, además de las 26 veces que se lo llama Saulo.',
         'Pero el verdadero protagonista es otro. En la RV 1960, la palabra «Espíritu» con mayúscula, es decir, referida al Espíritu de Dios, aparece 54 veces en Hechos. El Espíritu Santo desciende, llena, habla, envía, prohíbe, consuela y da poder. Los apóstoles no actúan por iniciativa propia: siguen la dirección del Espíritu.',
@@ -516,12 +517,12 @@
       pensar: 'En Hechos, el nombre de Pablo aparece muchas más veces que el de cualquier otra persona, pero el libro deja claro que todo lo hizo el Señor por medio de su Espíritu (Hch 14:27; 15:12). ¿Por qué es importante que quien sirve a Dios recuerde siempre quién es el verdadero protagonista de la obra?'
     },
     {
-      id: 'bosquejo', n: 'El bosquejo de Hechos 1:8', ref: 'Hechos 1:8', fecha: [30, 62],
+      id: 'bosquejo', n: 'El bosquejo de Hechos 1:8', ref: 'Hechos 1:8', fecha: [33, 62],
       visual: [
         { tipo: 'mapa', titulo: 'Mapa', pasos: [
-          { t: 'Capítulos 1 a 7: el testimonio en Jerusalén.', fecha: [30, 33],
+          { t: 'Capítulos 1 a 7: el testimonio en Jerusalén.', fecha: [33, 34],
             estado: { view: [[30.8, 33.6], [33.8, 36.8]], capas: ['roma-14'], lugares: ['jerusalen'] } },
-          { t: 'Capítulos 8 a 12: el testimonio en Judea y Samaria, y las primeras puertas a los gentiles.', fecha: [33, 44],
+          { t: 'Capítulos 8 a 12: el testimonio en Judea y Samaria, y las primeras puertas a los gentiles.', fecha: [34, 44],
             estado: { view: [[30.5, 31], [37.5, 39]], capas: ['roma-14'], lugares: ['jerusalen', 'samaria', 'gaza', 'jope', 'cesarea', 'damasco', 'antioquia'] } },
           { t: 'Capítulos 13 a 28: el testimonio hasta lo último de la tierra, de Antioquía a Roma.', fecha: [46, 62],
             estado: { view: MEDITERRANEO, capas: ['roma-14'], lugares: ['jerusalen', 'antioquia', 'efeso', 'filipos', 'tesalonica', 'atenas', 'corinto', 'malta', 'roma'], trazos: ['viaje-roma'] } }
@@ -552,7 +553,7 @@
       pensar: 'El evangelio salió de Jerusalén cuando la persecución dispersó a los creyentes (Hch 8:1, 4). ¿Cómo puede Dios usar las circunstancias difíciles para llevar su mensaje a lugares a los que de otro modo no habría llegado?'
     },
     {
-      id: 'seis-etapas', n: 'Seis etapas: «la palabra crecía»', ref: 'Hechos 6:7; 9:31; 12:24; 16:5; 19:20; 28:31', fecha: [30, 62],
+      id: 'seis-etapas', n: 'Seis etapas: «la palabra crecía»', ref: 'Hechos 6:7; 9:31; 12:24; 16:5; 19:20; 28:31', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Las seis etapas', tabla: {
           titulo: 'El libro en seis etapas, cada una cerrada por un resumen de crecimiento',
@@ -579,7 +580,7 @@
       pensar: 'Cada etapa de Hechos termina con un informe de crecimiento, aunque cada una estuvo llena de problemas y persecuciones. ¿Qué te enseña esto sobre cómo mirar las dificultades de tu congregación?'
     },
     {
-      id: 'pedro-pablo', n: 'Pedro y Pablo, en paralelo', ref: 'Hechos 3:1-10; 14:8-10; 9:36-41; 20:9-12; 12:6-11; 16:25-26', fecha: [30, 62],
+      id: 'pedro-pablo', n: 'Pedro y Pablo, en paralelo', ref: 'Hechos 3:1-10; 14:8-10; 9:36-41; 20:9-12; 12:6-11; 16:25-26', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Paralelos', tabla: {
           titulo: 'Lo que Dios hizo por medio de Pedro y de Pablo',
@@ -607,7 +608,7 @@
       pensar: 'Pedro y Pablo vieron grandes milagros, pero los dos se negaron a recibir la honra de la gente (Hch 10:26; 14:14-15). ¿Cómo puede un creyente que es usado por Dios guardar su corazón del orgullo?'
     },
     {
-      id: 'parte-jerusalen', n: 'Primera parte: Jerusalén (1–7)', ref: 'Hechos 1–7', fecha: [30, 33],
+      id: 'parte-jerusalen', n: 'Primera parte: Jerusalén (1–7)', ref: 'Hechos 1–7', fecha: [33, 34],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-portico-salomon.webp', alt: 'Los apóstoles enseñan a una multitud en el pórtico de Salomón, una larga columnata de piedra en el atrio del templo de Jerusalén, con enfermos traídos en camillas a su alrededor', pie: 'Los apóstoles en el pórtico de Salomón (Hch 5:12-16).', origen: 'ia' },
         { tipo: 'tabla', titulo: 'Capítulos', tabla: {
@@ -633,7 +634,7 @@
       pensar: 'Amenazada por las autoridades, la iglesia no pidió que se acabara la persecución, sino denuedo para seguir hablando (Hch 4:29-31). ¿Qué pides tú a Dios cuando tu fe enfrenta oposición?'
     },
     {
-      id: 'parte-judea-samaria', n: 'Segunda parte: Judea y Samaria (8–12)', ref: 'Hechos 8–12', fecha: [33, 44],
+      id: 'parte-judea-samaria', n: 'Segunda parte: Judea y Samaria (8–12)', ref: 'Hechos 8–12', fecha: [34, 44],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-felipe-etiope.webp', alt: 'Felipe corre junto a un carro detenido en un camino del desierto y habla con un funcionario etíope que lee un rollo, mientras su escolta espera', pie: 'Felipe y el funcionario etíope en el camino a Gaza (Hch 8:26-39).', origen: 'ia' },
         { tipo: 'tabla', titulo: 'Capítulos', tabla: {
@@ -712,7 +713,7 @@
       pensar: 'El Señor prometió a Pablo que testificaría en Roma, y luego vinieron dos años de prisión, un juicio y un naufragio (Hch 23:11; 27). ¿Cómo te ayuda este relato a seguir confiando en una promesa de Dios cuando el camino para cumplirse parece ir en dirección contraria?'
     },
     {
-      id: 'palabras-clave', n: 'Palabras clave', ref: 'Hechos 1:8; 2:4; 4:12; 6:7', fecha: [30, 62],
+      id: 'palabras-clave', n: 'Palabras clave', ref: 'Hechos 1:8; 2:4; 4:12; 6:7', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Palabras', tabla: {
           titulo: 'Palabras que Hechos repite (RV 1960)',
@@ -744,7 +745,7 @@
       pensar: 'En Hechos, la palabra de Dios «crecía» y «prevalecía» como si tuviera vida propia (Hch 12:24; 19:20). ¿Qué lugar ocupa la palabra de Dios en tu vida diaria, y cómo puede crecer por medio de ti?'
     },
     {
-      id: 'versiculos-clave', n: 'Versículos clave', ref: 'Hechos 1:8; 2:4; 2:38-39; 2:42; 4:12; 13:2; 16:31; 20:24; 28:31', fecha: [30, 62],
+      id: 'versiculos-clave', n: 'Versículos clave', ref: 'Hechos 1:8; 2:4; 2:38-39; 2:42; 4:12; 13:2; 16:31; 20:24; 28:31', fecha: [33, 62],
       visual: [
         { tipo: 'cita', titulo: 'Pasaje', texto: 'Y fueron todos llenos del Espíritu Santo, y comenzaron a hablar en otras lenguas, según el Espíritu les daba que hablasen.', ref: 'Hechos 2:4' },
         { tipo: 'tabla', titulo: 'Diez versículos', tabla: {
@@ -775,7 +776,7 @@
       pensar: 'Pablo dijo que no estimaba preciosa su vida, con tal de acabar su carrera con gozo y cumplir el ministerio que recibió del Señor (Hch 20:24). ¿Qué cosas tendrías que dejar de considerar «preciosas» para cumplir lo que Dios te ha encomendado?'
     },
     {
-      id: 'temas', n: 'Los grandes temas', ref: 'Hechos 1:8; 2:17-21; 4:12; 10:34-35; 14:22; 15:14-17', fecha: [30, 62],
+      id: 'temas', n: 'Los grandes temas', ref: 'Hechos 1:8; 2:17-21; 4:12; 10:34-35; 14:22; 15:14-17', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Temas', tabla: {
           titulo: 'Siete temas que atraviesan el libro',
@@ -804,7 +805,7 @@
       pensar: 'Hechos comienza y termina hablando del reino de Dios (Hch 1:3; 28:31), y entre ambos extremos anuncia que Jesús volverá (Hch 1:11). ¿Cómo debería influir la esperanza de su regreso en la manera en que vives y testificas hoy?'
     },
     {
-      id: 'en-la-biblia', n: 'Hechos en toda la Biblia', ref: 'Joel 2:28-32; Hechos 2:16-21; 13:47; 15:15-17', fecha: [30, 62],
+      id: 'en-la-biblia', n: 'Hechos en toda la Biblia', ref: 'Joel 2:28-32; Hechos 2:16-21; 13:47; 15:15-17', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Profecías', tabla: {
           titulo: 'El Antiguo Testamento cumplido en Hechos',
@@ -841,12 +842,12 @@
   const MUNDO = [[18.0, -12.0], [48.0, 48.0]];
   const expansion = [
     {
-      id: 'promesa', n: 'Un mapa trazado por Jesús', ref: 'Hechos 1:8; 2:5-11', fecha: 30,
+      id: 'promesa', n: 'Un mapa trazado por Jesús', ref: 'Hechos 1:8; 2:5-11', fecha: 33,
       visual: [
         { tipo: 'mapa', titulo: 'Mapa', pasos: [
-          { t: 'Jerusalén, el día de Pentecostés.', fecha: 30,
+          { t: 'Jerusalén, el día de Pentecostés.', fecha: 33,
             estado: { view: JUDEA, capas: ['roma-14', 'iglesia-30'], lugares: ['jerusalen'] } },
-          { t: 'Las naciones de donde venían los que oyeron hablar en su propia lengua (Hch 2:9-11).', fecha: 30,
+          { t: 'Las naciones de donde venían los que oyeron hablar en su propia lengua (Hch 2:9-11).', fecha: 33,
             estado: { view: PENTECOSTES, capas: ['roma-14', 'iglesia-30'], lugares: ['jerusalen', 'r-partia', 'r-media', 'r-elam', 'r-mesopotamia', 'r-capadocia', 'r-ponto', 'r-asia', 'r-frigia', 'r-panfilia', 'r-egipto', 'r-libia', 'r-roma', 'r-creta', 'r-arabia'] } }
         ] }
       ],
@@ -862,7 +863,7 @@
       pensar: 'En Pentecostés, el Espíritu dio a los discípulos la capacidad de hablar las lenguas de los pueblos que estaban en Jerusalén (Hch 2:6-8). ¿Qué te enseña esto sobre el deseo de Dios de que su mensaje llegue a cada persona en su propia lengua y cultura?'
     },
     {
-      id: 'jerusalen', n: 'Jerusalén, la iglesia madre', ref: 'Hechos 1:15; 2:41, 47; 4:4; 5:14; 6:1, 7; 21:20', fecha: [30, 33],
+      id: 'jerusalen', n: 'Jerusalén, la iglesia madre', ref: 'Hechos 1:15; 2:41, 47; 4:4; 5:14; 6:1, 7; 21:20', fecha: [33, 34],
       visual: [
         { tipo: 'mapa', titulo: 'Mapa', estado: { view: JUDEA, capas: ['roma-14', 'iglesia-30'], lugares: ['jerusalen', 'belen', 'jope', 'samaria'] } },
         { tipo: 'tabla', titulo: 'Crecimiento', tabla: {
@@ -1052,7 +1053,7 @@
       id: 'mas-alla', n: 'Hasta lo último de la tierra', ref: 'Romanos 15:19-28; Colosenses 1:6, 23; Mateo 24:14; Apocalipsis 7:9', fecha: 62,
       visual: [
         { tipo: 'mapa', titulo: 'Toda la expansión', pasos: [
-          { t: 'Pentecostés: la iglesia nace en Jerusalén.', fecha: 30,
+          { t: 'Pentecostés: la iglesia nace en Jerusalén.', fecha: 33,
             estado: { view: JUDEA, capas: ['roma-14', 'iglesia-30'], lugares: ['jerusalen'] } },
           { t: 'La persecución esparce a los creyentes por Judea y Samaria.', fecha: 34,
             estado: { view: JUDEA, capas: ['roma-14', 'iglesia-34'], lugares: ['jerusalen', 'samaria'] } },
@@ -1097,7 +1098,7 @@
   /* ---------------- Ruta III · Comentario capítulo por capítulo ---------------- */
   const comentario = [
     {
-      id: 'cap-1', n: 'Capítulo 1: la promesa y la espera', ref: 'Hechos 1', fecha: 30,
+      id: 'cap-1', n: 'Capítulo 1: la promesa y la espera', ref: 'Hechos 1', fecha: 33,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-ascension.webp', alt: 'Jesús resucitado asciende al cielo desde el monte de los Olivos y una nube comienza a ocultarlo, mientras los once discípulos miran hacia arriba y dos varones con vestiduras blancas aparecen junto a ellos', pie: '«Así vendrá como le habéis visto ir al cielo» (Hch 1:11).', origen: 'ia' },
         { tipo: 'tabla', titulo: 'Estructura', tabla: {
@@ -1127,7 +1128,7 @@
       pensar: 'Los discípulos esperaron la promesa del Espíritu «unánimes en oración y ruego» (Hch 1:14). ¿Qué te enseña esa espera sobre cómo buscar hoy la llenura del Espíritu Santo?'
     },
     {
-      id: 'cap-2a', n: 'Capítulo 2 (I): el día de Pentecostés', ref: 'Hechos 2:1-13; Levítico 23:15-21', fecha: 30,
+      id: 'cap-2a', n: 'Capítulo 2 (I): el día de Pentecostés', ref: 'Hechos 2:1-13; Levítico 23:15-21', fecha: 33,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: OTRA + 'imperios-historia/img/integrador-pentecostes.webp', alt: 'El día de Pentecostés en Jerusalén: los discípulos llenos del Espíritu Santo hablan a una multitud de judíos de muchas naciones', pie: '«Les oímos hablar en nuestras lenguas las maravillas de Dios» (Hch 2:11).', origen: 'ia' },
         { tipo: 'cita', titulo: 'Pasaje', texto: 'Y fueron todos llenos del Espíritu Santo, y comenzaron a hablar en otras lenguas, según el Espíritu les daba que hablasen.', ref: 'Hechos 2:4' }
@@ -1144,7 +1145,7 @@
       pensar: 'En Pentecostés, el fuego se repartió «sobre cada uno de ellos» (Hch 2:3), y «todos» fueron llenos (Hch 2:4). ¿Qué te dice esto sobre quiénes pueden recibir la llenura del Espíritu Santo?'
     },
     {
-      id: 'cap-2b', n: 'Capítulo 2 (II): el sermón y la primera iglesia', ref: 'Hechos 2:14-47; Joel 2:28-32', fecha: 30,
+      id: 'cap-2b', n: 'Capítulo 2 (II): el sermón y la primera iglesia', ref: 'Hechos 2:14-47; Joel 2:28-32', fecha: 33,
       visual: [
         { tipo: 'tabla', titulo: 'El sermón', tabla: {
           titulo: 'El primer sermón de la iglesia',
@@ -1172,7 +1173,7 @@
       pensar: 'Pedro, que había negado a Jesús por miedo, predicó con valentía ante miles después de ser lleno del Espíritu (Hch 2:14). ¿Qué cambio puede producir el Espíritu Santo en una persona temerosa?'
     },
     {
-      id: 'cap-3', n: 'Capítulo 3: el cojo de la puerta Hermosa', ref: 'Hechos 3', fecha: 30,
+      id: 'cap-3', n: 'Capítulo 3: el cojo de la puerta Hermosa', ref: 'Hechos 3', fecha: 33,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-cojo-hermosa.webp', alt: 'Pedro toma de la mano derecha a un hombre cojo sentado junto a una gran puerta de bronce del templo de Jerusalén y lo levanta, mientras Juan observa y la gente se detiene asombrada', pie: '«En el nombre de Jesucristo de Nazaret, levántate y anda» (Hch 3:6).', origen: 'ia' }
       ],
@@ -1189,7 +1190,7 @@
       pensar: 'Pedro no tenía dinero, pero tenía algo mejor que dar: el poder del nombre de Jesús (Hch 3:6). ¿Qué tienes tú para dar a las personas necesitadas que te rodean?'
     },
     {
-      id: 'cap-4', n: 'Capítulo 4: la primera persecución', ref: 'Hechos 4; Salmo 2:1-2; 118:22', fecha: 31,
+      id: 'cap-4', n: 'Capítulo 4: la primera persecución', ref: 'Hechos 4; Salmo 2:1-2; 118:22', fecha: 33,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-pedro-sanedrin.webp', alt: 'Pedro y Juan, de pie y serenos, ante el sanedrín reunido en semicírculo, con el sumo sacerdote y ancianos vestidos con mantos, mientras el hombre sanado está junto a ellos', pie: 'Pedro y Juan ante el sanedrín (Hch 4:5-14).', origen: 'ia' }
       ],
@@ -1207,7 +1208,7 @@
       pensar: 'Los jueces reconocieron que Pedro y Juan «habían estado con Jesús» (Hch 4:13), aunque no tenían estudios. ¿Qué debería notar la gente en tu vida para reconocer que has estado con Jesús?'
     },
     {
-      id: 'cap-5', n: 'Capítulo 5: santidad, señales y libertad', ref: 'Hechos 5', fecha: 32,
+      id: 'cap-5', n: 'Capítulo 5: santidad, señales y libertad', ref: 'Hechos 5', fecha: [33, 34],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-portico-salomon.webp', alt: 'Los apóstoles enseñan a una multitud en el pórtico de Salomón, con enfermos traídos en camillas a su alrededor', pie: '«Estaban todos unánimes en el pórtico de Salomón» (Hch 5:12).', origen: 'ia' }
       ],
@@ -1232,7 +1233,7 @@
       pensar: 'Ananías y Safira no pecaron por dar poco, sino por aparentar más de lo que daban (Hch 5:4). ¿Por qué crees que Dios trata con tanta seriedad la hipocresía en su iglesia?'
     },
     {
-      id: 'cap-6', n: 'Capítulo 6: los siete y Esteban', ref: 'Hechos 6', fecha: 33,
+      id: 'cap-6', n: 'Capítulo 6: los siete y Esteban', ref: 'Hechos 6', fecha: 34,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-siete.webp', alt: 'Los apóstoles imponen las manos sobre siete hombres arrodillados, en una sala sencilla de Jerusalén, mientras la congregación ora alrededor', pie: 'Los apóstoles imponen las manos sobre los siete (Hch 6:6).', origen: 'ia' },
         { tipo: 'tabla', titulo: 'Los siete', tabla: {
@@ -1261,7 +1262,7 @@
       pensar: 'Para servir las mesas, la iglesia buscó hombres «llenos del Espíritu Santo y de sabiduría» (Hch 6:3). ¿Qué cambia en una tarea práctica de la iglesia cuando quien la hace está lleno del Espíritu?'
     },
     {
-      id: 'cap-7', n: 'Capítulo 7: el discurso y la muerte de Esteban', ref: 'Hechos 7; Isaías 66:1-2', fecha: 33,
+      id: 'cap-7', n: 'Capítulo 7: el discurso y la muerte de Esteban', ref: 'Hechos 7; Isaías 66:1-2', fecha: 34,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-esteban.webp', alt: 'Esteban, de rodillas fuera de los muros de Jerusalén, con el rostro iluminado y la mirada hacia el cielo abierto, mientras a lo lejos un joven llamado Saulo cuida unas ropas', pie: '«Veo los cielos abiertos, y al Hijo del Hombre que está a la diestra de Dios» (Hch 7:56).', origen: 'ia' },
         { tipo: 'tabla', titulo: 'El discurso', tabla: {
@@ -1715,7 +1716,7 @@
   /* ---------------- Ruta IV · Teología de Hechos ---------------- */
   const teologia = [
     {
-      id: 'espiritu-persona', n: 'El Espíritu Santo: persona divina', ref: 'Hechos 5:3-4; 8:29; 13:2-4; 15:28; 16:6-7; 20:28', fecha: [30, 62],
+      id: 'espiritu-persona', n: 'El Espíritu Santo: persona divina', ref: 'Hechos 5:3-4; 8:29; 13:2-4; 15:28; 16:6-7; 20:28', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Lo que hace', tabla: {
           titulo: 'Lo que el Espíritu Santo hace en Hechos',
@@ -1746,7 +1747,7 @@
       pensar: 'El Espíritu Santo habla, dirige, prohíbe y puede ser entristecido. ¿Cómo cambia tu relación con él saber que es una persona divina y no una fuerza?'
     },
     {
-      id: 'bautismo-espiritu', n: 'El bautismo en el Espíritu Santo', ref: 'Hechos 1:4-8; 2:4, 38-39; 8:14-17; 9:17; 10:44-46; 11:15-17; 19:1-6', fecha: [30, 57],
+      id: 'bautismo-espiritu', n: 'El bautismo en el Espíritu Santo', ref: 'Hechos 1:4-8; 2:4, 38-39; 8:14-17; 9:17; 10:44-46; 11:15-17; 19:1-6', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'La doctrina', tabla: {
           titulo: 'Lo que enseña Hechos sobre el bautismo en el Espíritu',
@@ -1776,7 +1777,7 @@
       pensar: 'Pedro dijo que la promesa del Espíritu es «para cuantos el Señor nuestro Dios llamare» (Hch 2:39). ¿Has recibido el bautismo en el Espíritu Santo? Si no, ¿qué te dice este estudio sobre cómo buscarlo?'
     },
     {
-      id: 'llenuras-dones', n: 'Llenuras y dones del Espíritu', ref: 'Hechos 4:8, 31; 6:3-5; 11:24, 27-28; 13:1-2, 9, 52; 21:9-11', fecha: [30, 62],
+      id: 'llenuras-dones', n: 'Llenuras y dones del Espíritu', ref: 'Hechos 4:8, 31; 6:3-5; 11:24, 27-28; 13:1-2, 9, 52; 21:9-11', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Dones', tabla: {
           titulo: 'Dones del Espíritu que aparecen en Hechos',
@@ -1810,7 +1811,7 @@
       pensar: 'Los mismos creyentes que fueron llenos del Espíritu en Pentecostés necesitaron ser llenos otra vez ante la persecución (Hch 4:31). ¿Qué situaciones de tu vida necesitan hoy una nueva llenura del Espíritu?'
     },
     {
-      id: 'cristologia', n: 'Cristo en Hechos', ref: 'Hechos 2:22-36; 3:13-15; 4:12; 5:31; 7:55-56; 9:20; 10:36-43; 17:31', fecha: [30, 62],
+      id: 'cristologia', n: 'Cristo en Hechos', ref: 'Hechos 2:22-36; 3:13-15; 4:12; 5:31; 7:55-56; 9:20; 10:36-43; 17:31', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Títulos', tabla: {
           titulo: 'Títulos de Jesús en Hechos',
@@ -1843,7 +1844,7 @@
       pensar: 'En Hechos, Jesús no es un recuerdo del pasado, sino el Señor exaltado que sigue obrando en su iglesia. ¿Cómo cambia tu vida cristiana saber que él está vivo, presente y actuando hoy?'
     },
     {
-      id: 'salvacion', n: 'La salvación en Hechos', ref: 'Hechos 2:21, 37-41; 3:19; 10:43; 13:38-39; 15:7-11; 16:30-34; 26:18', fecha: [30, 62],
+      id: 'salvacion', n: 'La salvación en Hechos', ref: 'Hechos 2:21, 37-41; 3:19; 10:43; 13:38-39; 15:7-11; 16:30-34; 26:18', fecha: [33, 62],
       visual: [
         { tipo: 'cita', titulo: 'Pasaje', texto: 'Ellos dijeron: Cree en el Señor Jesucristo, y serás salvo, tú y tu casa.', ref: 'Hechos 16:31' }
       ],
@@ -1862,7 +1863,7 @@
       pensar: 'La respuesta al carcelero fue: «Cree en el Señor Jesucristo, y serás salvo, tú y tu casa» (Hch 16:31). ¿Por quiénes de tu familia estás orando para que conozcan a Cristo?'
     },
     {
-      id: 'eclesiologia', n: 'La iglesia en Hechos', ref: 'Hechos 2:41-47; 6:1-7; 11:26; 14:23; 15:1-31; 20:7, 28', fecha: [30, 62],
+      id: 'eclesiologia', n: 'La iglesia en Hechos', ref: 'Hechos 2:41-47; 6:1-7; 11:26; 14:23; 15:1-31; 20:7, 28', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'La iglesia', tabla: {
           titulo: 'Rasgos de la iglesia en Hechos',
@@ -1894,7 +1895,7 @@
       pensar: 'La iglesia de Hechos tenía problemas, pero los enfrentaba en oración, con las Escrituras y bajo la guía del Espíritu. ¿Qué podemos aprender de ella para enfrentar los problemas de nuestras congregaciones?'
     },
     {
-      id: 'escatologia', n: 'Los últimos tiempos en Hechos', ref: 'Hechos 1:6-11; 2:17-21; 3:19-21; 15:14-17; 17:31; 24:15; 28:20', fecha: [30, 62],
+      id: 'escatologia', n: 'Los últimos tiempos en Hechos', ref: 'Hechos 1:6-11; 2:17-21; 3:19-21; 15:14-17; 17:31; 24:15; 28:20', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Esperanza', tabla: {
           titulo: 'La esperanza futura en Hechos',
@@ -2013,7 +2014,7 @@
   /* ---------------- Ruta VII · El Espíritu Santo en Hechos ---------------- */
   const espiritu = [
     {
-      id: 'promesa-espiritu', n: 'La promesa del Espíritu', ref: 'Joel 2:28-29; Lucas 24:49; Juan 14:16-17; 16:7; Hechos 1:4-8', fecha: 30,
+      id: 'promesa-espiritu', n: 'La promesa del Espíritu', ref: 'Joel 2:28-29; Lucas 24:49; Juan 14:16-17; 16:7; Hechos 1:4-8', fecha: 33,
       visual: [
         { tipo: 'tabla', titulo: 'La promesa', tabla: {
           titulo: 'La promesa del Espíritu a lo largo de la Biblia',
@@ -2042,7 +2043,7 @@
       pensar: 'Moisés deseó que todo el pueblo de Dios recibiera el Espíritu (Nm 11:29), y en Pentecostés ese deseo comenzó a cumplirse. ¿Qué significa para ti que la promesa del Espíritu no sea solo para líderes, sino para todo creyente?'
     },
     {
-      id: 'e-jerusalen', n: 'Jerusalén: el Espíritu derramado', ref: 'Hechos 2:1-21, 33, 38-39', fecha: 30,
+      id: 'e-jerusalen', n: 'Jerusalén: el Espíritu derramado', ref: 'Hechos 2:1-21, 33, 38-39', fecha: 33,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: OTRA + 'imperios-historia/img/integrador-pentecostes.webp', alt: 'El día de Pentecostés en Jerusalén: los discípulos llenos del Espíritu Santo hablan a una multitud de muchas naciones', pie: 'Pentecostés (Hch 2:1-13).', origen: 'ia' },
         { tipo: 'tabla', titulo: 'Lo que ocurrió', tabla: {
@@ -2145,7 +2146,7 @@
       pensar: 'La pregunta de Pablo, «¿Recibisteis el Espíritu Santo cuando creísteis?» (Hch 19:2), supone que es posible saberlo con certeza. ¿Qué responderías tú a esa pregunta hoy?'
     },
     {
-      id: 'e-patron', n: 'El patrón de Hechos', ref: 'Hechos 2:4; 8:17-18; 9:17; 10:44-46; 19:6', fecha: [30, 57],
+      id: 'e-patron', n: 'El patrón de Hechos', ref: 'Hechos 2:4; 8:17-18; 9:17; 10:44-46; 19:6', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Comparación', tabla: {
           titulo: 'Los cinco relatos comparados',
@@ -2179,7 +2180,7 @@
   /* ---------------- Ruta VIII · Los discursos ---------------- */
   const discursos = [
     {
-      id: 'kerigma', n: 'El mensaje de la iglesia primitiva', ref: 'Hechos 2:14-40; 3:12-26; 10:34-43; 13:16-41', fecha: [30, 62],
+      id: 'kerigma', n: 'El mensaje de la iglesia primitiva', ref: 'Hechos 2:14-40; 3:12-26; 10:34-43; 13:16-41', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Los discursos', tabla: {
           titulo: 'Los principales discursos de Hechos',
@@ -2211,7 +2212,7 @@
       pensar: 'Los apóstoles predicaban el mismo mensaje a públicos muy distintos, pero adaptaban la forma de presentarlo. ¿Cómo presentarías el evangelio a un amigo que no conoce la Biblia, sin cambiar su contenido?'
     },
     {
-      id: 'd-pedro', n: 'Pedro: a los judíos', ref: 'Hechos 2:14-40; 3:12-26; 4:8-12', fecha: 30,
+      id: 'd-pedro', n: 'Pedro: a los judíos', ref: 'Hechos 2:14-40; 3:12-26; 4:8-12', fecha: 33,
       visual: [
         { tipo: 'tabla', titulo: 'Estructura', tabla: {
           titulo: 'Los sermones de Pedro a los judíos',
@@ -2241,7 +2242,7 @@
       pensar: 'Pedro comenzaba sus sermones con lo que la gente acababa de ver y oír de la obra de Dios (Hch 2:16; 3:12). ¿Qué obras de Dios en tu vida podrías usar como punto de partida para hablar de Cristo?'
     },
     {
-      id: 'd-esteban', n: 'Esteban: una historia de rechazo', ref: 'Hechos 7:2-53', fecha: 33,
+      id: 'd-esteban', n: 'Esteban: una historia de rechazo', ref: 'Hechos 7:2-53', fecha: 34,
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-esteban.webp', alt: 'Esteban mira hacia el cielo abierto, con el rostro iluminado', pie: 'Esteban ante el sanedrín (Hch 7).', origen: 'ia' }
       ],
@@ -2347,7 +2348,7 @@
   /* ---------------- Ruta IX · Señales y milagros ---------------- */
   const senales = [
     {
-      id: 's-catalogo', n: 'Las señales de Hechos', ref: 'Hechos 2:43; 5:12; 14:3; 19:11-12', fecha: [30, 62],
+      id: 's-catalogo', n: 'Las señales de Hechos', ref: 'Hechos 2:43; 5:12; 14:3; 19:11-12', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Catálogo', tabla: {
           titulo: 'Señales y milagros narrados en Hechos',
@@ -2377,7 +2378,7 @@
       pensar: 'La iglesia de Jerusalén pidió a Dios que extendiera su mano «para que se hagan sanidades y señales y prodigios» (Hch 4:30). ¿Se atreve tu congregación a orar así? ¿Qué te impide hacerlo?'
     },
     {
-      id: 's-sanidades', n: 'Sanidades', ref: 'Hechos 3:1-16; 5:15-16; 9:32-35; 14:8-10; 28:8-9', fecha: [30, 60],
+      id: 's-sanidades', n: 'Sanidades', ref: 'Hechos 3:1-16; 5:15-16; 9:32-35; 14:8-10; 28:8-9', fecha: [33, 60],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-cojo-hermosa.webp', alt: 'Pedro toma de la mano a un hombre cojo y lo levanta junto a una puerta del templo', pie: '«En el nombre de Jesucristo de Nazaret, levántate y anda» (Hch 3:6).', origen: 'ia' }
       ],
@@ -2396,7 +2397,7 @@
       pensar: 'Pedro declaró que el cojo fue sanado «por la fe en su nombre», el nombre de Jesús (Hch 3:16). ¿Por quién podrías orar esta semana por sanidad, confiando en el nombre de Jesús?'
     },
     {
-      id: 's-liberaciones', n: 'Liberaciones y el poder de las tinieblas', ref: 'Hechos 5:16; 8:7; 13:6-12; 16:16-18; 19:11-20; 26:18', fecha: [30, 57],
+      id: 's-liberaciones', n: 'Liberaciones y el poder de las tinieblas', ref: 'Hechos 5:16; 8:7; 13:6-12; 16:16-18; 19:11-20; 26:18', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Confrontaciones', tabla: {
           titulo: 'El evangelio frente al poder de las tinieblas',
@@ -2423,7 +2424,7 @@
       pensar: 'Los hijos de Esceva usaron el nombre de Jesús sin conocerlo, y fueron vencidos (Hch 19:13-16). ¿Qué diferencia hay entre usar el nombre de Jesús como fórmula y orar en su nombre como alguien que le pertenece?'
     },
     {
-      id: 's-vida-juicio', n: 'Resurrecciones y juicios', ref: 'Hechos 5:1-11; 9:36-42; 12:20-23; 13:8-12; 20:7-12', fecha: [30, 57],
+      id: 's-vida-juicio', n: 'Resurrecciones y juicios', ref: 'Hechos 5:1-11; 9:36-42; 12:20-23; 13:8-12; 20:7-12', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Vida y juicio', tabla: {
           titulo: 'El poder de Dios para dar vida y para juzgar',
@@ -2451,7 +2452,7 @@
       pensar: 'En Hechos, el poder de Dios que sanaba y resucitaba iba unido al temor de Dios en la iglesia (Hch 2:43; 5:11). ¿Por qué es peligroso buscar el poder de Dios sin respetar su santidad?'
     },
     {
-      id: 's-intervenciones', n: 'Ángeles, visiones y protección', ref: 'Hechos 5:17-20; 10:1-23; 12:6-11; 16:9, 25-26; 18:9-10; 23:11; 27:23-25; 28:3-6', fecha: [30, 60],
+      id: 's-intervenciones', n: 'Ángeles, visiones y protección', ref: 'Hechos 5:17-20; 10:1-23; 12:6-11; 16:9, 25-26; 18:9-10; 23:11; 27:23-25; 28:3-6', fecha: [33, 60],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-pedro-carcel.webp', alt: 'Un ángel resplandeciente despierta a Pedro en la cárcel', pie: 'Un ángel libera a Pedro (Hch 12:7).', origen: 'ia' }
       ],
@@ -2470,7 +2471,7 @@
       pensar: 'Dios liberó a Pedro de la cárcel, pero permitió que Jacobo muriera (Hch 12:1-11). ¿Cómo puedes confiar en la bondad de Dios cuando no te libra de una prueba como esperabas?'
     },
     {
-      id: 's-proposito', n: 'Para qué son las señales', ref: 'Hechos 4:29-31; 8:6-8; 9:35, 42; 13:12; 14:3; Marcos 16:15-20; Hebreos 2:3-4', fecha: [30, 62],
+      id: 's-proposito', n: 'Para qué son las señales', ref: 'Hechos 4:29-31; 8:6-8; 9:35, 42; 13:12; 14:3; Marcos 16:15-20; Hebreos 2:3-4', fecha: [33, 62],
       visual: [
         { tipo: 'cita', titulo: 'Pasaje', texto: 'Por tanto, se detuvieron allí mucho tiempo, hablando con denuedo, confiados en el Señor, el cual daba testimonio a la palabra de su gracia, concediendo que se hiciesen por las manos de ellos señales y prodigios.', ref: 'Hechos 14:3' }
       ],
@@ -2493,7 +2494,7 @@
   /* ---------------- Ruta X · La iglesia primitiva ---------------- */
   const iglesia = [
     {
-      id: 'i-retrato', n: 'Un retrato de la primera iglesia', ref: 'Hechos 2:41-47', fecha: 30,
+      id: 'i-retrato', n: 'Un retrato de la primera iglesia', ref: 'Hechos 2:41-47', fecha: 33,
       visual: [
         { tipo: 'cita', titulo: 'Pasaje', texto: 'Y perseveraban en la doctrina de los apóstoles, en la comunión unos con otros, en el partimiento del pan y en las oraciones.', ref: 'Hechos 2:42' },
         { tipo: 'tabla', titulo: 'El retrato', tabla: {
@@ -2526,7 +2527,7 @@
       pensar: 'La primera iglesia perseveraba en cuatro cosas: la doctrina, la comunión, el partimiento del pan y la oración (Hch 2:42). ¿En cuál de ellas necesitas crecer en tu vida y en tu congregación?'
     },
     {
-      id: 'i-generosidad', n: 'Comunión y generosidad', ref: 'Hechos 2:44-45; 4:32-37; 5:1-11; 6:1-6; 11:27-30; 20:35; 24:17', fecha: [30, 57],
+      id: 'i-generosidad', n: 'Comunión y generosidad', ref: 'Hechos 2:44-45; 4:32-37; 5:1-11; 6:1-6; 11:27-30; 20:35; 24:17', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Generosidad', tabla: {
           titulo: 'La generosidad en Hechos',
@@ -2557,7 +2558,7 @@
       pensar: 'En la primera iglesia nadie decía que lo que tenía era solo suyo, y por eso no había necesitados entre ellos (Hch 4:32-34). ¿Cómo puedes practicar esa misma actitud hacia los hermanos de tu congregación?'
     },
     {
-      id: 'i-oracion', n: 'Una iglesia que ora', ref: 'Hechos 1:14; 4:23-31; 6:4; 10:9; 12:5, 12; 13:2-3; 14:23; 16:25; 20:36', fecha: [30, 62],
+      id: 'i-oracion', n: 'Una iglesia que ora', ref: 'Hechos 1:14; 4:23-31; 6:4; 10:9; 12:5, 12; 13:2-3; 14:23; 16:25; 20:36', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'La oración', tabla: {
           titulo: 'La oración en los momentos clave',
@@ -2591,7 +2592,7 @@
       pensar: 'Los apóstoles delegaron otras tareas para persistir «en la oración y en el ministerio de la palabra» (Hch 6:4). ¿Qué lugar ocupa la oración en tu servicio a Dios, y qué podrías dejar para darle más espacio?'
     },
     {
-      id: 'i-organizacion', n: 'Organización y ministerios', ref: 'Hechos 1:15-26; 6:1-7; 11:30; 13:1; 14:23; 15:2-6, 22; 20:17, 28; 21:8-10', fecha: [30, 57],
+      id: 'i-organizacion', n: 'Organización y ministerios', ref: 'Hechos 1:15-26; 6:1-7; 11:30; 13:1; 14:23; 15:2-6, 22; 20:17, 28; 21:8-10', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Ministerios', tabla: {
           titulo: 'Ministerios y funciones en la iglesia de Hechos',
@@ -2620,7 +2621,7 @@
       pensar: 'Para servir las mesas, la iglesia buscó personas llenas del Espíritu Santo (Hch 6:3). ¿Qué cualidades espirituales debería buscar hoy una iglesia al elegir a quienes sirven en ella?'
     },
     {
-      id: 'i-problemas', n: 'Problemas y cómo se resolvieron', ref: 'Hechos 5:1-11; 6:1-7; 11:1-18; 15:1-35, 36-41; 21:17-26', fecha: [30, 57],
+      id: 'i-problemas', n: 'Problemas y cómo se resolvieron', ref: 'Hechos 5:1-11; 6:1-7; 11:1-18; 15:1-35, 36-41; 21:17-26', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Problemas', tabla: {
           titulo: 'Los problemas de la iglesia de Hechos',
@@ -2655,7 +2656,7 @@
   /* ---------------- Ruta XI · Personajes ---------------- */
   const personajes = [
     {
-      id: 'p-pedro', n: 'Pedro', ref: 'Hechos 1–5; 8:14-25; 9:32–11:18; 12:1-17; 15:7-11', fecha: [30, 49],
+      id: 'p-pedro', n: 'Pedro', ref: 'Hechos 1–5; 8:14-25; 9:32–11:18; 12:1-17; 15:7-11', fecha: [33, 49],
       visual: [
         { tipo: 'tabla', titulo: 'Pedro', tabla: {
           titulo: 'Pedro en Hechos',
@@ -2688,7 +2689,7 @@
       pensar: 'Pedro pasó de negar a Jesús ante una criada a confesarlo ante el sanedrín (Hch 4:8-13). ¿Qué te enseña su transformación sobre lo que Dios puede hacer con tus fracasos?'
     },
     {
-      id: 'p-pablo', n: 'Pablo', ref: 'Hechos 7:58–8:3; 9; 13–28; Filipenses 3:4-8', fecha: [33, 62],
+      id: 'p-pablo', n: 'Pablo', ref: 'Hechos 7:58–8:3; 9; 13–28; Filipenses 3:4-8', fecha: [34, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Pablo', tabla: {
           titulo: 'Pablo: datos de su vida',
@@ -2720,7 +2721,7 @@
       pensar: 'Dios preparó a Pablo, desde antes de su conversión, con una formación que después usaría en su ministerio (Gá 1:15). ¿Qué experiencias de tu vida podría usar Dios para su propósito?'
     },
     {
-      id: 'p-esteban-felipe', n: 'Esteban y Felipe', ref: 'Hechos 6–8; 21:8-9', fecha: [32, 57],
+      id: 'p-esteban-felipe', n: 'Esteban y Felipe', ref: 'Hechos 6–8; 21:8-9', fecha: [34, 57],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-esteban.webp', alt: 'Esteban mira hacia el cielo abierto con el rostro iluminado', pie: 'Esteban, el primer mártir (Hch 7:55-60).', origen: 'ia' },
         { tipo: 'imagen', titulo: 'Felipe', src: 'img/hechos-felipe-etiope.webp', alt: 'Felipe habla con el funcionario etíope junto a su carro', pie: 'Felipe y el etíope (Hch 8:26-39).', origen: 'ia' }
@@ -2739,7 +2740,7 @@
       pensar: 'Esteban y Felipe fueron elegidos para servir mesas, y Dios los usó como predicadores y hacedores de milagros (Hch 6:5, 8; 8:5-6). ¿Qué te enseña esto sobre la fidelidad en las tareas pequeñas?'
     },
     {
-      id: 'p-bernabe', n: 'Bernabé, el hijo de consolación', ref: 'Hechos 4:36-37; 9:26-27; 11:22-30; 13–15', fecha: [30, 49],
+      id: 'p-bernabe', n: 'Bernabé, el hijo de consolación', ref: 'Hechos 4:36-37; 9:26-27; 11:22-30; 13–15', fecha: [33, 49],
       visual: [
         { tipo: 'tabla', titulo: 'Bernabé', tabla: {
           titulo: 'Bernabé en Hechos',
@@ -2799,7 +2800,7 @@
       pensar: 'Apolos, un predicador elocuente, aceptó ser enseñado por un matrimonio de artesanos (Hch 18:26). ¿Estás dispuesto a aprender de otros, aunque tengan menos estudios o reconocimiento que tú?'
     },
     {
-      id: 'p-mujeres', n: 'Las mujeres de Hechos', ref: 'Hechos 1:14; 2:17-18; 9:36-42; 12:12-15; 16:13-15; 17:4, 12, 34; 18:26; 21:9', fecha: [30, 57],
+      id: 'p-mujeres', n: 'Las mujeres de Hechos', ref: 'Hechos 1:14; 2:17-18; 9:36-42; 12:12-15; 16:13-15; 17:4, 12, 34; 18:26; 21:9', fecha: [33, 57],
       visual: [
         { tipo: 'tabla', titulo: 'Mujeres', tabla: {
           titulo: 'Mujeres en Hechos',
@@ -2833,7 +2834,7 @@
       pensar: 'Desde Pentecostés, el Espíritu se derramó sobre hijos e hijas, siervos y siervas (Hch 2:17-18). ¿Qué dones y servicios ha dado Dios a las mujeres de tu congregación, y cómo se pueden valorar y desarrollar?'
     },
     {
-      id: 'p-autoridades', n: 'Las autoridades', ref: 'Hechos 4–5; 12; 13:7; 16:19-39; 18:12-17; 21–26', fecha: [30, 62],
+      id: 'p-autoridades', n: 'Las autoridades', ref: 'Hechos 4–5; 12; 13:7; 16:19-39; 18:12-17; 21–26', fecha: [33, 62],
       visual: [
         { tipo: 'tabla', titulo: 'Autoridades', tabla: {
           titulo: 'Las autoridades ante el evangelio',
@@ -2873,7 +2874,7 @@
   const CASAS = ['jerusalen', 'jope', 'cesarea', 'filipos', 'tesalonica', 'corinto', 'efeso', 'troas', 'roma'];
   const casas = [
     {
-      id: 'c-sin-templos', n: 'Una iglesia sin templos', ref: 'Hechos 2:46; 5:42; 20:20; Romanos 16:5; 1 Corintios 16:19; Colosenses 4:15; Filemón 2', fecha: [30, 62],
+      id: 'c-sin-templos', n: 'Una iglesia sin templos', ref: 'Hechos 2:46; 5:42; 20:20; Romanos 16:5; 1 Corintios 16:19; Colosenses 4:15; Filemón 2', fecha: [33, 62],
       visual: [
         { tipo: 'mapa', titulo: 'Mapa', estado: { view: MEDITERRANEO, capas: ['roma-14', 'iglesia-62'], lugares: CASAS } },
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-casa-iglesia.webp', alt: 'Una iglesia del siglo I reunida en el patio de una casa grecorromana: hombres, mujeres, niños y esclavos sentados juntos alrededor de una mesa con pan, mientras uno lee un rollo a la luz de lámparas', pie: 'Una iglesia reunida en una casa.', origen: 'ia' }
@@ -2892,7 +2893,7 @@
       pensar: 'La primera iglesia partía el pan «en las casas», y comían juntos con alegría y sencillez de corazón (Hch 2:46). ¿Cómo podría tu casa ser un lugar de comunión, oración y hospitalidad para otros creyentes?'
     },
     {
-      id: 'c-jerusalen', n: 'Jerusalén: el aposento alto y la casa de María', ref: 'Hechos 1:13-14; 2:1-2; 12:12-17', fecha: [30, 44],
+      id: 'c-jerusalen', n: 'Jerusalén: el aposento alto y la casa de María', ref: 'Hechos 1:13-14; 2:1-2; 12:12-17', fecha: [33, 44],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/hechos-casa-maria.webp', alt: 'De noche, en el patio de la casa de María en Jerusalén, un grupo de creyentes ora arrodillado a la luz de lámparas, mientras una joven sirvienta corre desde la puerta exterior', pie: 'La iglesia ora en casa de María, la madre de Juan Marcos (Hch 12:12).', origen: 'ia' }
       ],
@@ -2995,7 +2996,7 @@
   ];
 
   const LINEA = { desde: 25, hasta: 72, hitos: [
-    { a: 30, t: 'Pentecostés' }, { a: 34, t: 'Conversión de Pablo' }, { a: 40, t: 'Cornelio' }, { a: 49, t: 'Concilio' },
+    { a: 33, t: 'Pentecostés' }, { a: 34, t: 'Conversión de Pablo' }, { a: 40, t: 'Cornelio' }, { a: 49, t: 'Concilio' },
     { a: 57, t: 'Arresto' }, { a: 60, t: 'Roma' }, { a: 70, t: 'Cae el templo' }
   ] };
 
@@ -3008,26 +3009,26 @@
     rutas: [
       { id: 'introduccion', grupo: 'Estudio del libro', n: 'Introducción y trasfondo', info: 'Autor, destinatario, fecha, mundo romano y judío, tema, propósito, características y principios para interpretar',
         linea: { desde: 25, hasta: 72, hitos: [
-          { a: 30, t: 'Pentecostés' }, { a: 34, t: 'Conversión de Pablo' }, { a: 49, t: 'Concilio' },
+          { a: 33, t: 'Pentecostés' }, { a: 34, t: 'Conversión de Pablo' }, { a: 49, t: 'Concilio' },
           { a: [51, 52], t: 'Galión' }, { a: 57, t: 'Arresto' }, { a: 62, t: 'Fin de Hechos' }, { a: 70, t: 'Cae el templo' }
         ] },
         estaciones: introduccion },
       { id: 'panorama', grupo: 'Estudio del libro', n: 'Visión panorámica', info: 'Bosquejo, seis etapas, Pedro y Pablo, resumen por secciones, palabras y versículos clave, grandes temas',
         linea: { desde: 25, hasta: 72, hitos: [
-          { a: 30, t: 'Pentecostés' }, { a: 34, t: 'Conversión de Pablo' }, { a: 40, t: 'Cornelio' }, { a: 49, t: 'Concilio' },
+          { a: 33, t: 'Pentecostés' }, { a: 34, t: 'Conversión de Pablo' }, { a: 40, t: 'Cornelio' }, { a: 49, t: 'Concilio' },
           { a: 57, t: 'Arresto' }, { a: 60, t: 'Roma' }, { a: 70, t: 'Cae el templo' }
         ] },
         estaciones: panorama },
       { id: 'comentario', grupo: 'Estudio del libro', n: 'Comentario capítulo por capítulo', info: 'Los 28 capítulos de Hechos, uno por uno',
         linea: { desde: 25, hasta: 72, hitos: [
-          { a: 30, t: 'Pentecostés' }, { a: 33, t: 'Esteban' }, { a: 40, t: 'Cornelio' }, { a: 49, t: 'Concilio' },
+          { a: 33, t: 'Pentecostés' }, { a: 34, t: 'Esteban' }, { a: 40, t: 'Cornelio' }, { a: 49, t: 'Concilio' },
           { a: 57, t: 'Arresto' }, { a: 60, t: 'Roma' }, { a: 70, t: 'Cae el templo' }
         ] },
         estaciones: comentario },
       { id: 'teologia', grupo: 'Estudio del libro', n: 'Teología de Hechos', info: 'El Espíritu Santo, el bautismo en el Espíritu, los dones, Cristo, la salvación, la iglesia y los últimos tiempos', linea: LINEA, estaciones: teologia },
       { id: 'expansion', grupo: 'Mapas', n: 'La expansión de la iglesia', info: 'De Jerusalén a Samaria, Antioquía, Asia, Europa y Roma, y hasta lo último de la tierra',
         linea: { desde: 25, hasta: 72, hitos: [
-          { a: 30, t: 'Pentecostés' }, { a: 34, t: 'Samaria' }, { a: 40, t: 'Cornelio' }, { a: 46, t: 'Primer viaje' },
+          { a: 33, t: 'Pentecostés' }, { a: 34, t: 'Samaria' }, { a: 40, t: 'Cornelio' }, { a: 46, t: 'Primer viaje' },
           { a: 50, t: 'Europa' }, { a: 54, t: 'Éfeso' }, { a: 60, t: 'Roma' }
         ] },
         estaciones: expansion },

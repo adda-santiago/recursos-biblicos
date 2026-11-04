@@ -422,7 +422,8 @@
           a: { n: 'En el 4 a.C.', t: 'La fecha más aceptada, según los años de reinado que da Josefo, un eclipse de luna que menciona poco antes de su muerte y las fechas de sus hijos. Jesús habría nacido hacia el 6 o el 5 a.C.' },
           b: { n: 'En el 1 a.C.', t: 'Algunos estudiosos proponen otro eclipse y otra cuenta de los años; ubican el nacimiento de Jesús hacia el 3 o 2 a.C.' },
           c: 'En los dos casos Jesús nació «en días del rey Herodes», como dice el evangelio (Mt 2:1). El desfase con el año 1 viene de un cálculo del monje Dionisio el Exiguo, en el siglo VI.'
-        } }
+        } },
+        ir('Ver la Cronología del Nuevo Testamento: los magos y la muerte de Herodes', '../../cronologia-nuevo-testamento/#nacimiento/3')
       ],
       pensar: 'Herodes murió rodeado de oro y nadie lo lloró. Jesús dijo del rico necio: «esta noche vienen a pedirte tu alma; y lo que has provisto, ¿de quién será?» (Lc 12:20). ¿Qué estás preparando que sí vaya a permanecer?'
     },
@@ -564,7 +565,7 @@
       pensar: 'Antipas escuchaba a Juan con gusto, pero no se arrepintió, y terminó cediendo ante la presión de los demás. ¿Hay algo que Dios te ha mostrado y que todavía postergas por lo que dirán los que te rodean?'
     },
     {
-      id: 'jesus', n: 'Antipas y Jesús: «aquella zorra»', ref: 'Lucas 9:7-9; Lucas 13:31-33; Marcos 8:15; Lucas 23:6-12; Hechos 4:27', fecha: [29, 30],
+      id: 'jesus', n: 'Antipas y Jesús: «aquella zorra»', ref: 'Lucas 9:7-9; Lucas 13:31-33; Marcos 8:15; Lucas 23:6-12; Hechos 4:27', fecha: [29, 33],
       visual: [
         img('../mundo-judio/img/mj-antipas-jesus.webp', 'En una sala del palacio asmoneo de Jerusalén, Herodes Antipas, sentado, observa con curiosidad burlona a Jesús, que está de pie en silencio, visto de espaldas, mientras soldados de Antipas lo rodean y sacerdotes lo acusan', 'Jesús ante Herodes Antipas en Jerusalén (Lucas 23:8-11). Recreación.'),
         cita('Lucas 23:6-12', 'Entonces Pilato, oyendo decir, Galilea, preguntó si el hombre era galileo. Y al saber que era de la jurisdicción de Herodes, le remitió a Herodes, que en aquellos días también estaba en Jerusalén. Herodes, viendo a Jesús, se alegró mucho, porque hacía tiempo que deseaba verle; porque había oído muchas cosas acerca de él, y esperaba verle hacer alguna señal. Y le hacía muchas preguntas, pero él nada le respondió. Y estaban los principales sacerdotes y los escribas acusándole con gran vehemencia. Entonces Herodes con sus soldados le menospreció y escarneció, vistiéndole de una ropa espléndida; y volvió a enviarle a Pilato. Y se hicieron amigos Pilato y Herodes aquel día; porque antes estaban enemistados entre sí.'),
@@ -995,7 +996,7 @@
       pensar: 'Leer con atención al momento y al contexto evita muchos errores al estudiar la Biblia. ¿Qué pasaje que has leído hace poco podrías entender mejor si te preguntaras en qué momento de la historia ocurrió?'
     },
     {
-      id: 'herodianos', n: 'Los herodianos y la levadura de Herodes', ref: 'Marcos 3:6; Marcos 12:13-17; Mateo 22:15-22; Marcos 8:15', fecha: [28, 30],
+      id: 'herodianos', n: 'Los herodianos y la levadura de Herodes', ref: 'Marcos 3:6; Marcos 12:13-17; Mateo 22:15-22; Marcos 8:15', fecha: [29, 33],
       visual: [
         tabla({
           titulo: 'Los herodianos en los evangelios',
@@ -1022,7 +1023,7 @@
       pensar: 'La levadura de Herodes es dejar que el poder y la conveniencia decidan por encima de la verdad. ¿En qué decisiones de tu vida podría estar actuando esa levadura sin que lo notes?'
     },
     {
-      id: 'salmo2', n: '«Se reunieron los reyes de la tierra»', ref: 'Salmo 2:1-12; Hechos 4:24-31', fecha: [30, 44],
+      id: 'salmo2', n: '«Se reunieron los reyes de la tierra»', ref: 'Salmo 2:1-12; Hechos 4:24-31', fecha: [33, 44],
       visual: [
         cita('Hechos 4:24-28', 'Y ellos, habiéndolo oído, alzaron unánimes la voz a Dios, y dijeron: Soberano Señor, tú eres el Dios que hiciste el cielo y la tierra, el mar y todo lo que en ellos hay; que por boca de David tu siervo dijiste: ¿Por qué se amotinan las gentes, Y los pueblos piensan cosas vanas? Se reunieron los reyes de la tierra, Y los príncipes se juntaron en uno Contra el Señor, y contra su Cristo. Porque verdaderamente se unieron en esta ciudad contra tu santo Hijo Jesús, a quien ungiste, Herodes y Poncio Pilato, con los gentiles y el pueblo de Israel, para hacer cuanto tu mano y tu consejo habían antes determinado que sucediera.'),
         cita('Salmo 2:1-4', '¿Por qué se amotinan las gentes, Y los pueblos piensan cosas vanas? Se levantarán los reyes de la tierra, Y príncipes consultarán unidos Contra Jehová y contra su ungido, diciendo: Rompamos sus ligaduras, Y echemos de nosotros sus cuerdas. El que mora en los cielos se reirá; El Señor se burlará de ellos.', 'Salmo 2'),
@@ -1117,7 +1118,7 @@
   const E = window.__HD;
   const LINEA = { desde: -75, hasta: 100, hitos: [
     { a: -63, t: 'Pompeyo' }, { a: -40, t: 'Herodes, rey' }, { a: -20, t: 'El templo' }, { a: -4, t: 'Muere Herodes' },
-    { a: [27, 30], t: 'Ministerio de Jesús' },
+    { a: [29, 33], t: 'Ministerio de Jesús' },
     { a: 44, t: 'Muere Agripa I' }, { a: 59, t: 'Pablo ante Agripa' }, { a: 70, t: 'Cae el templo' }, { a: 95, t: 'Fin de la dinastía' }
   ] };
   window.RUTA_DATA = {

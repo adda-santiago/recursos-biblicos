@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<rect width="1200" height="900" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Las anclas del Nuevo Testamento</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Hechos bíblicos que otras fuentes permiten fechar</text>
+<line x1="90" y1="170" x2="1150" y2="170" stroke="#1f2430" stroke-width="2"/>
+<line x1="90" y1="162" x2="90" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="90" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">10 a.C.</text>
+<line x1="339" y1="162" x2="339" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="339" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">10 d.C.</text>
+<line x1="464" y1="162" x2="464" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="464" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">20 d.C.</text>
+<line x1="589" y1="162" x2="589" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="589" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">30 d.C.</text>
+<line x1="714" y1="162" x2="714" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="714" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">40 d.C.</text>
+<line x1="838" y1="162" x2="838" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="838" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">50 d.C.</text>
+<line x1="963" y1="162" x2="963" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="963" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">60 d.C.</text>
+<line x1="1088" y1="162" x2="1088" y2="178" stroke="#1f2430" stroke-width="1.5"/>
+<text x="1088" y="150" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">70 d.C.</text>
+<circle cx="165" cy="220" r="9" fill="#8a5a44" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="165" y1="170" x2="165" y2="208" stroke="#8a5a44" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="181" y="218" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Muere Herodes el Grande</text>
+<text x="181" y="238" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal">Josefo; eclipse de luna · Mt 2:19</text>
+<circle cx="389" cy="278" r="9" fill="#6b5a7a" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="389" y1="170" x2="389" y2="266" stroke="#6b5a7a" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="405" y="276" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Muere Augusto: Tiberio, emperador</text>
+<text x="405" y="296" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal">Tácito, Suetonio · Lc 3:1</text>
+<rect x="539" y="324" width="125" height="24" rx="5" fill="#6b5a7a" opacity="0.85"/>
+<line x1="539" y1="170" x2="539" y2="324" stroke="#6b5a7a" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="680" y="334" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Poncio Pilato, prefecto de Judea</text>
+<text x="680" y="354" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal">Josefo; inscripción de Cesarea · Lc 3:1</text>
+<rect x="439" y="382" width="224" height="24" rx="5" fill="#8a5a44" opacity="0.85"/>
+<line x1="439" y1="170" x2="439" y2="382" stroke="#8a5a44" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="680" y="392" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="bold">Caifás, sumo sacerdote</text>
+<text x="680" y="412" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="start" font-weight="normal">Josefo; su osario · Jn 18:13</text>
+<circle cx="763" cy="452" r="9" fill="#8a5a44" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="763" y1="170" x2="763" y2="440" stroke="#8a5a44" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="747" y="450" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Muere Herodes Agripa I</text>
+<text x="747" y="470" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Josefo · Hch 12:23</text>
+<circle cx="826" cy="510" r="9" fill="#6b5a7a" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="826" y1="170" x2="826" y2="498" stroke="#6b5a7a" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="810" y="508" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Claudio expulsa a los judíos de Roma</text>
+<text x="810" y="528" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Suetonio; Orosio · Hch 18:2</text>
+<rect x="851" y="556" width="12" height="24" rx="5" fill="#6b5a7a" opacity="0.85"/>
+<line x1="851" y1="170" x2="851" y2="556" stroke="#6b5a7a" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="835" y="566" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Galión, procónsul de Acaya</text>
+<text x="835" y="586" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Inscripción de Delfos · Hch 18:12</text>
+<circle cx="950" cy="626" r="9" fill="#6b5a7a" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="950" y1="170" x2="950" y2="614" stroke="#6b5a7a" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="934" y="624" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Festo sucede a Félix</text>
+<text x="934" y="644" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Josefo; monedas de Judea · Hch 24:27</text>
+<circle cx="988" cy="684" r="9" fill="#8a5a44" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="988" y1="170" x2="988" y2="672" stroke="#8a5a44" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="972" y="682" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Muere Jacobo, hermano del Señor</text>
+<text x="972" y="702" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Josefo · Gá 1:19</text>
+<circle cx="1013" cy="742" r="9" fill="#6b5a7a" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="1013" y1="170" x2="1013" y2="730" stroke="#6b5a7a" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="997" y="740" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Incendio de Roma</text>
+<text x="997" y="760" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Tácito · 1 P 4:12</text>
+<circle cx="1088" cy="800" r="9" fill="#8a5a44" stroke="#f6f3ec" stroke-width="2"/>
+<line x1="1088" y1="170" x2="1088" y2="788" stroke="#8a5a44" stroke-width="1" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="1072" y="798" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="end" font-weight="bold">Cae Jerusalén y el templo</text>
+<text x="1072" y="818" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="end" font-weight="normal">Josefo, Tácito, arco de Tito · Lc 21:20</text>
+<text x="600" y="876" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Con estas fechas fijas y los intervalos que da la Biblia se reconstruye el resto de la cronología.</text>
+</svg>

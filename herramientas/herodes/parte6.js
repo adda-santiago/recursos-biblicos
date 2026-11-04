@@ -54,7 +54,7 @@
       pensar: 'Leer con atención al momento y al contexto evita muchos errores al estudiar la Biblia. ¿Qué pasaje que has leído hace poco podrías entender mejor si te preguntaras en qué momento de la historia ocurrió?'
     },
     {
-      id: 'herodianos', n: 'Los herodianos y la levadura de Herodes', ref: 'Marcos 3:6; Marcos 12:13-17; Mateo 22:15-22; Marcos 8:15', fecha: [28, 30],
+      id: 'herodianos', n: 'Los herodianos y la levadura de Herodes', ref: 'Marcos 3:6; Marcos 12:13-17; Mateo 22:15-22; Marcos 8:15', fecha: [29, 33],
       visual: [
         tabla({
           titulo: 'Los herodianos en los evangelios',
@@ -81,7 +81,7 @@
       pensar: 'La levadura de Herodes es dejar que el poder y la conveniencia decidan por encima de la verdad. ¿En qué decisiones de tu vida podría estar actuando esa levadura sin que lo notes?'
     },
     {
-      id: 'salmo2', n: '«Se reunieron los reyes de la tierra»', ref: 'Salmo 2:1-12; Hechos 4:24-31', fecha: [30, 44],
+      id: 'salmo2', n: '«Se reunieron los reyes de la tierra»', ref: 'Salmo 2:1-12; Hechos 4:24-31', fecha: [33, 44],
       visual: [
         cita('Hechos 4:24-28', '@@hch/4/24-28'),
         cita('Salmo 2:1-4', '@@sal/2/1-4', 'Salmo 2'),
@@ -176,7 +176,7 @@
   const E = window.__HD;
   const LINEA = { desde: -75, hasta: 100, hitos: [
     { a: -63, t: 'Pompeyo' }, { a: -40, t: 'Herodes, rey' }, { a: -20, t: 'El templo' }, { a: -4, t: 'Muere Herodes' },
-    { a: [27, 30], t: 'Ministerio de Jesús' },
+    { a: [29, 33], t: 'Ministerio de Jesús' },
     { a: 44, t: 'Muere Agripa I' }, { a: 59, t: 'Pablo ante Agripa' }, { a: 70, t: 'Cae el templo' }, { a: 95, t: 'Fin de la dinastía' }
   ] };
   window.RUTA_DATA = {

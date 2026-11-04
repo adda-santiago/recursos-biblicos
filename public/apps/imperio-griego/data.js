@@ -347,7 +347,7 @@
       pensar: 'Durante cuatrocientos años no hubo nuevos profetas, pero Dios estaba preparando «el cumplimiento del tiempo» (Gá 4:4). ¿Cómo te ayuda esto a confiar en Dios en los períodos en que parece guardar silencio?'
     },
     {
-      id: 'evangelio', n: 'El evangelio en el mundo griego', ref: 'Hechos 6:1; 11:19-26; 16–19; Romanos 1:16; Gálatas 3:28', fecha: [30, 60],
+      id: 'evangelio', n: 'El evangelio en el mundo griego', ref: 'Hechos 6:1; 11:19-26; 16–19; Romanos 1:16; Gálatas 3:28', fecha: [33, 60],
       visual: [
         { tipo: 'imagen', titulo: 'Imagen', src: 'img/grecia-pablo-areopago.webp', foco: '62% 50%', alt: 'El apóstol Pablo predica de pie en el Areópago de Atenas ante filósofos griegos, con la Acrópolis al fondo', pie: 'Pablo en el Areópago de Atenas (Hch 17:22).', origen: 'ia' },
         { tipo: 'mapa', titulo: 'Mapa', estado: { view: [[33, 19], [42.5, 37.5]], capas: ['grecia-480'], lugares: ['antioquia', 'efeso', 'tesalonica', 'atenas', 'corinto', 'jerusalen'] } }

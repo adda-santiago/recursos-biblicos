@@ -200,7 +200,8 @@
           a: { n: 'En el 4 a.C.', t: 'La fecha más aceptada, según los años de reinado que da Josefo, un eclipse de luna que menciona poco antes de su muerte y las fechas de sus hijos. Jesús habría nacido hacia el 6 o el 5 a.C.' },
           b: { n: 'En el 1 a.C.', t: 'Algunos estudiosos proponen otro eclipse y otra cuenta de los años; ubican el nacimiento de Jesús hacia el 3 o 2 a.C.' },
           c: 'En los dos casos Jesús nació «en días del rey Herodes», como dice el evangelio (Mt 2:1). El desfase con el año 1 viene de un cálculo del monje Dionisio el Exiguo, en el siglo VI.'
-        } }
+        } },
+        ir('Ver la Cronología del Nuevo Testamento: los magos y la muerte de Herodes', '../../cronologia-nuevo-testamento/#nacimiento/3')
       ],
       pensar: 'Herodes murió rodeado de oro y nadie lo lloró. Jesús dijo del rico necio: «esta noche vienen a pedirte tu alma; y lo que has provisto, ¿de quién será?» (Lc 12:20). ¿Qué estás preparando que sí vaya a permanecer?'
     },

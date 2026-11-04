@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+<rect width="1200" height="700" fill="#f6f3ec"/>
+<text x="600" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El ministerio de Jesús en las fiestas de Juan</text>
+<text x="600" y="88" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Del bautismo, en el otoño del 29, a la cruz, en la Pascua del 33</text>
+<line x1="226" y1="140" x2="226" y2="560" stroke="#c9c6be" stroke-width="1"/>
+<text x="232" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">30 d.C.</text>
+<line x1="498" y1="140" x2="498" y2="560" stroke="#c9c6be" stroke-width="1"/>
+<text x="504" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">31 d.C.</text>
+<line x1="769" y1="140" x2="769" y2="560" stroke="#c9c6be" stroke-width="1"/>
+<text x="775" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">32 d.C.</text>
+<line x1="1041" y1="140" x2="1041" y2="560" stroke="#c9c6be" stroke-width="1"/>
+<text x="1047" y="150" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="start" font-weight="normal">33 d.C.</text>
+<rect x="144" y="470" width="326" height="40" rx="6" fill="#5a6b3f" opacity="0.85"/>
+<text x="307" y="496" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Judea, Samaria y Caná</text>
+<rect x="471" y="470" width="503" height="40" rx="6" fill="#2f7d4f" opacity="0.85"/>
+<text x="722" y="496" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">El gran ministerio en Galilea</text>
+<rect x="973" y="470" width="136" height="40" rx="6" fill="#2f6f9e" opacity="0.85"/>
+<text x="1041" y="496" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">Hacia Jerusalén</text>
+<rect x="144" y="520" width="965" height="8" rx="3" fill="#9e2b25" opacity="0.6"/>
+<text x="144" y="552" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#9e2b25" text-anchor="start" font-weight="bold">Unos tres años y medio</text>
+<line x1="158" y1="230" x2="158" y2="460" stroke="#6b7080" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="158" cy="220" r="11" fill="#6b7080" stroke="#f6f3ec" stroke-width="2"/>
+<text x="158" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="bold">Bautismo</text>
+<text x="158" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">otoño del 29</text>
+<text x="158" y="274" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Mt 3; Jn 1</text>
+<line x1="302" y1="340" x2="302" y2="460" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="302" cy="330" r="11" fill="#9e2b25" stroke="#f6f3ec" stroke-width="2"/>
+<text x="302" y="308" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold">Pascua</text>
+<text x="302" y="364" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">purificación del templo</text>
+<text x="302" y="384" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 2:13</text>
+<line x1="606" y1="230" x2="606" y2="460" stroke="#6b7080" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="606" cy="220" r="11" fill="#6b7080" stroke="#f6f3ec" stroke-width="2"/>
+<text x="606" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="bold">Una fiesta</text>
+<text x="606" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">¿Pascua o Tabernáculos?</text>
+<text x="606" y="274" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 5:1</text>
+<line x1="846" y1="340" x2="846" y2="460" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="846" cy="330" r="11" fill="#9e2b25" stroke="#f6f3ec" stroke-width="2"/>
+<text x="846" y="308" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold">Pascua</text>
+<text x="846" y="364" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">los cinco mil</text>
+<text x="846" y="384" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 6:4</text>
+<line x1="973" y1="230" x2="973" y2="460" stroke="#c08a1e" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="973" cy="220" r="11" fill="#c08a1e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="973" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="middle" font-weight="bold">Tabernáculos</text>
+<text x="973" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">otoño</text>
+<text x="973" y="274" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 7:2</text>
+<line x1="1033" y1="340" x2="1033" y2="460" stroke="#c08a1e" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="1033" cy="330" r="11" fill="#c08a1e" stroke="#f6f3ec" stroke-width="2"/>
+<text x="1033" y="308" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="middle" font-weight="bold">Dedicación</text>
+<text x="1033" y="364" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">invierno</text>
+<text x="1033" y="384" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 10:22</text>
+<line x1="1112" y1="230" x2="1112" y2="460" stroke="#9e2b25" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.6"/>
+<circle cx="1112" cy="220" r="11" fill="#9e2b25" stroke="#f6f3ec" stroke-width="2"/>
+<text x="1112" y="198" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold">Pascua</text>
+<text x="1112" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">la cruz</text>
+<text x="1112" y="274" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 11:55</text>
+<text x="600" y="670" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Entre la Pascua de Juan 2 y la de Juan 6 pasó más de un año (Jn 4:35): por eso se cuentan cuatro Pascuas.</text>
+</svg>

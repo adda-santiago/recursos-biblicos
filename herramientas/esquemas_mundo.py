@@ -120,7 +120,7 @@ def gobernantes():
         o.append(t(X(a), ye + 30, f'{-a} a.C.' if a < 0 else f'{a} d.C.', 14, MUTED))
     # hechos
     hechos = [(-5, 'Nace Jesús', 'c. 6–4 a.C.', JESUS, 0), (6, 'Censo de Quirinio', '6 d.C.', ROMANO, 1),
-              (28, 'Ministerio de Jesús', 'c. 27–30', JESUS, 0), (31, 'Cruz y resurrección', 'c. 30 o 33', JESUS, 1),
+              (30, 'Ministerio de Jesús', 'c. 29–33', JESUS, 0), (33, 'Cruz y resurrección', '33', JESUS, 1),
               (44, 'Muere Jacobo', 'Hechos 12', IGLESIA, 0), (62, 'Muere Santiago', 'hermano del Señor', IGLESIA, 1),
               (70, 'Cae el templo', '70 d.C.', GUERRA, 0)]
     base = ye + 70

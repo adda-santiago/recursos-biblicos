@@ -135,7 +135,7 @@
       pensar: 'Pablo dice: «el que piensa estar firme, mire que no caiga» (1 Co 10:12). ¿A quién le rindes cuentas de tu vida espiritual, de tu matrimonio y de tu dinero? ¿Oras por tus pastores?'
     },
     {
-      id: 'probar', n: 'Cómo probar los espíritus', ref: '1 Juan 4:1-3; 1 Tesalonicenses 5:19-21; Hechos 17:11; 1 Corintios 14:29; Mateo 7:15-20', fecha: [30, 2026],
+      id: 'probar', n: 'Cómo probar los espíritus', ref: '1 Juan 4:1-3; 1 Tesalonicenses 5:19-21; Hechos 17:11; 1 Corintios 14:29; Mateo 7:15-20', fecha: [33, 2026],
       visual: [
         esq('esquema-discernir.svg', 'Esquema con seis preguntas para discernir: si confiesa y exalta a Cristo; si concuerda con toda la Escritura; si edifica a la iglesia; si produce el fruto del Espíritu; si se hace con orden y en amor; y si busca el bien de otros y no el dinero, cada una con sus textos bíblicos', 'Seis preguntas para discernir, con sus textos bíblicos.'),
         img('berea.webp', 'De noche, en una casa sencilla de un barrio latinoamericano de hoy, un grupo pequeño de creyentes de distintas edades, sentados alrededor de una mesa de cocina con tazas de té, lee la Biblia con atención; una mujer mayor señala un versículo y un joven compara en su teléfono', 'Un grupo de estudio bíblico en una casa (recreación; personas anónimas).')

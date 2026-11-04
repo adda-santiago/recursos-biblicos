@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Línea de tiempo del Nuevo Testamento · Recursos Bíblicos</title>
+  <meta name="description" content="Línea de tiempo completa del Nuevo Testamento, del anuncio a Zacarías a la muerte del apóstol Juan: Jesús, la iglesia, Pablo, los libros, Roma y Judea, con filtros y enlaces a cada estación.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Línea de tiempo del Nuevo Testamento. Colores de datos por categoría:
+       --c-jesus, --c-iglesia, --c-pablo, --c-libros, --c-roma, --c-judea (los mismos de los esquemas del recurso). */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root { --c-jesus: #9e2b25; --c-iglesia: #2f7d4f; --c-pablo: #2f6f9e; --c-libros: #a8741a; --c-roma: #6b5a7a; --c-judea: #8a5a44; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d;
+      --c-jesus: #e0786d; --c-iglesia: #6cc08f; --c-pablo: #74afe0; --c-libros: #e0b25a; --c-roma: #b4a2c6; --c-judea: #c9967c; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { white-space: nowrap; display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .cab-der { display: flex; gap: 1rem; align-items: center; }
+    .volver { white-space: nowrap; font: 500 0.84rem var(--sans); color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .tema { white-space: nowrap; font: 500 0.8rem var(--sans); border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 0.35rem 0.75rem; cursor: pointer; }
+    .intro { padding: 1.2rem clamp(1rem, 4vw, 2rem) 0.2rem; max-width: 62rem; }
+    .intro p.sup { font: 500 0.8rem var(--sans); color: var(--muted); margin: 0; }
+    h1 { font: 500 clamp(1.6rem, 4.5vw, 2.3rem)/1.15 var(--serif); margin: 0.2rem 0 0.35rem; }
+    .intro p.txt { color: var(--ink-2); margin: 0 0 0.6rem; }
+    .controles { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 0.6rem clamp(1rem, 4vw, 2rem) 0.5rem; border-bottom: 1px solid var(--line); }
+    .fila { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin: 0.25rem 0; }
+    .fila > span { font: 600 0.72rem var(--sans); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin-right: 0.3rem; }
+    .chip { font: 500 0.8rem var(--sans); border: 1.5px solid var(--line-strong); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 0.3rem 0.7rem; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem; }
+    .chip i { width: 0.7rem; height: 0.7rem; border-radius: 50%; background: var(--c); opacity: 0.35; }
+    .chip[aria-pressed="true"] { border-color: var(--c, var(--accent)); color: var(--ink); }
+    .chip[aria-pressed="true"] i { opacity: 1; }
+    .per[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .vista { margin-top: 0.5rem; }
+    .vista svg { display: block; width: 100%; height: 64px; cursor: pointer; }
+    .vista .eje { stroke: var(--line-strong); }
+    .vista .tick text { font: 500 10px var(--sans); fill: var(--muted); }
+    .vista .tick line { stroke: var(--line); }
+    .vista .vent { fill: var(--accent); opacity: 0.08; stroke: var(--accent); stroke-opacity: 0.5; }
+    .lista { padding: 0.6rem clamp(1rem, 4vw, 2rem) 3rem; max-width: 62rem; }
+    .anio { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 0 1rem; border-top: 1px solid var(--line); padding: 0.7rem 0; }
+    .anio > h2 { font: 600 0.95rem/1.3 var(--sans); color: var(--ink-2); margin: 0.35rem 0 0; }
+    .hecho { border-left: 4px solid var(--c); background: var(--surface); border-radius: 0 var(--radius) var(--radius) 0; margin: 0 0 0.45rem; }
+    .hecho > button { all: unset; box-sizing: border-box; display: block; width: 100%; padding: 0.5rem 0.75rem; cursor: pointer; }
+    .hecho > button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .hecho .cat { font: 600 0.68rem var(--sans); letter-spacing: 0.04em; text-transform: uppercase; color: var(--c); }
+    .hecho .tit { display: block; font: 500 1.05rem/1.3 var(--serif); }
+    .hecho .f { display: block; font: 500 0.78rem var(--sans); color: var(--muted); }
+    .hecho .det { padding: 0 0.75rem 0.7rem; }
+    .hecho .det p { margin: 0.1rem 0 0.4rem; color: var(--ink-2); }
+    .hecho .ref { font: 500 0.85rem var(--sans); }
+    .hecho .est { display: inline-block; margin-top: 0.4rem; font: 600 0.82rem var(--sans); color: var(--accent); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 0.4rem 0.65rem; text-decoration: none; }
+    .hecho .est:hover { border-color: var(--accent); }
+    .hecho.sel { box-shadow: 0 0 0 2px var(--c); }
+    .vacio { color: var(--muted); font-style: italic; padding: 1rem 0; }
+    .credito { font: 500 0.75rem var(--sans); color: var(--muted); padding: 0 clamp(1rem, 4vw, 2rem) 2rem; max-width: 62rem; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 560px) {
+      .cab { padding: 0.7rem 1rem; } .marca { font-size: 0.78rem; } .cab-der { gap: 0.6rem; } .tema { padding: 0.3rem 0.55rem; font-size: 0.74rem; } .volver { font-size: 0.78rem; }
+      .anio { grid-template-columns: 1fr; } .anio > h2 { margin: 0 0 0.4rem; }
+      .chip { font-size: 0.74rem; padding: 0.25rem 0.55rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca" href="../../../">Recursos Bíblicos</a>
+    <div class="cab-der">
+      <button type="button" class="tema" id="tema">Fondo oscuro</button>
+      <a class="volver" href="../../../cronologia-nuevo-testamento/">Volver al recurso</a>
+    </div>
+  </header>
+  <section class="intro">
+    <p class="sup">Cronología del Nuevo Testamento</p>
+    <h1>Línea de tiempo del Nuevo Testamento</h1>
+    <p class="txt">Del anuncio a Zacarías a la muerte del apóstol Juan. Elige qué mostrar y qué período ver; toca un hecho para leer su pasaje y abrir la estación que lo estudia. Las fechas son aproximadas, salvo las que se indican con día.</p>
+  </section>
+  <div class="controles">
+    <div class="fila" id="cats" role="group" aria-label="Mostrar"><span>Mostrar</span></div>
+    <div class="fila" id="pers" role="group" aria-label="Período"><span>Período</span></div>
+    <div class="vista no-citas" id="vista" aria-hidden="true"></div>
+  </div>
+  <main class="lista" id="lista" aria-live="polite"></main>
+  <p class="credito">Cronología del sitio: Jesús nace hacia el 6–5 a.C., es bautizado en el 29 y muere el viernes 3 de abril del 33. Citas: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso.</p>
+
+  <script src="hechos.js"></script>
+  <script>
+  (() => {
+    'use strict';
+    const D = window.LINEA_NT;
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const root = document.documentElement;
+    const bTema = document.getElementById('tema');
+    const tema = o => { root.dataset.theme = o ? 'dark' : 'light'; bTema.textContent = o ? 'Fondo claro' : 'Fondo oscuro'; };
+    tema(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    bTema.addEventListener('click', () => tema(root.dataset.theme !== 'dark'));
+
+    const ini = h => (Array.isArray(h.a) ? h.a[0] : h.a);
+    const fin = h => (Array.isArray(h.a) ? h.a[1] : h.a);
+    const anio = a => (a < 0 ? `${-a} a.C.` : `${a} d.C.`);
+    const NOM = Object.fromEntries(D.categorias.map(c => [c.id, c.n]));
+    const activas = new Set(D.categorias.map(c => c.id));
+    let periodo = D.periodos[0].a;
+    let abierto = null;
+
+    // Filtros
+    const cats = document.getElementById('cats');
+    D.categorias.forEach(c => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip'; b.dataset.cat = c.id; b.setAttribute('aria-pressed', 'true');
+      b.style.setProperty('--c', `var(--c-${c.id})`);
+      b.innerHTML = `<i></i>${esc(c.n)}`;
+      b.addEventListener('click', () => {
+        const on = !activas.has(c.id);
+        if (on) activas.add(c.id); else activas.delete(c.id);
+        b.setAttribute('aria-pressed', String(on));
+        pintar();
+      });
+      cats.appendChild(b);
+    });
+    const pers = document.getElementById('pers');
+    D.periodos.forEach((p, i) => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip per'; b.textContent = p.n; b.setAttribute('aria-pressed', String(i === 0));
+      b.addEventListener('click', () => { elegirPeriodo(p.a); });
+      pers.appendChild(b);
+    });
+    function elegirPeriodo(a) {
+      periodo = a;
+      pers.querySelectorAll('.per').forEach((b, i) => b.setAttribute('aria-pressed', String(D.periodos[i].a === a)));
+      pintar();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Vista general: todos los hechos sobre una franja, con la ventana del período
+    const vista = document.getElementById('vista');
+    function pintarVista() {
+      const W = 1000, H = 64, M = 14;
+      const X = a => M + (a - D.desde) * (W - 2 * M) / (D.hasta - D.desde);
+      const filas = D.categorias.map(c => c.id);
+      let s = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;
+      s += `<rect class="vent" x="${X(periodo[0])}" y="2" width="${Math.max(4, X(periodo[1]) - X(periodo[0]))}" height="${H - 18}" rx="3"/>`;
+      [-5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100].forEach(a => { s += `<g class="tick"><line x1="${X(a)}" x2="${X(a)}" y1="2" y2="${H - 16}"/><text x="${X(a)}" y="${H - 3}" text-anchor="middle">${a < 0 ? '5 a.C.' : a}</text></g>`; });
+      D.hechos.forEach(h => {
+        if (!activas.has(h.cat)) return;
+        const y = 6 + filas.indexOf(h.cat) * 7.4;
+        const a = X(ini(h)), b = X(fin(h));
+        s += `<rect x="${a - 2}" y="${y}" width="${Math.max(4, b - a + 4)}" height="5" rx="2" fill="var(--c-${h.cat})" opacity="0.85"/>`;
+      });
+      s += '</svg>';
+      vista.innerHTML = s;
+    }
+    vista.addEventListener('click', e => {
+      const r = vista.getBoundingClientRect();
+      const a = D.desde + ((e.clientX - r.left) / r.width) * (D.hasta - D.desde);
+      // El período que contiene el año tocado (el más corto)
+      const p = D.periodos.slice(1).filter(p => a >= p.a[0] && a <= p.a[1]).sort((x, y) => (x.a[1] - x.a[0]) - (y.a[1] - y.a[0]))[0];
+      if (p) elegirPeriodo(p.a);
+    });
+
+    // Lista por año
+    const lista = document.getElementById('lista');
+    function pintar() {
+      pintarVista();
+      const vis = D.hechos.filter(h => activas.has(h.cat) && fin(h) >= periodo[0] && ini(h) <= periodo[1])
+        .sort((x, y) => ini(x) - ini(y) || fin(x) - fin(y));
+      if (!vis.length) { lista.innerHTML = '<p class="vacio">No hay hechos con estos filtros.</p>'; return; }
+      const grupos = new Map();
+      vis.forEach(h => { const k = ini(h); if (!grupos.has(k)) grupos.set(k, []); grupos.get(k).push(h); });
+      lista.innerHTML = [...grupos].map(([a, hs]) => `<section class="anio"><h2>${esc(anio(a))}</h2><div>${hs.map(h => `
+        <article class="hecho${h.id === abierto ? ' sel' : ''}" id="h-${h.id}" style="--c: var(--c-${h.cat})">
+          <button type="button" aria-expanded="${h.id === abierto}" data-id="${h.id}">
+            <span class="cat">${esc(NOM[h.cat])}</span>
+            <span class="tit">${esc(h.t)}</span>
+            <span class="f">${esc(h.f)}</span>
+          </button>
+          ${h.id === abierto ? `<div class="det"><p>${esc(h.x)}</p>${h.ref ? `<div class="ref">${esc(h.ref)}</div>` : ''}${h.est ? `<a class="est" href="../../../cronologia-nuevo-testamento/${h.est}" target="_top">Estudiar en el recurso</a>` : ''}</div>` : ''}
+        </article>`).join('')}</div></section>`).join('');
+      if (window.Citas && Citas.procesar) Citas.procesar(lista);
+    }
+    lista.addEventListener('click', e => {
+      const b = e.target.closest('button[data-id]');
+      if (!b) return;
+      abrir(b.dataset.id === abierto ? null : b.dataset.id);
+    });
+    function abrir(id, desplazar) {
+      abierto = id;
+      if (id) {
+        const h = D.hechos.find(x => x.id === id);
+        if (h && !activas.has(h.cat)) { activas.add(h.cat); cats.querySelector(`[data-cat="${h.cat}"]`).setAttribute('aria-pressed', 'true'); }
+        if (h && (fin(h) < periodo[0] || ini(h) > periodo[1])) { periodo = D.periodos[0].a; pers.querySelectorAll('.per').forEach((b, i) => b.setAttribute('aria-pressed', String(i === 0))); }
+        if (location.hash.slice(1) !== id) history.replaceState(null, '', '#' + id);
+      }
+      pintar();
+      if (id && desplazar) document.getElementById('h-' + id)?.scrollIntoView({ block: 'center' });
+    }
+    const inicial = location.hash.slice(1);
+    if (D.hechos.some(h => h.id === inicial)) requestAnimationFrame(() => abrir(inicial, true)); else pintar();
+    window.addEventListener('hashchange', () => { const id = location.hash.slice(1); if (D.hechos.some(h => h.id === id)) abrir(id, true); });
+  })();
+  </script>
+  <script src="../../assets/js/citas.js"></script>
+</body>
+</html>

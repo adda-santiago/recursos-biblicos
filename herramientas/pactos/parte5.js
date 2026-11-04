@@ -249,7 +249,7 @@
       { id: 'pactos', grupo: 'Los pactos', n: 'II. Los pactos de Dios', info: 'Del Edén y Noé al nuevo pacto, pasando por Abraham, el Sinaí, la tierra, el sacerdocio y David', estaciones: P.pactos,
         linea: { desde: -2200, hasta: 100, hitos: [
           { a: -2091, t: 'Abraham' }, { a: -1446, t: 'Sinaí' }, { a: -1406, t: 'Moab' },
-          { a: -995, t: 'David' }, { a: -587, t: 'Jeremías' }, { a: 30, t: 'La Cena' }
+          { a: -995, t: 'David' }, { a: -587, t: 'Jeremías' }, { a: 33, t: 'La Cena' }
         ] } },
       { id: 'cristo', grupo: 'Los pactos', n: 'III. Los pactos se cumplen en Cristo', info: 'La simiente de Abraham, el Hijo de David, el nuevo pacto, la ley, el Espíritu, los gentiles e Israel', estaciones: P.cristo },
       { id: 'dispensaciones', grupo: 'Las dispensaciones', n: 'IV. Las dispensaciones', info: 'Qué son, las siete etapas, su historia, las tres lecturas de hoy, los dones del Espíritu y los errores', estaciones: P.dispensaciones },
