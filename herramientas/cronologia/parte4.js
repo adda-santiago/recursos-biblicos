@@ -217,7 +217,8 @@
         'Los evangelios se pusieron por escrito cuando los apóstoles empezaban a envejecer y el evangelio llegaba a lugares lejanos. Antes, la historia de Jesús se enseñaba de memoria, con cuidado, en las iglesias, como lo hacían los maestros judíos con la enseñanza de sus rabinos. Lucas dice que ya «muchos» habían escrito relatos ordenados antes que él (Lc 1:1). Mateo, Marcos y Lucas se escribieron probablemente entre el 50 y el 65; Juan, más tarde.',
         { h: 'Una generación' },
         'Con las fechas que siguen muchos estudiosos conservadores, todo el Nuevo Testamento se escribió en unos cincuenta años, entre el 45 y el 95, y casi todo antes del 70. Fueron escritos por apóstoles o por sus colaboradores cercanos, cuando todavía vivían muchos testigos de los hechos. Ya en vida de los apóstoles, las cartas de Pablo se leían junto con «las otras Escrituras» (2 P 3:15-16).',
-        'El autor, la ocasión y el mensaje de cada libro se estudiarán en el recurso Introducción al Nuevo Testamento, en preparación.',
+        'El autor, la ocasión y el mensaje de cada libro se estudian en el recurso Introducción al Nuevo Testamento.',
+        { ir: { t: 'Abrir Introducción al Nuevo Testamento', a: '../../introduccion-nuevo-testamento/' } },
         ir('Ver en La Palabra de Dios: cómo se formó el canon', R.palabra)
       ],
       pensar: 'Antes de que existiera un evangelio escrito, la iglesia ya proclamaba que Jesús murió por nuestros pecados y resucitó. ¿Es ese mensaje también el centro de tu fe?'

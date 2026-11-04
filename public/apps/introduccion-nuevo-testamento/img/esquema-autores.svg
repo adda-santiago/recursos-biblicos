@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740">
+<rect width="1200" height="740" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Nueve autores, un solo Autor</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Los escritores del Nuevo Testamento y sus libros</text>
+<text x="250" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Pablo</text>
+<text x="250" y="186" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Apóstol</text>
+<rect x="275" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="309" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="343" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="377" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="411" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="445" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="479" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="513" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="547" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="581" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="615" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="649" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<rect x="683" y="148" width="28" height="36" rx="5" fill="#2a6fb0" fill-opacity="1"/>
+<text x="731" y="173" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">13 cartas: Romanos a Filemón</text>
+<text x="250" y="224" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Lucas</text>
+<text x="250" y="244" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Colaborador</text>
+<rect x="275" y="206" width="28" height="36" rx="5" fill="#c08a1e" fill-opacity="1"/>
+<rect x="309" y="206" width="28" height="36" rx="5" fill="#2f7d4a" fill-opacity="1"/>
+<text x="357" y="231" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Lucas, Hechos</text>
+<text x="250" y="282" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Juan</text>
+<text x="250" y="302" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Apóstol</text>
+<rect x="275" y="264" width="28" height="36" rx="5" fill="#c08a1e" fill-opacity="1"/>
+<rect x="309" y="264" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<rect x="343" y="264" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<rect x="377" y="264" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<rect x="411" y="264" width="28" height="36" rx="5" fill="#b03a2e" fill-opacity="1"/>
+<text x="459" y="289" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Juan, 1, 2 y 3 Juan, Apocalipsis</text>
+<text x="250" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Pedro</text>
+<text x="250" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Apóstol</text>
+<rect x="275" y="322" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<rect x="309" y="322" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<text x="357" y="347" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">1 y 2 Pedro</text>
+<text x="250" y="398" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Mateo</text>
+<text x="250" y="418" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Apóstol</text>
+<rect x="275" y="380" width="28" height="36" rx="5" fill="#c08a1e" fill-opacity="1"/>
+<text x="323" y="405" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Mateo</text>
+<text x="250" y="456" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Marcos</text>
+<text x="250" y="476" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Colaborador</text>
+<rect x="275" y="438" width="28" height="36" rx="5" fill="#c08a1e" fill-opacity="1"/>
+<text x="323" y="463" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Marcos</text>
+<text x="250" y="514" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Santiago</text>
+<text x="250" y="534" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Hermano del Señor</text>
+<rect x="275" y="496" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<text x="323" y="521" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Santiago</text>
+<text x="250" y="572" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Judas</text>
+<text x="250" y="592" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Hermano del Señor</text>
+<rect x="275" y="554" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<text x="323" y="579" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Judas</text>
+<text x="250" y="630" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="end" font-weight="bold">Autor de Hebreos</text>
+<text x="250" y="650" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">Colaborador</text>
+<rect x="275" y="612" width="28" height="36" rx="5" fill="#7a3fa0" fill-opacity="1"/>
+<text x="323" y="637" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="start" font-weight="normal">Hebreos</text>
+<rect x="760" y="300" width="16" height="16" rx="4" fill="#c08a1e"/>
+<text x="784" y="314" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Evangelios</text>
+<rect x="760" y="330" width="16" height="16" rx="4" fill="#2f7d4a"/>
+<text x="784" y="344" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Hechos</text>
+<rect x="760" y="360" width="16" height="16" rx="4" fill="#2a6fb0"/>
+<text x="784" y="374" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Cartas de Pablo</text>
+<rect x="760" y="390" width="16" height="16" rx="4" fill="#7a3fa0"/>
+<text x="784" y="404" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Hebreos y generales</text>
+<rect x="760" y="420" width="16" height="16" rx="4" fill="#b03a2e"/>
+<text x="784" y="434" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="start" font-weight="normal">Apocalipsis</text>
+<rect x="80" y="672" width="1040" height="46" rx="12" fill="#c08a1e" fill-opacity="0.18"/>
+<text x="600" y="702" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«Los santos hombres de Dios hablaron siendo inspirados por el Espíritu Santo» (2 P 1:21)</text>
+</svg>

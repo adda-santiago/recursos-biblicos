@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Cómo era una carta del siglo I</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Las partes de una carta antigua, con el ejemplo de Filemón</text>
+<rect x="80" y="140" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="140" width="10" height="54" rx="3" fill="#2a6fb0"/>
+<text x="110" y="174" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#2a6fb0" text-anchor="start" font-weight="bold">Remitente</text>
+<text x="330" y="174" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«Pablo, prisionero de Jesucristo, y el hermano Timoteo»</text>
+<text x="1100" y="174" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">v. 1</text>
+<rect x="80" y="202" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="202" width="10" height="54" rx="3" fill="#2a6fb0"/>
+<text x="110" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#2a6fb0" text-anchor="start" font-weight="bold">Destinatarios</text>
+<text x="330" y="236" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«al amado Filemón… y a la iglesia que está en tu casa»</text>
+<text x="1100" y="236" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">vv. 1-2</text>
+<rect x="80" y="264" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="264" width="10" height="54" rx="3" fill="#c08a1e"/>
+<text x="110" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#c08a1e" text-anchor="start" font-weight="bold">Saludo</text>
+<text x="330" y="298" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«Gracia y paz a vosotros, de Dios nuestro Padre y del Señor Jesucristo»</text>
+<text x="1100" y="298" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">v. 3</text>
+<rect x="80" y="326" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="326" width="10" height="54" rx="3" fill="#2f7d4a"/>
+<text x="110" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#2f7d4a" text-anchor="start" font-weight="bold">Acción de gracias</text>
+<text x="330" y="360" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«Doy gracias a mi Dios, haciendo siempre memoria de ti en mis oraciones»</text>
+<text x="1100" y="360" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">vv. 4-7</text>
+<rect x="80" y="388" width="1040" height="92" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="388" width="10" height="92" rx="3" fill="#1f2430"/>
+<text x="110" y="422" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">Cuerpo</text>
+<text x="330" y="422" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«te ruego por mi hijo Onésimo… recíbele como a mí mismo»</text>
+<text x="1100" y="422" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">vv. 8-21</text>
+<text x="330" y="454" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="start" font-weight="normal">La parte principal: enseñanza, respuestas, ruegos y exhortaciones</text>
+<rect x="80" y="488" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="488" width="10" height="54" rx="3" fill="#6b7080"/>
+<text x="110" y="522" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="start" font-weight="bold">Planes</text>
+<text x="330" y="522" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«prepárame también alojamiento»</text>
+<text x="1100" y="522" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">v. 22</text>
+<rect x="80" y="550" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="550" width="10" height="54" rx="3" fill="#7a3fa0"/>
+<text x="110" y="584" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#7a3fa0" text-anchor="start" font-weight="bold">Saludos</text>
+<text x="330" y="584" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«Te saludan Epafras… Marcos, Aristarco, Demas y Lucas»</text>
+<text x="1100" y="584" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">vv. 23-24</text>
+<rect x="80" y="612" width="1040" height="54" rx="10" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="80" y="612" width="10" height="54" rx="3" fill="#b03a2e"/>
+<text x="110" y="646" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#b03a2e" text-anchor="start" font-weight="bold">Despedida</text>
+<text x="330" y="646" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="start" font-weight="normal" font-style="italic">«La gracia de nuestro Señor Jesucristo sea con vuestro espíritu»</text>
+<text x="1100" y="646" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="end" font-weight="normal">v. 25</text>
+<text x="600" y="735" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Pablo cambia el saludo griego habitual por «gracia y paz».</text>
+</svg>

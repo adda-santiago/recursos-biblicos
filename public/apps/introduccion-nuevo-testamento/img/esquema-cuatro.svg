@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+<rect width="1200" height="720" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Cuatro retratos de un mismo Cristo</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Lo que cada evangelio destaca de Jesús</text>
+<rect x="51.0" y="140" width="255" height="520" rx="14" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="51.0" y="140" width="255" height="12" rx="6" fill="#c08a1e"/>
+<text x="178.5" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#c08a1e" text-anchor="middle" font-weight="bold">Mateo</text>
+<text x="178.5" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">El Rey</text>
+<text x="178.5" y="292" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">prometido</text>
+<text x="178.5" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«hijo de David, hijo de</text>
+<text x="178.5" y="374" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Abraham»</text>
+<text x="178.5" y="402" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Mt 1:1</text>
+<line x1="81.0" y1="490" x2="276.0" y2="490" stroke="#c9c6be" stroke-width="2"/>
+<text x="178.5" y="525" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Primeros lectores</text>
+<text x="178.5" y="550" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Creyentes judíos</text>
+<text x="178.5" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Rasgo propio</text>
+<text x="178.5" y="615" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Cumple las profecías</text>
+<rect x="332.0" y="140" width="255" height="520" rx="14" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="332.0" y="140" width="255" height="12" rx="6" fill="#2f7d4a"/>
+<text x="459.5" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Marcos</text>
+<text x="459.5" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">El Siervo</text>
+<text x="459.5" y="292" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">en acción</text>
+<text x="459.5" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«no vino para ser</text>
+<text x="459.5" y="374" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">servido, sino para</text>
+<text x="459.5" y="398" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">servir»</text>
+<text x="459.5" y="426" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Mr 10:45</text>
+<line x1="362.0" y1="490" x2="557.0" y2="490" stroke="#c9c6be" stroke-width="2"/>
+<text x="459.5" y="525" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Primeros lectores</text>
+<text x="459.5" y="550" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Creyentes de Roma</text>
+<text x="459.5" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Rasgo propio</text>
+<text x="459.5" y="615" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Acción: «en seguida»</text>
+<rect x="613.0" y="140" width="255" height="520" rx="14" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="613.0" y="140" width="255" height="12" rx="6" fill="#2a6fb0"/>
+<text x="740.5" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Lucas</text>
+<text x="740.5" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">El Hombre</text>
+<text x="740.5" y="292" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Salvador de todos</text>
+<text x="740.5" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«vino a buscar y a</text>
+<text x="740.5" y="374" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">salvar lo que se había</text>
+<text x="740.5" y="398" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">perdido»</text>
+<text x="740.5" y="426" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Lc 19:10</text>
+<line x1="643.0" y1="490" x2="838.0" y2="490" stroke="#c9c6be" stroke-width="2"/>
+<text x="740.5" y="525" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Primeros lectores</text>
+<text x="740.5" y="550" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Teófilo y los gentiles</text>
+<text x="740.5" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Rasgo propio</text>
+<text x="740.5" y="615" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Oración, Espíritu, los pobres</text>
+<rect x="894.0" y="140" width="255" height="520" rx="14" fill="#ffffff" fill-opacity="1" stroke="#c9c6be" stroke-width="2"/>
+<rect x="894.0" y="140" width="255" height="12" rx="6" fill="#7a3fa0"/>
+<text x="1021.5" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Juan</text>
+<text x="1021.5" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">El Hijo</text>
+<text x="1021.5" y="292" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">eterno de Dios</text>
+<text x="1021.5" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«para que creáis que</text>
+<text x="1021.5" y="374" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Jesús es el Cristo»</text>
+<text x="1021.5" y="402" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">Jn 20:31</text>
+<line x1="924.0" y1="490" x2="1119.0" y2="490" stroke="#c9c6be" stroke-width="2"/>
+<text x="1021.5" y="525" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Primeros lectores</text>
+<text x="1021.5" y="550" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Creyentes de Asia</text>
+<text x="1021.5" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Rasgo propio</text>
+<text x="1021.5" y="615" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Señales y «Yo soy»</text>
+<text x="600" y="700" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Un solo Señor, visto por cuatro testigos</text>
+</svg>
