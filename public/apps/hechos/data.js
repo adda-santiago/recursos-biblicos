@@ -67,7 +67,8 @@
         'El paralelo más importante tiene que ver con el Espíritu Santo. Jesús no comenzó su ministerio público hasta que el Espíritu descendió sobre él mientras oraba, después de su bautismo (Lc 3:21-22). Luego volvió «en el poder del Espíritu» a Galilea (Lc 4:14) y, en la sinagoga de Nazaret, leyó: «Espíritu del Señor está sobre mí, por cuanto me ha ungido para dar buenas nuevas a los pobres» (Lc 4:18).',
         'Lo mismo ocurre con la iglesia. Los discípulos ya habían creído en Jesús, lo habían visto resucitado y habían recibido sus enseñanzas. Sin embargo, el Señor les mandó: «quedaos vosotros en la ciudad de Jerusalén, hasta que seáis investidos de poder desde lo alto» (Lc 24:49). Mientras perseveraban unánimes en oración, el Espíritu vino sobre ellos, «y fueron todos llenos del Espíritu Santo, y comenzaron a hablar en otras lenguas, según el Espíritu les daba que hablasen» (Hch 2:4). Solo entonces comenzó su testimonio público.',
         'Lucas quiere que veamos la correspondencia: así como Jesús fue ungido por el Espíritu para su ministerio, la iglesia es ungida por el mismo Espíritu para el suyo. La experiencia del Espíritu en Pentecostés no es la conversión de los discípulos, que ya creían, sino una investidura de poder para servir y testificar.',
-        'Este diseño ayuda a entender todo el libro. Las sanidades, las liberaciones y la predicación valiente de los apóstoles no son hazañas personales. Son el mismo ministerio de Jesús, que sigue adelante por el poder del mismo Espíritu.'
+        'Este diseño ayuda a entender todo el libro. Las sanidades, las liberaciones y la predicación valiente de los apóstoles no son hazañas personales. Son el mismo ministerio de Jesús, que sigue adelante por el poder del mismo Espíritu.',
+        { ir: { t: 'Ver el estudio de Lucas, el primer tomo', a: '../../lucas/#introduccion/3' } }
       ],
       pensar: 'Si Jesús mismo esperó la unción del Espíritu antes de comenzar su ministerio, y mandó a sus discípulos hacer lo mismo, ¿qué lugar debería tener la búsqueda del poder del Espíritu en la vida de un creyente que quiere servir a Dios?'
     },
@@ -2038,7 +2039,8 @@
         'Después de resucitar, Jesús les mandó: «quedaos vosotros en la ciudad de Jerusalén, hasta que seáis investidos de poder desde lo alto» (Lc 24:49). Y antes de ascender, precisó: «vosotros seréis bautizados con el Espíritu Santo dentro de no muchos días… recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo, y me seréis testigos» (Hch 1:5, 8).',
         { h: 'Una promesa con propósito' },
         'Jesús llamó a esta experiencia «la promesa del Padre». Los discípulos ya creían en él, lo habían visto resucitado y habían sido enseñados durante cuarenta días. Aun así, Jesús no los envió hasta que recibieran el poder del Espíritu. El testimonio de la iglesia no depende solo de lo que sabe, sino del poder de Dios que la acompaña.',
-        'Las estaciones siguientes recorren los cinco relatos de Hechos donde se narra la venida del Espíritu, y la última los compara.'
+        'Las estaciones siguientes recorren los cinco relatos de Hechos donde se narra la venida del Espíritu, y la última los compara.',
+        { ir: { t: 'Ver «La promesa del Padre» en el estudio de Lucas', a: '../../lucas/#puente/2' } }
       ],
       pensar: 'Moisés deseó que todo el pueblo de Dios recibiera el Espíritu (Nm 11:29), y en Pentecostés ese deseo comenzó a cumplirse. ¿Qué significa para ti que la promesa del Espíritu no sea solo para líderes, sino para todo creyente?'
     },

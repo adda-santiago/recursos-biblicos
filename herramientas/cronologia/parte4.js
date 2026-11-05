@@ -253,7 +253,8 @@
         } },
         { h: 'Juan' },
         'El Evangelio de Juan se escribió probablemente en Éfeso, hacia el 85 o el 90. Algunos lo fechan antes del 70, porque dice que en Jerusalén «hay» un estanque con cinco pórticos (Jn 5:2). En todo caso, el autor conocía Jerusalén como un testigo: la arqueología encontró ese estanque junto a la iglesia de Santa Ana.',
-        ir('Ver en Hechos: cuándo se escribió', R.hechos + '#introduccion/7')
+        ir('Ver en Hechos: cuándo se escribió', R.hechos + '#introduccion/7'),
+        ir('Ver en el estudio de Lucas: cuándo y dónde se escribió', '../../lucas/#introduccion/5')
       ],
       pensar: 'Lucas investigó con cuidado y habló con testigos para que Teófilo conociera bien la verdad de lo que había aprendido. ¿Cuánto esfuerzo pones tú en conocer bien lo que crees?'
     },

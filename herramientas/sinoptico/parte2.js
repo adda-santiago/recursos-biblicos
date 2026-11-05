@@ -29,7 +29,8 @@
         'La tabla resume los argumentos principales: el contenido, el orden, el estilo y ciertos detalles que Marcos cuenta con más crudeza. Por ejemplo, Marcos dice que en Nazaret Jesús «no pudo hacer allí ningún milagro, salvo que sanó a unos pocos enfermos» (Mr 6:5), y Mateo dice que «no hizo allí muchos milagros, a causa de la incredulidad de ellos» (Mt 13:58). Quienes defienden esta postura piensan que es más natural que Mateo haya aclarado la expresión de Marcos que lo contrario.',
         { h: 'Sin Q' },
         'Otros estudiosos aceptan que Marcos fue el primero, pero no creen necesario suponer la fuente Q. Según la propuesta de Austin Farrer, defendida hoy por Mark Goodacre, Lucas habría conocido tanto a Marcos como a Mateo. Así se explica la doble tradición sin una fuente perdida, y también algunas coincidencias pequeñas de Mateo y Lucas contra Marcos, que verás en la estación siguiente.',
-        'Quien sostiene que Marcos fue el primero no está diciendo que Marcos sea más confiable que Mateo. Los tres evangelios son Palabra de Dios. La pregunta es solo cuál se escribió antes.'
+        'Quien sostiene que Marcos fue el primero no está diciendo que Marcos sea más confiable que Mateo. Los tres evangelios son Palabra de Dios. La pregunta es solo cuál se escribió antes.',
+        { ir: { t: 'Ver «Lucas entre los evangelios» en el estudio de Lucas', a: '../../../lucas/#introduccion/9' } }
       ],
       pensar: 'Marcos escribió un evangelio breve y lleno de acción, y Dios lo usó como base para otros. ¿Qué te enseña esto sobre el valor de una obra sencilla hecha con fidelidad?'
     },
@@ -62,7 +63,8 @@
           b: { n: 'Mateo primero', t: 'Mateo escribió primero, como dicen todos los testigos antiguos; Lucas lo conoció, y Marcos resumió a los dos o escribió por su cuenta lo que Pedro predicaba. Otros piensan que los tres dependen del testimonio oral de los apóstoles más que de un documento. Se apoya en la tradición de la iglesia y en las coincidencias de Mateo y Lucas contra Marcos.' },
           c: 'Este recurso no toma partido: las dos posturas son defendibles y ninguna doctrina depende de ellas. Las dos aceptan que los evangelios transmiten fielmente lo que Jesús hizo y enseñó, y que fueron escritos por los autores que la iglesia reconoció desde el principio. Lo que no se sigue son las teorías que niegan esa fidelidad (estación 10).'
         } },
-        { ir: { t: 'Ver «Jesús escarnecido y golpeado» en la Armonía, con Coincidencias', a: ARM + '#escarnecido/coincidencias', marco: true } }
+        { ir: { t: 'Ver «Jesús escarnecido y golpeado» en la Armonía, con Coincidencias', a: ARM + '#escarnecido/coincidencias', marco: true } },
+        { ir: { t: 'Ver «Testigos e investigación» en el estudio de Lucas', a: '../../../lucas/#introduccion/4' } }
       ],
       pensar: 'Mateo dejó la mesa de los impuestos para seguir a Jesús, y terminó escribiendo un evangelio. ¿Qué podría hacer Dios con tu vida si respondes a su llamado como respondió Mateo?'
     },

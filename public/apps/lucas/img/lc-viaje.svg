@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+<rect width="1200" height="600" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El viaje a Jerusalén</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Lucas recuerda seis veces adónde va Jesús</text>
+<line x1="110" y1="300" x2="1065" y2="300" stroke="#c08a1e" stroke-width="6"/>
+<line x1="1045" y1="300" x2="1077.0" y2="300.0" stroke="#c08a1e" stroke-width="6"/>
+<polygon points="1085,300 1072.1,305.5 1072.1,294.5" fill="#c08a1e"/>
+<text x="98" y="307" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#2f7d4a" text-anchor="end" font-weight="bold">Galilea</text>
+<text x="1093" y="307" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#9e2b25" text-anchor="start" font-weight="bold">Jerusalén</text>
+<circle cx="170.0" cy="300" r="13" fill="#ffffff" stroke="#c08a1e" stroke-width="4"/>
+<text x="170.0" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">9:51</text>
+<text x="170.0" y="246" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«afirmó su rostro para</text>
+<text x="170.0" y="266" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">ir a Jerusalén»</text>
+<circle cx="341.0" cy="300" r="13" fill="#ffffff" stroke="#c08a1e" stroke-width="4"/>
+<text x="341.0" y="370" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">13:22</text>
+<text x="341.0" y="396" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«encaminándose</text>
+<text x="341.0" y="416" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">a Jerusalén»</text>
+<circle cx="512.0" cy="300" r="13" fill="#ffffff" stroke="#c08a1e" stroke-width="4"/>
+<text x="512.0" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">17:11</text>
+<text x="512.0" y="246" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«yendo Jesús a Jerusalén,</text>
+<text x="512.0" y="266" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">pasaba entre Samaria y Galilea»</text>
+<circle cx="683.0" cy="300" r="13" fill="#ffffff" stroke="#c08a1e" stroke-width="4"/>
+<text x="683.0" y="370" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">18:31</text>
+<text x="683.0" y="396" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«He aquí subimos</text>
+<text x="683.0" y="416" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">a Jerusalén»</text>
+<circle cx="854.0" cy="300" r="13" fill="#ffffff" stroke="#c08a1e" stroke-width="4"/>
+<text x="854.0" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">19:11</text>
+<text x="854.0" y="246" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«estaba cerca</text>
+<text x="854.0" y="266" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">de Jerusalén»</text>
+<circle cx="1025.0" cy="300" r="13" fill="#ffffff" stroke="#c08a1e" stroke-width="4"/>
+<text x="1025.0" y="370" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">19:28</text>
+<text x="1025.0" y="396" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«iba delante</text>
+<text x="1025.0" y="416" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">subiendo a Jerusalén»</text>
+<text x="600" y="500" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">En el camino: el buen samaritano, Marta y María, el Padre nuestro, el hijo pródigo, el rico y Lázaro, Zaqueo…</text>
+<text x="600" y="530" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Lo que importa no es el itinerario exacto, sino la dirección: Jesús va decidido hacia la cruz.</text>
+</svg>

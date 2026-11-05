@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<rect width="1200" height="900" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Las genealogías de Jesús en Mateo y Lucas</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Iguales de Abraham a David; distintas de David a Jesús</text>
+<rect x="360" y="120" width="480" height="64" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#c9c6be" stroke-width="2"/>
+<text x="600" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="normal">Adán … Abraham</text>
+<text x="600" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Lucas sube hasta «Adán, hijo de Dios» (3:38); Mateo empieza en Abraham</text>
+<line x1="600" y1="186" x2="600.0" y2="214.0" stroke="#1f2430" stroke-width="2"/>
+<polygon points="600,222 594.5,209.1 605.5,209.1" fill="#1f2430"/>
+<rect x="420" y="226" width="360" height="60" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#1f2430" stroke-width="2"/>
+<text x="600" y="254" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Isaac, Jacob, Judá … Booz, Obed, Isaí</text>
+<text x="600" y="276" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">la misma línea en los dos</text>
+<line x1="600" y1="288" x2="600.0" y2="314.0" stroke="#1f2430" stroke-width="2"/>
+<polygon points="600,322 594.5,309.1 605.5,309.1" fill="#1f2430"/>
+<rect x="470" y="326" width="260" height="56" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#9e2b25" stroke-width="2"/>
+<text x="600" y="362" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#9e2b25" text-anchor="middle" font-weight="bold">David</text>
+<line x1="560" y1="384" x2="307.9" y2="428.6" stroke="#2a6fb0" stroke-width="3"/>
+<polygon points="300,430 311.7,422.4 313.6,433.1" fill="#2a6fb0"/>
+<line x1="640" y1="384" x2="892.1" y2="428.6" stroke="#2f7d4a" stroke-width="3"/>
+<polygon points="900,430 886.4,433.1 888.3,422.4" fill="#2f7d4a"/>
+<rect x="70" y="436" width="460" height="360" rx="14" fill="#d9e6f3" fill-opacity="1.0" stroke="#2a6fb0" stroke-width="2"/>
+<rect x="670" y="436" width="460" height="360" rx="14" fill="#dcebdf" fill-opacity="1.0" stroke="#2f7d4a" stroke-width="2"/>
+<text x="300" y="470" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Mateo 1:6-16</text>
+<text x="900" y="470" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Lucas 3:23-31</text>
+<text x="300" y="510" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Salomón</text>
+<text x="300" y="540" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Roboam … los reyes de Judá</text>
+<text x="300" y="570" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Josías</text>
+<text x="300" y="600" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Jeconías</text>
+<text x="300" y="630" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="middle" font-weight="normal">Salatiel</text>
+<text x="300" y="660" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="middle" font-weight="normal">Zorobabel</text>
+<text x="300" y="690" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Abiud … Matán</text>
+<text x="300" y="720" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Jacob</text>
+<text x="300" y="750" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">José, marido de María</text>
+<text x="900" y="510" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">Natán</text>
+<text x="900" y="540" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Matata … (sin reyes)</text>
+<text x="900" y="570" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Neri</text>
+<text x="900" y="600" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="middle" font-weight="normal">Salatiel</text>
+<text x="900" y="630" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#9e2b25" text-anchor="middle" font-weight="normal">Zorobabel</text>
+<text x="900" y="660" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Resa … Matat</text>
+<text x="900" y="690" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Elí</text>
+<text x="900" y="720" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">José, «según se creía»</text>
+<text x="900" y="750" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">(María, según la lectura más difundida)</text>
+<text x="300" y="784" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2a6fb0" text-anchor="middle" font-weight="normal" font-style="italic">Línea legal del trono: heredero de David</text>
+<text x="900" y="784" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2f7d4a" text-anchor="middle" font-weight="normal" font-style="italic">Línea por Natán, hijo de David</text>
+<rect x="470" y="816" width="260" height="56" rx="10" fill="#ffffff" fill-opacity="1.0" stroke="#1f2430" stroke-width="2"/>
+<text x="600" y="852" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">Jesús, hijo de David</text>
+<text x="600" y="894" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Salatiel y Zorobabel (en rojo) aparecen en las dos listas.</text>
+</svg>
