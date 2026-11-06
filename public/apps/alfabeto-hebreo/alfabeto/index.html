@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Tabla del alfabeto hebreo · Recursos Bíblicos</title>
+  <meta name="description" content="Las 22 letras hebreas, sus formas finales y las vocales de los masoretas, con nombre, sonido, valor y ejemplos bíblicos, y un modo de práctica.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%D7%90%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Tabla del alfabeto hebreo. Colores de datos: ninguno; solo tokens. */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .he { font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif; unicode-bidi: isolate; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .volver { font: 500 0.84rem var(--sans); color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    main { max-width: 60rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2rem) 4rem; }
+    h1 { font: 500 clamp(1.7rem, 5vw, 2.4rem)/1.15 var(--serif); margin: 0.2rem 0 0.4rem; }
+    .intro { color: var(--ink-2); margin: 0 0 1.4rem; max-width: 42rem; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.2rem; }
+    .tabs button { font: 600 0.85rem var(--sans); padding: 0.55rem 0.9rem; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+    .tabs button[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+    .tabs button:hover { border-color: var(--accent); }
+    .duo { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.25rem; align-items: start; }
+    .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(4.6rem, 1fr)); gap: 0.45rem; direction: rtl; }
+    .rejilla button { direction: ltr; display: grid; justify-items: center; gap: 0.1rem; padding: 0.55rem 0.3rem 0.45rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); cursor: pointer; }
+    .rejilla button:hover { border-color: var(--accent); }
+    .rejilla button[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .rejilla .he { font-size: 2.1rem; line-height: 1.25; }
+    .rejilla small { font: 500 0.7rem var(--sans); color: var(--muted); }
+    .rejilla .final small { color: var(--accent); }
+    .ficha { position: sticky; top: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem; }
+    .ficha .grande { font-size: 5rem; line-height: 1.1; text-align: center; margin: 0; }
+    .ficha h2 { font: 500 1.6rem/1.2 var(--serif); margin: 0.3rem 0 0.8rem; text-align: center; }
+    .ficha dl { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 0.9rem; margin: 0; font: 500 0.88rem/1.45 var(--sans); }
+    .ficha dt { color: var(--muted); }
+    .ficha dd { margin: 0; color: var(--ink); }
+    .ficha dd .he { font-size: 1.35rem; }
+    .ficha .consejo { font: 400 0.98rem/1.5 var(--serif); color: var(--ink-2); margin: 0.9rem 0 0; padding-top: 0.8rem; border-top: 1px solid var(--line); }
+    .practica { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: clamp(1rem, 3vw, 1.75rem); max-width: 38rem; }
+    .modo { display: flex; gap: 1rem; flex-wrap: wrap; font: 500 0.85rem var(--sans); color: var(--ink-2); margin-bottom: 1rem; }
+    .modo label { display: flex; gap: 0.4rem; align-items: center; cursor: pointer; }
+    .pregunta { font: 500 0.9rem var(--sans); color: var(--muted); margin: 0; text-align: center; }
+    .muestra { font-size: 6rem; line-height: 1.3; text-align: center; margin: 0.2rem 0 0.8rem; }
+    .opciones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+    .opciones button { font: 600 1rem var(--sans); padding: 0.8rem 0.6rem; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--bg); color: var(--ink); cursor: pointer; }
+    .opciones button:hover:not(:disabled) { border-color: var(--accent); }
+    .opciones button.ok { border-color: #2f7d4f; background: color-mix(in srgb, #2f7d4f 14%, var(--bg)); }
+    .opciones button.no { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--bg)); opacity: 0.75; }
+    .fb { min-height: 3rem; font: 500 0.9rem/1.5 var(--sans); color: var(--ink-2); margin: 0.9rem 0 0; text-align: center; }
+    .fb .he { font-size: 1.3rem; }
+    .pie-practica { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 0.6rem; font: 500 0.82rem var(--sans); color: var(--muted); }
+    .pie-practica button { font: 600 0.9rem var(--sans); padding: 0.55rem 1.1rem; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; }
+    .nota { font: 500 0.8rem/1.5 var(--sans); color: var(--muted); margin: 1rem 0 0; }
+    .credito { font: 500 0.75rem var(--sans); color: var(--muted); margin-top: 2.5rem; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 720px) { .duo { grid-template-columns: 1fr; } .ficha { position: static; order: -1; } .ficha .grande { font-size: 4rem; } }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca" href="../../../">Recursos Bíblicos</a>
+    <a class="volver" href="../../../alfabeto-hebreo/">Volver al recurso</a>
+  </header>
+  <main>
+    <p class="nota" style="margin:0">El alfabeto hebreo y la lectura</p>
+    <h1>Tabla del alfabeto hebreo</h1>
+    <p class="intro">Toca una letra o una vocal para ver su nombre, su sonido, su valor y un ejemplo bíblico. En «Práctica», la tabla te muestra una letra o una sílaba y tú eliges cómo se lee. Las letras se ordenan de derecha a izquierda, como se leen.</p>
+    <div class="tabs" role="tablist" id="tabs">
+      <button type="button" role="tab" data-t="letras" aria-selected="true">Letras</button>
+      <button type="button" role="tab" data-t="vocales" aria-selected="false">Vocales</button>
+      <button type="button" role="tab" data-t="practica" aria-selected="false">Práctica</button>
+    </div>
+    <section id="panel" aria-live="polite"></section>
+    <p class="nota">Pronunciación del hebreo israelí moderno. La transliteración académica es la que usan los diccionarios y comentarios.</p>
+    <p class="credito">Citas: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso. Ejemplos hebreos del Códice de Leningrado (dominio público).</p>
+  </main>
+
+  <script>
+  (() => {
+    'use strict';
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const $ = id => document.getElementById(id);
+    document.documentElement.dataset.theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+    // [letra, nombre, sonido, transliteración académica, valor, ejemplo hebreo, se lee, significa, referencia, consejo]
+    const LETRAS = [
+      ['א', 'Álef', 'Muda: sostiene la vocal', 'ʾ', 1, 'אֱלֹהִים', 'Elohim', 'Dios', 'Gn 1:1', 'Su nombre significa «buey». No tiene sonido propio: se lee la vocal que la acompaña.'],
+      ['בּ', 'Bet', 'b, como en «boca»', 'b', 2, 'בַּיִת', 'báyit', 'casa', 'Éx 12:30', 'Con punto dentro suena b. Tiene una base que sobresale abajo a la derecha; la kaf es redonda.'],
+      ['ב', 'Vet', 'v', 'ḇ', 2, 'אָב', 'av', 'padre', 'Gn 2:24', 'Es la misma letra que la bet, sin el punto dentro.'],
+      ['ג', 'Guímel', 'g, siempre como en «gato»', 'g', 3, 'גָּדוֹל', 'gadol', 'grande', 'Gn 12:2', 'Su pie se abre hacia la izquierda. No la confundas con la nun (נ), que tiene base plana.'],
+      ['ד', 'Dálet', 'd', 'd', 4, 'דָּוִד', 'David', 'David', '1 S 16:13', 'Tiene una esquina recta que sobresale arriba a la derecha. La resh (ר) es redondeada.'],
+      ['ה', 'He', 'h suave; muda al final de palabra', 'h', 5, 'הַר', 'har', 'monte', 'Éx 19:20', 'La pata izquierda no toca el techo: queda un espacio. Como prefijo (הַ) significa «el, la».'],
+      ['ו', 'Vav', 'v; con punto, vocal o (וֹ) o u (וּ)', 'w', 6, 'וָוֵיהֶם', 'vavehem', 'sus ganchos', 'Éx 26:32', 'Un trazo vertical que llega a la línea. Como prefijo (וְ) significa «y».'],
+      ['ז', 'Zayin', 'z sonora, como un zumbido', 'z', 7, 'זָהָב', 'zahav', 'oro', 'Gn 24:22', 'Parece una vav con un sombrero más ancho.'],
+      ['ח', 'Jet', 'j, como en «jardín»', 'ḥ', 8, 'חֶסֶד', 'jésed', 'misericordia', 'Gn 24:12', 'Las dos patas tocan el techo: está cerrada arriba. La he (ה) tiene un espacio.'],
+      ['ט', 'Tet', 't', 'ṭ', 9, 'טוֹב', 'tov', 'bueno', 'Gn 1:4', 'Es redonda, con el borde superior derecho doblado hacia adentro.'],
+      ['י', 'Yod', 'y, como en «yo»', 'y', 10, 'יָד', 'yad', 'mano', 'Éx 3:20', 'La letra más pequeña: la «jota» de Mateo 5:18. Cuelga en lo alto de la línea.'],
+      ['כּ', 'Kaf', 'k, como en «casa»', 'k', 20, 'כֹּהֵן', 'kohén', 'sacerdote', 'Lv 1:7', 'Con punto dentro suena k. Es redonda, sin la base de la bet.'],
+      ['כ', 'Jaf', 'j, como en «jardín»', 'ḵ', 20, 'לְךָ', 'lejá', 'a ti', 'Nm 6:26', 'La misma letra sin punto. Suena igual que la jet.'],
+      ['ל', 'Lámed', 'l', 'l', 30, 'לֵב', 'lev', 'corazón', 'Éx 7:3', 'La única letra que sube por encima de la línea. Como prefijo (לְ) significa «a, para, de».'],
+      ['מ', 'Mem', 'm', 'm', 40, 'מַיִם', 'máyim', 'aguas', 'Gn 1:6', 'Abierta abajo a la izquierda. Al final de la palabra se cierra: ם.'],
+      ['נ', 'Nun', 'n', 'n', 50, 'נָבִיא', 'naví', 'profeta', 'Dt 18:18', 'Corta y con base. Al final de la palabra se estira hacia abajo: ן.'],
+      ['ס', 'Sámej', 's', 's', 60, 'סֵפֶר', 'séfer', 'libro', 'Jos 1:8', 'Redonda y cerrada. La mem final (ם) es cuadrada.'],
+      ['ע', 'Áyin', 'Muda (antes, un sonido de garganta)', 'ʿ', 70, 'עַם', 'am', 'pueblo', 'Gn 11:6', 'Su nombre significa «ojo». La cola baja inclinada hacia la izquierda.'],
+      ['פּ', 'Pe', 'p', 'p', 80, 'פָּנִים', 'panim', 'rostro', 'Éx 33:11', 'Con punto dentro suena p. Su nombre significa «boca».'],
+      ['פ', 'Fe', 'f', 'p̄', 80, 'סֵפֶר', 'séfer', 'libro', 'Jos 1:8', 'La misma letra sin punto. Al final de la palabra: ף.'],
+      ['צ', 'Tsade', 'ts, como en «tsunami»', 'ṣ', 90, 'צַדִּיק', 'tsadik', 'justo', 'Gn 6:9', 'Brazo arriba a la derecha y base plana. Al final de la palabra: ץ.'],
+      ['ק', 'Qof', 'k', 'q', 100, 'קָדוֹשׁ', 'kadosh', 'santo', 'Is 6:3', 'Su pata izquierda baja por debajo de la línea, aun en medio de la palabra.'],
+      ['ר', 'Resh', 'r', 'r', 200, 'רוּחַ', 'rúaj', 'espíritu, viento', 'Gn 1:2', 'Redondeada, sin esquina. Su nombre significa «cabeza».'],
+      ['שׁ', 'Shin', 'sh, como en «show»', 'š', 300, 'שָׁלוֹם', 'shalom', 'paz', 'Nm 6:26', 'Tres brazos, con el punto sobre el brazo derecho.'],
+      ['שׂ', 'Sin', 's', 'ś', 300, 'יִשְׂרָאֵל', 'Yisrael', 'Israel', 'Gn 35:10', 'La misma letra, con el punto sobre el brazo izquierdo.'],
+      ['ת', 'Tav', 't', 't', 400, 'תּוֹרָה', 'Torá', 'ley, enseñanza', 'Éx 12:49', 'Parecida a la jet, pero con un pie hacia la izquierda. Su nombre significa «señal».'],
+    ];
+    const FINALES = [
+      ['ך', 'Jaf final', 'j', 'ḵ', 20, 'מֶלֶךְ', 'mélej', 'rey', '1 S 8:5', 'La jaf al final de la palabra: se estira hacia abajo.'],
+      ['ם', 'Mem final', 'm', 'm', 40, 'שָׁלוֹם', 'shalom', 'paz', 'Nm 6:26', 'La mem al final de la palabra: un cuadrado cerrado.'],
+      ['ן', 'Nun final', 'n', 'n', 50, 'בֵּן', 'ben', 'hijo', 'Is 7:14', 'La nun al final de la palabra: un trazo largo que baja de la línea.'],
+      ['ף', 'Fe final', 'f', 'p̄', 80, 'יוֹסֵף', 'Yosef', 'José', 'Gn 30:24', 'La fe al final de la palabra: se estira hacia abajo.'],
+      ['ץ', 'Tsade final', 'ts', 'ṣ', 90, 'אֶרֶץ', 'érets', 'tierra', 'Gn 1:10', 'La tsade al final de la palabra: un trazo recto que baja.'],
+    ];
+    // [signo sobre bet, nombre, sonido, académica, ejemplo, se lee, significa, consejo]
+    const VOCALES = [
+      ['בַ', 'Pataj', 'a', 'a', 'בַּיִת', 'báyit', 'casa', 'Una raya horizontal bajo la letra.'],
+      ['בָ', 'Qamets', 'a (a veces o)', 'ā', 'דָּבָר', 'davar', 'palabra', 'Una pequeña te bajo la letra. En sílaba cerrada sin acento suena o (qamets jatuf), como en כָּל, kol.'],
+      ['בֵ', 'Tsere', 'e', 'ē', 'בֵּן', 'ben', 'hijo', 'Dos puntos lado a lado. Con yod (בֵי) sigue sonando e.'],
+      ['בֶ', 'Segol', 'e', 'e', 'מֶלֶךְ', 'mélej', 'rey', 'Tres puntos en triángulo con la punta hacia abajo.'],
+      ['בִ', 'Jireq', 'i', 'i', 'אֱלֹהִים', 'Elohim', 'Dios', 'Un punto bajo la letra. Con yod (בִי) sigue sonando i.'],
+      ['בֹ', 'Jolem', 'o', 'ō', 'מֹשֶׁה', 'Moshé', 'Moisés', 'Un punto arriba, a la izquierda de la letra.'],
+      ['בוֹ', 'Jolem con vav', 'o', 'ô', 'שָׁלוֹם', 'shalom', 'paz', 'El punto sobre la vav la convierte en la vocal o.'],
+      ['בֻ', 'Qibuts', 'u', 'u', 'שֻׁלְחָן', 'shuljan', 'mesa', 'Tres puntos en diagonal bajo la letra.'],
+      ['בוּ', 'Shuruq', 'u', 'û', 'רוּחַ', 'rúaj', 'espíritu', 'Una vav con un punto en el medio.'],
+      ['בְ', 'Shevá', 'e muy breve, o muda', 'ǝ', 'בְּרֵאשִׁית', 'bereshit', 'en el principio', 'Suena al comienzo de la palabra; calla al final de la sílaba.'],
+      ['אֲ', 'Jatef pataj', 'a breve', 'ă', 'אֲנִי', 'aní', 'yo', 'Shevá más pataj, sobre todo bajo las guturales א ה ח ע.'],
+      ['אֱ', 'Jatef segol', 'e breve', 'ĕ', 'אֱלֹהִים', 'Elohim', 'Dios', 'Shevá más segol.'],
+      ['אֳ', 'Jatef qamets', 'o breve', 'ŏ', 'חֳדָשִׁים', 'jodashim', 'meses', 'Shevá más qamets.'],
+    ];
+
+    let pestaña = 'letras';
+    let elegida = 0;
+
+    function ficha(l) {
+      return `<div class="ficha"><p class="grande he" lang="he">${esc(l[0])}</p><h2>${esc(l[1])}</h2><dl>
+        <dt>Sonido</dt><dd>${esc(l[2])}</dd>
+        <dt>Académica</dt><dd>${esc(l[3])}</dd>
+        <dt>Valor</dt><dd>${esc(l[4])}</dd>
+        <dt>Ejemplo</dt><dd><span class="he" lang="he" dir="rtl">${esc(l[5])}</span> ${esc(l[6])}, «${esc(l[7])}» (${esc(l[8])})</dd></dl>
+        <p class="consejo">${esc(l[9])}</p></div>`;
+    }
+    function fichaVocal(v) {
+      return `<div class="ficha"><p class="grande he" lang="he">${esc(v[0])}</p><h2>${esc(v[1])}</h2><dl>
+        <dt>Suena</dt><dd>${esc(v[2])}</dd>
+        <dt>Académica</dt><dd>${esc(v[3])}</dd>
+        <dt>Ejemplo</dt><dd><span class="he" lang="he" dir="rtl">${esc(v[4])}</span> ${esc(v[5])}, «${esc(v[6])}»</dd></dl>
+        <p class="consejo">${esc(v[7])}</p></div>`;
+    }
+    const TODAS = [...LETRAS, ...FINALES];
+
+    function pintar() {
+      document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.t === pestaña)));
+      const p = $('panel');
+      if (pestaña === 'letras') {
+        const boton = (l, k, fin) => `<button type="button" data-k="${k}" aria-pressed="${k === elegida}" class="${fin ? 'final' : ''}" aria-label="${esc(l[1])}"><span class="he" lang="he">${esc(l[0])}</span><small>${esc(l[1])}</small></button>`;
+        p.innerHTML = `<div class="duo"><div><div class="rejilla" id="rej">${LETRAS.map((l, k) => boton(l, k)).join('')}</div>
+          <p class="nota">Formas finales</p><div class="rejilla" id="rej2">${FINALES.map((l, k) => boton(l, LETRAS.length + k, true)).join('')}</div></div>
+          ${ficha(TODAS[elegida] || TODAS[0])}</div>`;
+        p.querySelectorAll('.rejilla').forEach(r => r.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { elegida = +b.dataset.k; pintar(); } }));
+      } else if (pestaña === 'vocales') {
+        const k0 = Math.min(elegida, VOCALES.length - 1);
+        p.innerHTML = `<div class="duo"><div><div class="rejilla">${VOCALES.map((v, k) => `<button type="button" data-k="${k}" aria-pressed="${k === k0}" aria-label="${esc(v[1])}"><span class="he" lang="he">${esc(v[0])}</span><small>${esc(v[1])}</small></button>`).join('')}</div>
+          <p class="nota">Las vocales aparecen con la letra bet (o con álef, en las reducidas) para mostrar su lugar. Se pronuncian después de la consonante: בַ es «ba».</p></div>
+          ${fichaVocal(VOCALES[k0])}</div>`;
+        p.querySelector('.rejilla').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { elegida = +b.dataset.k; pintar(); } });
+      } else {
+        pintarPractica();
+      }
+      window.Citas?.procesar?.(p);
+    }
+
+    /* ---------- Práctica: sin puntaje guardado; solo cuenta los aciertos de esta visita ---------- */
+    const pr = { modo: 'letras', aciertos: 0, intentos: 0, actual: null };
+    const azar = n => Math.floor(Math.random() * n);
+    const mezclar = a => { for (let i = a.length - 1; i > 0; i--) { const j = azar(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    // Sílabas: consonante + vocal, con la lectura esperada
+    const CONS = [['בּ', 'b'], ['ב', 'v'], ['ג', 'g'], ['ד', 'd'], ['ה', 'h'], ['ז', 'z'], ['ח', 'j'], ['ט', 't'], ['י', 'y'], ['כּ', 'k'], ['ל', 'l'], ['מ', 'm'], ['נ', 'n'], ['ס', 's'], ['פּ', 'p'], ['פ', 'f'], ['צ', 'ts'], ['ק', 'k'], ['ר', 'r'], ['שׁ', 'sh'], ['שׂ', 's'], ['ת', 't']];
+    const VOC = [['ַ', 'a'], ['ָ', 'a'], ['ֵ', 'e'], ['ֶ', 'e'], ['ִ', 'i'], ['ֹ', 'o'], ['ֻ', 'u']];
+    function nueva() {
+      if (pr.modo === 'letras') {
+        const k = azar(TODAS.length), l = TODAS[k];
+        const nombres = [...new Set(TODAS.map(x => x[1]))].filter(n => n !== l[1]);
+        pr.actual = { muestra: l[0], ok: l[1], ops: mezclar([l[1], ...mezclar(nombres).slice(0, 3)]), detalle: `${l[1]}: ${l[2]}.` };
+      } else {
+        const c = CONS[azar(CONS.length)], v = VOC[azar(VOC.length)];
+        const ok = c[1] + v[1];
+        const otras = new Set();
+        while (otras.size < 3) {
+          const c2 = Math.random() < 0.5 ? c : CONS[azar(CONS.length)], v2 = Math.random() < 0.5 ? v : VOC[azar(VOC.length)];
+          const s = c2[1] + v2[1]; if (s !== ok) otras.add(s);
+        }
+        pr.actual = { muestra: c[0] + v[0], ok, ops: mezclar([ok, ...otras]), detalle: `Consonante ${c[1]} + vocal ${v[1]}.` };
+      }
+      pintarPractica();
+    }
+    function pintarPractica() {
+      if (!pr.actual) return nueva();
+      const a = pr.actual;
+      $('panel').innerHTML = `<div class="practica">
+        <div class="modo" role="radiogroup" aria-label="Qué practicar">
+          <label><input type="radio" name="modo" value="letras" ${pr.modo === 'letras' ? 'checked' : ''}> Nombres de las letras</label>
+          <label><input type="radio" name="modo" value="silabas" ${pr.modo === 'silabas' ? 'checked' : ''}> Leer sílabas</label>
+        </div>
+        <p class="pregunta">${pr.modo === 'letras' ? '¿Cómo se llama esta letra?' : '¿Cómo se lee esta sílaba?'}</p>
+        <p class="muestra he" lang="he">${esc(a.muestra)}</p>
+        <div class="opciones">${a.ops.map(o => `<button type="button" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div>
+        <p class="fb" id="fb"></p>
+        <div class="pie-practica"><span>${pr.intentos ? `${pr.aciertos} de ${pr.intentos} al primer intento en esta visita` : 'No se guarda ningún resultado'}</span><button type="button" id="otra">Otra</button></div>
+      </div>`;
+      let primera = true;
+      $('panel').querySelector('.opciones').addEventListener('click', e => {
+        const b = e.target.closest('button'); if (!b || b.disabled) return;
+        const bien = b.dataset.o === a.ok;
+        if (primera) { pr.intentos++; if (bien) pr.aciertos++; primera = false; }
+        b.classList.add(bien ? 'ok' : 'no'); b.disabled = true;
+        $('fb').innerHTML = bien ? `Correcto. ${esc(a.detalle)}` : 'No exactamente. Mira de nuevo la forma y los puntos, y prueba otra opción.';
+        if (bien) $('panel').querySelectorAll('.opciones button').forEach(x => { x.disabled = true; });
+        $('panel').querySelector('.pie-practica span').textContent = `${pr.aciertos} de ${pr.intentos} al primer intento en esta visita`;
+      });
+      $('otra').addEventListener('click', nueva);
+      $('panel').querySelectorAll('input[name="modo"]').forEach(r => r.addEventListener('change', () => { pr.modo = r.value; nueva(); }));
+    }
+
+    $('tabs').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      pestaña = b.dataset.t; elegida = 0; pintar();
+    });
+    pintar();
+  })();
+  </script>
+  <script src="../../assets/js/citas.js"></script>
+</body>
+</html>

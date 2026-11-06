@@ -24,7 +24,14 @@
               // la opción cuya region (código ISO de país, p. ej. 'CL') coincide con el idioma del navegador.
            { tipo: 'tabla', titulo, tabla: { titulo, cab, filas, nota } },
            { tipo: 'cita', titulo, texto, ref }
+           { tipo: 'hebreo', titulo, ref, he, tr, palabras: [{ he, tr, es }], rv }
+              // hebreo: pasaje en hebreo de derecha a izquierda (he), su transliteración (tr),
+              // las palabras una por una en orden de lectura y la RV 1960 (rv). Un botón oculta las
+              // ayudas para practicar la lectura. Desde la v2.48 (El alfabeto hebreo y la lectura).
          ],
+         // Hebreo dentro de cualquier texto (párrafos, tablas, pies, ejercicios): el motor envuelve
+         // cada tramo en <span class="he" lang="he" dir="rtl">, con su tipografía. Una celda de tabla
+         // que solo tiene hebreo se muestra en letra grande (class he-celda).
          texto: ['párrafo', { h: 'subtítulo' },
                  { posturas: { titulo, a: { n, t }, b: { n, t }, c } }, ...],  // dos posturas y cómo se entienden
                 // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa;
@@ -49,6 +56,10 @@
   const raiz = document.getElementById('ruta-app');
   if (!D || !raiz) return;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  // Tramos de hebreo (letras, puntos vocálicos y acentos), con los espacios y el maqaf entre palabras
+  const HEB = /[\u0591-\u05F4\uFB1D-\uFB4F]+(?:[ \u00A0]+[\u0591-\u05F4\uFB1D-\uFB4F]+)*/g;
+  const he = s => esc(s).replace(HEB, m => `<span class="he" lang="he" dir="rtl">${m}</span>`);
+  const soloHe = s => /[\u0591-\u05F4]/.test(s) && !/[A-Za-zÁÉÍÓÚáéíóúñÑ0-9]/.test(s);
   const root = document.documentElement;
   const RUTAS = D.rutas;
   const RUTA = Object.fromEntries(RUTAS.map(r => [r.id, r]));
@@ -64,6 +75,7 @@
       <div class="re-v re-mapa" id="re-mapa" hidden></div>
       <div class="re-v re-tabla" id="re-tabla" hidden></div>
       <blockquote class="re-v re-cita" id="re-cita" hidden></blockquote>
+      <div class="re-v re-heb" id="re-heb" hidden></div>
       <div class="re-pasos" id="re-pasos" hidden>
         <button type="button" class="re-paso-btn" id="re-paso-ant" aria-label="Paso anterior">‹</button>
         <div class="re-paso-centro">
@@ -157,7 +169,7 @@
 
   /* ---------------- Visual ---------------- */
   let mapa = null, vActual = 0, paso = 0;
-  const vistas = ['re-img', 're-mapa', 're-tabla', 're-cita'];
+  const vistas = ['re-img', 're-mapa', 're-tabla', 're-cita', 're-heb'];
 
   /* Lo ya visto: qué pestañas se abrieron y qué estaciones se visitaron, recordado en
      el dispositivo. Sirve para señalar el contenido que todavía no se ha descubierto. */
@@ -204,7 +216,7 @@
       f.innerHTML = (v.src
         ? `<img src="${esc(v.src)}" alt="${esc(v.alt)}"${v.foco ? ` style="object-position:${esc(v.foco)}"` : ''}>`
         : `<div class="re-img-pend" role="img" aria-label="${esc(v.alt)}"><span>${esc(v.alt)}</span><small>${v.origen === 'ia' ? 'Ilustración por generar' : 'Foto por agregar, con licencia verificada'}</small></div>`)
-        + (v.pie ? `<figcaption>${esc(v.pie)} <em>${origen}</em></figcaption>` : '')
+        + (v.pie ? `<figcaption>${he(v.pie)} <em>${origen}</em></figcaption>` : '')
         + (v.src && v.origen === 'foto' ? '<button type="button" class="re-lupa-btn" aria-label="Ampliar la foto">🔍 Ampliar</button>' : '');
       f.hidden = false;
       const lb = f.querySelector('.re-lupa-btn');
@@ -217,16 +229,32 @@
       else if (mapa) mapa.mostrar(v.estado, true);
     } else if (v.tipo === 'tabla') {
       const t = v.tabla;
-      $('re-tabla').innerHTML = `<div class="re-tabla-in">${t.titulo ? `<h2>${esc(t.titulo)}</h2>` : ''}<div class="re-tabla-wrap"><table>
-        <thead><tr>${t.cab.map(c => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead>
-        <tbody>${t.filas.map(f => `<tr>${f.map((c, k) => k === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
-        </table></div>${t.nota ? `<p class="re-nota">${esc(t.nota)}</p>` : ''}</div>`;
+      const cl = c => soloHe(String(c)) ? ' class="he-celda"' : '';
+      $('re-tabla').innerHTML = `<div class="re-tabla-in">${t.titulo ? `<h2>${he(t.titulo)}</h2>` : ''}<div class="re-tabla-wrap"><table>
+        <thead><tr>${t.cab.map(c => `<th scope="col">${he(c)}</th>`).join('')}</tr></thead>
+        <tbody>${t.filas.map(f => `<tr>${f.map((c, k) => k === 0 ? `<th scope="row"${cl(c)}>${he(c)}</th>` : `<td${cl(c)}>${he(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+        </table></div>${t.nota ? `<p class="re-nota">${he(t.nota)}</p>` : ''}</div>`;
       $('re-tabla').hidden = false;
     } else if (v.tipo === 'cita') {
       $('re-cita').innerHTML = `<p>${esc(v.texto)}</p><footer>${esc(v.ref)}</footer>`;
       $('re-cita').classList.toggle('largo', String(v.texto).length > 400);
       $('re-cita').scrollTop = 0;
       $('re-cita').hidden = false;
+    } else if (v.tipo === 'hebreo') {
+      const h = $('re-heb');
+      const pal = v.palabras || [];
+      h.innerHTML = `<div class="re-heb-in">
+        <p class="re-heb-txt he" lang="he" dir="rtl">${esc(v.he)}</p>
+        ${v.tr ? `<p class="re-heb-tr re-ayuda">${esc(v.tr)}</p>` : ''}
+        ${pal.length ? `<ol class="re-heb-pal no-citas" dir="rtl">${pal.map(w => `<li><span class="he" lang="he">${esc(w.he)}</span><i class="re-ayuda" dir="ltr">${esc(w.tr || '')}</i><small class="re-ayuda" dir="ltr">${esc(w.es || '')}</small></li>`).join('')}</ol>` : ''}
+        ${v.rv ? `<p class="re-heb-rv re-ayuda">${esc(v.rv)}</p>` : ''}
+        <footer>${esc(v.ref || '')}${v.tr || pal.length ? ' <button type="button" class="re-heb-btn">Ocultar ayudas</button>' : ''}</footer>
+      </div>`;
+      const b = h.querySelector('.re-heb-btn');
+      if (b) b.addEventListener('click', () => { const o = h.classList.toggle('sin-ayudas'); b.textContent = o ? 'Mostrar ayudas' : 'Ocultar ayudas'; });
+      h.classList.remove('sin-ayudas');
+      h.scrollTop = 0;
+      h.hidden = false;
     }
   }
   /* Selector: una lista que cambia lo que muestra el mapa (p. ej. «Compara con tu país») */
@@ -340,22 +368,22 @@
     $('re-ref').textContent = e.ref || '';
     $('re-ref').hidden = !e.ref;
     $('re-parrafos').innerHTML = (e.texto || []).map((t, k) => {
-      if (typeof t === 'string') return `<p>${esc(t)}</p>`;
-      if (t.h) return `<h2>${esc(t.h)}</h2>`;
-      if (t.posturas) { const q = t.posturas; return `<section class="re-posturas"><h3>${esc(q.titulo)}</h3>
-        <div class="re-pos2"><div><b>${esc(q.a.n)}</b><p>${esc(q.a.t)}</p></div><div><b>${esc(q.b.n)}</b><p>${esc(q.b.t)}</p></div></div>
-        ${q.c ? `<div class="re-pos-c"><b>Cómo se entiende</b><p>${esc(q.c)}</p></div>` : ''}</section>`; }
+      if (typeof t === 'string') return `<p>${he(t)}</p>`;
+      if (t.h) return `<h2>${he(t.h)}</h2>`;
+      if (t.posturas) { const q = t.posturas; return `<section class="re-posturas"><h3>${he(q.titulo)}</h3>
+        <div class="re-pos2"><div><b>${he(q.a.n)}</b><p>${he(q.a.t)}</p></div><div><b>${he(q.b.n)}</b><p>${he(q.b.t)}</p></div></div>
+        ${q.c ? `<div class="re-pos-c"><b>Cómo se entiende</b><p>${he(q.c)}</p></div>` : ''}</section>`; }
       if (t.ejercicio) { const q = t.ejercicio; return `<section class="re-ej" data-k="${k}">
-        <p class="re-ej-tit">Ejercicio</p><p class="re-ej-preg">${esc(q.pregunta)}</p>
+        <p class="re-ej-tit">Ejercicio</p><p class="re-ej-preg">${he(q.pregunta)}</p>
         <div class="re-ej-ops no-citas" role="group" aria-label="Opciones">${q.opciones.map((o, j) =>
-          `<button type="button" class="re-ej-op" data-o="${j}"><span class="re-ej-letra" aria-hidden="true">${'ABCDEFG'[j]}</span><span>${esc(o.t)}</span></button>`).join('')}</div>
+          `<button type="button" class="re-ej-op" data-o="${j}"><span class="re-ej-letra" aria-hidden="true">${'ABCDEFG'[j]}</span><span>${he(o.t)}</span></button>`).join('')}</div>
         <div class="re-ej-fb" aria-live="polite" hidden></div></section>`; }
       // a = '#ruta/n' lleva a otra estación del mismo recurso (sin salir de la app)
       if (t.ir && /^[.\/#a-z0-9_-]+$/i.test(t.ir.a)) return `<p class="re-ir"><a href="${esc(t.ir.a)}"${t.ir.a.startsWith('#') || t.ir.marco ? '' : ' target="_top"'}>${esc(t.ir.t)} <span aria-hidden="true">›</span></a></p>`;
       return '';
     }).join('');
     $('re-pensar').hidden = !e.pensar;
-    $('re-pensar').querySelector('p').textContent = e.pensar || '';
+    $('re-pensar').querySelector('p').innerHTML = he(e.pensar || '');
     $('re-pos').textContent = `${idx + 1} de ${ruta.estaciones.length}`;
     $('re-ant').disabled = idx === 0;
     $('re-sig').disabled = idx === ruta.estaciones.length - 1;
@@ -381,8 +409,8 @@
     b.setAttribute('aria-pressed', 'true');
     const fb = sec.querySelector('.re-ej-fb');
     fb.className = `re-ej-fb ${o.ok ? 'ok' : 'no'}`;
-    fb.innerHTML = `<b>${o.ok ? 'Correcto.' : 'No exactamente.'}</b>${o.por_que ? ` ${esc(o.por_que)}` : ''}`
-      + (o.ok && q.ejercicio.explicacion ? `<p>${esc(q.ejercicio.explicacion)}</p>` : '')
+    fb.innerHTML = `<b>${o.ok ? 'Correcto.' : 'No exactamente.'}</b>${o.por_que ? ` ${he(o.por_que)}` : ''}`
+      + (o.ok && q.ejercicio.explicacion ? `<p>${he(q.ejercicio.explicacion)}</p>` : '')
       + (o.ok ? '' : '<small>Prueba con otra opción.</small>');
     fb.hidden = false;
     if (o.ok) sec.querySelectorAll('.re-ej-op').forEach(x => { if (x !== b) x.disabled = true; });

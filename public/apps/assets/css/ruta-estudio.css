@@ -133,6 +133,24 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 .re-cita p { font: 400 clamp(1.4rem, 2.6vw, 2.1rem)/1.45 var(--serif); margin: 0; max-width: 34ch; }
 .re-cita footer { font: 600 0.85rem var(--sans); color: var(--accent); margin-top: 1rem; }
 
+/* Hebreo (desde la v2.48): tipografía con puntos vocálicos, de derecha a izquierda */
+.he { font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Taamey Frank CLM', 'Times New Roman', serif; font-size: 1.12em; line-height: 1.3; unicode-bidi: isolate; }
+.re-tabla td.he-celda, .re-tabla th.he-celda { font-size: 1.6rem; line-height: 1.2; text-align: right; }
+.re-heb { display: grid; place-content: safe center; overflow-y: auto; padding: 4.5rem clamp(1.25rem, 5vw, 4rem) 2rem; }
+.re-heb-in { max-width: 44rem; }
+.re-heb-txt { font-size: clamp(1.9rem, 3.6vw, 2.9rem); line-height: 1.75; margin: 0; text-align: right; }
+.re-heb-tr { font: italic 400 clamp(1.05rem, 1.6vw, 1.3rem)/1.5 var(--serif); color: var(--ink-2); margin: 0.6rem 0 0; }
+.re-heb-pal { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 1.25rem 0 0; }
+.re-heb-pal li { display: grid; justify-items: center; gap: 0.1rem; padding: 0.45rem 0.65rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); min-width: 4.5rem; }
+.re-heb-pal .he { font-size: 1.55rem; }
+.re-heb-pal i { font: italic 0.85rem var(--serif); color: var(--ink-2); }
+.re-heb-pal small { font: 500 0.72rem/1.3 var(--sans); color: var(--muted); text-align: center; max-width: 9rem; }
+.re-heb-rv { font: 400 1rem/1.5 var(--serif); color: var(--ink-2); margin: 1.1rem 0 0; padding-top: 0.8rem; border-top: 1px solid var(--line); }
+.re-heb footer { font: 600 0.85rem var(--sans); color: var(--accent); margin-top: 1rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.re-heb-btn { font: 600 0.78rem var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 999px; padding: 0.3rem 0.8rem; cursor: pointer; }
+.re-heb.sin-ayudas .re-ayuda { visibility: hidden; }
+.re-heb.sin-ayudas .re-heb-pal i, .re-heb.sin-ayudas .re-heb-pal small { display: none; }
+
 .re-pasos { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 0.75rem; padding: 0.55rem 1rem;
   border-top: 1px solid var(--line); background: var(--bg); }
 .re-pasos[hidden] { display: none; }
