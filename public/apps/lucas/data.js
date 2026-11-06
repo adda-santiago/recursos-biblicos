@@ -17,7 +17,7 @@
    - Autor, Teófilo y Lucas-Hechos: el desarrollo está en Hechos (ruta I); aquí se resume y se enlaza.
    - El problema sinóptico: ruta de la Armonía (#sinoptico/n).
    - Fechas: Cronología del Nuevo Testamento. Grupos, fiestas y vida diaria: El mundo judío.
-   - El Espíritu Santo (nº 11) está «en preparación».
+   - El Espíritu Santo (nº 11) está enlazado desde II.7 y IV.2.
    ========================================================== */
 (() => {
   const V = {
@@ -597,9 +597,10 @@
         'Jesús es concebido por el Espíritu (Lc 1:35). En el bautismo, mientras ora, el Espíritu desciende sobre Él «en forma corporal, como paloma» (Lc 3:22). Lucas lo describe «lleno del Espíritu Santo» en el desierto (Lc 4:1) y volviendo a Galilea «en el poder del Espíritu» (Lc 4:14). En Nazaret lee: «El Espíritu del Señor está sobre mí, por cuanto me ha ungido» (Lc 4:18). Jesús, siendo Dios, vivió su ministerio humano en dependencia del Espíritu.',
         { h: 'El que bautiza en el Espíritu' },
         'Juan anunció que Jesús «os bautizará en Espíritu Santo y fuego» (Lc 3:16). Jesús enseña que el Padre dará «el Espíritu Santo a los que se lo pidan» (Lc 11:13). Y antes de ascender manda a los discípulos esperar la promesa del Padre, hasta ser «investidos de poder desde lo alto» (Lc 24:49). Lo que el Espíritu hizo en Jesús, lo hará en sus discípulos. Esa promesa se cumple en Pentecostés (Hch 2:4), y sigue vigente: «para vosotros es la promesa, y para vuestros hijos, y para todos los que están lejos» (Hch 2:39).',
-        'La ruta IV estudia esta enseñanza con más detalle. El recurso El Espíritu Santo, en preparación, la desarrollará en toda la Biblia.',
+        'La ruta IV estudia esta enseñanza con más detalle. El recurso El Espíritu Santo la desarrolla en toda la Biblia.',
         ir('Ver «Ungido por el Espíritu» en La persona y obra de Cristo', R.cristo + '#encarnacion/6'),
-        ir('Ver «La promesa del Espíritu» en Hechos', R.hechos + '#espiritu/1')
+        ir('Ver «La promesa del Espíritu» en Hechos', R.hechos + '#espiritu/1'),
+        { ir: { t: 'Ver «Ungido en el Jordán» en El Espíritu Santo', a: '../../espiritu-santo/#jesus/2' } }
       ],
       pensar: 'Jesús mismo vivió su ministerio lleno del Espíritu y en su poder. Si Él dependió así del Espíritu, ¿cuánto más lo necesitamos nosotros? ¿Has pedido al Padre su Espíritu (Lc 11:13)?'
     },
@@ -1698,7 +1699,8 @@
           c: 'Las dos posturas reconocen que todo creyente tiene al Espíritu (Ro 8:9) y que debe ser lleno de Él (Ef 5:18). La primera explica mejor el modelo de Lucas, que es narrador pero también maestro: muestra la experiencia que la iglesia debe esperar.'
         } },
         ir('Ver «El bautismo en el Espíritu Santo» en Hechos', R.hechos + '#teologia/2'),
-        ir('Ver «El bautismo en el Espíritu Santo» en El movimiento pentecostal', R.pentecostal + '#doctrina/2')
+        ir('Ver «El bautismo en el Espíritu Santo» en El movimiento pentecostal', R.pentecostal + '#doctrina/2'),
+        { ir: { t: 'Ver «La promesa del Padre» en El Espíritu Santo', a: '../../espiritu-santo/#bautismo/1' } }
       ],
       pensar: 'Jesús dijo a discípulos que ya creían en Él que esperaran el poder de lo alto. ¿Has recibido esa investidura de poder? Si no, ¿qué te impide pedirla al Padre?'
     },

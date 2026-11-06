@@ -220,7 +220,9 @@
             { t: 'Que el Espíritu solo está presente cuando estamos alegres.', ok: false, por_que: 'El versículo dice que con Él fuimos sellados para el día de la redención: su presencia es permanente.' }
           ],
           explicacion: 'El Espíritu Santo es Dios y es persona: se le puede obedecer, resistir, contristar y amar.'
-        } }
+        } },
+        { ir: { t: 'Ver «Una persona, no una fuerza» en El Espíritu Santo', a: '../../espiritu-santo/#quien/2' } },
+        { ir: { t: 'Ver «El Espíritu Santo es Dios» en El Espíritu Santo', a: '../../espiritu-santo/#quien/3' } }
       ],
       pensar: 'El Espíritu Santo puede ser contristado (Ef 4:30). ¿Hay algo en tu manera de hablar o de vivir que lo esté entristeciendo?'
     },

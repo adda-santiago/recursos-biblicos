@@ -449,8 +449,9 @@
         { h: 'Dios y hombre lleno del Espíritu' },
         'Si Jesús era Dios, ¿por qué necesitaba el Espíritu? Porque, como hombre, vivió en dependencia del Padre y en el poder del Espíritu. Él mismo dijo que echaba fuera los demonios «por el Espíritu de Dios» (Mt 12:28). Esto no niega su divinidad: el Hijo eterno nunca dejó de ser Dios. Pero eligió no actuar por su cuenta, sino como el hombre ungido, y así nos mostró lo que el Espíritu puede hacer en una vida humana entregada a Dios.',
         { h: 'Para nosotros' },
-        'Jesús prometió a sus discípulos que harían las obras que Él hacía, y aun mayores, porque iba al Padre (Jn 14:12). Antes de ascender les mandó esperar la promesa del Padre: «recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo» (Hch 1:8). El mismo Espíritu que ungió a Jesús fue derramado sobre la iglesia en Pentecostés. Por eso Juan el Bautista lo presentó como el que bautiza con Espíritu Santo (Jn 1:33). La persona y la obra del Espíritu se estudiarán en el recurso El Espíritu Santo, hoy en preparación.',
-        { ir: { t: 'Ver el bautismo de Jesús en Dios y la Trinidad', a: '../../dios-y-la-trinidad/#trinidad/3' } }
+        'Jesús prometió a sus discípulos que harían las obras que Él hacía, y aun mayores, porque iba al Padre (Jn 14:12). Antes de ascender les mandó esperar la promesa del Padre: «recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo» (Hch 1:8). El mismo Espíritu que ungió a Jesús fue derramado sobre la iglesia en Pentecostés. Por eso Juan el Bautista lo presentó como el que bautiza con Espíritu Santo (Jn 1:33). La persona y la obra del Espíritu se estudian en el recurso El Espíritu Santo.',
+        { ir: { t: 'Ver el bautismo de Jesús en Dios y la Trinidad', a: '../../dios-y-la-trinidad/#trinidad/3' } },
+        { ir: { t: 'Ver «Ungido en el Jordán» en El Espíritu Santo', a: '../../espiritu-santo/#jesus/2' } }
       ],
       pensar: 'Si el mismo Jesús vivió y sirvió en el poder del Espíritu, ¿cuánto más lo necesitamos nosotros? ¿Estás buscando esa llenura para tu vida y tu servicio?'
     },
@@ -1677,14 +1678,15 @@
         { h: 'Salvador' },
         'Lo primero es la salvación. Pedro dijo ante el Sanedrín: «en ningún otro hay salvación; porque no hay otro nombre bajo el cielo, dado a los hombres, en que podamos ser salvos» (Hch 4:12). Todo lo demás descansa sobre la cruz y la resurrección, que se estudiaron en las rutas V y VI.',
         { h: 'El que bautiza con el Espíritu' },
-        'Juan el Bautista presentó a Jesús con dos títulos: el Cordero de Dios que quita el pecado del mundo (Jn 1:29) y el que bautiza con el Espíritu Santo (Jn 1:33). Las dos obras son suyas. Desde la diestra del Padre, Jesús derramó el Espíritu en Pentecostés (Hch 2:33), y la promesa sigue vigente para todos los que el Señor llame (Hch 2:39). La línea pentecostal clásica enseña que el bautismo en el Espíritu es una experiencia distinta de la conversión, que da poder para el testimonio y cuya señal inicial es hablar en otras lenguas. El recurso El Espíritu Santo, hoy en preparación, estudiará la doctrina.',
+        'Juan el Bautista presentó a Jesús con dos títulos: el Cordero de Dios que quita el pecado del mundo (Jn 1:29) y el que bautiza con el Espíritu Santo (Jn 1:33). Las dos obras son suyas. Desde la diestra del Padre, Jesús derramó el Espíritu en Pentecostés (Hch 2:33), y la promesa sigue vigente para todos los que el Señor llame (Hch 2:39). La línea pentecostal clásica enseña que el bautismo en el Espíritu es una experiencia distinta de la conversión, que da poder para el testimonio y cuya señal inicial es hablar en otras lenguas. El recurso El Espíritu Santo estudia la doctrina.',
         { h: 'Sanador' },
         'Jesús sanó a los enfermos durante su ministerio, y Mateo dice que así cumplió la profecía: «El mismo tomó nuestras enfermedades, y llevó nuestras dolencias» (Mt 8:17). La estación «Sanidad en la expiación» explicó por qué la línea pentecostal clásica enseña que la sanidad está provista en la cruz.',
         { h: 'Rey que viene' },
         'Finalmente, el mismo Jesús que ascendió volverá (Hch 1:11). La esperanza de su venida mantiene a la iglesia despierta y en misión. La estación siguiente la resume.',
         { h: 'El mismo' },
         '«Jesucristo es el mismo ayer, y hoy, y por los siglos» (He 13:8). El Jesús que salvó, sanó y llenó con el Espíritu a los creyentes del Nuevo Testamento es el mismo hoy. El recurso El movimiento pentecostal cuenta cómo esta convicción impulsó uno de los movimientos cristianos más grandes de la historia.',
-        { ir: { t: 'Ver «El evangelio completo» en El movimiento pentecostal', a: '../../movimiento-pentecostal/#doctrina/1' } }
+        { ir: { t: 'Ver «El evangelio completo» en El movimiento pentecostal', a: '../../movimiento-pentecostal/#doctrina/1' } },
+        { ir: { t: 'Ver «La promesa del Padre» en El Espíritu Santo', a: '../../espiritu-santo/#bautismo/1' } }
       ],
       pensar: 'Si Jesucristo es el mismo ayer, y hoy, y por los siglos, ¿esperas de Él hoy lo que hizo en el Nuevo Testamento: salvar, llenar con el Espíritu, sanar y preparar a su pueblo para su venida?'
     },

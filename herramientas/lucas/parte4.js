@@ -71,7 +71,8 @@
           c: 'Las dos posturas reconocen que todo creyente tiene al Espíritu (Ro 8:9) y que debe ser lleno de Él (Ef 5:18). La primera explica mejor el modelo de Lucas, que es narrador pero también maestro: muestra la experiencia que la iglesia debe esperar.'
         } },
         ir('Ver «El bautismo en el Espíritu Santo» en Hechos', R.hechos + '#teologia/2'),
-        ir('Ver «El bautismo en el Espíritu Santo» en El movimiento pentecostal', R.pentecostal + '#doctrina/2')
+        ir('Ver «El bautismo en el Espíritu Santo» en El movimiento pentecostal', R.pentecostal + '#doctrina/2'),
+        { ir: { t: 'Ver «La promesa del Padre» en El Espíritu Santo', a: '../../espiritu-santo/#bautismo/1' } }
       ],
       pensar: 'Jesús dijo a discípulos que ya creían en Él que esperaran el poder de lo alto. ¿Has recibido esa investidura de poder? Si no, ¿qué te impide pedirla al Padre?'
     },

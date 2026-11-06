@@ -72,8 +72,9 @@
         'Pentecostés era la fiesta de la cosecha, cincuenta días después de la Pascua. Los discípulos esperaban en Jerusalén, unos ciento veinte, orando juntos. Ese día vino del cielo un estruendo como de un viento recio, aparecieron lenguas como de fuego sobre cada uno, «y fueron todos llenos del Espíritu Santo, y comenzaron a hablar en otras lenguas, según el Espíritu les daba que hablasen» (Hch 2:4). Los judíos que habían llegado de muchas naciones los oían hablar en sus propios idiomas las maravillas de Dios. Pedro, el mismo que había negado a Jesús, se levantó y explicó que eso era lo que había anunciado Joel. Ese día se convirtieron unas tres mil personas.',
         'Pedro terminó su sermón con una promesa que no se limitaba a ese día: «para vosotros es la promesa, y para vuestros hijos, y para todos los que están lejos; para cuantos el Señor nuestro Dios llamare» (Hch 2:39). El movimiento pentecostal tomó su nombre de este día, porque nació de la convicción de que esa promesa sigue vigente: que el mismo Espíritu que llenó a los discípulos llena hoy a los creyentes que lo buscan, para que sean testigos de Cristo con poder.',
         { h: 'Cómo usar este recurso' },
-        'Las siete rutas siguen un orden aproximadamente cronológico. Las rutas I a III cuentan los orígenes y los primeros cincuenta años; la ruta IV reúne la historia de América Latina; la ruta V, las nuevas corrientes desde 1960; la ruta VI resume lo que enseñan los pentecostales, y la ruta VII estudia los desafíos y los desvíos de hoy. La historia general de la iglesia, de la Reforma a hoy, está en Historia de la Iglesia II, y la doctrina del Espíritu Santo tendrá su propio recurso (en preparación).',
-        ir('Ver la historia de la iglesia de la Reforma a hoy', H2)
+        'Las siete rutas siguen un orden aproximadamente cronológico. Las rutas I a III cuentan los orígenes y los primeros cincuenta años; la ruta IV reúne la historia de América Latina; la ruta V, las nuevas corrientes desde 1960; la ruta VI resume lo que enseñan los pentecostales, y la ruta VII estudia los desafíos y los desvíos de hoy. La historia general de la iglesia, de la Reforma a hoy, está en Historia de la Iglesia II, y la doctrina del Espíritu Santo se estudia en su propio recurso, El Espíritu Santo.',
+        ir('Ver la historia de la iglesia de la Reforma a hoy', H2),
+        { ir: { t: 'Ver «El día de Pentecostés» en El Espíritu Santo', a: '../../espiritu-santo/#bautismo/2' } }
       ],
       pensar: 'Pedro dijo que la promesa del Espíritu es también «para todos los que están lejos» (Hch 2:39). ¿Crees que esa promesa es para ti? ¿Qué lugar ocupa en tu vida de oración?'
     },
@@ -1128,7 +1129,8 @@
         'Jesús anduvo «haciendo bienes y sanando a todos los oprimidos por el diablo» (Hch 10:38). Los pentecostales creen que la sanidad es parte de la obra redentora de Cristo y que la iglesia debe orar por los enfermos con fe. No desprecian la medicina, que también es un regalo de Dios, ni enseñan que la falta de sanidad sea siempre falta de fe: Pablo dejó a Trófimo enfermo en Mileto (2 Ti 4:20) y aconsejó a Timoteo un remedio para su estómago (1 Ti 5:23).',
         { h: 'Cristo viene' },
         'Por último, el evangelio completo anuncia que Cristo volverá. Los pentecostales clásicos esperan la venida de Cristo por su iglesia, antes de la gran tribulación, y después su reino sobre la tierra. Esa esperanza dio urgencia a la evangelización y a las misiones.',
-        'Todo el evangelio completo se resume en una frase de Hebreos que muchos pentecostales escribían en las paredes de sus templos: «Jesucristo es el mismo ayer, y hoy, y por los siglos» (He 13:8). El mismo que salvó, sanó y llenó del Espíritu a sus discípulos lo hace hoy. Este resumen es solo una puerta de entrada; la doctrina del Espíritu Santo se estudiará en su propio recurso (en preparación).'
+        'Todo el evangelio completo se resume en una frase de Hebreos que muchos pentecostales escribían en las paredes de sus templos: «Jesucristo es el mismo ayer, y hoy, y por los siglos» (He 13:8). El mismo que salvó, sanó y llenó del Espíritu a sus discípulos lo hace hoy. Este resumen es solo una puerta de entrada; la doctrina del Espíritu Santo se estudia en el recurso El Espíritu Santo.',
+        { ir: { t: 'Ver el estudio de la doctrina en El Espíritu Santo', a: '../../espiritu-santo/#quien/1' } }
       ],
       pensar: 'El centro del evangelio completo no es una experiencia, sino Cristo. ¿Cuál de estas cuatro afirmaciones sobre Cristo necesitas hoy creer y vivir con más fuerza?'
     },
@@ -1167,7 +1169,9 @@
             { t: 'Una salvación incompleta, que se completa con las lenguas.', ok: false, por_que: 'La salvación es completa por la fe en Cristo; el bautismo en el Espíritu es para el servicio, no para la salvación.' }
           ],
           explicacion: 'Distinguir el nuevo nacimiento del bautismo en el Espíritu no divide a los cristianos en dos clases: recuerda que Dios tiene más para cada creyente y lo invita a pedirlo (Lc 11:13).'
-        } }
+        } },
+        { ir: { t: 'Ver «Distinto de la conversión» en El Espíritu Santo', a: '../../espiritu-santo/#bautismo/4' } },
+        { ir: { t: 'Ver «Hablar en otras lenguas» en El Espíritu Santo', a: '../../espiritu-santo/#bautismo/5' } }
       ],
       pensar: 'Jesús dijo que el Padre dará el Espíritu Santo «a los que se lo pidan» (Lc 11:13). ¿Lo has pedido con fe? ¿Para qué quieres ser lleno del Espíritu?'
     },
@@ -1200,7 +1204,9 @@
         } },
         { h: 'Dones para servir' },
         'Pablo enseña que el Espíritu reparte los dones «como él quiere» (1 Co 12:11) y que se dan «para provecho» de todos (1 Co 12:7), no para lucirse. En medio de sus dos capítulos sobre los dones puso el capítulo del amor: sin amor, hablar lenguas es ruido y tener profecía no es nada (1 Co 13:1-2). Los dones son herramientas para servir; el fruto del Espíritu muestra el carácter. Una iglesia sana necesita ambas cosas.',
-        ir('Leer la estación de Historia de la Iglesia II sobre Azusa y los dones', H2 + '#siglo20/1')
+        ir('Leer la estación de Historia de la Iglesia II sobre Azusa y los dones', H2 + '#siglo20/1'),
+        { ir: { t: 'Ver «Los dones del Espíritu» en El Espíritu Santo', a: '../../espiritu-santo/#dones/1' } },
+        { ir: { t: 'Ver «¿Han cesado los dones?» en El Espíritu Santo', a: '../../espiritu-santo/#dones/8' } }
       ],
       pensar: 'Pablo dice «procurad los dones espirituales» y, en el mismo texto, «seguid el amor» (1 Co 14:1). ¿Buscas los dones para servir a otros? ¿Qué don crees que Dios te ha dado o quiere darte para edificar a tu iglesia?'
     },

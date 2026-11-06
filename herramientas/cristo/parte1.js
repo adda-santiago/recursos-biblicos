@@ -449,8 +449,9 @@
         { h: 'Dios y hombre lleno del Espíritu' },
         'Si Jesús era Dios, ¿por qué necesitaba el Espíritu? Porque, como hombre, vivió en dependencia del Padre y en el poder del Espíritu. Él mismo dijo que echaba fuera los demonios «por el Espíritu de Dios» (Mt 12:28). Esto no niega su divinidad: el Hijo eterno nunca dejó de ser Dios. Pero eligió no actuar por su cuenta, sino como el hombre ungido, y así nos mostró lo que el Espíritu puede hacer en una vida humana entregada a Dios.',
         { h: 'Para nosotros' },
-        'Jesús prometió a sus discípulos que harían las obras que Él hacía, y aun mayores, porque iba al Padre (Jn 14:12). Antes de ascender les mandó esperar la promesa del Padre: «recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo» (Hch 1:8). El mismo Espíritu que ungió a Jesús fue derramado sobre la iglesia en Pentecostés. Por eso Juan el Bautista lo presentó como el que bautiza con Espíritu Santo (Jn 1:33). La persona y la obra del Espíritu se estudiarán en el recurso El Espíritu Santo, hoy en preparación.',
-        { ir: { t: 'Ver el bautismo de Jesús en Dios y la Trinidad', a: '../../dios-y-la-trinidad/#trinidad/3' } }
+        'Jesús prometió a sus discípulos que harían las obras que Él hacía, y aun mayores, porque iba al Padre (Jn 14:12). Antes de ascender les mandó esperar la promesa del Padre: «recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo» (Hch 1:8). El mismo Espíritu que ungió a Jesús fue derramado sobre la iglesia en Pentecostés. Por eso Juan el Bautista lo presentó como el que bautiza con Espíritu Santo (Jn 1:33). La persona y la obra del Espíritu se estudian en el recurso El Espíritu Santo.',
+        { ir: { t: 'Ver el bautismo de Jesús en Dios y la Trinidad', a: '../../dios-y-la-trinidad/#trinidad/3' } },
+        { ir: { t: 'Ver «Ungido en el Jordán» en El Espíritu Santo', a: '../../espiritu-santo/#jesus/2' } }
       ],
       pensar: 'Si el mismo Jesús vivió y sirvió en el poder del Espíritu, ¿cuánto más lo necesitamos nosotros? ¿Estás buscando esa llenura para tu vida y tu servicio?'
     },

@@ -752,7 +752,8 @@
             { t: 'Que el Espíritu se daría solo a los sacerdotes del templo.', ok: false, por_que: 'Es justo lo contrario: la promesa rompe esa limitación.' }
           ],
           explicacion: 'En el nuevo pacto, el Espíritu es para todo el pueblo de Dios, hoy como en Pentecostés.'
-        } }
+        } },
+        { ir: { t: 'Ver «La promesa del derramamiento» en El Espíritu Santo', a: '../../espiritu-santo/#at/5' } }
       ],
       pensar: 'Pedro dijo que la promesa del Espíritu es para todos los que el Señor llama. ¿Has buscado ser lleno del Espíritu Santo como los discípulos en Pentecostés?'
     },

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#f6f3ec"/>
+<text x="600" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Los símbolos del Espíritu Santo</text>
+<text x="600" y="98" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Imágenes que ilustran su obra; ninguna lo describe por completo</text>
+<rect x="30" y="170" width="260" height="270" rx="14" fill="#1e8a8a19" stroke="#1e8a8a" stroke-width="2"/>
+<path d="M100,220 q30,-18 60,0 t60,0" fill="none" stroke="#1e8a8a" stroke-width="5" stroke-linecap="round"/>
+<path d="M100,240 q30,-18 60,0 t60,0" fill="none" stroke="#1e8a8a" stroke-width="5" stroke-linecap="round"/>
+<path d="M100,260 q30,-18 60,0 t60,0" fill="none" stroke="#1e8a8a" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1e8a8a" text-anchor="middle" font-weight="bold">Viento</text>
+<text x="160" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 3:8; Hch 2:2</text>
+<text x="160" y="380" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Invisible, libre y poderoso;</text>
+<text x="160" y="404" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">da vida (Ez 37:9)</text>
+<rect x="323" y="170" width="260" height="270" rx="14" fill="#b03a2e19" stroke="#b03a2e" stroke-width="2"/>
+<path d="M453,198 C487,230 483,270 453,276 C423,270 419,234 441,220 C443,240 453,244 453,198Z" fill="#b03a2e"/>
+<text x="453" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#b03a2e" text-anchor="middle" font-weight="bold">Fuego</text>
+<text x="453" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Mt 3:11; Hch 2:3</text>
+<text x="453" y="380" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Purifica, ilumina</text>
+<text x="453" y="404" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">y enciende el celo</text>
+<rect x="616" y="170" width="260" height="270" rx="14" fill="#2a6fb019" stroke="#2a6fb0" stroke-width="2"/>
+<path d="M746,198 C776,240 776,274 746,276 C716,274 716,240 746,198Z" fill="#2a6fb0"/>
+<text x="746" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Agua</text>
+<text x="746" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Jn 7:38-39; Is 44:3</text>
+<text x="746" y="380" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Limpia, refresca</text>
+<text x="746" y="404" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">y hace fructificar</text>
+<rect x="909" y="170" width="260" height="270" rx="14" fill="#c08a1e19" stroke="#c08a1e" stroke-width="2"/>
+<path d="M1013,276 L1007,234 Q1039,214 1071,234 L1065,276 Z" fill="#c08a1e"/>
+<rect x="1031" y="200" width="16" height="22" fill="#c08a1e"/>
+<text x="1039" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#c08a1e" text-anchor="middle" font-weight="bold">Aceite</text>
+<text x="1039" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">1 S 16:13; 1 Jn 2:20</text>
+<text x="1039" y="380" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Unge y capacita</text>
+<text x="1039" y="404" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">para servir</text>
+<rect x="176" y="470" width="260" height="270" rx="14" fill="#6b708019" stroke="#6b7080" stroke-width="2"/>
+<path d="M256,550 Q296,500 316,534 Q346,510 361,520 Q336,570 296,562 Z" fill="#6b7080"/>
+<text x="306" y="618" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#6b7080" text-anchor="middle" font-weight="bold">Paloma</text>
+<text x="306" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Lc 3:22</text>
+<text x="306" y="680" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Paz, mansedumbre</text>
+<text x="306" y="704" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">y nuevo comienzo</text>
+<rect x="469" y="470" width="260" height="270" rx="14" fill="#7a3fa019" stroke="#7a3fa0" stroke-width="2"/>
+<circle cx="599" cy="540" r="38" fill="#7a3fa0"/>
+<circle cx="599" cy="540" r="26" fill="none" stroke="#f6f3ec" stroke-width="3"/>
+<text x="599" y="618" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Sello</text>
+<text x="599" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ef 1:13; 4:30</text>
+<text x="599" y="680" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Pertenencia, autenticidad</text>
+<text x="599" y="704" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">y protección</text>
+<rect x="762" y="470" width="260" height="270" rx="14" fill="#2f7d4a19" stroke="#2f7d4a" stroke-width="2"/>
+<ellipse cx="868" cy="550" rx="24" ry="9" fill="#2f7d4a" stroke="#f6f3ec" stroke-width="2"/>
+<ellipse cx="892" cy="542" rx="24" ry="9" fill="#2f7d4a" stroke="#f6f3ec" stroke-width="2"/>
+<ellipse cx="916" cy="534" rx="24" ry="9" fill="#2f7d4a" stroke="#f6f3ec" stroke-width="2"/>
+<text x="892" y="618" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Arras</text>
+<text x="892" y="646" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ef 1:14; 2 Co 5:5</text>
+<text x="892" y="680" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">El primer pago que</text>
+<text x="892" y="704" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">garantiza la herencia</text>
+</svg>
