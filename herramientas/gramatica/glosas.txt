@@ -1,0 +1,762 @@
+# Vocabulario y gramática básica del hebreo bíblico · glosas del vocabulario (a mano)
+# strong|transliteración|clase|tema|sentido en español
+# Clase: v verbo · sm sustantivo masculino · sf sustantivo femenino · adj adjetivo · num número
+#        prep preposición · conj conjunción · adv adverbio · pron pronombre · part partícula
+#        np nombre de persona (o de Dios) · nl nombre de lugar o de pueblo
+# Tema: fe · gente · cuerpo · mundo · tiempo · lugar · poder · palabra · mente · mover · hacer
+#       vida · cualidad · numero · nombre · - (partículas)
+# Transliteración sencilla (como en El alfabeto hebreo): j = ח y כ sin punto, sh = שׁ, ts = צ,
+# v = ב sin punto y ו, k = כּ y ק; la tilde marca el acento cuando no sigue la regla del español.
+# Los verbos se citan en la forma del diccionario (qal perfecto, 3.ª persona masculina singular)
+# y se traducen con el infinitivo español.
+853|et|part|-|marca del complemento directo definido (no se traduce)
+3068|YHVH|np|fe|Jehová, el SEÑOR: el nombre de Dios (se lee Adonái)
+5921|al|prep|-|sobre, encima de; contra; acerca de
+413|el|prep|-|a, hacia
+834|asher|pron|-|que, el cual, quien, donde (relativo)
+3605|kol|sm|-|todo, todos; cada (delante de otra palabra: kol-, kal-)
+559|amar|v|palabra|decir
+3808|lo|adv|-|no
+1121|ben|sm|gente|hijo; miembro de (plural: banim, hijos)
+3588|ki|conj|-|porque; que; cuando; ciertamente
+1961|hayá|v|vida|ser, estar; llegar a ser, suceder
+6213|asá|v|hacer|hacer
+430|Elohim|sm|fe|Dios; dioses
+935|bo|v|mover|venir, entrar; (hifil) traer
+4428|mélej|sm|poder|rey
+3478|Yisrael|np|nombre|Israel
+776|érets|sf|mundo|tierra; país
+3117|yom|sm|tiempo|día
+376|ish|sm|gente|hombre, varón; marido; cada uno
+6440|panim|sm|cuerpo|rostro, cara; (lifné) delante de
+1004|báyit|sm|lugar|casa; familia
+5414|natán|v|hacer|dar; poner
+1931|hu|pron|-|él; ese
+5971|am|sm|gente|pueblo
+3027|yad|sf|cuerpo|mano; poder
+1697|davar|sm|palabra|palabra; asunto, cosa
+7200|raá|v|mente|ver
+5704|ad|prep|-|hasta
+4480|min|prep|-|de, desde; más que (también como prefijo מִ)
+1|av|sm|gente|padre; antepasado
+2088|ze|pron|-|este, esto
+8085|shamá|v|mente|oír, escuchar; obedecer
+1696|davar|v|palabra|hablar (casi siempre en piel: dibér)
+859|atá|pron|-|tú (masculino)
+5892|ir|sf|lugar|ciudad
+3427|yashav|v|vida|sentarse; habitar
+3318|yatsá|v|mover|salir
+1732|David|np|nombre|David
+7725|shuv|v|mover|volver; convertirse, arrepentirse
+518|im|conj|-|si; (en juramentos) ciertamente no
+5973|im|prep|-|con
+3212|yalaj|v|mover|ir, andar (formas de הָלַךְ con yod)
+259|ejad|num|numero|uno, un
+3947|lakaj|v|hacer|tomar
+3045|yadá|v|mente|conocer, saber
+5869|áyin|sf|cuerpo|ojo; fuente
+5927|alá|v|mover|subir
+854|et|prep|-|con, junto a
+8141|shaná|sf|tiempo|año
+589|aní|pron|-|yo
+8034|shem|sm|palabra|nombre; fama
+7971|shalaj|v|hacer|enviar; extender (la mano)
+2009|hiné|part|-|¡he aquí!, ¡mira!
+4191|mut|v|vida|morir; (hifil) dar muerte
+8033|sham|adv|-|allí
+3063|Yehudá|np|nombre|Judá
+398|ajal|v|vida|comer
+5650|éved|sm|gente|siervo, esclavo
+369|áyin|part|-|no hay; nada (delante de otra palabra: en)
+802|ishá|sf|gente|mujer; esposa
+3651|ken|adv|-|así; por tanto
+8147|shenáyim|num|numero|dos
+1571|gam|adv|-|también; aun
+4872|Moshé|np|nombre|Moisés
+5315|néfesh|sf|vida|alma; vida; ser viviente; persona
+4100|ma|pron|-|¿qué?
+3548|kohén|sm|fe|sacerdote
+428|éle|pron|-|estos, estas
+7121|kará|v|palabra|llamar; clamar; proclamar; leer
+408|al|adv|-|no (en prohibiciones y ruegos)
+310|ajar|prep|-|después de; detrás de
+1870|dérej|sm|lugar|camino; manera de vivir
+7451|ra|adj|cualidad|malo; (sustantivo) mal, desgracia
+5375|nasá|v|hacer|alzar, llevar; perdonar
+3389|Yerushaláyim|nl|nombre|Jerusalén
+4714|Mitsráyim|nl|nombre|Egipto; los egipcios
+251|aj|sm|gente|hermano
+6965|kum|v|mover|levantarse; (hifil) levantar, confirmar
+2063|zot|pron|-|esta, esto
+7218|rosh|sm|cuerpo|cabeza; jefe; principio
+3820|lev|sm|cuerpo|corazón; mente, voluntad
+1323|bat|sf|gente|hija
+7760|sim|v|hacer|poner, colocar
+3967|meá|num|numero|cien
+4325|máyim|sm|mundo|aguas, agua
+3541|ko|adv|-|así
+1471|goy|sm|gente|nación; (plural) las naciones, los gentiles
+1992|hem|pron|-|ellos
+2896|tov|adj|cualidad|bueno; (sustantivo) bien
+5674|avar|v|mover|pasar, cruzar; traspasar
+120|adam|sm|gente|hombre, ser humano; Adán
+2022|har|sm|mundo|monte
+1419|gadol|adj|cualidad|grande
+5975|amad|v|mover|estar de pie, detenerse; permanecer
+8478|tájat|prep|-|debajo de; en lugar de
+1980|halaj|v|mover|ir, andar
+505|élef|num|numero|mil
+6963|kol|sm|palabra|voz; sonido
+2416|jay|adj|vida|vivo, viviente; (plural, jayim) vida
+5221|najá|v|poder|herir, golpear (casi siempre en hifil: hiká)
+3205|yalad|v|vida|dar a luz; engendrar
+6310|pe|sm|cuerpo|boca
+6680|tsavá|v|palabra|mandar, ordenar (en piel: tsivá)
+5750|od|adv|-|todavía, aún; otra vez
+6635|tsavá|sm|poder|ejército; (plural, tsevaot) huestes
+8104|shamar|v|hacer|guardar, cuidar
+6944|kódesh|sm|fe|santidad; lo santo; el lugar santo
+7227|rav|adj|cualidad|mucho, numeroso; grande
+4672|matsá|v|hacer|hallar, encontrar
+136|Adonái|sm|fe|Señor (dicho solo de Dios)
+5769|olam|sm|tiempo|siempre, eternidad; tiempo antiguo
+5307|nafal|v|mover|caer
+6258|atá|adv|-|ahora
+7969|shalosh|num|numero|tres
+4941|mishpat|sm|poder|juicio; derecho, justicia; costumbre
+4310|mi|pron|-|¿quién?
+8064|shamáyim|sm|mundo|cielos, cielo
+8269|sar|sm|poder|príncipe, jefe
+8432|tavej|sm|lugar|medio; (betoj) en medio de
+2719|jérev|sf|poder|espada
+996|bein|prep|-|entre
+7586|Shaúl|np|nombre|Saúl
+4196|mizbéaj|sm|fe|altar
+4994|na|part|-|te ruego, por favor
+3701|késef|sm|mundo|plata; dinero
+4725|makom|sm|lugar|lugar
+3220|yam|sm|mundo|mar; occidente
+7651|shéva|num|numero|siete
+2091|zahav|sm|mundo|oro
+3381|yarad|v|mover|descender, bajar
+7307|rúaj|sf|fe|espíritu; viento; aliento
+784|esh|sf|mundo|fuego
+1129|baná|v|hacer|edificar, construir
+5002|neúm|sm|palabra|oráculo, dicho («dice Jehová»)
+8179|sháar|sm|lugar|puerta (de la ciudad)
+5046|nagad|v|palabra|contar, anunciar (en hifil: higuid)
+1818|dam|sm|cuerpo|sangre
+595|anojí|pron|-|yo
+4427|malaj|v|poder|reinar
+3290|Yaakov|np|nombre|Jacob
+168|óhel|sm|lugar|tienda; tabernáculo
+175|Aharón|np|nombre|Aarón
+2568|jamesh|num|numero|cinco
+6240|asar|num|numero|-ce (en los números del 11 al 19)
+5439|saviv|adv|-|alrededor
+7704|sadé|sm|mundo|campo
+6086|ets|sm|mundo|árbol; madera
+1288|baraj|v|fe|bendecir (casi siempre en piel: berej)
+3372|yaré|v|mente|temer; reverenciar
+113|adón|sm|gente|señor, amo
+6030|aná|v|palabra|responder
+3627|kli|sm|hacer|utensilio, vasija; arma; instrumento
+176|o|conj|-|o
+702|arbá|num|numero|cuatro
+4421|miljamá|sf|poder|guerra, batalla
+2005|hen|part|-|he aquí; si
+5030|naví|sm|fe|profeta
+6242|esrim|num|numero|veinte
+3069|YHVH|np|fe|el nombre de Dios con las vocales de Elohim (en «Adonái YHVH», Señor Jehová)
+4940|mishpajá|sf|gente|familia, clan
+6485|pakad|v|hacer|visitar; pedir cuentas; nombrar; contar
+5493|sur|v|mover|apartarse; (hifil) quitar
+3966|meod|adv|-|muy, mucho; (sustantivo) fuerza
+3899|léjem|sm|vida|pan; alimento
+2403|jatat|sf|fe|pecado; ofrenda por el pecado
+6256|et|sf|tiempo|tiempo, momento
+8010|Shelomó|np|nombre|Salomón
+3772|karat|v|hacer|cortar; (karat berit) hacer un pacto
+6430|Pelishtí|nl|nombre|filisteo
+2388|jazak|v|poder|ser fuerte; (piel) fortalecer; (hifil) asir
+5647|avad|v|fe|servir; trabajar; adorar
+5930|olá|sf|fe|holocausto (lo que sube)
+3881|Leví|nl|nombre|levita
+1285|berit|sf|fe|pacto, alianza
+341|oyev|sm|poder|enemigo
+2320|jódesh|sm|tiempo|mes; luna nueva
+7126|karav|v|mover|acercarse; (hifil) ofrecer
+639|af|sm|cuerpo|nariz; ira
+6629|tson|sf|mundo|ovejas y cabras, rebaño
+68|éven|sf|mundo|piedra
+4616|máan|prep|-|(lemáan) por causa de, para que
+4057|midbar|sm|mundo|desierto
+1320|basar|sm|cuerpo|carne; cuerpo; (kol basar) todo ser humano
+6547|Paró|np|nombre|faraón
+2421|jayá|v|vida|vivir; (piel e hifil) dar vida, preservar
+7563|rashá|adj|cualidad|impío, malvado; culpable
+894|Bavel|nl|nombre|Babilonia; Babel
+3824|levav|sm|cuerpo|corazón (forma larga de לֵב)
+4294|maté|sm|gente|vara, bastón; tribu
+7272|réguel|sf|cuerpo|pie
+2617|jésed|sm|fe|misericordia, amor fiel, bondad
+4390|malé|v|hacer|llenar; estar lleno; cumplirse
+520|amá|sf|numero|codo (medida)
+410|El|sm|fe|Dios; dios
+1366|guevul|sm|lugar|frontera, límite; territorio
+2398|jatá|v|fe|pecar; errar el blanco
+5288|náar|sm|gente|muchacho, joven; criado
+7965|shalom|sm|vida|paz; bienestar, salud; integridad
+3915|láyil|sm|tiempo|noche (también láyla)
+7235|ravá|v|hacer|multiplicarse, aumentar
+4639|maasé|sm|hacer|obra, hecho; trabajo
+2142|zajar|v|mente|acordarse, recordar
+2428|jáyil|sm|poder|fuerza, valor; ejército; riqueza
+5771|avón|sm|fe|iniquidad, culpa; castigo
+3423|yarash|v|poder|poseer, heredar; desposeer
+2233|zera|sm|vida|semilla; descendencia
+7130|kérev|sm|cuerpo|interior, entrañas; (bekérev) en medio de
+3789|katav|v|palabra|escribir
+127|adamá|sf|mundo|tierra, suelo
+1245|bikesh|v|hacer|buscar; pedir (en piel)
+4150|moed|sm|fe|tiempo señalado, fiesta; reunión (óhel moed, tabernáculo de reunión)
+8451|torá|sf|fe|ley, enseñanza, instrucción
+5159|najalá|sf|lugar|heredad, herencia
+517|em|sf|gente|madre
+3559|kun|v|hacer|(nifal) estar firme; (hifil) preparar, establecer
+899|bégued|sm|cuerpo|vestido, ropa
+3091|Yehoshúa|np|nombre|Josué (también el nombre de Jesús)
+8354|shatá|v|vida|beber
+5186|natá|v|mover|extender; inclinar(se); desviar
+4264|majané|sm|poder|campamento; ejército
+5800|azav|v|hacer|dejar, abandonar
+8337|shesh|num|numero|seis
+1242|bóker|sm|tiempo|mañana
+4397|malaj|sm|fe|mensajero; ángel
+7901|shajav|v|vida|acostarse, dormir
+3130|Yosef|np|nombre|José (el hijo de Jacob)
+5337|natsal|v|poder|librar, rescatar (en hifil: hitsil)
+4503|minjá|sf|fe|ofrenda; presente, tributo
+157|ahav|v|mente|amar
+3254|yasaf|v|hacer|añadir; volver a hacer
+6662|tsadik|adj|cualidad|justo
+3467|yashá|v|fe|salvar, librar (en hifil: hoshía)
+3615|kalá|v|hacer|acabar, terminar; consumir
+8199|shafat|v|poder|juzgar; gobernar
+905|bad|sm|-|(levad) solo, aparte
+622|asaf|v|hacer|reunir, juntar
+727|arón|sm|fe|arca; cofre
+3519|kavod|sm|fe|gloria; honra
+352|áyil|sm|mundo|carnero
+3709|kaf|sf|cuerpo|palma de la mano; planta del pie
+3201|yajol|v|hacer|poder, ser capaz
+7311|rum|v|mover|ser alto; (hifil) exaltar, levantar
+8081|shémen|sm|mundo|aceite
+929|behemá|sf|mundo|animal, bestia; ganado
+2691|jatser|sm|lugar|atrio; aldea
+7626|shévet|sm|gente|tribu; vara, cetro
+7453|réa|sm|gente|prójimo; compañero, amigo
+5612|séfer|sm|palabra|libro, rollo; carta
+241|ózen|sf|cuerpo|oído, oreja
+1540|galá|v|mover|descubrir, revelar; ir al exilio
+7650|shavá|v|palabra|jurar (en nifal: nishbá)
+6|avad|v|vida|perecer; (piel e hifil) destruir
+4687|mitsvá|sf|fe|mandamiento
+1241|bakar|sm|mundo|ganado vacuno, bueyes
+3383|Yardén|nl|nombre|Jordán
+7223|rishón|adj|tiempo|primero; antiguo
+4124|Moav|nl|nombre|Moab
+669|Efráyim|np|nombre|Efraín
+2205|zakén|adj|gente|anciano, viejo
+6235|éser|num|numero|diez
+8193|safá|sf|cuerpo|labio; lengua, idioma; orilla
+3898|lajam|v|poder|pelear, combatir (en nifal: nilkham)
+7592|shaal|v|palabra|preguntar; pedir
+7970|sheloshim|num|numero|treinta
+85|Avraham|np|nombre|Abraham
+7812|shajá|v|fe|postrarse, adorar (hishtajavá)
+6942|kadash|v|fe|ser santo; (piel) santificar, consagrar
+995|bin|v|mente|entender, discernir
+977|bajar|v|mente|escoger, elegir
+1755|dor|sm|tiempo|generación
+4399|melajá|sf|hacer|trabajo, obra
+2026|harag|v|poder|matar
+1144|Binyamín|np|nombre|Benjamín
+312|ajer|adj|cualidad|otro
+1875|darash|v|mente|buscar; consultar; pedir cuentas
+1984|halal|v|fe|alabar (en piel: hilel)
+7462|raá|v|vida|apacentar, pastorear; (participio, roé) pastor
+6607|pétaj|sm|lugar|entrada, puerta
+2351|juts|sm|lugar|afuera; calle
+2572|jamishim|num|numero|cincuenta
+2077|zévaj|sm|fe|sacrificio
+2930|tamé|v|fe|ser impuro; (piel) contaminar, declarar impuro
+389|aj|adv|-|solamente; ciertamente
+5127|nus|v|mover|huir
+5608|safar|v|palabra|contar; (piel) relatar; (participio, sofer) escriba
+1368|guibor|adj|poder|valiente, poderoso; guerrero
+6666|tsedaká|sf|fe|justicia; acto de justicia
+5437|savav|v|mover|rodear, dar vuelta
+4194|mávet|sm|vida|muerte
+8055|samaj|v|mente|alegrarse
+8145|shení|num|numero|segundo; otro
+3680|kisá|v|hacer|cubrir (en piel)
+6828|tsafón|sf|lugar|norte
+6726|Tsiyón|nl|nombre|Sion
+804|Ashur|nl|nombre|Asiria; Asur
+5048|négued|prep|-|delante de, frente a
+5060|nagá|v|hacer|tocar; llegar a; herir
+7230|rov|sm|cualidad|multitud, abundancia
+7665|shavar|v|hacer|quebrar, romper
+5712|edá|sf|gente|congregación, asamblea
+2451|jojmá|sf|mente|sabiduría
+8130|sané|v|mente|aborrecer, odiar
+7843|shajat|v|hacer|corromper; destruir (en piel e hifil)
+3414|Yirmeyá|np|nombre|Jeremías
+5265|nasá|v|mover|partir, ponerse en marcha (levantar el campamento)
+4519|Menashé|np|nombre|Manasés
+6605|patáj|v|hacer|abrir
+5656|avodá|sf|fe|servicio; trabajo; culto
+3097|Yoav|np|nombre|Joab
+1008|Beit-El|nl|nombre|Betel («casa de Dios»)
+7291|radaf|v|mover|perseguir, seguir
+2490|jalal|v|fe|profanar; (hifil) comenzar
+2583|janá|v|vida|acampar
+3162|yájad|adv|-|juntos, a una
+3644|kemó|prep|-|como
+227|az|adv|-|entonces
+3196|yáyin|sm|vida|vino
+3225|yamín|sf|lugar|derecha, mano derecha; sur
+5158|nájal|sm|mundo|arroyo, torrente; valle
+5483|sus|sm|mundo|caballo
+5178|nejóshet|sf|mundo|bronce, cobre
+4605|máal|adv|-|arriba (lemáala, hacia arriba)
+8050|Shemuel|np|nombre|Samuel
+4908|mishkán|sm|fe|tabernáculo, morada
+3426|yesh|part|-|hay, existe
+2450|jajam|adj|mente|sabio
+705|arbaím|num|numero|cuarenta
+6437|paná|v|mover|volverse; mirar hacia
+3678|kisé|sm|poder|trono
+6153|érev|sm|tiempo|tarde, atardecer
+637|af|conj|-|también, aun; cuánto más
+8121|shémesh|sm|mundo|sol
+5387|nasí|sm|poder|príncipe, jefe
+1568|Guilad|nl|nombre|Galaad
+2076|zavaj|v|fe|sacrificar
+4557|mispar|sm|numero|número
+6435|pen|conj|-|para que no, no sea que
+7604|shaar|v|vida|quedar; (nifal) sobrevivir; (hifil) dejar un remanente
+758|Aram|nl|nombre|Aram, Siria; los sirios
+6912|kavar|v|vida|sepultar, enterrar
+6499|par|sm|mundo|novillo, toro joven
+2346|jomá|sf|lugar|muro, muralla
+2396|Jizkiyá|np|nombre|Ezequías
+7931|shajan|v|vida|habitar, morar
+2706|jok|sm|fe|estatuto, decreto; porción fijada
+3581|kóaj|sm|poder|fuerza, poder
+571|emet|sf|fe|verdad; fidelidad
+6908|kavats|v|hacer|reunir, juntar
+6106|étsem|sf|cuerpo|hueso; (en frases de tiempo) mismo («aquel mismo día»)
+5066|nagash|v|mover|acercarse
+7993|shalaj|v|hacer|arrojar, echar (en hifil: hishlij)
+2803|jashav|v|mente|pensar; contar por, considerar
+2534|jemá|sf|mente|ira, furor; veneno
+6951|kahal|sm|gente|asamblea, congregación
+2677|jatsí|sm|numero|mitad
+216|or|sm|mundo|luz
+587|anájnu|pron|-|nosotros
+3920|lajad|v|poder|capturar, tomar (una ciudad)
+7393|réjev|sm|poder|carro de guerra; carros
+982|batáj|v|fe|confiar
+6529|perí|sm|mundo|fruto
+5104|nahar|sm|mundo|río
+269|ajot|sf|gente|hermana
+3477|yashar|adj|cualidad|recto, justo
+6918|kadosh|adj|fe|santo
+6664|tsédek|sm|fe|justicia, rectitud
+6471|páam|sf|tiempo|vez; paso; pie
+1060|bejor|sm|gente|primogénito
+8441|toevá|sf|fe|abominación
+8210|shafaj|v|hacer|derramar
+3956|lashón|sf|cuerpo|lengua; idioma
+4467|mamlajá|sf|poder|reino
+8313|saraf|v|hacer|quemar
+6999|katar|v|fe|quemar incienso; hacer subir humo (en piel e hifil)
+1431|gadal|v|cualidad|crecer, ser grande; (piel) engrandecer, criar
+3513|kavad|v|cualidad|ser pesado; (piel) honrar, glorificar
+1058|bajá|v|mente|llorar
+7999|shalam|v|hacer|(piel) pagar, restituir; (qal) estar completo
+4054|migrash|sm|lugar|ejido, pastizal alrededor de una ciudad
+5012|nabá|v|fe|profetizar (en nifal e hitpael)
+954|bosh|v|mente|avergonzarse, ser avergonzado
+3034|yadá|v|fe|(hifil, hodá) dar gracias, alabar; confesar
+8267|shéker|sm|palabra|mentira, falsedad
+1115|biltí|part|-|(lebiltí) para no; sin
+3190|yatav|v|cualidad|ir bien; (hifil) hacer el bien
+5982|amud|sm|lugar|columna
+3671|kanaf|sf|cuerpo|ala; borde (del manto)
+3847|lavash|v|vida|vestirse
+5045|néguev|sm|lugar|Néguev; el sur
+7676|shabat|sf|fe|día de reposo (sábado)
+53|Avshalom|np|nombre|Absalón
+6083|afar|sm|mundo|polvo
+6862|tsar|sm|poder|adversario; (adjetivo) angosto; angustia
+8083|shmoné|num|numero|ocho
+7535|rak|adv|-|solamente; ciertamente
+8111|Shomrón|nl|nombre|Samaria
+7992|shlishí|num|numero|tercero
+5162|nijam|v|mente|(piel) consolar; (nifal) arrepentirse, compadecerse
+539|amán|v|fe|(hifil, heemín) creer, confiar; (nifal) ser fiel, firme
+3327|Yitsjak|np|nombre|Isaac
+3498|yatar|v|vida|quedar, sobrar (en nifal); (hifil) dejar
+3532|kéves|sm|mundo|cordero
+5983|Amón|nl|nombre|Amón; los amonitas
+2708|jukká|sf|fe|estatuto, ordenanza
+1350|gaal|v|fe|redimir, rescatar; (participio, goel) redentor, pariente que rescata
+4758|maré|sm|mente|aspecto, apariencia; visión
+7323|ruts|v|mover|correr
+8548|tamid|adv|tiempo|siempre, continuamente
+1116|bamá|sf|fe|lugar alto (altar en una colina)
+3379|Yarovam|np|nombre|Jeroboam
+3722|kafar|v|fe|(piel, kiper) hacer expiación, cubrir el pecado
+1157|beád|prep|-|por, a favor de; a través de
+7489|raá|v|cualidad|ser malo; (hifil) hacer mal
+7911|shajaj|v|mente|olvidar
+3499|yéter|sm|-|resto, lo que queda
+6996|katán|adj|cualidad|pequeño; menor
+7341|rójav|sm|numero|anchura
+7458|raav|sm|vida|hambre
+4592|meat|sm|numero|poco
+7125|kirat|sm|-|(likrat) al encuentro de
+123|Edom|nl|nombre|Edom; los edomitas
+5785|or|sm|cuerpo|piel
+3282|yáan|conj|-|porque, por cuanto
+7637|shevií|num|numero|séptimo
+1481|gur|v|vida|habitar como extranjero, peregrinar
+8334|sheret|v|fe|servir, ministrar (en piel)
+7097|katsé|sm|lugar|extremo, fin, borde
+6215|Esav|np|nombre|Esaú
+7646|savá|v|vida|saciarse
+2543|jamor|sm|mundo|asno
+753|órej|sm|numero|largo, longitud
+4422|malat|v|vida|escapar; (piel) librar
+2891|tahar|v|fe|ser puro; (piel) purificar
+2015|hafaj|v|hacer|volver, trastornar; cambiar
+2889|tahor|adj|fe|puro, limpio
+3667|Kenáan|nl|nombre|Canaán
+8057|simjá|sf|mente|alegría, gozo
+2491|jalal|sm|poder|herido de muerte, muerto (en batalla)
+1197|baar|v|hacer|arder, quemar; (piel) quitar del medio
+1847|dáat|sf|mente|conocimiento
+6588|pésha|sm|fe|rebelión, transgresión
+2181|zaná|v|fe|prostituirse; ser infiel a Dios (figurado)
+256|Ajav|np|nombre|Acab
+2459|jélev|sm|fe|grasa (lo mejor del sacrificio)
+3754|kérem|sm|mundo|viña
+1616|guer|sm|gente|extranjero residente
+5676|éver|sm|lugar|lado; (meéver) al otro lado de
+5797|oz|sm|poder|fuerza, poder
+5462|sagar|v|hacer|cerrar; (hifil) entregar
+3742|keruv|sm|fe|querubín
+7657|shivim|num|numero|setenta
+8549|tamim|adj|cualidad|íntegro, perfecto; sin defecto
+7892|shir|sm|fe|canto, cántico
+2220|zeróa|sf|cuerpo|brazo; poder
+4438|maljut|sf|poder|reino; reinado
+2734|jará|v|mente|encenderse (la ira), enojarse
+3206|yéled|sm|gente|niño, muchacho
+8045|shamad|v|poder|destruir (en nifal e hifil)
+6098|etsá|sf|mente|consejo; propósito
+1817|délet|sf|lugar|puerta (la hoja de la puerta)
+8255|shékel|sm|numero|siclo (peso y moneda)
+7891|shar|v|fe|cantar
+2931|tamé|adj|fe|impuro
+6924|kédem|sm|lugar|oriente; tiempo antiguo
+6051|anán|sm|mundo|nube
+567|Emorí|nl|nombre|amorreo
+3885|lun|v|vida|pasar la noche
+8002|shélem|sm|fe|sacrificio de paz
+3925|lamad|v|mente|aprender; (piel, limed) enseñar
+7896|shit|v|hacer|poner, colocar
+7069|kaná|v|hacer|adquirir, comprar
+3384|yará|v|palabra|lanzar, tirar; (hifil, horá) enseñar
+6285|peá|sf|lugar|lado, esquina; borde
+8074|shamem|v|mente|estar desolado; asombrarse
+1995|hamón|sm|gente|multitud; estruendo
+7350|rajok|adj|lugar|lejano, lejos
+6419|palal|v|fe|(hitpael, hitpalel) orar, interceder
+3092|Yehoshafat|np|nombre|Josafat
+1167|báal|sm|gente|dueño, señor; marido
+6031|aná|v|hacer|afligir, humillar (en piel)
+4910|mashal|v|poder|gobernar, dominar
+2145|zajar|sm|gente|varón, macho
+5641|satar|v|hacer|esconder, ocultar (en nifal e hifil)
+7043|kalal|v|palabra|ser liviano; (piel) maldecir
+3778|Kasdí|nl|nombre|caldeo
+6311|po|adv|-|aquí
+7819|shajat|v|fe|degollar (un sacrificio)
+349|ej|adv|-|¿cómo?
+1035|Beit Léjem|nl|nombre|Belén («casa de pan»)
+5826|azar|v|hacer|ayudar
+7133|korbán|sm|fe|ofrenda (lo que se acerca a Dios)
+738|arí|sm|mundo|león
+3064|Yehudí|nl|nombre|judío
+2822|jóshej|sm|mundo|tinieblas, oscuridad
+4376|majar|v|hacer|vender
+5782|ur|v|mover|despertar(se)
+1168|Báal|np|nombre|Baal
+1964|hejal|sm|fe|templo; palacio
+3083|Yehonatán|np|nombre|Jonatán
+226|ot|sm|fe|señal
+7794|shor|sm|mundo|buey
+2603|janán|v|fe|tener misericordia, mostrar favor
+3289|yaats|v|mente|aconsejar; (participio, yoets) consejero
+6041|aní|adj|gente|pobre, afligido
+205|aven|sm|fe|iniquidad, maldad; vanidad
+214|otsar|sm|lugar|tesoro; depósito
+5061|néga|sm|vida|plaga, llaga
+7138|karov|adj|lugar|cercano
+7392|rajav|v|mover|cabalgar, montar
+4931|mishméret|sf|fe|cargo, servicio; guardia
+6697|tsur|sm|mundo|roca; (figurado) Dios, la Roca
+3444|yeshuá|sf|fe|salvación; liberación
+2114|zur|v|gente|(participio, zar) extraño, extranjero
+1486|goral|sm|-|suerte (para echar suertes)
+8605|tefilá|sf|fe|oración
+4735|mikné|sm|mundo|ganado; posesión
+1270|barzel|sm|mundo|hierro
+7198|késhet|sf|poder|arco
+4713|Mitsrí|nl|nombre|egipcio
+6186|araj|v|hacer|ordenar, disponer (en fila); (araj miljamá) presentar batalla
+7161|kéren|sf|cuerpo|cuerno; (figurado) poder
+5291|naará|sf|gente|muchacha, joven
+8641|terumá|sf|fe|ofrenda (lo que se aparta para Dios)
+3988|maás|v|mente|desechar, rechazar
+3240|yanaj|v|hacer|(hifil, hiníaj) dejar, colocar (formas de נוּחַ)
+5324|natsav|v|mover|(nifal) estar de pie; (hifil) erigir
+2654|jafets|v|mente|desear, complacerse en
+2470|jalá|v|vida|enfermar; (piel, jilá) suplicar
+5795|ez|sf|mundo|cabra
+7998|shalal|sm|poder|botín
+4720|mikdash|sm|fe|santuario
+4217|mizraj|sm|lugar|oriente (donde sale el sol)
+7023|kir|sm|lugar|pared, muro
+5542|Selá|part|fe|Selah (indicación musical de los salmos)
+3001|yavesh|v|mundo|secarse
+3669|Kenaaní|nl|nombre|cananeo
+2781|jerpá|sf|mente|afrenta, oprobio
+6869|tsará|sf|vida|angustia, aflicción
+631|asar|v|hacer|atar
+2199|zaak|v|palabra|clamar, gritar
+730|érez|sm|mundo|cedro
+1892|hével|sm|cualidad|vanidad, soplo
+7364|rajats|v|vida|lavar(se)
+2790|jarash|v|palabra|callar; arar; maquinar
+990|béten|sf|cuerpo|vientre, seno
+4069|madúa|adv|-|¿por qué?
+7205|Reuvén|np|nombre|Rubén
+1410|Gad|np|nombre|Gad
+499|Elazar|np|nombre|Eleazar
+7782|shofar|sm|fe|shofar, trompeta (de cuerno)
+1077|bal|adv|-|no (poético)
+5775|of|sm|mundo|aves
+7673|shavat|v|vida|cesar, descansar
+2275|Jevrón|nl|nombre|Hebrón
+6381|pala|v|fe|(nifal) ser maravilloso; (participio, nifla) maravillas
+1389|guivá|sf|mundo|colina, collado
+7979|shuljan|sm|lugar|mesa
+3844|Levanón|nl|nombre|Líbano
+452|Eliyáhu|np|nombre|Elías
+1835|Dan|np|nombre|Dan
+5027|navat|v|mente|(hifil, hibit) mirar
+7378|riv|v|palabra|contender, pleitear
+8628|taká|v|hacer|tocar (la trompeta); clavar; plantar (una tienda)
+5707|ed|sm|palabra|testigo
+3684|kesil|adj|mente|necio
+2580|jen|sm|fe|gracia, favor
+1293|berajá|sf|fe|bendición
+6010|émek|sm|mundo|valle
+7495|rafá|v|vida|sanar
+4886|mashaj|v|fe|ungir
+441|aluf|sm|poder|jefe (de clan)
+6921|kadim|sm|lugar|oriente; viento del este
+6327|puts|v|mover|esparcir(se), dispersar(se)
+3603|kikar|sf|numero|talento (peso); llanura (del Jordán); pan redondo
+884|Beer Sheva|nl|nombre|Beerseba
+270|ajaz|v|hacer|asir, tomar
+953|bor|sm|lugar|cisterna, pozo; fosa
+7093|kets|sm|tiempo|fin
+5117|núaj|v|vida|reposar, descansar
+2506|jélek|sm|-|parte, porción
+40|Avimélej|np|nombre|Abimelec
+6913|kéver|sm|lugar|sepulcro
+6566|paras|v|hacer|extender
+3802|katef|sf|cuerpo|hombro
+272|ajuzá|sf|lugar|posesión (de tierra)
+7585|Sheol|sf|fe|Seol, el lugar de los muertos
+7611|sheerit|sf|gente|remanente
+8610|tafas|v|hacer|agarrar, apresar
+2505|jalak|v|hacer|repartir, dividir
+1272|baraj|v|mover|huir
+7925|shajam|v|tiempo|(hifil) levantarse de madrugada
+6743|tsalaj|v|cualidad|prosperar, tener éxito
+2975|yeor|sm|mundo|río (casi siempre el Nilo)
+1397|guéver|sm|gente|hombre (fuerte), varón
+4853|masá|sm|fe|carga; oráculo, profecía
+801|ishé|sm|fe|ofrenda encendida
+3782|kashal|v|mover|tropezar
+5329|natsaj|v|fe|(piel) dirigir; (lamnatséaj) «al músico principal»
+4116|mahar|v|mover|(piel, miher) apresurarse
+2472|jalom|sm|mente|sueño (al dormir)
+3878|Leví|np|nombre|Leví
+5262|nésej|sm|fe|libación (ofrenda de vino)
+3335|yatsar|v|hacer|formar, modelar; (participio, yotser) alfarero
+7919|sajal|v|mente|(hifil, hiskil) entender; prosperar; actuar con sabiduría
+779|arar|v|palabra|maldecir
+7927|Shejem|nl|nombre|Siquem
+8198|shifjá|sf|gente|sierva, criada
+4043|maguén|sm|poder|escudo
+7167|kará|v|hacer|rasgar
+8552|tamam|v|hacer|acabarse, completarse
+5341|natsar|v|hacer|guardar, vigilar
+1869|daraj|v|mover|pisar, hollar; tensar (el arco)
+74|Avner|np|nombre|Abner
+6667|Tsidkiyá|np|nombre|Sedequías
+8248|shaká|v|vida|(hifil, hishká) dar de beber, regar
+7070|kané|sm|mundo|caña; brazo (del candelero)
+2282|jag|sm|fe|fiesta (de peregrinación)
+1369|guevurá|sf|poder|poder, fortaleza; proezas
+1516|gai|sm|mundo|valle
+2256|jével|sm|lugar|cuerda; porción de tierra, región
+2342|jul|v|vida|retorcerse (de dolor); dar a luz; danzar
+87|Avram|np|nombre|Abram
+7379|riv|sm|palabra|pleito, causa; contienda
+681|étsel|prep|-|junto a, al lado de
+319|ajarit|sf|tiempo|fin, lo postrero; (beajarit hayamim) en los postreros días
+34|evyón|adj|gente|necesitado, pobre
+1730|dod|sm|gente|amado; tío
+6160|aravá|sf|mundo|llanura, estepa; el Arabá
+1109|Bilam|np|nombre|Balaam
+2555|jamás|sm|poder|violencia
+734|óraj|sm|lugar|senda, camino
+5088|néder|sm|fe|voto
+7004|ketóret|sf|fe|incienso
+1316|Bashán|nl|nombre|Basán
+433|Elóah|sm|fe|Dios (forma singular, sobre todo en Job)
+5019|Nevujadnetsar|np|nombre|Nabucodonosor
+4782|Mordejai|np|nombre|Mardoqueo
+5193|natá|v|hacer|plantar
+8346|shishim|num|numero|sesenta
+2308|jadal|v|hacer|dejar de, cesar
+3198|yajaj|v|palabra|(hifil, hojíaj) reprender, corregir; arbitrar
+4080|Midyán|nl|nombre|Madián
+8163|sair|sm|mundo|macho cabrío; (adjetivo) velludo
+6299|padá|v|fe|redimir, rescatar (pagando un precio)
+5715|edut|sf|fe|testimonio (las tablas de la ley)
+5157|najal|v|lugar|heredar, recibir en posesión
+5553|séla|sm|mundo|peña, roca
+3293|yáar|sm|mundo|bosque
+8672|tesha|num|numero|nueve
+7381|réaj|sm|vida|olor (réaj nijóaj, olor grato)
+7368|rajak|v|lugar|alejarse, estar lejos
+4392|malé|adj|cualidad|lleno
+1097|belí|part|-|sin, sin que
+8416|tehilá|sf|fe|alabanza
+8077|shemamá|sf|lugar|desolación
+7703|shadad|v|poder|destruir, saquear
+609|Asa|np|nombre|Asa
+3058|Yehú|np|nombre|Jehú
+477|Elishá|np|nombre|Eliseo
+347|Iyov|np|nombre|Job
+2962|térem|adv|tiempo|antes de; todavía no
+7521|ratsá|v|fe|aceptar con agrado, complacerse
+6571|parash|sm|poder|jinete
+134|éden|sm|lugar|basa (de las columnas del tabernáculo)
+3405|Yerijó|nl|nombre|Jericó
+4210|mizmor|sm|fe|salmo
+2232|zará|v|hacer|sembrar
+4284|majashavá|sf|mente|pensamiento, plan
+519|amá|sf|gente|sierva, esclava
+490|almaná|sf|gente|viuda
+7522|ratsón|sm|fe|voluntad, agrado, favor
+2389|jazak|adj|poder|fuerte
+6466|paal|v|hacer|hacer, obrar
+7243|revií|num|numero|cuarto
+6817|tsaak|v|palabra|clamar
+3837|Laván|np|nombre|Labán
+1612|guéfen|sf|mundo|vid
+5999|amal|sm|hacer|trabajo penoso, fatiga; aflicción
+8127|shen|sf|cuerpo|diente
+4060|midá|sf|numero|medida
+3707|kaas|v|mente|enojarse; (hifil) provocar a ira
+635|Ester|np|nombre|Ester
+1254|bará|v|fe|crear (solo con Dios como sujeto)
+1692|davak|v|hacer|unirse, apegarse
+7105|katsir|sm|tiempo|siega, cosecha
+6172|ervá|sf|cuerpo|desnudez; (figurado) lo indecoroso
+1581|gamal|sm|mundo|camello
+8040|smol|sm|lugar|izquierda
+3373|yaré|adj|fe|temeroso (yiré Elohim, temeroso de Dios)
+14|avá|v|mente|querer, estar dispuesto
+1706|devash|sm|vida|miel
+7723|shav|sm|cualidad|vanidad, falsedad («en vano»)
+3407|yeriá|sf|lugar|cortina (del tabernáculo)
+5766|ével|sm|fe|injusticia, maldad
+4791|marom|sm|lugar|lo alto, las alturas
+2001|Hamán|np|nombre|Amán
+5945|elyón|adj|fe|altísimo; (El Elyón) el Dios Altísimo
+5560|sólet|sf|vida|flor de harina
+4682|matsá|sf|fe|pan sin levadura
+2319|jadash|adj|cualidad|nuevo
+6887|tsarar|v|poder|angustiar, oprimir; (participio, tsorer) enemigo
+7442|ranan|v|fe|cantar con júbilo
+6659|Tsadok|np|nombre|Sadoc
+2977|Yoshiyáhu|np|nombre|Josías
+4082|mediná|sf|lugar|provincia
+3332|yatsak|v|hacer|derramar; fundir (metal)
+4279|majar|adv|tiempo|mañana (el día siguiente)
+2763|jaram|v|fe|(hifil) destruir por completo, consagrar al anatema
+5080|nadaj|v|mover|(nifal) ser dispersado, extraviarse
+7225|reshit|sf|tiempo|principio; primicias
+1234|baká|v|hacer|partir, hender
+8582|taá|v|mover|errar, extraviarse
+5321|Naftalí|np|nombre|Neftalí
+314|ajarón|adj|tiempo|postrero, último
+3526|kavas|v|vida|lavar (ropa)
+3119|yomam|adv|tiempo|de día
+5703|ad|sm|tiempo|perpetuidad («para siempre»)
+4058|madad|v|numero|medir
+2372|jazá|v|mente|ver (en visión)
+7175|kéresh|sm|lugar|tabla (del tabernáculo)
+8597|tiféret|sf|cualidad|hermosura, gloria
+7114|katsar|v|hacer|segar
+2865|jatat|v|mente|(nifal) desmayar, aterrarse
+3077|Yehoyadá|np|nombre|Joiada
+1945|hoy|part|-|¡ay!
+2008|hená|adv|-|aquí, acá
+6565|parar|v|hacer|(hifil, hefer) romper, invalidar (un pacto)
+1330|betulá|sf|gente|virgen, doncella
+5234|najar|v|mente|(hifil, hikir) reconocer
+6555|parats|v|hacer|abrir brecha, romper; extenderse
+5381|nasag|v|hacer|(hifil) alcanzar
+1104|balá|v|vida|tragar, devorar
+2885|tabáat|sf|-|anillo, argolla
+3050|Yah|np|fe|Jah (forma breve del nombre de Dios; en «aleluya»)
+4609|maalá|sf|lugar|grada, escalón; (shir hamaalot) cántico gradual
+4148|musar|sm|mente|disciplina, corrección, instrucción
+7346|Rejavam|np|nombre|Roboam
+1130|Ben-Hadad|np|nombre|Ben-adad
+6960|kavá|v|fe|esperar (con confianza)
+5668|avur|prep|-|(baavur) por causa de, para que
+4026|migdal|sm|lugar|torre
+6738|tsel|sm|mundo|sombra
+4948|mishkal|sm|numero|peso
+6343|pájad|sm|mente|temor, terror
+561|émer|sm|palabra|dicho, palabra
+1698|déver|sm|vida|peste
+5062|nagaf|v|poder|herir, golpear (con plaga o en batalla)
+6453|Pésaj|sm|fe|Pascua; cordero pascual
+1347|gaón|sm|cualidad|majestad; soberbia
+530|emuná|sf|fe|fidelidad, firmeza; fe
+898|bagad|v|fe|traicionar, actuar con deslealtad

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Vocabulario del hebreo bíblico · Recursos Bíblicos</title>
+  <meta name="description" content="Las 751 palabras más frecuentes del Antiguo Testamento hebreo, en 30 lecciones, con transliteración, sentido, número de Strong, un versículo de ejemplo, práctica y el verbo modelo en los siete binyanim.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%D7%93%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Vocabulario del hebreo bíblico. Colores de datos: ninguno; solo tokens. */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .he { font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Times New Roman', serif; unicode-bidi: isolate; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .volver { font: 500 0.84rem var(--sans); color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    main { max-width: 62rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2rem) 4rem; }
+    h1 { font: 500 clamp(1.7rem, 5vw, 2.4rem)/1.15 var(--serif); margin: 0.2rem 0 0.4rem; }
+    h2 { font: 500 1.35rem/1.25 var(--serif); margin: 1.6rem 0 0.5rem; }
+    .intro { color: var(--ink-2); margin: 0 0 1.4rem; max-width: 44rem; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.2rem; }
+    .tabs button { font: 600 0.85rem var(--sans); padding: 0.55rem 0.9rem; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+    .tabs button[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+    .tabs button:hover { border-color: var(--accent); }
+    .filtros { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: 0.6rem; margin-bottom: 0.8rem; }
+    .filtros label { display: grid; gap: 0.25rem; font: 600 0.75rem var(--sans); color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+    .filtros select, .filtros input { font: 500 0.92rem var(--sans); padding: 0.5rem 0.6rem; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); min-width: 0; }
+    .resumen { font: 500 0.84rem/1.5 var(--sans); color: var(--muted); margin: 0 0 0.8rem; }
+    .lista { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+    .lista > li { border-bottom: 1px solid var(--line); }
+    .fila { width: 100%; display: grid; grid-template-columns: 3.2rem minmax(5.5rem, 8rem) minmax(0, 1fr) auto; gap: 0.2rem 0.9rem; align-items: baseline; padding: 0.6rem 0.2rem; background: none; border: 0; color: inherit; text-align: left; cursor: pointer; font: inherit; }
+    .fila:hover { background: var(--surface); }
+    .fila .num { font: 500 0.75rem var(--sans); color: var(--muted); }
+    .fila .he { font-size: 1.55rem; line-height: 1.3; text-align: right; }
+    .fila .es { font-size: 1rem; color: var(--ink); }
+    .fila .es b { font: 600 0.88rem var(--sans); color: var(--ink-2); margin-right: 0.45rem; }
+    .fila .veces { font: 500 0.75rem var(--sans); color: var(--muted); white-space: nowrap; }
+    .detalle { padding: 0.2rem 0.4rem 1rem 4.4rem; font: 500 0.88rem/1.6 var(--sans); color: var(--ink-2); }
+    .detalle dl { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 0.9rem; margin: 0 0 0.6rem; }
+    .detalle dt { color: var(--muted); }
+    .detalle dd { margin: 0; }
+    .versiculo { font-size: 1.45rem; line-height: 1.9; text-align: right; direction: rtl; margin: 0.3rem 0; color: var(--ink); }
+    .versiculo mark { background: color-mix(in srgb, var(--accent) 18%, transparent); color: inherit; border-radius: 3px; padding: 0 0.1em; }
+    .mas { display: block; margin: 0.8rem auto 0; font: 600 0.88rem var(--sans); padding: 0.6rem 1.2rem; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; }
+    .practica { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: clamp(1rem, 3vw, 1.75rem); max-width: 40rem; }
+    .modo { display: flex; gap: 1rem; flex-wrap: wrap; font: 500 0.85rem var(--sans); color: var(--ink-2); margin-bottom: 1rem; align-items: center; }
+    .modo label { display: flex; gap: 0.4rem; align-items: center; cursor: pointer; }
+    .modo select { font: 500 0.88rem var(--sans); padding: 0.4rem 0.5rem; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--bg); color: var(--ink); }
+    .pregunta { font: 500 0.9rem var(--sans); color: var(--muted); margin: 0; text-align: center; }
+    .muestra { font-size: 4.2rem; line-height: 1.35; text-align: center; margin: 0.2rem 0 0.8rem; }
+    .muestra.es-txt { font: 500 1.6rem/1.35 var(--serif); padding: 1.2rem 0; }
+    .opciones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+    .opciones button { font: 600 0.95rem/1.35 var(--sans); padding: 0.75rem 0.6rem; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--bg); color: var(--ink); cursor: pointer; }
+    .opciones button .he { font-size: 1.6rem; font-weight: 400; }
+    .opciones button:hover:not(:disabled) { border-color: var(--accent); }
+    .opciones button.ok { border-color: #2f7d4f; background: color-mix(in srgb, #2f7d4f 14%, var(--bg)); }
+    .opciones button.no { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--bg)); opacity: 0.75; }
+    .fb { min-height: 3rem; font: 500 0.9rem/1.5 var(--sans); color: var(--ink-2); margin: 0.9rem 0 0; text-align: center; }
+    .fb .he { font-size: 1.3rem; }
+    .pie-practica { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 0.6rem; font: 500 0.82rem var(--sans); color: var(--muted); }
+    .pie-practica button { font: 600 0.9rem var(--sans); padding: 0.55rem 1.1rem; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; }
+    .tabla-wrap { overflow-x: auto; margin: 0.4rem 0 1rem; }
+    table { border-collapse: collapse; width: 100%; font: 500 0.88rem/1.45 var(--sans); }
+    th, td { border-bottom: 1px solid var(--line); padding: 0.45rem 0.6rem; text-align: left; vertical-align: baseline; }
+    th { font-weight: 600; color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; }
+    td .he { font-size: 1.4rem; font-weight: 400; }
+    td small { color: var(--muted); display: block; }
+    tr.modelo td { color: var(--muted); }
+    .nota { font: 500 0.8rem/1.5 var(--sans); color: var(--muted); margin: 1rem 0 0; }
+    .credito { font: 500 0.75rem var(--sans); color: var(--muted); margin-top: 2.5rem; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 640px) {
+      .fila { grid-template-columns: minmax(4.5rem, 6.5rem) minmax(0, 1fr); }
+      .fila .num, .fila .veces { display: none; }
+      .detalle { padding-left: 0.4rem; }
+      .muestra { font-size: 3.4rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca" href="../../../">Recursos Bíblicos</a>
+    <a class="volver" id="volver" href="../../../gramatica-hebrea/">Volver al recurso</a>
+  </header>
+  <main>
+    <p class="nota" style="margin:0">Vocabulario y gramática básica del hebreo bíblico</p>
+    <h1>Vocabulario del hebreo bíblico</h1>
+    <p class="intro" id="intro"></p>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="t-lista" aria-selected="true" aria-controls="p-lista">Lista</button>
+      <button type="button" role="tab" id="t-practica" aria-selected="false" aria-controls="p-practica">Práctica</button>
+      <button type="button" role="tab" id="t-verbo" aria-selected="false" aria-controls="p-verbo">Verbo modelo</button>
+    </div>
+
+    <section id="p-lista" role="tabpanel" aria-labelledby="t-lista">
+      <div class="filtros">
+        <label>Lección <select id="f-leccion"></select></label>
+        <label>Clase <select id="f-clase"></select></label>
+        <label>Tema <select id="f-tema"></select></label>
+        <label>Buscar <input id="f-q" type="search" placeholder="palabra, sentido o Strong" autocomplete="off"></label>
+      </div>
+      <p class="resumen" id="resumen" aria-live="polite"></p>
+      <ul class="lista" id="lista"></ul>
+      <button type="button" class="mas" id="mas" hidden>Ver más palabras</button>
+    </section>
+
+    <section id="p-practica" role="tabpanel" aria-labelledby="t-practica" hidden>
+      <div class="practica">
+        <div class="modo">
+          <label>Lección <select id="pr-leccion"></select></label>
+          <label><input type="radio" name="dir" value="he" checked> Del hebreo al español</label>
+          <label><input type="radio" name="dir" value="es"> Del español al hebreo</label>
+          <label><input type="checkbox" id="pr-tr" checked> Mostrar la transliteración</label>
+        </div>
+        <p class="pregunta" id="pr-preg"></p>
+        <p class="muestra" id="pr-muestra"></p>
+        <div class="opciones" id="pr-op"></div>
+        <p class="fb" id="pr-fb" aria-live="polite"></p>
+        <div class="pie-practica"><span id="pr-cuenta"></span><button type="button" id="pr-sig">Otra palabra</button></div>
+      </div>
+      <p class="nota">La práctica no guarda nada: cada vez que vuelves, empieza de cero. Las opciones incorrectas salen de la misma lección, para que la práctica obligue a distinguir palabras que estás aprendiendo juntas.</p>
+    </section>
+
+    <section id="p-verbo" role="tabpanel" aria-labelledby="t-verbo" hidden>
+      <p class="intro">El verbo שָׁמַר, <i>shamar</i>, «guardar», sirve de modelo porque sus tres consonantes no tienen debilidades: ninguna es gutural, ninguna desaparece y ninguna se asimila. Lo que cambia entre una forma y otra son las vocales, los prefijos y las terminaciones, y eso es lo que hay que aprender. Las formas en gris no aparecen en la Biblia con esta raíz: se muestran como modelo, porque así se forman con otras raíces.</p>
+      <div id="paradigma"></div>
+    </section>
+
+    <p class="credito" id="credito"></p>
+  </main>
+
+  <script src="palabras.js"></script>
+  <script>
+  (() => {
+    'use strict';
+    const V = window.VOCABULARIO;
+    const PAL = V.palabras.map((p, i) => ({ n: i + 1, strong: p[0], he: p[1], tr: p[2], clase: p[3], tema: p[4], es: p[5], veces: p[6], ref: p[7], verso: p[8], forma: p[9], leccion: Math.min(Math.floor(i / V.porLeccion) + 1, V.lecciones) }));
+    const $ = id => document.getElementById(id);
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const sinVocales = s => s.normalize('NFD').replace(/[֑-ׇ]/g, '');
+    const plano = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const fmt = n => n.toLocaleString('es');
+    const pct = n => (n * 100).toLocaleString('es', { maximumFractionDigits: 1 }) + ' %';
+    const CLASES = { v: 'Verbo', sm: 'Sustantivo masculino', sf: 'Sustantivo femenino', adj: 'Adjetivo', num: 'Número', pron: 'Pronombre', prep: 'Preposición', conj: 'Conjunción', adv: 'Adverbio', part: 'Partícula', np: 'Nombre de persona', nl: 'Nombre de lugar o pueblo' };
+    const TEMAS = { fe: 'Dios, culto y fe', gente: 'Personas y familia', cuerpo: 'El cuerpo', mundo: 'Naturaleza, animales y materiales', tiempo: 'El tiempo', lugar: 'Lugares, casa y ciudad', poder: 'Gobierno, justicia y guerra', palabra: 'Hablar y escribir', mente: 'Ver, saber y sentir', mover: 'Moverse', hacer: 'Hacer y trabajar', vida: 'La vida diaria', cualidad: 'Cualidades', numero: 'Números y medidas', nombre: 'Nombres propios' };
+    const ordenTemas = Object.keys(TEMAS);
+    const acumulado = []; let suma = 0;
+    PAL.forEach(p => { suma += p.veces; acumulado[p.n] = suma; });
+
+    $('intro').innerHTML = `Las ${fmt(PAL.length)} palabras hebreas más frecuentes del Antiguo Testamento, de la que más aparece a la que menos, repartidas en ${V.lecciones} lecciones de ${V.porLeccion}. Juntas son el ${pct(suma / V.total)} de las ${fmt(V.total)} palabras del texto hebreo, sin contar los prefijos de una letra ni los capítulos en arameo. Toca una palabra para ver su número de Strong y un versículo donde aparece.`;
+    $('credito').textContent = V.credito;
+
+    /* ---------- Lista ---------- */
+    const opcion = (v, t) => `<option value="${esc(v)}">${esc(t)}</option>`;
+    const lecciones = Array.from({ length: V.lecciones }, (_, i) => i + 1);
+    const nombreLeccion = l => { const d = PAL.filter(p => p.leccion === l); return `Lección ${l} (palabras ${d[0].n}–${d[d.length - 1].n})`; };
+    $('f-leccion').innerHTML = opcion('', 'Todas') + lecciones.map(l => opcion(l, nombreLeccion(l))).join('');
+    $('f-clase').innerHTML = opcion('', 'Todas') + Object.entries(CLASES).map(([k, t]) => opcion(k, t)).join('');
+    $('f-tema').innerHTML = opcion('', 'Todos') + ordenTemas.map(k => opcion(k, TEMAS[k])).join('');
+    let visibles = [], mostrar = 60;
+
+    function fila(p) {
+      return `<li><button type="button" class="fila" aria-expanded="false" data-n="${p.n}">
+        <span class="num">${p.n}</span>
+        <span class="he" lang="he" dir="rtl">${esc(p.he)}</span>
+        <span class="es"><b>${esc(p.tr)}</b>${esc(p.es)}</span>
+        <span class="veces">${fmt(p.veces)} veces</span>
+      </button></li>`;
+    }
+    function detalle(p) {
+      let verso = esc(p.verso);
+      if (p.forma) {
+        const i = p.verso.indexOf(p.forma);
+        if (i >= 0) verso = esc(p.verso.slice(0, i)) + '<mark>' + esc(p.forma) + '</mark>' + esc(p.verso.slice(i + p.forma.length));
+      }
+      return `<div class="detalle">
+        <dl>
+          <dt>Clase</dt><dd>${esc(CLASES[p.clase] || '')}</dd>
+          <dt>Tema</dt><dd>${esc(TEMAS[p.tema] || '—')}</dd>
+          <dt>Strong</dt><dd>H${esc(p.strong)}</dd>
+          <dt>Aparece</dt><dd>${fmt(p.veces)} veces · lección ${p.leccion} · con las anteriores, el ${pct(acumulado[p.n] / V.total)} del texto</dd>
+          <dt>Ejemplo</dt><dd>${esc(p.ref)}</dd>
+        </dl>
+        <p class="versiculo he" lang="he" dir="rtl">${verso}</p>
+      </div>`;
+    }
+    function filtrar() {
+      const l = +$('f-leccion').value, c = $('f-clase').value, t = $('f-tema').value, q = $('f-q').value.trim();
+      const qp = plano(q), qh = sinVocales(q), qs = q.replace(/^h/i, '');
+      visibles = PAL.filter(p => (!l || p.leccion === l) && (!c || p.clase === c) && (!t || p.tema === t) &&
+        (!q || plano(p.es).includes(qp) || plano(p.tr).includes(qp) || (qh && sinVocales(p.he).includes(qh)) || p.strong === qs));
+      mostrar = 60;
+      pintar();
+    }
+    function pintar() {
+      const n = visibles.reduce((a, p) => a + p.veces, 0);
+      $('resumen').textContent = visibles.length
+        ? `${fmt(visibles.length)} palabra${visibles.length === 1 ? '' : 's'} · aparecen ${fmt(n)} veces en total (${pct(n / V.total)} del texto)`
+        : 'Ninguna palabra coincide con la búsqueda. Prueba con otra forma o quita un filtro.';
+      $('lista').innerHTML = visibles.slice(0, mostrar).map(fila).join('');
+      $('mas').hidden = visibles.length <= mostrar;
+      if (window.Citas && Citas.procesar) Citas.procesar($('lista'));
+    }
+    $('lista').addEventListener('click', e => {
+      const b = e.target.closest('.fila'); if (!b) return;
+      const li = b.parentElement, abierto = b.getAttribute('aria-expanded') === 'true';
+      li.querySelector('.detalle')?.remove();
+      b.setAttribute('aria-expanded', String(!abierto));
+      if (!abierto) {
+        li.insertAdjacentHTML('beforeend', detalle(PAL[+b.dataset.n - 1]));
+        if (window.Citas && Citas.procesar) Citas.procesar(li);
+      }
+    });
+    $('mas').addEventListener('click', () => { mostrar += 120; pintar(); });
+    ['f-leccion', 'f-clase', 'f-tema'].forEach(id => $(id).addEventListener('change', filtrar));
+    $('f-q').addEventListener('input', filtrar);
+
+    /* ---------- Práctica ---------- */
+    $('pr-leccion').innerHTML = lecciones.map(l => opcion(l, nombreLeccion(l))).join('') + opcion('todas', 'Todas las lecciones');
+    let actual = null, aciertos = 0, intentos = 0, anterior = null;
+    const azar = a => a[Math.floor(Math.random() * a.length)];
+    function grupo() {
+      const v = $('pr-leccion').value;
+      // los nombres propios no se practican: su sentido es el mismo nombre
+      return PAL.filter(p => (v === 'todas' || p.leccion === +v) && p.clase !== 'np' && p.clase !== 'nl');
+    }
+    function nueva() {
+      const g = grupo(); if (g.length < 4) return;
+      do { actual = azar(g); } while (actual === anterior && g.length > 1);
+      anterior = actual;
+      const dir = document.querySelector('input[name="dir"]:checked').value, tr = $('pr-tr').checked;
+      const otras = []; const pool = g.filter(p => p !== actual && p.es !== actual.es);
+      while (otras.length < 3 && pool.length) otras.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      const ops = [actual, ...otras].sort(() => Math.random() - 0.5);
+      if (dir === 'he') {
+        $('pr-preg').textContent = '¿Qué significa esta palabra?';
+        $('pr-muestra').className = 'muestra he'; $('pr-muestra').lang = 'he'; $('pr-muestra').dir = 'rtl';
+        $('pr-muestra').textContent = actual.he;
+        if (tr) $('pr-muestra').insertAdjacentHTML('beforeend', `<small style="display:block;font:500 1rem var(--sans);color:var(--muted)" dir="ltr">${esc(actual.tr)}</small>`);
+        $('pr-op').innerHTML = ops.map(p => `<button type="button" data-n="${p.n}">${esc(p.es)}</button>`).join('');
+      } else {
+        $('pr-preg').textContent = '¿Cuál de estas palabras hebreas significa…?';
+        $('pr-muestra').className = 'muestra es-txt'; $('pr-muestra').removeAttribute('lang'); $('pr-muestra').dir = 'ltr';
+        $('pr-muestra').textContent = actual.es;
+        $('pr-op').innerHTML = ops.map(p => `<button type="button" data-n="${p.n}"><span class="he" lang="he" dir="rtl">${esc(p.he)}</span>${tr ? `<br><small>${esc(p.tr)}</small>` : ''}</button>`).join('');
+      }
+      $('pr-fb').textContent = '';
+    }
+    $('pr-op').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b || b.disabled) return;
+      const p = PAL[+b.dataset.n - 1];
+      intentos++;
+      if (p === actual) {
+        aciertos++;
+        b.classList.add('ok');
+        $('pr-op').querySelectorAll('button').forEach(x => { x.disabled = true; });
+        $('pr-fb').innerHTML = `Correcto: <span class="he" lang="he" dir="rtl">${esc(actual.he)}</span>, ${esc(actual.tr)}, «${esc(actual.es)}». Aparece ${fmt(actual.veces)} veces.`;
+      } else {
+        b.classList.add('no'); b.disabled = true;
+        $('pr-fb').innerHTML = `No: <span class="he" lang="he" dir="rtl">${esc(p.he)}</span>, ${esc(p.tr)}, significa «${esc(p.es)}». Intenta otra vez.`;
+      }
+      $('pr-cuenta').textContent = `${aciertos} de ${intentos} intentos`;
+    });
+    $('pr-sig').addEventListener('click', nueva);
+    ['pr-leccion', 'pr-tr'].forEach(id => $(id).addEventListener('change', nueva));
+    document.querySelectorAll('input[name="dir"]').forEach(r => r.addEventListener('change', nueva));
+
+    /* ---------- Verbo modelo ---------- */
+    const P = window.PARADIGMA;
+    const celda = (he, tr) => he ? `<span class="he" lang="he" dir="rtl">${esc(he)}</span><small>${esc(tr)}</small>` : '—';
+    let html = '';
+    P.tablas.forEach(t => {
+      html += `<h2>${esc(t.titulo)}</h2>${t.nota ? `<p class="nota" style="margin-top:0">${esc(t.nota)}</p>` : ''}<div class="tabla-wrap"><table><thead><tr>${t.cab.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>`;
+      t.filas.forEach(f => {
+        html += `<tr${f.modelo ? ' class="modelo"' : ''}>` + f.celdas.map(c => `<td>${Array.isArray(c) ? celda(c[0], c[1]) : esc(c)}</td>`).join('') + '</tr>';
+      });
+      html += '</tbody></table></div>';
+    });
+    $('paradigma').innerHTML = html;
+
+    /* ---------- Pestañas ---------- */
+    const tabs = ['lista', 'practica', 'verbo'];
+    function ir(t) {
+      tabs.forEach(x => { $('t-' + x).setAttribute('aria-selected', String(x === t)); $('p-' + x).hidden = x !== t; });
+      if (t === 'practica' && !actual) nueva();
+      try { history.replaceState(null, '', '#' + t); } catch (e) { /* sin historial */ }
+    }
+    tabs.forEach(x => $('t-' + x).addEventListener('click', () => ir(x)));
+    filtrar();
+    const h = location.hash.slice(1);
+    const m = /^leccion\/(\d+)$/.exec(h);
+    if (m) { $('f-leccion').value = m[1]; $('pr-leccion').value = m[1]; filtrar(); }
+    else if (tabs.includes(h)) ir(h);
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark';
+  })();
+  </script>
+  <script src="../../assets/js/citas.js"></script>
+</body>
+</html>

@@ -226,7 +226,7 @@
             ['הַ', 'el, la, los, las', 'הַשָּׁמַיִם', 'ha-shamáyim, los cielos'],
             ['מִ / מֵ', 'de, desde', 'מֵאֶרֶץ', 'me-érets, de la tierra'],
           ],
-          nota: 'Las terminaciones de las palabras (mi, tu, su, nuestro) y la gramática se estudian en el recurso siguiente, Vocabulario y gramática básica del hebreo bíblico.'
+          nota: 'Las terminaciones de las palabras (mi, tu, su, nuestro) y la gramática se estudian en el recurso siguiente, Vocabulario y gramática básica del hebreo bíblico (ruta II, «Los sufijos»).'
         } },
         { tipo: 'hebreo', titulo: 'Salmo 119:9', ref: 'Salmo 119:9', he: '@@wlc:sal/119/9', tr: 'Bamé yezaké-náar et-orjó? Lishmor kidvareja.',
           palabras: P('@@wlcp:sal/119/9', [['bamé', '¿con qué?'], ['yezaké-náar', 'limpiará el joven'], ['et-orjó', 'su camino'], ['lishmor', 'guardando'], ['kidvareja', 'conforme a tu palabra']]),
@@ -241,6 +241,7 @@
         'Una palabra puede llevar más de un prefijo. וּבְכָל son tres partes: וּ («y»), בְ («con») y כָל («todo»). Al leer, sepáralas mentalmente de derecha a izquierda: primero el prefijo, después la palabra.',
         { h: 'Practica con el Salmo 119:9' },
         'El panel trae la primera línea de la estrofa de la bet: «¿Con qué limpiará el joven su camino? Con guardar tu palabra». Busca en la última palabra el prefijo כִּ, «conforme a», y en לִשְׁמֹר el prefijo לִ, «para». Después oculta las ayudas y léela sin mirar.',
+        { ir: { t: 'Ver «Los sufijos» en Vocabulario y gramática básica del hebreo bíblico', a: '../../gramatica-hebrea/#sustantivo/9' } },
         { ejercicio: {
           pregunta: 'En la palabra לְדָוִד, que aparece en el título de muchos salmos, ¿qué significa la primera letra?',
           opciones: [

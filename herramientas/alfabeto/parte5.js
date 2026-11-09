@@ -194,7 +194,7 @@
           cab: ['Herramienta', 'Para qué sirve'],
           filas: [
             ['La tabla del alfabeto de este recurso', 'Repasar las letras y las vocales, y practicar el reconocimiento'],
-            ['Vocabulario y gramática básica del hebreo bíblico', 'Recurso siguiente del sitio, en preparación'],
+            ['Vocabulario y gramática básica del hebreo bíblico', 'Recurso siguiente del sitio: las 751 palabras más frecuentes, el sustantivo y el verbo'],
             ['Interlineal hebreo–español', 'Recurso del sitio, en preparación: cada palabra hebrea con su traducción'],
             ['Concordancia con números de Strong', 'Encontrar todas las veces que aparece una palabra hebrea'],
             ['Una Biblia hebrea impresa o digital', 'Leer cualquier pasaje en el texto masorético'],
@@ -208,7 +208,8 @@
         'La lectura se afianza con repetición breve y frecuente. Te sugerimos tres ejercicios. Repasa el alfabeto en el modo de práctica de la tabla hasta reconocer cada letra sin dudar. Vuelve a leer en voz alta los versículos del taller, sin ayudas, hasta que salgan de corrido. Y lee cada día un versículo nuevo de un pasaje que conozcas bien en español: el Salmo 23 completo, los primeros versículos de Génesis o el Salmo 119, estrofa por estrofa.',
         { ir: { t: 'Abrir la tabla del alfabeto hebreo', a: 'alfabeto/' } },
         { h: 'Lo que viene' },
-        'Saber leer es el primer paso. El recurso Vocabulario y gramática básica del hebreo bíblico, en preparación, te enseñará las palabras más frecuentes, cómo se forman los verbos y qué significan las terminaciones que viste en el taller. Después, el Interlineal hebreo–español, también en preparación, te permitirá leer cualquier pasaje con la traducción de cada palabra.',
+        'Saber leer es el primer paso. El recurso Vocabulario y gramática básica del hebreo bíblico te enseña las palabras más frecuentes, cómo se forman los verbos y qué significan las terminaciones que viste en el taller. Después, el Interlineal hebreo–español, en preparación, te permitirá leer cualquier pasaje con la traducción de cada palabra.',
+        { ir: { t: 'Seguir con Vocabulario y gramática básica del hebreo bíblico', a: '../../gramatica-hebrea/' } },
         'Mientras tanto, una concordancia con los números de Strong es muy útil: a cada palabra hebrea le asigna un número, y con él puedes encontrar todos los pasajes donde aparece, aunque la traducción la vierta de maneras distintas.',
         { h: 'Con humildad y con oración' },
         'Conocer algo de hebreo es una herramienta valiosa, pero no te convierte en experto. Desconfía de las enseñanzas que dicen que «en el hebreo original» la Biblia dice algo muy distinto de lo que dicen todas las traducciones. Usa lo que aprendiste para leer con más atención, para comparar traducciones con respeto y para escuchar mejor a quienes estudiaron más.',

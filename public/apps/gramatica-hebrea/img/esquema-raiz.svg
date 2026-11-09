@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">Una raíz, una familia de palabras</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">Las tres consonantes מ־ל־ך llevan la idea de «reinar»</text>
+<line x1="600" y1="480" x2="600" y2="210" stroke="#c9c6be" stroke-width="4"/>
+<line x1="600" y1="480" x2="960" y2="340" stroke="#c9c6be" stroke-width="4"/>
+<line x1="600" y1="480" x2="900" y2="700" stroke="#c9c6be" stroke-width="4"/>
+<line x1="600" y1="480" x2="300" y2="700" stroke="#c9c6be" stroke-width="4"/>
+<line x1="600" y1="480" x2="240" y2="340" stroke="#c9c6be" stroke-width="4"/>
+<circle cx="600" cy="480" r="120" fill="#9e2b25"/>
+<text x="600" y="502" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="76" fill="#fff" text-anchor="middle" direction="rtl" unicode-bidi="embed">מ ל ך</text>
+<text x="600" y="550" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="normal">m · l · j</text>
+<rect x="485" y="140" width="230" height="140" rx="16" fill="#fff" stroke="#2a6fb0" stroke-width="3"/>
+<text x="600" y="202" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#2a6fb0" text-anchor="middle" direction="rtl" unicode-bidi="embed">מֶלֶךְ</text>
+<text x="600" y="236" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">mélej</text>
+<text x="600" y="260" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">rey</text>
+<rect x="845" y="270" width="230" height="140" rx="16" fill="#fff" stroke="#2f7d4a" stroke-width="3"/>
+<text x="960" y="332" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#2f7d4a" text-anchor="middle" direction="rtl" unicode-bidi="embed">מָלַךְ</text>
+<text x="960" y="366" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">malaj</text>
+<text x="960" y="390" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">reinó</text>
+<rect x="785" y="630" width="230" height="140" rx="16" fill="#fff" stroke="#c08a1e" stroke-width="3"/>
+<text x="900" y="692" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#c08a1e" text-anchor="middle" direction="rtl" unicode-bidi="embed">מַלְכָּה</text>
+<text x="900" y="726" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">malká</text>
+<text x="900" y="750" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">reina</text>
+<rect x="185" y="630" width="230" height="140" rx="16" fill="#fff" stroke="#7a3fa0" stroke-width="3"/>
+<text x="300" y="692" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#7a3fa0" text-anchor="middle" direction="rtl" unicode-bidi="embed">מַמְלָכָה</text>
+<text x="300" y="726" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">mamlajá</text>
+<text x="300" y="750" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">reino</text>
+<rect x="125" y="270" width="230" height="140" rx="16" fill="#fff" stroke="#1e8a8a" stroke-width="3"/>
+<text x="240" y="332" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#1e8a8a" text-anchor="middle" direction="rtl" unicode-bidi="embed">מַלְכוּת</text>
+<text x="240" y="366" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="bold">maljut</text>
+<text x="240" y="390" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">reinado</text>
+<text x="600" y="850" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">Las vocales, los prefijos y las terminaciones forman palabras distintas; las tres consonantes no cambian.</text>
+</svg>

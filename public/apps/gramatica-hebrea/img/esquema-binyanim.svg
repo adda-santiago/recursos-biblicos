@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">Los siete binyanim</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">La raíz שׁמר, «guardar», en sus siete construcciones</text>
+<text x="380" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">Simple</text>
+<text x="660" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">Intensivo</text>
+<text x="940" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1f2430" text-anchor="middle" font-weight="normal">Causativo</text>
+<text x="150" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">Activo</text>
+<text x="150" y="488" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">Pasivo</text>
+<text x="150" y="688" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal">Reflexivo</text>
+<rect x="255" y="200" width="250" height="160" rx="16" fill="#fff" stroke="#2a6fb0" stroke-width="3"/>
+<text x="380" y="234" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Qal</text>
+<text x="380" y="292" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" direction="rtl" unicode-bidi="embed">שָׁמַר</text>
+<text x="380" y="332" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">shamar · guardó</text>
+<rect x="255" y="400" width="250" height="160" rx="16" fill="#fff" stroke="#2f7d4a" stroke-width="3"/>
+<text x="380" y="434" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Nifal</text>
+<text x="380" y="492" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" direction="rtl" unicode-bidi="embed">נִשְׁמַר</text>
+<text x="380" y="532" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">nishmar · se guardó, fue guardado</text>
+<rect x="535" y="200" width="250" height="160" rx="16" fill="#fff" stroke="#c08a1e" stroke-width="3"/>
+<text x="660" y="234" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#c08a1e" text-anchor="middle" font-weight="bold">Piel</text>
+<text x="660" y="292" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" direction="rtl" unicode-bidi="embed">שִׁמֵּר</text>
+<text x="660" y="332" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">shimer · observó</text>
+<rect x="535" y="400" width="250" height="160" rx="16" fill="#fff" stroke="#c08a1e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="660" y="434" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#c08a1e" text-anchor="middle" font-weight="bold">Pual</text>
+<text x="660" y="492" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#6b7080" text-anchor="middle" direction="rtl" unicode-bidi="embed">שֻׁמַּר</text>
+<text x="660" y="532" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">shumar · (modelo)</text>
+<rect x="815" y="200" width="250" height="160" rx="16" fill="#fff" stroke="#7a3fa0" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="940" y="234" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Hifil</text>
+<text x="940" y="292" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#6b7080" text-anchor="middle" direction="rtl" unicode-bidi="embed">הִשְׁמִיר</text>
+<text x="940" y="332" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">hishmir · (modelo)</text>
+<rect x="815" y="400" width="250" height="160" rx="16" fill="#fff" stroke="#7a3fa0" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="940" y="434" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Hofal</text>
+<text x="940" y="492" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#6b7080" text-anchor="middle" direction="rtl" unicode-bidi="embed">הָשְׁמַר</text>
+<text x="940" y="532" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">hoshmar · (modelo)</text>
+<rect x="535" y="600" width="250" height="160" rx="16" fill="#fff" stroke="#1e8a8a" stroke-width="3"/>
+<text x="660" y="634" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#1e8a8a" text-anchor="middle" font-weight="bold">Hitpael</text>
+<text x="660" y="692" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" direction="rtl" unicode-bidi="embed">הִשְׁתַּמֵּר</text>
+<text x="660" y="732" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal">hishtamer · se guardó a sí mismo</text>
+<rect x="255" y="600" width="250" height="160" rx="16" fill="none" stroke="#c9c6be" stroke-width="2" stroke-dasharray="4 6"/>
+<text x="380" y="690" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">(el nifal también</text>
+<text x="380" y="712" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">puede ser reflexivo)</text>
+<text x="600" y="850" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">Borde punteado: forma modelo que no aparece en la Biblia con esta raíz.</text>
+</svg>

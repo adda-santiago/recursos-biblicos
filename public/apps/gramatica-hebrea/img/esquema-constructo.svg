@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">La cadena constructa</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">Dos sustantivos juntos: el primero «de» el segundo</text>
+<rect x="640" y="230" width="400" height="200" rx="18" fill="#fff" stroke="#2a6fb0" stroke-width="4"/>
+<text x="840" y="330" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="70" fill="#2a6fb0" text-anchor="middle" direction="rtl" unicode-bidi="embed">תּוֹרַת</text>
+<text x="840" y="380" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">torat · «la ley de»</text>
+<text x="840" y="410" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">estado constructo</text>
+<rect x="160" y="230" width="400" height="200" rx="18" fill="#fff" stroke="#9e2b25" stroke-width="4"/>
+<text x="360" y="330" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="70" fill="#9e2b25" text-anchor="middle" direction="rtl" unicode-bidi="embed">יְהוָה</text>
+<text x="360" y="380" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">Adonái · «Jehová»</text>
+<text x="360" y="410" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">estado absoluto</text>
+<line x1="630" y1="330" x2="572" y2="330" stroke="#1f2430" stroke-width="4" marker-end="url(#fl)"/>
+<text x="600" y="480" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="normal">Se lee de derecha a izquierda: torat Adonái, «la ley de Jehová»</text>
+<circle cx="190" cy="560" r="26" fill="#9e2b25"/>
+<text x="190" y="568" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+<text x="240" y="556" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#1f2430" text-anchor="start" font-weight="normal">La primera palabra se acorta y no lleva artículo</text>
+<text x="240" y="588" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#6b7080" text-anchor="start" font-weight="normal">torá → torat (ley → ley de) · banim → bené (hijos → hijos de)</text>
+<circle cx="190" cy="660" r="26" fill="#9e2b25"/>
+<text x="190" y="668" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+<text x="240" y="656" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#1f2430" text-anchor="start" font-weight="normal">La última decide si toda la cadena es definida</text>
+<text x="240" y="688" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#6b7080" text-anchor="start" font-weight="normal">bet hamélej: «la casa del rey», porque «rey» lleva artículo</text>
+<circle cx="190" cy="760" r="26" fill="#9e2b25"/>
+<text x="190" y="768" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+<text x="240" y="756" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#1f2430" text-anchor="start" font-weight="normal">Expresa posesión, material, cualidad o superlativo</text>
+<text x="240" y="788" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#6b7080" text-anchor="start" font-weight="normal">kelé zahav: «utensilios de oro»</text>
+</svg>

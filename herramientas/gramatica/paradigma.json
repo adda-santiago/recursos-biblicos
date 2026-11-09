@@ -1,0 +1,73 @@
+{
+  "tablas": [
+    {
+      "titulo": "Qal perfecto (qatal): la acción vista como completa",
+      "nota": "Se forma con terminaciones al final de la raíz. La forma del diccionario es la 3.ª persona masculina singular: שָׁמַר, «él guardó».",
+      "cab": ["Persona", "Singular", "Plural"],
+      "filas": [
+        { "celdas": ["3.ª masculino", ["שָׁמַר", "shamar · él guardó"], ["שָׁמְרוּ", "shamerú · ellos (y ellas) guardaron"]] },
+        { "celdas": ["3.ª femenino", ["שָׁמְרָה", "shamerá · ella guardó"], ["", ""]] },
+        { "celdas": ["2.ª masculino", ["שָׁמַרְתָּ", "shamárta · tú guardaste"], ["שְׁמַרְתֶּם", "shemartem · vosotros guardasteis"]] },
+        { "celdas": ["2.ª femenino", ["שָׁמַרְתְּ", "shamart · tú (mujer) guardaste"], ["שְׁמַרְתֶּן", "shemarten · vosotras guardasteis"]] },
+        { "celdas": ["1.ª común", ["שָׁמַרְתִּי", "shamárti · yo guardé"], ["שָׁמַרְנוּ", "shamárnu · nosotros guardamos"]] }
+      ]
+    },
+    {
+      "titulo": "Qal imperfecto (yiqtol): la acción vista como incompleta",
+      "nota": "Se forma sobre todo con prefijos; algunas personas suman además una terminación. Las cuatro letras de los prefijos (א, ת, י, נ) forman la palabra אֵיתָן, eitán.",
+      "cab": ["Persona", "Singular", "Plural"],
+      "filas": [
+        { "celdas": ["3.ª masculino", ["יִשְׁמֹר", "yishmor · él guardará"], ["יִשְׁמְרוּ", "yishmerú · ellos guardarán"]] },
+        { "celdas": ["3.ª femenino", ["תִּשְׁמֹר", "tishmor · ella guardará"], ["תִּשְׁמֹרְנָה", "tishmórna · ellas guardarán"]] },
+        { "celdas": ["2.ª masculino", ["תִּשְׁמֹר", "tishmor · tú guardarás"], ["תִּשְׁמְרוּ", "tishmerú · vosotros guardaréis"]] },
+        { "celdas": ["2.ª femenino", ["תִּשְׁמְרִי", "tishmerí · tú (mujer) guardarás"], ["תִּשְׁמֹרְנָה", "tishmórna · vosotras guardaréis"]] },
+        { "celdas": ["1.ª común", ["אֶשְׁמֹר", "eshmor · yo guardaré"], ["נִשְׁמֹר", "nishmor · nosotros guardaremos"]] }
+      ]
+    },
+    {
+      "titulo": "Qal: las demás formas",
+      "cab": ["Forma", "Hebreo", "Sentido"],
+      "filas": [
+        { "celdas": ["Imperativo masculino singular", ["שְׁמֹר", "shemor"], "¡guarda!"] },
+        { "celdas": ["Imperativo femenino singular", ["שִׁמְרִי", "shimrí"], "¡guarda! (a una mujer)"] },
+        { "celdas": ["Imperativo masculino plural", ["שִׁמְרוּ", "shimrú"], "¡guardad!"] },
+        { "celdas": ["Imperativo femenino plural", ["שְׁמֹרְנָה", "shemórna"], "¡guardad! (a mujeres)"] },
+        { "celdas": ["Cohortativo (1.ª persona)", ["אֶשְׁמְרָה", "eshmerá"], "guarde yo, voy a guardar"] },
+        { "celdas": ["Yusivo (3.ª persona)", ["יִשְׁמֹר", "yishmor"], "que guarde (igual al imperfecto en este verbo)"] },
+        { "celdas": ["Infinitivo constructo", ["שְׁמֹר", "shemor · con lámed: לִשְׁמֹר, lishmor"], "guardar, para guardar"] },
+        { "celdas": ["Infinitivo absoluto", ["שָׁמוֹר", "shamor"], "guardar (refuerza otro verbo)"] },
+        { "celdas": ["Participio activo", ["שֹׁמֵר", "shomer · fem. שֹׁמֶרֶת, shoméret · pl. שֹׁמְרִים, shomerim"], "que guarda, guardián"] },
+        { "celdas": ["Participio pasivo", ["שָׁמוּר", "shamur"], "guardado"] },
+        { "celdas": ["Imperfecto con vav consecutiva", ["וַיִּשְׁמֹר", "vayishmor"], "y guardó (narración)"] },
+        { "celdas": ["Perfecto con vav consecutiva", ["וְשָׁמַרְתָּ", "veshamartá"], "y guardarás (mandatos, futuro)"] }
+      ]
+    },
+    {
+      "titulo": "Los siete binyanim de שָׁמַר",
+      "nota": "Las formas en gris (pual, hifil y hofal) no aparecen en la Biblia con esta raíz: se muestran como modelo, porque así se forman con otras raíces. En el hitpael, la shin y la tav del prefijo cambian de lugar: no se escribe הִתְשַׁמֵּר sino הִשְׁתַּמֵּר.",
+      "cab": ["Binyán", "Perfecto 3.ª m. sg.", "Imperfecto 3.ª m. sg.", "Imperativo m. sg.", "Infinitivo constructo", "Participio m. sg.", "Sentido"],
+      "filas": [
+        { "celdas": ["Qal (simple activo)", ["שָׁמַר", "shamar"], ["יִשְׁמֹר", "yishmor"], ["שְׁמֹר", "shemor"], ["שְׁמֹר", "shemor"], ["שֹׁמֵר", "shomer"], "guardar"] },
+        { "celdas": ["Nifal (simple pasivo o reflexivo)", ["נִשְׁמַר", "nishmar"], ["יִשָּׁמֵר", "yishamer"], ["הִשָּׁמֵר", "hishamer"], ["הִשָּׁמֵר", "hishamer"], ["נִשְׁמָר", "nishmar"], "guardarse, cuidarse; ser guardado"] },
+        { "celdas": ["Piel (intensivo activo)", ["שִׁמֵּר", "shimer"], ["יְשַׁמֵּר", "yeshamer"], ["שַׁמֵּר", "shamer"], ["שַׁמֵּר", "shamer"], ["מְשַׁמֵּר", "meshamer"], "observar, rendir culto a (Jon 2:8)"] },
+        { "modelo": true, "celdas": ["Pual (intensivo pasivo)", ["שֻׁמַּר", "shumar"], ["יְשֻׁמַּר", "yeshumar"], ["", ""], ["שֻׁמַּר", "shumar"], ["מְשֻׁמָּר", "meshumar"], "(modelo) ser observado"] },
+        { "modelo": true, "celdas": ["Hifil (causativo activo)", ["הִשְׁמִיר", "hishmir"], ["יַשְׁמִיר", "yashmir"], ["הַשְׁמֵר", "hashmer"], ["הַשְׁמִיר", "hashmir"], ["מַשְׁמִיר", "mashmir"], "(modelo) hacer guardar"] },
+        { "modelo": true, "celdas": ["Hofal (causativo pasivo)", ["הָשְׁמַר", "hoshmar"], ["יָשְׁמַר", "yoshmar"], ["", ""], ["הָשְׁמַר", "hoshmar"], ["מָשְׁמָר", "moshmar"], "(modelo) ser hecho guardar"] },
+        { "celdas": ["Hitpael (reflexivo)", ["הִשְׁתַּמֵּר", "hishtamer"], ["יִשְׁתַּמֵּר", "yishtamer"], ["הִשְׁתַּמֵּר", "hishtamer"], ["הִשְׁתַּמֵּר", "hishtamer"], ["מִשְׁתַּמֵּר", "mishtamer"], "guardarse, ser observado (Mi 6:16)"] }
+      ]
+    },
+    {
+      "titulo": "Cómo reconocer cada binyán",
+      "cab": ["Binyán", "Señal más clara", "Ejemplo bíblico"],
+      "filas": [
+        { "celdas": ["Qal", "Sin prefijo propio; en el perfecto, qamets y pataj (שָׁמַר)", ["אָמַר", "amar · dijo"]] },
+        { "celdas": ["Nifal", "Nun antes de la raíz en el perfecto (נִ־); en el imperfecto, dagesh en la primera letra", ["נִשְׁבַּע", "nishbá · juró"]] },
+        { "celdas": ["Piel", "Dagesh en la segunda letra de la raíz; jireq y tsere en el perfecto (שִׁמֵּר)", ["דִּבֶּר", "dibér · habló"]] },
+        { "celdas": ["Pual", "Dagesh en la segunda letra y kibuts o qamets jatuf en la primera (שֻׁמַּר)", ["כֻּפַּר", "kupar · fue expiado"]] },
+        { "celdas": ["Hifil", "He antes de la raíz en el perfecto (הִ־) y yod antes de la última letra (־ִי־)", ["הִשְׁמִיד", "hishmid · destruyó"]] },
+        { "celdas": ["Hofal", "He con qamets jatuf o kibuts antes de la raíz (הָ־, הֻ־)", ["הֻגַּד", "hugad · fue contado"]] },
+        { "celdas": ["Hitpael", "Prefijo הִתְ־ y dagesh en la segunda letra", ["הִתְפַּלֵּל", "hitpalel · oró"]] }
+      ]
+    }
+  ]
+}

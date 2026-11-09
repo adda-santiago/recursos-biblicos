@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">Dos maneras de mirar una acción</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">El aspecto del verbo hebreo</text>
+<circle cx="330" cy="400" r="150" fill="#fff" stroke="#2a6fb0" stroke-width="8"/>
+<text x="330" y="415" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="64" fill="#2a6fb0" text-anchor="middle" direction="rtl" unicode-bidi="embed">שָׁמַר</text>
+<text x="330" y="460" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">shamar</text>
+<text x="330" y="610" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#2a6fb0" text-anchor="middle" font-weight="normal">Perfecto (qatal)</text>
+<text x="330" y="650" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">La acción vista como un todo,</text>
+<text x="330" y="680" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">completa, cumplida o segura</text>
+<text x="330" y="710" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">«guardó», «he guardado»</text>
+<path d="M 720 400 A 150 150 0 1 1 870 550" fill="none" stroke="#9e2b25" stroke-width="8" marker-end="url(#fl)"/>
+<text x="870" y="415" font-family="'SBL Hebrew', 'Ezra SIL', 'Noto Serif Hebrew', 'Times New Roman', serif" font-size="64" fill="#9e2b25" text-anchor="middle" direction="rtl" unicode-bidi="embed">יִשְׁמֹר</text>
+<text x="870" y="460" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f2430" text-anchor="middle" font-weight="bold">yishmor</text>
+<text x="870" y="610" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#9e2b25" text-anchor="middle" font-weight="normal">Imperfecto (yiqtol)</text>
+<text x="870" y="650" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">La acción vista en desarrollo,</text>
+<text x="870" y="680" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">repetida o por suceder</text>
+<text x="870" y="710" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">«guardará», «suele guardar»</text>
+<text x="600" y="820" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">El tiempo (pasado, presente o futuro) lo decide el contexto.</text>
+<text x="600" y="852" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">Por eso el perfecto profético anuncia el futuro como un hecho cumplido (Is 9:2).</text>
+</svg>

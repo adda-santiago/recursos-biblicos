@@ -53,7 +53,7 @@ Una herramienta de estudio para aprender a leer el hebreo del Antiguo Testamento
 
 ## Cómo usarlo
 
-Para el estudio personal, recorre las rutas en orden: cada una supone lo aprendido en la anterior. Copia las letras a mano en un cuaderno, lee en voz alta y repasa unos minutos cada día en el modo de práctica de la tabla del alfabeto. En las estaciones con un pasaje hebreo, lee primero con las ayudas y después ocúltalas para leer solo el hebreo. El botón de rutas, en la esquina, permite cambiar de ruta o saltar a una estación, y cada estación tiene su propio enlace para compartirla. En un grupo de estudio, una ruta por semana da para practicar juntos la lectura en voz alta. Este recurso enseña a leer; el vocabulario y la gramática vendrán en el recurso Vocabulario y gramática básica del hebreo bíblico, y la lectura de cualquier pasaje en el Interlineal hebreo–español.
+Para el estudio personal, recorre las rutas en orden: cada una supone lo aprendido en la anterior. Copia las letras a mano en un cuaderno, lee en voz alta y repasa unos minutos cada día en el modo de práctica de la tabla del alfabeto. En las estaciones con un pasaje hebreo, lee primero con las ayudas y después ocúltalas para leer solo el hebreo. El botón de rutas, en la esquina, permite cambiar de ruta o saltar a una estación, y cada estación tiene su propio enlace para compartirla. En un grupo de estudio, una ruta por semana da para practicar juntos la lectura en voz alta. Este recurso enseña a leer; el vocabulario y la gramática están en el recurso Vocabulario y gramática básica del hebreo bíblico, y la lectura de cualquier pasaje en el Interlineal hebreo–español.
 
 ## Qué es reconstrucción / limitaciones
 
