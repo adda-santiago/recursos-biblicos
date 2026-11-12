@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.49 · 9 de noviembre de 2026
+Versión 2.50 · 12 de noviembre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.50:** recurso nº 15 de la ola 1, La creación y los orígenes (teología sistemática), con ocho rutas y 50 estaciones sobre Génesis 1 a 11: el Creador, los seis días y el reposo, cómo leer Génesis 1, el Edén y la primera pareja, de Caín a Noé, el diluvio, Babel y las naciones, y creación y esperanza. Los días de Génesis 1 y la edad de la tierra se presentan en cinco lecturas (tierra joven, teoría de la brecha, día-era y creación progresiva, marco literario y evolución teísta) sin fijar ninguna, nombrando a las organizaciones que las defienden; el recurso sí afirma la creación de la nada, la creación especial del ser humano y un Adán y una Eva históricos, y rechaza la evolución sin guía. El diluvio se presenta como universal y el local como postura. La caída y el pecado quedan para El ser humano y el pecado (nº 16). Geografía propia `geo/creacion.py` → `creacion-y-origenes/creacion-geo.js` (hipótesis del Edén con prefijo `r-` para que el atlas no las agregue, Ararat, pueblos de Génesis 10 y el camino de Taré). Se corrige una errata de la RV 1960 del sitio (Gn 11:2).
 
 **Cambio de la versión 2.49:** recurso nº 13 de la ola 1, Vocabulario y gramática básica del hebreo bíblico (herramientas de estudio), con cuatro rutas y un taller práctico (46 estaciones): panorama (raíz, clases de palabras, orden y frecuencia), el sustantivo y sus compañeros, el verbo (el qal completo; los otros seis binyanim, para reconocerlos) y diez palabras clave de la fe, con los errores comunes al estudiar una palabra. Las formas verbales se nombran «perfecto (qatal)» e «imperfecto (yiqtol)». Página auxiliar `gramatica-hebrea/vocabulario/`: las 751 palabras hebreas más frecuentes del Antiguo Testamento en 30 lecciones, con práctica y el verbo modelo שָׁמַר en los siete binyanim. Las frecuencias salen de la morfología de OSHB y los números de Strong del léxico de Open Scriptures (`herramientas/gramatica_lista.py`); las glosas en español se escriben a mano. Una referencia con la numeración hebrea no se escribe como referencia, porque la burbuja mostraría otro versículo de la RV 1960 (§20). El Alfabeto suma botones `ir` hacia el recurso.
 
@@ -208,10 +210,10 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 │  │  │  viajes-pablo/ hechos/ daniel/ apocalipsis/ interpretar-biblia/ palabra-de-dios/
 │  │  │  de-la-biblia-a-nosotros/ medidas-biblicas/ tierra-de-israel/ historia-iglesia-2/ dios-y-la-trinidad/
 │  │  │  pactos-y-dispensaciones/ movimiento-pentecostal/ libros-apocrifos/ entre-los-testamentos/ mundo-judio/
-│  │  │  persona-y-obra-de-cristo/ cronologia-nuevo-testamento/ introduccion-nuevo-testamento/ lucas/ alfabeto-hebreo/ gramatica-hebrea/   (rutas de estudio: index.html, data.js, img/;
+│  │  │  persona-y-obra-de-cristo/ cronologia-nuevo-testamento/ introduccion-nuevo-testamento/ lucas/ alfabeto-hebreo/ gramatica-hebrea/ creacion-y-origenes/   (rutas de estudio: index.html, data.js, img/;
 │  │  │                      tierra-de-israel/ suma tierra-geo.js, historia-iglesia-2/ suma historia-geo.js
 │  │  │                      movimiento-pentecostal/ suma pentecostal-geo.js, libros-apocrifos/ suma apocrifos-geo.js
-│  │  │                      y entre-los-testamentos/ suma entre-geo.js (y carga tierra-geo.js), mundo-judio/ suma mundo-geo.js (y carga tierra-geo.js), persona-y-obra-de-cristo/ suma cristo-geo.js (y carga trinidad-geo.js), introduccion-nuevo-testamento/ suma nt-geo.js,
+│  │  │                      y entre-los-testamentos/ suma entre-geo.js (y carga tierra-geo.js), mundo-judio/ suma mundo-geo.js (y carga tierra-geo.js), persona-y-obra-de-cristo/ suma cristo-geo.js (y carga trinidad-geo.js), introduccion-nuevo-testamento/ suma nt-geo.js, creacion-y-origenes/ suma creacion-geo.js,
 │  │  │                      su geografía propia;
 │  │  │                      medidas-biblicas/ suma calculadora/, cronologia-nuevo-testamento/ suma linea/, evangelios/ suma sinoptico/, alfabeto-hebreo/ suma alfabeto/ y gramatica-hebrea/ suma vocabulario/, páginas auxiliares, §20)
 │  │  ├─ adn/ motor-combustion/ viajes-colon/ segunda-guerra-mundial/   (fichas ocultas, §1)
@@ -228,10 +230,11 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 ├─ geo/mundo_judio.py       genera mundo-judio/mundo-geo.js (reino de Agripa I, provincia de los procuradores, lugares del siglo I y la guerra del 66–73; no usa Natural Earth)
 ├─ geo/cristo.py           genera persona-y-obra-de-cristo/cristo-geo.js (Calcedonia y Laodicea de Siria, lugares h- de las controversias; no usa Natural Earth)
 ├─ geo/introduccion_nt.py  genera introduccion-nuevo-testamento/nt-geo.js (trayectos de las cartas, solo trazos; no usa Natural Earth)
+├─ geo/creacion.py         genera creacion-y-origenes/creacion-geo.js (hipótesis del Edén, Ararat, pueblos de Génesis 10 y el camino de Taré; no usa Natural Earth)
 ├─ herramientas/biblia/     generar.py: genera public/biblia/ desde las fuentes (fuentes/ no se sube al repositorio; fuentes/wlc/ guarda los XML del texto hebreo y fuentes/HebrewStrong.xml el léxico de Strong de Open Scriptures)
 ├─ herramientas/wlc.py      texto hebreo del Códice de Leningrado (OSHB) para los scripts de armado: verso con o sin acentos y lista de palabras
 ├─ herramientas/            verificar_citas.py (citas textuales contra la RV 1960), esquemas_*.py (SVG propios),
-│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas, tierra, trinidad, historia2, pactos, pentecostal, apocrifos, entre, mundo, cristo, herodes, cronologia, introduccion, sinoptico, lucas, alfabeto, gramatica; gramatica_lista.py cuenta las frecuencias del vocabulario hebreo),
+│                           <recurso>/parte*.js + <recurso>_citas.py (estudios grandes, §20; apocalipsis, interpretar, palabra, manuscritos, medidas, tierra, trinidad, historia2, pactos, pentecostal, apocrifos, entre, mundo, cristo, herodes, cronologia, introduccion, sinoptico, lucas, alfabeto, gramatica, creacion; gramatica_lista.py cuenta las frecuencias del vocabulario hebreo),
 │                           atlas_recursos.mjs (genera atlas/recursos.js, §20)
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
@@ -405,7 +408,7 @@ Vocabulario controlado en `src/data/taxonomia.ts`. Agregar un valor es una decis
 |---|---|---|
 | Estudio de libro | ¿Qué enseña este libro? Introducción, panorama, comentario y teología de un libro | Hechos, Daniel, Apocalipsis, Lucas, Armonía de los evangelios, Introducción al Nuevo Testamento (la introducción y el panorama de los 27 libros) |
 | Teología bíblica | ¿Cómo se desarrolla este tema a lo largo de la revelación, de Génesis a Apocalipsis? | El sacerdocio en Israel, El sumo sacerdote, El tabernáculo, El templo de Salomón, El templo de Herodes, El exilio y los retornos |
-| Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | La Palabra de Dios, Dios y la Trinidad, Pactos y dispensaciones, La persona y obra de Cristo, Los últimos tiempos |
+| Teología sistemática | ¿Qué enseña toda la Biblia sobre esta doctrina, ordenada como sistema? | La Palabra de Dios, Dios y la Trinidad, Pactos y dispensaciones, La persona y obra de Cristo, La creación y los orígenes, Los últimos tiempos |
 | Historia y geografía | ¿Cuándo, dónde y en qué mundo ocurrió? | Atlas bíblico, La tierra de Israel, Árbol genealógico, Reyes, jueces y profetas, Los viajes de Pablo, Egipto, los seis imperios, Los imperios en la historia bíblica, Historia de la Iglesia II, El movimiento pentecostal, Los libros apócrifos y pseudoepígrafos, Entre los Testamentos, El mundo judío en tiempos de Jesús, La dinastía de Herodes, Cronología del Nuevo Testamento |
 | Herramientas de estudio | ¿Cómo leo, interpreto y enseño la Biblia por mi cuenta? | Cómo interpretar la Biblia, De la Biblia a nosotros, Pesos, medidas, monedas y horas bíblicas, El alfabeto hebreo y la lectura, Vocabulario y gramática básica del hebreo bíblico; después, más lenguas (hebreo y griego), interlineales, taller de sermón |
 
@@ -454,6 +457,7 @@ Asignación actual:
 | Lucas | Nuevo, Antiguo | Vida de Jesús, iglesia primitiva | Lucas, Hechos, Mateo, Marcos, Isaías, Malaquías, Miqueas, 2 Samuel, Deuteronomio, Salmos, Daniel, Joel |
 | El alfabeto hebreo y la lectura | Antiguo, Nuevo | Ninguna (herramientas de estudio) | Génesis, Éxodo, Números, Deuteronomio, Jueces, Nehemías, Salmos, Isaías, Lamentaciones, Mateo |
 | Vocabulario y gramática básica del hebreo bíblico | Antiguo, Nuevo | Ninguna (herramientas de estudio) | Génesis, Éxodo, Levítico, Deuteronomio, Rut, 1 Samuel, Job, Salmos, Isaías, Jeremías, Lamentaciones, Joel, Habacuc |
+| La creación y los orígenes | Antiguo, Nuevo | Creación, últimos tiempos | Génesis, Éxodo, Job, Salmos, Isaías, Juan, Hechos, Romanos, Colosenses, Hebreos, 2 Pedro, Apocalipsis |
 
 ## 10. Sin fines comerciales
 
@@ -687,6 +691,8 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 
 ### Pendientes
 
+- **La creación y los orígenes, foto del Enuma Elish (I.6):** no se encontró una foto con licencia libre verificada; la estación queda sin ella. Candidata: una tablilla de la categoría `Enûma Eliš` de Wikimedia Commons, licencia por confirmar.
+- **La creación y los orígenes y los recursos que faltan:** cuando se publiquen El ser humano y el pecado (nº 16), Los patriarcas (nº 18) y Génesis (nº 20), agregar sus botones `ir` en I.1, II.5, III.6 y IV.6 (el ser humano y la caída), VII.6 (Abraham) y I.1 (el estudio del libro), que hoy los mencionan «en preparación».
 - **El alfabeto hebreo, el vocabulario y el interlineal:** los botones hacia Vocabulario y gramática básica del hebreo bíblico ya están en «Cómo seguir aprendiendo» y en «Letras que se pegan al comienzo» del Alfabeto (v2.49). Cuando se publique el Interlineal hebreo–español (nº 14), agregar su botón `ir` en «Cómo seguir aprendiendo» del Alfabeto y en «Cómo seguir» del taller de Vocabulario y gramática, que hoy lo mencionan «en preparación». El interlineal puede reutilizar `herramientas/wlc.py`, la morfología de OSHB y el vocabulario (`frecuencias.tsv`, `glosas.txt`).
 - **Vocabulario y gramática, revisión de las glosas:** las 751 glosas del vocabulario se escribieron a mano a partir del léxico de Strong; conviene que un revisor con formación en hebreo las revise, junto con las transliteraciones.
 
@@ -736,7 +742,7 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 |---|---|---|
 | 0. Plataforma mínima | Astro, visor con contrato, Pagefind, apps bíblicas incorporadas, compartir, embed, buzón | **Hecho en v1.1**, salvo buzón sin URL; Herodes, en v2.15 |
 | 1. Reorientación a la iglesia | Despliegue en `adda-santiago` (hecho), nombre visible (hecho), taxonomía bíblica (hecho), limpieza del código comercial | Sitio publicado en la URL nueva con facetas bíblicas |
-| 2. Contenido | Recursos según el plan de publicación (§20): 42 de 137 publicados al 9 de noviembre de 2026 (Lucas se adelantó a Mateo y Marcos; con El alfabeto hebreo y la lectura empieza la ola 1) (Historia de la Iglesia II y El movimiento pentecostal se adelantaron de la ola 9); se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
+| 2. Contenido | Recursos según el plan de publicación (§20): 43 de 137 publicados al 12 de noviembre de 2026 (Lucas se adelantó a Mateo y Marcos; con El alfabeto hebreo y la lectura empieza la ola 1) (Historia de la Iglesia II y El movimiento pentecostal se adelantaron de la ola 9); se sigue con la ola 0 (Fundamentos). Además, lo que pidan el buzón y las búsquedas sin resultado | Usado por miembros y líderes de la iglesia |
 | Futuro | Documento de visión de la app de estudio bíblico: Biblia completa en el sitio, comentarios propios, «Guardar» por usuario (requiere base de datos y perfiles), estudio de la Armonía con texto en pantalla. Ideas 3D: escala del campamento, Templo de Salomón, sinagoga de Magdala, Jerusalén del siglo I | Se decide tras el documento de visión |
 | 3. Crecimiento | Analítica activa, PWA con modo sin conexión, dirección de la ficha que sigue la estación abierta (§6) | Uso sostenido medible |
 
@@ -979,6 +985,13 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 | 2026-11-08 | La ruta de palabras clave advierte contra los errores comunes de los estudios de palabras (falacia etimológica, todos los sentidos a la vez, sentido de otra época, «dibujos» en las letras, «hebreo secreto») y nunca construye una doctrina sobre una sola palabra | Los estudios de palabras son de las herramientas más mal usadas en la predicación |
 | 2026-11-08 | Posturas del recurso: tres o dos partes del ser humano (ambas afirman la existencia consciente después de la muerte), «fe» o «fidelidad» en Habacuc 2:4 y «soy» o «seré» en Éxodo 3:14 | Dos lecturas defendibles en cada caso (§20) |
 | 2026-11-09 | Las menciones de la numeración hebrea no se escriben con forma de referencia | La burbuja mostraría otro versículo de la RV 1960 |
+| 2026-11-12 | La creación y los orígenes: ocho rutas y 50 estaciones sobre Génesis 1 a 11, enfoque teología sistemática; la caída y el pecado se resumen y quedan para El ser humano y el pecado (nº 16) | Bosquejo aprobado por el responsable (6-11-2026) |
+| 2026-11-12 | Los días de Génesis 1 y la edad de la tierra: cinco lecturas en bloques `posturas`, sin fijar ninguna; se afirman la creación de la nada, la creación especial del ser humano y un Adán y una Eva históricos, y se rechaza la evolución sin guía | Decisión del responsable; línea de las Asambleas de Dios, que no fijan la edad de la tierra |
+| 2026-11-12 | El diluvio se presenta como universal, por ser la lectura natural del texto; el diluvio local, como postura | Decisión del responsable al aprobar el bosquejo |
+| 2026-11-12 | Se nombran las organizaciones que defienden cada lectura (Respuestas en Génesis, Reasons to Believe, BioLogos) describiendo lo que enseñan y con respeto | Decisión del responsable, como en Dios y la Trinidad |
+| 2026-11-12 | Génesis 9:25 se explica como maldición sobre Canaán, y se rechaza expresamente el uso de la «maldición de Cam» para justificar la esclavitud o el racismo | El pasaje fue mal usado durante siglos; Hch 17:26 |
+| 2026-11-12 | La creación y los orígenes: fotos con licencia verificada en Wikimedia Commons (tablilla del diluvio, BabelStone, CC0; zigurat de Ur, Hardnfast, CC BY 3.0); la estación del Enuma Elish queda sin foto | §20, Imágenes |
+| 2026-11-12 | Errata de la RV 1960 del sitio: Gn 11:2 («estabecieron»), corregida en `CORRECCIONES` y en `public/biblia/rv1960/gn/11.json` | Se detectó al citar el pasaje |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Cinco lecturas de Génesis 1</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">De la más literal en la cronología a la más figurada, y lo que todas comparten</text>
+<line x1="120" y1="138" x2="1068" y2="138" stroke="#c9c6be" stroke-width="3" stroke-linecap="round"/>
+<polygon points="1080,138 1068,148 1068,128" fill="#c9c6be"/>
+<text x="120" y="128" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="start" font-weight="normal">cronología más literal</text>
+<text x="1080" y="128" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="end" font-weight="normal">más figurada</text>
+<rect x="40" y="160" width="212" height="330" rx="14" fill="#b03a2e1e" stroke="#b03a2e" stroke-width="2"/>
+<text x="146" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#b03a2e" text-anchor="middle" font-weight="bold">Tierra joven</text>
+<text x="146" y="232" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Los días</text>
+<text x="146" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Seis días de</text>
+<text x="146" y="277" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">24 horas</text>
+<text x="146" y="322" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">La tierra</text>
+<text x="146" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Unos miles</text>
+<text x="146" y="367" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">de años</text>
+<text x="146" y="410" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Antepasado común</text>
+<text x="146" y="432" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#b03a2e" text-anchor="middle" font-weight="bold">No</text>
+<text x="146" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Respuestas en Génesis</text>
+<rect x="266" y="160" width="212" height="330" rx="14" fill="#c08a1e1e" stroke="#c08a1e" stroke-width="2"/>
+<text x="372" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#c08a1e" text-anchor="middle" font-weight="bold">Brecha</text>
+<text x="372" y="232" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Los días</text>
+<text x="372" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Ruina entre 1:1 y 1:2;</text>
+<text x="372" y="277" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">seis días de restauración</text>
+<text x="372" y="322" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">La tierra</text>
+<text x="372" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Antigua</text>
+<text x="372" y="410" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Antepasado común</text>
+<text x="372" y="432" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="middle" font-weight="bold">No</text>
+<text x="372" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Scofield, Dake</text>
+<rect x="492" y="160" width="212" height="330" rx="14" fill="#2f7d4a1e" stroke="#2f7d4a" stroke-width="2"/>
+<text x="598" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Día-era y progresiva</text>
+<text x="598" y="232" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Los días</text>
+<text x="598" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Seis períodos</text>
+<text x="598" y="277" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">largos</text>
+<text x="598" y="322" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">La tierra</text>
+<text x="598" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Antigua</text>
+<text x="598" y="410" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Antepasado común</text>
+<text x="598" y="432" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2f7d4a" text-anchor="middle" font-weight="bold">No</text>
+<text x="598" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Reasons to Believe</text>
+<rect x="718" y="160" width="212" height="330" rx="14" fill="#2a6fb01e" stroke="#2a6fb0" stroke-width="2"/>
+<text x="824" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Marco literario</text>
+<text x="824" y="232" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Los días</text>
+<text x="824" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Un marco temático,</text>
+<text x="824" y="277" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">no una cronología</text>
+<text x="824" y="322" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">La tierra</text>
+<text x="824" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">El texto no</text>
+<text x="824" y="367" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">la define</text>
+<text x="824" y="410" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Antepasado común</text>
+<text x="824" y="432" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2a6fb0" text-anchor="middle" font-weight="bold">No</text>
+<text x="824" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Kline, Blocher</text>
+<rect x="944" y="160" width="212" height="330" rx="14" fill="#7a3fa01e" stroke="#7a3fa0" stroke-width="2"/>
+<text x="1050" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Evolución teísta</text>
+<text x="1050" y="232" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Los días</text>
+<text x="1050" y="256" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Lenguaje figurado;</text>
+<text x="1050" y="277" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Dios usa la evolución</text>
+<text x="1050" y="322" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">La tierra</text>
+<text x="1050" y="346" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2430" text-anchor="middle" font-weight="normal">Antigua</text>
+<text x="1050" y="410" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal">Antepasado común</text>
+<text x="1050" y="432" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Sí</text>
+<text x="1050" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">BioLogos</text>
+<rect x="40" y="520" width="1120" height="200" rx="14" fill="#ffffff" stroke="#1f2430" stroke-width="2"/>
+<text x="600" y="558" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Lo que afirman todas las lecturas cristianas ortodoxas</text>
+<text x="230" y="600" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">• Un solo Dios creó todo de la nada</text>
+<text x="600" y="600" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">• La creación es buena y tiene propósito</text>
+<text x="970" y="600" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">• Cristo es Creador y sustentador</text>
+<text x="230" y="640" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">• El ser humano lleva la imagen de Dios</text>
+<text x="600" y="640" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">• Dios juzga el pecado y salva por gracia</text>
+<text x="970" y="640" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">• La Escritura es Palabra de Dios</text>
+<text x="600" y="700" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Las cuatro primeras rechazan que el ser humano descienda de otras especies.</text>
+</svg>

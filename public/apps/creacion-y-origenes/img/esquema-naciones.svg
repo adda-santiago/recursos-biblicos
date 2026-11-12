@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">La tabla de las naciones</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Génesis 10: toda la humanidad, en tres familias, desciende de Noé</text>
+<rect x="520" y="116" width="160" height="52" rx="14" fill="#1f243014" stroke="#1f2430" stroke-width="2"/>
+<text x="600" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="bold">Noé</text>
+<line x1="600" y1="170" x2="217" y2="220" stroke="#2a6fb0" stroke-width="3" stroke-linecap="round"/>
+<polygon points="200,222 215,206 218,234" fill="#2a6fb0"/>
+<rect x="50" y="226" width="300" height="70" rx="14" fill="#2a6fb033" stroke="#2a6fb0" stroke-width="2"/>
+<text x="200" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Jafet</text>
+<text x="200" y="284" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">hacia el norte y el oeste</text>
+<text x="200" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Gomer</text>
+<text x="200" y="370" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Magog</text>
+<text x="200" y="404" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Madai (medos)</text>
+<text x="200" y="438" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Javán (griegos)</text>
+<text x="200" y="472" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Tubal</text>
+<text x="200" y="506" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Mesec</text>
+<text x="200" y="540" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Tiras</text>
+<line x1="600" y1="170" x2="600" y2="205" stroke="#c08a1e" stroke-width="3" stroke-linecap="round"/>
+<polygon points="600,222 586,205 614,205" fill="#c08a1e"/>
+<rect x="450" y="226" width="300" height="70" rx="14" fill="#c08a1e33" stroke="#c08a1e" stroke-width="2"/>
+<text x="600" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#c08a1e" text-anchor="middle" font-weight="bold">Cam</text>
+<text x="600" y="284" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">hacia el sur</text>
+<text x="600" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Cus</text>
+<text x="600" y="370" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Mizraim (Egipto)</text>
+<text x="600" y="404" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Fut</text>
+<text x="600" y="438" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Canaán</text>
+<text x="600" y="472" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">… y Nimrod, hijo de Cus</text>
+<line x1="600" y1="170" x2="983" y2="220" stroke="#2f7d4a" stroke-width="3" stroke-linecap="round"/>
+<polygon points="1000,222 982,234 985,206" fill="#2f7d4a"/>
+<rect x="850" y="226" width="300" height="70" rx="14" fill="#2f7d4a33" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1000" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Sem</text>
+<text x="1000" y="284" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">hacia el oriente</text>
+<text x="1000" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Elam</text>
+<text x="1000" y="370" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Asur (Asiria)</text>
+<text x="1000" y="404" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Arfaxad</text>
+<text x="1000" y="438" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Lud</text>
+<text x="1000" y="472" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal">Aram (Siria)</text>
+<line x1="1000" y1="520" x2="1000" y2="543" stroke="#2f7d4a" stroke-width="3" stroke-linecap="round"/>
+<polygon points="1000,560 986,543 1014,543" fill="#2f7d4a"/>
+<rect x="850" y="566" width="300" height="88" rx="14" fill="#ffffff" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1000" y="598" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Arfaxad → Sala → Heber</text>
+<text x="1000" y="622" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">→ Peleg … → Taré</text>
+<text x="1000" y="644" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2f7d4a" text-anchor="middle" font-weight="bold">→ Abraham</text>
+<text x="420" y="640" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">Unos setenta nombres: pueblos, regiones y ciudades.</text>
+<text x="420" y="668" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">«Cada cual según su lengua» (Gn 10:5)</text>
+<text x="600" y="728" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«De una sangre ha hecho todo el linaje de los hombres» (Hch 17:26)</text>
+</svg>

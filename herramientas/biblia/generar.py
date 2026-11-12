@@ -74,6 +74,7 @@ CORRECCIONES = [
     ('rv1960', 'mt', 4, 15, 'alilea de los gentiles', 'Galilea de los gentiles'),
     ('rv1960', 'mr', 7, 18, 'dijo:¿También', 'dijo: ¿También'),
     ('rv1960', 'lc', 22, 53, 'potestad de la tinieblas', 'potestad de las tinieblas'),
+    ('rv1960', 'gn', 11, 2, 'estabecieron', 'establecieron'),
 ]
 
 def limpiar(t):
