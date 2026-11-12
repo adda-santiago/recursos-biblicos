@@ -1,0 +1,851 @@
+# Interlineal hebreo–español · glosas por lema (parte 3). strong|glosa
+2590|embalsamar
+2591|el trigo
+2593|el criado adiestrado
+2594|el favor
+2595|la lanza
+2596|dedicar
+2597|la dedicación
+2598|la dedicación
+2599|el hanoquita
+2600|de balde
+2602|la escarcha
+2604|tener misericordia
+2610|contaminar
+2611|impío
+2612|la impiedad
+2613|la impiedad
+2614|ahorcarse
+2616|mostrarse misericordioso
+2620|refugiarse
+2622|el refugio
+2623|piadoso
+2624|la cigüeña
+2625|el pulgón
+2626|fuerte
+2627|falto
+2628|consumir
+2629|poner bozal
+2630|atesorar
+2631|poseer
+2632|el poder
+2633|la riqueza
+2634|fuerte
+2635|el barro
+2636|lo menudo
+2637|faltar
+2638|falto
+2639|la carencia
+2640|la falta
+2642|la falta
+2643|inocente
+2644|hacer en secreto
+2645|cubrir
+2646|el dosel
+2648|huir apresuradamente
+2649|la prisa
+2651|el puño
+2653|cubrir
+2655|complacerse
+2656|el deseo
+2658|cavar
+2659|avergonzarse
+2661|el topo
+2662|el heferita
+2664|buscar
+2665|la búsqueda
+2666|ser liberado
+2667|la tela preciosa
+2668|la libertad
+2669|la separación
+2670|libre
+2671|la flecha
+2672|labrar
+2673|dividir
+2676|la mitad
+2678|la flecha
+2679|la mitad de los manahetitas
+2680|la mitad de los manahetitas
+2681|el atrio
+2682|la hierba
+2683|el seno
+2684|el regazo
+2685|ser apremiante
+2686|repartir
+2687|la piedrecita
+2689|la trompeta
+2690|tocar trompeta
+2697|el hezronita
+2699|Hazerim
+2707|grabar
+2710|decretar
+2711|el decreto
+2713|escudriñar
+2714|la investigación
+2715|el noble
+2717|secarse
+2718|destruir
+2720|desolado
+2721|la sequía
+2723|la ruina
+2724|la tierra seca
+2725|la sequía
+2727|temer
+2728|el langostín
+2729|temblar
+2730|tembloroso
+2731|el temor
+2733|el harodita
+2737|el collar
+2738|la ortiga
+2740|el ardor
+2741|el harufita
+2742|el trillo
+2746|la fiebre ardiente
+2747|el cincel
+2748|el mago
+2749|el mago
+2750|el ardor
+2751|el pan blanco
+2752|el horeo
+2754|la bolsa
+2755|el estiércol de paloma
+2757|el trillo
+2758|la arada
+2759|abrasador
+2760|asar
+2761|quemar
+2762|la celosía
+2764|el anatema
+2770|la hoz
+2772|el horonita
+2775|el sol
+2777|el tiesto
+2778|afrentar
+2779|el invierno
+2782|decidir
+2783|el lomo
+2784|la ligadura
+2785|la pepita
+2786|crujir
+2787|arder
+2788|el sequedal
+2789|el tiesto
+2791|en secreto
+2794|el artífice
+2795|sordo
+2796|el artesano
+2799|la labor
+2801|grabado
+2804|estimar
+2805|el cinto
+2808|la razón
+2810|la invención
+2814|callar
+2816|las tinieblas
+2818|necesitar
+2819|lo necesario
+2820|retener
+2821|oscurecerse
+2823|oscuro
+2824|la oscuridad
+2825|la oscuridad
+2826|debilitarse
+2827|quebrantar
+2830|el bronce reluciente
+2831|el grande
+2833|el pectoral
+2834|descubrir
+2835|el rebañito
+2836|apegarse
+2837|el deseo
+2838|la moldura
+2839|el cubo de la rueda
+2840|el rayo de la rueda
+2841|la acumulación
+2842|el heno
+2843|el husatita
+2844|el terror
+2846|tomar
+2847|el terror
+2848|la venda
+2849|el terror
+2850|el heteo
+2851|el terror
+2852|ser determinado
+2853|envolver en pañales
+2854|el pañal
+2856|sellar
+2857|sellar
+2858|el sello
+2859|emparentar
+2860|el yerno
+2861|el desposorio
+2862|arrebatar
+2863|la presa
+2864|cavar
+2866|el abatimiento
+2868|alegrarse
+2869|bueno
+2871|la tiara teñida
+2872|el centro
+2873|degollar
+2874|la matanza
+2876|el guardia
+2877|el guardia
+2878|la matanza
+2879|la cocinera
+2881|mojar
+2883|hundirse
+2890|la pureza
+2892|la pureza
+2893|la purificación
+2894|barrer
+2895|ser bueno
+2898|el bien
+2901|hilar
+2902|recubrir
+2903|las filacterias
+2904|arrojar
+2905|la hilera
+2906|el monte
+2907|precipitarse
+2908|en ayunas
+2909|tirar
+2910|lo íntimo
+2911|el molino
+2912|moler
+2913|la molienda
+2914|el tumor
+2915|la mezcla
+2916|el lodo
+2917|el barro
+2918|el campamento
+2919|el rocío
+2920|el rocío
+2921|manchar
+2922|el corderito
+2924|el cordero
+2925|el destierro
+2926|cubrir
+2927|dar sombra
+2932|la inmundicia
+2933|ser inmundo
+2934|esconder
+2935|la canasta
+2936|ensuciar
+2937|extraviar
+2938|gustar
+2939|dar a comer
+2940|el juicio
+2941|el asunto
+2942|el decreto
+2943|cargar
+2944|ser traspasado
+2945|los niños
+2946|extender
+2947|el palmo menor
+2948|el palmo menor
+2949|el cuidado
+2950|forjar
+2951|el capitán
+2952|andar con pasos cortos
+2953|la uña
+2954|engordarse
+2956|seguir
+2957|echar
+2959|fatigar
+2960|la carga
+2961|fresco
+2963|despedazar
+2964|la presa
+2965|arrancado
+2966|lo despedazado
+2967|el tarpelita
+2968|anhelar
+2969|corresponder
+2972|el jaireo
+2973|enloquecer
+2974|resolverse
+2976|desesperar
+2978|la entrada
+2980|gritar
+2981|el fruto
+2983|el jebuseo
+2986|llevar
+2987|traer
+2988|el arroyo
+2990|ulceroso
+2992|cumplir el levirato
+2993|el cuñado
+2994|la cuñada
+3002|seco
+3004|la tierra seca
+3006|la tierra seca
+3007|la tierra
+3009|labrar
+3010|el campo
+3013|afligir
+3014|ser quitado
+3015|la aflicción
+3016|temeroso
+3018|el trabajo
+3019|cansado
+3021|fatigarse
+3022|lo ganado
+3023|fatigado
+3024|el cansancio
+3025|temer
+3028|la mano
+3029|alabar
+3032|echar suertes
+3033|lo amado
+3039|amado
+3046|hacer saber
+3049|el adivino
+3051|dar
+3052|dar
+3053|la carga
+3054|hacerse judío
+3057|Jehudaía
+3062|el judío
+3066|en judío
+3093|altivo
+3095|el diamante
+3104|el jubileo
+3105|el arroyo
+3118|el día
+3121|el cieno
+3123|la paloma
+3125|el griego
+3126|el renuevo
+3127|el renuevo
+3138|la lluvia temprana
+3148|lo sobrante
+3154|lo que hace sudar
+3155|el ezraíta
+3158|el jezreelita
+3159|la jezreelita
+3161|unirse
+3173|único
+3175|esperanzado
+3176|esperar
+3178|el jahleelita
+3179|calentarse
+3180|el gamo
+3182|descalzo
+3184|el jahzeelita
+3187|ser registrado en la genealogía
+3188|la genealogía
+3191|parecer bien
+3200|el jaquinita
+3202|poder
+3207|la muchacha
+3208|la juventud
+3209|nacido
+3211|el nacido en casa
+3213|aullar
+3214|el aullido
+3215|el aullido
+3216|hablar a la ligera
+3217|sarnoso
+3218|el pulgón
+3219|el zurrón
+3221|el mar
+3222|las aguas termales
+3227|derecho
+3228|el jaminita
+3231|ir a la derecha
+3233|derecho
+3235|cambiar
+3238|oprimir
+3242|el renuevo
+3243|mamar
+3244|el búho
+3245|fundar
+3246|el fundamento
+3247|el cimiento
+3248|el fundamento
+3250|el que corrige
+3251|ser derramado
+3255|añadir
+3256|castigar
+3257|la pala
+3259|reunirse
+3261|barrer
+3267|fiero
+3271|cubrir
+3272|aconsejar
+3276|aprovechar
+3277|la cabra montés
+3280|la gacela
+3283|el avestruz
+3284|el avestruz
+3286|cansarse
+3287|cansado
+3288|el vuelo veloz
+3295|el panal
+3302|ser hermoso
+3303|hermoso
+3304|muy hermoso
+3306|gemir
+3307|el que respira
+3308|la hermosura
+3311|el jafletita
+3313|resplandecer
+3314|el resplandor
+3319|terminar
+3320|presentarse
+3321|saber la verdad
+3322|poner
+3323|el aceite
+3325|el izharita
+3326|el lecho
+3329|el que sale
+3330|cierto
+3331|tender
+3333|fundido
+3334|angustiarse
+3336|la imaginación
+3338|el miembro
+3340|el jezerita
+3341|incendiar
+3342|el lagar
+3344|arder
+3345|arder
+3346|la quema
+3349|la obediencia
+3350|la quemadura
+3351|el ser viviente
+3352|el cazador
+3353|el cazador
+3357|precioso
+3358|noble
+3363|ahorcar
+3364|despertar
+3365|ser precioso
+3366|el honor
+3367|la honra
+3368|precioso
+3369|tender lazos
+3374|el temor
+3387|lo verde
+3391|el mes
+3393|el mes
+3394|la luna
+3397|el jerameelita
+3399|precipitar
+3401|el contendiente
+3409|el muslo
+3410|el muslo
+3411|el costado
+3415|ser doloroso
+3417|escupir
+3418|lo verde
+3419|la hortaliza
+3420|el tizón
+3422|amarillento
+3424|la posesión
+3425|la herencia
+3429|el que se sentaba en la cátedra
+3432|el jasubita
+3441|el isuita
+3445|el hambre
+3447|extender
+3452|el desierto
+3453|anciano
+3455|ser puesto
+3456|ser desolado
+3459|el ismaelita
+3462|dormir
+3463|dormido
+3465|viejo
+3468|la salvación
+3471|el jaspe
+3474|ser recto
+3476|la rectitud
+3481|el israelita
+3482|la israelita
+3483|la rectitud
+3486|el anciano
+3487|a
+3488|sentarse
+3489|la estaca
+3490|el huérfano
+3491|lo que explora
+3493|excelente
+3502|la abundancia
+3504|el provecho
+3505|el itrita
+3508|la grosura
+3510|doler
+3511|el dolor
+3512|entristecerse
+3514|el peso
+3515|pesado
+3516|el hígado
+3517|la dificultad
+3518|apagar
+3520|lo glorioso
+3523|la almohada
+3524|grande
+3525|el grillo
+3527|multiplicar
+3528|ya
+3530|la distancia
+3531|la criba
+3533|sojuzgar
+3534|el estrado
+3535|la cordera
+3536|el horno
+3537|el cántaro
+3538|mentiroso
+3539|el carbunclo
+3542|hasta aquí
+3543|debilitarse
+3544|débil
+3545|el remedio
+3546|poder
+3547|ejercer el sacerdocio
+3549|el sacerdote
+3550|el sacerdocio
+3551|la ventana
+3553|el yelmo
+3554|quemarse
+3555|la quemadura
+3556|la estrella
+3557|contener
+3558|el brazalete
+3561|la torta
+3563|la copa
+3564|el horno
+3569|el cusita
+3571|la cusita
+3574|la prosperidad
+3576|mentir
+3577|la mentira
+3582|ocultar
+3583|pintarse
+3584|negar
+3585|la mentira
+3586|mentiroso
+3587|la quemadura
+3589|la ruina
+3590|la chispa
+3591|la jabalina
+3593|la batalla
+3595|la fuente
+3596|el avaro
+3597|el martillo
+3599|la bolsa
+3600|el hornillo
+3601|el huso
+3602|así
+3604|el talento
+3606|todo
+3607|detener
+3608|la cárcel
+3610|las dos especies
+3611|el perro
+3614|el calebita
+3616|anhelante
+3617|la destrucción
+3618|la nuera
+3619|la jaula
+3623|el desposorio
+3624|la vejez
+3628|la cárcel
+3629|los riñones
+3631|el desfallecimiento
+3632|completo
+3634|perfeccionar
+3635|terminar
+3637|avergonzar
+3639|la afrenta
+3640|la vergüenza
+3642|anhelar
+3646|el comino
+3647|guardar
+3648|conmoverse
+3649|los sacerdotes idólatras
+3650|la oscuridad
+3652|así
+3653|la base
+3654|el piojo
+3655|dar sobrenombre
+3657|la planta
+3658|el arpa
+3660|así
+3664|juntar
+3665|humillar
+3666|la mercancía
+3670|ser apartado
+3673|reunirse
+3674|el compañero
+3675|el compañero
+3676|jurado
+3677|la luna llena
+3679|el caldeo
+3681|la cubierta
+3682|la cubierta
+3683|cortar
+3685|el Orión
+3687|la necedad
+3688|ser necio
+3689|la confianza
+3690|la confianza
+3695|los casluhim
+3697|recortar
+3698|la espelta
+3699|contar
+3700|anhelar
+3702|la plata
+3704|la almohadilla
+3705|ahora
+3706|y ahora
+3708|el enojo
+3710|la peña
+3711|aplacar
+3712|la rama
+3713|la escarcha
+3714|la viga
+3715|el leoncillo
+3717|doblar
+3718|el doble
+3719|encorvar
+3720|el hambre
+3721|encorvarse
+3723|la aldea
+3724|el rescate
+3725|la expiación
+3727|el propiciatorio
+3728|pisotear
+3729|atar
+3730|la manzana
+3732|el caftoreo
+3733|el carnero
+3734|el coro
+3735|angustiarse
+3736|ceñido
+3737|el turbante
+3738|cavar
+3739|comprar
+3740|la provisión
+3741|la majada
+3744|el pregonero
+3745|pregonar
+3746|el cereteo
+3748|el divorcio
+3749|el contorno
+3750|el azafrán
+3753|el dromedario
+3755|el viñador
+3757|el carmita
+3758|el carmesí
+3759|el campo fértil
+3761|el carmelita
+3762|la carmelita
+3764|el trono
+3765|devastar
+3766|doblegarse
+3767|la pierna
+3768|el algodón
+3769|danzar
+3770|el vientre
+3773|la viga
+3774|el cereteo
+3775|el cordero
+3776|la cordera
+3779|el caldeo
+3780|cubrirse
+3781|el hacha
+3783|la caída
+3784|hechizar
+3785|la hechicería
+3786|el hechicero
+3787|prosperar
+3788|el provecho
+3790|escribir
+3791|el escrito
+3792|el escrito
+3793|la marca
+3795|batido
+3796|la pared
+3797|la pared
+3799|ser marcado
+3800|el oro fino
+3801|la túnica
+3803|rodear
+3804|la corona
+3805|el capitel
+3806|majar
+3807|desmenuzar
+3809|no
+3811|cansarse
+3813|cubrir
+3814|en secreto
+3816|el pueblo
+3818|No-ammi
+3819|No-ruhama
+3821|el corazón
+3823|hacer tortas
+3825|el corazón
+3826|el corazón
+3827|la llama
+3828|el incienso
+3830|el vestido
+3831|el vestido
+3832|caer
+3833|el león
+3834|la torta
+3835|emblanquecer
+3836|blanco
+3839|el álamo
+3840|el pavimento
+3842|la luna
+3843|el ladrillo
+3846|el libnita
+3848|vestir
+3849|el log
+3851|la llama
+3852|la llama
+3853|los lehabim
+3854|el estudio
+3856|desfallecer
+3857|abrasar
+3858|la llama
+3859|herir
+3860|para
+3861|por tanto
+3862|la compañía
+3863|¡ojalá!
+3864|el libio
+3867|unirse
+3868|apartarse
+3869|el avellano
+3871|la tabla
+3874|envolver
+3875|el velo
+3879|el levita
+3880|la guirnalda
+3882|el leviatán
+3883|la escalera de caracol
+3884|si no
+3886|tragar
+3887|burlarse
+3888|amasar
+3890|contigo
+3891|la perversidad
+3892|verde
+3893|el vigor
+3894|la carne
+3895|la quijada
+3897|lamer
+3900|el banquete
+3901|la guerra
+3904|la concubina
+3905|oprimir
+3906|la opresión
+3907|susurrar
+3908|el encantamiento
+3909|en secreto
+3910|la mirra
+3911|el lagarto
+3913|afilar
+3914|el festón
+3916|la noche
+3917|la lechuza
+3918|el león
+3921|la captura
+3924|la lazada
+3926|a
+3928|enseñado
+3930|la garganta
+3931|burlarse
+3932|burlarse
+3933|la burla
+3934|burlador
+3937|hablar lengua extraña
+3938|dar a comer
+3939|el ajenjo
+3940|la antorcha
+3942|delante
+3943|asirse
+3944|la burla
+3945|burlar
+3948|la enseñanza
+3950|recoger
+3951|la rebusca
+3952|lamer
+3953|recoger
+3954|la hierba tardía
+3955|el jugo
+3957|la cámara
+3958|el jacinto
+3960|calumniar
+3961|la lengua
+3963|el medio homer
+3964|que
+3965|el granero
+3968|Mea
+3969|cien
+3970|el deseo
+3971|el defecto
+3972|algo
+3973|la basura
+3974|la lumbrera
+3975|la cueva
+3976|la balanza
+3977|la balanza
+3978|el alimento
+3979|el cuchillo
+3980|el combustible
+3981|las fuerzas
+3982|el mandato
+3983|la palabra
+3984|el utensilio
+3985|rehusar
+3986|renuente
+3987|rehusar
+3989|lo cocido
+3990|la oscuridad
+3991|la oscuridad
+3992|irritar
+3993|la emboscada
+3994|la maldición
+3995|lo apartado
+3996|la entrada
+3997|la entrada
+3998|la confusión
+3999|el diluvio
+4001|el pisoteo
+4002|el manantial
+4003|el vacío
+4004|lo escogido
+4005|lo escogido
+4007|la esperanza
+4008|lo pronunciado
+4009|la confianza
+4010|el consuelo
+4011|el edificio
+4013|la fortaleza
+4015|el fugitivo
+4016|las partes íntimas
+4018|el fogón
+4020|el límite
+4021|la tiara
+4022|lo precioso
+4029|la torre del rebaño
+4030|lo precioso
+4032|el terror
+4033|la peregrinación
+4034|el temor
+4035|el granero
+4036|Magor-misabib
+4037|el hacha
+4038|la hoz
+4039|el rollo
+4040|el rollo
+4041|lo que se sorbe
+4042|entregar
+4044|la ceguera

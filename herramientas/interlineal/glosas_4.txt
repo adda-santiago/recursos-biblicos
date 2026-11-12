@@ -1,0 +1,851 @@
+# Interlineal hebreo–español · glosas por lema (parte 4). strong|glosa
+4045|la reprensión
+4046|la plaga
+4048|entregar
+4049|destruir
+4050|la sierra
+4052|el rebajo
+4053|el terrón
+4055|la ropa
+4056|el altar
+4059|huir
+4061|el tributo
+4062|la ciudad codiciosa de oro
+4063|la ropa
+4064|la enfermedad
+4065|el engaño
+4066|la contienda
+4067|la estatura
+4070|la morada
+4071|la hoguera
+4072|la ruina
+4073|el despeñadero
+4075|el medo
+4077|el medo
+4079|la contienda
+4083|la provincia
+4084|el madianita
+4085|el mortero
+4087|el muladar
+4090|la discordia
+4092|el madianita
+4093|el conocimiento
+4094|la estocada
+4095|el escarpado
+4096|la planta del pie
+4097|la historia
+4098|lo trillado
+4101|¿qué?
+4102|tardar
+4103|el tumulto
+4106|diestro
+4107|adulterado
+4108|el paso
+4109|el camino
+4110|la alabanza
+4112|el golpe
+4113|la fosa
+4114|la destrucción
+4115|el cepo
+4117|pagar la dote
+4118|apresurarse
+4119|la dote
+4120|la prontitud
+4123|el engaño
+4125|el moabita
+4126|la entrada
+4127|derretirse
+4128|medir
+4129|la parienta
+4130|el pariente
+4131|tambalear
+4132|la vara
+4133|el yugo
+4134|empobrecer
+4135|circuncidar
+4136|frente a
+4138|la parentela
+4139|la circuncisión
+4141|la vuelta
+4142|engastar
+4143|el fundamento
+4144|el fundamento
+4145|el fundamento
+4146|el cimiento
+4147|la atadura
+4151|la tropa
+4152|lo señalado
+4154|descoyuntado
+4155|la oscuridad
+4156|el consejo
+4157|la angustia
+4159|la señal
+4160|el opresor
+4161|la salida
+4163|la letrina
+4164|la angustia
+4165|la fundición
+4166|el fundido
+4167|burlarse
+4168|la hoguera
+4169|el combustible
+4170|el lazo
+4171|cambiar
+4172|el temor
+4173|el trillo
+4174|la bajada
+4175|el maestro
+4177|la navaja
+4178|bruñido
+4180|la posesión
+4181|la posesión
+4183|el moresetita
+4184|palpar
+4185|apartarse
+4186|la morada
+4188|el musita
+4189|la cuerda
+4190|la liberación
+4192|Mut-labén
+4193|la muerte
+4195|el provecho
+4197|el licor
+4198|consumido
+4200|el granero
+4201|el poste
+4202|el alimento
+4203|el alimento
+4204|la trampa
+4205|la herida
+4206|el cinto
+4207|el garfio
+4208|los signos del zodíaco
+4209|el designio
+4211|la podadera
+4212|las despabiladeras
+4213|lo poco
+4214|el bieldo
+4215|el viento del norte
+4218|lo sembrado
+4219|el tazón
+4220|el animal gordo
+4221|el tuétano
+4222|batir palmas
+4223|golpear
+4224|el escondrijo
+4225|la juntura
+4226|la grapa
+4227|la sartén
+4228|el ceñidor
+4229|borrar
+4230|el compás
+4231|el puerto
+4233|el mahavita
+4234|la danza
+4236|la visión
+4237|la ventana
+4239|el ariete
+4241|la preservación de la vida
+4242|el precio
+4245|la enfermedad
+4246|la danza
+4247|la cueva
+4250|el mahlita
+4251|la enfermedad
+4252|el cuchillo
+4253|la trenza
+4254|las ropas de gala
+4255|el turno
+4256|la división
+4257|Mahalat
+4259|el meholatita
+4260|la mantequilla
+4261|lo deseable
+4262|lo deseable
+4263|la compasión
+4267|el ahogo
+4268|el refugio
+4269|el bozal
+4270|la necesidad
+4272|herir
+4273|la herida
+4274|la cantería
+4275|la mitad
+4276|la mitad
+4277|cortar
+4278|lo profundo
+4281|el azadón
+4282|la reja
+4283|el día siguiente
+4285|el lugar oscuro
+4286|lo descubierto
+4288|el espanto
+4289|el incensario
+4290|el escalamiento
+4291|llegar
+4292|la escoba
+4293|la matanza
+4295|abajo
+4296|la cama
+4297|la perversidad
+4298|la extensión
+4299|lo hilado
+4300|la barra
+4301|el tesoro escondido
+4302|el plantío
+4303|el guisado
+4304|el chal
+4305|hacer llover
+4306|la lluvia
+4307|el blanco
+4309|Matri
+4315|lo mejor
+4323|el arroyo
+4327|la especie
+4329|el pórtico
+4330|el batido
+4334|la llanura
+4339|la rectitud
+4340|la cuerda
+4341|el dolor
+4342|abundar
+4345|el enrejado
+4346|la tela gruesa
+4347|el golpe
+4348|la quemadura
+4349|el lugar
+4350|la basa
+4351|el origen
+4354|el maquirita
+4355|ser abatido
+4356|el redil
+4357|perfecto
+4358|el vestido de gala
+4359|la perfección
+4360|la ropa preciosa
+4361|el alimento
+4362|el tesoro
+4364|la red
+4365|la red
+4369|la base
+4370|los calzoncillos
+4371|el tributo
+4372|la cubierta
+4373|el número
+4374|la cubierta
+4377|el precio
+4378|el conocido
+4379|el hoyo
+4380|el arma
+4382|el mequeratita
+4383|el tropiezo
+4384|el tropiezo
+4385|la escritura
+4386|el destrozo
+4387|Mictam
+4388|el mortero
+4389|Mactes
+4391|llenar
+4393|la plenitud
+4394|la consagración
+4395|la plenitud
+4396|el engaste
+4398|el ángel
+4400|el mensaje
+4402|la plenitud
+4403|la vestidura
+4404|el horno de ladrillos
+4405|la palabra
+4406|la palabra
+4408|la malva
+4410|el reino
+4411|la posada
+4412|la choza
+4414|salar
+4415|comer la sal
+4416|la sal
+4417|la sal
+4418|los trapos
+4419|el marinero
+4420|la tierra salada
+4423|el barro
+4425|la espiga
+4426|la sátira
+4430|el rey
+4431|el consejo
+4433|la reina
+4434|la trampa
+4436|la reina
+4437|el reino
+4440|el malquielita
+4446|la reina
+4448|hablar
+4449|hablar
+4451|la aguijada
+4452|ser dulce
+4453|el mayordomo
+4454|desnucar
+4455|la presa
+4456|la lluvia tardía
+4457|las tenazas
+4458|el guardarropa
+4459|la muela
+4460|el granero
+4461|la medida
+4463|la muerte
+4464|el bastardo
+4465|la venta
+4466|la venta
+4468|el reino
+4469|el vino mezclado
+4470|la amargura
+4472|la amargura
+4473|ungido
+4474|el dominio
+4475|el dominio
+4476|la posesión
+4477|lo dulce
+4478|el maná
+4479|¿quién?
+4481|de
+4482|el instrumento de cuerda
+4483|contar
+4484|Mene
+4485|la copla burlesca
+4486|el entendimiento
+4487|contar
+4488|la mina
+4489|la vez
+4490|la porción
+4491|el manejo del carro
+4492|la guarida
+4493|el meneo
+4494|el reposo
+4496|el reposo
+4497|el heredero
+4498|la huida
+4499|la huida
+4500|el enjullo
+4501|el candelero
+4502|el príncipe
+4504|la ofrenda
+4510|el número
+4512|la riqueza
+4513|retener
+4514|el cerrojo
+4515|el calzado
+4516|el manjar
+4517|el sistro
+4518|el tazón
+4520|el manasita
+4521|la porción
+4522|el tributo
+4523|el afligido
+4524|alrededor
+4525|el herrero
+4526|el borde
+4527|el fundamento
+4528|el pórtico
+4529|derretir
+4530|la medida
+4531|la prueba
+4533|el velo
+4534|el seto
+4535|la protección
+4536|el comercio
+4537|mezclar
+4538|la mezcla
+4539|la cortina
+4540|la cubierta
+4541|la imagen fundida
+4542|el pobre
+4543|el almacén
+4544|la escasez
+4545|la tela
+4546|la calzada
+4547|el camino
+4548|el clavo
+4549|derretirse
+4550|la jornada
+4551|la cantera
+4552|la balaustrada
+4553|el llanto
+4554|el forraje
+4555|el velo
+4556|la erupción
+4560|entregar
+4561|la instrucción
+4562|la atadura
+4563|el escondite
+4564|lo escondido
+4565|el escondite
+4566|la obra
+4567|la obra
+4568|la arcilla
+4569|el vado
+4570|el sendero
+4571|resbalar
+4574|la delicia
+4575|el lazo
+4576|el azadón
+4577|el vientre
+4578|las entrañas
+4579|las entrañas
+4580|la torta
+4581|la fortaleza
+4583|la morada
+4585|la morada
+4586|el meunita
+4588|la oscuridad
+4589|la desnudez
+4591|disminuir
+4593|envuelto
+4594|la vestidura
+4595|el manto
+4596|el montón de ruinas
+4598|el manto
+4599|el manantial
+4600|estrujar
+4602|el maacateo
+4603|prevaricar
+4604|la infidelidad
+4606|la puesta
+4607|el alzar
+4608|la subida
+4610|la subida de Acrabim
+4611|la obra
+4612|el puesto
+4613|el pie firme
+4614|pesado
+4615|lo profundo
+4617|la respuesta
+4618|el surco
+4620|el dolor
+4621|el hacha
+4622|el impedimento
+4623|el dominio
+4624|el pretil
+4625|lo torcido
+4626|la desnudez
+4627|la mercancía
+4628|el occidente
+4629|el prado
+4631|la cueva
+4633|el plan
+4634|la fila
+4635|la hilera
+4636|desnudo
+4637|el espanto
+4642|la opresión
+4643|el diezmo
+4645|el blanco
+4646|el expirar
+4647|el fuelle
+4650|el mazo
+4651|la pulpa
+4652|la maravilla
+4653|la división
+4654|la ruina
+4655|el escape
+4656|el ídolo
+4657|el equilibrio
+4658|la caída
+4659|la obra
+4660|el destrozo
+4661|la maza
+4662|el censo
+4663|Mifcad
+4664|la brecha
+4665|la nuca
+4666|la extensión
+4667|las nalgas
+4668|la llave
+4669|la apertura
+4670|el umbral
+4671|el tamo
+4673|la guarnición
+4674|la guarnición
+4675|la guarnición
+4676|la estela
+4678|el tronco
+4679|la fortaleza
+4680|exprimir
+4683|la contienda
+4684|el relincho
+4685|la red
+4686|la fortaleza
+4688|lo profundo
+4689|la angustia
+4690|la columna
+4691|la angustia
+4692|el asedio
+4694|la fortificación
+4695|el que contiende
+4696|la frente
+4697|la greba
+4698|la campanilla
+4699|la hondonada
+4700|los címbalos
+4701|la mitra
+4702|la cama
+4703|el paso
+4704|pequeño
+4705|lo poco
+4706|Mizar
+4707|la atalaya
+4710|lo escondido
+4711|sacar
+4712|la angustia
+4715|el crisol
+4716|la podredumbre
+4717|el martillo
+4718|el martillo
+4721|la asamblea
+4723|la esperanza
+4724|el depósito
+4726|la fuente
+4727|el aceptar
+4728|la mercancía
+4729|el lugar de quemar
+4730|el incensario
+4731|la vara
+4733|el refugio
+4734|la talla
+4736|la adquisición
+4738|la adivinación
+4740|la esquina
+4741|el cepillo
+4742|la esquina
+4743|consumirse
+4744|la convocación
+4745|el acontecimiento
+4746|la viga
+4747|el verano
+4748|el peinado
+4749|la obra labrada
+4750|el pepinar
+4751|amargo
+4752|la gota
+4753|la mirra
+4754|enaltecerse
+4756|el señor
+4759|el espejo
+4760|el buche
+4761|la cabecera
+4763|la cabecera
+4765|el cobertor
+4766|la grandeza
+4767|lo mucho
+4768|la multitud
+4769|el majadal
+4770|el establo
+4771|el descanso
+4772|los pies
+4773|el montón de piedras
+4774|el refrigerio
+4775|rebelarse
+4776|la rebelión
+4777|la rebelión
+4779|rebelde
+4780|la rebeldía
+4783|perseguido
+4784|ser rebelde
+4786|la amargura
+4787|la amargura
+4788|el desamparo
+4790|magullado
+4793|la carrera
+4794|la carrera
+4795|la purificación
+4797|el banquete
+4798|el luto
+4799|aplicar
+4800|el lugar espacioso
+4801|la lejanía
+4802|la cazuela
+4803|pulir
+4804|ser arrancado
+4805|la rebeldía
+4806|el animal engordado
+4808|la rencilla
+4814|la amargura
+4815|amargo
+4816|el desmayo
+4817|la montura
+4818|el carro
+4819|el mercado
+4820|el engaño
+4823|el pisoteo
+4824|el meronotita
+4827|el hacer mal
+4828|el amigo
+4829|el pastizal
+4830|el pasto
+4832|la sanidad
+4833|lo enturbiado
+4834|ser violento
+4835|la violencia
+4836|la lezna
+4837|el enlosado
+4838|pulir
+4839|el caldo
+4840|el perfume
+4841|el ungüento
+4842|el ungüento
+4843|amargar
+4844|las hierbas amargas
+4845|la hiel
+4846|la hiel
+4848|el merarita
+4849|la impía
+4855|la usura
+4856|la acepción
+4857|el abrevadero
+4858|la carga
+4859|la deuda
+4860|el engaño
+4862|la petición
+4863|la artesa
+4864|la porción
+4865|el engaste
+4866|el parto
+4867|la ola
+4868|la ruina
+4869|el alto refugio
+4870|el error
+4871|sacar
+4874|el acreedor
+4875|la desolación
+4876|la ruina
+4878|la apostasía
+4879|el error
+4880|el remo
+4881|el seto
+4883|la sierra
+4884|la medida
+4885|el gozo
+4887|el aceite
+4888|la unción
+4889|la destrucción
+4890|la burla
+4891|el alba
+4892|la destrucción
+4893|la desfiguración
+4894|el tendedero
+4895|la hostilidad
+4896|el dominio
+4897|la seda
+4899|el ungido
+4900|tirar
+4901|la bolsa de semilla
+4903|la cama
+4904|el lecho
+4905|Masquil
+4906|la imagen
+4907|la morada
+4909|el salario
+4911|ser semejante
+4912|el proverbio
+4914|el refrán
+4915|el dominio
+4916|el envío
+4917|el envío
+4923|la desolación
+4924|la grosura
+4926|lo oído
+4928|la guardia
+4929|la custodia
+4930|el clavo
+4932|el doble
+4933|el despojo
+4934|el sendero angosto
+4935|el suavizar
+4937|el sustento
+4938|el bastón
+4939|la injusticia
+4942|el redil
+4943|la posesión
+4944|el ir y venir
+4945|el copero
+4946|el peso
+4947|el dintel
+4949|la plomada
+4950|el agua asentada
+4951|el gobierno
+4952|el jugo
+4953|la flauta
+4954|el misraíta
+4955|la quema
+4958|la sartén
+4959|palpar
+4960|el banquete
+4961|el banquete
+4962|los hombres
+4963|la paja
+4964|el freno
+4965|Meteg-ama
+4966|dulce
+4969|extender
+4970|¿hasta cuándo?
+4971|la proporción
+4972|¡qué fastidio!
+4973|la muela
+4974|lo sano
+4975|los lomos
+4976|el regalo
+4978|el regalo
+4979|el regalo
+4981|el mitnita
+4984|enaltecerse
+4985|ser dulce
+4986|la dulzura
+4987|la dulzura
+4988|saborear
+4991|el regalo
+4995|crudo
+4997|el odre
+4998|ser hermoso
+4999|la morada
+5000|hermoso
+5001|decir
+5003|adulterar
+5004|el adulterio
+5005|el adulterio
+5006|despreciar
+5007|el desprecio
+5008|gemir
+5009|el gemido
+5010|desechar
+5013|profetizar
+5014|hueco
+5016|la profecía
+5017|la profecía
+5023|el regalo
+5024|ladrar
+5029|el profeta
+5031|la profetisa
+5033|el manantial
+5034|marchitarse
+5035|el odre
+5036|necio
+5038|el cadáver
+5039|la insensatez
+5040|la vergüenza
+5042|brotar
+5043|el candelero
+5047|fluir
+5049|frente a
+5050|alumbrar
+5051|el resplandor
+5053|el alba
+5054|el resplandor
+5055|acornear
+5056|acorneador
+5057|el príncipe
+5058|la canción con instrumentos de cuerda
+5059|tocar
+5063|el tropiezo
+5064|derramar
+5065|oprimir
+5067|el montón
+5068|ofrecerse voluntariamente
+5069|ofrecer voluntariamente
+5071|la ofrenda voluntaria
+5073|la hilera
+5074|huir
+5075|huir
+5076|el revolverse
+5077|apartar
+5078|la dádiva
+5079|la impureza
+5081|noble
+5082|la dignidad
+5083|la dádiva
+5084|la vaina
+5085|el cuerpo
+5086|arrastrar
+5087|hacer voto
+5089|el lamento
+5090|conducir
+5091|lamentarse
+5092|el lamento
+5093|lamentable
+5094|la luz
+5095|conducir
+5097|el pastizal
+5098|rugir
+5099|el rugido
+5100|el rugido
+5101|rebuznar
+5102|afluir
+5105|la luz del día
+5106|desanimar
+5107|producir
+5108|el fruto
+5110|lamentar
+5111|huir
+5112|el andar errante
+5115|morar
+5116|la morada
+5118|el reposo
+5120|sacudirse
+5122|el muladar
+5123|dormitar
+5124|la somnolencia
+5125|perpetuarse
+5128|vagar
+5130|mecer
+5131|la altura
+5132|huir
+5133|la pluma
+5134|amamantar
+5135|el fuego
+5136|estar enfermo
+5137|rociar
+5138|el potaje
+5139|el nazareo
+5140|fluir
+5141|el zarcillo
+5142|perjudicar
+5143|el perjuicio
+5144|apartarse
+5145|la consagración
+5148|guiar
+5150|el consuelo
+5153|de bronce
+5154|el bronce
+5156|las narices
+5161|el nehelamita
+5164|el arrepentimiento
+5165|el consuelo
+5168|nosotros
+5169|ser urgente
+5170|el resoplido
+5172|adivinar
+5173|el agüero
+5174|el bronce
+5175|la serpiente
+5181|descender
+5182|deponer
+5183|el reposo
+5185|descendiendo
+5187|cargado
+5188|el collar
+5189|el sarmiento
+5190|levantar
+5191|levantar
+5192|pesado
+5194|la planta
+5195|la planta
+5197|destilar
+5198|la gota
+5200|el netofatita
+5201|guardar
+5202|guardar
+5203|abandonar
+5204|el lamento
+5205|el mover
+5206|lo impuro
+5207|lo grato
+5208|el olor grato
+5209|el hijo

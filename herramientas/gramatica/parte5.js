@@ -273,7 +273,7 @@
           cab: ['Herramienta', 'Para qué sirve'],
           filas: [
             ['El vocabulario de este recurso', 'Una lección de 25 palabras por semana, hasta las 751'],
-            ['Interlineal hebreo–español', 'Recurso siguiente del sitio, en preparación: cada palabra hebrea con su análisis y su traducción'],
+            ['Interlineal hebreo–español', 'Recurso siguiente del sitio: cada palabra hebrea con su análisis y su glosa en español'],
             ['Concordancia con números de Strong', 'Encontrar todas las veces que aparece una palabra hebrea'],
             ['Un diccionario de hebreo bíblico', 'Ver todos los sentidos de una palabra; en español, el de Luis Alonso Schökel'],
             ['Una Biblia hebrea', 'Leer el texto masorético; la edición de estudio más usada es la Biblia Hebraica Stuttgartensia'],
@@ -286,7 +286,8 @@
         { h: 'Un último análisis' },
         'Inténtalo. מָה־אָהַבְתִּי: el interrogativo מָה, que en las exclamaciones significa «¡cuánto!», y un perfecto qal de primera persona de אָהַב, «amar», que con verbos de sentimiento se traduce en presente: «¡cuánto amo!». תוֹרָתֶךָ: תּוֹרָה con el sufijo «tu». כָּל־הַיּוֹם: constructo de כֹּל con el artículo, «todo el día». הִיא: el pronombre «ella», sujeto de una oración nominal. Y שִׂיחָתִי: un sustantivo femenino con el sufijo «mi», «mi meditación». «¡Oh, cuánto amo yo tu ley! Todo el día es ella mi meditación».',
         { h: 'Lo que viene' },
-        'El paso siguiente en el sitio es el Interlineal hebreo–español, que pondrá cada palabra del texto hebreo junto a su análisis y su traducción. Con lo que aprendiste aquí podrás entender lo que el interlineal te muestra y usarlo con criterio. Mientras tanto, sigue con el vocabulario: una lección por semana, en voz alta, con la práctica.',
+        'El paso siguiente en el sitio es el Interlineal hebreo–español, que pone cada palabra del texto hebreo junto a su análisis y su glosa. Con lo que aprendiste aquí puedes entender lo que el interlineal te muestra y usarlo con criterio. Y sigue con el vocabulario: una lección por semana, en voz alta, con la práctica.',
+        { ir: { t: 'Abrir el Interlineal hebreo–español', a: '../../interlineal-hebreo/' } },
         { ir: { t: 'Abrir el vocabulario', a: 'vocabulario/' } },
         { h: 'El propósito' },
         'Recuerda por qué empezaste. El hebreo no es un fin en sí mismo ni un adorno para la predicación. Es una ayuda para escuchar con más atención lo que Dios dijo. «Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia, a fin de que el hombre de Dios sea perfecto, enteramente preparado para toda buena obra» (2 Ti 3:16-17). Que el estudio te lleve a amar la Palabra, como el salmista, y a vivirla.',

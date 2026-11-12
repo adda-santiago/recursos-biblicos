@@ -1,0 +1,714 @@
+# Interlineal hebreo–español · glosas por lema (parte 7). strong|glosa
+7620|la semana
+7621|el juramento
+7622|el cautiverio
+7623|alabar
+7624|alabar
+7625|la tribu
+7628|el cautiverio
+7631|la llama
+7632|la chispa
+7633|los cautivos
+7635|la senda
+7636|la redecilla
+7638|la red
+7639|el enrejado
+7640|la falda
+7641|la espiga
+7642|el caracol
+7647|la abundancia
+7648|la saciedad
+7649|saciado
+7652|Seba
+7653|la saciedad
+7654|la saciedad
+7655|siete
+7656|Seba
+7658|siete
+7659|siete veces
+7660|engastar
+7661|la angustia
+7662|dejar
+7663|esperar
+7664|la esperanza
+7666|comprar grano
+7667|el quebranto
+7668|el grano
+7670|el quebranto
+7672|turbarse
+7674|el cese
+7675|el asiento
+7677|el reposo
+7679|engrandecer
+7680|multiplicarse
+7682|poner en alto
+7683|errar
+7684|el error
+7685|crecer
+7686|errar
+7688|mirar
+7689|grande
+7690|mucho
+7691|el error
+7694|la reina
+7695|la esposa
+7696|enloquecer
+7697|la locura
+7698|la cría
+7699|el pecho
+7700|los demonios
+7701|la destrucción
+7702|desterronar
+7705|la concubina
+7709|el campo de mieses
+7710|quemar
+7711|el tizón
+7712|esforzarse
+7713|la hilera
+7716|la oveja
+7717|el testigo
+7718|el ónice
+7720|la media luna
+7721|el levantarse
+7722|la devastación
+7726|apóstata
+7728|rebelde
+7729|el regreso
+7730|las ramas espesas
+7734|retroceder
+7735|hacer crecer
+7736|devastar
+7737|igualar
+7739|asemejar
+7742|meditar
+7743|abatirse
+7745|el foso
+7747|el suhita
+7749|el suhamita
+7750|desviarse
+7751|recorrer
+7752|el látigo
+7753|cercar
+7754|la rama
+7756|el sucatita
+7757|el borde
+7758|despojado
+7759|la sulamita
+7761|poner
+7762|el ajo
+7765|el sunita
+7767|la sunamita
+7768|clamar
+7769|el clamor
+7771|el noble
+7773|el clamor
+7775|el clamor
+7776|la zorra
+7778|el portero
+7779|herir
+7781|el sufamita
+7783|regar
+7784|la calle
+7785|la pierna
+7786|gobernar
+7787|aserrar
+7788|ir
+7789|mirar
+7790|el enemigo
+7791|el muro
+7792|el muro
+7795|en hileras
+7797|alegrarse
+7799|el lirio
+7801|el susanquita
+7802|el lirio del testimonio
+7804|librar
+7805|ver
+7806|torcer
+7807|abatido
+7808|el pensamiento
+7809|sobornar
+7810|el soborno
+7811|nadar
+7813|el nadar
+7814|la risa
+7815|la negrura
+7816|el hoyo
+7817|abatir
+7818|exprimir
+7820|batir
+7821|la matanza
+7822|la úlcera
+7823|lo que nace de suyo
+7824|revestido
+7825|la fosa
+7826|el león
+7827|la uña aromática
+7828|la gaviota
+7829|la tisis
+7830|la soberbia
+7832|reír
+7833|desmenuzar
+7834|la nube
+7835|ennegrecer
+7836|buscar con diligencia
+7837|el alba
+7838|negro
+7839|la juventud
+7840|morena
+7844|corromper
+7845|la fosa
+7846|los rebeldes
+7847|desviarse
+7848|la acacia
+7849|extender
+7850|el azote
+7852|aborrecer
+7853|acusar
+7854|el adversario
+7855|la acusación
+7857|inundar
+7858|la inundación
+7859|el lado
+7860|el oficial
+7862|el presente
+7863|la excelencia
+7867|encanecer
+7868|el anciano
+7869|la vejez
+7870|el regreso
+7871|la estancia
+7872|las canas
+7873|el retirarse
+7874|blanquear
+7875|la cal
+7876|olvidar
+7878|meditar
+7879|la queja
+7880|el arbusto
+7881|la meditación
+7882|el hoyo
+7885|el remo
+7888|el silonita
+7893|el mármol
+7897|el atavío
+7898|las espinas
+7899|el aguijón
+7900|la cabaña
+7902|el acostarse
+7903|el acostarse
+7904|vagar
+7905|el arpón
+7907|el meteoro
+7908|la orfandad
+7909|privado de crías
+7910|ebrio
+7912|hallar
+7913|olvidadizo
+7914|la imagen
+7915|el cuchillo
+7916|el jornalero
+7917|el alquiler
+7918|apaciguar
+7920|considerar
+7921|perder los hijos
+7922|la prudencia
+7923|la orfandad
+7924|el entendimiento
+7926|el hombro
+7929|el hombro
+7930|el siquemita
+7932|hacer habitar
+7933|la morada
+7934|el vecino
+7936|contratar
+7937|embriagar
+7938|el salario
+7939|el salario
+7941|la sidra
+7943|la embriaguez
+7944|el error
+7945|a causa de
+7946|tranquilo
+7947|ordenar
+7948|el travesaño
+7949|ser blanco como nieve
+7950|la nieve
+7951|prosperar
+7952|descuidarse
+7953|quitar
+7954|tranquilo
+7957|la llama
+7958|las codornices
+7959|la prosperidad
+7960|la falta
+7961|tranquilo
+7962|la tranquilidad
+7963|la tranquilidad
+7964|el regalo de despedida
+7966|la retribución
+7972|enviar
+7973|la jabalina
+7975|Siloé
+7976|el sarmiento
+7980|dominar
+7981|dominar
+7982|el escudo
+7983|el poder
+7984|el gobernador
+7985|el dominio
+7986|descarada
+7987|calladamente
+7988|las secundinas
+7989|el poderoso
+7990|el que gobierna
+7991|el oficial
+7994|el somormujo
+7995|la tala
+7997|despojar
+8000|acabar
+8001|la paz
+8003|completo
+8005|la retribución
+8008|el vestido
+8011|la retribución
+8016|el silemita
+8021|el soborno
+8023|el silonita
+8024|el selaíta
+8025|sacar
+8027|triplicar
+8029|la tercera generación
+8032|anteayer
+8036|el nombre
+8041|ir a la izquierda
+8042|izquierdo
+8046|destruir
+8047|el horror
+8052|la noticia
+8056|alegre
+8058|soltar
+8059|la remisión
+8062|el semidaíta
+8063|el manto
+8065|los cielos
+8066|ocho
+8067|Seminit
+8068|el diamante
+8071|el vestido
+8075|asombrarse
+8076|desolado
+8078|el espanto
+8079|la lagartija
+8080|engordar
+8082|grueso
+8084|ochenta
+8086|oír
+8088|la noticia
+8089|la fama
+8097|el simeíta
+8099|el simeonita
+8101|el simeatita
+8102|el susurro
+8103|la burla
+8105|los sedimentos
+8107|la vigilia
+8108|la guardia
+8109|los párpados
+8117|el simronita
+8118|el samaritano
+8120|servir
+8122|el sol
+8126|el sumatita
+8128|el diente
+8131|aborrecer
+8132|cambiar
+8133|cambiar
+8135|el odio
+8136|los millares
+8138|repetir
+8139|el sueño
+8140|el año
+8142|el sueño
+8143|el marfil
+8144|la grana
+8146|aborrecido
+8148|la burla
+8150|afilar
+8151|ceñir
+8153|el sueño
+8154|saquear
+8155|saquear
+8156|hender
+8157|la hendidura
+8158|despedazar
+8159|mirar
+8160|el momento
+8161|el estruendo
+8162|la mezcla de tejidos
+8164|la llovizna
+8166|la cabra
+8168|el hueco de la mano
+8170|el saalbonita
+8172|apoyarse
+8173|deleitarse
+8175|estremecerse
+8176|pensar
+8177|el cabello
+8178|el horror
+8180|la medida
+8181|el pelo
+8182|malo
+8183|la tempestad
+8184|la cebada
+8185|el cabello
+8186|lo horrible
+8191|el deleite
+8192|sobresalir
+8194|el queso
+8196|el juicio
+8200|juzgar
+8201|el juicio
+8205|la altura desnuda
+8207|la víbora
+8209|hermoso
+8211|el derramar
+8212|el miembro viril
+8213|humillar
+8214|humillar
+8215|bajo
+8216|el lugar bajo
+8217|humilde
+8218|la hondonada
+8219|la Sefela
+8220|la flojedad
+8222|el bigote
+8225|el sifmita
+8226|esconder
+8228|la abundancia
+8229|la multitud
+8231|ser hermoso
+8232|agradar
+8233|lo hermoso
+8235|la serenidad
+8237|el pabellón
+8238|el amanecer
+8239|poner
+8240|el gancho
+8241|el arrebato
+8242|el cilicio
+8243|la pierna
+8244|ser atado
+8245|velar
+8246|en forma de almendra
+8247|el almendro
+8249|la bebida
+8250|el refresco
+8251|la abominación
+8252|reposar
+8253|la quietud
+8254|pesar
+8256|el sicómoro
+8257|hundirse
+8258|la cavidad
+8259|asomarse
+8260|la ventana
+8261|la ventana
+8262|abominar
+8263|la abominación
+8264|correr
+8265|guiñar
+8266|faltar a la palabra
+8268|el abrevadero
+8270|el ombligo
+8271|desatar
+8273|el espejismo
+8275|el cetro
+8276|entretejerse
+8277|escapar
+8278|el servicio
+8279|el lápiz
+8280|luchar
+8281|enderezar
+8282|la princesa
+8284|el muro
+8285|el brazalete
+8288|la correa
+8290|el saronita
+8291|la vid escogida
+8292|el silbido
+8295|sajarse
+8296|la incisión
+8299|el sarmiento
+8300|el sobreviviente
+8302|la coraza
+8305|cardado
+8306|el ombligo
+8307|la dureza
+8308|cruzar
+8311|ser desproporcionado
+8312|los pensamientos
+8314|el serafín
+8316|la quema
+8317|pulular
+8318|el reptil
+8319|silbar
+8320|alazán
+8321|la vid escogida
+8322|el escarnio
+8323|gobernar
+8324|el enemigo
+8326|el ombligo
+8327|arraigar
+8328|la raíz
+8330|la raíz
+8331|la cuerda
+8332|el destierro
+8333|la cadena
+8335|el servicio
+8336|el lino fino
+8338|dejar
+8341|dar la sexta parte
+8342|el gozo
+8345|sexto
+8350|el bermellón
+8353|seis
+8355|beber
+8356|el fundamento
+8357|las nalgas
+8358|la embriaguez
+8359|la urdimbre
+8360|el beber
+8361|sesenta
+8362|plantar
+8363|el retoño
+8364|el sutalita
+8365|abrirse
+8366|orinar
+8367|calmarse
+8368|reventar
+8371|poner
+8372|la cámara
+8373|anhelar
+8374|abominar
+8375|el anhelo
+8376|señalar
+8377|el antílope
+8378|el deseo
+8379|el término
+8380|los gemelos
+8381|la maldición
+8382|ser doble
+8383|el trabajo
+8384|la higuera
+8385|la ocasión
+8386|el lamento
+8388|trazar
+8389|la apariencia
+8391|el boj
+8392|el arca
+8393|la cosecha
+8394|el entendimiento
+8395|la destrucción
+8397|la depravación
+8398|el mundo
+8399|la destrucción
+8400|la nube en el ojo
+8401|la paja
+8403|el modelo
+8406|frágil
+8408|el beneficio
+8409|el golpe
+8410|el olmo
+8411|continuamente
+8414|el caos
+8415|el abismo
+8417|la locura
+8418|la marcha
+8419|la perversidad
+8420|la señal
+8421|responder
+8424|la tristeza
+8426|la acción de gracias
+8427|marcar
+8428|marcar
+8429|asombrarse
+8431|la esperanza
+8433|la reprensión
+8435|las generaciones
+8437|el opresor
+8438|el gusano
+8440|el tolaíta
+8442|el error
+8443|la fuerza
+8444|el límite
+8446|explorar
+8447|el turno
+8448|la manera
+8449|la tórtola
+8450|el buey
+8452|la costumbre
+8453|el advenedizo
+8454|la sabiduría
+8455|la maza
+8456|cortar
+8457|la prostitución
+8458|el consejo
+8460|debajo de
+8461|el tacmonita
+8462|el principio
+8463|la enfermedad
+8464|el avestruz
+8466|el campamento
+8467|la súplica
+8469|el ruego
+8470|el tahanita
+8473|la cota de malla
+8474|competir
+8476|el tejón
+8479|debajo de
+8481|inferior
+8482|lo profundo
+8484|el de en medio
+8486|el sur
+8489|el temanita
+8490|la columna
+8491|el tizita
+8492|el vino nuevo
+8495|el macho cabrío
+8496|el fraude
+8497|sentarse
+8498|la provisión
+8499|el asiento
+8500|el pavo real
+8501|el opresor
+8502|la perfección
+8503|el término
+8504|el azul
+8505|pesar
+8506|la medida
+8508|el modelo
+8509|el manto
+8510|el montón de ruinas
+8511|estar suspendido
+8513|el trabajo
+8514|la sequía
+8516|el vestido
+8517|la nieve
+8518|colgar
+8519|la murmuración
+8522|la aljaba
+8523|tercero
+8524|eminente
+8525|el surco
+8527|el discípulo
+8529|vestido de grana
+8530|la armería
+8531|el tercero
+8532|tres
+8533|treinta
+8534|el racimo
+8535|perfecto
+8536|allí
+8537|la integridad
+8538|la integridad
+8539|maravillarse
+8540|la maravilla
+8541|el asombro
+8543|ayer
+8544|la imagen
+8545|el trueque
+8546|la muerte
+8550|el Tumim
+8551|sostener
+8557|el derretirse
+8558|la palmera
+8560|la palmera
+8561|la palmera
+8562|la purificación
+8563|la amargura
+8564|el poste
+8565|el chacal
+8566|pagar
+8567|celebrar
+8568|el chacal
+8569|el alejamiento
+8570|el fruto
+8571|el lóbulo
+8572|el sueño ligero
+8573|la ofrenda mecida
+8574|el horno
+8575|la consolación
+8577|el monstruo marino
+8578|segundo
+8579|otra vez
+8580|el camaleón
+8581|abominar
+8584|el testimonio
+8585|el canal
+8586|el capricho
+8587|lo oculto
+8588|el deleite
+8589|la aflicción
+8591|burlar
+8592|la fortaleza
+8593|la navaja
+8594|los rehenes
+8595|el engaño
+8596|el pandero
+8598|el manzano
+8600|la dispersión
+8601|lo cocido
+8602|lo insípido
+8604|el desatino
+8606|el terror
+8608|tocar el pandero
+8609|coser
+8611|el escupir
+8614|el magistrado
+8615|la esperanza
+8617|la resistencia
+8618|el adversario
+8619|la trompeta
+8621|el tecoíta
+8622|el curso
+8623|poderoso
+8624|fuerte
+8625|Tekel
+8626|enderezar
+8627|ser restablecido
+8629|el sonido
+8630|prevalecer
+8631|endurecerse
+8632|el poder
+8633|la autoridad
+8635|el aumento
+8636|la usura
+8637|enseñar a andar
+8638|traducir
+8639|el sueño profundo
+8642|la ofrenda
+8643|el sonido de trompeta
+8644|la medicina
+8645|el ciprés
+8648|dos
+8649|el engaño
+8650|el mástil
+8651|la puerta
+8652|el portero
+8653|el aturdimiento
+8654|el tirateo
+8655|los terafines
+8658|el berilo
+8660|el gobernador
+8661|el tartán
+8663|el estruendo
+8664|el tisbita
+8665|el bordado
+8666|la respuesta
+8667|el depósito
+8668|la salvación
+8669|el deseo
+8670|el presente
+8671|noveno
+8673|noventa

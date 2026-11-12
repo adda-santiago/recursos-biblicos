@@ -1,0 +1,702 @@
+# Interlineal hebreo–español · glosas por lema (parte 1). strong|glosa
+# Sustantivos con artículo (da el género): el/la/los/las. Verbos en infinitivo. Adjetivos en masculino singular.
+2|el padre
+3|el verdor
+4|el fruto
+7|perecer
+8|la destrucción
+9|la cosa perdida
+10|la destrucción
+12|la destrucción
+13|la destrucción
+15|el anhelo
+16|el papiro
+17|¡ay!
+18|el pesebre
+19|el filo
+20|el melón
+24|la espiga
+33|el abiezerita
+35|el deseo
+46|el fuerte
+47|el poderoso
+55|elevarse
+56|hacer duelo
+57|enlutado
+60|el duelo
+61|ciertamente
+69|la piedra
+70|la rueda
+73|el cinto
+75|engordar
+76|la úlcera
+79|luchar
+80|el polvo
+81|el polvo
+82|volar
+83|el ala
+84|la pluma
+86|¡doblad la rodilla!
+91|el agagueo
+92|el manojo
+93|la nuez
+95|la moneda
+96|la gota
+98|el estanque
+99|el estanque
+100|el junco
+101|la taza
+102|las tropas
+103|recoger
+104|la carta
+105|el plato
+106|el puño
+107|la carta
+108|el vapor
+109|entristecer
+116|entonces
+117|poderoso
+119|enrojecer
+122|rojizo
+124|el rubí
+125|rojizo
+130|el edomita
+132|rubio
+142|ser glorioso
+145|el manto
+147|la era
+148|el juez
+149|diligentemente
+150|la dracma
+153|la fuerza
+155|el manto
+156|trillar
+158|los amores
+159|el amor
+160|el amor
+162|¡ah!
+165|¿dónde?
+166|resplandecer
+167|poner tienda
+174|el áloe
+178|el espíritu de muerto
+180|el río
+181|el tizón
+182|la causa
+183|desear
+184|trazar
+185|el deseo
+188|¡ay!
+190|¡ay!
+191|necio
+192|Evil-merodac
+193|la fuerza
+194|quizás
+196|insensato
+197|el pórtico
+199|pero
+200|la insensatez
+202|la fuerza
+212|la rueda
+213|apresurarse
+215|alumbrar
+217|el fuego
+219|la luz
+220|el corral
+224|los Urim
+225|consentir
+228|calentar
+230|decidido
+231|el hisopo
+232|el cinto
+233|entonces
+234|el memorial
+235|irse
+236|ir
+238|escuchar
+239|ponderar
+240|la pala
+246|las cadenas
+247|ceñir
+248|el brazo
+249|el natural
+250|el ezraíta
+252|el hermano
+253|¡ah!
+254|el brasero
+255|el aullador
+258|ir de una parte a otra
+260|el carrizal
+262|la declaración
+263|la explicación
+264|la hermandad
+266|el ahohíta
+268|detrás
+280|el enigma
+298|el ahiramita
+305|¡ojalá!
+306|la amatista
+309|tardar
+311|después
+317|otro
+318|al fin
+320|el último
+321|otro
+322|atrás
+323|el sátrapa
+324|el sátrapa
+327|el veloz
+328|suavemente
+329|la zarza
+330|el lino fino
+331|cerrar
+332|cerrar
+334|impedido
+335|¿cuál?
+336|no
+337|¡ay!
+338|la fiera
+339|la costa
+340|ser enemigo
+342|la enemistad
+343|la calamidad
+344|el milano
+346|¿dónde?
+351|¿dónde?
+353|la fuerza
+354|el ciervo
+355|la cierva
+360|la fuerza
+361|el pilar
+363|el árbol
+365|la cierva
+366|terrible
+367|el terror
+370|¿de dónde?
+371|¿no?
+373|el jezerita
+374|el efa
+375|¿dónde?
+377|ser hombre
+380|la niña del ojo
+383|hay
+386|perenne
+388|Etanim
+391|engañoso
+393|cruel
+394|cruel
+395|la crueldad
+396|la comida
+399|comer
+400|la comida
+402|el alimento
+403|ciertamente
+404|apremiar
+405|la carga
+406|el labrador
+409|no
+411|estos
+412|estos
+417|el granizo
+418|el sándalo
+421|lamentar
+422|jurar
+423|el juramento
+424|la encina
+426|=Dios
+427|la encina
+429|estos
+431|¡he aquí!
+432|y si
+436|la encina
+437|la encina
+438|la encina
+440|el elonita
+444|corromperse
+451|la cola
+457|el ídolo
+459|estos
+479|estos
+480|¡ay!
+481|enmudecer
+482|el silencio
+483|mudo
+484|el sándalo
+485|la gavilla
+488|abandonado
+489|la viudez
+491|la viudez
+492|fulano
+502|aprender
+503|producir millares
+504|el ganado
+506|mil
+509|apremiar
+510|irresistible
+512|el elcosita
+516|no destruyas
+521|el codo
+523|la nación
+524|la nación
+525|el artífice
+527|la multitud
+529|la fidelidad
+533|fuerte
+534|la copa
+535|languidecer
+536|débil
+537|débil
+540|creer
+541|ir a la derecha
+542|el artífice
+543|amén
+544|la verdad
+545|la crianza
+546|verdaderamente
+547|la columna
+548|el pacto firme
+551|verdaderamente
+552|en verdad
+553|esforzarse
+554|alazán
+555|la fuerza
+556|la fuerza
+560|decir
+562|el dicho
+563|el cordero
+565|la palabra
+570|ayer
+572|el costal
+574|terrible
+575|¿adónde?
+576|yo
+577|¡oh!, te ruego
+578|gemir
+579|acontecer
+581|ellos
+582|el hombre
+584|gemir
+585|el gemido
+586|nosotros
+590|la flota
+591|la nave
+592|el lamento
+594|la plomada
+596|quejarse
+597|obligar
+598|inquietar
+599|enojarse
+600|el rostro
+601|la garza
+602|gemir
+603|el gemido
+604|el hurón
+605|incurable
+606|el hombre
+607|tú
+608|vosotros
+610|la vasija
+611|el daño
+612|la cadena
+613|la prisión
+614|la cosecha
+615|el preso
+616|el preso
+618|el granero
+624|el almacén
+625|la recolección
+626|la reunión
+627|la asamblea
+628|la multitud mixta
+629|diligentemente
+632|el voto
+633|el decreto
+636|la madera
+638|también
+640|ceñir
+642|el revestimiento
+643|el palacio
+644|cocer
+645|pues
+646|el efod
+648|verde
+650|el cauce
+651|oscuro
+652|la oscuridad
+653|la oscuridad
+655|la ocasión
+656|acabarse
+657|el extremo
+659|la nada
+660|la víbora
+661|rodear
+662|contenerse
+665|la ceniza
+666|la venda
+667|el polluelo
+668|la carroza
+670|el afarsita
+671|el afarsaquita
+673|el efrateo
+674|la renta
+676|el dedo
+677|el dedo
+678|el noble
+679|la axila
+680|reservar
+685|la cadenilla
+686|atesorar
+688|el carbunclo
+689|la gamuza
+691|el valiente
+693|acechar
+695|la emboscada
+696|la emboscada
+697|la langosta
+698|la astucia
+699|la ventana
+701|el arbita
+703|cuatro
+706|cuadruplicado
+707|tejer
+708|la lanzadera
+710|la púrpura
+711|la púrpura
+712|el cofre
+713|la púrpura
+716|el ardita
+717|recoger
+718|¡he aquí!
+721|el arvadeo
+723|el establo
+724|la sanidad
+729|de cedro
+731|la obra de cedro
+732|caminar
+735|el camino
+736|la caravana
+737|la ración
+741|el altar
+744|el león
+748|alargar
+749|conveniente
+750|largo
+752|largo
+754|la prolongación
+755|la rodilla
+756|el arquevita
+757|el arquita
+759|el palacio
+761|el arameo
+762|en arameo
+766|el pino
+768|la liebre
+772|la tierra
+773|el fondo
+778|la tierra
+781|desposar
+782|el deseo
+785|la llama
+786|hay
+787|el fundamento
+789|el asbelita
+793|la cascada
+794|la ladera
+796|el asdodita
+797|en asdodeo
+803|el fundamento
+808|el fundamento
+809|la torta de pasas
+810|el testículo
+811|el racimo
+814|el presente
+815|el tamarisco
+816|ser culpable
+817|la culpa
+818|culpable
+819|la culpa
+820|el lugar desolado
+821|la vigilia
+822|la celosía
+825|el encantador
+826|el encantador
+827|la aljaba
+829|la porción
+830|el muladar
+832|el ascalonita
+833|guiar
+835|la bienaventuranza
+837|la dicha
+838|el paso
+843|el aserita
+845|el asrielita
+846|el muro
+848|el estaolita
+849|la sedición
+852|la señal
+855|la reja del arado
+857|venir
+858|venir
+860|la asna
+861|el horno
+862|la galería
+865|antes
+866|la paga
+868|la paga
+870|el lugar
+872|la entrada
+873|malo
+874|declarar
+875|el pozo
+877|la cisterna
+886|el beerotita
+887|heder
+888|desagradar
+889|el hedor
+890|la cizaña
+891|las uvas silvestres
+892|la niña del ojo
+896|el babilonio
+900|las traiciones
+901|traicionero
+906|el lino
+907|la jactancia
+908|inventar
+909|estar solo
+910|solo
+913|el estaño
+914|separar
+915|el pedazo
+916|el bedelio
+918|reparar
+919|la grieta
+921|esparcir
+922|el vacío
+923|el pórfido
+924|apresuradamente
+925|brillante
+926|turbarse
+927|turbar
+928|el terror
+930|el behemot
+931|el pulgar
+933|la mancha blanca
+934|la mancha
+936|menospreciar
+937|el menosprecio
+939|el desprecio
+940|el buzita
+943|estar confuso
+944|el producto
+947|hollar
+948|el lino fino
+950|la vaciedad
+951|el boyero
+952|declarar
+955|la vergüenza
+956|pasar la noche
+957|el despojo
+958|devastar
+959|menospreciar
+960|despreciado
+961|el despojo
+962|saquear
+963|el desprecio
+965|el relámpago
+967|esparcir
+969|el examinador
+970|el joven
+971|la torre
+972|escogido
+973|aborrecer
+974|probar
+975|la atalaya
+976|probado
+978|el baharumita
+979|la juventud
+981|hablar a la ligera
+983|la seguridad
+985|la confianza
+986|la confianza
+987|la seguridad
+988|cesar
+989|detener
+992|el pistacho
+994|¡ay!, te ruego
+997|entre
+998|el entendimiento
+999|el conocimiento
+1000|el huevo
+1001|el palacio
+1002|el palacio
+1003|la fortaleza
+1005|la casa
+1006|el templo
+1017|el betelita
+1018|Bet-esel
+1022|el betlehemita
+1023|el lugar distante
+1030|el betsemita
+1036|Bet-le-afra
+1055|el palacio
+1056|Baca
+1057|la morera
+1059|el llanto
+1061|las primicias
+1062|la primogenitura
+1063|la breva
+1065|el llanto
+1067|la primogénita
+1068|el llanto
+1069|dar la primogenitura
+1070|el dromedario
+1072|la camella joven
+1073|temprano
+1076|el bequerita
+1079|el ánimo
+1080|quebrantar
+1082|reanimarse
+1086|envejecer
+1087|viejo
+1091|el espanto
+1093|el tributo
+1094|los trapos viejos
+1098|el forraje
+1099|la nada
+1100|la perversidad
+1101|mezclar
+1102|refrenar
+1103|recoger higos
+1105|lo devorado
+1107|sin
+1108|el belaíta
+1110|devastar
+1119|en
+1123|el hijo
+1124|edificar
+1125|Ben-abinadab
+1127|Ben-geber
+1128|Ben-decar
+1133|Ben-hur
+1136|Ben-hesed
+1140|el edificio
+1143|el paladín
+1145|el benjamita
+1146|el edificio
+1147|el edificio
+1149|enojarse
+1154|la uva agraz
+1155|la uva agria
+1156|pedir
+1158|buscar
+1159|la petición
+1161|los terrores
+1163|dar coces
+1164|la súplica
+1165|la bestia
+1166|enseñorearse
+1169|el canciller
+1172|la señora
+1198|el necio
+1200|el incendio
+1204|espantar
+1205|el espanto
+1206|el lodo
+1207|el pantano
+1210|la vendimia
+1211|la cebolla
+1214|cortar
+1215|la ganancia
+1216|hincharse
+1217|la masa
+1219|fortificar
+1220|el oro
+1222|el oro
+1223|el aprisco
+1225|la fortaleza
+1226|la sequía
+1228|la vasija
+1233|la hendidura
+1235|el beca
+1236|la llanura
+1237|el valle
+1238|vaciar
+1239|inquirir
+1240|investigar
+1243|el cuidado
+1244|el castigo
+1246|la petición
+1247|el hijo
+1248|el hijo
+1249|puro
+1250|el trigo
+1251|el campo
+1252|la pureza
+1253|la lejía
+1257|el ave cebada
+1258|granizar
+1259|el granizo
+1261|manchado
+1262|comer
+1264|el paño fino
+1265|el ciprés
+1266|el ciprés
+1267|la comida
+1273|el barhumita
+1274|gordo
+1276|el berita
+1277|gordo
+1278|la cosa nueva
+1279|la comida
+1280|el cerrojo
+1281|huidizo
+1284|el beriíta
+1287|el jabón
+1289|bendecir
+1290|la rodilla
+1291|la rodilla
+1295|el estanque
+1297|pero
+1299|relampaguear
+1300|el relámpago
+1303|el abrojo
+1304|la esmeralda
+1305|purificar
+1307|el berotita
+1309|las buenas nuevas
+1310|cocer
+1311|cocido
+1313|el bálsamo
+1314|el perfume
+1317|la vergüenza
+1318|pisotear
+1319|anunciar
+1321|la carne
+1322|la vergüenza
+1324|el bato
+1325|el bato
+1326|la desolación
+1327|la desolación
+1331|la virginidad
+1333|traspasar
+1334|partir
+1335|la parte
+1336|Beter
+1341|soberbio
+1342|engrandecerse
+1343|soberbio
+1344|la soberbia
+1346|la majestad
+1348|la soberbia
+1349|soberbio
+1351|contaminar
+1352|la contaminación
+1353|el rescate
+1354|el lomo
+1355|la espalda
+1356|el foso
+1357|la langosta
+1358|el foso
+1360|el foso
+1361|ser alto
+1362|altivo

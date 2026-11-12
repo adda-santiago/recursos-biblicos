@@ -1,0 +1,158 @@
+# Interlineal · nombres propios corregidos a mano (tienen prioridad sobre nombres_auto.tsv). strong|glosa
+7706|=el Omnipotente
+5103|el río
+5675|el otro lado
+883|Beer-lajai-roi
+7956|Sela
+3845|Libni
+2984|Ibhar
+3156|Izrahías
+7293|Rahab
+6464|Pau
+4025|Magdiel
+5855|Atarot-sofán
+368|los emitas
+1044|Bet-eked
+5761|Avim
+5757|el aveo
+2675|Hazor-hadata
+2693|Hazar-gada
+513|Eltolad
+3726|Quefar-haamoni
+1034|Bet-lebaot
+6278|Ita-cazín
+514|Elteque
+4313|Mejarcón
+64|Abel-keramim
+45|Abi-albón
+6768|Selec
+3086|Joadán
+5052|Noga
+3433|Jasubi-lehem
+6377|Pitón
+8347|Sesac
+4851|Mas
+5745|Obal
+3777|Quesed
+2058|Vapsi
+2052|Vaheb
+5489|Suf
+3822|Lebaot
+6799|Zenán
+1810|Dileán
+3522|Cabón
+1837|Dana
+694|Arab
+3241|Janum
+2547|Humta
+2478|Halhul
+4638|Maarat
+5044|Nibsán
+7245|Rabit
+7432|Remet
+487|Alamelec
+5346|Neceb
+3375|Irón
+3055|Jehúd
+6911|Kibsaim
+1829|Dimna
+8012|Salmón
+3380|Jerobaal
+2460|Heleb
+456|Elihoref
+301|Ahisar
+292|Ahinadab
+1398|Geber
+4443|Malquiram
+6889|Zeret
+2867|Hatat
+5900|Iru
+2536|Hamuel
+880|Beera
+2432|Hilén
+2160|Zemira
+3185|Jahzeel
+6457|Pasac
+5477|Súa
+5119|Noha
+261|Ehud
+3263|Jeuz
+3461|Ismerai
+3301|Ifdaías
+1230|Bacbacar
+8054|Samot
+2360|Hurai
+5721|Adina
+5814|Uzías
+4677|Mesobaíta
+498|Eluzai
+4925|Mismana
+6273|Otni
+115|Adoraim
+2335|Hozai
+4572|Maadai
+2057|Vanías
+4367|Macnadebai
+7968|Salum
+4047|Magpías
+2769|los hermonitas
+1381|Gebal
+4088|Madmena
+5436|el sabeo
+1408|=la Fortuna
+4507|=el Destino
+839|el boj
+3552|Cub
+1833|Damasco
+5522|el tabernáculo
+6251|la cría
+760|Aram de Soba
+2157|los zomzomeos
+8554|el timnateo
+5196|Netaim
+5155|Nehilot
+2038|Harmón
+5297|Menfis
+4644|Menfis
+4996|Tebas
+33|el abiezerita
+128|Adama
+410|=Dios
+462|Elioenai
+538|Amam
+739|Ariel
+791|Asbea
+1122|Ben
+1151|Ben-ammi
+1184|Baala de Judá
+1575|los gamadeos
+2105|Zohet
+2533|Hemdán
+2578|Hamat de Soba
+2579|Hamat la grande
+2663|Hafaraim
+2695|Hezrai
+3050|=JAH
+3223|Jemuel
+3298|Jaresías
+3404|Jerías
+3465|Jasén
+4216|=las Mazarot
+4265|Mahanedán
+4692|Egipto
+4693|Egipto
+5554|Sela
+5887|En-tapúa
+5904|Ir-nahas
+6265|Ataías
+6334|Porata
+6420|Palal
+6534|Parmasta
+6837|Zifión
+7016|Cina
+7154|Quiriat-baal
+7158|Quiriat-sana
+7276|Regem
+7422|Ramías
+7433|Ramot de Galaad
+8483|Tahtim-hodsi

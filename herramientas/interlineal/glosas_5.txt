@@ -1,0 +1,901 @@
+# Interlineal hebreo–español · glosas por lema (parte 5). strong|glosa
+5213|la chispa
+5214|arar
+5215|el barbecho
+5216|la lámpara
+5217|ser expulsado
+5218|abatido
+5219|las especias
+5220|el nieto
+5222|el abyecto
+5223|cojo
+5226|delante de
+5227|frente a
+5228|recto
+5229|lo recto
+5230|maquinar
+5231|la artimaña
+5232|los bienes
+5233|las riquezas
+5235|extraño
+5236|el extranjero
+5237|extranjero
+5238|el tesoro
+5239|acabar
+5240|despreciable
+5242|el nemuelita
+5243|cortar
+5244|la hormiga
+5245|el leopardo
+5246|el leopardo
+5251|la bandera
+5252|el giro
+5253|apartar
+5254|probar
+5255|arrancar
+5256|ser derribado
+5257|la libación
+5258|derramar
+5259|tendido
+5260|ofrecer
+5261|la libación
+5263|desfallecer
+5264|alzar bandera
+5266|subir
+5267|subir
+5271|la juventud
+5273|agradable
+5274|calzar
+5275|la sandalia
+5276|ser agradable
+5278|la hermosura
+5280|el naamita
+5282|lo agradable
+5284|el naamatita
+5285|el espino
+5286|gruñir
+5287|sacudir
+5289|el cachorro
+5290|la juventud
+5296|la estopa
+5299|la criba
+5301|soplar
+5303|el gigante
+5304|los nefisim
+5306|el carbunclo
+5308|caer
+5309|el abortivo
+5310|despedazar
+5311|el aguacero
+5312|salir
+5313|el gasto
+5314|recobrar el aliento
+5316|la altura
+5317|el panal
+5319|la lucha
+5320|los naftuhim
+5322|la flor
+5323|irse
+5325|el mango
+5326|la firmeza
+5327|desolar
+5328|la flor
+5330|distinguirse
+5331|la perpetuidad
+5332|la sangre
+5333|el gobernador
+5338|librar
+5339|la flor
+5340|centellear
+5342|el renuevo
+5343|limpio
+5344|horadar
+5345|el engaste
+5347|la hembra
+5348|salpicado
+5349|el pastor
+5350|el pan mohoso
+5351|el adorno
+5352|tener por inocente
+5354|hastiarse
+5355|inocente
+5356|la inocencia
+5357|la hendidura
+5358|vengar
+5359|la venganza
+5360|la venganza
+5361|apartarse
+5362|rodear
+5363|el sacudir
+5364|la soga
+5365|sacar
+5366|la hendidura
+5367|tender lazo
+5368|golpearse
+5372|el chismoso
+5373|el nardo
+5376|alzar
+5377|engañar
+5378|prestar con usura
+5379|el regalo
+5380|soplar
+5382|olvidar
+5383|prestar
+5384|el tendón contraído
+5385|la carga
+5386|la deuda
+5388|el olvido
+5389|las mujeres
+5390|el beso
+5391|morder
+5392|la usura
+5393|la cámara
+5394|soltar
+5395|destruir
+5396|el aliento
+5397|el aliento
+5398|soplar
+5399|el crepúsculo
+5400|encender
+5401|besar
+5402|las armas
+5403|el águila
+5404|el águila
+5405|secarse
+5406|la carta
+5407|la carta
+5408|despedazar
+5409|el trozo
+5410|la senda
+5411|los sirvientes del templo
+5412|los sirvientes del templo
+5413|derramarse
+5415|dar
+5420|desgarrar
+5421|ser quebrado
+5422|derribar
+5423|romper
+5424|la tiña
+5425|saltar
+5426|sacudir
+5427|el nitro
+5428|arrancar
+5429|el sea
+5430|la bota
+5431|el que calza botas
+5432|con medida
+5433|beber en exceso
+5435|la bebida
+5438|el giro
+5440|entretejer
+5441|el matorral
+5442|el matorral
+5443|la sambuca
+5445|llevar
+5446|ser puesto
+5447|la carga
+5448|la carga
+5449|el cargador
+5450|la carga
+5451|Sibolet
+5452|pensar
+5456|postrarse
+5457|adorar
+5458|el pecho
+5459|el tesoro especial
+5460|el prefecto
+5461|el gobernador
+5463|cerrar
+5464|la lluvia torrencial
+5465|el cepo
+5466|la sábana
+5468|el orden
+5469|redondo
+5470|la cárcel
+5472|retroceder
+5473|cercar
+5474|la jaula
+5475|el consejo íntimo
+5478|el desecho
+5480|ungirse
+5481|la zampoña
+5484|la yegua
+5486|terminar
+5487|cumplirse
+5488|el junco
+5490|el fin
+5491|el fin
+5492|el torbellino
+5494|degenerado
+5496|incitar
+5497|el vestido
+5498|arrastrar
+5499|el trapo
+5500|barrer
+5501|la escoria
+5502|barrer
+5503|comerciar
+5504|la ganancia
+5505|la ganancia
+5506|el comercio
+5507|el escudo
+5508|el mármol negro
+5509|la escoria
+5513|el sineo
+5518|la olla
+5519|la multitud
+5520|la guarida
+5521|la enramada
+5525|el suquita
+5526|cubrir
+5528|enloquecer
+5529|la necedad
+5530|necio
+5531|la necedad
+5532|ser útil
+5533|empobrecerse
+5534|ser cerrado
+5535|callar
+5536|el canastillo
+5537|igualar
+5539|endurecerse
+5541|valuar
+5544|el espino
+5545|perdonar
+5546|perdonador
+5547|el perdón
+5549|levantar
+5550|el terraplén
+5551|la escalera
+5552|el canastillo
+5556|el langostín
+5557|pervertir
+5558|la perversidad
+5559|subir
+5561|la especia aromática
+5563|la flor de la vid
+5564|apoyar
+5566|el ídolo
+5567|señalado
+5568|erizarse
+5569|velludo
+5572|la zarza
+5575|la ceguera
+5577|la rama
+5579|las aletas
+5580|la polilla
+5582|sostener
+5583|ayudar
+5584|ser tempestuoso
+5585|la hendidura
+5586|desramar
+5587|el pensamiento
+5588|el indeciso
+5589|la rama
+5590|azotar la tempestad
+5591|la tempestad
+5592|el umbral
+5594|hacer duelo
+5595|destruir
+5596|juntar
+5597|la tiña
+5599|lo que nace solo
+5600|la nave
+5601|el zafiro
+5602|el tazón
+5603|cubrir
+5604|el artesonado
+5605|estar a la puerta
+5606|batir
+5607|lo suficiente
+5609|el libro
+5610|el censo
+5613|el escriba
+5615|el número
+5616|el sefarvita
+5619|apedrear
+5620|triste
+5621|el cardo
+5622|el manto
+5625|el sardita
+5627|la rebelión
+5628|extenderse
+5629|el sobrante
+5630|la cota de malla
+5631|el eunuco
+5632|el gobernador
+5633|el príncipe
+5634|la rama
+5635|quemar
+5636|la ortiga
+5637|ser rebelde
+5638|el invierno
+5640|tapar
+5642|ocultar
+5643|el escondedero
+5645|la nube densa
+5646|el madero
+5648|hacer
+5649|el siervo
+5652|la obra
+5657|la servidumbre
+5659|la servidumbre
+5666|engrosar
+5667|la prenda
+5669|el grano añejo
+5670|tomar prenda
+5671|la prenda
+5672|el espesor
+5673|la obra
+5678|el furor
+5679|el vado
+5680|el hebreo
+5685|pudrirse
+5686|tramar
+5687|frondoso
+5688|la cuerda
+5689|enamorarse
+5690|los amores
+5691|la pasión
+5692|la torta cocida
+5693|la grulla
+5694|el anillo
+5695|el becerro
+5696|redondo
+5697|la becerra
+5699|el carro
+5701|entristecerse
+5702|abstenerse
+5705|hasta
+5706|el botín
+5708|la inmundicia
+5709|pasar
+5710|adornar
+5713|el testimonio
+5716|el adorno
+5719|voluptuoso
+5726|el adulamita
+5727|deleitarse
+5728|aún
+5730|el deleite
+5732|el tiempo
+5736|sobrar
+5737|faltar
+5739|el rebaño
+5742|la lenteja
+5743|oscurecer con nube
+5746|cocer
+5748|la flauta
+5749|testificar
+5751|aún
+5753|torcer
+5754|la ruina
+5756|refugiarse
+5758|la iniquidad
+5759|el niño
+5760|el injusto
+5763|criar
+5764|el niño de pecho
+5765|obrar injustamente
+5767|el injusto
+5768|el niño de pecho
+5770|mirar con recelo
+5772|el deber conyugal
+5773|la perversidad
+5774|volar
+5776|el ave
+5777|el plomo
+5779|tomar consejo
+5781|apretar
+5783|ser descubierto
+5784|el tamo
+5786|cegar
+5787|ciego
+5788|la ceguera
+5789|apresurarse
+5790|sostener
+5791|torcer
+5792|el agravio
+5794|fuerte
+5796|la cabra
+5801|la mercancía
+5805|el abandono
+5807|la fuerza
+5808|fuerte
+5810|fortalecerse
+5817|el uzielita
+5822|el águila marina
+5823|cavar
+5824|el sello
+5828|la ayuda
+5833|la ayuda
+5835|el descanso
+5841|el gazita
+5842|el estilo
+5843|el consejo
+5844|cubrirse
+5845|el regazo
+5846|el estornudo
+5847|el murciélago
+5848|desfallecer
+5849|coronar
+5850|la corona
+5856|el montón de ruinas
+5860|lanzarse sobre
+5861|el ave de rapiña
+5865|siempre
+5868|la fuerza
+5870|el ojo
+5888|desmayar
+5889|cansado
+5890|la oscuridad
+5894|el vigilante
+5895|el pollino
+5898|la ciudad de la sal
+5903|desnudo
+5906|la Osa
+5908|la araña
+5909|el ratón
+5913|tintinear
+5914|la ajorca
+5916|turbar
+5919|la víbora
+5920|lo alto
+5922|sobre
+5923|el yugo
+5924|encima
+5926|tartamudo
+5928|el holocausto
+5929|la hoja
+5931|el pretexto
+5932|la iniquidad
+5934|la juventud
+5936|la sanguijuela
+5937|regocijarse
+5938|regocijado
+5939|el crepúsculo
+5940|el mazo
+5942|superior
+5943|el Altísimo
+5944|la cámara alta
+5946|el Altísimo
+5947|alegre
+5948|el horno
+5949|la obra
+5950|la obra
+5951|el regocijo
+5952|la cámara alta
+5953|tratar severamente
+5954|entrar
+5955|la rebusca
+5956|esconder
+5957|la eternidad
+5958|el muchacho
+5959|la doncella
+5961|Alamot
+5962|el elamita
+5965|regocijarse
+5966|sorber
+5967|la costilla
+5968|desfallecer
+5969|el desmayo
+5970|regocijarse
+5972|el pueblo
+5974|con
+5976|tambalear
+5977|el lugar
+5978|con
+5979|el lugar
+5980|junto a
+5984|el amonita
+5985|la amonita
+5994|profundo
+5995|la gavilla
+5997|el prójimo
+5998|trabajar
+6001|el trabajador
+6003|el amalecita
+6004|oscurecer
+6006|cargar
+6009|ahondar
+6011|la profundidad
+6012|profundo
+6013|profundo
+6014|atar gavillas
+6015|la lana
+6016|el gomer
+6020|el amramita
+6025|la uva
+6026|deleitarse
+6027|la delicia
+6028|delicado
+6029|atar
+6032|responder
+6033|el pobre
+6035|humilde
+6037|la mansedumbre
+6038|la humildad
+6039|la aflicción
+6040|la aflicción
+6045|la tarea
+6047|los anamim
+6049|ser agorero
+6050|la nube
+6053|la nube
+6056|la rama
+6057|la rama
+6058|frondoso
+6059|abastecer
+6060|el collar
+6062|el anaceo
+6064|multar
+6065|la confiscación
+6066|la multa
+6069|el anatotita
+6071|el mosto
+6072|pisotear
+6073|la rama
+6074|las ramas
+6075|ensoberbecerse
+6076|el tumor
+6079|el párpado
+6080|echar polvo
+6082|el cervatillo
+6087|entristecerse
+6088|triste
+6089|el dolor
+6090|el ídolo
+6091|el ídolo
+6092|el obrero
+6093|el dolor
+6094|la herida
+6095|cerrar
+6096|el espinazo
+6097|el árbol
+6099|poderoso
+6101|ser perezoso
+6102|perezoso
+6103|la pereza
+6104|la ociosidad
+6105|ser fuerte
+6108|el vigor
+6109|la fuerza
+6110|el argumento
+6112|el eznita
+6113|detener
+6114|el poder
+6115|la esterilidad
+6116|la asamblea solemne
+6117|suplantar
+6118|a causa de
+6119|el talón
+6120|el acechador
+6121|engañoso
+6122|la astucia
+6123|atar
+6124|listado
+6125|la opresión
+6127|torcerse
+6128|torcido
+6129|tortuoso
+6131|desjarretar
+6132|ser arrancado
+6133|el retoño
+6135|estéril
+6136|el tronco
+6137|el escorpión
+6139|el ecronita
+6140|torcer
+6141|perverso
+6143|la perversidad
+6145|el enemigo
+6146|el enemigo
+6148|dar fianza
+6149|ser agradable
+6150|anochecer
+6151|mezclarse
+6154|la mezcla
+6155|el sauce
+6156|dulce
+6157|la mosca
+6158|el cuervo
+6161|la prenda
+6162|la prenda
+6163|el árabe
+6164|el arbatita
+6165|anhelar
+6167|el asno montés
+6168|desnudar
+6169|el junco
+6170|la era del huerto
+6171|el asno montés
+6173|la deshonra
+6174|desnudo
+6175|astuto
+6176|el arbusto
+6178|el barranco
+6180|el erita
+6181|la desnudez
+6182|la masa
+6183|el cielo
+6184|violento
+6185|solitario
+6187|el orden
+6188|considerar incircunciso
+6189|incircunciso
+6190|el prepucio
+6191|ser astuto
+6192|amontonarse
+6193|la astucia
+6194|el montón
+6195|la astucia
+6196|el castaño
+6198|el eranita
+6199|el desvalido
+6200|el aroerita
+6201|destilar
+6202|desnucar
+6203|la cerviz
+6205|la oscuridad densa
+6206|temer
+6207|roer
+6208|el araceo
+6209|derribar
+6210|la cama
+6211|la polilla
+6212|la hierba
+6216|el opresor
+6217|las opresiones
+6218|el decacordio
+6219|brillante
+6223|rico
+6224|décimo
+6225|humear
+6226|humeante
+6227|el humo
+6229|contender
+6231|oprimir
+6233|la opresión
+6234|la opresión
+6236|diez
+6237|diezmar
+6238|enriquecer
+6239|la riqueza
+6241|la décima
+6243|veinte
+6244|consumirse
+6245|resplandecer
+6246|pensar
+6247|la obra
+6248|el pensamiento
+6249|once
+6250|el pensamiento
+6254|el astarotita
+6257|prepararse
+6260|el macho cabrío
+6261|dispuesto
+6263|preparado
+6264|lo preparado
+6266|duradero
+6267|antiguo
+6268|antiguo
+6272|oscurecerse
+6275|trasladar
+6276|duradero
+6277|insolente
+6279|orar
+6280|multiplicar
+6282|el humo espeso
+6283|la abundancia
+6284|dispersar
+6286|glorificar
+6287|el adorno
+6288|la rama
+6289|el color encendido
+6291|el higo verde
+6292|lo abominable
+6293|encontrar
+6294|el suceso
+6296|desmayar
+6297|el cadáver
+6298|encontrar
+6302|redimido
+6304|la redención
+6306|el rescate
+6308|librar
+6309|la grosura
+6313|desfallecer
+6314|el descanso
+6315|soplar
+6320|el antimonio
+6321|el haba
+6323|estar perplejo
+6324|el funita
+6328|vacilar
+6329|obtener
+6330|el tropiezo
+6331|desmenuzar
+6333|el lagar
+6335|esparcirse
+6336|el futita
+6337|el oro fino
+6338|refinar
+6339|saltar
+6340|dispersar
+6341|la trampa
+6342|temblar
+6344|el testículo
+6345|el temor
+6346|el gobernador
+6347|el gobernador
+6348|liviano
+6349|la inestabilidad
+6350|la liviandad
+6351|ser enlazado
+6352|el carbón
+6353|el alfarero
+6354|el hoyo
+6356|la boca de la cota
+6357|el topacio
+6358|abierto
+6360|el martillo
+6361|las calzas
+6362|dejar salir
+6363|el primogénito
+6365|la ruina
+6366|el filo
+6368|el hollín
+6370|la concubina
+6371|la gordura
+6374|el diente
+6375|el temblor
+6378|la redoma
+6379|fluir
+6382|la maravilla
+6383|maravilloso
+6384|el faluita
+6385|dividir
+6386|dividido
+6387|la mitad
+6388|el arroyo
+6390|el cauce
+6391|la división
+6392|la división
+6393|el acero
+6395|distinguir
+6397|el pelonita
+6398|partir
+6399|servir
+6400|el pedazo
+6402|el servicio
+6403|librar
+6405|la liberación
+6407|el paltita
+6412|el fugitivo
+6413|el remanente
+6414|el juez
+6415|el juicio
+6416|digno de juicio
+6417|el juicio
+6418|el huso
+6422|cierto
+6423|fulano
+6424|pesar
+6425|la balanza
+6426|estremecerse
+6427|el temblor
+6428|revolcarse
+6432|el peleteo
+6433|la boca
+6434|la esquina
+6436|el pannag
+6438|la esquina
+6441|dentro
+6442|interior
+6443|las perlas
+6445|mimar
+6446|la túnica de colores
+6447|la palma de la mano
+6448|considerar
+6451|el puñado
+6452|pasar por alto
+6455|cojo
+6456|el ídolo
+6458|labrar
+6459|la imagen tallada
+6460|el salterio
+6461|desaparecer
+6463|gritar
+6467|la obra
+6468|la obra
+6470|agitar
+6472|la campanilla
+6473|abrir
+6475|abrir
+6476|prorrumpir
+6477|el afilado
+6478|descortezar
+6479|la tira
+6480|desgarrar
+6481|herir
+6482|la herida
+6484|insistir
+6486|la visitación
+6487|el depósito
+6488|la guardia
+6490|el mandamiento
+6491|abrir
+6493|el que ve
+6495|la apertura
+6496|el inspector
+6497|la calabaza
+6498|la calabaza silvestre
+6500|fructificar
+6501|el asno montés
+6503|el atrio
+6504|separarse
+6505|el mulo
+6506|la mula
+6507|la semilla
+6508|el huerto
+6509|fructificar
+6510|la vaca
+6512|el topo
+6517|la olla
+6518|el aldeano
+6519|la aldea sin muros
+6520|los caudillos
+6521|el aldeano
+6522|el ferezeo
+6523|el hierro
+6524|florecer
+6525|la flor
+6526|la cría
+6527|canturrear
+6528|la uva caída
+6530|el violento
+6531|la dureza
+6532|el velo
+6533|rasgar
+6536|tener pezuña hendida
+6537|Peres
+6538|el quebrantahuesos
+6541|la pezuña
+6542|el persa
+6543|el persa
+6544|soltar
+6545|la cabellera
+6546|los caudillos
+6550|la pulga
+6553|el piratonita
+6556|la brecha
+6558|el faresita
+6561|librar
+6562|redimir
+6563|la encrucijada
+6567|declarar
+6568|claramente
+6569|el estiércol
+6572|la copia
+6573|la copia
+6574|el excremento
+6575|la explicación
+6576|extender
+6579|el noble
+6580|la extremidad
+6581|extenderse
+6582|despedazar
+6584|despojar
+6585|marchar
+6586|rebelarse
+6587|el paso
+6589|abrir
+6590|interpretar
+6591|la interpretación
+6592|la interpretación
+6593|el lino
+6594|el pabilo
+6595|el bocado
+6596|el gozne
+6597|de repente
+6598|la comida real

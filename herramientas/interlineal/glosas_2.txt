@@ -1,0 +1,801 @@
+# Interlineal hebreo–español · glosas por lema (parte 2). strong|glosa
+1363|la altivez
+1364|alto
+1365|la altivez
+1367|el límite
+1370|el poder
+1371|calvo por delante
+1372|la calva
+1375|la copa
+1376|el señor
+1377|la reina madre
+1378|el cristal
+1379|poner límites
+1382|el giblita
+1383|la cadenilla
+1384|jorobado
+1385|el queso
+1386|el pico
+1392|en flor
+1393|el gabaonita
+1395|el gabaatita
+1396|prevalecer
+1399|el hombre
+1400|el hombre
+1401|el valiente
+1404|la señora
+1406|el techo
+1407|el culantro
+1409|la fortuna
+1411|el tesorero
+1413|reunirse en tropas
+1414|derribar
+1415|la ribera
+1416|la tropa
+1417|el surco
+1418|la incisión
+1420|la grandeza
+1421|el ultraje
+1422|el escarnio
+1423|el cabrito
+1425|el gadita
+1429|la cabrita
+1430|la gavilla
+1432|grande
+1433|la grandeza
+1434|el festón
+1438|cortar
+1442|blasfemar
+1443|cercar
+1444|el muro
+1447|el muro
+1448|el vallado
+1451|el gederita
+1452|el gederatita
+1454|este
+1455|sanar
+1456|la medicina
+1457|tenderse
+1458|la espalda
+1459|el medio
+1460|la espalda
+1461|el labrador
+1462|la langosta
+1464|invadir
+1465|el cuerpo
+1466|la soberbia
+1467|la soberbia
+1468|pasar
+1469|el pichón
+1472|el cuerpo
+1473|el cautiverio
+1475|el foso
+1477|el gunita
+1478|expirar
+1479|cerrar
+1480|el cadáver
+1482|el cachorro
+1484|el cachorro
+1487|el terrón
+1488|la siega
+1489|el tesorero
+1490|el tesorero
+1491|tomar
+1492|el vellón
+1493|el gizonita
+1494|trasquilar
+1496|la piedra labrada
+1497|robar
+1498|el robo
+1499|el robo
+1500|lo robado
+1501|la oruga
+1503|el tronco
+1504|cortar
+1505|cortar
+1506|la parte
+1508|el espacio aparte
+1509|deshabitado
+1510|el decreto
+1511|el gezrita
+1512|el vientre
+1513|la brasa
+1517|el tendón
+1518|brotar
+1519|agitar
+1523|alegrarse
+1524|la alegría
+1525|el gozo
+1526|el gilonita
+1528|el yeso
+1530|la ola
+1532|el barbero
+1534|el torbellino
+1535|la rueda
+1536|la rueda
+1538|la cabeza
+1539|la piel
+1541|revelar
+1543|el tazón
+1544|el ídolo
+1545|el manto
+1546|el cautiverio
+1547|el cautiverio
+1548|rapar
+1549|el espejo
+1550|la hoja
+1552|la región
+1556|rodar
+1557|el estiércol
+1558|a causa de
+1560|grande
+1561|el estiércol
+1563|envolver
+1564|el embrión
+1565|estéril
+1566|entremeterse
+1569|el galaadita
+1570|recostarse
+1572|beber
+1573|el junco
+1574|el codo
+1576|la retribución
+1578|la recompensa
+1580|retribuir
+1584|acabar
+1585|completar
+1588|el huerto
+1589|hurtar
+1590|el ladrón
+1591|el hurto
+1593|el huerto
+1594|el huerto
+1595|el tesoro
+1596|el tesoro
+1597|la tesorería
+1598|proteger
+1600|mugir
+1602|aborrecer
+1604|el desprecio
+1605|reprender
+1606|la reprensión
+1607|estremecerse
+1610|la espalda
+1611|el ala
+1613|el gofer
+1614|el azufre
+1615|la cal
+1618|la sarna
+1620|la baya
+1621|el cuello
+1622|el gergeseo
+1623|rascar
+1624|contender
+1625|la rumia
+1626|el gera
+1627|la garganta
+1628|el albergue
+1629|ser cortado
+1631|el hacha
+1633|quebrar los huesos
+1634|el hueso
+1635|el hueso
+1636|el garmita
+1637|la era
+1638|quebrantar
+1639|quitar
+1640|arrastrar
+1641|arrastrar
+1643|el grano majado
+1644|echar fuera
+1645|el producto
+1646|la exacción
+1649|el gersonita
+1651|el gesurita
+1652|llover
+1653|la lluvia
+1655|el cuerpo
+1656|la lluvia
+1659|palpar
+1660|el lagar
+1663|el geteo
+1665|Gitit
+1668|este
+1669|languidecer
+1670|la ansiedad
+1671|la tristeza
+1672|temer
+1674|la ansiedad
+1675|volar
+1676|el milano
+1677|el oso
+1678|el oso
+1679|la fuerza
+1680|hacer hablar
+1681|la calumnia
+1682|la abeja
+1684|ofrecer
+1685|el sacrificio
+1686|el estiércol de paloma
+1687|el lugar santísimo
+1690|la torta de higos
+1693|adherirse
+1694|la juntura
+1695|unido
+1699|el pasto
+1700|la causa
+1701|el asunto
+1702|la balsa
+1703|la palabra
+1707|la giba
+1709|el pez
+1710|el pez
+1711|multiplicarse
+1713|alzar bandera
+1714|el estandarte
+1715|el grano
+1716|empollar
+1717|el pecho
+1718|andar despacio
+1720|el dedanita
+1722|el oro
+1723|el dehaveo
+1724|asombrarse
+1725|corcovear
+1726|el galope
+1727|entristecer
+1728|el pescador
+1729|el anzuelo
+1731|la canasta
+1733|la tía
+1736|la mandrágora
+1738|estar enfermo
+1739|enfermo
+1740|lavar
+1741|la enfermedad
+1742|desfallecido
+1743|majar
+1744|la abubilla
+1745|el silencio
+1747|el silencio
+1748|en silencio
+1749|la cera
+1750|saltar
+1752|habitar
+1753|habitar
+1754|la bola
+1758|trillar
+1759|hollar
+1760|empujar
+1761|el instrumento músico
+1762|la caída
+1763|temer
+1764|el mijo
+1765|apresurarse
+1766|oprimir
+1767|lo suficiente
+1768|que
+1770|pescar
+1771|el pescador
+1772|el buitre
+1773|la tinta
+1777|juzgar
+1778|juzgar
+1779|el juicio
+1780|el juicio
+1781|el juez
+1782|el juez
+1784|el dineo
+1785|el baluarte
+1786|la trilla
+1788|el antílope
+1790|oprimido
+1791|este
+1792|quebrantar
+1793|quebrantado
+1794|quebrantarse
+1795|herido
+1796|el oleaje
+1797|este
+1798|el carnero
+1799|el registro
+1800|pobre
+1801|saltar
+1802|sacar agua
+1803|el pobre
+1804|enturbiar
+1805|el cubo
+1808|la rama
+1809|debilitarse
+1811|gotear
+1812|la gotera
+1814|perseguir
+1815|arder
+1816|la inflamación
+1819|asemejar
+1820|ser destruido
+1821|parecerse
+1822|la destruida
+1823|la semejanza
+1824|el reposo
+1825|la semejanza
+1826|callar
+1827|el silencio
+1828|el estiércol
+1830|llorar
+1831|el licor
+1832|las lágrimas
+1836|este
+1839|el danita
+1843|el saber
+1844|el conocimiento
+1846|apagarse
+1848|el tropiezo
+1849|llamar
+1851|delgado
+1852|la cortina
+1854|desmenuzar
+1855|desmenuzar
+1856|traspasar
+1858|el nácar
+1859|la generación
+1860|el horror
+1861|el aguijón
+1863|el cardo
+1864|el sur
+1865|la libertad
+1866|la golondrina
+1871|la dracma
+1872|el brazo
+1876|brotar
+1877|la hierba
+1878|engordar
+1879|gordo
+1880|la grosura
+1881|el decreto
+1882|la ley
+1883|la hierba
+1884|el juez
+1887|¡he aquí!
+1888|¡he aquí!
+1889|¡ea!
+1890|las ofrendas
+1891|envanecerse
+1894|el ébano
+1895|ser astrólogo
+1897|meditar
+1898|apartar
+1899|el gemido
+1900|la meditación
+1901|el murmullo
+1902|la meditación
+1903|recto
+1905|el agareno
+1906|el eco
+1907|el consejero
+1911|extender
+1915|hollar
+1916|el estrado
+1917|el pedazo
+1918|el arrayán
+1920|empujar
+1921|honrar
+1922|glorificar
+1923|la majestad
+1925|la gloria
+1926|el esplendor
+1927|la hermosura
+1929|¡ay!
+1930|¡ah!
+1932|él
+1933|ser
+1934|ser
+1935|la majestad
+1942|la calamidad
+1943|el quebranto
+1946|ir
+1947|la locura
+1948|la locura
+1949|alborotarse
+1951|estar dispuesto
+1952|la riqueza
+1957|soñar
+1958|el lamento
+1959|el grito
+1960|la alabanza
+1963|¿cómo?
+1965|el templo
+1966|el lucero
+1969|el hin
+1970|maltratar
+1971|la acepción
+1972|ser alejado
+1973|más allá
+1974|la fiesta de alabanza
+1975|este
+1976|este
+1977|aquel
+1978|el paso
+1979|el andar
+1981|andar
+1982|el viajero
+1983|el peaje
+1986|golpear
+1988|aquí
+1989|el martillo
+1991|la riqueza de ellos
+1993|bramar
+1994|ellos
+1998|el estruendo
+1999|el estruendo
+2000|turbar
+2002|el collar
+2003|la leña
+2004|ellas
+2006|si
+2007|ellas
+2010|el alivio
+2013|¡silencio!
+2014|el descanso
+2016|lo contrario
+2017|la perversidad
+2018|la destrucción
+2019|perverso
+2020|la liberación
+2021|la carroza
+2025|el altar
+2027|la matanza
+2028|la matanza
+2029|concebir
+2030|encinta
+2031|el pensamiento
+2032|la concepción
+2033|el harodita
+2034|las ruinas
+2035|la destrucción
+2040|derribar
+2041|la destrucción
+2042|el monte
+2043|el ararita
+2045|el anuncio
+2046|la fundición
+2048|engañar
+2049|la burla
+2050|maquinar
+2053|el gancho
+2054|tortuoso
+2056|el niño
+2061|el lobo
+2064|dotar
+2065|la dote
+2070|la mosca
+2073|la morada
+2075|el zabulonita
+2082|habitar
+2084|ganar
+2085|el hollejo
+2086|soberbio
+2087|la soberbia
+2090|este
+2092|aborrecer
+2094|amonestar
+2095|cuidarse
+2096|el resplandor
+2097|este
+2098|que
+2100|fluir
+2101|el flujo
+2102|ensoberbecerse
+2103|ensoberbecerse
+2104|los zuzitas
+2106|la esquina
+2107|despreciar
+2108|excepto
+2109|alimentar
+2110|alimentar
+2111|temblar
+2112|temblar
+2113|el espanto
+2115|apretar
+2116|lo pisado
+2118|moverse
+2119|arrastrarse
+2121|impetuoso
+2122|el semblante
+2123|la fiera
+2130|el zifeo
+2131|la cadena
+2132|el olivo
+2134|puro
+2135|ser limpio
+2136|la inocencia
+2137|el cristal
+2138|el varón
+2141|ser limpio
+2143|el recuerdo
+2146|el memorial
+2149|la vileza
+2150|el sarmiento
+2151|ser glotón
+2152|el ardor
+2154|el plan
+2156|el sarmiento
+2158|el cántico
+2159|la rama
+2161|planear
+2162|el plan
+2163|señalar
+2164|ponerse de acuerdo
+2165|el tiempo
+2166|el tiempo
+2167|cantar
+2168|podar
+2169|la gamuza
+2170|la música
+2171|el cantor
+2172|el canto
+2173|lo mejor
+2176|el cántico
+2177|la especie
+2178|la clase
+2179|atacar la retaguardia
+2180|la cola
+2183|la prostitución
+2184|la prostitución
+2185|la armadura
+2186|desechar
+2187|saltar
+2188|el sudor
+2189|el espanto
+2191|poco
+2192|poco
+2193|extinguirse
+2194|maldecir
+2195|la ira
+2196|airarse
+2197|la ira
+2198|airado
+2200|clamar
+2201|el clamor
+2203|la brea
+2204|envejecer
+2206|la barba
+2207|la vejez
+2208|la vejez
+2209|la vejez
+2210|levantar
+2211|levantar
+2212|refinar
+2213|la cornisa
+2214|el asco
+2215|calentarse
+2219|esparcir
+2221|la sementera
+2222|el aguacero
+2223|el lebrel
+2224|amanecer
+2225|el resplandor
+2227|el zeraíta
+2229|inundar
+2230|el turbión
+2231|el flujo
+2234|la descendencia
+2235|las legumbres
+2236|rociar
+2237|estornudar
+2239|el palmo
+2243|el seno
+2244|esconderse
+2245|amar
+2247|esconderse
+2248|el delito
+2250|la herida
+2251|sacudir
+2253|el escondedero
+2254|tomar en prenda
+2255|destruir
+2257|el daño
+2258|la prenda
+2259|el piloto
+2260|el mástil
+2261|la rosa
+2263|abrazar
+2264|el cruzar de manos
+2266|juntarse
+2267|la compañía
+2269|el compañero
+2270|el compañero
+2271|el compañero
+2272|la mancha
+2273|la compañera
+2274|la compañía
+2276|el hebronita
+2277|el heberita
+2278|la compañera
+2279|la unión
+2280|atar
+2281|la sartén
+2283|el terror
+2284|la langosta
+2287|celebrar fiesta
+2288|la hendidura
+2289|ceñido
+2290|el cinto
+2296|ceñir
+2297|uno
+2298|uno
+2299|afilado
+2300|afilar
+2302|alegrar
+2303|la punta aguda
+2304|la alegría
+2305|el gozo
+2306|el pecho
+2309|el mundo de los muertos
+2310|frágil
+2312|el espino
+2314|entrar en la cámara
+2315|la cámara
+2318|renovar
+2323|nuevo
+2324|declarar
+2325|poner en peligro
+2326|el deudor
+2328|trazar un círculo
+2329|el círculo
+2330|proponer
+2331|declarar
+2333|la aldea
+2334|las aldeas de Jair
+2336|el espino
+2337|la espesura
+2338|unir
+2339|el cordón
+2340|el heveo
+2344|la arena
+2345|moreno
+2347|tener piedad
+2348|la costa
+2350|el hufamita
+2352|el agujero
+2353|el lino blanco
+2355|el lino blanco
+2356|la cueva
+2357|palidecer
+2358|blanco
+2363|apresurarse
+2368|el sello
+2370|ver
+2373|el pecho
+2374|el vidente
+2376|la visión
+2377|la visión
+2378|la visión
+2379|la vista
+2380|la visión
+2384|la visión
+2385|el relámpago
+2386|el cerdo
+2390|fuerte
+2391|la ayuda
+2392|la fuerza
+2393|la fuerza
+2394|la fuerza
+2397|el garfio
+2399|el pecado
+2400|pecador
+2401|el pecado
+2402|la ofrenda por el pecado
+2404|cortar leña
+2405|la talla
+2406|el trigo
+2408|el pecado
+2413|refrenar
+2414|arrebatar
+2415|la vara
+2417|vivo
+2418|vivir
+2420|el enigma
+2422|vigoroso
+2423|la bestia
+2424|la vida
+2425|vivir
+2426|el antemuro
+2427|el dolor
+2429|el ejército
+2430|el antemuro
+2433|la gracia
+2434|la pared
+2435|exterior
+2436|el seno
+2440|pronto
+2441|el paladar
+2442|esperar
+2443|el anzuelo
+2445|el sabio
+2447|rojo
+2448|el enrojecimiento
+2449|ser sabio
+2452|la sabiduría
+2454|la sabiduría
+2455|lo profano
+2456|enfermar
+2457|la herrumbre
+2461|la leche
+2464|el gálbano
+2465|el mundo
+2467|la comadreja
+2471|la torta
+2474|la ventana
+2475|el desvalido
+2476|la derrota
+2479|el dolor
+2480|tomar
+2481|el adorno
+2483|la enfermedad
+2484|el adorno
+2485|la flauta
+2486|¡lejos esté!
+2487|la muda
+2488|el despojo
+2489|el desvalido
+2492|soñar
+2493|el sueño
+2495|la malva
+2496|el pedernal
+2498|pasar
+2499|pasar
+2500|a cambio de
+2502|librar
+2504|los lomos
+2508|la porción
+2509|liso
+2511|liso
+2512|liso
+2513|la parcela
+2514|la lisonja
+2515|el reparto
+2516|el helequita
+2519|la lisonja
+2522|debilitar
+2523|débil
+2524|el suegro
+2525|caliente
+2527|el calor
+2528|la ira
+2529|la mantequilla
+2530|codiciar
+2531|lo deseable
+2532|lo precioso
+2535|el sol
+2539|el hamulita
+2541|el oprimido
+2542|el contorno
+2545|la suegra
+2546|el lagarto
+2548|limpio
+2549|quinto
+2550|compadecerse
+2551|la compasión
+2552|calentarse
+2553|la imagen del sol
+2554|violentar
+2556|leudarse
+2557|lo leudado
+2558|el vinagre
+2559|retirarse
+2560|enturbiarse
+2561|el vino tinto
+2562|el vino
+2563|el homer
+2564|el asfalto
+2565|el montón
+2567|tomar el quinto
+2569|el quinto
+2570|el vientre
+2571|armado
+2573|el odre
+2577|el hamateo
+2587|clemente
+2588|la bóveda
+2589|suplicar
