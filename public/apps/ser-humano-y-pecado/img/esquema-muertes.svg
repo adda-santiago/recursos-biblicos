@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<rect width="1200" height="760" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Tres muertes</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">La palabra «muerte» en la Biblia significa separación</text>
+<text x="330" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Consecuencia del pecado</text>
+<text x="910" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Lo que Cristo hace</text>
+<rect x="70" y="170" width="540" height="135" rx="14" fill="#2a6fb023" stroke="#2a6fb0" stroke-width="2"/>
+<text x="340" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Muerte espiritual</text>
+<text x="340" y="246" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">separación de Dios, ahora</text>
+<text x="340" y="276" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Gn 2:17; Is 59:2; Ef 2:1</text>
+<line x1="620" y1="238" x2="683" y2="238" stroke="#2f7d4a" stroke-width="4" stroke-linecap="round"/>
+<polygon points="700,238 683,252 683,224" fill="#2f7d4a"/>
+<rect x="710" y="170" width="400" height="135" rx="14" fill="#2f7d4a1e" stroke="#2f7d4a" stroke-width="2"/>
+<text x="910" y="230" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#2f7d4a" text-anchor="middle" font-weight="bold">da vida nueva</text>
+<text x="910" y="262" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ef 2:4-5; Jn 3:5</text>
+<rect x="70" y="335" width="540" height="135" rx="14" fill="#8a5a2b23" stroke="#8a5a2b" stroke-width="2"/>
+<text x="340" y="379" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#8a5a2b" text-anchor="middle" font-weight="bold">Muerte física</text>
+<text x="340" y="411" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">separación del cuerpo y el alma</text>
+<text x="340" y="441" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Gn 3:19; Ro 5:12; He 9:27</text>
+<line x1="620" y1="403" x2="683" y2="403" stroke="#2f7d4a" stroke-width="4" stroke-linecap="round"/>
+<polygon points="700,403 683,417 683,389" fill="#2f7d4a"/>
+<rect x="710" y="335" width="400" height="135" rx="14" fill="#2f7d4a1e" stroke="#2f7d4a" stroke-width="2"/>
+<text x="910" y="395" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#2f7d4a" text-anchor="middle" font-weight="bold">resucitará el cuerpo</text>
+<text x="910" y="427" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">1 Co 15:42-44, 55</text>
+<rect x="70" y="500" width="540" height="135" rx="14" fill="#b03a2e23" stroke="#b03a2e" stroke-width="2"/>
+<text x="340" y="544" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#b03a2e" text-anchor="middle" font-weight="bold">Muerte segunda</text>
+<text x="340" y="576" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2430" text-anchor="middle" font-weight="normal">separación eterna de Dios</text>
+<text x="340" y="606" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ap 20:14-15; 2 Ts 1:9</text>
+<line x1="620" y1="568" x2="683" y2="568" stroke="#2f7d4a" stroke-width="4" stroke-linecap="round"/>
+<polygon points="700,568 683,582 683,554" fill="#2f7d4a"/>
+<rect x="710" y="500" width="400" height="135" rx="14" fill="#2f7d4a1e" stroke="#2f7d4a" stroke-width="2"/>
+<text x="910" y="560" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#2f7d4a" text-anchor="middle" font-weight="bold">libra del juicio</text>
+<text x="910" y="592" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Ro 8:1; Jn 5:24</text>
+<text x="600" y="690" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">«La paga del pecado es muerte, mas la dádiva de Dios es vida eterna en Cristo Jesús» (Ro 6:23)</text>
+</svg>

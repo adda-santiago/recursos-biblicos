@@ -46,7 +46,8 @@
         'El Nuevo Testamento vuelve a esta primera frase. Juan abre su evangelio con las mismas palabras, «En el principio», para decir que el Verbo ya era y que «Todas las cosas por él fueron hechas» (Jn 1:3). La carta a los Hebreos enseña que entender la creación es asunto de fe: «Por la fe entendemos haber sido constituido el universo por la palabra de Dios» (He 11:3). Y en el cielo, los que adoran alrededor del trono dan gloria a Dios precisamente porque Él creó todas las cosas (Ap 4:11).',
         { h: 'Lo que estudia este recurso' },
         'Los once primeros capítulos de Génesis cuentan el origen de todo: el universo, la vida, el ser humano, el matrimonio, el trabajo, el pecado, la muerte, las ciudades, las lenguas y las naciones. El esquema los ordena en cinco momentos. Desde el capítulo 12, la historia se concentra en Abraham y su descendencia, y todo lo anterior explica por qué el mundo necesitaba esa promesa.',
-        'La ruta I estudia al Creador; la II, los seis días y el reposo; la III, las distintas maneras en que los creyentes leen Génesis 1. Las rutas IV a VII siguen el relato del Edén a Babel, y la VIII mira hacia adelante: la creación que espera ser renovada. La caída y la doctrina del pecado tendrán su propio recurso, El ser humano y el pecado, en preparación.',
+        'La ruta I estudia al Creador; la II, los seis días y el reposo; la III, las distintas maneras en que los creyentes leen Génesis 1. Las rutas IV a VII siguen el relato del Edén a Babel, y la VIII mira hacia adelante: la creación que espera ser renovada. La caída y la doctrina del pecado tienen su propio recurso, El ser humano y el pecado.',
+        { ir: { t: 'Abrir El ser humano y el pecado', a: '../../ser-humano-y-pecado/' } },
         { ir: { t: 'Leer Génesis 1:1 palabra por palabra en El alfabeto hebreo', a: '../../alfabeto-hebreo/#taller/1' } }
       ],
       pensar: 'Si la primera frase de la Biblia es verdad, nada de lo que existe, ni tu propia vida, está fuera de la autoridad de Dios. ¿Qué área de tu vida tratas como si no le perteneciera a Él?'
@@ -320,7 +321,8 @@
       texto: [
         'Hasta este momento, Dios ha dicho «Sea» y «Produzca». Ahora el tono cambia: «Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza» (Gn 1:26). El relato se detiene, como si Dios deliberara. La creación del ser humano es el punto más alto del capítulo, y el único lugar donde el verbo «creó» se repite tres veces en un solo versículo (Gn 1:27).',
         { h: 'A imagen de Dios' },
-        'El ser humano no es un animal más evolucionado ni un dios caído: es una criatura hecha «a imagen de Dios». En el mundo antiguo, los reyes ponían estatuas suyas en las provincias para mostrar quién gobernaba. Dios puso en la tierra a seres humanos que lo representan. Por eso reciben la orden de señorear sobre los peces, las aves y los animales: gobiernan en nombre de Dios, no por su cuenta. Qué significa exactamente la imagen de Dios, y qué quedó de ella después de la caída, se estudia en el recurso El ser humano y el pecado, en preparación.',
+        'El ser humano no es un animal más evolucionado ni un dios caído: es una criatura hecha «a imagen de Dios». En el mundo antiguo, los reyes ponían estatuas suyas en las provincias para mostrar quién gobernaba. Dios puso en la tierra a seres humanos que lo representan. Por eso reciben la orden de señorear sobre los peces, las aves y los animales: gobiernan en nombre de Dios, no por su cuenta. Qué significa exactamente la imagen de Dios, y qué quedó de ella después de la caída, se estudia en el recurso El ser humano y el pecado.',
+        { ir: { t: 'Ver «Qué es la imagen de Dios» en El ser humano y el pecado', a: '../../ser-humano-y-pecado/#imagen/2' } },
         { h: 'Varón y hembra' },
         '«Varón y hembra los creó» (Gn 1:27). Los dos llevan la imagen de Dios por igual, y los dos reciben la bendición y la tarea. Jesús citó este versículo para enseñar sobre el matrimonio: «el que los hizo al principio, varón y hembra los hizo» (Mt 19:4). La diferencia entre hombre y mujer no es un accidente ni una construcción cultural: es parte del diseño bueno de Dios.',
         { h: 'Una sola familia humana' },
@@ -593,8 +595,9 @@
           titulo: '¿Creó Dios al ser humano por medio de la evolución?',
           a: { n: 'Evolución teísta', t: 'Dios es soberano sobre los procesos naturales, como lo es sobre la lluvia o el crecimiento de un niño, y pudo crear por medio de la evolución. El relato de Génesis 2, dicen, usa imágenes (el polvo, el soplo, la costilla) para enseñar verdades sobre el ser humano, no para describir el método biológico.' },
           b: { n: 'Creación especial del ser humano', t: 'El texto presenta a Adán formado del polvo y animado por el aliento de Dios (Gn 2:7), y a Eva formada del hombre (Gn 2:21-22), algo que ningún proceso evolutivo explica. Lucas traza la genealogía de Jesús hasta «Adán, hijo de Dios» (Lc 3:38). Pablo construye la doctrina de la salvación sobre un Adán histórico: por un hombre entró el pecado, y por un hombre, Cristo, la justicia (Ro 5:12-19; 1 Co 15:21-22). Si no hubo un primer hombre real que pecó, la comparación con Cristo pierde su base.' },
-          c: 'Este recurso sostiene la creación especial del ser humano: Adán y Eva fueron personas reales, creadas directamente por Dios, de quienes desciende toda la humanidad, y su caída explica la condición del mundo. Lo hace sin dudar de la fe de quienes piensan distinto. La doctrina del ser humano y del pecado se estudia en El ser humano y el pecado, en preparación.'
+          c: 'Este recurso sostiene la creación especial del ser humano: Adán y Eva fueron personas reales, creadas directamente por Dios, de quienes desciende toda la humanidad, y su caída explica la condición del mundo. Lo hace sin dudar de la fe de quienes piensan distinto. La doctrina del ser humano y del pecado se estudia en El ser humano y el pecado.'
         } },
+        { ir: { t: 'Ver «Adán en el Nuevo Testamento» en El ser humano y el pecado', a: '../../ser-humano-y-pecado/#caida/8' } },
         { h: '«Según su género»' },
         'La palabra hebrea min, traducida «género» (Gn 1:24-25), no equivale exactamente a la «especie» de la biología: describe clases de seres vivos que se reproducen dentro de su clase, con la gran variedad que observamos hoy.'
       ],
@@ -825,7 +828,8 @@
         } }
       ],
       texto: [
-        'Génesis 3 cuenta cómo el mundo bueno que Dios creó se quebró. Este recurso solo lo resume, porque la caída, la naturaleza del pecado y sus consecuencias tienen su propio estudio en El ser humano y el pecado, en preparación. Pero sin este capítulo no se entiende el resto de Génesis 1 a 11.',
+        'Génesis 3 cuenta cómo el mundo bueno que Dios creó se quebró. Este recurso solo lo resume, porque la caída, la naturaleza del pecado y sus consecuencias tienen su propio estudio en El ser humano y el pecado. Pero sin este capítulo no se entiende el resto de Génesis 1 a 11.',
+        { ir: { t: 'Estudiar la caída en El ser humano y el pecado', a: '../../ser-humano-y-pecado/#caida/1' } },
         { h: 'La serpiente y la duda' },
         'La serpiente, que Apocalipsis identifica con la serpiente antigua, que «se llama diablo y Satanás» (Ap 12:9), comienza con una pregunta: «¿Conque Dios os ha dicho…?» (Gn 3:1). Primero siembra la duda sobre la palabra de Dios, después la niega («No moriréis») y por último calumnia el carácter de Dios: Él no quiere que ustedes sean como Él. Eva come del fruto y da a su marido, que estaba con ella. Los dos desobedecen.',
         { h: 'Las consecuencias' },

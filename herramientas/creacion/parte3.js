@@ -174,7 +174,8 @@
         } }
       ],
       texto: [
-        'Génesis 3 cuenta cómo el mundo bueno que Dios creó se quebró. Este recurso solo lo resume, porque la caída, la naturaleza del pecado y sus consecuencias tienen su propio estudio en El ser humano y el pecado, en preparación. Pero sin este capítulo no se entiende el resto de Génesis 1 a 11.',
+        'Génesis 3 cuenta cómo el mundo bueno que Dios creó se quebró. Este recurso solo lo resume, porque la caída, la naturaleza del pecado y sus consecuencias tienen su propio estudio en El ser humano y el pecado. Pero sin este capítulo no se entiende el resto de Génesis 1 a 11.',
+        { ir: { t: 'Estudiar la caída en El ser humano y el pecado', a: '../../ser-humano-y-pecado/#caida/1' } },
         { h: 'La serpiente y la duda' },
         'La serpiente, que Apocalipsis identifica con la serpiente antigua, que «se llama diablo y Satanás» (Ap 12:9), comienza con una pregunta: «¿Conque Dios os ha dicho…?» (Gn 3:1). Primero siembra la duda sobre la palabra de Dios, después la niega («No moriréis») y por último calumnia el carácter de Dios: Él no quiere que ustedes sean como Él. Eva come del fruto y da a su marido, que estaba con ella. Los dos desobedecen.',
         { h: 'Las consecuencias' },

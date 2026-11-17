@@ -189,8 +189,9 @@
           titulo: '¿Creó Dios al ser humano por medio de la evolución?',
           a: { n: 'Evolución teísta', t: 'Dios es soberano sobre los procesos naturales, como lo es sobre la lluvia o el crecimiento de un niño, y pudo crear por medio de la evolución. El relato de Génesis 2, dicen, usa imágenes (el polvo, el soplo, la costilla) para enseñar verdades sobre el ser humano, no para describir el método biológico.' },
           b: { n: 'Creación especial del ser humano', t: 'El texto presenta a Adán formado del polvo y animado por el aliento de Dios (Gn 2:7), y a Eva formada del hombre (Gn 2:21-22), algo que ningún proceso evolutivo explica. Lucas traza la genealogía de Jesús hasta «Adán, hijo de Dios» (Lc 3:38). Pablo construye la doctrina de la salvación sobre un Adán histórico: por un hombre entró el pecado, y por un hombre, Cristo, la justicia (Ro 5:12-19; 1 Co 15:21-22). Si no hubo un primer hombre real que pecó, la comparación con Cristo pierde su base.' },
-          c: 'Este recurso sostiene la creación especial del ser humano: Adán y Eva fueron personas reales, creadas directamente por Dios, de quienes desciende toda la humanidad, y su caída explica la condición del mundo. Lo hace sin dudar de la fe de quienes piensan distinto. La doctrina del ser humano y del pecado se estudia en El ser humano y el pecado, en preparación.'
+          c: 'Este recurso sostiene la creación especial del ser humano: Adán y Eva fueron personas reales, creadas directamente por Dios, de quienes desciende toda la humanidad, y su caída explica la condición del mundo. Lo hace sin dudar de la fe de quienes piensan distinto. La doctrina del ser humano y del pecado se estudia en El ser humano y el pecado.'
         } },
+        { ir: { t: 'Ver «Adán en el Nuevo Testamento» en El ser humano y el pecado', a: '../../ser-humano-y-pecado/#caida/8' } },
         { h: '«Según su género»' },
         'La palabra hebrea min, traducida «género» (Gn 1:24-25), no equivale exactamente a la «especie» de la biología: describe clases de seres vivos que se reproducen dentro de su clase, con la gran variedad que observamos hoy.'
       ],
