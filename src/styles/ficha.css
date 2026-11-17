@@ -1,0 +1,138 @@
+/* ==========================================================
+   Ficha de un recurso (DIRECTRICES §15). Maqueta del 16-11-2026.
+   Usa las piezas comunes de global.css (contenedor, bandas, botones).
+   ========================================================== */
+.ficha { font-family: var(--sans); font-size: .9rem; line-height: 1.55; }
+.ficha h2 { font-size: clamp(1.55rem, 2.6vw, 2rem); line-height: 1.15; margin-bottom: .6rem; }
+
+/* ---------- Presentación ---------- */
+.ficha-hero { background: var(--surface); border-bottom: 1px solid var(--line); padding: clamp(1.5rem, 3.5vw, 2.5rem) 0; }
+.ficha-hero-fila { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 22rem); gap: 1.5rem 3rem; align-items: start; }
+.miga { display: flex; flex-wrap: wrap; gap: .45rem; font-size: .74rem; color: var(--muted); margin-bottom: 1rem; }
+.miga a { color: inherit; text-decoration: none; }
+.miga a:hover { color: var(--ink); text-decoration: underline; }
+.miga > span:last-child { color: var(--ink-2); }
+.ficha-hero .sobretitulo { gap: .35rem .75rem; font-size: .7rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.ficha-hero .sobretitulo a { text-decoration: none; }
+.ficha-hero .sobretitulo > * + *::before { content: "·"; margin-right: .75rem; color: var(--line-strong); }
+.ficha-hero h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(2.1rem, 4.5vw, 3rem); line-height: 1.08; letter-spacing: -0.02em; color: var(--ink); margin-bottom: .75rem; }
+.ficha-resumen { font-family: var(--serif); font-style: italic; font-size: clamp(1.08rem, 1.6vw, 1.25rem); line-height: 1.5; color: var(--ink-2); max-width: 46rem; }
+.ficha-chips { list-style: none; margin: 1.1rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.ficha-chips li { display: inline-flex; align-items: center; gap: .4rem; font-size: .74rem; font-weight: 500; color: var(--ink-2);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 3px; padding: .25rem .55rem; }
+.ficha-chips .icono { width: .95rem; height: .95rem; color: var(--accent); }
+.ficha-chips a { color: inherit; text-decoration: none; }
+.ficha-chips a:hover { text-decoration: underline; }
+.ficha-acciones { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; margin-top: 1.4rem; }
+.ficha-acciones .icono { width: 1rem; height: 1rem; }
+.ficha-acciones .boton-claro[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
+.enlace-sutil { display: inline-flex; align-items: center; gap: .35rem; font-size: .8rem; color: var(--muted); text-decoration: none; margin-left: .35rem; }
+.enlace-sutil:hover { color: var(--ink); text-decoration: underline; }
+.enlace-sutil .icono { width: .95rem; height: .95rem; }
+.ficha-portada { margin: 0; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radio-lg); overflow: hidden; }
+.ficha-portada img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.ficha-emoji { display: grid; place-items: center; aspect-ratio: 16 / 9; font-size: 4rem; background: var(--surface-2); }
+.ficha-portada figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .35rem 1rem; padding: .6rem .8rem; font-size: .72rem; color: var(--muted); }
+.ficha-portada .icono { width: .95rem; height: .95rem; }
+@media (max-width: 900px) {
+  .ficha-hero-fila { grid-template-columns: minmax(0, 1fr); }
+  .ficha-portada { order: -1; max-width: 32rem; }
+}
+
+/* ---------- Visor ---------- */
+.ficha-visor { padding: 1.5rem 0 0; scroll-margin-top: var(--alto-cabecera); }
+.ficha-visor .visor { max-width: none; padding: 0; }
+.ficha-visor .visor-lienzo { height: min(80vh, 800px); border-radius: var(--radio-lg); background: var(--surface); box-shadow: 0 4px 18px -8px rgb(31 36 48 / .12); }
+/* La barra del visor vive en la presentación; dentro del visor solo aparece en pantalla completa */
+.ficha .visor:not(:fullscreen):not(.pseudo-completa) > .visor-barra { display: none; }
+
+/* ---------- Mapa de rutas ---------- */
+.bajada-ficha { color: var(--ink-2); max-width: 52rem; margin-bottom: 1.5rem; }
+.bajada-ficha p + p { margin-top: .6rem; }
+.rutas-rejilla { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); gap: 1rem; }
+.ruta-tarjeta { display: flex; flex-direction: column; gap: .4rem; height: 100%; padding: 1.1rem 1.15rem 1rem; color: var(--ink); text-decoration: none;
+  background: var(--surface); border: 1px solid var(--line); border-top: 2px solid var(--line-strong); border-radius: var(--radio-lg); transition: border-color .15s ease, transform .15s ease; }
+.ruta-tarjeta:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+.ruta-tarjeta.activa { border-color: var(--accent); border-top-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.ruta-cab { display: flex; justify-content: space-between; gap: .5rem; font-size: .66rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.ruta-tarjeta h3 { font-family: var(--serif); font-size: 1.28rem; font-weight: 500; line-height: 1.2; }
+.ruta-info { font-size: .8rem; color: var(--ink-2); line-height: 1.5; }
+.ruta-pie { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: .7rem; font-size: .72rem; }
+.ruta-pie .icono { width: 1rem; height: 1rem; color: var(--muted); }
+.ruta-tarjeta:hover .ruta-pie .icono, .ruta-tarjeta.activa .ruta-pie .icono { color: var(--accent); }
+.ruta-activa { font-size: .62rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); border-radius: 3px; padding: .15rem .45rem; }
+.ruta-pie [hidden] { display: none; }
+.ficha-detalle { margin-top: 1.25rem; border-top: 1px solid var(--line); padding-top: .9rem; }
+.ficha-detalle summary { cursor: pointer; font-weight: 500; color: var(--accent); }
+.ficha-detalle .prosa { margin-top: .9rem; }
+
+/* ---------- Prosa (secciones de la ficha) ---------- */
+.prosa { font-family: var(--serif); font-size: 1.08rem; line-height: 1.7; color: var(--ink); max-width: 44rem; }
+.prosa-ancha { max-width: 56rem; }
+.prosa p, .prosa ul, .prosa ol { margin: 0 0 1rem; }
+.prosa h2 { margin-top: 0; }
+.prosa h3 { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; margin: 1.4rem 0 .4rem; }
+.prosa table { border-collapse: collapse; width: 100%; font: .88rem/1.5 var(--sans); margin-bottom: 1rem; display: block; overflow-x: auto; }
+.prosa th, .prosa td { text-align: left; padding: .45rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.banda-borde { border-top: 1px solid var(--line); }
+.otras { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: 2rem 3rem; }
+
+/* ---------- Posturas comparadas ---------- */
+.cabecera-seccion { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem 2rem; margin-bottom: 1.25rem; }
+.sello-dialogo { display: inline-flex; align-items: center; gap: .45rem; font-size: .76rem; font-weight: 500; color: var(--ink-2); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radio); padding: .45rem .75rem; }
+.sello-dialogo .icono { width: 1rem; height: 1rem; color: var(--accent); }
+.tabla-posturas { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radio-lg); }
+.tabla-posturas table { width: 100%; min-width: 52rem; border-collapse: collapse; font-size: .82rem; line-height: 1.5; }
+.tabla-posturas thead th { text-align: left; font-size: .64rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); background: var(--bg); padding: .7rem .9rem; border-bottom: 1px solid var(--line); }
+.tabla-posturas td, .tabla-posturas tbody th { text-align: left; vertical-align: top; padding: .85rem .9rem; border-bottom: 1px solid var(--line); color: var(--ink-2); }
+.tabla-posturas tbody tr:last-child > * { border-bottom: 0; }
+.tabla-posturas tbody th { font-family: var(--serif); font-size: 1rem; font-weight: 500; color: var(--ink); width: 16%; }
+.tabla-posturas td b { display: block; font-size: .7rem; font-weight: 600; color: var(--accent); margin-bottom: .2rem; }
+.tabla-posturas td:nth-child(3) b { color: var(--ink); }
+.recorte { display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
+.tabla-posturas td:last-child { white-space: nowrap; }
+.tabla-posturas td:last-child a { display: inline-flex; align-items: center; gap: .2rem; color: var(--accent); font-weight: 500; text-decoration: none; }
+.tabla-posturas td:last-child a:hover { text-decoration: underline; }
+.tabla-posturas td:last-child .icono { width: .9rem; height: .9rem; }
+
+/* ---------- El texto bíblico ---------- */
+.pasajes { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: 1rem; }
+.pasajes li { display: flex; flex-direction: column; gap: .9rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radio-lg); padding: 1.15rem 1.2rem 1rem; }
+.pasajes blockquote { margin: 0; font-family: var(--serif); font-size: 1.12rem; line-height: 1.55; color: var(--ink); }
+.pasajes p { display: flex; justify-content: space-between; gap: .75rem; margin-top: auto; padding-top: .75rem; border-top: 1px solid var(--line); font-size: .72rem; }
+.cita-ref-ficha { font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
+.pasajes .gris { text-align: right; }
+
+/* ---------- Cómo usarlo y límites ---------- */
+.uso-fila { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2rem 3rem; align-items: start; }
+@media (max-width: 900px) { .uso-fila { grid-template-columns: minmax(0, 1fr); } }
+.uso-fila h2 { font-size: clamp(1.4rem, 2.2vw, 1.75rem); }
+.relacionados { margin-top: 1.5rem; }
+.relacionados ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .45rem; }
+.relacionados a { display: inline-flex; align-items: center; gap: .4rem; font-size: .78rem; color: var(--ink); text-decoration: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radio); padding: .35rem .65rem; }
+.relacionados a:hover { border-color: var(--accent); color: var(--accent); }
+.relacionados .icono { width: .95rem; height: .95rem; color: var(--accent); }
+.limites { background: var(--bg); border: 1px solid var(--line); border-top: 2px solid var(--accent); border-radius: var(--radio-lg); padding: 1.3rem 1.4rem; scroll-margin-top: calc(var(--alto-cabecera) + 1rem); }
+.limites h2 { font-size: 1.3rem; margin-bottom: .75rem; }
+.limites h2 .icono { width: 1.2rem; height: 1.2rem; color: var(--accent); }
+.limites .prosa { font-size: .98rem; }
+
+/* ---------- Fuentes ---------- */
+.fuentes-tarjeta { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radio-lg); padding: clamp(1.25rem, 3vw, 2rem); }
+.fuentes-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 1.5rem 2.5rem; margin-top: 1rem; }
+.fuentes-cols h3 { font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); padding-bottom: .5rem; margin-bottom: .6rem; border-bottom: 1px solid var(--line); }
+.fuentes-cols ul { margin: 0; padding-left: 1rem; display: grid; gap: .4rem; font-size: .82rem; color: var(--ink-2); }
+.fuentes-pie { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--line); display: grid; gap: .4rem; font-size: .74rem; color: var(--muted); }
+.fuentes-pie a { color: inherit; }
+.fuentes-pie a.rojo { color: var(--accent); text-decoration: none; font-weight: 500; }
+.tabla-posturas { position: relative; }
+/* En celular, cada postura es una tarjeta */
+@media (max-width: 700px) {
+  .tabla-posturas { overflow: visible; background: none; border: 0; }
+  .tabla-posturas table { min-width: 0; }
+  .tabla-posturas thead { display: none; }
+  .tabla-posturas table, .tabla-posturas tbody, .tabla-posturas tr, .tabla-posturas td, .tabla-posturas tbody th { display: block; width: auto; }
+  .tabla-posturas tr { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radio-lg); margin-bottom: .75rem; }
+  .tabla-posturas td, .tabla-posturas tbody th { border-bottom: 1px solid var(--line); }
+  .tabla-posturas tbody tr > :last-child { border-bottom: 0; }
+}

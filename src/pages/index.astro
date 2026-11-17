@@ -1,127 +1,346 @@
 ---
 /*
- * Portada = buscador + catálogo completo.
- * - El buscador vive en la cabecera (Base.astro) y aquí filtra en vivo.
- * - El catálogo se filtra por testamento, libro, época, tipo y etiquetas (DIRECTRICES §9).
- * - Los filtros ocupan la columna izquierda desde arriba; a la derecha van
- *   "Recién agregados" y el catálogo. "Recién agregados" se oculta mientras hay
- *   búsqueda o filtros activos para que los resultados queden arriba.
- * Estado en la URL: ?q=&testamento=&libro=&epoca=&tipo=&tag=&guardados=1
- * (valores múltiples separados por coma).
+ * Portada (DIRECTRICES §14), según la maqueta aprobada el 16-11-2026:
+ * franja superior, presentación con buscador principal, texto bíblico del día,
+ * recurso destacado (el más reciente), accesos rápidos, catálogo con pestañas de
+ * enfoque y selectores, áreas de estudio, buzón y pie.
+ * Todas las cifras salen de los recursos publicados (lib/datos-recursos.ts).
+ * Estado del catálogo en la URL: ?q=&enfoque=&testamento=&libro=&epoca=&tipo=&tag=&guardados=1&orden=&pagina=
+ * (valores múltiples separados por coma; los selectores eligen uno a la vez).
  */
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import TarjetaRecurso from '../components/TarjetaRecurso.astro';
+import Icono from '../components/Icono.astro';
 import { SITIO } from '../config/sitio';
 import { ENFOQUES, EPOCAS, LIBROS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
+import { TEXTOS_DEL_DIA, NOMBRE_LIBRO } from '../data/texto-del-dia';
+import { armarTextos, estadisticas } from '../lib/datos-recursos';
 import { ruta, rutaRecurso } from '../lib/url';
+import versiones from '../../public/biblia/versiones.json';
+import '../styles/portada.css';
 
 const recursos = (await getCollection('recursos', (r) => r.data.publicado))
   .sort((a, b) => a.data.orden - b.data.orden);
+const est = new Map(recursos.map((r) => [r.id, estadisticas(r.data.visor.ruta)]));
+const total = (lista: typeof recursos, k: 'rutas' | 'estaciones') => lista.reduce((s, r) => s + (est.get(r.id)?.[k] ?? 0), 0);
 
-const MAX_RECIENTES = 4;
-const recientes = [...recursos]
-  .sort((a, b) => b.data.fechaPublicacion.getTime() - a.data.fechaPublicacion.getTime() || a.data.orden - b.data.orden)
-  .slice(0, MAX_RECIENTES);
+// ---------- Recurso destacado: el publicado más reciente ----------
+const destacado = [...recursos].sort((a, b) =>
+  b.data.fechaPublicacion.getTime() - a.data.fechaPublicacion.getTime() || b.data.orden - a.data.orden)[0];
+const dd = destacado.data;
+const estD = est.get(destacado.id);
+// Descripción: el primer párrafo de «Qué muestra», hasta dos oraciones
+const primerParrafo = (destacado.body ?? '').split(/\n\s*\n/).map((p) => p.trim()).find((p) => p && !p.startsWith('#')) ?? '';
+const descripcionD = (primerParrafo.replace(/\*\*|\*|_/g, '').match(/[^.!?]+[.!?]+/g) ?? [dd.resumen]).slice(0, 2).join(' ').trim();
+const epocasD = dd.epocas.length > 2 ? `${EPOCAS[dd.epocas[0]]} – ${EPOCAS[dd.epocas[dd.epocas.length - 1]]}` : dd.epocas.map((e) => EPOCAS[e]).join(' · ');
 
-// Opciones de cada faceta: solo valores que algún recurso usa, en el orden de la taxonomía
+// ---------- Texto del día ----------
+const carpetas = new Map(recursos.map((r) => [r.id, { titulo: r.data.titulo, url: rutaRecurso(r.id), carpeta: (r.data.visor.ruta ?? '').split('/')[0] }]));
+const textos = armarTextos(TEXTOS_DEL_DIA, versiones, NOMBRE_LIBRO, carpetas);
+const hoy = textos.length ? textos[Math.floor(Date.now() / 86400000) % textos.length] : null;
+const versionDefecto = versiones.find((v) => v.defecto)!;
+const hayInterlineal = recursos.some((r) => r.id === 'interlineal-hebreo');
+
+// ---------- Facetas (solo valores en uso, en el orden de la taxonomía) ----------
 function opciones<K extends string>(etiquetas: Record<K, string>, usados: string[]) {
   return (Object.keys(etiquetas) as K[]).filter((k) => usados.includes(k)).map((k) => ({ valor: k, nombre: etiquetas[k] }));
 }
-const contarTags = new Map<string, number>();
-recursos.forEach((r) => r.data.tags.forEach((t) => contarTags.set(t, (contarTags.get(t) ?? 0) + 1)));
-const tags = [...contarTags.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([t]) => ({ valor: t, nombre: `#${t}` }));
+const pestanas = opciones(ENFOQUES, recursos.map((r) => r.data.enfoque ?? ''))
+  .map((o) => ({ ...o, n: recursos.filter((r) => r.data.enfoque === o.valor).length }));
+const selectores = [
+  { clave: 'tipo', titulo: 'Formato', todos: 'Todos los formatos', items: opciones(TIPOS, recursos.map((r) => r.data.tipo)) },
+  { clave: 'testamento', titulo: 'Testamento', todos: 'Ambos testamentos', items: opciones(TESTAMENTOS, recursos.flatMap((r) => r.data.testamento)) },
+  { clave: 'epoca', titulo: 'Época', todos: 'Todas las épocas', items: opciones(EPOCAS, recursos.flatMap((r) => r.data.epocas)) },
+  { clave: 'libro', titulo: 'Libro', todos: 'Todos los libros', items: opciones(LIBROS, recursos.flatMap((r) => r.data.libros)) },
+];
+const etiquetasTag = Object.fromEntries(recursos.flatMap((r) => r.data.tags).map((t) => [t, `#${t}`]));
 
-// Solo se muestran las facetas con al menos un valor en uso
-const facetas = [
-  { clave: 'enfoque', titulo: 'Enfoque', items: opciones(ENFOQUES, recursos.map((r) => r.data.enfoque ?? '')) },
-  { clave: 'testamento', titulo: 'Testamento', items: opciones(TESTAMENTOS, recursos.flatMap((r) => r.data.testamento)) },
-  { clave: 'epoca', titulo: 'Época', items: opciones(EPOCAS, recursos.flatMap((r) => r.data.epocas)) },
-  { clave: 'libro', titulo: 'Libro', items: opciones(LIBROS, recursos.flatMap((r) => r.data.libros)) },
-  { clave: 'tipo', titulo: 'Tipo de recurso', items: opciones(TIPOS, recursos.map((r) => r.data.tipo)) },
-  { clave: 'tag', titulo: 'Etiquetas', items: tags },
-].filter((f) => f.items.length > 0);
+// ---------- Búsquedas sugeridas (solo las que tienen recursos publicados) ----------
+const SUGERENCIAS = [
+  { t: 'Génesis 1 a 11', q: 'creación' }, { t: 'Tabernáculo 3D', q: 'tabernáculo' }, { t: 'Imperios', q: 'imperio' },
+  { t: 'Interlineal hebreo', q: 'interlineal' }, { t: 'Trinidad', q: 'trinidad' }, { t: 'Espíritu Santo', q: 'espíritu santo' },
+  { t: 'Taller de hermenéutica', q: 'interpretar' },
+];
 
-// Facetas largas: las primeras opciones visibles, el resto tras "Ver más"
-const VISIBLES: Record<string, number> = { libro: 8, tag: 8 };
-const extra = (clave: string, i: number) => VISIBLES[clave] !== undefined && i >= VISIBLES[clave];
+// ---------- Áreas de estudio (cifras y títulos desde el catálogo) ----------
+const de = (e: string) => recursos.filter((r) => r.data.enfoque === e);
+const titulos = (lista: typeof recursos, n: number) => lista.slice(0, n).map((r) => r.data.titulo);
+// «y» pasa a «e» antes de i- o hi- (Interlineal, Historia)
+const enLista = (xs: string[]) => xs.length > 1 ? `${xs.slice(0, -1).join(', ')} ${/^h?[iíIÍ]/.test(xs[xs.length - 1]) && !/^h?i[aeoáéó]/i.test(xs[xs.length - 1]) ? 'e' : 'y'} ${xs[xs.length - 1]}` : xs[0] ?? '';
+const herramientas = de('herramientas-estudio');
+const lenguas = herramientas.filter((r) => /hebre|griego|interlineal|alfabeto|gramatica/.test(r.id));
+const metodos = herramientas.filter((r) => !lenguas.includes(r));
+const sistematica = de('teologia-sistematica');
+const historia = de('historia-geografia');
+const libroYBiblica = [...de('estudio-libro'), ...de('teologia-biblica')];
 
 // Catálogo liviano para la búsqueda de respaldo (sin Pagefind, p. ej. en `npm run dev`)
 const catalogo = recursos.map((r) => ({
   uid: r.data.uid,
-  u: rutaRecurso(r.id),
   t: r.data.titulo,
   e: r.data.enfoque ?? '',
   k: [r.data.titulo, r.data.resumen, TIPOS[r.data.tipo], r.data.enfoque ? ENFOQUES[r.data.enfoque] : '', ...r.data.testamento.map((t) => TESTAMENTOS[t]),
       ...r.data.libros.map((l) => LIBROS[l]), ...r.data.epocas.map((e) => EPOCAS[e]), ...r.data.tags].join(' '),
 }));
+const nombres = { enfoque: ENFOQUES, tipo: TIPOS, testamento: TESTAMENTOS, epoca: EPOCAS, libro: LIBROS, tag: etiquetasTag };
+const POR_PAGINA = 12;
 ---
-<Base titulo={SITIO.nombre}>
-  <main class="inicio" data-inicio>
-    <details class="panel-filtros" data-panel-filtros open>
-      <summary>Filtros <span class="contador-filtros" data-contador-filtros></span></summary>
-      <div class="filtros-cuerpo">
-        <div class="filtros-cabecera">
-          <h2 class="titulo-bloque">Filtrar</h2>
-          <button type="button" class="limpiar" data-limpiar hidden>Limpiar</button>
+<Base titulo={SITIO.nombre} inicio>
+  <Fragment slot="head">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;500&display=swap" rel="stylesheet" />
+  </Fragment>
+
+  <main class="portada">
+    <!-- Franja superior -->
+    <div class="franja no-citas">
+      <div class="contenedor franja-fila">
+        <p><span class="punto" aria-hidden="true"></span><strong>Plataforma de estudio bíblico interactivo</strong>
+          <span class="franja-sep" aria-hidden="true">•</span><span class="franja-extra">Estudios en línea, sin descargas ni cuentas, directamente en tu navegador</span></p>
+        <p class="franja-der">
+          <span><Icono n="libro" /> Versión de las citas: <span data-version-nombre>{versionDefecto.abrev}</span></span>
+          <span>{recursos.length} recursos publicados</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Presentación y buscador principal -->
+    <section class="hero" aria-labelledby="titulo-portada">
+      <div class="contenedor">
+        <div class="hero-fila">
+          <div class="hero-texto">
+            <p class="sobretitulo"><span class="rojo">Plataforma digital de estudio bíblico</span><span class="raya" aria-hidden="true"></span><span>Recursos y rutas interactivas</span></p>
+            <h1 id="titulo-portada">Investigación, exégesis y doctrina bíblica</h1>
+            <p class="bajada">Explora estudios visuales e interactivos paso a paso: interlineal hebreo, reconstrucciones 3D del santuario, mapas de los imperios, líneas de tiempo y estudios de teología.</p>
+          </div>
+          <aside class="hero-nota">
+            <p class="rojo etiqueta-icono"><Icono n="pantalla" /> Estudio en línea directo</p>
+            <p>Recorre mapas interactivos, líneas de tiempo, modelos 3D y el texto hebreo con un toque, sin descargar nada ni crear una cuenta.</p>
+          </aside>
         </div>
 
-        <fieldset class="faceta" data-guardados-faceta hidden>
-          <label class="opcion">
-            <input type="checkbox" data-solo-guardados />
-            <span>Solo mis guardados</span>
-            <span class="cuenta" data-cuenta-guardados></span>
+        <form class="consola no-citas" role="search" data-consola action={ruta()}>
+          <label class="consola-tipo">
+            <span class="consola-etiqueta">Tipo de estudio</span>
+            <span class="consola-control"><Icono n="capas" />
+              <select name="enfoque" data-consola-enfoque>
+                <option value="">Todos los estudios</option>
+                {pestanas.map((p) => <option value={p.valor}>{p.nombre}</option>)}
+              </select>
+            </span>
           </label>
-        </fieldset>
+          <label class="consola-busqueda">
+            <span class="consola-etiqueta">Búsqueda en los estudios bíblicos</span>
+            <span class="consola-control"><Icono n="buscar" class="rojo" />
+              <input type="search" name="q" autocomplete="off" enterkeyhint="search" placeholder="Busca por tema, libro, pasaje o personaje… p. ej.: Génesis 1, tabernáculo, Pablo" />
+              <kbd aria-hidden="true">/</kbd>
+            </span>
+          </label>
+          <button type="submit" class="boton-oscuro grande">Explorar<Icono n="flecha" /></button>
+          <p class="sugeridas">
+            <span>Búsquedas sugeridas:</span>
+            {SUGERENCIAS.map((s) => <a href={`${ruta()}?q=${encodeURIComponent(s.q)}`} data-q={s.q}>#{s.t.replace(/\s+/g, '')}</a>)}
+          </p>
+        </form>
+      </div>
+    </section>
 
-        {facetas.map((f) => (
-          <fieldset class="faceta" data-faceta={f.clave}>
-            <legend>{f.titulo}</legend>
-            {f.items.map((o, i) => (
-              <label class="opcion" hidden={extra(f.clave, i) ? true : undefined} data-extra={extra(f.clave, i) ? '' : undefined}>
-                <input type="checkbox" value={o.valor} />
-                <span>{o.nombre}</span>
-                <span class="cuenta" data-cuenta></span>
+    <!-- Texto bíblico del día -->
+    {hoy && (
+      <section class="banda banda-gris" aria-labelledby="titulo-dia">
+        <div class="contenedor">
+          <article class="dia" data-dia>
+            <header class="dia-cabecera no-citas">
+              <h2 id="titulo-dia" class="rojo etiqueta-icono"><Icono n="comillas" /> Texto bíblico del día</h2>
+              <span class="dia-fuente" data-dia-fuente>{hoy.he ? 'Hebreo: Códice de Leningrado · ' : ''}{versionDefecto.abrev}</span>
+            </header>
+            <p class="dia-hebreo" lang="he" dir="rtl" data-dia-he hidden={!hoy.he}>{hoy.he}</p>
+            <blockquote class="dia-texto no-citas" data-dia-es>«{hoy.es[versionDefecto.id]}»</blockquote>
+            <div class="dia-estudio">
+              <p class="dia-estudio-titulo">Para estudiarlo en el sitio</p>
+              <p><a href={hoy.estudio.url} data-dia-enlace><span data-dia-estacion>{hoy.estudio.estacion}</span><span class="dia-recurso"> — <span data-dia-recurso>{hoy.estudio.recurso}</span></span></a></p>
+            </div>
+            <footer class="dia-pie no-citas">
+              <span class="cita-sello" data-dia-ref>{hoy.ref} ({versionDefecto.abrev})</span>
+              <span class="dia-credito" data-dia-credito>{versionDefecto.credito}</span>
+              <span class="dia-acciones">
+                {hayInterlineal && <a class="accion" href={`${rutaRecurso('interlineal-hebreo')}#${hoy.libro}/${hoy.cap}/${hoy.v}`} data-dia-interlineal hidden={!hoy.he}><Icono n="idioma" />Ver en el interlineal</a>}
+                <button type="button" class="accion" data-dia-copiar><Icono n="copiar" /><span>Copiar el texto</span></button>
+              </span>
+            </footer>
+          </article>
+        </div>
+      </section>
+    )}
+
+    <!-- Recurso destacado -->
+    <section class="banda banda-gris-claro" aria-labelledby="titulo-destacado">
+      <div class="contenedor">
+        <article class="destacado">
+          <a class="destacado-imagen" href={rutaRecurso(destacado.id)} tabindex="-1" aria-hidden="true">
+            {dd.imagen && <img src={ruta(dd.imagen)} srcset={`${ruta(dd.imagen.replace(/\.webp$/, '-640.webp'))} 640w, ${ruta(dd.imagen)} 1200w`} sizes="(max-width: 900px) 100vw, 40vw" width="1200" height="675" alt="" />}
+            <span class="destacado-sellos"><span class="sello">Recurso nuevo</span><span class="sello sello-oscuro">{TIPOS[dd.tipo]}</span></span>
+          </a>
+          <div class="destacado-cuerpo">
+            <p class="destacado-meta"><span class="rojo">{dd.enfoque ? ENFOQUES[dd.enfoque] : TIPOS[dd.tipo]}</span>
+              {epocasD && <span class="gris">{epocasD}</span>}
+              {estD?.rutas && <span class="pildora">{estD.rutas} rutas · {estD.estaciones} estaciones</span>}</p>
+            <h2 id="titulo-destacado"><a href={rutaRecurso(destacado.id)}>{dd.titulo}</a></h2>
+            <p class="destacado-resumen">{dd.resumen}</p>
+            <p class="destacado-descripcion">{descripcionD}</p>
+            <ul class="destacado-datos no-citas">
+              {estD?.rutas && <li><Icono n="rutas" /><strong>{estD.rutas}</strong> rutas guiadas</li>}
+              {estD?.estaciones && <li><Icono n="estaciones" /><strong>{estD.estaciones}</strong> estaciones</li>}
+              <li><Icono n="capas" />{TIPOS[dd.tipo]}</li>
+              <li><Icono n="libro" />{dd.testamento.length === 2 ? 'AT y NT' : TESTAMENTOS[dd.testamento[0]]}</li>
+            </ul>
+            <div class="destacado-pie">
+              <p class="gris etiqueta-icono"><Icono n="pantalla" /> Disponible en línea, sin descargas</p>
+              <div class="botones">
+                <a class="boton-oscuro" href={rutaRecurso(destacado.id)}>{estD?.rutas ? 'Comenzar la ruta de estudio' : 'Abrir el recurso'}<Icono n="flecha" /></a>
+                <a class="boton-claro" href={`${rutaRecurso(destacado.id)}#que-muestra`}>{estD?.estaciones ? `Ver las ${estD.estaciones} estaciones` : 'Leer la ficha'}</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Accesos rápidos -->
+    <section class="accesos no-citas" aria-label="Accesos rápidos">
+      <div class="contenedor accesos-fila">
+        <a href={`${ruta()}?enfoque=estudio-libro`} data-aplicar><Icono n="pantalla" /><span><strong>100 % en línea</strong><small>Estudios interactivos en el navegador</small></span></a>
+        <a href={`${ruta()}?tipo=3d`} data-aplicar><Icono n="cubo" /><span><strong class="rojo">Modelos 3D</strong><small>Tabernáculo, templos y sumo sacerdote</small></span></a>
+        <a href={`${ruta()}?enfoque=historia-geografia`} data-aplicar><Icono n="mapa" /><span><strong>Mapas</strong><small>Atlas, imperios y la tierra de Israel</small></span></a>
+        <a href={hayInterlineal ? rutaRecurso('interlineal-hebreo') : `${ruta()}?enfoque=herramientas-estudio`}><Icono n="idioma" /><span><strong>Interlineal</strong><small>Hebreo con glosa y morfología</small></span></a>
+      </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section class="catalogo" id="catalogo" aria-labelledby="titulo-catalogo">
+      <div class="contenedor">
+        <div class="catalogo-cabecera">
+          <div>
+            <p class="sobretitulo"><span class="rojo">Catálogo de estudios y recursos</span></p>
+            <h2 id="titulo-catalogo" data-titulo-catalogo>Colección de estudios y recursos interactivos</h2>
+          </div>
+          <div class="selectores no-citas">
+            {selectores.map((s) => (
+              <label class="selector">
+                <span>{s.titulo}</span>
+                <select data-selector={s.clave}>
+                  <option value="">{s.todos}</option>
+                  {s.items.map((o) => <option value={o.valor}>{o.nombre}</option>)}
+                </select>
               </label>
             ))}
-            {VISIBLES[f.clave] !== undefined && f.items.length > VISIBLES[f.clave] && (
-              <button type="button" class="ver-mas" data-ver-mas>Ver {f.items.length - VISIBLES[f.clave]} más</button>
-            )}
-          </fieldset>
-        ))}
-      </div>
-    </details>
-
-    <div class="inicio-contenido">
-      <section class="recientes" data-recientes aria-labelledby="titulo-recientes">
-        <h2 id="titulo-recientes" class="titulo-bloque">Recién agregados</h2>
-        <ul class="rejilla rejilla-recientes">
-          {recientes.map((r) => <TarjetaRecurso r={r} destacada />)}
-        </ul>
-      </section>
-
-      <section class="panel-resultados" aria-labelledby="titulo-catalogo">
-        <div class="resultados-cabecera">
-          <h2 id="titulo-catalogo" class="titulo-bloque" data-titulo-catalogo>Todos los recursos</h2>
-          <p class="conteo" data-conteo aria-live="polite">{recursos.length} recursos</p>
+            <label class="selector">
+              <span>Orden</span>
+              <select data-orden>
+                <option value="">Orden del catálogo</option>
+                <option value="recientes">Más recientes</option>
+                <option value="titulo">Título (A–Z)</option>
+              </select>
+            </label>
+          </div>
         </div>
+
+        <div class="pestanas no-citas" role="tablist" aria-label="Enfoque" data-pestanas>
+          <button type="button" role="tab" data-enfoque="" aria-selected="true">Todos los recursos <span>({recursos.length})</span></button>
+          {pestanas.map((p) => <button type="button" role="tab" data-enfoque={p.valor} aria-selected="false">{p.nombre} <span>({p.n})</span></button>)}
+          <button type="button" class="pestana-guardados" data-pestana-guardados aria-pressed="false" hidden><Icono n="guardar" />Mis guardados <span data-cuenta-guardados></span></button>
+        </div>
+
+        <div class="activos no-citas" data-activos hidden></div>
+
         <ul class="rejilla" data-rejilla>
           {recursos.map((r) => <TarjetaRecurso r={r} />)}
         </ul>
+
         <div class="sin-resultados" data-vacio hidden>
           <p data-vacio-texto>Ningún recurso cumple esos criterios.</p>
-          <p>
-            <a href={ruta('buzon/')} data-pedir>Pide que lo agreguemos</a> o
-            <button type="button" class="enlace" data-limpiar>quita los filtros</button>.
-          </p>
+          <p><a href={ruta('buzon/')} data-pedir>Pide que lo agreguemos</a> o <button type="button" class="enlace" data-limpiar>quita los filtros</button>.</p>
         </div>
-      </section>
-    </div>
+
+        <nav class="paginacion no-citas" aria-label="Páginas del catálogo" data-paginacion>
+          <p data-conteo aria-live="polite">Mostrando {recursos.length} recursos</p>
+          <div class="paginas" data-paginas></div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Áreas de estudio -->
+    <section class="banda ramas" aria-labelledby="titulo-ramas">
+      <div class="contenedor">
+        <p class="sobretitulo"><span class="rojo">Áreas de estudio</span></p>
+        <h2 id="titulo-ramas">Ramas principales de estudio en el sitio</h2>
+        <p class="ramas-bajada">Cada recurso estudia la Biblia desde un enfoque: las lenguas originales, la doctrina ordenada como sistema, el método para interpretar y el mundo en que se escribió.</p>
+        <div class="ramas-rejilla">
+          <article class="rama rama-ancha">
+            <span class="rama-icono rojo"><Icono n="idioma" /></span>
+            <p class="rama-sobre">Lenguas originales e interlineal</p>
+            <h3>El hebreo del Antiguo Testamento, letra por letra</h3>
+            <p>{enLista(titulos(lenguas, 4))}: del alfabeto y la lectura al vocabulario de 751 palabras y el texto hebreo de los 39 libros, con transliteración, glosa en español y morfología.</p>
+            <p class="rama-pie"><span class="gris">{lenguas.length} recursos · {total(lenguas, 'estaciones')} estaciones</span>
+              <a class="rojo" href={hayInterlineal ? rutaRecurso('interlineal-hebreo') : `${ruta()}?enfoque=herramientas-estudio`}>Abrir el interlineal<Icono n="flecha" /></a></p>
+          </article>
+          <article class="rama">
+            <span class="rama-icono"><Icono n="columnas" /></span>
+            <p class="rama-sobre">Teología sistemática</p>
+            <h3>Lo que enseña toda la Biblia sobre cada doctrina</h3>
+            <p>{enLista(titulos(sistematica, 5))}, con las posturas que defienden los creyentes y textos difíciles.</p>
+            <div class="rama-cifras">
+              <span><strong>{sistematica.length}</strong>recursos</span>
+              <span><strong>{total(sistematica, 'rutas')}</strong>rutas</span>
+              <span><strong>{total(sistematica, 'estaciones')}</strong>estaciones</span>
+            </div>
+          </article>
+          <article class="rama">
+            <span class="rama-icono"><Icono n="pluma" /></span>
+            <p class="rama-sobre">Hermenéutica y herramientas</p>
+            <h3>Cómo leer, interpretar y enseñar la Biblia</h3>
+            <p>{enLista(titulos(metodos, 4))}: métodos con talleres prácticos y ejercicios sobre pasajes concretos.</p>
+            <a class="rojo enlace-flecha" href={`${ruta()}?enfoque=herramientas-estudio`} data-aplicar>Ver las herramientas de estudio<Icono n="der" /></a>
+          </article>
+          <article class="rama">
+            <span class="rama-icono rojo"><Icono n="mapa" /></span>
+            <p class="rama-sobre">Historia, geografía y libros</p>
+            <h3>El mundo de la Biblia y el estudio de cada libro</h3>
+            <p>{historia.length} recursos de historia y geografía ({enLista(titulos(historia, 3))}…) y {libroYBiblica.length} estudios de libro y de teología bíblica.</p>
+            <a class="rojo enlace-flecha" href={`${ruta()}?enfoque=historia-geografia`} data-aplicar>Ver historia y geografía<Icono n="der" /></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buzón -->
+    <section class="banda banda-gris-claro" aria-labelledby="titulo-buzon">
+      <div class="contenedor">
+        <div class="buzon-tarjeta">
+          <div>
+            <p class="rojo etiqueta-icono"><Icono n="sobre" /> Buzón de sugerencias</p>
+            <h2 id="titulo-buzon">¿Falta un recurso o encontraste un error?</h2>
+            <p>Cuéntanos qué te gustaría estudiar o avísanos si algo no está bien: un dato bíblico, histórico o geográfico, o un problema técnico. Las sugerencias y las búsquedas sin resultado deciden cuáles son los próximos recursos.</p>
+            <ul class="buzon-sellos no-citas">
+              <li><Icono n="check" />Sin cuentas</li>
+              <li><Icono n="check" />Sin anuncios</li>
+              <li><Icono n="check" />Gratis para todos</li>
+            </ul>
+          </div>
+          <div class="buzon-botones">
+            <a class="boton-oscuro" href={ruta('buzon/')}>Sugerir un recurso</a>
+            <a class="boton-claro" href={ruta('buzon/')}>Reportar un error</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <script is:inline type="application/json" id="catalogo" set:html={JSON.stringify(catalogo)} />
-  <script is:inline define:vars={{ base: ruta(), buzon: ruta('buzon/') }}>
-    window.__AV = { base, buzon };
+  <script is:inline type="application/json" id="datos-catalogo" set:html={JSON.stringify(catalogo)} />
+  <script is:inline type="application/json" id="textos-dia" set:html={JSON.stringify(textos)} />
+  <script is:inline type="application/json" id="nombres-facetas" set:html={JSON.stringify(nombres)} />
+  <script is:inline define:vars={{ base: ruta(), buzon: ruta('buzon/'), versiones, porPagina: POR_PAGINA, interlineal: hayInterlineal ? rutaRecurso('interlineal-hebreo') : '' }}>
+    window.__AV = { base, buzon, versiones, porPagina, interlineal };
   </script>
 </Base>
 
@@ -129,52 +348,117 @@ const catalogo = recursos.map((r) => ({
   import { almacen } from '../lib/storage';
   import { registrar } from '../lib/analitica';
 
-  type Item = { uid: string; u: string; t: string; e: string; k: string };
-  const catalogo: Item[] = JSON.parse(document.getElementById('catalogo')!.textContent!);
-  const { base, buzon } = (window as any).__AV as { base: string; buzon: string };
+  type Item = { uid: string; t: string; e: string; k: string };
+  type Texto = { ref: string; libro: string; cap: number; v: number; es: Record<string, string>; he: string | null; estudio: { url: string; recurso: string; estacion: string } };
+  const $ = <T extends Element = HTMLElement>(s: string) => document.querySelector<T>(s)!;
+  const $$ = <T extends Element = HTMLElement>(s: string) => [...document.querySelectorAll<T>(s)];
+  const catalogo: Item[] = JSON.parse($("#datos-catalogo").textContent!);
+  const NOMBRES: Record<string, Record<string, string>> = JSON.parse($('#nombres-facetas').textContent!);
+  const { base, buzon, versiones, porPagina, interlineal } = (window as any).__AV as
+    { base: string; buzon: string; versiones: { id: string; abrev: string; credito: string; defecto: boolean }[]; porPagina: number; interlineal: string };
 
-  const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
 
+  // ================= Versión de la Biblia (cabecera) =================
+  const versionActual = () => {
+    const id = almacen.versionBiblia();
+    return versiones.find((v) => v.id === id) ?? versiones.find((v) => v.defecto)!;
+  };
+
+  // ================= Texto del día =================
+  const textos: Texto[] = JSON.parse($('#textos-dia').textContent!);
+  const dia = document.querySelector<HTMLElement>('[data-dia]');
+  if (dia && textos.length) {
+    // Un texto por día, según la fecha del visitante
+    const ahora = new Date();
+    const nDia = Math.floor(Date.UTC(ahora.getFullYear(), ahora.getMonth(), ahora.getDate()) / 86400000);
+    const t = textos[nDia % textos.length];
+    const pintarDia = () => {
+      const v = versionActual();
+      const es = t.es[v.id] ?? t.es.rv1960;
+      const usada = t.es[v.id] ? v : versiones.find((x) => x.id === 'rv1960')!;
+      $('[data-dia-es]').textContent = `«${es}»`;
+      const he = $('[data-dia-he]');
+      he.textContent = t.he ?? ''; he.hidden = !t.he;
+      $('[data-dia-fuente]').textContent = `${t.he ? 'Hebreo: Códice de Leningrado · ' : ''}${usada.abrev}`;
+      $('[data-dia-ref]').textContent = `${t.ref} (${usada.abrev})`;
+      $('[data-dia-credito]').textContent = usada.credito;
+      $('[data-dia-estacion]').textContent = t.estudio.estacion;
+      $('[data-dia-recurso]').textContent = t.estudio.recurso;
+      $<HTMLAnchorElement>('[data-dia-enlace]').href = t.estudio.url;
+      const il = document.querySelector<HTMLAnchorElement>('[data-dia-interlineal]');
+      if (il) { il.hidden = !t.he; il.href = `${interlineal}#${t.libro}/${t.cap}/${t.v}`; }
+      return { es, usada };
+    };
+    pintarDia();
+    $<HTMLSelectElement>('[data-version-biblia]')?.addEventListener('change', () => setTimeout(pintarDia));
+    window.addEventListener('citas:version', () => setTimeout(pintarDia));
+    const copiar = $<HTMLButtonElement>('[data-dia-copiar]');
+    copiar.addEventListener('click', async () => {
+      const { es, usada } = pintarDia();
+      const texto = `«${es}» ${t.ref} (${usada.abrev})`;
+      const etiqueta = copiar.querySelector('span')!;
+      try { await navigator.clipboard.writeText(texto); etiqueta.textContent = 'Copiado'; }
+      catch { etiqueta.textContent = 'No se pudo copiar'; }
+      setTimeout(() => { etiqueta.textContent = 'Copiar el texto'; }, 2000);
+    });
+  }
+  // Nombre de la versión en la franja superior
+  const pintarVersion = () => { $('[data-version-nombre]').textContent = versionActual().abrev; };
+  pintarVersion();
+  $<HTMLSelectElement>('[data-version-biblia]')?.addEventListener('change', () => setTimeout(pintarVersion));
+  window.addEventListener('citas:version', () => setTimeout(pintarVersion));
+
+  // ================= Catálogo =================
   const CLAVES = ['enfoque', 'testamento', 'libro', 'epoca', 'tipo', 'tag'] as const;
   type Clave = (typeof CLAVES)[number];
+  const SELECTORES: Clave[] = ['tipo', 'testamento', 'epoca', 'libro'];
 
-  const form = document.querySelector<HTMLFormElement>('[data-buscador]')!;
-  const input = form.querySelector('input')!;
-  const recientes = document.querySelector<HTMLElement>('[data-recientes]')!;
-  const tarjetas = [...document.querySelectorAll<HTMLElement>('[data-rejilla] > li')];
-  const conteo = document.querySelector<HTMLElement>('[data-conteo]')!;
-  const tituloCatalogo = document.querySelector<HTMLElement>('[data-titulo-catalogo]')!;
-  const vacio = document.querySelector<HTMLElement>('[data-vacio]')!;
-  const vacioTexto = document.querySelector<HTMLElement>('[data-vacio-texto]')!;
-  const pedir = document.querySelector<HTMLAnchorElement>('[data-pedir]')!;
-  const panel = document.querySelector<HTMLDetailsElement>('[data-panel-filtros]')!;
-  const contadorFiltros = document.querySelector<HTMLElement>('[data-contador-filtros]')!;
-  const botonesLimpiar = document.querySelectorAll<HTMLButtonElement>('[data-limpiar]');
-  const soloGuardados = document.querySelector<HTMLInputElement>('[data-solo-guardados]')!;
+  const consola = $<HTMLFormElement>('[data-consola]');
+  // En la portada el único buscador es el de la consola (la cabecera no lo muestra)
+  const entradas = [consola.querySelector<HTMLInputElement>('input[type=search]')!];
+  const consolaEnfoque = $<HTMLSelectElement>('[data-consola-enfoque]');
+  const rejilla = $('[data-rejilla]');
+  const tarjetas = $$('[data-rejilla] > li');
+  const conteo = $('[data-conteo]');
+  const paginas = $('[data-paginas]');
+  const titulo = $('[data-titulo-catalogo]');
+  const TITULO = titulo.textContent!;
+  const vacio = $('[data-vacio]');
+  const vacioTexto = $('[data-vacio-texto]');
+  const pedir = $<HTMLAnchorElement>('[data-pedir]');
+  const activos = $('[data-activos]');
+  const ordenSel = $<HTMLSelectElement>('[data-orden]');
+  const pestanaGuardados = $<HTMLButtonElement>('[data-pestana-guardados]');
 
-  // ---------- Estado ----------
   const estado = {
     q: '',
     filtros: Object.fromEntries(CLAVES.map((c) => [c, new Set<string>()])) as Record<Clave, Set<string>>,
     guardados: false,
+    orden: '',
+    pagina: 1,
   };
   let favoritos = new Set<string>();
   let coincidencias: string[] | null = null; // uids que cumplen la búsqueda, en orden de relevancia
 
-  function leerURL() {
-    const p = new URLSearchParams(location.search);
+  function leerURL(params = location.search) {
+    const p = new URLSearchParams(params);
     estado.q = p.get('q') ?? '';
     for (const c of CLAVES) estado.filtros[c] = new Set((p.get(c) ?? '').split(',').filter(Boolean));
     estado.guardados = p.get('guardados') === '1';
+    estado.orden = p.get('orden') ?? '';
+    estado.pagina = Math.max(1, Number(p.get('pagina')) || 1);
   }
   function escribirURL() {
     const p = new URLSearchParams();
     if (estado.q.trim()) p.set('q', estado.q.trim());
     for (const c of CLAVES) if (estado.filtros[c].size) p.set(c, [...estado.filtros[c]].join(','));
     if (estado.guardados) p.set('guardados', '1');
+    if (estado.orden) p.set('orden', estado.orden);
+    if (estado.pagina > 1) p.set('pagina', String(estado.pagina));
     const qs = p.toString();
-    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+    try { history.replaceState(null, '', (qs ? `?${qs}` : location.pathname) + (location.hash === '#catalogo' ? '#catalogo' : '')); } catch { /* marco sin historial */ }
   }
 
   // ---------- Búsqueda (Pagefind tras el build; catálogo local como respaldo) ----------
@@ -187,7 +471,6 @@ const catalogo = recursos.map((r) => ({
   })();
 
   // Lo que coincide con el título va primero: «Hechos» o «libro de Hechos» muestra primero el estudio de Hechos.
-  // Si se pide un «libro» o un «estudio de», el estudio de libro va antes que los demás recursos con ese título.
   const VACIAS = /^(?:(?:el|la|los|las)\s+)?(?:libro|estudio|recurso)s?\s+(?:de|del)\s+(?:(?:el|la|los|las)\s+)?/;
   const ARTICULO = /^(?:el|la|los|las)\s+/;
   function priorizar(q: string, uids: string[]): string[] {
@@ -198,35 +481,32 @@ const catalogo = recursos.map((r) => ({
     const puntaje = (uid: string) => {
       const it = catalogo.find((i) => i.uid === uid);
       if (!it) return 9;
-      const titulo = norm(it.t).replace(ARTICULO, '');
-      let p = titulo === nucleo ? 0 : titulo.startsWith(nucleo + ' ') ? 1 : new RegExp(`\\b${nucleo.replace(/[.*+?^${}()|[\]\\]/g, '')}\\b`).test(titulo) ? 2 : 5;
+      const t = norm(it.t).replace(ARTICULO, '');
+      let p = t === nucleo ? 0 : t.startsWith(nucleo + ' ') ? 1 : new RegExp(`\\b${nucleo.replace(/[.*+?^${}()|[\]\\]/g, '')}\\b`).test(t) ? 2 : 5;
       if (p < 5 && pideLibro && it.e !== 'estudio-libro') p += 2;
       return p;
     };
     return uids.map((u, i) => ({ u, i, p: puntaje(u) })).sort((a, b) => a.p - b.p || a.i - b.i).map((x) => x.u);
   }
-
   async function buscar(q: string): Promise<string[]> {
-    return priorizar(q, await buscarSinOrden(q));
-  }
-
-  async function buscarSinOrden(q: string): Promise<string[]> {
     const terminos = norm(q).split(/\s+/).filter(Boolean);
     await cargarPagefind;
+    let uids: string[];
     if (pagefind) {
       const r = await pagefind.search(q);
       const datos = await Promise.all(r.results.slice(0, 50).map((x: any) => x.data()));
       // Pagefind tolera coincidencias parciales: exigimos cada término por su raíz
       const raices = terminos.map((t) => t.slice(0, Math.max(3, Math.min(t.length, 5))));
-      return datos
+      uids = datos
         .filter((x: any) => { const txt = norm(`${x.meta.title} ${x.content}`); return raices.every((t) => txt.includes(t)); })
-        .map((x: any) => x.meta.uid)
-        .filter(Boolean);
+        .map((x: any) => x.meta.uid).filter(Boolean);
+    } else {
+      uids = catalogo.filter((i) => terminos.every((t) => norm(i.k).includes(t))).map((i) => i.uid);
     }
-    return catalogo.filter((i) => terminos.every((t) => norm(i.k).includes(t))).map((i) => i.uid);
+    return priorizar(q, uids);
   }
 
-  // ---------- Filtro ----------
+  // ---------- Filtro y orden ----------
   function cumple(li: HTMLElement, excepto?: Clave): boolean {
     const uid = li.dataset.uid!;
     if (coincidencias && !coincidencias.includes(uid)) return false;
@@ -240,46 +520,76 @@ const catalogo = recursos.map((r) => ({
     }
     return true;
   }
+  function ordenar(lista: HTMLElement[]): HTMLElement[] {
+    if (coincidencias && !estado.orden) return [...lista].sort((a, b) => coincidencias!.indexOf(a.dataset.uid!) - coincidencias!.indexOf(b.dataset.uid!));
+    if (estado.orden === 'recientes') return [...lista].sort((a, b) => b.dataset.fecha!.localeCompare(a.dataset.fecha!) || +b.dataset.orden! - +a.dataset.orden!);
+    if (estado.orden === 'titulo') return [...lista].sort((a, b) => a.dataset.titulo!.localeCompare(b.dataset.titulo!, 'es', { sensitivity: 'base' }));
+    return [...lista].sort((a, b) => +a.dataset.orden! - +b.dataset.orden!);
+  }
 
   function pintar() {
     const hayFiltros = CLAVES.some((c) => estado.filtros[c].size) || estado.guardados;
     const hayBusqueda = !!coincidencias;
+    const visibles = ordenar(tarjetas.filter((li) => cumple(li)));
+    const n = visibles.length;
+    const nPaginas = Math.max(1, Math.ceil(n / porPagina));
+    estado.pagina = Math.min(estado.pagina, nPaginas);
+    const desde = (estado.pagina - 1) * porPagina;
+    const enPagina = new Set(visibles.slice(desde, desde + porPagina));
+    tarjetas.forEach((li) => { li.hidden = !enPagina.has(li); });
+    // Se reordena el DOM (no solo con CSS) para que el lector de pantalla siga el mismo orden
+    rejilla.append(...visibles, ...tarjetas.filter((li) => !visibles.includes(li)));
 
-    let n = 0;
-    tarjetas.forEach((li) => {
-      const ok = cumple(li);
-      li.hidden = !ok;
-      if (ok) n++;
-      // Con búsqueda, se ordena por relevancia; sin ella, por el orden editorial
-      li.style.order = hayBusqueda ? String(coincidencias!.indexOf(li.dataset.uid!)) : '';
+    // Pestañas de enfoque: activa la que coincide con el filtro (o «Todos»), con su cuenta según lo demás activo
+    const enf = estado.filtros.enfoque;
+    $$<HTMLButtonElement>('[data-pestanas] [data-enfoque]').forEach((b) => {
+      const v = b.dataset.enfoque!;
+      const sel = estado.guardados ? false : v ? (enf.size === 1 && enf.has(v)) : enf.size === 0;
+      b.setAttribute('aria-selected', String(sel));
+      const cuenta = tarjetas.filter((li) => cumple(li, 'enfoque') && (!v || li.dataset.enfoque === v)).length;
+      b.querySelector('span')!.textContent = `(${cuenta})`;
     });
+    pestanaGuardados.setAttribute('aria-pressed', String(estado.guardados));
+    consolaEnfoque.value = enf.size === 1 ? [...enf][0] : '';
 
-    // Conteos por opción, considerando todo lo demás que está activo
-    document.querySelectorAll<HTMLElement>('[data-faceta]').forEach((fs) => {
-      const clave = fs.dataset.faceta as Clave;
-      fs.querySelectorAll<HTMLLabelElement>('.opcion').forEach((lab) => {
-        const cb = lab.querySelector('input')!;
-        cb.checked = estado.filtros[clave].has(cb.value);
-        const total = tarjetas.filter((li) => cumple(li, clave) && (li.dataset[clave] ?? '').split(' ').includes(cb.value)).length;
-        lab.querySelector<HTMLElement>('[data-cuenta]')!.textContent = String(total);
-        lab.classList.toggle('vacia', total === 0 && !cb.checked);
+    // Selectores: un valor a la vez; si la URL trae varios, se indica «Varios»
+    SELECTORES.forEach((c) => {
+      const s = $<HTMLSelectElement>(`[data-selector="${c}"]`);
+      const elegidos = [...estado.filtros[c]];
+      s.querySelector('[data-varios]')?.remove();
+      if (elegidos.length > 1) { const o = new Option(`Varios (${elegidos.length})`, '__varios'); o.dataset.varios = ''; s.add(o); s.value = '__varios'; }
+      else s.value = elegidos[0] ?? '';
+      [...s.options].forEach((o) => {
+        if (!o.value || o.value === '__varios') return;
+        const cuenta = tarjetas.filter((li) => cumple(li, c) && (li.dataset[c] ?? '').split(' ').includes(o.value)).length;
+        o.disabled = cuenta === 0 && !estado.filtros[c].has(o.value);
       });
     });
-    soloGuardados.checked = estado.guardados;
+    ordenSel.value = estado.orden;
 
-    recientes.hidden = hayFiltros || hayBusqueda;
-    tituloCatalogo.textContent = hayBusqueda ? `Resultados para «${estado.q.trim()}»` : hayFiltros ? 'Recursos filtrados' : 'Todos los recursos';
-    conteo.textContent = `${n} recurso${n === 1 ? '' : 's'}`;
+    // Filtros activos como fichas que se pueden quitar
+    const fichas: string[] = [];
+    if (estado.q.trim()) fichas.push(`<button type="button" data-quitar="q">Búsqueda: «${esc(estado.q.trim())}» <span aria-hidden="true">×</span></button>`);
+    for (const c of CLAVES) for (const v of estado.filtros[c]) fichas.push(`<button type="button" data-quitar="${c}" data-valor="${esc(v)}">${esc(NOMBRES[c]?.[v] ?? v)} <span aria-hidden="true">×</span></button>`);
+    if (estado.guardados) fichas.push(`<button type="button" data-quitar="guardados">Mis guardados <span aria-hidden="true">×</span></button>`);
+    activos.innerHTML = fichas.length ? `${fichas.join('')}<button type="button" class="enlace" data-limpiar>Limpiar todo</button>` : '';
+    activos.hidden = !fichas.length;
+
+    titulo.textContent = hayBusqueda ? `Resultados para «${estado.q.trim()}»` : estado.guardados ? 'Mis guardados' : hayFiltros ? 'Recursos filtrados' : TITULO;
+    conteo.textContent = n ? `Mostrando ${desde + 1}–${Math.min(desde + porPagina, n)} de ${n} recurso${n === 1 ? '' : 's'}` : '';
+    paginas.innerHTML = nPaginas > 1
+      ? `<button type="button" data-pagina="${estado.pagina - 1}" ${estado.pagina === 1 ? 'disabled' : ''} aria-label="Página anterior">‹</button>` +
+        Array.from({ length: nPaginas }, (_, i) => `<button type="button" data-pagina="${i + 1}" ${i + 1 === estado.pagina ? 'aria-current="page"' : ''}>${i + 1}</button>`).join('') +
+        `<button type="button" data-pagina="${estado.pagina + 1}" ${estado.pagina === nPaginas ? 'disabled' : ''} aria-label="Página siguiente">›</button>`
+      : '';
     vacio.hidden = n > 0;
     if (!n) {
       vacioTexto.innerHTML = hayBusqueda
         ? `No hay recursos para «${esc(estado.q.trim())}»${hayFiltros ? ' con esos filtros' : ''} todavía.`
-        : 'Ningún recurso cumple esos filtros.';
+        : estado.guardados && !favoritos.size ? 'Todavía no guardas recursos en este dispositivo. Ábrelos y toca «Guardar».' : 'Ningún recurso cumple esos filtros.';
       pedir.href = hayBusqueda ? `${buzon}?q=${encodeURIComponent(estado.q.trim())}` : buzon;
     }
-    const activos = CLAVES.reduce((s, c) => s + estado.filtros[c].size, 0) + (estado.guardados ? 1 : 0);
-    contadorFiltros.textContent = activos ? `(${activos})` : '';
-    botonesLimpiar.forEach((b) => { if (b.closest('.filtros-cabecera')) b.hidden = !activos && !hayBusqueda; });
+    entradas.forEach((i) => { if (document.activeElement !== i) i.value = estado.q; });
     escribirURL();
   }
 
@@ -294,60 +604,94 @@ const catalogo = recursos.map((r) => ({
     registrar(res.length ? 'busqueda' : 'busqueda-sin-resultados', norm(q));
     pintar();
   }
+  const irAlCatalogo = () => $('#catalogo').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
 
   // ---------- Eventos ----------
   let espera: number | undefined;
-  input.addEventListener('input', () => {
-    estado.q = input.value;
+  entradas.forEach((input) => input.addEventListener('input', () => {
+    estado.q = input.value; estado.pagina = 1;
+    entradas.forEach((o) => { if (o !== input) o.value = input.value; });
     clearTimeout(espera);
     espera = window.setTimeout(actualizarBusqueda, 180);
+  }));
+  consola.addEventListener('submit', (e) => {
+    e.preventDefault();
+    estado.q = entradas[0].value; estado.pagina = 1;
+    estado.filtros.enfoque = new Set(consolaEnfoque.value ? [consolaEnfoque.value] : []);
+    actualizarBusqueda(); entradas[0].blur(); irAlCatalogo();
   });
-  form.addEventListener('submit', (e) => { e.preventDefault(); estado.q = input.value; actualizarBusqueda(); input.blur(); });
-
-  document.querySelectorAll<HTMLElement>('[data-faceta]').forEach((fs) => {
-    const clave = fs.dataset.faceta as Clave;
-    fs.addEventListener('change', (e) => {
-      const cb = e.target as HTMLInputElement;
-      if (cb.checked) estado.filtros[clave].add(cb.value);
-      else estado.filtros[clave].delete(cb.value);
-      registrar('filtrar', `${clave}/${cb.value}`);
-      pintar();
-    });
+  consolaEnfoque.addEventListener('change', () => {
+    estado.filtros.enfoque = new Set(consolaEnfoque.value ? [consolaEnfoque.value] : []); estado.pagina = 1; pintar();
   });
-  soloGuardados.addEventListener('change', () => { estado.guardados = soloGuardados.checked; pintar(); });
-
-  document.querySelectorAll<HTMLButtonElement>('[data-ver-mas]').forEach((boton) => boton.addEventListener('click', (e) => {
-    const b = e.currentTarget as HTMLButtonElement;
-    const fs = b.closest('fieldset')!;
-    const ocultos = fs.querySelectorAll<HTMLElement>('[data-extra]');
-    const mostrar = [...ocultos].some((l) => l.hidden);
-    ocultos.forEach((l) => { l.hidden = !mostrar; });
-    b.textContent = mostrar ? 'Ver menos' : `Ver ${ocultos.length} más`;
+  $$<HTMLAnchorElement>('[data-q]').forEach((a) => a.addEventListener('click', (e) => {
+    e.preventDefault();
+    estado.q = a.dataset.q!; estado.pagina = 1; entradas.forEach((i) => { i.value = estado.q; });
+    actualizarBusqueda(); irAlCatalogo();
   }));
 
-  botonesLimpiar.forEach((b) => b.addEventListener('click', () => {
-    CLAVES.forEach((c) => estado.filtros[c].clear());
-    estado.guardados = false;
-    estado.q = ''; input.value = ''; coincidencias = null;
+  // Enlaces que aplican un filtro sin recargar (accesos, áreas, navegación de la cabecera)
+  const aplicarEnlace = (a: HTMLAnchorElement, e: Event) => {
+    const url = new URL(a.href);
+    if (url.pathname !== location.pathname) return;
+    e.preventDefault();
+    leerURL(url.search);
+    coincidencias = null;
+    if (estado.q) actualizarBusqueda(); else pintar();
+    irAlCatalogo();
+  };
+  $$<HTMLAnchorElement>('[data-aplicar], [data-nav], [data-guardados-enlace]').forEach((a) => a.addEventListener('click', (e) => aplicarEnlace(a, e)));
+
+  $$<HTMLButtonElement>('[data-pestanas] [data-enfoque]').forEach((b) => b.addEventListener('click', () => {
+    const v = b.dataset.enfoque!;
+    estado.filtros.enfoque = new Set(v ? [v] : []);
+    estado.guardados = false; estado.pagina = 1;
+    if (v) registrar('filtrar', `enfoque/${v}`);
     pintar();
   }));
-
-  // Panel de filtros: abierto en escritorio, plegado en celular
-  const escritorio = window.matchMedia('(min-width: 900px)');
-  const ajustarPanel = () => { panel.open = escritorio.matches; };
-  escritorio.addEventListener('change', ajustarPanel);
-  ajustarPanel();
+  pestanaGuardados.addEventListener('click', () => { estado.guardados = !estado.guardados; estado.pagina = 1; pintar(); });
+  SELECTORES.forEach((c) => $<HTMLSelectElement>(`[data-selector="${c}"]`).addEventListener('change', (e) => {
+    const v = (e.target as HTMLSelectElement).value;
+    if (v === '__varios') return;
+    estado.filtros[c] = new Set(v ? [v] : []); estado.pagina = 1;
+    if (v) registrar('filtrar', `${c}/${v}`);
+    pintar();
+  }));
+  ordenSel.addEventListener('change', () => { estado.orden = ordenSel.value; estado.pagina = 1; pintar(); });
+  paginas.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-pagina]');
+    if (!b || b.disabled) return;
+    estado.pagina = Number(b.dataset.pagina); pintar(); irAlCatalogo();
+  });
+  const limpiar = () => {
+    CLAVES.forEach((c) => estado.filtros[c].clear());
+    estado.guardados = false; estado.q = ''; estado.pagina = 1; coincidencias = null;
+    entradas.forEach((i) => { i.value = ''; });
+    pintar();
+  };
+  activos.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button');
+    if (!b) return;
+    if (b.hasAttribute('data-limpiar')) return limpiar();
+    const c = b.dataset.quitar!;
+    estado.pagina = 1;
+    if (c === 'q') { estado.q = ''; coincidencias = null; entradas.forEach((i) => { i.value = ''; }); }
+    else if (c === 'guardados') estado.guardados = false;
+    else estado.filtros[c as Clave].delete(b.dataset.valor!);
+    pintar();
+  });
+  vacio.querySelector('[data-limpiar]')!.addEventListener('click', limpiar);
 
   // ---------- Inicio ----------
   leerURL();
-  input.value = estado.q;
+  entradas.forEach((i) => { i.value = estado.q; });
   almacen.favoritos().then((uids) => {
     favoritos = new Set(uids);
     const n = tarjetas.filter((li) => favoritos.has(li.dataset.uid!)).length;
-    if (n) {
-      document.querySelector<HTMLElement>('[data-guardados-faceta]')!.hidden = false;
-      document.querySelector<HTMLElement>('[data-cuenta-guardados]')!.textContent = String(n);
+    if (n || estado.guardados) {
+      pestanaGuardados.hidden = false;
+      $('[data-cuenta-guardados]').textContent = `(${n})`;
     }
     if (estado.q.trim()) actualizarBusqueda(); else pintar();
+    if (location.search && /[?&](q|enfoque|tipo|testamento|epoca|libro|tag|guardados)=/.test(location.search)) irAlCatalogo();
   });
 </script>

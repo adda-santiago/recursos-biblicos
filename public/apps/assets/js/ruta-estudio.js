@@ -68,6 +68,22 @@
   /* ---------------- Estructura ---------------- */
   raiz.className = 're-app';
   raiz.innerHTML = `
+    <header class="re-cab no-citas">
+      <span class="re-punto" aria-hidden="true"></span>
+      <div class="re-cab-txt">
+        <p class="re-kicker" id="re-kicker"></p>
+        <h1 id="re-titulo"></h1>
+      </div>
+      <div class="re-cab-der">
+        <a class="re-marca brand" href="${esc(D.inicio || '../../')}">${esc(D.marca || '')}</a>
+        ${D.volver ? `<a class="re-volver" href="${esc(D.volver.a)}">‹ ${esc(D.volver.t)}</a>` : ''}
+        <p class="re-contador" id="re-contador" aria-label=""></p>
+        <button type="button" class="re-rutas-btn" id="re-rutas-btn" aria-expanded="false" aria-controls="re-panel">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>Rutas</span>
+        </button>
+        <button type="button" class="re-tema" id="re-tema">Fondo oscuro</button>
+      </div>
+    </header>
     <div class="re-visual" id="re-visual">
       <div class="re-tabs" id="re-tabs" role="tablist" hidden></div>
       <p class="re-tabs-nota" id="re-tabs-nota" hidden></p>
@@ -92,29 +108,27 @@
       </div>
     </div>
     <article class="re-texto" id="re-texto">
-      <div class="re-cab">
-        <a class="re-marca brand" href="${esc(D.inicio || '../../')}">${esc(D.marca || '')}</a>
-        ${D.volver ? `<a class="re-volver" href="${esc(D.volver.a)}">‹ ${esc(D.volver.t)}</a>` : ''}
-        <button type="button" class="re-tema" id="re-tema">Fondo oscuro</button>
-      </div>
       <div class="re-cuerpo" id="re-cuerpo" tabindex="-1">
-        <p class="re-kicker" id="re-kicker"></p>
-        <h1 id="re-titulo"></h1>
+        <p class="re-etiqueta">Estudio de la estación</p>
         <p class="re-ref" id="re-ref"></p>
         <div class="re-parrafos" id="re-parrafos"></div>
-        <aside class="re-pensar" id="re-pensar" hidden><strong>Para pensar</strong><p></p></aside>
+        <aside class="re-pensar" id="re-pensar" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg>
+          <div><strong>Para pensar</strong><p></p></div>
+        </aside>
         ${D.credito ? `<p class="re-credito">${esc(D.credito)}</p>` : ''}
       </div>
-      <nav class="re-nav" aria-label="Estaciones">
-        <button type="button" id="re-ant">Anterior</button>
-        <span id="re-pos"></span>
-        <button type="button" id="re-sig">Siguiente</button>
-      </nav>
     </article>
     <div class="re-linea" id="re-linea"></div>
-    <button type="button" class="re-rutas-btn" id="re-rutas-btn" aria-expanded="false" aria-controls="re-panel">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>Rutas</span>
-    </button>
+    <nav class="re-nav" aria-label="Estaciones">
+      <button type="button" id="re-ant"><span aria-hidden="true">←</span> <span class="re-nav-t">Anterior</span></button>
+      <div class="re-avance">
+        <span id="re-pos"></span>
+        <span class="re-barra-av" aria-hidden="true"><i id="re-av-barra"></i></span>
+        <span id="re-av-txt"></span>
+      </div>
+      <button type="button" id="re-sig" class="re-sig"><span class="re-nav-t">Siguiente</span> <span aria-hidden="true">→</span></button>
+    </nav>
     <aside class="re-panel" id="re-panel" hidden aria-label="Rutas de aprendizaje">
       <div class="re-panel-cab"><p>${esc(D.titulo)}</p><button type="button" id="re-ocultar">Ocultar</button></div>
       <div id="re-panel-lista"></div>
@@ -352,8 +366,20 @@
   });
 
   /* ---------------- Estación ---------------- */
+  const TOTAL = activas.reduce((n, x) => n + x.estaciones.length, 0);
+  const CLAVES_EST = activas.flatMap(x => x.estaciones.map(e => `${x.id}/${e.id}`));
   let ruta = activas[0], idx = 0;
   const est = () => ruta.estaciones[idx];
+  // Estación vecina en el orden del recurso: dentro de la ruta o en la ruta activa contigua
+  function vecina(paso) {
+    const j = idx + paso;
+    if (ruta.estaciones[j]) return { r: ruta.id, i: j };
+    let k = activas.indexOf(ruta) + paso;
+    while (activas[k] && !(activas[k].estaciones || []).length) k += paso;
+    const otra = activas[k];
+    return otra ? { r: otra.id, i: paso > 0 ? 0 : otra.estaciones.length - 1 } : null;
+  }
+  function mover(paso) { const v = vecina(paso); if (v) ir(v.r, v.i); }
   function ir(rid, i, inicial) {
     const r = RUTA[rid];
     if (!r || r.pendiente || !r.estaciones[i]) return;
@@ -374,7 +400,7 @@
         <div class="re-pos2"><div><b>${he(q.a.n)}</b><p>${he(q.a.t)}</p></div><div><b>${he(q.b.n)}</b><p>${he(q.b.t)}</p></div></div>
         ${q.c ? `<div class="re-pos-c"><b>Cómo se entiende</b><p>${he(q.c)}</p></div>` : ''}</section>`; }
       if (t.ejercicio) { const q = t.ejercicio; return `<section class="re-ej" data-k="${k}">
-        <p class="re-ej-tit">Ejercicio</p><p class="re-ej-preg">${he(q.pregunta)}</p>
+        <p class="re-ej-tit">Ejercicio <span>Sin puntaje · puedes reintentar</span></p><p class="re-ej-preg">${he(q.pregunta)}</p>
         <div class="re-ej-ops no-citas" role="group" aria-label="Opciones">${q.opciones.map((o, j) =>
           `<button type="button" class="re-ej-op" data-o="${j}"><span class="re-ej-letra" aria-hidden="true">${'ABCDEFG'[j]}</span><span>${he(o.t)}</span></button>`).join('')}</div>
         <div class="re-ej-fb" aria-live="polite" hidden></div></section>`; }
@@ -384,10 +410,26 @@
     }).join('');
     $('re-pensar').hidden = !e.pensar;
     $('re-pensar').querySelector('p').innerHTML = he(e.pensar || '');
-    $('re-pos').textContent = `${idx + 1} de ${ruta.estaciones.length}`;
-    $('re-ant').disabled = idx === 0;
-    $('re-sig').disabled = idx === ruta.estaciones.length - 1;
-    btnRutas.querySelector('span').textContent = ruta.n;
+    // Cabecera y avance: número de la estación en todo el recurso y cuánto se ha recorrido
+    const nGlobal = activas.slice(0, activas.indexOf(ruta)).reduce((n, x) => n + x.estaciones.length, 0) + idx + 1;
+    const dos = n => String(n).padStart(2, '0');
+    $('re-contador').innerHTML = `<span>Estación</span> <b>${dos(nGlobal)}</b> <span>/ ${dos(TOTAL)}</span>`;
+    $('re-contador').setAttribute('aria-label', `Estación ${nGlobal} de ${TOTAL} del recurso`);
+    $('re-pos').textContent = `${ruta.n.split('.')[0].length <= 5 && /\./.test(ruta.n) ? 'Ruta ' + ruta.n.split('.')[0] : ruta.n}: estación ${idx + 1} de ${ruta.estaciones.length}`;
+    const vistas = CLAVES_EST.filter(k => visto.has(k)).length;
+    const pct = Math.round(vistas / TOTAL * 100);
+    $('re-av-barra').style.width = `${pct}%`;
+    $('re-av-txt').textContent = `${pct} % recorrido`;
+    // Al final de una ruta, «Siguiente» pasa a la primera estación de la ruta siguiente
+    // (y «Anterior», al comienzo, a la última de la ruta anterior)
+    const ant = vecina(-1), sig = vecina(1);
+    $('re-ant').disabled = !ant;
+    $('re-sig').disabled = !sig;
+    $('re-ant').querySelector('.re-nav-t').textContent = ant && ant.r !== ruta.id ? 'Ruta anterior' : 'Anterior';
+    $('re-sig').querySelector('.re-nav-t').textContent = !sig ? 'Fin del recurso'
+      : sig.r !== ruta.id ? `Siguiente ruta: ${RUTA[sig.r].n}` : `Siguiente: ${RUTA[sig.r].estaciones[sig.i].n}`;
+    $('re-ant').title = ant ? `${ant.r !== ruta.id ? RUTA[ant.r].n + ': ' : ''}${RUTA[ant.r].estaciones[ant.i].n}` : '';
+    $('re-sig').title = sig ? `${sig.r !== ruta.id ? RUTA[sig.r].n + ': ' : ''}${RUTA[sig.r].estaciones[sig.i].n}` : '';
     pintarVisual(e, 0);
     if (!(e.visual && e.visual[0] && e.visual[0].pasos)) fechar(e.fecha);
     $('re-cuerpo').scrollTop = 0;
@@ -417,8 +459,8 @@
     else b.disabled = true;
   });
 
-  $('re-ant').addEventListener('click', () => ir(ruta.id, idx - 1));
-  $('re-sig').addEventListener('click', () => ir(ruta.id, idx + 1));
+  $('re-ant').addEventListener('click', () => mover(-1));
+  $('re-sig').addEventListener('click', () => mover(1));
   /* ---------- Lupa: fotos reales a pantalla completa, con zoom y arrastre ---------- */
   const lupa = (() => {
     const cap = document.createElement('div');
@@ -495,8 +537,8 @@
     if (e.target.closest && e.target.closest('input, textarea, select')) return;
     if (e.key === 'Escape' && !panel.hidden) { abrirPanel(false); btnRutas.focus(); return; }
     if (!panel.hidden) return;
-    if (e.key === 'ArrowRight') ir(ruta.id, idx + 1);
-    if (e.key === 'ArrowLeft') ir(ruta.id, idx - 1);
+    if (e.key === 'ArrowRight') mover(1);
+    if (e.key === 'ArrowLeft') mover(-1);
   });
 
   // Entrada: #ruta/numero

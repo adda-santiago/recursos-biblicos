@@ -1,20 +1,25 @@
 ---
-/* Tarjeta de recurso para la portada. Los data-* alimentan los filtros
-   del lado del navegador; el HTML completo queda en la página para SEO
-   y para quien navegue sin JavaScript. */
+/* Tarjeta de recurso del catálogo de la portada. Los data-* alimentan los filtros
+   y el orden en el navegador; el HTML completo queda en la página para SEO
+   y para quien navegue sin JavaScript. Las cifras de rutas y estaciones se leen
+   de la app al armar el sitio (lib/datos-recursos.ts). */
 import type { CollectionEntry } from 'astro:content';
-import { EPOCAS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
+import Icono from './Icono.astro';
+import { ENFOQUES, EPOCAS, LIBROS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
+import { estadisticas } from '../lib/datos-recursos';
 import { ruta, rutaRecurso } from '../lib/url';
-interface Props { r: CollectionEntry<'recursos'>; destacada?: boolean; }
-const { r, destacada = false } = Astro.props;
+interface Props { r: CollectionEntry<'recursos'>; }
+const { r } = Astro.props;
 const d = r.data;
-// Épocas: si son muchas (recursos transversales) se muestra el rango
-const epocas = d.epocas.length > 2
-  ? `${EPOCAS[d.epocas[0]]} – ${EPOCAS[d.epocas[d.epocas.length - 1]]}`
-  : d.epocas.map((e) => EPOCAS[e]).join(' · ');
+const est = estadisticas(d.visor.ruta);
+const libros = d.libros.slice(0, 3).map((l) => LIBROS[l]).join(' · ') + (d.libros.length > 3 ? '…' : '');
+// Etiquetas visibles: las épocas (las herramientas de estudio no tienen época)
+const chips = d.epocas.length > 2 ? [EPOCAS[d.epocas[0]], `y ${d.epocas.length - 1} épocas más`] : d.epocas.map((e) => EPOCAS[e]);
+const testamento = d.testamento.length === 2 ? 'Antiguo y Nuevo Testamento' : d.testamento.map((t) => TESTAMENTOS[t]).join('');
+const accion = d.tipo === '3d' ? 'Recorrer' : d.tipo === 'mapa' ? 'Ver el mapa' : est?.rutas ? 'Estudiar' : 'Explorar';
 ---
 <li
-  class:list={['tarjeta-item', { destacada }]}
+  class="tarjeta-item"
   data-uid={d.uid}
   data-testamento={d.testamento.join(' ')}
   data-libro={d.libros.join(' ')}
@@ -23,25 +28,35 @@ const epocas = d.epocas.length > 2
   data-enfoque={d.enfoque ?? ''}
   data-tag={d.tags.join(' ')}
   data-orden={d.orden}
+  data-fecha={d.fechaPublicacion.toISOString().slice(0, 10)}
+  data-titulo={d.titulo}
 >
   <a class="tarjeta" href={rutaRecurso(r.id)}>
-    <span class="tarjeta-imagen" aria-hidden="true">
+    <span class="tarjeta-imagen">
       {d.imagen
         ? <img src={ruta(d.imagen.replace(/\.webp$/, '-640.webp'))}
                srcset={`${ruta(d.imagen.replace(/\.webp$/, '-640.webp'))} 640w, ${ruta(d.imagen)} 1200w`}
-               sizes="(max-width: 720px) 40vw, 400px" width="640" height="360" alt="" loading="lazy" decoding="async" />
-        : d.visor.poster
-          ? <img src={d.visor.poster} alt="" loading="lazy" decoding="async" />
-          : <span class="tarjeta-emoji">{d.emoji}</span>}
-      <span class="tarjeta-tipo">{TIPOS[d.tipo]}</span>
+               sizes="(max-width: 720px) 90vw, 420px" width="640" height="360" alt="" loading="lazy" decoding="async" />
+        : <span class="tarjeta-emoji" aria-hidden="true">{d.emoji}</span>}
+      <span class="sello">{TIPOS[d.tipo]}</span>
+      {est && (
+        <span class="tarjeta-banda">
+          {est.rutas !== undefined && <span><Icono n="rutas" />{est.rutas} {est.rutas === 1 ? 'ruta' : 'rutas'}</span>}
+          {est.estaciones !== undefined && <span><Icono n="estaciones" />{est.estaciones} estaciones</span>}
+          {est.pasajes !== undefined && <span><Icono n="estaciones" />{est.pasajes} pasajes</span>}
+        </span>
+      )}
     </span>
     <span class="tarjeta-cuerpo">
-      <span class="tarjeta-seccion">
-        {d.testamento.map((t) => TESTAMENTOS[t]).join(' · ')}
-      </span>
+      <span class="tarjeta-enfoque">{d.enfoque ? ENFOQUES[d.enfoque] : TIPOS[d.tipo]}</span>
       <h3>{d.titulo}</h3>
+      {libros && <span class="tarjeta-libros">{libros}</span>}
       <span class="tarjeta-resumen">{d.resumen}</span>
-      {epocas && <span class="tarjeta-niveles">{epocas}</span>}
+      {chips.length > 0 && <span class="tarjeta-chips">{chips.map((c) => <span>{c}</span>)}</span>}
+      <span class="tarjeta-pie">
+        <span class="tarjeta-testamento"><Icono n="libro" />{testamento}</span>
+        <span class="boton-oscuro">{accion}<Icono n="flecha" /></span>
+      </span>
     </span>
   </a>
 </li>

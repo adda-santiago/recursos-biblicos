@@ -1,8 +1,10 @@
 # Directrices del proyecto — Recursos bíblicos interactivos
 
-Versión 2.52 · 13 de noviembre de 2026
+Versión 2.53 · 16 de noviembre de 2026
 
 Este documento es la **única** fuente de verdad del proyecto. Cualquier decisión nueva que contradiga algo de aquí se registra en la bitácora (§23) y se actualiza la sección correspondiente. Si el código y este documento no coinciden, se corrige uno de los dos; no se deja la diferencia. Mientras una diferencia esté en proceso de corregirse, la sección lo indica como **pendiente de implementar**. El proyecto de Claude guarda una copia idéntica de este archivo; no hay otro documento de contexto que lo complemente o lo contradiga.
+
+**Cambio de la versión 2.53:** nuevo diseño de la portada, de la ficha de cada recurso y del motor de rutas de estudio, según las maquetas aprobadas por el responsable el 16 de noviembre (tinta, pergamino y rojo único, líneas finas, esquinas de 4 a 8 px, Newsreader e Inter). **Portada** (§14): franja superior, presentación con buscador principal y búsquedas sugeridas, texto bíblico del día (hebreo del Códice de Leningrado en el Antiguo Testamento, español en la versión elegida y enlace a la estación donde se estudia), recurso destacado (el publicado más reciente), accesos rápidos, catálogo con pestañas de enfoque y selectores (sin la columna de filtros), áreas de estudio y buzón; la cabecera de la portada no lleva buscador. **Ficha** (§15): presentación con acciones e imagen, visor, mapa de las rutas, posturas comparadas (de los bloques `posturas` del recurso), pasajes clave, cómo usarlo, límites y fuentes; cada sección sale de los datos del recurso, sin escribirse a mano. **Motor de rutas** (§20): cabecera de la estación con su número en todo el recurso, panel visual en un recuadro, «Estudio de la estación», avance recorrido y, al final de una ruta, «Siguiente» pasa a la primera estación de la ruta siguiente. Cabecera y pie nuevos en todo el sitio, con íconos propios en SVG (sin fuentes de íconos externas). Los datos inventados de las maquetas (calificaciones, autores, perfil, griego, audio) se reemplazaron por datos reales o se quitaron.
 
 **Cambio de la versión 2.52:** recurso nº 18 de la ola 1, Los patriarcas (historia y geografía, tipo mapa), con siete rutas y 55 estaciones: el mundo de los patriarcas (fechas, el Creciente Fértil, Ur y Harán, la vida en tiendas, las costumbres de Nuzi y Mari, y su historicidad), Abraham, Isaac, Jacob, José, los viajes en el mapa y los patriarcas en toda la Biblia. Fechas según la cronología del texto, como Egipto y Pactos (Abraham nace hacia 2166 a.C.; Jacob baja a Egipto hacia 1876, con los 430 años contados en Egipto y la estancia corta en `posturas`). Van en bloques `posturas` Ur del sur o del norte, Melquisedec (rey histórico y figura de Cristo, no cristofanía), Sodoma al sur del mar Muerto o en Tall el-Hammam, el hijo ofrecido según la tradición islámica, el faraón de José (Reino Medio o hicsos) y la elección de Romanos 9 (prevalece la elección para un papel en la historia de la salvación). Usa el relieve y las capas de La tierra de Israel y su geografía propia `geo/patriarcas.py` → `patriarcas/patriarcas-geo.js` (lugares hipotéticos con prefijo `r-` y 22 recorridos); activa el recorrido «patriarcas» del atlas. La creación y los orígenes (VII.6), La tierra de Israel (VI.1), Pactos y dispensaciones (I.3) y Egipto (Abraham y José) suman su botón `ir` hacia el recurso. Se corrige un defecto del texto bíblico del sitio: Génesis 33 tenía 19 versículos porque el 11 traía pegado el 12; `herramientas/biblia/generar.py` suma la lista `DIVISIONES` para separar versículos unidos en la fuente (§15). También se corrige 2 Crónicas 3:1 («en le monte»).
 
@@ -244,13 +246,14 @@ No hay base de datos ni servidor propio. El contenido vive en archivos Markdown 
 ├─ src/
 │  ├─ config/sitio.ts        nombre, buzón, analítica (anuncios: inactivo, a eliminar)
 │  ├─ data/taxonomia.ts      vocabulario controlado (§9)
+│  ├─ data/texto-del-dia.ts  textos bíblicos del día de la portada (§14); libros-citas.ts: códigos de los libros (generado desde citas.js)
 │  ├─ content.config.ts      esquema obligatorio de recurso (§8)
 │  ├─ content/recursos/*.md  un archivo por recurso = ficha + metadatos
-│  ├─ lib/                   url, storage, analitica (anuncios y cuenta: inactivos, a eliminar)
-│  ├─ components/            Visor, Compartir, ItemRecurso (EspacioAnuncio: inactivo, a eliminar)
+│  ├─ lib/                   url, storage, analitica, datos-recursos (lee rutas, estaciones, posturas y pasajes de las apps al armar el sitio) (anuncios y cuenta: inactivos, a eliminar)
+│  ├─ components/            Visor, Compartir, TarjetaRecurso, Icono (íconos SVG propios), ItemRecurso (EspacioAnuncio: inactivo, a eliminar)
 │  ├─ layouts/Base.astro
 │  ├─ pages/                 portada, [slug] (ficha), [asignatura]/[slug] (redirecciones), embed/[slug], explorar, buzón, privacidad, 404
-│  └─ styles/                tokens.css, global.css
+│  └─ styles/                tokens.css, global.css (cabecera, pie y piezas comunes), portada.css, ficha.css
 └─ .github/workflows/        publicar.yml, desempaquetar.yml
 ```
 
@@ -298,7 +301,7 @@ Todo recurso se muestra con `src/components/Visor.astro`, sin importar el motor.
 
 La pantalla completa cumple el papel del "modo pizarra": no se agrega un segundo botón para lo mismo.
 
-La barra con estas acciones va **arriba del recurso** en la ficha y en pantalla completa, para que quede a la vista sin desplazarse; en el embed (`/embed/`) va abajo, para dar prioridad al recurso dentro de la plataforma que lo inserta.
+La barra con estas acciones va **arriba del recurso** en la ficha y en pantalla completa, para que quede a la vista sin desplazarse; en el embed (`/embed/`) va abajo, para dar prioridad al recurso dentro de la plataforma que lo inserta. Desde la v2.53, en la ficha esas acciones se muestran como botones de la presentación (§15), que usan los del visor; la barra del visor queda oculta y aparece en pantalla completa.
 
 El visor nunca contiene anuncios ni elementos ajenos al recurso.
 
@@ -509,20 +512,26 @@ No se agregan eventos sin documentarlos en esta tabla.
 
 ## 14. Portada y búsqueda
 
-La portada es el catálogo completo, a ancho de pantalla:
+La portada sigue la maqueta aprobada el 16 de noviembre de 2026 (v2.53). Todas sus cifras salen de los recursos publicados al armar el sitio (`src/lib/datos-recursos.ts`); ninguna se escribe a mano.
 
 | Zona | Comportamiento |
 |---|---|
-| Cabecera fija | Marca (símbolo + nombre en serif grande), buscador (presente en todas las páginas; desde otra página envía a la portada con `?q=`) y Sugerencias |
-| Panel de filtros | Columna izquierda desde arriba, a la altura de "Recién agregados". Enfoque, testamento, época, libro, tipo y etiquetas. En libro y etiquetas, 8 opciones visibles y el resto tras "Ver más"; "Solo mis guardados" si el visitante guardó algo. Fijo al hacer scroll en escritorio; plegable en celular, antes de "Recién agregados". Cada opción muestra cuántos recursos quedarían |
-| Recién agregados | Columna derecha, arriba del catálogo. Los 4 recursos con `fechaPublicacion` más reciente. Se oculta mientras hay búsqueda o filtros activos, para que los resultados queden arriba. En celular, carrusel horizontal |
-| Catálogo | Rejilla de tarjetas (imagen o emoji, tipo, título, resumen). En celular, tarjetas horizontales compactas |
+| Cabecera fija (todo el sitio) | Marca, navegación (Estudios interactivos, Interlineal, Teología, Historia y mapas, Herramientas; cada una abre el catálogo filtrado o el recurso), versión de la Biblia, buscador y «Mis guardados». En la portada no hay buscador en la cabecera: se busca en la presentación. La tecla «/» lleva al buscador |
+| Franja superior | Línea oscura con el nombre de la plataforma, la versión elegida para las citas y cuántos recursos hay publicados |
+| Presentación | Título, bajada y el buscador principal: tipo de estudio (enfoque), búsqueda y «Explorar», con búsquedas sugeridas debajo |
+| Texto bíblico del día | Un texto por día, en orden, de la lista `src/data/texto-del-dia.ts` (36 textos). Hebreo del Códice de Leningrado cuando la numeración coincide con la RV 1960; el español en la versión que eligió la persona; enlace a la estación del sitio donde se estudia, botón al interlineal (AT) y «Copiar el texto». El título de la estación se lee de la app al armar el sitio; si una estación cambia de lugar, se corrige la lista (el build avisa) |
+| Recurso destacado | El recurso con la `fechaPublicacion` más reciente: portada, enfoque, épocas, rutas y estaciones, descripción (primer párrafo de «Qué muestra») y botones para comenzar |
+| Accesos rápidos | 100 % en línea, modelos 3D, mapas e interlineal; abren el catálogo filtrado o el recurso |
+| Catálogo | Pestañas de enfoque (con cuántos recursos quedan), selectores de formato, testamento, época, libro y orden (catálogo, más recientes, A–Z), fichas de los filtros activos y «Mis guardados» si el visitante guardó algo. Tarjetas con imagen, formato, rutas y estaciones, enfoque, libros principales, resumen y épocas. 12 por página |
+| Áreas de estudio | Lenguas originales e interlineal, teología sistemática, hermenéutica y herramientas, e historia, geografía y libros, con títulos y cifras del catálogo |
+| Buzón | Invitación a sugerir un recurso o reportar un error |
+| Pie (todo el sitio) | Estudios de libro y herramientas de estudio publicados, enlaces del sitio y crédito de la RV 1960 |
 
-Reglas de filtrado: **O** dentro de una misma faceta, **Y** entre facetas distintas. La búsqueda y los filtros se combinan. Con búsqueda, el orden es por relevancia; sin ella, por `orden`. Todo el estado vive en la URL, así que una vista filtrada se puede compartir.
+Reglas de filtrado: **O** dentro de una misma faceta, **Y** entre facetas distintas. La búsqueda y los filtros se combinan. Con búsqueda, el orden es por relevancia; sin ella, por `orden` (o el que se elija). Los selectores eligen un valor a la vez; una dirección con varios (`?tipo=3d,mapa`) se respeta y el selector muestra «Varios». Las etiquetas (`?tag=`) ya no tienen selector, pero se aceptan en la dirección y se muestran como filtro activo. Todo el estado vive en la URL (`?q=&enfoque=&testamento=&epoca=&libro=&tipo=&tag=&guardados=1&orden=&pagina=`), así que una vista filtrada se puede compartir.
 
-Las tarjetas se generan en el HTML (SEO y uso sin JavaScript); el navegador solo las oculta o reordena.
+Las tarjetas se generan en el HTML (SEO y uso sin JavaScript); el navegador solo las oculta y las reordena en el DOM (para que el lector de pantalla siga el mismo orden).
 
-- Pagefind indexa solo el `<article data-pagefind-body>` de cada ficha. Filtros: los de §9.
+- Pagefind indexa solo el `<main data-pagefind-body>` de cada ficha. Filtros: los de §9.
 - La portada filtra los resultados de Pagefind para exigir que cada término aparezca por su raíz en el texto: evita falsos positivos por coincidencias parciales.
 - Después, la portada reordena: primero el recurso cuyo título coincide con la consulta (sin artículos ni «libro de», «estudio de»), luego los que lo contienen, y al final el resto por relevancia. Si la consulta pide un «libro», el estudio de libro va antes que los demás.
 - En `npm run dev` (sin índice) se usa una búsqueda local sobre el catálogo, insensible a tildes.
@@ -540,6 +549,20 @@ Cada ficha tiene un artículo propio. Estructura recomendada de secciones H2:
 5. **Qué es reconstrucción / limitaciones** (supuestos, fechas aproximadas, debates)
 
 Además, cada ficha incluye automáticamente: JSON-LD `LearningResource`, canonical, Open Graph, fuentes, licencia, estado de revisión y enlace para reportar errores.
+
+**Página de la ficha** (desde la v2.53, maqueta del 16 de noviembre). `src/pages/[slug].astro` reparte las secciones del Markdown por su título y completa el resto con los datos de la app (`src/lib/datos-recursos.ts`), sin escribir nada a mano:
+
+| Zona | De dónde sale |
+|---|---|
+| Presentación | Miga, libros principales, enfoque y formato, título, resumen, rutas y estaciones, épocas y cuántas posturas compara; acciones (comenzar en la estación 1, compartir, insertar, guardar, pantalla completa, restaurar vista, límites) e imagen de portada con el estado de revisión. Las acciones usan los botones del visor (§6), que en la ficha solo se ven en pantalla completa |
+| Visor | El recurso (§6) |
+| Mapa del recurso | Las rutas de `data.js` (número, estaciones que abarca, nombre e `info`), con la ruta en estudio marcada; «Qué muestra» como introducción y «Las rutas» en un desplegable. Cada tarjeta abre su primera estación en el visor |
+| Posturas comparadas | Todos los bloques `posturas` del recurso en una tabla (tarjetas en celular), con enlace a su estación |
+| Qué dice el texto bíblico | La sección de la ficha y tarjetas con el primer pasaje de cada ruta (hasta seis), copiado de la RV 1960 del sitio |
+| Cómo usar este recurso y Límites | Las secciones «Cómo usarlo» y «Qué es reconstrucción / limitaciones», y los recursos del sitio que las estaciones enlazan con `ir` |
+| Fuentes | `fuentes` separadas en textos bíblicos y bibliografía, licencia, etiquetas y reporte de errores |
+
+Las secciones con otro título («Las partes», «Los procesos», «Recorridos»…) se muestran juntas después del mapa del recurso. Un recurso sin rutas de estudio (3D, atlas, armonía) muestra solo lo que tiene.
 
 Reglas: el artículo explica lo que se ve; no repite el resumen ni rellena para alcanzar un largo. Las citas bíblicas usan Reina-Valera 1960 salvo indicación en contrario. La RV 1960 tiene derechos de autor: toda app y toda ficha que la cite incluye el crédito «Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso.» Las citas se copian de una fuente que identifique la edición; si no se puede confirmar el texto exacto, se parafrasea en vez de citar entre comillas. Donde hay interpretaciones distintas entre tradiciones o estudiosos, la ficha lo dice.
 
@@ -659,7 +682,8 @@ Reglas:
 Distinta de la **presentación** (`segunda-guerra-mundial/`), que un profesor usa para enseñar con texto breve: la ruta de estudio es para que la persona aprenda sola, y por eso el texto es extendido. Referencia: `imperio-babilonico/`.
 
 - **Motor compartido.** `assets/js/ruta-estudio.js` y `assets/css/ruta-estudio.css`. Cada recurso tiene solo `index.html`, `data.js` (`window.RUTA_DATA`, formato descrito en el encabezado del motor) e `img/`. Un bloque `{ ir: { t, a } }` en el texto muestra un botón que abre otro recurso en la página completa (`a` es una ruta relativa, p. ej. `../../viajes-pablo/`). Excepción a la estructura de cuatro archivos: con varios recursos del mismo tipo, copiar el motor en cada carpeta haría que las copias se desalinearan.
-- **Lámina.** En escritorio, panel visual a la izquierda (imagen, mapa, tabla o pasaje, con pestañas si hay varios) y texto con desplazamiento propio a la derecha; en celular, visual arriba y texto debajo. Navegación Anterior/Siguiente y enlace propio por estación (`#ruta/numero`).
+- **Lámina** (diseño de la v2.53). Arriba, la cabecera de la estación: ruta, título, número de la estación en todo el recurso («Estación 01 / 50»), botón «Rutas» y fondo claro u oscuro. En escritorio, panel visual a la izquierda en un recuadro (imagen, mapa, tabla o pasaje, con pestañas si hay varios) y «Estudio de la estación» con desplazamiento propio a la derecha (posturas en dos columnas, ejercicios en tarjeta, «Para pensar» en un recuadro); en celular, visual arriba y texto debajo. Abajo, Anterior, la posición en la ruta, el avance recorrido (estaciones ya vistas en el dispositivo sobre el total) y «Siguiente: título de la estación». Enlace propio por estación (`#ruta/numero`).
+- **Navegación entre rutas** (desde la v2.53). En la última estación de una ruta, «Siguiente» pasa a la primera estación de la ruta siguiente («Siguiente ruta: …»), y en la primera, «Anterior» vuelve a la última de la ruta anterior; las flechas del teclado hacen lo mismo. Las rutas `pendiente` se saltan. Solo se detiene en la primera y la última estación del recurso.
 - **Contenido por descubrir.** Una pestaña que el alumno no ha abierto se ve como un botón por tocar: borde y texto de acento y una flecha («Mapa ›»). Si tiene pasos, lo indica («Mapa · 5 pasos»). En la primera visita a la estación, la pestaña late tres veces (unos 2,7 s) y aparece una nota guía que se cierra sola. Los mapas por pasos muestran puntos de avance que se pueden tocar, y el botón «▶ Ver la evolución» los recorre solos, uno cada 3,5 s, con pausa. En la primera visita, «›» y «Ver la evolución» también laten. El motor recuerda en el dispositivo qué estaciones y pestañas ya se vieron (clave `fyp:v1:visto:<ruta de la app>`); `?reiniciar-vistos` en la dirección las vuelve a mostrar. Con «reducir movimiento» activado no hay pulsos.
 - **Selector de rutas** como botón flotante en la esquina, que abre y oculta un panel con las rutas y sus estaciones; las rutas en preparación aparecen deshabilitadas.
 - **Línea de tiempo inferior** opcional por ruta (`linea-tiempo.js`): hitos y un marcador que se desliza a la fecha de cada estación o de cada paso del mapa.
@@ -734,7 +758,7 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 - **Limpieza del código comercial:** eliminar `anuncios.ts`, `cuenta.ts`, `EspacioAnuncio`, `SITIO.anuncios` y la llamada a `iniciarAnuncios()`.
 - **Tabernáculo:** las rutas de servicio y de expiación ya existen como ceremonias (Servicio diario y Día de la Expiación). El sumo sacerdote (3D) queda solo con Las vestiduras; Sumo sacerdote, sacerdote y levita y Las doce piedras están en el recurso interactivo El sacerdocio en Israel.
 - **Crédito de la RV 1960 en las apps existentes** (§15): falta en `genealogias/`, `linea-reyes/`, `tabernaculo/` y `templo-salomon/`, que usan la burbuja de citas.
-- **Sistema de diseño** (hecho en Claude Design a partir de `tokens.css`, `global.css` y estas directrices). Brechas: contraste WCAG de `--muted` y `--surface-2` en modo claro, y de `--line-strong` sobre `--surface` en el contorno de controles (no llega a 3:1); colores de datos sin sincronizar entre apps (`--judah`, `--israel`); faltan íconos SVG propios; no hay logo ni isotipo (§4, §22).
+- **Sistema de diseño** (hecho en Claude Design a partir de `tokens.css`, `global.css` y estas directrices). Brechas: contraste WCAG de `--muted` y `--surface-2` en modo claro, y de `--line-strong` sobre `--surface` en el contorno de controles (no llega a 3:1); colores de datos sin sincronizar entre apps (`--judah`, `--israel`); no hay logo ni isotipo (§4, §22). Los íconos propios están en `src/components/Icono.astro` (v2.53).
 - **El problema sinóptico y los estudios de los evangelios:** las cuatro escenas de Flow están integradas (v2.46; la del taller muestra solo manos, porque Flow bloqueó la versión con personas). Lucas ya está enlazado en las dos direcciones (v2.47: I.4 y I.9 del estudio; estaciones 8 y 9 de la ruta). Cuando se publiquen los estudios de Mateo (nº 100) y Marcos (nº 101), enlazar la ruta desde su introducción con `../../evangelios/#sinoptico/1` y, desde la ruta, cada estudio en las estaciones 8 y 9.
 - **Armonía de los evangelios.** Publicada en borrador con 246 pasajes que cubren los 3.779 versículos de los cuatro evangelios, en orden cronológico: los 194 del libro de Cristóbal Alarcón y 52 agregados en su lugar (se insertan con `ARMONIA.insertar(tras, lista)` y llevan `nuevo: true` solo como dato interno, sin marca visible). Pendiente: revisión de los comentarios.
 - **Lucas, imágenes y enlaces:** las quince escenas de Flow y la portada están integradas (v2.47; prompts en `herramientas/lucas/PROMPTS-FLOW.md`). Cuando se publiquen El Espíritu Santo (nº 11), Las fiestas de Israel (nº 26), Jerusalén en tiempos de Jesús (nº 94), Mateo (nº 100), Marcos (nº 101) y Juan (nº 103), agregar sus botones `ir` en II.7 y IV.2 (Espíritu), III.5 y III.28 (fiestas), III.26 (Jerusalén) y I.9 (evangelios).
@@ -1011,6 +1035,12 @@ El atlas responde «¿dónde queda y qué pasó ahí?». No cuenta viajes ni cam
 | 2026-11-13 | Se nombra con respeto la tradición islámica de que el hijo ofrecido fue Ismael, frente a Génesis 22:2, y se comparan Abraham en el judaísmo, el cristianismo y el islam | Decisión del responsable, como en Dios y la Trinidad |
 | 2026-11-16 | Los patriarcas: fotos con licencia verificada en Wikimedia Commons (sistema de agua de Tel Beerseba, Ori~, uso libre con atribución; recinto de Macpela, Djampa, CC BY-SA 4.0) | §20, Imágenes |
 | 2026-11-13 | Génesis 33 del sitio tenía 19 versículos (el 11 traía pegado el 12); se separa con la nueva lista `DIVISIONES` de `generar.py` y se corrige el JSON publicado, `indice.json` y `versiones.json`; se corrige además 2 Cr 3:1 («en le monte») | Se detectó al citar los pasajes de Jacob y Esaú y del monte Moriah |
+| 2026-11-16 | Portada, ficha de recurso y motor de rutas rediseñados según las maquetas del responsable; todo en español y con datos reales del sitio | Maquetas aprobadas por el responsable; las calificaciones, autores, perfil de usuario, griego, audio y convocatoria a profesores de las maquetas no existen o chocan con §1 y §11 |
+| 2026-11-16 | Catálogo con pestañas de enfoque y selectores, sin la columna de filtros; «Recién agregados» pasa a ser el recurso destacado y el orden «Más recientes» | Decisión del responsable: «solo como la maqueta» |
+| 2026-11-16 | Texto bíblico del día en la portada, más arriba que en la maqueta, con hebreo solo del Antiguo Testamento (el sitio no tiene griego) | Decisión del responsable |
+| 2026-11-16 | La portada no lleva buscador en la cabecera; en las demás páginas se mantiene | Comentario del responsable en el demo: el buscador principal de la portada basta |
+| 2026-11-16 | En la última estación de una ruta, «Siguiente» pasa a la primera estación de la ruta siguiente | Pedido del responsable: el estudio sigue sin volver al panel de rutas |
+| 2026-11-16 | Las secciones de la ficha (rutas, posturas, pasajes, recursos relacionados) se arman con los datos de cada recurso; no se escriben tarjetas propias por recurso | Decisión del responsable: sirve para los 45 recursos y no se desalinea |
 
 ## 24. Relación con el repositorio Fuego y Palabra
 

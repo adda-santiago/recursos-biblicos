@@ -1,20 +1,82 @@
 ---
-import { getCollection, render } from 'astro:content';
+/*
+ * Ficha de un recurso (DIRECTRICES §15), según la maqueta aprobada el 16-11-2026:
+ * presentación con acciones e imagen, visor del recurso, mapa de las rutas, posturas
+ * comparadas, el texto bíblico, cómo usarlo y sus límites, y fuentes.
+ * Las rutas, las posturas, los pasajes y los recursos relacionados se leen de la app
+ * al armar el sitio (lib/datos-recursos.ts); los textos, de las secciones de la ficha.
+ */
+import { getCollection } from 'astro:content';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import Base from '../layouts/Base.astro';
 import Visor from '../components/Visor.astro';
-import { EPOCAS, LIBROS, SLUGS_RESERVADOS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
-import { ruta } from '../lib/url';
+import Icono from '../components/Icono.astro';
+import { ENFOQUES, EPOCAS, LIBROS, SLUGS_RESERVADOS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
+import { enlacesDe, estadisticas, pasaje, posturasDe, rutasDe } from '../lib/datos-recursos';
+import { FORMA_CODIGO } from '../data/libros-citas';
+import { ruta, rutaRecurso } from '../lib/url';
+import '../styles/ficha.css';
 
 export async function getStaticPaths() {
   const recursos = await getCollection('recursos', (r) => r.data.publicado);
   for (const r of recursos) {
     if (SLUGS_RESERVADOS.includes(r.id)) throw new Error(`[${r.id}] Ese nombre de archivo está reservado; renombra la ficha.`);
   }
-  return recursos.map((r) => ({ params: { slug: r.id }, props: { r } }));
+  return recursos.map((r) => ({ params: { slug: r.id }, props: { r, todos: recursos.map((x) => ({ id: x.id, titulo: x.data.titulo })) } }));
 }
-const { r } = Astro.props;
+const { r, todos } = Astro.props;
 const d = r.data;
-const { Content, headings } = await render(r);
+
+// ---------- Secciones de la ficha: cada «## título» se ubica en su lugar de la página ----------
+const md = await createMarkdownProcessor();
+const trozos = (r.body ?? '').split(/^## /m).slice(1).map((t) => {
+  const salto = t.indexOf('\n');
+  return { titulo: t.slice(0, salto).trim(), cuerpo: t.slice(salto + 1).trim() };
+});
+const html = async (s: string) => (await md.render(s)).code;
+const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const tipoSeccion = (t: string) => {
+  const n = norm(t);
+  if (n.startsWith('que muestra')) return 'intro';
+  if (n === 'las rutas' || n === 'las rutas de aprendizaje') return 'rutas';
+  if (n.startsWith('que dice el texto')) return 'texto';
+  if (n.startsWith('como usarlo')) return 'uso';
+  if (/^que es (reconstruccion|simplificacion|aproximacion)/.test(n)) return 'limites';
+  return 'otra';
+};
+const secciones = await Promise.all(trozos.map(async (t) => ({ ...t, tipo: tipoSeccion(t.titulo), html: await html(t.cuerpo) })));
+const de = (tipo: string) => secciones.filter((s) => s.tipo === tipo);
+const intro = de('intro')[0];
+const limites = de('limites')[0];
+
+// ---------- Datos de la app ----------
+const rutas = rutasDe(d.visor.ruta);
+const est = estadisticas(d.visor.ruta);
+const posturas = posturasDe(d.visor.ruta);
+const titulos = new Map(todos.map((x) => [x.id, x.titulo]));
+const relacionados = enlacesDe(d.visor.ruta).filter((s) => s !== r.id && titulos.has(s)).map((s) => ({ id: s, titulo: titulos.get(s)! }));
+// Pasajes: el primero de la primera estación de cada ruta (hasta seis, sin repetir)
+const pasajes: { ref: string; texto: string; corto: boolean; ruta: string }[] = [];
+for (const rr of rutas) {
+  for (const e of rr.estaciones) {
+    const p = pasaje(e.ref);
+    if (p && !pasajes.some((x) => x.ref === p.ref)) { pasajes.push({ ...p, ruta: rr.n }); break; }
+  }
+  if (pasajes.length === 6) break;
+}
+
+// ---------- Fuentes: textos bíblicos y bibliografía ----------
+const esBiblica = (f: string) => {
+  const m = f.match(/^((?:[123]\s)?[A-ZÁÉÍÓÚ][a-záéíóúñ]+)\s+\d/);
+  return !!(m && FORMA_CODIGO[m[1]]) && !/\(\d{4}\)/.test(f);
+};
+const fuentesBiblicas = d.fuentes.filter(esBiblica);
+const bibliografia = d.fuentes.filter((f) => !esBiblica(f));
+
+const primera = rutas[0];
+const libros = d.libros.slice(0, 3).map((l) => LIBROS[l]);
+const epocas = d.epocas.length > 2 ? [EPOCAS[d.epocas[0]], EPOCAS[d.epocas[d.epocas.length - 1]]] : d.epocas.map((e) => EPOCAS[e]);
+const testamentoPrincipal = d.testamento[0];
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -31,65 +93,263 @@ const jsonLd = {
 ---
 <Base titulo={d.titulo} descripcion={d.resumen} imagen={d.imagen}>
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
-  <main>
-    <header class="ficha-cabecera">
-      <p class="miga">
-        {d.testamento.map((t, i) => <>{i > 0 && ' · '}<a href={ruta(`?testamento=${t}`)}>{TESTAMENTOS[t]}</a></>)}
-        {' '}/ <a href={ruta(`?tipo=${d.tipo}`)}>{TIPOS[d.tipo]}</a>
-      </p>
-      <h1>{d.titulo}</h1>
-      <p class="resumen">{d.resumen}</p>
-      <p class="meta">
-        {d.epocas.map((e) => <a class="chip" href={ruta(`?epoca=${e}`)}>{EPOCAS[e]}</a>)}
-      </p>
-    </header>
+  <main class="ficha" data-pagefind-body>
+    {d.testamento.map((t) => <span hidden data-pagefind-filter={`testamento:${TESTAMENTOS[t]}`}></span>)}
+    {d.libros.map((l) => <span hidden data-pagefind-filter={`libro:${LIBROS[l]}`}></span>)}
+    {d.epocas.map((e) => <span hidden data-pagefind-filter={`epoca:${EPOCAS[e]}`}></span>)}
+    <span hidden data-pagefind-filter={`tipo:${TIPOS[d.tipo]}`}></span>
+    <span hidden data-pagefind-meta={`emoji:${d.emoji}`}></span>
+    <span hidden data-pagefind-meta={`uid:${d.uid}`}></span>
 
-    <Visor r={r} modo="ficha" />
-
-    <div class="ficha-cuerpo">
-      <article class="articulo" data-pagefind-body>
-        {d.testamento.map((t) => <span hidden data-pagefind-filter={`testamento:${TESTAMENTOS[t]}`}></span>)}
-        {d.libros.map((l) => <span hidden data-pagefind-filter={`libro:${LIBROS[l]}`}></span>)}
-        {d.epocas.map((e) => <span hidden data-pagefind-filter={`epoca:${EPOCAS[e]}`}></span>)}
-        <span hidden data-pagefind-filter={`tipo:${TIPOS[d.tipo]}`}></span>
-        <span hidden data-pagefind-meta={`emoji:${d.emoji}`}></span>
-        <span hidden data-pagefind-meta={`uid:${d.uid}`}></span>
-        <Content />
-        {d.tags.length > 0 && (
-          <p class="etiquetas">Etiquetas: {d.tags.map((t, i) => <>{i > 0 && ' '}<a href={ruta(`?tag=${t}`)}>#{t}</a></>)}</p>
-        )}
-      </article>
-
-      <aside class="lateral">
-        {headings.filter((h) => h.depth === 2).length > 1 && (
-          <nav aria-label="En esta ficha">
-            <h2>En esta ficha</h2>
-            <ul>{headings.filter((h) => h.depth === 2).map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul>
-          </nav>
-        )}
-        {d.libros.length > 0 && (
-          <div>
-            <h2>Libros</h2>
-            <p>{d.libros.map((l, i) => <>{i > 0 && ', '}<a href={ruta(`?libro=${l}`)}>{LIBROS[l]}</a></>)}</p>
-          </div>
-        )}
-        {d.visor.escala && <div><h2>Escala</h2><p>{d.visor.escala}</p></div>}
-        <div>
-          <h2>Fuentes</h2>
-          <ul>{d.fuentes.map((f) => <li>{f}</li>)}</ul>
-        </div>
-        <div>
-          <h2>Licencia y revisión</h2>
-          <p>{d.licencia.contenido}{d.licencia.modelo && ` · ${d.licencia.modelo}`}</p>
-          {d.licencia.atribucion && <p>{d.licencia.atribucion}</p>}
-          <p class={d.revision.estado === 'borrador' ? 'estado-borrador' : undefined}>
-            {d.revision.estado === 'revisado'
-              ? `Revisado${d.revision.revisor ? ` por ${d.revision.revisor}` : ''}${d.revision.fecha ? `, ${d.revision.fecha.toLocaleDateString('es-CL')}` : ''}`
-              : 'Ficha en revisión'}
+    <!-- Presentación -->
+    <section class="ficha-hero">
+      <div class="contenedor ficha-hero-fila">
+        <div class="ficha-hero-texto">
+          <p class="miga no-citas">
+            <a href={ruta()}>Catálogo</a><span aria-hidden="true">/</span>
+            <a href={ruta(`?testamento=${testamentoPrincipal}`)}>{TESTAMENTOS[testamentoPrincipal]}</a><span aria-hidden="true">/</span>
+            <span>{d.titulo}</span>
           </p>
+          <p class="sobretitulo no-citas">
+            {libros.length > 0 && <span>{libros.join(' · ')}{d.libros.length > 3 ? '…' : ''}</span>}
+            {d.enfoque && <a class="rojo" href={ruta(`?enfoque=${d.enfoque}`)}>{ENFOQUES[d.enfoque]}</a>}
+            <span>{TIPOS[d.tipo]}</span>
+          </p>
+          <h1>{d.titulo}</h1>
+          <p class="ficha-resumen">{d.resumen}</p>
+          <ul class="ficha-chips no-citas">
+            {est?.rutas && <li><Icono n="rutas" />{est.rutas} {est.rutas === 1 ? 'ruta guiada' : 'rutas guiadas'}</li>}
+            {est?.estaciones && <li><Icono n="estaciones" />{est.estaciones} estaciones</li>}
+            {est?.pasajes && <li><Icono n="estaciones" />{est.pasajes} pasajes</li>}
+            {epocas.map((e, i) => <li><Icono n={i ? 'reloj' : 'capas'} /><a href={ruta(`?epoca=${d.epocas[i === 0 ? 0 : d.epocas.length - 1]}`)}>{e}</a></li>)}
+            {posturas.length > 0 && <li><Icono n="columnas" />{posturas.length} posturas comparadas</li>}
+          </ul>
+          <div class="ficha-acciones no-citas">
+            {primera
+              ? <a class="boton-oscuro" href={`#${primera.id}/1`} data-ir-estacion={`${primera.id}/1`}><Icono n="flecha" />Comenzar en la estación 1</a>
+              : <a class="boton-oscuro" href="#visor" data-ir-visor><Icono n="flecha" />Abrir el recurso</a>}
+            <button type="button" class="boton-claro" data-proxy="compartir"><Icono n="sobre" />Compartir</button>
+            <button type="button" class="boton-claro" data-proxy="compartir"><Icono n="copiar" />Insertar</button>
+            <button type="button" class="boton-claro" data-proxy="guardar" aria-pressed="false"><Icono n="guardar" /><span>Guardar</span></button>
+            <button type="button" class="boton-claro" data-proxy="completa"><Icono n="pantalla" />Pantalla completa</button>
+            <button type="button" class="boton-claro" data-proxy="restaurar"><Icono n="reloj" />Restaurar vista</button>
+            {limites && <a class="enlace-sutil" href="#limites"><Icono n="alerta" />Límites del recurso</a>}
+          </div>
         </div>
-        <p><a href={ruta(`buzon/?recurso=${d.uid}`)}>Reportar un error en este recurso</a></p>
-      </aside>
-    </div>
+        <figure class="ficha-portada">
+          {d.imagen
+            ? <img src={ruta(d.imagen)} width="1200" height="675" alt="" />
+            : <span class="ficha-emoji" aria-hidden="true">{d.emoji}</span>}
+          <figcaption class="no-citas">
+            <span class:list={['etiqueta-icono', { rojo: d.revision.estado === 'borrador' }]}><Icono n={d.revision.estado === 'revisado' ? 'check' : 'pluma'} />
+              {d.revision.estado === 'revisado' ? `Revisado${d.revision.revisor ? ` por ${d.revision.revisor}` : ''}` : 'Ficha en revisión'}</span>
+            <span>Publicado el {d.fechaPublicacion.toLocaleDateString('es-CL', { timeZone: 'UTC' })}</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- El recurso -->
+    <section class="ficha-visor" id="visor" aria-label="Recurso interactivo">
+      <div class="contenedor">
+        <Visor r={r} modo="ficha" />
+      </div>
+    </section>
+
+    <!-- Mapa de las rutas -->
+    {rutas.length > 0 && (
+      <section class="banda" aria-labelledby="titulo-rutas">
+        <div class="contenedor">
+          <p class="sobretitulo"><span class="rojo">Mapa del recurso</span></p>
+          <h2 id="titulo-rutas">{rutas.length === 1 ? 'La ruta' : `Las ${rutas.length} rutas`} ({est?.estaciones} estaciones)</h2>
+          {intro && <div class="bajada-ficha" set:html={intro.html} />}
+          <ol class="rutas-rejilla no-citas" data-rutas>
+            {rutas.map((rr, i) => (
+              <li>
+                <a class="ruta-tarjeta" href={`#${rr.id}/1`} data-ir-estacion={`${rr.id}/1`} data-ruta={rr.id}>
+                  <span class="ruta-cab"><span class="rojo">{rr.num ? `Ruta ${rr.num}` : `Ruta ${i + 1}`}</span><span>{rr.desde === rr.hasta ? `Estación ${rr.desde}` : `Estaciones ${rr.desde}–${rr.hasta}`}</span></span>
+                  <h3>{rr.nombre}</h3>
+                  <span class="ruta-info">{rr.info}</span>
+                  <span class="ruta-pie"><span class="ruta-activa" data-activa hidden>En estudio ahora</span><span class="gris" data-cuenta>{rr.estaciones.length} {rr.estaciones.length === 1 ? 'estación' : 'estaciones'}</span><Icono n="flecha" /></span>
+                </a>
+              </li>
+            ))}
+          </ol>
+          {de('rutas').map((s) => (
+            <details class="ficha-detalle">
+              <summary>Leer la descripción de cada ruta</summary>
+              <div class="prosa" set:html={s.html} />
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+    {rutas.length === 0 && intro && (
+      <section class="banda" aria-labelledby="titulo-intro">
+        <div class="contenedor"><div class="prosa prosa-ancha"><h2 id="titulo-intro">{intro.titulo}</h2><Fragment set:html={intro.html} /></div></div>
+      </section>
+    )}
+
+    <!-- Secciones propias del recurso (partes, procesos, recorridos…) -->
+    {de('otra').length > 0 && (
+      <section class="banda banda-borde" aria-label="Contenido del recurso">
+        <div class="contenedor otras">
+          {de('otra').map((s) => <div class="prosa"><h2>{s.titulo}</h2><Fragment set:html={s.html} /></div>)}
+        </div>
+      </section>
+    )}
+
+    <!-- Posturas comparadas -->
+    {posturas.length > 0 && (
+      <section class="banda banda-gris" aria-labelledby="titulo-posturas">
+        <div class="contenedor">
+          <div class="cabecera-seccion">
+            <div>
+              <p class="sobretitulo"><span class="rojo">Lecturas en diálogo</span></p>
+              <h2 id="titulo-posturas">Posturas comparadas en este recurso</h2>
+              <p class="bajada-ficha">Donde los creyentes o los estudiosos leen de manera distinta, el recurso presenta las dos lecturas con respeto y explica cómo se entienden. Cada fila lleva a la estación donde se estudia.</p>
+            </div>
+            <p class="sello-dialogo no-citas"><Icono n="corazon" />Diálogo fraterno</p>
+          </div>
+          <div class="tabla-posturas">
+            <table>
+              <thead class="no-citas"><tr><th>Tema</th><th>Una lectura</th><th>Otra lectura</th><th>Cómo se entiende</th><th><span class="visually-hidden">Estación</span></th></tr></thead>
+              <tbody>
+                {posturas.map((p) => (
+                  <tr>
+                    <th scope="row">{p.titulo}</th>
+                    <td><b>{p.a.n}</b><span class="recorte">{p.a.t}</span></td>
+                    <td><b>{p.b.n}</b><span class="recorte">{p.b.t}</span></td>
+                    <td><span class="recorte">{p.c ?? '—'}</span></td>
+                    <td class="no-citas"><a href={`#${p.ruta}/${p.i}`} data-ir-estacion={`${p.ruta}/${p.i}`} title={p.estacion}>Ver en la estación<Icono n="der" /></a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- Qué dice el texto bíblico -->
+    {(de('texto').length > 0 || pasajes.length > 0) && (
+      <section class="banda" aria-labelledby="titulo-texto">
+        <div class="contenedor">
+          <p class="sobretitulo"><span class="rojo">El texto bíblico</span></p>
+          <h2 id="titulo-texto">Qué dice el texto bíblico</h2>
+          {de('texto').map((s) => <div class="prosa prosa-ancha" set:html={s.html} />)}
+          {pasajes.length > 0 && (
+            <ul class="pasajes">
+              {pasajes.map((p) => (
+                <li>
+                  <blockquote class="no-citas">«{p.corto ? p.texto.replace(/[.,;:]$/, '') + '…' : p.texto}»</blockquote>
+                  <p><span class="cita-ref-ficha">{p.ref}</span><span class="gris no-citas">{p.ruta}</span></p>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </section>
+    )}
+
+    <!-- Cómo usarlo y límites -->
+    {(de('uso').length > 0 || limites) && (
+      <section class="banda banda-borde" aria-label="Cómo usar este recurso">
+        <div class="contenedor uso-fila">
+          <div>
+            {de('uso').map((s) => <div class="prosa"><h2>Cómo usar este recurso</h2><Fragment set:html={s.html} /></div>)}
+            {relacionados.length > 0 && (
+              <div class="relacionados no-citas">
+                <p class="sobretitulo"><span>Recursos del sitio que este recurso enlaza</span></p>
+                <ul>{relacionados.map((x) => <li><a href={rutaRecurso(x.id)}><Icono n="libro" />{x.titulo}</a></li>)}</ul>
+              </div>
+            )}
+          </div>
+          {limites && (
+            <aside class="limites" id="limites">
+              <h2 class="etiqueta-icono"><Icono n="escudo" />Límites del recurso</h2>
+              <div class="prosa" set:html={limites.html} />
+            </aside>
+          )}
+        </div>
+      </section>
+    )}
+
+    <!-- Fuentes -->
+    <section class="banda banda-gris" aria-labelledby="titulo-fuentes">
+      <div class="contenedor">
+        <div class="fuentes-tarjeta">
+          <p class="sobretitulo"><span class="rojo">Fuentes del recurso</span></p>
+          <h2 id="titulo-fuentes">Bibliografía y fuentes</h2>
+          <div class="fuentes-cols">
+            {fuentesBiblicas.length > 0 && (
+              <div><h3>Textos bíblicos</h3><ul>{fuentesBiblicas.map((f) => <li>{f}</li>)}</ul></div>
+            )}
+            {bibliografia.length > 0 && (
+              <div class="no-citas"><h3>Bibliografía y otras fuentes</h3><ul>{bibliografia.map((f) => <li>{f}</li>)}</ul></div>
+            )}
+          </div>
+          <div class="fuentes-pie no-citas">
+            <p>{d.licencia.contenido}{d.licencia.modelo && ` ${d.licencia.modelo}`}</p>
+            {d.licencia.atribucion && <p>{d.licencia.atribucion}</p>}
+            {d.visor.escala && <p>Escala: {d.visor.escala}</p>}
+            {d.tags.length > 0 && <p class="etiquetas">Etiquetas: {d.tags.map((t, i) => <>{i > 0 && ' '}<a href={ruta(`?tag=${t}`)}>#{t}</a></>)}</p>}
+            <p><a class="rojo etiqueta-icono" href={ruta(`buzon/?recurso=${d.uid}`)}><Icono n="alerta" />Reportar un error en este recurso</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </Base>
+
+<script>
+  // Acciones de la presentación: usan los botones del visor (contrato §6), que en la ficha
+  // quedan ocultos fuera de pantalla completa
+  const visor = document.querySelector<HTMLElement>('[data-visor]');
+  const boton = (a: string) => visor?.querySelector<HTMLButtonElement>(`[data-accion="${a}"]`);
+  document.querySelectorAll<HTMLButtonElement>('[data-proxy]').forEach((b) => b.addEventListener('click', () => boton(b.dataset.proxy!)?.click()));
+  // «Guardar» refleja el estado del botón del visor
+  const guardar = boton('guardar');
+  const proxyGuardar = document.querySelector<HTMLButtonElement>('[data-proxy="guardar"]');
+  if (guardar && proxyGuardar) {
+    const copiar = () => {
+      proxyGuardar.setAttribute('aria-pressed', guardar.getAttribute('aria-pressed') ?? 'false');
+      proxyGuardar.querySelector('span')!.textContent = guardar.querySelector('span')?.textContent ?? 'Guardar';
+    };
+    new MutationObserver(copiar).observe(guardar, { attributes: true, subtree: true, childList: true, characterData: true });
+    copiar();
+  }
+
+  // Enlaces a una estación: la abren en el visor sin recargar y suben hasta él
+  const iframe = visor?.querySelector('iframe');
+  const irVisor = () => document.getElementById('visor')?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  document.querySelectorAll<HTMLAnchorElement>('[data-ir-estacion]').forEach((a) => a.addEventListener('click', (e) => {
+    if (!iframe) return;
+    e.preventDefault();
+    try { iframe.contentWindow!.location.hash = a.dataset.irEstacion!; } catch { iframe.src = iframe.src.split('#')[0] + '#' + a.dataset.irEstacion; }
+    irVisor();
+  }));
+  document.querySelector('[data-ir-visor]')?.addEventListener('click', (e) => { e.preventDefault(); irVisor(); });
+
+  // La ruta que se está estudiando se marca en el mapa de rutas
+  const tarjetas = [...document.querySelectorAll<HTMLElement>('[data-ruta]')];
+  const marcar = () => {
+    let h = '';
+    try { h = iframe?.contentWindow?.location.hash ?? ''; } catch { /* otro origen */ }
+    const id = (h.match(/^#([\w-]+)\//) ?? [])[1] ?? tarjetas[0]?.dataset.ruta;
+    tarjetas.forEach((t) => {
+      const on = t.dataset.ruta === id;
+      t.classList.toggle('activa', on);
+      t.querySelector<HTMLElement>('[data-activa]')!.hidden = !on;
+      t.querySelector<HTMLElement>('[data-cuenta]')!.hidden = on;
+    });
+  };
+  if (iframe && tarjetas.length) {
+    iframe.addEventListener('load', () => {
+      marcar();
+      try { iframe.contentWindow!.addEventListener('hashchange', marcar); } catch { /* otro origen */ }
+    });
+    // El motor cambia el # con replaceState (no dispara hashchange): se revisa cada tanto
+    setInterval(marcar, 1500);
+  }
+</script>
