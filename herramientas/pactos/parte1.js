@@ -283,7 +283,8 @@
             { t: 'Que la ley de Moisés salvaría a todas las naciones.', ok: false, por_que: 'Pablo dice lo contrario: la bendición llega por la fe, no por la ley (Gá 3:11).' }
           ],
           explicacion: 'La bendición de las naciones en Cristo estaba incluida en el pacto con Abraham.'
-        } }
+        } },
+        { ir: { t: 'Ver «El llamado: deja tu tierra» en Los patriarcas', a: '../../patriarcas/#abraham/1' } }
       ],
       pensar: 'Dios prometió a Abraham que en él serían benditas todas las familias de la tierra. ¿Cómo has sido tú bendecido por esa promesa, y cómo puedes ser canal de esa bendición para otros?'
     },

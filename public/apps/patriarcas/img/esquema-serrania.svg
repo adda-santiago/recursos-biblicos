@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<rect width="1200" height="800" fill="#f6f3ec"/>
+<text x="600" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">Dónde vivían los patriarcas</text>
+<text x="600" y="94" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#6b7080" text-anchor="middle" font-weight="normal">Corte de Canaán de oeste a este, a la altura de Betel y Jericó (aproximado)</text>
+<polygon points="60,730 60,600 230,590 330,540 420,370 520,270 600,240 680,280 760,460 820,660 880,720 930,660 990,440 1080,300 1140,290 1140,730" fill="#8a5a2b3f" stroke="#8a5a2b" stroke-width="3"/>
+<line x1="60" y1="600" x2="1140" y2="600" stroke="#2a6fb0" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="70" y="622" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2a6fb0" text-anchor="start" font-weight="normal">nivel del mar</text>
+<text x="150" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#6b7080" text-anchor="middle" font-weight="bold">Llanura costera</text>
+<text x="150" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Ciudades cananeas y, después,</text>
+<text x="150" y="272" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">filisteas; el camino del mar</text>
+<text x="420" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#6b7080" text-anchor="middle" font-weight="bold">Sefela</text>
+<text x="420" y="324" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Colinas bajas</text>
+<text x="600" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Serranía central</text>
+<text x="600" y="194" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Siquem, Betel, Hebrón: tiendas,</text>
+<text x="600" y="212" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">altares y pozos de los patriarcas</text>
+<text x="870" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#b03a2e" text-anchor="middle" font-weight="bold">Valle del Jordán</text>
+<text x="870" y="324" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">La llanura que eligió Lot;</text>
+<text x="870" y="342" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Sodoma, junto al mar Salado</text>
+<text x="1070" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Mesetas de Galaad</text>
+<text x="1070" y="254" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">Mahanaim y Peniel (Jacob);</text>
+<text x="1070" y="272" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2430" text-anchor="middle" font-weight="normal">al sur, Edom (Esaú)</text>
+<polygon points="544,248 560,220 576,248" fill="#1f2430"/>
+<polygon points="584,248 600,220 616,248" fill="#1f2430"/>
+<polygon points="624,248 640,220 656,248" fill="#1f2430"/>
+<text x="600" y="770" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Los patriarcas se movían por la cresta de la serranía y bajaban al Neguev con sus rebaños.</text>
+</svg>

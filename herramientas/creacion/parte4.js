@@ -337,7 +337,8 @@
         'El contraste con Babel es deliberado. Los constructores de la torre dijeron «hagámonos un nombre» (Gn 11:4). A Abram, Dios le dice: «engrandeceré tu nombre» (Gn 12:2). Lo que ellos quisieron conseguir por orgullo, Dios lo da por gracia a quien confía en Él. Los de Babel querían quedarse en un lugar; Abram es llamado a salir hacia una tierra que no conoce. Babel buscó su propia seguridad; Abraham «esperaba la ciudad que tiene fundamentos, cuyo arquitecto y constructor es Dios» (He 11:10).',
         { h: 'Todas las familias de la tierra' },
         'La promesa de Génesis 12:3 responde a todo lo que se rompió en Génesis 1 a 11: «serán benditas en ti todas las familias de la tierra» (Gn 12:3). Después de la maldición sobre la tierra (Gn 3:17), sobre Caín (Gn 4:11) y sobre Canaán (Gn 9:25), llega por fin una bendición para todas las familias que se dispersaron en Babel. Pablo dice que en esta promesa Dios «dio de antemano la buena nueva a Abraham» (Ga 3:8): es el evangelio anunciado por adelantado. La bendición llegaría a todas las naciones por medio de Cristo, el descendiente de Abraham.',
-        'Los primeros once capítulos de Génesis explican por qué el mundo necesita un Salvador. El resto de la Biblia cuenta cómo Dios lo envió. La historia de Abraham y los patriarcas tendrá su propio recurso, Los patriarcas, en preparación.',
+        'Los primeros once capítulos de Génesis explican por qué el mundo necesita un Salvador. El resto de la Biblia cuenta cómo Dios lo envió. La historia de Abraham y los patriarcas se estudia en su propio recurso, Los patriarcas.',
+        { ir: { t: 'Ver «De Babel a Abraham» en Los patriarcas', a: '../../patriarcas/#mundo/1' } },
         { ir: { t: 'Ver «La promesa a Abraham» en La tierra de Israel', a: '../../tierra-de-israel/#plan/1' } },
         { ir: { t: 'Ver «Abraham: las promesas» en Pactos y dispensaciones', a: '../../pactos-y-dispensaciones/#pactos/3' } }
       ],

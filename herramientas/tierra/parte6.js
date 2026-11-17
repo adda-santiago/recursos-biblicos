@@ -15,7 +15,8 @@
         { h: 'Extranjero en la tierra prometida' },
         'Sin embargo, Abraham nunca poseyó la tierra. Esteban lo recuerda: Dios «no le dio herencia en ella, ni aun para asentar un pie; pero le prometió que se la daría en posesión, y a su descendencia después de él, cuando él aún no tenía hijo» (Hch 7:5). Lo único que Abraham compró fue una cueva para sepultar a Sara (Gn 23). Vivió en tiendas, como extranjero, creyendo una promesa que no vio cumplida. Por eso la carta a los Hebreos dice que habitó «en la tierra prometida como en tierra ajena» (He 11:9).',
         { h: 'La tierra y la bendición' },
-        'La promesa de la tierra va unida a otras dos: una descendencia numerosa y la bendición para todas las naciones: «serán benditas en ti todas las familias de la tierra» (Gn 12:3). La tierra no era un fin en sí misma, sino el lugar donde Dios formaría un pueblo y desde donde llegaría la bendición a todo el mundo, en Cristo, la descendencia de Abraham (Gá 3:8, 16).'
+        'La promesa de la tierra va unida a otras dos: una descendencia numerosa y la bendición para todas las naciones: «serán benditas en ti todas las familias de la tierra» (Gn 12:3). La tierra no era un fin en sí misma, sino el lugar donde Dios formaría un pueblo y desde donde llegaría la bendición a todo el mundo, en Cristo, la descendencia de Abraham (Gá 3:8, 16).',
+        ir('Ver los viajes de Abraham en Los patriarcas', '../../patriarcas/#mapas/1')
       ],
       pensar: 'Abraham respondió a la promesa levantando altares. ¿Dónde estás levantando tú «altares» de adoración en los lugares que Dios te ha dado?'
     },

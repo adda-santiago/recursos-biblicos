@@ -75,6 +75,17 @@ CORRECCIONES = [
     ('rv1960', 'mr', 7, 18, 'dijo:¿También', 'dijo: ¿También'),
     ('rv1960', 'lc', 22, 53, 'potestad de la tinieblas', 'potestad de las tinieblas'),
     ('rv1960', 'gn', 11, 2, 'estabecieron', 'establecieron'),
+    ('rv1960', '2cr', 3, 1, 'en le monte', 'en el monte'),
+]
+
+# Versículos unidos por error en la fuente: (versión, libro, capítulo, versículo, texto correcto del
+# versículo, texto del versículo que falta y se inserta a continuación). Se aplican antes que CORRECCIONES.
+# Génesis 33:11 traía pegado el final del 12 («…es mío. Evamos; y yo iré delante de ti.») y el capítulo
+# quedaba con 19 versículos; el texto correcto es el de la RV 1960 impresa.
+DIVISIONES = [
+    ('rv1960', 'gn', 33, 11,
+     'Acepta, te ruego, mi presente que te he traído, porque Dios me ha hecho merced, y todo lo que hay aquí es mío. E insistió con él, y Esaú lo tomó.',
+     'Y Esaú dijo: Anda, vamos; y yo iré delante de ti.'),
 ]
 
 def limpiar(t):
@@ -133,6 +144,9 @@ def main():
         libros = leer_json(carpeta) if tipo == 'json' else leer_usfm(carpeta)
         faltan = [i for i, *_ in LIBROS if i not in libros]
         if faltan: informe.append(f"{v['id']}: faltan libros {faltan}")
+        for ver, lib, cap, vs, bien, nuevo in DIVISIONES:
+            if ver == v['id'] and lib in libros:
+                libros[lib][cap - 1][vs - 1:vs] = [bien, nuevo]
         for ver, lib, cap, vs, mal, bien in CORRECCIONES:
             if ver == v['id'] and lib in libros:
                 libros[lib][cap - 1][vs - 1] = libros[lib][cap - 1][vs - 1].replace(mal, bien)
