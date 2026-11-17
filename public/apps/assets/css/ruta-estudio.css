@@ -148,6 +148,10 @@ body { color: var(--ink); font-family: var(--serif); -webkit-font-smoothing: ant
 /* Hebreo (desde la v2.48): tipografía con puntos vocálicos, de derecha a izquierda */
 .he { font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', 'Taamey Frank CLM', 'Times New Roman', serif; font-size: 1.12em; line-height: 1.3; unicode-bidi: isolate; }
 .re-tabla td.he-celda, .re-tabla th.he-celda { font-size: 1.6rem; line-height: 1.2; text-align: right; }
+.gr { font-family: 'Noto Serif', 'Gentium Plus', 'SBL Greek', 'Times New Roman', serif; font-size: 1.04em; }
+.re-tabla td.gr-celda, .re-tabla th.gr-celda { font-size: 1.45rem; line-height: 1.25; }
+.re-gri .re-heb-txt { text-align: left; font-size: clamp(1.6rem, 3vw, 2.3rem); line-height: 1.6; }
+.re-gri .re-heb-pal .gr { font-size: 1.35rem; }
 .re-heb { display: grid; place-content: safe center; overflow-y: auto; padding: 4.5rem clamp(1.25rem, 5vw, 4rem) 2rem; }
 .re-heb-in { max-width: 44rem; }
 .re-heb-txt { font-size: clamp(1.9rem, 3.6vw, 2.9rem); line-height: 1.75; margin: 0; text-align: right; }

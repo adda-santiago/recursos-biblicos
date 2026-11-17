@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Tabla del alfabeto griego · Recursos Bíblicos</title>
+  <meta name="description" content="Las 24 letras griegas, los diptongos y los signos, con nombre, sonido, valor y ejemplos del Nuevo Testamento, y un modo de práctica.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%CE%B1%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&family=Noto+Serif:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Tabla del alfabeto griego. Colores de datos: ninguno; solo tokens. */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .gr { font-family: 'Noto Serif', 'Gentium Plus', 'SBL Greek', 'Times New Roman', serif; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .volver { font: 500 0.84rem var(--sans); color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    main { max-width: 60rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2rem) 4rem; }
+    h1 { font: 500 clamp(1.7rem, 5vw, 2.4rem)/1.15 var(--serif); margin: 0.2rem 0 0.4rem; }
+    .intro { color: var(--ink-2); margin: 0 0 1.4rem; max-width: 42rem; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.2rem; }
+    .tabs button { font: 600 0.85rem var(--sans); padding: 0.55rem 0.9rem; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink-2); cursor: pointer; }
+    .tabs button[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+    .tabs button:hover { border-color: var(--accent); }
+    .duo { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.25rem; align-items: start; }
+    .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(4.6rem, 1fr)); gap: 0.45rem; }
+    .rejilla button { display: grid; justify-items: center; gap: 0.1rem; padding: 0.55rem 0.3rem 0.45rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); cursor: pointer; }
+    .rejilla button:hover { border-color: var(--accent); }
+    .rejilla button[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .rejilla .gr { font-size: 1.9rem; line-height: 1.25; }
+    .rejilla small { font: 500 0.7rem var(--sans); color: var(--muted); }
+    .rejilla .final small { color: var(--accent); }
+    .ficha { position: sticky; top: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem; }
+    .ficha .grande { font-size: 5rem; line-height: 1.1; text-align: center; margin: 0; }
+    .ficha h2 { font: 500 1.6rem/1.2 var(--serif); margin: 0.3rem 0 0.8rem; text-align: center; }
+    .ficha dl { display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 0.9rem; margin: 0; font: 500 0.88rem/1.45 var(--sans); }
+    .ficha dt { color: var(--muted); }
+    .ficha dd { margin: 0; color: var(--ink); }
+    .ficha dd .gr { font-size: 1.35rem; }
+    .ficha .consejo { font: 400 0.98rem/1.5 var(--serif); color: var(--ink-2); margin: 0.9rem 0 0; padding-top: 0.8rem; border-top: 1px solid var(--line); }
+    .practica { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: clamp(1rem, 3vw, 1.75rem); max-width: 38rem; }
+    .modo { display: flex; gap: 1rem; flex-wrap: wrap; font: 500 0.85rem var(--sans); color: var(--ink-2); margin-bottom: 1rem; }
+    .modo label { display: flex; gap: 0.4rem; align-items: center; cursor: pointer; }
+    .pregunta { font: 500 0.9rem var(--sans); color: var(--muted); margin: 0; text-align: center; }
+    .muestra { font-size: 6rem; line-height: 1.3; text-align: center; margin: 0.2rem 0 0.8rem; }
+    .opciones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+    .opciones button { font: 600 1rem var(--sans); padding: 0.8rem 0.6rem; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--bg); color: var(--ink); cursor: pointer; }
+    .opciones button:hover:not(:disabled) { border-color: var(--accent); }
+    .opciones button.ok { border-color: #2f7d4f; background: color-mix(in srgb, #2f7d4f 14%, var(--bg)); }
+    .opciones button.no { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--bg)); opacity: 0.75; }
+    .fb { min-height: 3rem; font: 500 0.9rem/1.5 var(--sans); color: var(--ink-2); margin: 0.9rem 0 0; text-align: center; }
+    .fb .gr { font-size: 1.3rem; }
+    .pie-practica { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 0.6rem; font: 500 0.82rem var(--sans); color: var(--muted); }
+    .pie-practica button { font: 600 0.9rem var(--sans); padding: 0.55rem 1.1rem; border-radius: 999px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); cursor: pointer; }
+    .nota { font: 500 0.8rem/1.5 var(--sans); color: var(--muted); margin: 1rem 0 0; }
+    .credito { font: 500 0.75rem var(--sans); color: var(--muted); margin-top: 2.5rem; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 720px) { .duo { grid-template-columns: 1fr; } .ficha { position: static; order: -1; } .ficha .grande { font-size: 4rem; } }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca" href="../../../">Recursos Bíblicos</a>
+    <a class="volver" href="../../../alfabeto-griego/">Volver al recurso</a>
+  </header>
+  <main>
+    <p class="nota" style="margin:0">El alfabeto griego y la lectura</p>
+    <h1>Tabla del alfabeto griego</h1>
+    <p class="intro">Toca una letra o un signo para ver su nombre, su sonido, su valor y un ejemplo del Nuevo Testamento. En «Práctica», la tabla te muestra una letra, una sílaba o una palabra y tú eliges cómo se lee.</p>
+    <div class="tabs" role="tablist" id="tabs">
+      <button type="button" role="tab" data-t="letras" aria-selected="true">Letras</button>
+      <button type="button" role="tab" data-t="signos" aria-selected="false">Diptongos y signos</button>
+      <button type="button" role="tab" data-t="practica" aria-selected="false">Práctica</button>
+    </div>
+    <section id="panel" aria-live="polite"></section>
+    <p class="nota">Pronunciación erasmiana, la que enseñan casi todos los seminarios e institutos. La transliteración académica es la que usan los diccionarios y comentarios.</p>
+    <p class="credito">Citas: Reina-Valera 1960 © Sociedades Bíblicas en América Latina, 1960. Renovado © Sociedades Bíblicas Unidas, 1988. Utilizado con permiso. Ejemplos griegos del Nuevo Testamento de Nestle 1904 (dominio público).</p>
+  </main>
+
+  <script>
+  (() => {
+    'use strict';
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const $ = id => document.getElementById(id);
+    document.documentElement.dataset.theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+    // [mayúscula, minúscula, nombre, sonido, académica, valor, ejemplo, se lee, significa, referencia, consejo]
+    const LETRAS = [
+      ['Α', 'α', 'Alfa', 'a', 'a', 1, 'ἀγάπη', 'agápē', 'amor', '1 Jn 4:8', 'Una a redonda, sin el palito de arriba. Viene de la álef hebrea.'],
+      ['Β', 'β', 'Beta', 'b', 'b', 2, 'βασιλεία', 'basileía', 'reino', 'Mt 6:10', 'La minúscula baja por debajo de la línea.'],
+      ['Γ', 'γ', 'Gamma', 'g, siempre como en «gato»', 'g', 3, 'γῆ', 'gē', 'tierra', 'Mt 5:18', 'Parece una y, pero suena g. Delante de γ, κ, ξ o χ suena n: ἄγγελος, ángelos.'],
+      ['Δ', 'δ', 'Delta', 'd', 'd', 4, 'δόξα', 'dóxa', 'gloria', 'Jn 1:14', 'La mayúscula es un triángulo.'],
+      ['Ε', 'ε', 'Épsilon', 'e breve', 'e', 5, 'ἐκκλησία', 'ekklēsía', 'iglesia', 'Mt 16:18', 'Su nombre significa «e sencilla». Es siempre breve.'],
+      ['Ζ', 'ζ', 'Dseta', 'ds', 'z', 7, 'ζωή', 'zōḗ', 'vida', 'Jn 14:6', 'Una sola letra para dos sonidos. No la confundas con la xi (ξ), que tiene tres ondas.'],
+      ['Η', 'η', 'Eta', 'e larga', 'ē', 8, 'ἡμέρα', 'hēméra', 'día', 'Mt 6:34', 'Parece una n en minúscula y una H en mayúscula, pero es una vocal: e larga.'],
+      ['Θ', 'θ', 'Theta', 'th, como la z de España', 'th', 9, 'Θεός', 'Theós', 'Dios', 'Jn 1:1', 'Un círculo con una raya horizontal. La phi (φ) tiene la raya vertical.'],
+      ['Ι', 'ι', 'Iota', 'i', 'i', 10, 'Ἰησοῦς', 'Iēsús', 'Jesús', 'Mt 1:21', 'La letra más pequeña, sin punto: la «jota» de Mateo 5:18.'],
+      ['Κ', 'κ', 'Kappa', 'k', 'k', 20, 'κόσμος', 'kósmos', 'mundo', 'Jn 3:16', 'No baja de la línea. La ji (χ) sí la cruza.'],
+      ['Λ', 'λ', 'Lambda', 'l', 'l', 30, 'λόγος', 'lógos', 'palabra', 'Jn 1:1', 'La minúscula parece una y invertida.'],
+      ['Μ', 'μ', 'My', 'm', 'm', 40, 'μαθητής', 'mathētḗs', 'discípulo', 'Jn 13:35', 'La minúscula tiene una cola hacia abajo, a la izquierda.'],
+      ['Ν', 'ν', 'Ny', 'n', 'n', 50, 'νόμος', 'nómos', 'ley', 'Mt 5:18', 'Parece una v, pero suena n. Termina en punta; la ýpsilon (υ) es redonda.'],
+      ['Ξ', 'ξ', 'Xi', 'ks, como en «taxi»', 'x', 60, 'ξύλον', 'xýlon', 'madero', '1 P 2:24', 'Una sola letra para dos sonidos.'],
+      ['Ο', 'ο', 'Ómicron', 'o breve', 'o', 70, 'ὁδός', 'hodós', 'camino', 'Jn 14:6', 'Su nombre significa «o pequeña». Es siempre breve.'],
+      ['Π', 'π', 'Pi', 'p', 'p', 80, 'πίστις', 'pístis', 'fe', '1 Co 13:13', 'La letra del número 3,1416.'],
+      ['Ρ', 'ρ', 'Rho', 'r', 'r (rh al comienzo)', 100, 'ῥῆμα', 'rhḗma', 'palabra', 'Ro 10:17', 'Parece una p, pero suena r. Al comienzo de palabra lleva espíritu áspero: ῥ.'],
+      ['Σ', 'σ', 'Sigma', 's', 's', 200, 'σωτηρία', 'sōtēría', 'salvación', 'Ro 1:16', 'Al comienzo o en medio de la palabra: σ. Al final: ς.'],
+      ['Τ', 'τ', 'Tau', 't', 't', 300, 'τέλος', 'télos', 'fin', 'Ap 22:13', 'Una t sin la parte de abajo.'],
+      ['Υ', 'υ', 'Ýpsilon', 'ü, como la u francesa', 'y (u en diptongo)', 400, 'υἱός', 'hyiós', 'hijo', 'Jn 3:16', 'Redonda abajo. Al comienzo de palabra lleva siempre espíritu áspero; detrás de otra vocal suena u.'],
+      ['Φ', 'φ', 'Phi', 'f', 'ph', 500, 'φῶς', 'fōs', 'luz', 'Jn 8:12', 'Un círculo atravesado por una raya vertical.'],
+      ['Χ', 'χ', 'Ji', 'j, como en «jardín»', 'ch', 600, 'χάρις', 'járis', 'gracia', 'Ef 2:8', 'Parece una x, pero suena j. Es la inicial de Χριστός.'],
+      ['Ψ', 'ψ', 'Psi', 'ps', 'ps', 700, 'ψυχή', 'psyjḗ', 'alma', 'Mt 16:26', 'Un tridente. Una sola letra para dos sonidos.'],
+      ['Ω', 'ω', 'Omega', 'o larga', 'ō', 800, 'ὥρα', 'hṓra', 'hora', 'Jn 4:23', 'Su nombre significa «o grande». Parece una w, pero es una vocal.'],
+    ];
+    const FINAL = ['Σ', 'ς', 'Sigma final', 's', 's', 200, 'λόγος', 'lógos', 'palabra', 'Jn 1:1', 'La sigma al final de la palabra. Cuando la ves, ahí termina una palabra.'];
+    // [signo, nombre, se lee, académica, ejemplo, se lee, significa, consejo]
+    const SIGNOS = [
+      ['αι', 'Diptongo αι', 'ai', 'ai', 'καί', 'kai', 'y', 'Como en «aire». καί es la palabra más frecuente después del artículo.'],
+      ['ει', 'Diptongo ει', 'ei', 'ei', 'εἰμί', 'eimí', 'soy', 'Como en «rey».'],
+      ['οι', 'Diptongo οι', 'oi', 'oi', 'οἱ', 'hoi', 'los', 'Como en «hoy».'],
+      ['υι', 'Diptongo υι', 'üi', 'yi', 'υἱός', 'hyiós', 'hijo', 'Casi siempre en la palabra υἱός y sus formas.'],
+      ['αυ', 'Diptongo αυ', 'au', 'au', 'αὐτός', 'autós', 'él', 'Como en «auto».'],
+      ['ευ', 'Diptongo ευ', 'eu', 'eu', 'εὐαγγέλιον', 'euangélion', 'evangelio', 'Como en «Europa».'],
+      ['ου', 'Diptongo ου', 'u', 'ou', 'οὐρανός', 'uranós', 'cielo', 'La excepción: no suena «ou», sino u.'],
+      ['γγ', 'Gamma nasal', 'ng', 'ng', 'ἄγγελος', 'ángelos', 'ángel', 'La gamma delante de γ, κ, ξ o χ suena n.'],
+      ['ἀ', 'Espíritu suave', 'sin h', '—', 'ἀγάπη', 'agápē', 'amor', 'Se abre hacia la izquierda. La vocal se lee sola.'],
+      ['ἁ', 'Espíritu áspero', 'h', 'h', 'ἁμαρτία', 'hamartía', 'pecado', 'Se abre hacia la derecha, como una c. Agrega una h aspirada.'],
+      ['ά', 'Acento agudo', 'sílaba fuerte', '´', 'λόγος', 'lógos', 'palabra', 'El acento más frecuente.'],
+      ['ὰ', 'Acento grave', 'sílaba fuerte', '`', 'καὶ', 'kai', 'y', 'Reemplaza al agudo final cuando sigue otra palabra sin pausa.'],
+      ['ᾶ', 'Acento circunflejo', 'sílaba fuerte', '˜', 'φῶς', 'fōs', 'luz', 'Solo sobre vocales largas y diptongos.'],
+      ['ᾳ', 'Iota suscrita', 'no se pronuncia', 'ai, ēi, ōi', 'ἀρχῇ', 'arjḗ', 'principio', 'Una iota pequeña debajo de α, η o ω. Indica una terminación gramatical.'],
+      ['ϊ', 'Diéresis', 'vocal aparte', '¨', 'Μωϋσῆς', 'Mōysḗs', 'Moisés', 'Las dos vocales no forman diptongo.'],
+      [';', 'Signo de interrogación', '¿…?', '?', 'Τί ἐστιν ἀλήθεια;', 'Tí estin alḗtheia?', '¿Qué es la verdad?', 'Parece nuestro punto y coma, pero es una pregunta (Jn 18:38).'],
+      ['·', 'Punto alto', 'punto y coma', ';', 'οὐρανοῖς·', 'uranóis;', 'cielos;', 'Una pausa mayor que la coma y menor que el punto.'],
+    ];
+
+    let pestaña = 'letras';
+    let elegida = 0;
+    const TODAS = [...LETRAS, FINAL];
+
+    function ficha(l) {
+      return `<div class="ficha"><p class="grande gr" lang="grc">${esc(l[0])} ${esc(l[1])}</p><h2>${esc(l[2])}</h2><dl>
+        <dt>Sonido</dt><dd>${esc(l[3])}</dd>
+        <dt>Académica</dt><dd>${esc(l[4])}</dd>
+        <dt>Valor</dt><dd>${esc(l[5])}</dd>
+        <dt>Ejemplo</dt><dd><span class="gr" lang="grc">${esc(l[6])}</span> ${esc(l[7])}, «${esc(l[8])}» (${esc(l[9])})</dd></dl>
+        <p class="consejo">${esc(l[10])}</p></div>`;
+    }
+    function fichaSigno(v) {
+      return `<div class="ficha"><p class="grande gr" lang="grc">${esc(v[0])}</p><h2>${esc(v[1])}</h2><dl>
+        <dt>Se lee</dt><dd>${esc(v[2])}</dd>
+        <dt>Académica</dt><dd>${esc(v[3])}</dd>
+        <dt>Ejemplo</dt><dd><span class="gr" lang="grc">${esc(v[4])}</span> ${esc(v[5])}, «${esc(v[6])}»</dd></dl>
+        <p class="consejo">${esc(v[7])}</p></div>`;
+    }
+
+    function pintar() {
+      document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.t === pestaña)));
+      const p = $('panel');
+      if (pestaña === 'letras') {
+        const boton = (l, k, fin) => `<button type="button" data-k="${k}" aria-pressed="${k === elegida}" class="${fin ? 'final' : ''}" aria-label="${esc(l[2])}"><span class="gr" lang="grc">${esc(l[0])} ${esc(l[1])}</span><small>${esc(l[2])}</small></button>`;
+        p.innerHTML = `<div class="duo"><div><div class="rejilla">${LETRAS.map((l, k) => boton(l, k)).join('')}</div>
+          <p class="nota">Forma final</p><div class="rejilla">${boton(FINAL, LETRAS.length, true)}</div>
+          <p class="nota">Valores numéricos antiguos fuera del alfabeto: ϛ (stigma) 6, ϙ (koppa) 90 y ϡ (sampi) 900.</p></div>
+          ${ficha(TODAS[elegida] || TODAS[0])}</div>`;
+        p.querySelectorAll('.rejilla').forEach(r => r.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { elegida = +b.dataset.k; pintar(); } }));
+      } else if (pestaña === 'signos') {
+        const k0 = Math.min(elegida, SIGNOS.length - 1);
+        p.innerHTML = `<div class="duo"><div><div class="rejilla">${SIGNOS.map((v, k) => `<button type="button" data-k="${k}" aria-pressed="${k === k0}" aria-label="${esc(v[1])}"><span class="gr" lang="grc">${esc(v[0])}</span><small>${esc(v[1])}</small></button>`).join('')}</div>
+          <p class="nota">Los espíritus y los acentos aparecen sobre la alfa para mostrar su lugar. En un diptongo, van sobre la segunda vocal: εὐ, οὐ.</p></div>
+          ${fichaSigno(SIGNOS[k0])}</div>`;
+        p.querySelector('.rejilla').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { elegida = +b.dataset.k; pintar(); } });
+      } else {
+        pintarPractica();
+      }
+      window.Citas?.procesar?.(p);
+    }
+
+    /* ---------- Práctica: sin puntaje guardado; solo cuenta los aciertos de esta visita ---------- */
+    const pr = { modo: 'letras', aciertos: 0, intentos: 0, actual: null };
+    const azar = n => Math.floor(Math.random() * n);
+    const mezclar = a => { for (let i = a.length - 1; i > 0; i--) { const j = azar(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    const CONS = [['β', 'b'], ['γ', 'g'], ['δ', 'd'], ['ζ', 'ds'], ['θ', 'th'], ['κ', 'k'], ['λ', 'l'], ['μ', 'm'], ['ν', 'n'], ['ξ', 'ks'], ['π', 'p'], ['ρ', 'r'], ['σ', 's'], ['τ', 't'], ['φ', 'f'], ['χ', 'j'], ['ψ', 'ps']];
+    const VOC = [['α', 'a'], ['ε', 'e'], ['η', 'e'], ['ι', 'i'], ['ο', 'o'], ['ω', 'o'], ['υ', 'ü'], ['αι', 'ai'], ['ει', 'ei'], ['οι', 'oi'], ['ου', 'u'], ['αυ', 'au'], ['ευ', 'eu']];
+    // Palabras del Nuevo Testamento para leer completas
+    const PALABRAS = [['λόγος', 'lógos'], ['Θεός', 'Theós'], ['ἀγάπη', 'agápē'], ['χάρις', 'járis'], ['πίστις', 'pístis'], ['κόσμος', 'kósmos'], ['ζωή', 'zōḗ'], ['φῶς', 'fōs'], ['ἄγγελος', 'ángelos'], ['ἁμαρτία', 'hamartía'], ['οὐρανός', 'uranós'], ['υἱός', 'hyiós'], ['ψυχή', 'psyjḗ'], ['ἐκκλησία', 'ekklēsía'], ['εὐαγγέλιον', 'euangélion'], ['Χριστός', 'Jristós'], ['Ἰησοῦς', 'Iēsús'], ['Πέτρος', 'Pétros'], ['Παῦλος', 'Páulos'], ['ἀλήθεια', 'alḗtheia'], ['ὁδός', 'hodós'], ['νόμος', 'nómos'], ['ῥῆμα', 'rhḗma'], ['δόξα', 'dóxa'], ['σωτηρία', 'sōtēría'], ['βασιλεία', 'basileía'], ['μαθητής', 'mathētḗs'], ['ξύλον', 'xýlon'], ['γλῶσσα', 'glṓssa'], ['πνεῦμα', 'pnéuma']];
+    function nueva() {
+      if (pr.modo === 'letras') {
+        const l = TODAS[azar(TODAS.length)];
+        const nombres = [...new Set(TODAS.map(x => x[2]))].filter(n => n !== l[2]);
+        const mostrar = Math.random() < 0.3 ? l[0] : l[1];
+        pr.actual = { muestra: mostrar, ok: l[2], ops: mezclar([l[2], ...mezclar(nombres).slice(0, 3)]), detalle: `${l[2]}: ${l[3]}.` };
+      } else if (pr.modo === 'silabas') {
+        const c = CONS[azar(CONS.length)], v = VOC[azar(VOC.length)];
+        const ok = c[1] + v[1];
+        const otras = new Set();
+        while (otras.size < 3) {
+          const c2 = Math.random() < 0.5 ? c : CONS[azar(CONS.length)], v2 = Math.random() < 0.5 ? v : VOC[azar(VOC.length)];
+          const s = c2[1] + v2[1]; if (s !== ok) otras.add(s);
+        }
+        pr.actual = { muestra: c[0] + v[0], ok, ops: mezclar([ok, ...otras]), detalle: `Consonante ${c[1]} + ${v[0].length > 1 ? 'diptongo' : 'vocal'} ${v[1]}.` };
+      } else {
+        const w = PALABRAS[azar(PALABRAS.length)];
+        const otras = mezclar(PALABRAS.filter(x => x !== w)).slice(0, 3).map(x => x[1]);
+        pr.actual = { muestra: w[0], ok: w[1], ops: mezclar([w[1], ...otras]), detalle: `${w[0]} se lee ${w[1]}.` };
+      }
+      pintarPractica();
+    }
+    function pintarPractica() {
+      if (!pr.actual) return nueva();
+      const a = pr.actual;
+      const preg = { letras: '¿Cómo se llama esta letra?', silabas: '¿Cómo se lee esta sílaba?', palabras: '¿Cómo se lee esta palabra?' }[pr.modo];
+      $('panel').innerHTML = `<div class="practica">
+        <div class="modo" role="radiogroup" aria-label="Qué practicar">
+          <label><input type="radio" name="modo" value="letras" ${pr.modo === 'letras' ? 'checked' : ''}> Nombres de las letras</label>
+          <label><input type="radio" name="modo" value="silabas" ${pr.modo === 'silabas' ? 'checked' : ''}> Leer sílabas</label>
+          <label><input type="radio" name="modo" value="palabras" ${pr.modo === 'palabras' ? 'checked' : ''}> Leer palabras</label>
+        </div>
+        <p class="pregunta">${preg}</p>
+        <p class="muestra gr" lang="grc" style="${pr.modo === 'palabras' ? 'font-size:3.4rem' : ''}">${esc(a.muestra)}</p>
+        <div class="opciones">${a.ops.map(o => `<button type="button" data-o="${esc(o)}">${esc(o)}</button>`).join('')}</div>
+        <p class="fb" id="fb"></p>
+        <div class="pie-practica"><span>${pr.intentos ? `${pr.aciertos} de ${pr.intentos} al primer intento en esta visita` : 'No se guarda ningún resultado'}</span><button type="button" id="otra">Otra</button></div>
+      </div>`;
+      let primera = true;
+      $('panel').querySelector('.opciones').addEventListener('click', e => {
+        const b = e.target.closest('button'); if (!b || b.disabled) return;
+        const bien = b.dataset.o === a.ok;
+        if (primera) { pr.intentos++; if (bien) pr.aciertos++; primera = false; }
+        b.classList.add(bien ? 'ok' : 'no'); b.disabled = true;
+        $('fb').innerHTML = bien ? `Correcto. ${esc(a.detalle)}` : 'No exactamente. Revisa las letras que engañan (η, ν, ρ, χ) y prueba otra opción.';
+        if (bien) $('panel').querySelectorAll('.opciones button').forEach(x => { x.disabled = true; });
+        $('panel').querySelector('.pie-practica span').textContent = `${pr.aciertos} de ${pr.intentos} al primer intento en esta visita`;
+      });
+      $('otra').addEventListener('click', nueva);
+      $('panel').querySelectorAll('input[name="modo"]').forEach(r => r.addEventListener('change', () => { pr.modo = r.value; nueva(); }));
+    }
+
+    $('tabs').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      pestaña = b.dataset.t; elegida = 0; pintar();
+    });
+    pintar();
+  })();
+  </script>
+  <script src="../../assets/js/citas.js"></script>
+</body>
+</html>

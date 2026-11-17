@@ -28,10 +28,14 @@
               // hebreo: pasaje en hebreo de derecha a izquierda (he), su transliteración (tr),
               // las palabras una por una en orden de lectura y la RV 1960 (rv). Un botón oculta las
               // ayudas para practicar la lectura. Desde la v2.48 (El alfabeto hebreo y la lectura).
+           { tipo: 'griego', titulo, ref, gr, tr, palabras: [{ gr, tr, es }], rv }
+              // griego: lo mismo para un pasaje griego, de izquierda a derecha. Desde la v2.52
+              // (El alfabeto griego y la lectura).
          ],
          // Hebreo dentro de cualquier texto (párrafos, tablas, pies, ejercicios): el motor envuelve
          // cada tramo en <span class="he" lang="he" dir="rtl">, con su tipografía. Una celda de tabla
-         // que solo tiene hebreo se muestra en letra grande (class he-celda).
+         // que solo tiene hebreo se muestra en letra grande (class he-celda). El griego, igual:
+         // <span class="gr" lang="grc">, y la celda que solo tiene griego, en letra grande.
          texto: ['párrafo', { h: 'subtítulo' },
                  { posturas: { titulo, a: { n, t }, b: { n, t }, c } }, ...],  // dos posturas y cómo se entienden
                 // { ir: { t, a } }: botón a otro recurso; a = ruta relativa (p. ej. '../../viajes-pablo/'), se abre en la página completa;
@@ -58,8 +62,12 @@
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   // Tramos de hebreo (letras, puntos vocálicos y acentos), con los espacios y el maqaf entre palabras
   const HEB = /[\u0591-\u05F4\uFB1D-\uFB4F]+(?:[ \u00A0]+[\u0591-\u05F4\uFB1D-\uFB4F]+)*/g;
-  const he = s => esc(s).replace(HEB, m => `<span class="he" lang="he" dir="rtl">${m}</span>`);
+  // Tramos de griego (letras con acentos y espíritus), con los espacios y la puntuación entre palabras
+  const GRI = /[\u0370-\u03FF\u1F00-\u1FFF][\u0300-\u036F\u0370-\u03FF\u1F00-\u1FFF\u2019]*(?:[ \u00A0,.·;:]+[\u0370-\u03FF\u1F00-\u1FFF][\u0300-\u036F\u0370-\u03FF\u1F00-\u1FFF\u2019]*)*/g;
+  const he = s => esc(s).replace(HEB, m => `<span class="he" lang="he" dir="rtl">${m}</span>`)
+    .replace(GRI, m => `<span class="gr" lang="grc">${m}</span>`);
   const soloHe = s => /[\u0591-\u05F4]/.test(s) && !/[A-Za-zÁÉÍÓÚáéíóúñÑ0-9]/.test(s);
+  const soloGr = s => /[\u0370-\u03FF\u1F00-\u1FFF]/.test(s) && !/[A-Za-zÁÉÍÓÚáéíóúñÑ0-9]/.test(s);
   const root = document.documentElement;
   const RUTAS = D.rutas;
   const RUTA = Object.fromEntries(RUTAS.map(r => [r.id, r]));
@@ -243,7 +251,7 @@
       else if (mapa) mapa.mostrar(v.estado, true);
     } else if (v.tipo === 'tabla') {
       const t = v.tabla;
-      const cl = c => soloHe(String(c)) ? ' class="he-celda"' : '';
+      const cl = c => soloHe(String(c)) ? ' class="he-celda"' : soloGr(String(c)) ? ' class="gr-celda"' : '';
       $('re-tabla').innerHTML = `<div class="re-tabla-in">${t.titulo ? `<h2>${he(t.titulo)}</h2>` : ''}<div class="re-tabla-wrap"><table>
         <thead><tr>${t.cab.map(c => `<th scope="col">${he(c)}</th>`).join('')}</tr></thead>
         <tbody>${t.filas.map(f => `<tr>${f.map((c, k) => k === 0 ? `<th scope="row"${cl(c)}>${he(c)}</th>` : `<td${cl(c)}>${he(c)}</td>`).join('')}</tr>`).join('')}</tbody>
@@ -254,13 +262,16 @@
       $('re-cita').classList.toggle('largo', String(v.texto).length > 400);
       $('re-cita').scrollTop = 0;
       $('re-cita').hidden = false;
-    } else if (v.tipo === 'hebreo') {
+    } else if (v.tipo === 'hebreo' || v.tipo === 'griego') {
       const h = $('re-heb');
       const pal = v.palabras || [];
+      const g = v.tipo === 'griego';
+      const L = g ? 'class="gr" lang="grc"' : 'class="he" lang="he"';
+      h.classList.toggle('re-gri', g);
       h.innerHTML = `<div class="re-heb-in">
-        <p class="re-heb-txt he" lang="he" dir="rtl">${esc(v.he)}</p>
+        <p class="re-heb-txt ${g ? 'gr" lang="grc"' : 'he" lang="he" dir="rtl"'}>${esc(g ? v.gr : v.he)}</p>
         ${v.tr ? `<p class="re-heb-tr re-ayuda">${esc(v.tr)}</p>` : ''}
-        ${pal.length ? `<ol class="re-heb-pal no-citas" dir="rtl">${pal.map(w => `<li><span class="he" lang="he">${esc(w.he)}</span><i class="re-ayuda" dir="ltr">${esc(w.tr || '')}</i><small class="re-ayuda" dir="ltr">${esc(w.es || '')}</small></li>`).join('')}</ol>` : ''}
+        ${pal.length ? `<ol class="re-heb-pal no-citas"${g ? '' : ' dir="rtl"'}>${pal.map(w => `<li><span ${L}>${esc(g ? w.gr : w.he)}</span><i class="re-ayuda" dir="ltr">${esc(w.tr || '')}</i><small class="re-ayuda" dir="ltr">${esc(w.es || '')}</small></li>`).join('')}</ol>` : ''}
         ${v.rv ? `<p class="re-heb-rv re-ayuda">${esc(v.rv)}</p>` : ''}
         <footer>${esc(v.ref || '')}${v.tr || pal.length ? ' <button type="button" class="re-heb-btn">Ocultar ayudas</button>' : ''}</footer>
       </div>`;
