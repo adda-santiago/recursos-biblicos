@@ -1,14 +1,12 @@
 /*
  * Datos que la portada lee de las apps al armar el sitio (solo en el build, nunca en el navegador):
  * - cuántas rutas y estaciones tiene cada ruta de estudio (data.js → window.RUTA_DATA),
- * - el título de una estación (para el texto del día),
- * - el texto del día en español (public/biblia) y en hebreo (datos del interlineal).
+ * - el texto del día que corresponde a la fecha del build (public/textos-del-dia, §14).
  * Así las cifras de la portada salen siempre de los recursos publicados y no se escriben a mano.
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
-import type { TextoDelDia } from '../data/texto-del-dia';
 import { FORMA_CODIGO, NOMBRE_CODIGO } from '../data/libros-citas';
 
 const APPS = path.join(process.cwd(), 'public', 'apps');
@@ -48,12 +46,6 @@ export function estadisticas(visorRuta?: string): Estadisticas | null {
   return null;
 }
 
-/** Título de la estación n (desde 1) de la ruta `ruta` de la app `carpeta`. */
-export function tituloEstacion(carpeta: string, ruta: string, n: number): string | null {
-  const r = datosApp(carpeta)?.RUTA_DATA?.rutas?.find((x: any) => x.id === ruta);
-  return r?.estaciones?.[n - 1]?.n ?? null;
-}
-
 function capitulo(version: string, libro: string, cap: number): (string | null)[] | null {
   const archivo = path.join(BIBLIA, version, libro, `${cap}.json`);
   if (!fs.existsSync(archivo)) return null;
@@ -61,61 +53,23 @@ function capitulo(version: string, libro: string, cap: number): (string | null)[
   return Array.isArray(d) ? d : null;
 }
 
-const interlineal = new Map<string, any>();
-function hebreo(libro: string, cap: number, v1: number, v2: number): string | null {
-  if (!interlineal.has(libro)) {
-    const archivo = path.join(APPS, 'interlineal-hebreo', 'interlineal', 'datos', `${libro}.json`);
-    interlineal.set(libro, fs.existsSync(archivo) ? JSON.parse(fs.readFileSync(archivo, 'utf8')) : null);
-  }
-  const versos = interlineal.get(libro)?.c?.[cap - 1];
-  if (!versos) return null;
-  const partes: string[] = [];
-  for (let v = v1; v <= v2; v++) {
-    const palabras = versos[v - 1];
-    if (!palabras) return null;
-    // La barra separa los morfemas en los datos del interlineal; el maqaf une palabras sin espacio
-    partes.push(palabras.map((p: any[]) => String(p[0]).replace(/\//g, '')).join(' ').replace(/־ /g, '־'));
-  }
-  return partes.join(' ');
+// ---------------- Texto del día (generado por herramientas/textos_del_dia.mjs) ----------------
+export interface TextoDia {
+  ref: string; libro: string; cap: number; v: number;
+  es: Record<string, string>; he: string | null;
+  estudio: { a: string; recurso: string; estacion: string }; // a: «slug/#ruta/n», relativo a la base del sitio
 }
 
-export interface TextoArmado {
-  ref: string;               // «Génesis 1:1» (numeración de la RV 1960)
-  libro: string; cap: number; v: number;
-  es: Record<string, string>; // versión → texto
-  he: string | null;
-  estudio: { url: string; recurso: string; estacion: string };
-}
-
-/** Arma los textos del día con el texto de cada versión y la estación donde se estudian. */
-export function armarTextos(
-  lista: TextoDelDia[], versiones: { id: string }[], nombres: Record<string, string>,
-  recursos: Map<string, { titulo: string; url: string; carpeta: string }>,
-): TextoArmado[] {
-  const res: TextoArmado[] = [];
-  for (const t of lista) {
-    const [v1, v2] = t.vv;
-    const es: Record<string, string> = {};
-    for (const { id } of versiones) {
-      const c = capitulo(id, t.libro, t.cap);
-      const vs = c?.slice(v1 - 1, v2).filter(Boolean) as string[] | undefined;
-      if (vs?.length === v2 - v1 + 1) es[id] = vs.join(' ');
-    }
-    const rec = recursos.get(t.estudio.slug);
-    const estacion = rec ? tituloEstacion(rec.carpeta, t.estudio.ruta, t.estudio.n) : null;
-    if (!es.rv1960 || !rec || !estacion) {
-      console.warn(`[texto del día] se omite ${t.libro} ${t.cap}:${v1}: ${!es.rv1960 ? 'sin texto' : !rec ? 'recurso no publicado' : 'estación no encontrada'}`);
-      continue;
-    }
-    res.push({
-      ref: `${nombres[t.libro]} ${t.cap}:${v1}${v2 > v1 ? `-${v2}` : ''}`,
-      libro: t.libro, cap: t.cap, v: v1,
-      es,
-      he: t.hebreo ? hebreo(t.libro, t.cap, v1, v2) : null,
-      estudio: { url: `${rec.url}#${t.estudio.ruta}/${t.estudio.n}`, recurso: rec.titulo, estacion },
-    });
-  }
-  return res;
+/** El texto del día número n (días desde 1970) y cuántos textos hay, o null si la lista no existe. */
+export function textoDelDia(n: number): { texto: TextoDia; total: number; bloque: number } | null {
+  const dir = path.join(process.cwd(), 'public', 'textos-del-dia');
+  const f = path.join(dir, 'indice.json');
+  if (!fs.existsSync(f)) return null;
+  const { total, bloque } = JSON.parse(fs.readFileSync(f, 'utf8'));
+  if (!total) return null;
+  const i = n % total;
+  const textos = JSON.parse(fs.readFileSync(path.join(dir, `${Math.floor(i / bloque)}.json`), 'utf8'));
+  return { texto: textos[i % bloque], total, bloque };
 }
 
 // ---------------- Ficha del recurso (DIRECTRICES §15) ----------------

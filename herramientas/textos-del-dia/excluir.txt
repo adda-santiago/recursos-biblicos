@@ -1,0 +1,687 @@
+# Textos que no se leen solos (una referencia por línea, como en orden.txt; # comentario)
+# --- Revisión del 17-11-2026 (Génesis a 1 Reyes) ---
+Génesis 2:4-6
+Génesis 3:7-8   # repetido con 3:8
+Génesis 6:1-2
+Génesis 7:19
+Génesis 21:22
+Génesis 21:31-32
+Génesis 25:26
+Génesis 26:18
+Génesis 26:23-24   # repetido con 26:24
+Génesis 28:19
+Génesis 30:25-26
+Génesis 31:1
+Génesis 31:17-18
+Génesis 31:19
+Génesis 31:30
+Génesis 33:18
+Génesis 35:16
+Génesis 37:1
+Génesis 37:12
+Génesis 40:1
+Génesis 41:8
+Génesis 47:6
+Génesis 47:11
+Génesis 49:5-6
+Génesis 50:1
+Génesis 50:2
+Génesis 50:7-8
+Génesis 50:15
+Éxodo 1:22
+Éxodo 3:1
+Éxodo 4:14
+Éxodo 7:20
+Éxodo 8:15
+Éxodo 8:32
+Éxodo 9:23
+Éxodo 9:34
+Éxodo 10:21
+Éxodo 26:31-33
+Éxodo 28:30
+Éxodo 29:40
+Éxodo 30:13
+Éxodo 31:12-13   # repetido con 31:13
+Éxodo 32:21
+Levítico 12:2
+Levítico 18:24-25
+Levítico 23:10-12
+Levítico 26:27-28
+Levítico 26:40-41
+Números 11:16-17
+Números 15:27-28
+Números 18:1
+Números 20:23-24
+Deuteronomio 11:10-12
+Deuteronomio 17:14-15
+Deuteronomio 19:1-2
+Deuteronomio 21:22-23
+Deuteronomio 25:13-15
+Deuteronomio 28:23
+Deuteronomio 29:1
+Deuteronomio 31:24-26
+Josué 8:30-31
+Jueces 3:10
+Jueces 6:36-37
+Jueces 13:17
+Jueces 14:1-2
+Jueces 15:14
+Rut 4:12
+1 Samuel 1:3
+1 Samuel 6:6
+1 Samuel 11:6
+1 Samuel 16:14
+1 Samuel 20:14-15
+1 Samuel 28:6
+2 Samuel 7:1-2
+2 Samuel 15:24
+1 Reyes 2:26
+# --- 1 Reyes a Daniel 4 ---
+1 Reyes 17:17
+1 Reyes 18:19
+2 Reyes 14:6
+2 Reyes 18:21
+2 Reyes 19:37
+2 Reyes 20:16-17
+2 Crónicas 3:1
+2 Crónicas 7:11-12
+2 Crónicas 36:20-21
+Esdras 3:2
+Esdras 3:10
+Esdras 6:3-4
+Esdras 6:9-10
+Esdras 6:16
+Esdras 7:11-12
+Nehemías 2:1-2
+Nehemías 2:7-8
+Nehemías 13:4-5
+Ester 3:8
+Ester 4:13-14   # repetido con 4:14
+Salmos 68:31
+Salmos 104:10-12
+Salmos 104:29-30   # repetido con 104:30
+Salmos 121:2   # repetido con 121:1-2
+Salmos 136:7
+Eclesiastés 2:18-19
+Isaías 5:1
+Isaías 9:1
+Isaías 10:5-7
+Isaías 10:12
+Isaías 11:2   # repetido con 11:1-2
+Isaías 13:19-21
+Isaías 19:1
+Isaías 22:20-21
+Isaías 24:4-5
+Isaías 34:5
+Isaías 36:6
+Isaías 47:13
+Isaías 63:1
+Isaías 66:7
+Isaías 66:19
+Jeremías 7:1-2
+Jeremías 7:18
+Jeremías 10:3-5
+Jeremías 29:4-5
+Jeremías 36:27-28
+Jeremías 37:7
+Jeremías 51:6
+Jeremías 51:45
+Lamentaciones 1:1
+Ezequiel 1:1
+Ezequiel 5:5
+Ezequiel 11:5
+Ezequiel 14:21
+Ezequiel 18:1-2
+Ezequiel 18:19
+Ezequiel 26:7
+Ezequiel 28:12
+Ezequiel 28:13
+Ezequiel 29:3
+Ezequiel 36:24-26   # repetido con 36:26
+Ezequiel 37:9
+Ezequiel 44:23
+Ezequiel 47:8-9
+Daniel 1:2
+Daniel 1:3-4
+Daniel 1:19-20
+Daniel 2:1
+Daniel 2:17-18
+Daniel 2:31
+Daniel 2:36-37   # repetido con 2:37
+Daniel 2:39
+Daniel 2:40
+Daniel 2:41
+Daniel 2:46-47
+Daniel 3:16-17   # repetido con 3:17
+Daniel 4:19
+Daniel 4:25
+Daniel 4:29-30
+# --- Daniel 4 a Marcos 1 ---
+Daniel 5:16
+Daniel 5:28
+Daniel 5:29
+Daniel 5:31
+Daniel 6:7
+Daniel 7:1-2
+Daniel 7:2
+Daniel 7:4
+Daniel 7:15
+Daniel 7:23
+Daniel 7:24
+Daniel 7:28
+Daniel 8:2
+Daniel 8:8
+Daniel 8:9-10
+Daniel 8:11
+Daniel 8:23-24
+Daniel 9:20-21
+Daniel 9:22
+Daniel 11:2
+Daniel 11:3-4
+Daniel 11:4
+Daniel 11:21
+Daniel 11:30
+Daniel 11:31
+Daniel 11:36
+Daniel 12:2   # repetido con 12:1-2
+Daniel 12:8
+Oseas 12:12
+Joel 2:30
+Amós 4:1
+Amós 5:11-12
+Amós 5:27
+Jonás 3:3
+Miqueas 4:10
+Miqueas 5:5-6
+Zacarías 9:1
+Zacarías 13:8-9
+Malaquías 2:4
+Malaquías 2:14
+Mateo 1:17
+Mateo 2:13
+Mateo 2:17-18
+Mateo 2:19-20
+Mateo 2:22-23
+Mateo 3:13-14
+Mateo 4:5-6
+Mateo 4:18
+Mateo 5:13-14   # repetido con 5:14
+Mateo 5:43
+Mateo 7:28-29
+Mateo 8:5-6
+Mateo 9:1
+Mateo 9:9
+Mateo 9:10
+Mateo 9:23-24
+Mateo 11:2-3
+Mateo 12:5
+Mateo 13:10-11
+Mateo 14:22
+Mateo 14:25
+Mateo 15:1-2
+Mateo 16:13
+Mateo 17:1-2
+Mateo 18:23
+Mateo 19:3-5
+Mateo 19:13
+Mateo 20:1
+Mateo 20:22
+Mateo 22:1-3
+Mateo 22:15
+Mateo 22:17-18
+Mateo 22:23-24
+Mateo 22:35-36
+Mateo 23:16-17
+Mateo 24:1
+Mateo 24:15-16
+Mateo 25:1
+Mateo 25:14
+Mateo 26:36
+Mateo 26:37-38
+Mateo 26:51
+Mateo 26:57
+Mateo 26:63
+Mateo 27:11
+Mateo 27:19
+Mateo 27:24
+Mateo 27:27-29
+Mateo 27:43
+Mateo 27:62-63
+Mateo 28:1
+# --- Marcos 2 a Juan 1 ---
+Marcos 2:1
+Marcos 3:1
+Marcos 3:22-24
+Marcos 5:1-3
+Marcos 5:25-27
+Marcos 6:1
+Marcos 6:14
+Marcos 7:1-2
+Marcos 7:24-25
+Marcos 8:27
+Marcos 9:2
+Marcos 11:15-16
+Marcos 12:1
+Marcos 12:13
+Marcos 12:28
+Marcos 12:41
+Marcos 13:1
+Marcos 13:14
+Marcos 14:12
+Marcos 14:53
+Marcos 14:55
+Marcos 14:61
+Marcos 15:15
+Marcos 16:9
+Lucas 1:8-9
+Lucas 1:19
+Lucas 1:24-25
+Lucas 1:26-27
+Lucas 1:57
+Lucas 2:8-9
+Lucas 2:21
+Lucas 2:22-24
+Lucas 2:25
+Lucas 2:36-37
+Lucas 2:39
+Lucas 2:41-43
+Lucas 2:48
+Lucas 2:51
+Lucas 4:25-26
+Lucas 5:1
+Lucas 5:15-16   # repetido con 5:16
+Lucas 5:17
+Lucas 5:29-30
+Lucas 6:1
+Lucas 7:1-3
+Lucas 7:11-13
+Lucas 7:36
+Lucas 8:1-3
+Lucas 8:4-5
+Lucas 8:9-10
+Lucas 8:19-21
+Lucas 8:40
+Lucas 9:7-8
+Lucas 9:10-11
+Lucas 9:18
+Lucas 9:28
+Lucas 9:57
+Lucas 10:25
+Lucas 10:29
+Lucas 10:30
+Lucas 10:38-39
+Lucas 11:1
+Lucas 11:27-28
+Lucas 12:13-15   # repetido con 12:15
+Lucas 12:47
+Lucas 13:1
+Lucas 13:10-11
+Lucas 13:22
+Lucas 13:33
+Lucas 14:1-3
+Lucas 14:15
+Lucas 14:21
+Lucas 15:1-2
+Lucas 15:11-12
+Lucas 15:21
+Lucas 17:11-13
+Lucas 17:28-29
+Lucas 18:1-2
+Lucas 18:9-10
+Lucas 18:18
+Lucas 18:31
+Lucas 19:1
+Lucas 19:5
+Lucas 19:8
+Lucas 19:11
+Lucas 19:12
+Lucas 20:20
+Lucas 21:1-3
+Lucas 22:14-16
+Lucas 22:39-40
+Lucas 22:61
+Lucas 22:66-68
+Lucas 23:1
+Lucas 23:39
+Lucas 23:50
+Lucas 23:55-56
+Lucas 24:1-3
+Lucas 24:13-15
+Lucas 24:19-20
+Lucas 24:21
+Lucas 24:48-49   # repetido con 24:49
+Lucas 24:50
+Juan 1:19-20
+Juan 1:38
+Juan 1:47
+# --- Juan 2 a Hechos 11 ---
+Juan 2:1
+Juan 2:13-14
+Juan 3:1-2
+Juan 3:22
+Juan 3:29
+Juan 4:6
+Juan 4:7
+Juan 4:19
+Juan 4:20
+Juan 5:1
+Juan 5:18
+Juan 6:5
+Juan 6:14
+Juan 6:15
+Juan 6:16-17
+Juan 6:19
+Juan 6:23
+Juan 7:40
+Juan 7:47-48
+Juan 7:52
+Juan 8:44
+Juan 9:1
+Juan 9:13-14
+Juan 9:22
+Juan 10:22-23
+Juan 10:34
+Juan 11:1-3
+Juan 11:17
+Juan 11:33-34
+Juan 11:47-48
+Juan 11:48
+Juan 12:1
+Juan 12:3
+Juan 12:20
+Juan 13:23
+Juan 14:28
+Juan 16:12-13   # repetido con 16:13
+Juan 16:30
+Juan 18:4
+Juan 18:12-13
+Juan 18:19
+Juan 18:28
+Juan 18:31-32
+Juan 19:13
+Juan 19:16
+Juan 19:20
+Juan 19:31
+Juan 19:38
+Juan 19:39
+Juan 20:19
+Juan 20:30
+Juan 21:18-19
+Juan 21:20
+Hechos 1:1-3
+Hechos 1:6
+Hechos 1:15-17
+Hechos 2:2-3   # repetido con 2:1-3
+Hechos 2:5
+Hechos 2:37
+Hechos 4:1-2
+Hechos 4:13
+Hechos 4:18
+Hechos 4:23-25
+Hechos 4:24-25
+Hechos 4:27-28
+Hechos 5:1-3
+Hechos 5:3
+Hechos 5:12-13
+Hechos 5:27-28
+Hechos 5:34-35
+Hechos 6:1-2
+Hechos 7:2-3
+Hechos 7:8
+Hechos 7:22
+Hechos 8:1
+Hechos 8:5-6
+Hechos 8:6-8
+Hechos 8:9-10
+Hechos 8:18-19
+Hechos 8:26
+Hechos 8:30-31
+Hechos 8:34
+Hechos 8:36-37
+Hechos 9:1-2
+Hechos 9:7
+Hechos 9:26
+Hechos 9:32
+Hechos 9:35
+Hechos 9:42
+Hechos 10:1-2
+Hechos 10:9
+Hechos 10:14
+Hechos 10:19
+Hechos 10:45
+Hechos 11:1
+Hechos 11:12-14
+# --- Hechos 11 a 1 Corintios 11 ---
+Hechos 11:19
+Hechos 11:22
+Hechos 11:27-28
+Hechos 11:28
+Hechos 12:1
+Hechos 12:6-7
+Hechos 12:12
+Hechos 12:17
+Hechos 12:20
+Hechos 12:21-22
+Hechos 13:8
+Hechos 13:12
+Hechos 13:14-15
+Hechos 13:16-17
+Hechos 14:8-10
+Hechos 14:26
+Hechos 15:1
+Hechos 15:5
+Hechos 15:7
+Hechos 15:13-14   # repetido con 15:14
+Hechos 15:30-32
+Hechos 15:36
+Hechos 16:1-2
+Hechos 16:3
+Hechos 16:6-7
+Hechos 16:11-13
+Hechos 16:13
+Hechos 16:14
+Hechos 16:16
+Hechos 16:19-21
+Hechos 16:29-30
+Hechos 16:35-36
+Hechos 17:1-3
+Hechos 17:2-3
+Hechos 17:4
+Hechos 17:5
+Hechos 17:6-7
+Hechos 17:12
+Hechos 17:16
+Hechos 17:18
+Hechos 17:34
+Hechos 18:11
+Hechos 18:12-13
+Hechos 18:14-15
+Hechos 18:19-21
+Hechos 18:26
+Hechos 19:1-2
+Hechos 19:10
+Hechos 19:13
+Hechos 20:17
+Hechos 21:8-9
+Hechos 21:9
+Hechos 21:10-11
+Hechos 21:17
+Hechos 21:20
+Hechos 21:27-28
+Hechos 22:1-3
+Hechos 22:3
+Hechos 23:6
+Hechos 23:23-24
+Hechos 24:24
+Hechos 25:1-3
+Hechos 26:4-5
+Hechos 26:25
+Hechos 28:3-4
+Hechos 28:8
+Hechos 28:20
+Hechos 28:23
+Romanos 1:24-25
+Romanos 2:12-13
+Romanos 2:14-16
+Romanos 3:1-2
+Romanos 3:2
+Romanos 4:1
+Romanos 4:19
+Romanos 6:1
+Romanos 7:9
+Romanos 9:1-2
+Romanos 9:10-12
+Romanos 11:28
+Romanos 12:17-18   # repetido con 12:18
+Romanos 14:5-6
+Romanos 15:18-19
+Romanos 15:20-21
+Romanos 15:25
+Romanos 16:1-2
+Romanos 16:3-4
+Romanos 16:5
+Romanos 16:16
+Romanos 16:22
+1 Corintios 1:14-15
+1 Corintios 2:1
+1 Corintios 4:6
+1 Corintios 6:13
+1 Corintios 7:21-22
+1 Corintios 8:4
+1 Corintios 9:13-14
+1 Corintios 10:12-13   # repetido con 10:13
+1 Corintios 11:11-12
+# --- 1 Corintios 11 a Hebreos ---
+1 Corintios 12:1-3
+1 Corintios 12:28
+1 Corintios 14:23
+1 Corintios 14:26-28
+1 Corintios 15:3-5   # se usa 15:3-4 (lista anterior); queda como está si no hay otro
+1 Corintios 15:12
+1 Corintios 15:45-46
+1 Corintios 16:19
+2 Corintios 1:8
+2 Corintios 2:4
+2 Corintios 2:12-13
+2 Corintios 11:13
+2 Corintios 11:23
+2 Corintios 12:1
+2 Corintios 12:7-8
+Gálatas 1:15-17
+Gálatas 2:1-2
+Gálatas 2:3-5
+Gálatas 3:15
+Gálatas 3:17
+Gálatas 4:13-14
+Gálatas 4:22-23
+Gálatas 6:17
+Efesios 2:11-12
+Efesios 4:8-10
+Efesios 4:17-19
+Filipenses 1:12-13
+Filipenses 1:25-26
+Filipenses 3:4-6
+Filipenses 4:10
+Filipenses 4:11-13   # repetido con 4:13
+Filipenses 4:18
+Filipenses 4:22
+Colosenses 2:20-22
+Colosenses 4:7-9
+Colosenses 4:10-11
+Colosenses 4:13-14
+Colosenses 4:15
+Colosenses 4:16
+1 Tesalonicenses 1:1
+1 Tesalonicenses 5:1-3
+1 Tesalonicenses 5:27
+2 Tesalonicenses 2:1-2
+2 Timoteo 1:15-17
+2 Timoteo 3:8
+2 Timoteo 4:6-7   # repetido con 4:7
+2 Timoteo 4:16-17
+Tito 1:5-6
+Tito 1:12
+Hebreos 2:13
+Hebreos 4:3
+Hebreos 5:4
+Hebreos 7:9-10
+Hebreos 7:11
+Hebreos 7:23-25
+Hebreos 10:5-6
+Hebreos 10:15-17
+Hebreos 11:35
+Hebreos 12:17
+Hebreos 13:22
+# --- Santiago a Apocalipsis ---
+Hebreos 13:23-24
+Santiago 1:1
+Santiago 1:23
+Santiago 2:15-16
+Santiago 3:1-2
+Santiago 4:13-14
+1 Pedro 1:1-2
+1 Pedro 2:11-12
+1 Pedro 4:6
+1 Pedro 5:12
+1 Pedro 5:13
+2 Pedro 1:12
+2 Pedro 1:13-14
+2 Pedro 3:15-16
+1 Juan 5:6
+1 Juan 5:16
+1 Juan 5:17
+Apocalipsis 1:9
+Apocalipsis 1:12-13
+Apocalipsis 2:8-9
+Apocalipsis 2:9-10   # repetido con 2:10
+Apocalipsis 2:12-13
+Apocalipsis 2:13
+Apocalipsis 2:18-19
+Apocalipsis 2:20
+Apocalipsis 3:1
+Apocalipsis 3:7-8
+Apocalipsis 3:9
+Apocalipsis 3:14-15
+Apocalipsis 4:1
+Apocalipsis 4:5
+Apocalipsis 4:8
+Apocalipsis 5:5-6
+Apocalipsis 6:1
+Apocalipsis 6:2-4
+Apocalipsis 6:9
+Apocalipsis 8:1
+Apocalipsis 8:2
+Apocalipsis 9:1
+Apocalipsis 9:13-14
+Apocalipsis 10:1
+Apocalipsis 11:1
+Apocalipsis 11:2
+Apocalipsis 11:8
+Apocalipsis 12:1
+Apocalipsis 12:6
+Apocalipsis 12:13
+Apocalipsis 13:5-6
+Apocalipsis 13:11
+Apocalipsis 13:18
+Apocalipsis 15:1
+Apocalipsis 15:7
+Apocalipsis 16:13-14
+Apocalipsis 16:21
+Apocalipsis 17:3
+Apocalipsis 17:6
+Apocalipsis 17:12
+Apocalipsis 18:7-8
+Apocalipsis 19:8
+Apocalipsis 19:17-18
+Apocalipsis 19:19-20
+Apocalipsis 19:20
+Apocalipsis 20:1
+Apocalipsis 20:7-9
+Apocalipsis 21:9
+Apocalipsis 21:12-14
+Apocalipsis 22:8
+Apocalipsis 22:12-14   # repetido con 22:14
+# --- Pasajes discutidos en los manuscritos (De la Biblia a nosotros: ninguna doctrina desde ellos) ---
+1 Juan 5:7
+Marcos 16:15
+Marcos 16:17-18

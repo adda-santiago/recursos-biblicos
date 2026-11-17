@@ -14,8 +14,7 @@ import TarjetaRecurso from '../components/TarjetaRecurso.astro';
 import Icono from '../components/Icono.astro';
 import { SITIO } from '../config/sitio';
 import { ENFOQUES, EPOCAS, LIBROS, TESTAMENTOS, TIPOS } from '../data/taxonomia';
-import { TEXTOS_DEL_DIA, NOMBRE_LIBRO } from '../data/texto-del-dia';
-import { armarTextos, estadisticas } from '../lib/datos-recursos';
+import { estadisticas, textoDelDia } from '../lib/datos-recursos';
 import { ruta, rutaRecurso } from '../lib/url';
 import versiones from '../../public/biblia/versiones.json';
 import '../styles/portada.css';
@@ -36,9 +35,11 @@ const descripcionD = (primerParrafo.replace(/\*\*|\*|_/g, '').match(/[^.!?]+[.!?
 const epocasD = dd.epocas.length > 2 ? `${EPOCAS[dd.epocas[0]]} – ${EPOCAS[dd.epocas[dd.epocas.length - 1]]}` : dd.epocas.map((e) => EPOCAS[e]).join(' · ');
 
 // ---------- Texto del día ----------
-const carpetas = new Map(recursos.map((r) => [r.id, { titulo: r.data.titulo, url: rutaRecurso(r.id), carpeta: (r.data.visor.ruta ?? '').split('/')[0] }]));
-const textos = armarTextos(TEXTOS_DEL_DIA, versiones, NOMBRE_LIBRO, carpetas);
-const hoy = textos.length ? textos[Math.floor(Date.now() / 86400000) % textos.length] : null;
+// La lista vive en public/textos-del-dia/ (herramientas/textos_del_dia.mjs); aquí solo se arma el
+// texto del día del build, para quien navega sin JavaScript. El navegador busca el del día de hoy.
+const dia = textoDelDia(Math.floor(Date.now() / 86400000));
+const hoy = dia && { ...dia.texto, estudio: { ...dia.texto.estudio, url: ruta(dia.texto.estudio.a) } };
+const totalTextos = dia?.total ?? 0;
 const versionDefecto = versiones.find((v) => v.defecto)!;
 const hayInterlineal = recursos.some((r) => r.id === 'interlineal-hebreo');
 
@@ -337,10 +338,9 @@ const POR_PAGINA = 12;
   </main>
 
   <script is:inline type="application/json" id="datos-catalogo" set:html={JSON.stringify(catalogo)} />
-  <script is:inline type="application/json" id="textos-dia" set:html={JSON.stringify(textos)} />
   <script is:inline type="application/json" id="nombres-facetas" set:html={JSON.stringify(nombres)} />
-  <script is:inline define:vars={{ base: ruta(), buzon: ruta('buzon/'), versiones, porPagina: POR_PAGINA, interlineal: hayInterlineal ? rutaRecurso('interlineal-hebreo') : '' }}>
-    window.__AV = { base, buzon, versiones, porPagina, interlineal };
+  <script is:inline define:vars={{ base: ruta(), buzon: ruta('buzon/'), versiones, porPagina: POR_PAGINA, interlineal: hayInterlineal ? rutaRecurso('interlineal-hebreo') : '', totalTextos, bloqueTextos: dia?.bloque ?? 50 }}>
+    window.__AV = { base, buzon, versiones, porPagina, interlineal, totalTextos, bloqueTextos };
   </script>
 </Base>
 
@@ -349,13 +349,13 @@ const POR_PAGINA = 12;
   import { registrar } from '../lib/analitica';
 
   type Item = { uid: string; t: string; e: string; k: string };
-  type Texto = { ref: string; libro: string; cap: number; v: number; es: Record<string, string>; he: string | null; estudio: { url: string; recurso: string; estacion: string } };
+  type Texto = { ref: string; libro: string; cap: number; v: number; es: Record<string, string>; he: string | null; estudio: { a: string; recurso: string; estacion: string } };
   const $ = <T extends Element = HTMLElement>(s: string) => document.querySelector<T>(s)!;
   const $$ = <T extends Element = HTMLElement>(s: string) => [...document.querySelectorAll<T>(s)];
   const catalogo: Item[] = JSON.parse($("#datos-catalogo").textContent!);
   const NOMBRES: Record<string, Record<string, string>> = JSON.parse($('#nombres-facetas').textContent!);
-  const { base, buzon, versiones, porPagina, interlineal } = (window as any).__AV as
-    { base: string; buzon: string; versiones: { id: string; abrev: string; credito: string; defecto: boolean }[]; porPagina: number; interlineal: string };
+  const { base, buzon, versiones, porPagina, interlineal, totalTextos, bloqueTextos } = (window as any).__AV as
+    { base: string; buzon: string; versiones: { id: string; abrev: string; credito: string; defecto: boolean }[]; porPagina: number; interlineal: string; totalTextos: number; bloqueTextos: number };
 
   const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
@@ -367,13 +367,17 @@ const POR_PAGINA = 12;
   };
 
   // ================= Texto del día =================
-  const textos: Texto[] = JSON.parse($('#textos-dia').textContent!);
   const dia = document.querySelector<HTMLElement>('[data-dia]');
-  if (dia && textos.length) {
-    // Un texto por día, según la fecha del visitante
+  if (dia && totalTextos) iniciarDia().catch(() => { /* sin red: queda el texto del build */ });
+  async function iniciarDia() {
+    // Un texto por día, según la fecha del visitante; se lee solo el bloque de 50 que lo contiene
     const ahora = new Date();
     const nDia = Math.floor(Date.UTC(ahora.getFullYear(), ahora.getMonth(), ahora.getDate()) / 86400000);
-    const t = textos[nDia % textos.length];
+    const i = nDia % totalTextos;
+    const r = await fetch(`${base}textos-del-dia/${Math.floor(i / bloqueTextos)}.json`);
+    if (!r.ok) return;
+    const t: Texto = (await r.json())[i % bloqueTextos];
+    if (!t) return;
     const pintarDia = () => {
       const v = versionActual();
       const es = t.es[v.id] ?? t.es.rv1960;
@@ -386,7 +390,7 @@ const POR_PAGINA = 12;
       $('[data-dia-credito]').textContent = usada.credito;
       $('[data-dia-estacion]').textContent = t.estudio.estacion;
       $('[data-dia-recurso]').textContent = t.estudio.recurso;
-      $<HTMLAnchorElement>('[data-dia-enlace]').href = t.estudio.url;
+      $<HTMLAnchorElement>('[data-dia-enlace]').href = base + t.estudio.a;
       const il = document.querySelector<HTMLAnchorElement>('[data-dia-interlineal]');
       if (il) { il.hidden = !t.he; il.href = `${interlineal}#${t.libro}/${t.cap}/${t.v}`; }
       return { es, usada };

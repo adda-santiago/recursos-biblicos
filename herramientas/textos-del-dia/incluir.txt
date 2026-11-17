@@ -1,0 +1,39 @@
+# Textos que se agregan o se enlazan a mano. Pasan aunque el filtro automático los descarte, y su enlace
+# reemplaza al automático. Formato: Referencia | estación que lo estudia (slug/#ruta/n)
+# Los 36 primeros son la lista inicial del texto del día (v2.53).
+Génesis 1:1 | creacion-y-origenes/#creador/1
+Juan 1:1 | dios-y-la-trinidad/#trinidad/5
+Génesis 1:27 | creacion-y-origenes/#dias/5
+Romanos 5:8 | ser-humano-y-pecado/#redencion/1
+Génesis 12:3 | pactos-y-dispensaciones/#pactos/3
+Gálatas 2:20 | persona-y-obra-de-cristo/#viene/3
+Génesis 15:6 | pactos-y-dispensaciones/#pactos/4
+Efesios 2:8-9 | introduccion-nuevo-testamento/#pablo/7
+Éxodo 3:14 | dios-y-la-trinidad/#nombres/2
+Juan 14:6 | persona-y-obra-de-cristo/#persona/2
+Deuteronomio 6:4 | alfabeto-hebreo/#taller/2
+Mateo 28:19-20 | dios-y-la-trinidad/#trinidad/3
+Salmos 23:1 | alfabeto-hebreo/#taller/4
+Juan 1:14 | persona-y-obra-de-cristo/#persona/5
+Salmos 119:105 | de-la-biblia-a-nosotros/#traducciones/3
+2 Timoteo 3:16-17 | palabra-de-dios/#inspiracion/3
+Isaías 53:5 | gramatica-hebrea/#taller/5
+Juan 3:16 | persona-y-obra-de-cristo/#cruz/7
+Jeremías 31:33 | pactos-y-dispensaciones/#pactos/10
+Hebreos 4:12 | palabra-de-dios/#autoridad/6
+Ezequiel 36:26 | espiritu-santo/#salvacion/2
+2 Corintios 5:17 | ser-humano-y-pecado/#redencion/3
+Daniel 2:44 | daniel/#introduccion/10
+Lucas 4:18-19 | espiritu-santo/#jesus/2
+Joel 2:28 | espiritu-santo/#at/5
+Hechos 1:8 | espiritu-santo/#bautismo/1
+Habacuc 2:4 | persona-y-obra-de-cristo/#cruz/5
+Hechos 2:38 | espiritu-santo/#bautismo/7
+Filipenses 2:5-7 | persona-y-obra-de-cristo/#encarnacion/3
+1 Corintios 15:3-4 | introduccion-nuevo-testamento/#evangelios/1
+Colosenses 1:16 | creacion-y-origenes/#creador/3
+Hebreos 11:3 | creacion-y-origenes/#creador/2
+1 Pedro 2:9-10 | sacerdocio/#cristo/5
+1 Juan 1:9 | ser-humano-y-pecado/#caida/4
+Apocalipsis 21:4 | apocalipsis/#comentario/27
+Apocalipsis 22:20 | apocalipsis/#vida/3
