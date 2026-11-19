@@ -1,0 +1,1133 @@
+# Vocabulario y gramática básica del griego del NT · glosas del vocabulario (a mano)
+# lema (como en Nestle 1904)|clase|tema|sentido en español
+# Clase: v verbo · sm/sf/sn sustantivo masculino, femenino o neutro · adj adjetivo · num número
+#        art artículo · pron pronombre · prep preposición · conj conjunción · adv adverbio
+#        part partícula · interj interjección · np nombre de persona (o de Dios) · nl nombre de lugar o de pueblo
+# Tema: fe · gente · cuerpo · mundo · tiempo · lugar · poder · palabra · mente · mover · hacer
+#       vida · cualidad · numero · nombre · - (palabras de función)
+# Los verbos se citan en la forma del diccionario (presente, 1.ª persona singular: λύω, «desato»)
+# y se traducen con el infinitivo español. La transliteración la escribe herramientas/griego_tr.py.
+ὁ|art|-|el, la, lo (artículo)
+καί|conj|-|y; también, aun
+αὐτός|pron|-|él, ella, ello; mismo (ὁ αὐτός, «el mismo»)
+σύ|pron|-|tú (plural ὑμεῖς, vosotros)
+δέ|conj|-|pero, y, en cambio (va en segundo lugar)
+ἐν|prep|-|en, dentro de; entre; con (dativo)
+ἐγώ|pron|-|yo (plural ἡμεῖς, nosotros)
+εἰμί|v|vida|ser, estar, existir
+λέγω|v|palabra|decir, hablar (aoristo εἶπον)
+εἰς|prep|-|a, hacia, dentro de; para (acusativo)
+οὐ|part|-|no (οὐκ, οὐχ delante de vocal)
+ὅς|pron|-|que, el cual, quien (relativo)
+οὗτος|pron|-|este, esta, esto
+θεός|sm|fe|Dios; dios
+ὅτι|conj|-|que; porque
+πᾶς|adj|-|todo, cada; todos
+μή|part|-|no (en mandatos, deseos y condiciones); que no
+γάρ|conj|-|porque, pues (va en segundo lugar)
+Ἰησοῦς|np|nombre|Jesús (hebreo Yehoshúa, «Jehová salva»)
+ἐκ|prep|-|de, desde, de dentro de (genitivo; ἐξ delante de vocal)
+ἐπί|prep|-|sobre, en (genitivo y dativo); hacia, contra (acusativo)
+κύριος|sm|fe|Señor, amo, dueño
+ἔχω|v|vida|tener
+πρός|prep|-|a, hacia, junto a, con (acusativo)
+ὁράω|v|mente|ver (aoristo εἶδον; ἰδού, «he aquí»)
+ἵνα|conj|-|para que, a fin de que; que
+γίνομαι|v|vida|llegar a ser, hacerse; suceder; nacer
+διά|prep|-|por medio de (genitivo); por causa de (acusativo)
+ἀπό|prep|-|de, desde, lejos de (genitivo)
+ἀλλά|conj|-|pero, sino
+ἔρχομαι|v|mover|venir, ir
+ποιέω|v|hacer|hacer
+τίς|pron|-|¿quién?, ¿qué? (interrogativo)
+ἄνθρωπος|sm|gente|ser humano, hombre, persona
+Χριστός|np|fe|Cristo, el Ungido, el Mesías
+τὶς|pron|-|alguien, alguno, cierto (indefinido)
+ὡς|adv|-|como; cuando; aproximadamente
+εἰ|conj|-|si
+οὖν|conj|-|así que, pues, entonces
+κατά|prep|-|contra, abajo (genitivo); según, por (acusativo)
+μετά|prep|-|con (genitivo); después de (acusativo)
+ἀκούω|v|mente|oír, escuchar; obedecer
+δίδωμι|v|hacer|dar
+πολύς|adj|numero|mucho; muchos
+πατήρ|sm|gente|padre
+ἡμέρα|sf|tiempo|día
+πνεῦμα|sn|fe|espíritu, Espíritu; viento, aliento
+υἱός|sm|gente|hijo
+ἀδελφός|sm|gente|hermano
+ἤ|part|-|o; que (en comparaciones)
+ἐάν|conj|-|si (con subjuntivo); -quiera (ὃς ἐάν, «quienquiera»)
+εἷς|num|numero|uno
+περί|prep|-|acerca de (genitivo); alrededor de (acusativo)
+ἑαυτοῦ|pron|-|sí mismo, de sí mismo (reflexivo)
+λόγος|sm|palabra|palabra, mensaje, razón; el Verbo
+οἶδα|v|mente|saber, conocer (perfecto con sentido de presente)
+λαλέω|v|palabra|hablar
+οὐρανός|sm|mundo|cielo
+μαθητής|sm|gente|discípulo, aprendiz
+λαμβάνω|v|hacer|tomar, recibir
+γῆ|sf|mundo|tierra, país, suelo
+ἐκεῖνος|pron|-|aquel, aquella, aquello
+μέγας|adj|cualidad|grande
+πίστις|sf|fe|fe, confianza; fidelidad
+πιστεύω|v|fe|creer, confiar
+οὐδείς|adj|-|nadie, ninguno, nada
+ἅγιος|adj|fe|santo, consagrado (οἱ ἅγιοι, los santos, los creyentes)
+ἀποκρίνομαι|v|palabra|responder
+ὄνομα|sn|palabra|nombre
+γινώσκω|v|mente|conocer, saber, entender
+ὑπό|prep|-|por (genitivo, agente); debajo de (acusativo)
+ἐξέρχομαι|v|mover|salir
+ἀνήρ|sm|gente|hombre, varón; esposo
+γυνή|sf|gente|mujer; esposa
+οὕτω|adv|-|así, de esta manera (también οὕτως)
+δύναμαι|v|poder|poder, ser capaz
+τέ|part|-|y (enclítica; τε… καί, «tanto… como»)
+θέλω|v|mente|querer, desear
+Ἰουδαῖος|adj|gente|judío
+νόμος|sm|fe|ley; la ley de Moisés
+παρά|prep|-|de parte de (genitivo); junto a (dativo); al lado de, contra (acusativo)
+γράφω|v|palabra|escribir (γέγραπται, «escrito está»)
+εἰσέρχομαι|v|mover|entrar
+κόσμος|sm|mundo|mundo; adorno
+μέν|part|-|por una parte (μέν… δέ, «por una parte… por otra»)
+καθώς|adv|-|como, así como
+εὑρίσκω|v|hacer|hallar, encontrar
+ἄγγελος|sm|fe|ángel; mensajero
+χείρ|sf|cuerpo|mano
+ὄχλος|sm|gente|multitud, gentío
+ἁμαρτία|sf|fe|pecado
+ἔργον|sn|hacer|obra, trabajo, hecho
+δόξα|sf|fe|gloria, esplendor; honra
+ἄν|part|-|partícula de posibilidad (no se traduce; da sentido de «-quiera» o «-ría»)
+πόλις|sf|lugar|ciudad
+βασιλεία|sf|poder|reino, reinado
+ἔθνος|sn|gente|nación, pueblo; τὰ ἔθνη, los gentiles
+τότε|adv|tiempo|entonces
+ἐσθίω|v|vida|comer (aoristo ἔφαγον)
+Παῦλος|np|nombre|Pablo
+Πέτρος|np|nombre|Pedro («piedra»)
+καρδία|sf|cuerpo|corazón
+πρῶτος|adj|numero|primero
+χάρις|sf|fe|gracia, favor; gratitud
+ἄλλος|adj|-|otro
+πορεύομαι|v|mover|ir, caminar, seguir su camino
+ἵστημι|v|mover|poner en pie; estar de pie, detenerse
+ὑπέρ|prep|-|por, en favor de (genitivo); más allá de (acusativo)
+καλέω|v|palabra|llamar; invitar
+νῦν|adv|tiempo|ahora
+ἕως|adv|tiempo|hasta; mientras
+σάρξ|sf|cuerpo|carne; naturaleza humana
+ὅστις|pron|-|quien, el que, cualquiera que
+προφήτης|sm|fe|profeta
+ἐγείρω|v|mover|levantar, despertar; resucitar
+ἀφίημι|v|fe|perdonar; dejar, permitir
+ἀγαπάω|v|mente|amar
+λαός|sm|gente|pueblo
+σῶμα|sn|cuerpo|cuerpo
+πάλιν|adv|tiempo|otra vez, de nuevo
+ζάω|v|vida|vivir
+οὐδέ|conj|-|ni, tampoco, ni siquiera
+Ἱεροσόλυμα|nl|nombre|Jerusalén (también Ἰερουσαλήμ)
+φωνή|sf|palabra|voz, sonido
+ζωή|sf|vida|vida
+Ἰωάννης|np|nombre|Juan
+δύο|num|numero|dos
+βλέπω|v|mente|ver, mirar
+ἀποστέλλω|v|mover|enviar
+νεκρός|adj|vida|muerto
+σύν|prep|-|con, junto con (dativo)
+ἀμήν|part|fe|amén, así sea; de cierto
+δοῦλος (II)|sm|gente|siervo, esclavo
+αἰών|sm|tiempo|siglo, era, edad; eternidad (εἰς τὸν αἰῶνα, «para siempre»)
+ὅταν|conj|tiempo|cuando, siempre que
+ἀρχιερεύς|sm|fe|sumo sacerdote; principal sacerdote
+βάλλω|v|hacer|echar, arrojar, poner
+θάνατος|sm|vida|muerte
+παραδίδωμι|v|hacer|entregar; transmitir
+δύναμις|sf|poder|poder, fuerza; milagro
+πῶς|adv|-|¿cómo?
+μένω|v|vida|permanecer, quedarse
+ζητέω|v|hacer|buscar, procurar
+ἀπέρχομαι|v|mover|irse, marcharse
+ἀγάπη|sf|fe|amor
+βασιλεύς|sm|poder|rey
+μόνος|adj|-|solo, único (μόνον, «solamente»)
+κρίνω|v|poder|juzgar, decidir
+οἶκος|sm|lugar|casa; familia
+ἐκκλησία|sf|fe|iglesia, asamblea, congregación
+ἴδιος|adj|-|propio, suyo (κατ’ ἰδίαν, «aparte»)
+ἀποθνῄσκω|v|vida|morir
+μέλλω|v|tiempo|estar por, ir a (hacer algo); haber de
+ὅσος|pron|-|cuanto, todo lo que
+παρακαλέω|v|palabra|exhortar, rogar, consolar
+ἀλήθεια|sf|fe|verdad
+ὅλος|adj|-|todo, entero
+ἀνίστημι|v|mover|levantarse; resucitar
+σῴζω|v|fe|salvar, sanar
+ὥρα|sf|tiempo|hora; momento
+ψυχή|sf|vida|alma, vida, persona
+καλός|adj|cualidad|bueno, hermoso, noble
+ἀγαθός|adj|cualidad|bueno
+ἐξουσία|sf|poder|autoridad, potestad, derecho
+δεῖ|v|-|es necesario, hay que (impersonal)
+ὁδός|sf|lugar|camino
+αἴρω|v|mover|alzar, llevar, quitar
+ὅτε|adv|tiempo|cuando
+ὀφθαλμός|sm|cuerpo|ojo
+ἀλλήλων|pron|-|unos a otros, mutuamente
+τέκνον|sn|gente|hijo, niño
+τίθημι|v|hacer|poner, colocar
+Φαρισαῖος|np|gente|fariseo
+γεννάω|v|vida|engendrar; dar a luz; nacer (en pasiva)
+ἄρτος|sm|vida|pan
+διδάσκω|v|palabra|enseñar
+ἕτερος|adj|-|otro, distinto
+αἷμα|sn|cuerpo|sangre
+εἶπον|v|palabra|dije (aoristo de λέγω)
+φοβέω|v|mente|temer, tener miedo (en pasiva)
+ἐκεῖ|adv|lugar|allí
+περιπατέω|v|mover|andar, caminar; vivir, conducirse
+τόπος|sm|lugar|lugar
+οἰκία|sf|lugar|casa; familia
+ἐνώπιον|prep|-|delante de, en presencia de (genitivo)
+πούς|sm|cuerpo|pie
+ἔτι|adv|tiempo|todavía, aún
+εἰρήνη|sf|fe|paz
+δικαιοσύνη|sf|fe|justicia
+θάλασσα|sf|mundo|mar; lago
+κάθημαι|v|vida|estar sentado
+οὔτε|conj|-|ni (οὔτε… οὔτε, «ni… ni»)
+πίπτω|v|mover|caer
+ἀπόλλυμι|v|vida|destruir, perder; perecer (en media)
+ἀκολουθέω|v|mover|seguir
+μηδείς|adj|-|nadie, ninguno, nada (con μή)
+ἑπτά|num|numero|siete
+εὐθέως|adv|tiempo|en seguida, inmediatamente
+προσέρχομαι|v|mover|acercarse, venir a
+πληρόω|v|hacer|llenar; cumplir
+ἄρχω|v|poder|gobernar; comenzar (en media)
+προσεύχομαι|v|fe|orar
+καιρός|sm|tiempo|tiempo oportuno, ocasión, época
+μήτηρ|sf|gente|madre
+κἀγώ|pron|-|y yo, yo también (καί + ἐγώ)
+ὥστε|conj|-|de modo que, así que
+καταβαίνω|v|mover|descender, bajar
+ὅπου|adv|lugar|donde, adonde
+ἕκαστος|adj|-|cada uno
+ἀναβαίνω|v|mover|subir
+μᾶλλον|adv|-|más, más bien
+ἐκβάλλω|v|hacer|echar fuera, expulsar
+Μωϋσῆς|np|nombre|Moisés
+δίκαιος|adj|fe|justo
+πέμπω|v|mover|enviar
+ὕδωρ|sn|mundo|agua
+ὑπάγω|v|mover|irse, ir
+ἀπόστολος|sm|fe|apóstol, enviado
+ἀνοίγω|v|hacer|abrir
+στόμα|sn|cuerpo|boca
+πονηρός|adj|cualidad|malo, malvado; el maligno
+σημεῖον|sn|fe|señal, milagro
+ἐμός|pron|-|mío, mi
+βαπτίζω|v|fe|bautizar, sumergir
+εὐαγγέλιον|sn|fe|evangelio, buena noticia
+πρόσωπον|sn|cuerpo|rostro, cara; presencia
+μαρτυρέω|v|palabra|dar testimonio, testificar
+Σίμων|np|nombre|Simón
+κεφαλή|sf|cuerpo|cabeza
+δώδεκα|num|numero|doce
+χαίρω|v|mente|alegrarse, gozarse (χαῖρε, «¡salve!»)
+ἱερός|sn|fe|templo (τὸ ἱερόν: todo el recinto del templo)
+ἀποκτείνω|v|vida|matar
+Ἀβραάμ|np|nombre|Abraham
+πίνω|v|vida|beber
+φῶς|sn|mundo|luz
+πῦρ|sn|mundo|fuego
+αἰώνιος|adj|tiempo|eterno
+τηρέω|v|hacer|guardar, cumplir, vigilar
+αἰτέω|v|palabra|pedir
+ἄγω|v|mover|llevar, conducir
+Ἰσραήλ|np|nombre|Israel
+φέρω|v|mover|llevar, traer
+σάββατον|sn|tiempo|sábado, día de reposo; semana
+ῥῆμα|sn|palabra|palabra, dicho; asunto
+πλοῖον|sn|mundo|barca, barco
+ἐντολή|sf|fe|mandamiento
+τρεῖς|num|numero|tres
+πιστός|adj|fe|fiel; creyente
+ἀπολύω|v|hacer|soltar, despedir; repudiar
+καρπός|sm|mundo|fruto
+φημί|v|palabra|decir, afirmar
+πρεσβύτερος|adj|gente|anciano; mayor
+εἴτε|conj|-|o, sea (εἴτε… εἴτε, «sea… sea»)
+γραμματεύς|sm|gente|escriba
+ὄρος|sn|mundo|monte, montaña
+δαιμόνιον|sn|fe|demonio
+ἐρωτάω|v|palabra|preguntar; rogar
+δοκέω|v|mente|parecer; pensar
+ἔξω|adv|lugar|fuera, afuera
+θρόνος|sm|poder|trono
+θέλημα|sn|mente|voluntad, deseo
+νύξ|sf|tiempo|noche
+Γαλιλαία|nl|nombre|Galilea
+κηρύσσω|v|palabra|predicar, proclamar
+ἀγαπητός|adj|mente|amado
+δοξάζω|v|fe|glorificar
+προσκυνέω|v|fe|adorar, postrarse
+ἤδη|adv|tiempo|ya
+ἱμάτιον|sn|vida|manto, vestido
+ὧδε|adv|lugar|aquí, acá
+ὑπάρχω|v|vida|ser, existir; τὰ ὑπάρχοντα, los bienes
+Δαυίδ|np|nombre|David
+συνάγω|v|hacer|reunir, juntar
+χαρά|sf|mente|gozo, alegría
+λίθος|sm|mundo|piedra
+ἀσπάζομαι|v|palabra|saludar
+διδάσκαλος|sm|gente|maestro
+μέσος|adj|lugar|medio, en medio
+μηδέ|conj|-|ni, tampoco (con μή)
+τοιοῦτος|pron|-|tal, semejante
+θεωρέω|v|mente|ver, contemplar, observar
+συναγωγή|sf|fe|sinagoga; reunión
+δέχομαι|v|hacer|recibir, acoger
+ἐπερωτάω|v|palabra|preguntar
+τρίτος|adj|numero|tercero
+ἀρχή|sf|tiempo|principio, comienzo; autoridad, principado
+κράζω|v|palabra|clamar, gritar
+λοιπός|adj|-|restante, los demás (τὸ λοιπόν, «por lo demás»)
+Πιλᾶτος|np|nombre|Pilato
+Μαρία|np|nombre|María (también Μαριάμ)
+χρόνος|sm|tiempo|tiempo, plazo
+δεξιός|adj|lugar|derecho; la diestra
+εὐαγγελίζω|v|fe|anunciar el evangelio, evangelizar
+ὅπως|adv|-|para que; cómo
+ἔσχατος|adj|tiempo|último
+οὐχί|part|-|no (enfático; en preguntas: «¿no es así?»)
+διό|conj|-|por lo cual, por eso
+ἐλπίς|sf|fe|esperanza
+παιδίον|sn|gente|niño pequeño
+σπείρω|v|mundo|sembrar
+πείθω|v|mente|persuadir; confiar (en perfecto); obedecer (en pasiva)
+ἐπαγγελία|sf|fe|promesa
+σοφία|sf|mente|sabiduría
+μακάριος|adj|fe|bienaventurado, dichoso
+τυφλός|adj|cuerpo|ciego
+παραβολή|sf|palabra|parábola, comparación
+κακός|adj|cualidad|malo
+γραφή|sf|palabra|Escritura, escrito
+γλῶσσα|sf|palabra|lengua; idioma
+παραλαμβάνω|v|hacer|recibir; tomar consigo
+χρεία|sf|vida|necesidad
+ἔτος|sn|tiempo|año
+ἄχρι|adv|tiempo|hasta
+φανερόω|v|mente|manifestar, mostrar
+ἔμπροσθεν|prep|lugar|delante de
+ἀποδίδωμι|v|hacer|devolver, pagar, dar
+οὐκέτι|adv|tiempo|ya no
+ἔρημος|adj|lugar|desierto, despoblado; el desierto
+πρό|prep|-|antes de, delante de (genitivo)
+κρίσις|sf|poder|juicio
+ἁμαρτωλός|adj|fe|pecador
+κρατέω|v|poder|tomar, sujetar; retener
+φόβος|sm|mente|temor, miedo
+ἀπαγγέλλω|v|palabra|anunciar, contar
+προσφέρω|v|fe|ofrecer; traer
+καθίζω|v|vida|sentar; sentarse
+φυλακή|sf|poder|cárcel; guardia; vigilia de la noche
+μικρός|adj|cualidad|pequeño
+οὐαί|interj|-|¡ay!
+σταυρόω|v|vida|crucificar
+σωτηρία|sf|fe|salvación
+ποῦ|adv|lugar|¿dónde?
+διώκω|v|mover|perseguir; seguir
+ὅμοιος|adj|cualidad|semejante, parecido
+θλῖψις|sf|vida|tribulación, aflicción
+ναός|sm|fe|templo, santuario
+θηρίον|sn|mundo|fiera, bestia
+Ἰούδας|np|nombre|Judas; Judá
+Ἰουδαία|nl|nombre|Judea
+κατοικέω|v|lugar|habitar, morar
+ἐπιγινώσκω|v|mente|conocer bien, reconocer
+σπέρμα|sn|gente|semilla; descendencia
+δεύτερος|adj|numero|segundo
+γενεά|sf|gente|generación
+Ἡρῴδης|np|nombre|Herodes
+θεραπεύω|v|cuerpo|sanar; servir
+θαυμάζω|v|mente|maravillarse, asombrarse
+δέω|v|hacer|atar
+ἁμαρτάνω|v|fe|pecar
+μέρος|sn|-|parte; región
+ἐγγίζω|v|mover|acercarse
+σεαυτοῦ|pron|-|ti mismo (reflexivo)
+πότε|adv|tiempo|¿cuándo?
+Ἰάκωβος|np|nombre|Jacobo, Santiago
+λύω|v|hacer|desatar, soltar; destruir
+καινός|adj|tiempo|nuevo
+φωνέω|v|palabra|llamar; cantar (el gallo)
+ἀνάστασις|sf|fe|resurrección
+ἑτοιμάζω|v|hacer|preparar
+ἄξιος|adj|cualidad|digno
+σήμερον|adv|tiempo|hoy
+ὀλίγος|adj|numero|poco; pocos
+ἐργάζομαι|v|hacer|trabajar, obrar
+τέλος|sn|tiempo|fin, término; impuesto
+διέρχομαι|v|mover|pasar, atravesar
+χωρίς|adv|-|sin, aparte de
+εὐλογέω|v|fe|bendecir
+τέσσαρες|num|numero|cuatro
+πάντοτε|adv|tiempo|siempre
+παρίστημι|v|mover|presentar; estar presente
+τιμή|sf|cualidad|honra; precio
+κλαίω|v|mente|llorar
+ἱκανός|adj|cualidad|suficiente, capaz, digno; bastante
+μισέω|v|mente|aborrecer, odiar
+οἰκοδομέω|v|hacer|edificar
+ἐπιτίθημι|v|hacer|poner sobre, imponer (las manos)
+πάσχω|v|vida|padecer, sufrir
+λογίζομαι|v|mente|contar, tener por, considerar
+πειράζω|v|fe|tentar; probar
+περισσεύω|v|numero|abundar, sobrar
+θύρα|sf|lugar|puerta
+ἅπτω|v|cuerpo|tocar (en media); encender
+δικαιόω|v|fe|justificar, declarar justo
+πλανάω|v|mente|engañar, extraviar
+πράσσω|v|hacer|hacer, practicar
+μνημεῖον|sn|lugar|sepulcro, tumba
+πέντε|num|numero|cinco
+εὐχαριστέω|v|fe|dar gracias
+ἐπιθυμία|sf|mente|deseo; codicia
+ὑποτάσσω|v|poder|someter; sujetarse (en media o pasiva)
+βούλομαι|v|mente|querer, proponerse
+παραγίνομαι|v|mover|llegar, presentarse
+διάβολος|adj|fe|diablo; calumniador
+διακονέω|v|hacer|servir
+πρόβατον|sn|mundo|oveja
+ἐμαυτοῦ|pron|-|mí mismo (reflexivo)
+ἄρχων|sm|poder|gobernante, príncipe, principal
+μαρτυρία|sf|palabra|testimonio
+ὀργή|sf|mente|ira
+Σατανᾶς|np|fe|Satanás («adversario»)
+ὥσπερ|adv|-|así como
+ἀγρός|sm|mundo|campo
+Φίλιππος|np|nombre|Felipe
+ἐπιστρέφω|v|mover|volverse; convertirse
+οὖς|sn|cuerpo|oído, oreja
+καλῶς|adv|cualidad|bien
+προσευχή|sf|fe|oración
+περιτομή|sf|fe|circuncisión
+καυχάομαι|v|palabra|gloriarse, jactarse
+Ἰωσήφ|np|nombre|José
+ὀπίσω|adv|lugar|detrás, en pos de
+ἄρτι|adv|tiempo|ahora, ahora mismo
+μάρτυς|sm|palabra|testigo
+ὀφείλω|v|poder|deber
+ὑποστρέφω|v|mover|volver, regresar
+μετανοέω|v|fe|arrepentirse
+πτωχός|adj|vida|pobre
+μέλος|sn|cuerpo|miembro
+μήτε|conj|-|ni (con μή)
+ναί|part|-|sí, ciertamente
+ἄρα|part|-|así que, por tanto
+βλασφημέω|v|palabra|blasfemar, injuriar
+οἶνος|sm|vida|vino
+βιβλίον|sn|palabra|libro, rollo
+διακονία|sf|hacer|servicio, ministerio
+ἐκπορεύομαι|v|mover|salir, proceder
+δείκνυμι|v|mente|mostrar
+ἀσθενέω|v|cuerpo|estar enfermo, ser débil
+ἀρνέομαι|v|palabra|negar
+ποῖος|pron|-|¿qué?, ¿cuál?, ¿de qué clase?
+διαθήκη|sf|fe|pacto, testamento
+ἐχθρός|adj|gente|enemigo
+ἥλιος|sm|mundo|sol
+ἅπας|adj|-|todo, todos
+ἀναγινώσκω|v|palabra|leer
+δυνατός|adj|poder|poderoso; posible
+ὑπομονή|sf|fe|paciencia, perseverancia
+φαίνω|v|mundo|alumbrar; aparecer (en media o pasiva)
+ἄνεμος|sm|mundo|viento
+καθαρίζω|v|fe|limpiar, purificar
+ἱερεύς|sm|fe|sacerdote
+ἀκάθαρτος|adj|fe|inmundo, impuro
+παραγγέλλω|v|palabra|mandar, ordenar
+ποτήριον|sn|vida|copa, vaso
+πλήν|adv|-|pero, sin embargo; excepto
+ἔξεστι(ν)|v|-|es lícito, está permitido (impersonal)
+ἐλπίζω|v|fe|esperar
+φυλάσσω|v|hacer|guardar, vigilar
+φυλή|sf|gente|tribu
+ὁμοίως|adv|-|de la misma manera, igualmente
+ἐγγύς|adv|lugar|cerca
+ποτέ|part|tiempo|alguna vez, en otro tiempo (enclítica)
+πλῆθος|sn|numero|multitud
+παρρησία|sf|palabra|confianza, franqueza; denuedo
+συνείδησις|sf|mente|conciencia
+συνέρχομαι|v|mover|reunirse, juntarse
+σκότος|sn|mundo|tinieblas, oscuridad
+διδαχή|sf|palabra|enseñanza, doctrina
+ἐπιτιμάω|v|palabra|reprender
+ἐπικαλέω|v|palabra|invocar (en media); llamar por sobrenombre
+ἀγοράζω|v|hacer|comprar
+διάκονος|sm|gente|servidor, siervo; diácono
+ἀρνίον|sn|fe|cordero (el Cordero, en Apocalipsis)
+φεύγω|v|mover|huir
+ἐλεέω|v|mente|tener misericordia, compadecerse
+μισθός|sm|hacer|salario, recompensa
+παρέρχομαι|v|mover|pasar; pasar de largo
+σκανδαλίζω|v|fe|hacer tropezar, ofender; tropezar (en pasiva)
+προσκαλέω|v|palabra|llamar a sí, convocar
+μάχαιρα|sf|poder|espada
+Ἠλίας|np|nombre|Elías
+φίλος|adj|gente|amigo
+πόθεν|adv|lugar|¿de dónde?
+Καῖσαρ|np|poder|César
+πάσχα|sn|fe|Pascua; cordero pascual
+γνῶσις|sf|mente|conocimiento
+παράκλησις|sf|palabra|consolación, exhortación
+ἡγέομαι|v|mente|considerar, estimar; guiar
+χώρα|sf|lugar|región, tierra, campo
+ἰσχυρός|adj|poder|fuerte
+ἰσχύω|v|poder|poder, tener fuerza
+γαμέω|v|gente|casarse
+ἁγιάζω|v|fe|santificar
+ἐνδύω|v|vida|vestir; vestirse (en media)
+προφητεύω|v|fe|profetizar
+τελέω|v|hacer|terminar, cumplir; pagar
+θυσία|sf|fe|sacrificio
+θυγάτηρ|sf|gente|hija
+πλούσιος|adj|vida|rico
+ἀδικέω|v|poder|hacer injusticia, dañar
+νικάω|v|poder|vencer
+ἀληθινός|adj|fe|verdadero
+Βαρναβᾶς|np|nombre|Bernabé
+Ἰακώβ|np|nombre|Jacob
+βαστάζω|v|mover|llevar, cargar
+ἐκεῖθεν|adv|lugar|de allí
+πόσος|pron|numero|¿cuánto?, ¿cuántos?
+κρίμα|sn|poder|juicio, condenación
+σός|pron|-|tuyo, tu
+ἔλεος|sn|fe|misericordia
+ἐκχέω|v|hacer|derramar
+κώμη|sf|lugar|aldea
+σταυρός|sm|fe|cruz
+μυστήριον|sn|fe|misterio (algo antes oculto y ahora revelado)
+οὔπω|adv|tiempo|todavía no
+δέκα|num|numero|diez
+καταργέω|v|poder|anular, abolir, dejar sin efecto
+καθαρός|adj|fe|limpio, puro
+ἕνεκα|prep|-|por causa de (genitivo; también ἕνεκεν)
+ὀμνύω|v|palabra|jurar
+ὁμολογέω|v|palabra|confesar, reconocer
+ἰάομαι|v|cuerpo|sanar
+στρατιώτης|sm|poder|soldado
+ἀποκαλύπτω|v|fe|revelar
+ἀδελφή|sf|gente|hermana
+συνίημι|v|mente|entender
+λυπέω|v|mente|entristecer; entristecerse (en pasiva)
+φρονέω|v|mente|pensar, tener en la mente, poner la mira
+ἐπεί|conj|-|puesto que, porque
+ἀληθής|adj|fe|verdadero
+χῆρος|sf|gente|viuda (χήρα)
+γνωρίζω|v|mente|dar a conocer
+Ἕλλην|np|gente|griego; gentil
+πνευματικός|adj|fe|espiritual
+Αἴγυπτος|nl|nombre|Egipto
+δένδρον|sn|mundo|árbol
+πορνεία|sf|fe|inmoralidad sexual, fornicación
+λευκός|adj|mundo|blanco
+φιλέω|v|mente|amar, querer (como amigo); besar
+δουλεύω|v|hacer|servir (como siervo)
+ἥκω|v|mover|venir, haber llegado
+κελεύω|v|poder|mandar, ordenar
+μανθάνω|v|mente|aprender
+ἀναβλέπω|v|mente|alzar la vista; recobrar la vista
+νεφέλη|sf|mundo|nube
+ἀσθενής|adj|cuerpo|débil, enfermo
+ἑορτή|sf|fe|fiesta
+ἀδικία|sf|fe|injusticia, maldad
+ἀστήρ|sm|mundo|estrella
+οὗ|adv|lugar|donde
+ἀναιρέω|v|vida|matar, quitar la vida
+παῖς|sm|gente|niño, muchacho; siervo
+κεῖμαι|v|vida|estar puesto, yacer
+καταλείπω|v|hacer|dejar, abandonar
+ἀκοή|sf|mente|oído; noticia, lo que se oye
+προσέχω|v|mente|prestar atención; guardarse de
+ἀσθένεια|sf|cuerpo|debilidad, enfermedad
+νέος|adj|tiempo|nuevo, joven
+πίμπλημι|v|hacer|llenar
+παρουσία|sf|fe|venida, presencia (la venida del Señor)
+πάρειμι|v|vida|estar presente, haber venido
+διότι|conj|-|porque
+σωτήρ|sm|fe|Salvador
+νοῦς|sm|mente|mente, entendimiento
+ἐπιστολή|sf|palabra|carta, epístola
+Τιμόθεος|np|nombre|Timoteo
+ἀνάγω|v|mover|llevar arriba; zarpar (en pasiva)
+πεινάω|v|vida|tener hambre
+πέραν|adv|lugar|al otro lado
+θυσιαστήριον|sn|fe|altar
+μιμνῄσκω|v|mente|acordarse (en pasiva)
+θεάομαι|v|mente|contemplar, ver
+περιβάλλω|v|vida|vestir, cubrir
+κατηγορέω|v|palabra|acusar
+σκεῦος|sn|vida|vaso, utensilio, instrumento
+κοιλία|sf|cuerpo|vientre, seno
+ἄπιστος|adj|fe|incrédulo
+ἐλεύθερος|adj|poder|libre
+κωλύω|v|poder|impedir, prohibir
+ἀμπελών|sm|mundo|viña
+εἰκών|sf|cualidad|imagen
+τελειόω|v|hacer|perfeccionar, completar
+χαρίζομαι|v|fe|dar gratuitamente; perdonar
+χιλιάς|sf|numero|millar
+ζῷον|sn|mundo|ser viviente, animal
+ἀντί|prep|-|en lugar de, por (genitivo)
+Ἠσαΐας|np|nombre|Isaías
+μετάνοια|sf|fe|arrepentimiento, cambio de mente
+τεσσεράκοντα|num|numero|cuarenta
+συνέδριον|sn|poder|concilio, Sanedrín
+αὐξάνω|v|vida|crecer, hacer crecer
+κοπιάω|v|hacer|trabajar duro, fatigarse
+καθεύδω|v|vida|dormir
+δέομαι|v|fe|rogar, suplicar
+πωλέω|v|hacer|vender
+πλοῦτος|sm|vida|riqueza
+κἀκεῖνος|pron|-|y aquel, también aquel (καί + ἐκεῖνος)
+μηκέτι|adv|tiempo|ya no (con μή)
+ἐκλεκτός|adj|fe|escogido, elegido
+γρηγορέω|v|mente|velar, estar alerta
+ἀγνοέω|v|mente|ignorar, no saber
+ἐκλέγω|v|mente|escoger (en media)
+πληγή|sf|cuerpo|golpe, herida; plaga
+δοκιμάζω|v|mente|probar, examinar, aprobar
+Μακεδονία|nl|nombre|Macedonia
+κατεργάζομαι|v|hacer|producir, llevar a cabo
+βασιλεύω|v|poder|reinar
+ὡσεί|adv|-|como, como si; aproximadamente
+εὐδοκέω|v|mente|complacerse, agradarse
+λατρεύω|v|fe|servir (en el culto), rendir culto
+περισσός|adj|numero|abundante, más (περισσότερον, «más todavía»)
+στρέφω|v|mover|volver; volverse
+τελώνης|sm|gente|publicano, cobrador de impuestos
+πειρασμός|sm|fe|tentación, prueba
+θερίζω|v|mundo|segar, cosechar
+ὑπακούω|v|palabra|obedecer
+ἐνεργέω|v|poder|obrar, actuar, producir
+τιμάω|v|cualidad|honrar
+διδασκαλία|sf|palabra|enseñanza, doctrina
+μνημονεύω|v|mente|recordar, acordarse
+καθίστημι|v|poder|poner, constituir, establecer
+ἀργύριον|sn|vida|plata, dinero
+χιλίαρχος|sm|poder|tribuno, comandante (de mil soldados)
+Ἰσαάκ|np|nombre|Isaac
+ἡγεμών|sm|poder|gobernador
+προάγω|v|mover|ir delante
+βάπτισμα|sn|fe|bautismo
+νηστεύω|v|fe|ayunar
+ὑπηρέτης|sm|gente|servidor, alguacil, ayudante
+ἰχθύς|sm|mundo|pez
+μαρτύριον|sn|palabra|testimonio
+ἑκατοντάρχης|sm|poder|centurión
+τοσοῦτος|pron|numero|tan grande, tanto
+γονεύς|sm|gente|padre o madre (οἱ γονεῖς, los padres)
+ὑψόω|v|mover|levantar, exaltar
+σοφός|adj|mente|sabio
+γένος|sn|gente|linaje, raza, clase
+σκηνή|sf|lugar|tienda, tabernáculo
+αἰτία|sf|-|causa, motivo; acusación
+ξύλον|sn|mundo|madero, árbol, palo
+τρέχω|v|mover|correr
+ἐφίστημι|v|mover|presentarse, sobrevenir
+ἀκροβυστία|sf|fe|incircuncisión; los gentiles
+ἐπίγνωσις|sf|mente|conocimiento pleno
+ἐπάνω|adv|lugar|encima, más de
+δῶρον|sn|fe|ofrenda, regalo
+κρύπτω|v|hacer|esconder
+ταχύς|adv|tiempo|pronto (ταχύ); rápido
+κριτής|sm|poder|juez
+τέλειος|adj|cualidad|perfecto, maduro, completo
+ἀπέχω|v|vida|estar lejos; tener completo; abstenerse (en media)
+παράπτωμα|sn|fe|transgresión, delito
+μεριμνάω|v|mente|afanarse, preocuparse
+παλαιός|adj|tiempo|viejo, antiguo
+προφητεία|sf|fe|profecía
+παρατίθημι|v|hacer|poner delante; encomendar (en media)
+ἐπιλαμβάνομαι|v|hacer|tomar, agarrar; socorrer
+διακρίνω|v|mente|distinguir, juzgar; dudar (en media)
+ἐπαίρω|v|mover|alzar, levantar
+γεωργός|sm|gente|labrador, agricultor
+κτίσις|sf|mundo|creación, criatura
+ἐπουράνιος|adj|mundo|celestial
+κοινωνία|sf|fe|comunión, participación
+κρείττων|adj|cualidad|mejor, superior
+τίκτω|v|vida|dar a luz
+ταράσσω|v|mente|turbar, inquietar
+κληρονομέω|v|fe|heredar
+προστίθημι|v|hacer|añadir
+ἀπώλεια|sf|fe|perdición, destrucción
+ἐπιτρέπω|v|poder|permitir
+ἐμβαίνω|v|mover|entrar (en una barca), subir
+ἐπιβάλλω|v|hacer|echar sobre, poner sobre
+ποιμήν|sm|gente|pastor
+μέχρι|adv|tiempo|hasta
+φανερός|adj|mente|manifiesto, visible
+βλασφημία|sf|palabra|blasfemia, injuria
+κατακρίνω|v|poder|condenar
+ἀληθῶς|adv|fe|verdaderamente
+εἰσπορεύομαι|v|mover|entrar
+πολλάκις|adv|tiempo|muchas veces
+ἆρα|part|-|partícula de pregunta (¿acaso…?)
+ἐλέγχω|v|palabra|redargüir, reprender, convencer
+παραχρῆμα|adv|tiempo|al instante
+οἰκοδομή|sf|hacer|edificio; edificación
+πόλεμος|sm|poder|guerra, batalla
+κόπος|sm|hacer|trabajo, fatiga
+πυλών|sm|lugar|puerta, portal
+στέφανος|sm|poder|corona
+κοιμάομαι|v|vida|dormirse; morir (dormir en el Señor)
+δεσμός|sm|poder|cadena, prisión
+κενός|adj|cualidad|vacío, vano
+δέησις|sf|fe|ruego, súplica
+μήν (II)|sm|tiempo|mes
+ἀποκάλυψις|sf|fe|revelación
+θυμός|sm|mente|ira, furor
+κατέχω|v|hacer|retener; detener
+ἀριθμός|sm|numero|número
+Ἀσία|nl|nombre|Asia (la provincia romana)
+καταγγέλλω|v|palabra|anunciar, proclamar
+Ἀντιόχεια|nl|nombre|Antioquía
+νυνί|adv|tiempo|ahora (enfático)
+χρυσοῦς|adj|mundo|de oro
+θησαυρός|sm|vida|tesoro
+ποταμός|sm|mundo|río
+ῥίζα|sf|mundo|raíz
+σκοτία|sf|mundo|tinieblas, oscuridad
+καταλύω|v|hacer|destruir, derribar; alojarse
+πλησίον|adv|gente|cerca; el prójimo (ὁ πλησίον)
+ὑποκριτής|sm|gente|hipócrita
+κρυπτός|adj|mente|oculto, secreto
+ῥύομαι|v|fe|librar, rescatar
+νίπτω|v|cuerpo|lavar
+μήτι|part|-|¿acaso…? (pregunta que espera «no»)
+πλήρωμα|sn|numero|plenitud, lo que llena
+ὑπομένω|v|vida|soportar, perseverar
+ἐξίστημι|v|mente|asombrarse, estar fuera de sí
+ἑκατόν|num|numero|cien
+ἀρέσκω|v|mente|agradar
+βρῶμα|sn|vida|alimento, comida
+ὦ|interj|-|¡oh!
+Καισάρεια|nl|nombre|Cesarea
+κερδαίνω|v|hacer|ganar
+ἀνάγκη|sf|vida|necesidad; angustia
+ὡσαύτως|adv|-|de la misma manera
+ἕτοιμος|adj|cualidad|preparado, listo
+ἄφεσις|sf|fe|perdón, remisión; libertad
+ἐπαύριον|adv|tiempo|al día siguiente
+περιτέμνω|v|fe|circuncidar
+χάρισμα|sn|fe|don, don de gracia
+καθάπερ|adv|-|así como
+ἵππος|sm|mundo|caballo
+τροφή|sf|vida|alimento, sustento
+Καφαρναούμ|nl|nombre|Capernaúm
+κακῶς|adv|cualidad|mal (κακῶς ἔχειν, «estar enfermo»)
+διψάω|v|vida|tener sed
+ἐπιθυμέω|v|mente|desear, codiciar
+κλείω|v|hacer|cerrar
+κλέπτης|sm|gente|ladrón
+οὐδέποτε|adv|tiempo|nunca
+ἐκτείνω|v|cuerpo|extender
+νυμφίος|sm|gente|esposo, novio
+ἐργάτης|sm|gente|obrero, trabajador
+διατάσσω|v|poder|ordenar, disponer
+προσδοκάω|v|mente|esperar, aguardar
+πλήρης|adj|numero|lleno
+διαλογίζομαι|v|mente|razonar, discutir consigo mismo
+δηνάριον|sn|vida|denario (el jornal de un día)
+ὑστερέω|v|vida|faltar, carecer
+συκῆ|sf|mundo|higuera
+κἄν|conj|-|y si, aunque, siquiera (καί + ἐάν)
+τολμάω|v|mente|atreverse, osar
+δεῖπνον|sn|vida|cena, banquete
+τέρας|sn|fe|prodigio
+παρέχω|v|hacer|dar, ofrecer, causar
+συλλαμβάνω|v|hacer|prender; concebir
+δέσμιος|sm|poder|preso, prisionero
+περισσῶς|adv|numero|mucho más, en gran manera
+ἀθετέω|v|poder|rechazar, desechar
+θεμέλιος|sm|lugar|fundamento, cimiento
+συνίστημι|v|mente|recomendar, mostrar; subsistir
+ἔπειτα|adv|tiempo|después, luego
+λύπη|sf|mente|tristeza
+ἀνακρίνω|v|mente|examinar, juzgar
+ζῆλος|sm|mente|celo; envidia
+ἐπιμένω|v|vida|permanecer, persistir
+Ἔφεσος|nl|nombre|Éfeso
+σφραγίς|sf|poder|sello
+πάθημα|sn|vida|padecimiento, aflicción
+εὐλογία|sf|fe|bendición
+παρθένος|sf|gente|virgen, doncella
+θρίξ|sf|cuerpo|cabello
+Ἰορδάνης|nl|nombre|el Jordán
+ἐντέλλομαι|v|poder|mandar, ordenar
+χορτάζω|v|vida|saciar; saciarse (en pasiva)
+νομίζω|v|mente|pensar, suponer
+μοιχεύω|v|fe|cometer adulterio
+συμφέρω|v|cualidad|convenir, ser provechoso
+ὁμοιόω|v|cualidad|asemejar, comparar
+χόρτος|sm|mundo|hierba, pasto
+ἀπάγω|v|mover|llevar (preso)
+ἀνομία|sf|fe|iniquidad, maldad
+πέτρα|sf|mundo|roca, peña
+ποτίζω|v|vida|dar de beber, regar
+σαλεύω|v|mover|sacudir, conmover
+ὅθεν|adv|lugar|de donde; por lo cual
+ξηραίνω|v|mundo|secar; secarse (en pasiva)
+σκάνδαλον|sn|fe|tropiezo, ocasión de caer
+ὠφελέω|v|cualidad|aprovechar, ser útil
+τράπεζα|sf|vida|mesa
+γεύομαι|v|cuerpo|gustar, probar
+ἀνέχω|v|vida|soportar, sufrir con paciencia (en media)
+κτίζω|v|mundo|crear
+ἐλαία|sf|mundo|olivo; monte de los Olivos
+λῃστής|sm|gente|ladrón, salteador
+δέρω|v|cuerpo|azotar, golpear
+κληρονόμος|sm|fe|heredero
+γάμος|sm|gente|boda, banquete de bodas
+ῥαββί|part|gente|Rabí, maestro
+οἰκουμένη|sf|mundo|mundo habitado
+προλέγω|v|palabra|predecir, decir antes
+γυμνός|adj|cuerpo|desnudo
+σφραγίζω|v|poder|sellar
+εἶτα|adv|tiempo|después, luego
+καταλαμβάνω|v|hacer|alcanzar, comprender; sorprender
+ἐπαγγέλλομαι|v|fe|prometer
+ἐπίσταμαι|v|mente|saber, entender
+γνωστός|adj|mente|conocido
+κατέρχομαι|v|mover|descender
+παύω|v|tiempo|cesar, dejar de (en media)
+γέ|part|-|ciertamente, al menos (enclítica de énfasis)
+Λάζαρος|np|nombre|Lázaro
+διαμαρτύρομαι|v|palabra|testificar solemnemente
+εὐσέβεια|sf|fe|piedad
+Σαῦλος|np|nombre|Saulo
+Δαμασκός|nl|nombre|Damasco
+εὐχαριστία|sf|fe|acción de gracias
+ὑπακοή|sf|fe|obediencia
+ἐλάχιστος|adj|cualidad|el más pequeño, mínimo
+ἀναχωρέω|v|mover|retirarse, apartarse
+Σαδδουκαῖος|np|gente|saduceo
+σῖτος|sm|mundo|trigo
+λύχνος|sm|vida|lámpara
+ἀνθίστημι|v|poder|resistir, oponerse
+πετεινός|sn|mundo|ave (τὰ πετεινά, las aves)
+αὔριον|adv|tiempo|mañana
+μέτρον|sn|numero|medida
+κατανοέω|v|mente|considerar, observar
+ὄφις|sm|mundo|serpiente
+ἄκανθα|sf|mundo|espino
+φρόνιμος|adj|mente|prudente, sensato
+ὄψιος|adj|tiempo|tarde (ὀψία, «la tarde»)
+σεισμός|sm|mundo|terremoto; tempestad
+ἀνάκειμαι|v|vida|estar a la mesa, reclinarse
+ἀμφότεροι|adj|numero|ambos
+κωφός|adj|cuerpo|mudo; sordo
+χωλός|adj|cuerpo|cojo
+ἁρπάζω|v|poder|arrebatar
+νήπιος|adj|gente|niño pequeño
+μερίζω|v|hacer|dividir, repartir
+κατεσθίω|v|vida|devorar
+κλάω|v|vida|partir (el pan)
+κοινόω|v|fe|contaminar, hacer impuro
+νοέω|v|mente|entender
+διαλογισμός|sm|mente|pensamiento, razonamiento; discusión
+ἀλλότριος|adj|-|ajeno, de otro; extranjero
+ταπεινόω|v|cualidad|humillar
+τάλαντον|sn|numero|talento (gran suma de dinero)
+ἕκτος|adj|numero|sexto
+κληρονομία|sf|fe|herencia
+θύω|v|fe|sacrificar, matar
+οἷος|pron|-|tal como, cual
+ξένος|adj|gente|extranjero, forastero; extraño
+μύρον|sn|vida|perfume, ungüento
+μακρόθεν|adv|lugar|de lejos
+κοινός|adj|fe|común; impuro
+προσδέχομαι|v|mente|esperar; recibir
+ἐξαποστέλλω|v|mover|enviar, despedir
+ἀφίστημι|v|mover|apartarse, alejarse
+ἐνιαυτός|sm|tiempo|año
+ἀτενίζω|v|mente|fijar los ojos
+στηρίζω|v|hacer|afirmar, fortalecer
+εὐφραίνω|v|mente|alegrar; alegrarse (en pasiva)
+γράμμα|sn|palabra|letra; escrito (τὰ γράμματα, las Escrituras)
+ἀπειθέω|v|fe|desobedecer, no creer
+τύπος|sm|cualidad|modelo, ejemplo; marca
+φύσις|sf|mundo|naturaleza
+μακροθυμία|sf|fe|paciencia, longanimidad
+ἅπαξ|adv|tiempo|una vez; una vez para siempre
+πρίν|adv|tiempo|antes que
+ἐμπαίζω|v|palabra|burlarse
+Ναζωραῖος|np|gente|nazareno
+ὕστερος|adv|tiempo|después, al final (ὕστερον)
+Ἀνδρέας|np|nombre|Andrés
+καταρτίζω|v|hacer|perfeccionar, restaurar, preparar
+δαιμονίζομαι|v|fe|estar endemoniado
+ἐλεημοσύνη|sf|fe|limosna
+κλέπτω|v|hacer|robar
+διαφέρω|v|cualidad|valer más, diferir
+ἐπιζητέω|v|hacer|buscar con empeño
+ἐκπλήσσω|v|mente|asombrarse, maravillarse (en pasiva)
+θερισμός|sm|mundo|cosecha, siega
+ἀνά|prep|numero|cada uno; en medio de (ἀνὰ μέσον)
+ζύμη|sf|vida|levadura
+παράδοσις|sf|palabra|tradición
+ἕξ|num|numero|seis
+χωρίζω|v|hacer|separar
+ὕψιστος|adj|fe|altísimo; el Altísimo
+ἔξωθεν|adv|lugar|de fuera, por fuera
+τρόπος|sm|cualidad|manera, modo
+τύπτω|v|cuerpo|golpear, herir
+παιδίσκη|sf|gente|criada, muchacha
+ἄνωθεν|adv|lugar|de arriba; de nuevo
+διαλέγομαι|v|palabra|discutir, disertar
+ἀναλαμβάνω|v|mover|tomar; ser recibido arriba (en pasiva)
+Μάρθα|np|nombre|Marta
+καταισχύνω|v|mente|avergonzar
+παιδεύω|v|palabra|disciplinar, corregir; instruir
+ἀναγγέλλω|v|palabra|anunciar, contar
+καπνός|sm|mundo|humo
+χρυσίον|sn|mundo|oro
+τίμιος|adj|cualidad|precioso, estimado
+καταντάω|v|mover|llegar
+Φῆστος|np|nombre|Festo
+Τίτος|np|nombre|Tito
+ἀναστροφή|sf|vida|conducta, manera de vivir
+δράκων|sm|fe|dragón
+Σολομών|np|nombre|Salomón
+Βαβυλών|nl|nombre|Babilonia
+λίαν|adv|numero|mucho, en gran manera
+ὅριον|sn|lugar|territorio, región (τὰ ὅρια)
+Ναζαρά|nl|nombre|Nazaret (también Ναζαρέτ)
+βαπτιστής|sm|fe|bautista (Juan el Bautista)
+βοάω|v|palabra|clamar, gritar
+κατακαίω|v|mundo|quemar del todo
+δεῦτε|v|mover|¡venid! (interjección con valor de mandato)
+δίκτυον|sn|mundo|red (de pescar)
+Ζεβεδαῖος|np|nombre|Zebedeo
+συνέχω|v|poder|apremiar, estrechar; afligir
+ψεύδομαι|v|palabra|mentir
+καίω|v|mundo|encender, arder
+λυχνία|sf|fe|candelero
+φονεύω|v|vida|matar, asesinar
+μωρός|adj|mente|necio; insensato
+γέεννα|sf|fe|infierno (el valle de Hinom)
+ὀδούς|sm|cuerpo|diente
+ἄδικος|adj|fe|injusto
+σαλπίζω|v|palabra|tocar la trompeta
+χοῖρος|sm|mundo|cerdo
+ἔσωθεν|adv|lugar|de dentro, por dentro
+βασανίζω|v|cuerpo|atormentar
+μεταβαίνω|v|mover|pasar de un lugar a otro
+ἀσκός|sm|vida|odre
+σπλαγχνίζομαι|v|mente|tener compasión, conmoverse
+ῥάβδος|sf|poder|vara, cetro
+οἰκοδεσπότης|sm|gente|padre de familia, dueño de casa
+κάλαμος|sm|mundo|caña
+ἀναπαύω|v|vida|hacer descansar; descansar (en media)
+πρόθεσις|sf|mente|propósito; τοῦ ἄρτου πρόθεσις, los panes de la proposición
+ὑγιής|adj|cuerpo|sano
+ἀναπίπτω|v|vida|recostarse (a la mesa)
+πρωΐ|adv|tiempo|de mañana, temprano
+προσλαμβάνω|v|hacer|recibir, acoger; tomar aparte
+κολλάω|v|hacer|unirse, juntarse (en pasiva)
+πῶλος|sm|mundo|pollino, asno joven
+Βηθανία|nl|nombre|Betania
+πόρνη|sf|gente|ramera, prostituta
+διάνοια|sf|mente|entendimiento, mente
+λιμός|sm|vida|hambre
+πληθύνω|v|numero|multiplicar
+αὐλή|sf|lugar|patio, atrio
+τρίς|adv|numero|tres veces
+βῆμα|sn|poder|tribunal
+Μαγδαληνή|np|nombre|Magdalena (de Magdala)
+κατάκειμαι|v|vida|estar acostado
+βροντή|sf|mundo|trueno
+σπουδή|sf|mente|diligencia, prisa
+παραιτέομαι|v|palabra|rechazar, excusarse
+γόνυ|sn|cuerpo|rodilla
+ἐξάγω|v|mover|sacar
+ἔθος|sn|vida|costumbre
+κράτος|sn|poder|poder, dominio
+πλουτέω|v|vida|ser rico, enriquecerse
+ὑγιαίνω|v|cuerpo|estar sano; ser sana (la doctrina)
+βουλή|sf|mente|consejo, propósito
+τυγχάνω|v|vida|obtener, alcanzar; suceder
+πιάζω|v|poder|prender, tomar
+Ῥωμαῖος|adj|gente|romano
+Σιλᾶς|np|nombre|Silas
+μάλιστα|adv|numero|sobre todo, especialmente
+συνεργός|adj|gente|colaborador
+φιάλη|sf|fe|copa (de las siete plagas)
+ἀνατολή|sf|lugar|oriente; salida (del sol)
+πυνθάνομαι|v|palabra|preguntar, informarse
+ποιμαίνω|v|gente|pastorear, apacentar
+σφόδρα|adv|numero|mucho, en gran manera
+κάτω|adv|lugar|abajo
+τελευτάω|v|vida|morir
+ὑψηλός|adj|lugar|alto
+νόσος|sf|cuerpo|enfermedad
+ἀγαλλιάω|v|mente|alegrarse mucho
+ἀρχαῖος|adj|tiempo|antiguo
+χιτών|sm|vida|túnica
+βρῶσις|sf|vida|comida; polilla, herrumbre
+ἐμβλέπω|v|mente|mirar fijamente
+κακία|sf|cualidad|malicia, maldad
+μετρέω|v|numero|medir
+ψευδοπροφήτης|sm|fe|falso profeta
+θάπτω|v|vida|sepultar
+χείρων|adj|cualidad|peor
+Θωμᾶς|np|nombre|Tomás («mellizo»)
+Ἰσκαριώθ|np|nombre|Iscariote (también Ἰσκαριώτης)
+θανατόω|v|vida|hacer morir, matar
+κατασκευάζω|v|hacer|preparar, construir
+ἀγορά|sf|lugar|plaza, mercado
+Τύρος|nl|nombre|Tiro
+τριάκοντα|num|numero|treinta
+κλάδος|sm|mundo|rama
+καταβολή|sf|tiempo|fundación (καταβολὴ κόσμου, «la fundación del mundo»)
+ἀπιστία|sf|fe|incredulidad
+φυτεύω|v|mundo|plantar
+ἀπαρνέομαι|v|palabra|negar
+ὅραμα|sn|fe|visión
+πρᾶγμα|sn|hacer|asunto, cosa, hecho
+νεανίσκος|sm|gente|joven
+ὑποκάτω|adv|lugar|debajo de
+γέμω|v|numero|estar lleno
+Ζαχαρίας|np|nombre|Zacarías
+σάλπιγξ|sf|palabra|trompeta
+ἐάω|v|poder|dejar, permitir
+ἔλαιον|sn|vida|aceite
+κομίζω|v|hacer|traer; recibir (en media)
+ἐπισκέπτομαι|v|mente|visitar, cuidar
+δόλος|sm|cualidad|engaño
+ἀλέκτωρ|sm|mundo|gallo
+Γαλιλαῖος|np|gente|galileo
+Βαραββᾶς|np|nombre|Barrabás
+διαμερίζω|v|hacer|repartir, dividir
+κλῆρος|sm|fe|suerte; herencia, parte
+σχίζω|v|hacer|rasgar, partir
+κράβαττος|sm|vida|camilla, lecho
+ἐπιπίπτω|v|mover|caer sobre
+στήκω|v|fe|estar firme
+ἅλυσις|sf|poder|cadena
+πηγή|sf|mundo|fuente, manantial
+συγγενής|adj|gente|pariente
+ἐπαισχύνομαι|v|mente|avergonzarse
+κέρας|sn|poder|cuerno; poder
+σπλάγχνον|sn|mente|entrañas; compasión, afecto
+εἰσάγω|v|mover|introducir, hacer entrar
+ἀντιλέγω|v|palabra|contradecir
+λίμνη|sf|mundo|lago
+φωτίζω|v|mundo|alumbrar, iluminar
+ἄφρων|adj|mente|necio, insensato
+Σαμάρεια|nl|nombre|Samaria
+ἐξουθενέω|v|mente|menospreciar
+δωρεά|sf|fe|don, regalo
+ζῳοποιέω|v|vida|dar vida, vivificar
+πρότερος|adv|tiempo|antes, primero (πρότερον)
+ὁμοθυμαδόν|adv|mente|unánimes, de común acuerdo
+Ἁνανίας|np|nombre|Ananías
+ζηλόω|v|mente|procurar con celo; envidiar
+εἴδωλον|sn|fe|ídolo
+Ἀγρίππας|np|nombre|Agripa
+χράομαι|v|hacer|usar
+ἐνδείκνυμι|v|mente|mostrar (en media)
+ἔπαινος|sm|palabra|alabanza
+καύχησις|sf|palabra|gloria, jactancia (el acto de gloriarse)
+καύχημα|sn|palabra|gloria, motivo de gloriarse
+ἐλευθερία|sf|poder|libertad
+κλῆσις|sf|fe|llamamiento
+πραΰτης|sf|cualidad|mansedumbre
+σπουδάζω|v|mente|procurar con diligencia
+χίλιοι|num|numero|mil
+βίβλος|sf|palabra|libro
+ἐξομολογέω|v|palabra|confesar; alabar (en media)
+ἐκκόπτω|v|hacer|cortar
+ὑπόδημα|sn|vida|sandalia, calzado
+περιστερά|sf|mundo|paloma
+ποικίλος|adj|cualidad|diverso, de muchas clases
+παραλυτικός|adj|cuerpo|paralítico
+πενθέω|v|mente|llorar, lamentarse
+ἔνοχος|adj|poder|culpable, reo
+κἀκεῖ|adv|lugar|y allí (καί + ἐκεῖ)
+ὅρκος|sm|palabra|juramento
+πλατύς|sf|lugar|plaza, calle ancha (πλατεῖα)
+πύλη|sf|lugar|puerta
+θλίβω|v|vida|afligir; estrechar (ὁδὸς τεθλιμμένη, «camino angosto»)
+ὑπαντάω|v|mover|salir al encuentro
+παράγω|v|mover|pasar; pasar (la apariencia del mundo)
+ᾅδης|sm|fe|Hades, el lugar de los muertos
+κοσμέω|v|cualidad|adornar
+διωγμός|sm|poder|persecución
+ἅμα|adv|tiempo|juntamente, al mismo tiempo
+ἀφορίζω|v|hacer|apartar, separar
+τέταρτος|adj|numero|cuarto
+σέβω|v|fe|adorar, honrar (en media; σεβόμενοι, «piadosos»)
+χωρέω|v|lugar|caber, contener; dar lugar
+ἀναφέρω|v|fe|ofrecer; llevar arriba
+μακροθυμέω|v|fe|ser paciente, sufrir con paciencia
+σύνδουλος|sm|gente|consiervo
+ἀδύνατος|adj|poder|imposible; impotente
+ἔνατος|adj|numero|noveno
+σιωπάω|v|palabra|callar
+κλητός|adj|fe|llamado
+μέλει|v|mente|importar, preocupar (impersonal)
+ἀσπασμός|sm|palabra|saludo
+ἀκαθαρσία|sf|fe|impureza, inmundicia
+κοινωνός|sm|gente|compañero, participante
+πατάσσω|v|cuerpo|herir, golpear
+χωρίον|sn|lugar|terreno, campo, lugar
+ἀφαιρέω|v|hacer|quitar
+ἐγκαταλείπω|v|hacer|desamparar, abandonar
+ἐμφανίζω|v|mente|manifestar; informar
+πλάνη|sf|mente|error, engaño
+συζητέω|v|palabra|discutir
+ἐπιτάσσω|v|poder|mandar
+προσκαρτερέω|v|vida|perseverar, dedicarse
+μνῆμα|sn|lugar|sepulcro
+πλεονεξία|sf|cualidad|avaricia, codicia
+ἀσέλγεια|sf|fe|lascivia, libertinaje
+κἀκεῖθεν|adv|lugar|y de allí (καί + ἐκεῖθεν)
+ὄντως|adv|fe|verdaderamente, realmente
+ἰσχύς|sf|poder|fuerza, poder
+δικαίωμα|sn|fe|ordenanza; acto de justicia
+ὀκτώ|num|numero|ocho
+δεσπότης|sm|poder|señor, soberano, amo
+ἐντεῦθεν|adv|lugar|de aquí
+ὑμέτερος|pron|-|vuestro
+ἐπειδή|conj|-|puesto que, ya que
+δάκρυον|sn|cuerpo|lágrima
+σιγάω|v|palabra|callar
+ὅδε|pron|-|este (τάδε λέγει, «esto dice»)
+ἀπολογέομαι|v|palabra|defenderse, hacer una defensa
+οἰκονόμος|sm|gente|mayordomo, administrador
+ταχέως|adv|tiempo|pronto, rápidamente
+εἴκοσι|num|numero|veinte
+ἀπολύτρωσις|sf|fe|redención, rescate
+στρατηγός|sm|poder|magistrado; jefe (de la guardia del templo)
+ψεῦδος|sn|palabra|mentira
+ψεύστης|sm|gente|mentiroso
+Ἰόππη|nl|nombre|Jope
+ξενίζω|v|gente|hospedar; extrañar
+ἐκπίπτω|v|mover|caer; dejar de cumplirse
+Ἀχαΐα|nl|nombre|Acaya
+Ἀπολλῶς|np|nombre|Apolos
+φείδομαι|v|mente|perdonar, escatimar
+παρεμβολή|sf|poder|fortaleza, cuartel; campamento
+χρηστότης|sf|cualidad|bondad, benignidad
+ἁγιασμός|sm|fe|santificación
+ἐπιτελέω|v|hacer|llevar a cabo, completar
+πόρνος|sm|gente|fornicario, inmoral
+παντοκράτωρ|sm|fe|Todopoderoso
+σφάζω|v|vida|degollar, inmolar

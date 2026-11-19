@@ -1459,7 +1459,7 @@
           cab: ['Herramienta', 'Para qué sirve'],
           filas: [
             ['La tabla del alfabeto de este recurso', 'Repasar las letras, los diptongos y los signos, y practicar la lectura'],
-            ['Vocabulario y gramática básica del griego del NT', 'Recurso siguiente del sitio (en preparación): las palabras más frecuentes, el sustantivo y el verbo'],
+            ['Vocabulario y gramática básica del griego del NT', 'Recurso siguiente del sitio: las 1.124 palabras más frecuentes, el sustantivo y el verbo'],
             ['Interlineal griego–español (NT)', 'Recurso del sitio (en preparación): el Nuevo Testamento palabra por palabra'],
             ['Concordancia con números de Strong', 'Encontrar todas las veces que aparece una palabra griega'],
             ['Un Nuevo Testamento griego impreso o digital', 'Leer cualquier pasaje en griego'],
@@ -1473,7 +1473,8 @@
         'La lectura se afianza con repetición breve y frecuente. Te sugerimos tres ejercicios. Repasa el alfabeto en el modo de práctica de la tabla hasta reconocer cada letra sin dudar. Vuelve a leer en voz alta los versículos del taller, sin ayudas, hasta que salgan de corrido. Y lee cada día un versículo nuevo de un pasaje que conozcas bien en español: el prólogo de Juan (Jn 1:1-14), las bienaventuranzas (Mt 5:3-12) o 1 Corintios 13.',
         { ir: { t: 'Abrir la tabla del alfabeto griego', a: 'alfabeto/' } },
         { h: 'Lo que viene' },
-        'Saber leer es el primer paso. El recurso Vocabulario y gramática básica del griego del Nuevo Testamento, en preparación, te enseñará las palabras más frecuentes, cómo funcionan los sustantivos y los verbos, y qué significan las terminaciones que viste en el taller. Después, el Interlineal griego–español te permitirá leer cualquier pasaje del Nuevo Testamento con la glosa de cada palabra.',
+        'Saber leer es el primer paso. El recurso Vocabulario y gramática básica del griego del NT te enseña las palabras más frecuentes, cómo funcionan los sustantivos y los verbos, y qué significan las terminaciones que viste en el taller. Después, el Interlineal griego–español, en preparación, te permitirá leer cualquier pasaje del Nuevo Testamento con la glosa de cada palabra.',
+        { ir: { t: 'Seguir con Vocabulario y gramática básica del griego del NT', a: '../../gramatica-griega/' } },
         'Mientras tanto, una concordancia con los números de Strong es muy útil: a cada palabra griega le asigna un número, y con él puedes encontrar todos los pasajes donde aparece, aunque la traducción la vierta de maneras distintas. Si ya recorriste El alfabeto hebreo, te será fácil: es el mismo método.',
         { ir: { t: 'Repasar El alfabeto hebreo y la lectura', a: '../../alfabeto-hebreo/' } },
         { h: 'Con humildad y con oración' },

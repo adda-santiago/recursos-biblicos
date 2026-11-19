@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">Las terminaciones dicen quién hace qué</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">«El Padre ama al Hijo» en tres órdenes posibles</text>
+<rect x="150" y="170" width="900" height="110" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="330" y="242" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#2a6fb0" text-anchor="middle" font-weight="normal">ὁ πατήρ</text>
+<text x="600" y="242" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" font-weight="normal">ἀγαπᾷ</text>
+<text x="870" y="242" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#c08a1e" text-anchor="middle" font-weight="normal">τὸν υἱόν</text>
+<text x="1100" y="240" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#6b7080" text-anchor="middle" font-weight="normal">=</text>
+<rect x="150" y="320" width="900" height="110" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="330" y="392" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#c08a1e" text-anchor="middle" font-weight="normal">τὸν υἱόν</text>
+<text x="600" y="392" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" font-weight="normal">ἀγαπᾷ</text>
+<text x="870" y="392" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#2a6fb0" text-anchor="middle" font-weight="normal">ὁ πατήρ</text>
+<text x="1100" y="390" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#6b7080" text-anchor="middle" font-weight="normal">=</text>
+<rect x="150" y="470" width="900" height="110" rx="14" fill="#fff" stroke="#c9c6be" stroke-width="2"/>
+<text x="330" y="542" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#1f2430" text-anchor="middle" font-weight="normal">ἀγαπᾷ</text>
+<text x="600" y="542" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#2a6fb0" text-anchor="middle" font-weight="normal">ὁ πατήρ</text>
+<text x="870" y="542" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="46" fill="#c08a1e" text-anchor="middle" font-weight="normal">τὸν υἱόν</text>
+<text x="1100" y="540" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="#6b7080" text-anchor="middle" font-weight="normal">=</text>
+<text x="600" y="690" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">el Padre ama al Hijo</text>
+<rect x="210" y="740" width="22" height="22" rx="4" fill="#2a6fb0"/>
+<text x="244" y="758" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="normal">nominativo: el sujeto (ὁ, -ρ)</text>
+<rect x="660" y="740" width="22" height="22" rx="4" fill="#c08a1e"/>
+<text x="694" y="758" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f2430" text-anchor="start" font-weight="normal">acusativo: el complemento (τόν, -ν)</text>
+<text x="600" y="850" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">En español el orden decide; en griego deciden las terminaciones, y el orden sirve para destacar.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">Los cinco casos</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">Cada caso responde una pregunta (con λόγος, «palabra», y κύριος, «señor»)</text>
+<rect x="120" y="170" width="960" height="108" rx="14" fill="#fff" stroke="#2a6fb0" stroke-width="3"/>
+<rect x="120" y="170" width="16" height="108" rx="6" fill="#2a6fb0"/>
+<text x="170" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2a6fb0" text-anchor="start" font-weight="bold">Nominativo</text>
+<text x="170" y="252" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="start" font-weight="normal">el sujeto</text>
+<text x="560" y="234" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">¿quién?, ¿qué?</text>
+<text x="930" y="240" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="44" fill="#2a6fb0" text-anchor="middle" font-weight="normal">ὁ λόγος</text>
+<rect x="120" y="300" width="960" height="108" rx="14" fill="#fff" stroke="#2f7d4a" stroke-width="3"/>
+<rect x="120" y="300" width="16" height="108" rx="6" fill="#2f7d4a"/>
+<text x="170" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#2f7d4a" text-anchor="start" font-weight="bold">Genitivo</text>
+<text x="170" y="382" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="start" font-weight="normal">posesión, origen</text>
+<text x="560" y="364" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">¿de quién?, ¿de qué?</text>
+<text x="930" y="370" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="44" fill="#2f7d4a" text-anchor="middle" font-weight="normal">τοῦ λόγου</text>
+<rect x="120" y="430" width="960" height="108" rx="14" fill="#fff" stroke="#7a3fa0" stroke-width="3"/>
+<rect x="120" y="430" width="16" height="108" rx="6" fill="#7a3fa0"/>
+<text x="170" y="476" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#7a3fa0" text-anchor="start" font-weight="bold">Dativo</text>
+<text x="170" y="512" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="start" font-weight="normal">complemento indirecto, medio</text>
+<text x="560" y="494" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">¿a quién?, ¿con qué?</text>
+<text x="930" y="500" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="44" fill="#7a3fa0" text-anchor="middle" font-weight="normal">τῷ λόγῳ</text>
+<rect x="120" y="560" width="960" height="108" rx="14" fill="#fff" stroke="#c08a1e" stroke-width="3"/>
+<rect x="120" y="560" width="16" height="108" rx="6" fill="#c08a1e"/>
+<text x="170" y="606" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#c08a1e" text-anchor="start" font-weight="bold">Acusativo</text>
+<text x="170" y="642" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="start" font-weight="normal">complemento directo</text>
+<text x="560" y="624" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">¿qué?, ¿a quién?</text>
+<text x="930" y="630" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="44" fill="#c08a1e" text-anchor="middle" font-weight="normal">τὸν λόγον</text>
+<rect x="120" y="690" width="960" height="108" rx="14" fill="#fff" stroke="#1e8a8a" stroke-width="3"/>
+<rect x="120" y="690" width="16" height="108" rx="6" fill="#1e8a8a"/>
+<text x="170" y="736" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#1e8a8a" text-anchor="start" font-weight="bold">Vocativo</text>
+<text x="170" y="772" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="start" font-weight="normal">a quien se habla</text>
+<text x="560" y="754" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">¡…!</text>
+<text x="930" y="760" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="44" fill="#1e8a8a" text-anchor="middle" font-weight="normal">κύριε</text>
+<text x="600" y="855" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">El artículo (ὁ, τοῦ, τῷ, τόν) es el mejor ayudante para reconocer el caso.</text>
+</svg>

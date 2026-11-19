@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<text x="600" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#1f2430" text-anchor="middle" font-weight="normal">Tres maneras de mirar una acción</text>
+<text x="600" y="106" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#6b7080" text-anchor="middle" font-weight="normal">El aspecto no dice sobre todo cuándo, sino cómo se presenta la acción</text>
+<rect x="90" y="170" width="320" height="560" rx="18" fill="#fff" stroke="#2a6fb0" stroke-width="3"/>
+<text x="250" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Aoristo</text>
+<text x="250" y="258" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">la acción completa, desde fuera</text>
+<rect x="440" y="170" width="320" height="560" rx="18" fill="#fff" stroke="#c08a1e" stroke-width="3"/>
+<text x="600" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#c08a1e" text-anchor="middle" font-weight="bold">Presente e imperfecto</text>
+<text x="600" y="258" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">la acción en desarrollo, desde dentro</text>
+<rect x="790" y="170" width="320" height="560" rx="18" fill="#fff" stroke="#2f7d4a" stroke-width="3"/>
+<text x="950" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Perfecto</text>
+<text x="950" y="258" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">acción terminada con resultado vigente</text>
+<circle cx="250" cy="400" r="58" fill="#2a6fb0" fill-opacity="0.18" stroke="#2a6fb0" stroke-width="5"/>
+<text x="250" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">como una foto</text>
+<line x1="470" y1="400" x2="720" y2="400" stroke="#c08a1e" stroke-width="6" stroke-dasharray="18 10" marker-end="url(#fl)"/>
+<text x="600" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">como un video</text>
+<circle cx="840" cy="400" r="18" fill="#2f7d4a"/><line x1="860" y1="400" x2="1070" y2="400" stroke="#2f7d4a" stroke-width="6"/>
+<text x="950" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">un hecho y su efecto</text>
+<text x="250" y="600" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="40" fill="#2a6fb0" text-anchor="middle" font-weight="normal">ἔλυσα</text>
+<text x="250" y="645" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">desaté</text>
+<text x="600" y="600" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="40" fill="#c08a1e" text-anchor="middle" font-weight="normal">λύω · ἔλυον</text>
+<text x="600" y="645" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">desato · desataba</text>
+<text x="950" y="600" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="40" fill="#2f7d4a" text-anchor="middle" font-weight="normal">λέλυκα</text>
+<text x="950" y="645" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">he desatado</text>
+<text x="250" y="700" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">ἐδάκρυσεν, lloró (Jn 11:35)</text>
+<text x="600" y="700" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">αἰτεῖτε, pedid (Mt 7:7)</text>
+<text x="950" y="700" font-family="'Noto Serif', 'Gentium Plus', 'Times New Roman', serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">γέγραπται, escrito está (Mt 4:4)</text>
+<text x="600" y="820" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal" font-style="italic">El aoristo no significa «una vez para siempre»: solo mira la acción como un todo.</text>
+</svg>

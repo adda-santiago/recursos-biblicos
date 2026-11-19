@@ -1,0 +1,1136 @@
+{
+ "tablas": [
+  {
+   "titulo": "El artículo ὁ, ἡ, τό",
+   "nota": "La palabra más frecuente del Nuevo Testamento: 19.783 veces. Aprenderlo bien ayuda a reconocer el caso de cualquier sustantivo.",
+   "cab": [
+    "Caso",
+    "Masculino",
+    "Femenino",
+    "Neutro"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "Nominativo sing.",
+      [
+       "ὁ",
+       "ho"
+      ],
+      [
+       "ἡ",
+       "hē"
+      ],
+      [
+       "τό",
+       "to"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Genitivo sing.",
+      [
+       "τοῦ",
+       "tu"
+      ],
+      [
+       "τῆς",
+       "tēs"
+      ],
+      [
+       "τοῦ",
+       "tu"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dativo sing.",
+      [
+       "τῷ",
+       "tō"
+      ],
+      [
+       "τῇ",
+       "tē"
+      ],
+      [
+       "τῷ",
+       "tō"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Acusativo sing.",
+      [
+       "τόν",
+       "ton"
+      ],
+      [
+       "τήν",
+       "tēn"
+      ],
+      [
+       "τό",
+       "to"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Nominativo pl.",
+      [
+       "οἱ",
+       "hoi"
+      ],
+      [
+       "αἱ",
+       "hai"
+      ],
+      [
+       "τά",
+       "ta"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Genitivo pl.",
+      [
+       "τῶν",
+       "tōn"
+      ],
+      [
+       "τῶν",
+       "tōn"
+      ],
+      [
+       "τῶν",
+       "tōn"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dativo pl.",
+      [
+       "τοῖς",
+       "tois"
+      ],
+      [
+       "ταῖς",
+       "tais"
+      ],
+      [
+       "τοῖς",
+       "tois"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Acusativo pl.",
+      [
+       "τούς",
+       "tus"
+      ],
+      [
+       "τάς",
+       "tas"
+      ],
+      [
+       "τά",
+       "ta"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Segunda declinación",
+   "nota": "Masculinos en -ος (como λόγος: ἄνθρωπος, θεός, κύριος) y neutros en -ον (como ἔργον).",
+   "cab": [
+    "Caso",
+    "λόγος, palabra",
+    "ἔργον, obra"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "Nom. sing.",
+      [
+       "λόγος",
+       "lógos"
+      ],
+      [
+       "ἔργον",
+       "érgon"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Gen. sing.",
+      [
+       "λόγου",
+       "lógu"
+      ],
+      [
+       "ἔργου",
+       "érgu"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dat. sing.",
+      [
+       "λόγῳ",
+       "lógō"
+      ],
+      [
+       "ἔργῳ",
+       "érgō"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Ac. sing.",
+      [
+       "λόγον",
+       "lógon"
+      ],
+      [
+       "ἔργον",
+       "érgon"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Nom. pl.",
+      [
+       "λόγοι",
+       "lógoi"
+      ],
+      [
+       "ἔργα",
+       "érga"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Gen. pl.",
+      [
+       "λόγων",
+       "lógōn"
+      ],
+      [
+       "ἔργων",
+       "érgōn"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dat. pl.",
+      [
+       "λόγοις",
+       "lógois"
+      ],
+      [
+       "ἔργοις",
+       "érgois"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Ac. pl.",
+      [
+       "λόγους",
+       "lógus"
+      ],
+      [
+       "ἔργα",
+       "érga"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Primera declinación",
+   "nota": "El plural es igual en todos los modelos. Como προφήτης se declina μαθητής.",
+   "cab": [
+    "Caso",
+    "ἡμέρα, día",
+    "γραφή, escritura",
+    "δόξα, gloria",
+    "προφήτης, profeta"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "Nom. sing.",
+      [
+       "ἡμέρα",
+       "hēméra"
+      ],
+      [
+       "γραφή",
+       "grafḗ"
+      ],
+      [
+       "δόξα",
+       "dóxa"
+      ],
+      [
+       "προφήτης",
+       "profḗtēs"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Gen. sing.",
+      [
+       "ἡμέρας",
+       "hēméras"
+      ],
+      [
+       "γραφῆς",
+       "grafḗs"
+      ],
+      [
+       "δόξης",
+       "dóxēs"
+      ],
+      [
+       "προφήτου",
+       "profḗtu"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dat. sing.",
+      [
+       "ἡμέρᾳ",
+       "hēméra"
+      ],
+      [
+       "γραφῇ",
+       "grafḗ"
+      ],
+      [
+       "δόξῃ",
+       "dóxē"
+      ],
+      [
+       "προφήτῃ",
+       "profḗtē"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Ac. sing.",
+      [
+       "ἡμέραν",
+       "hēméran"
+      ],
+      [
+       "γραφήν",
+       "grafḗn"
+      ],
+      [
+       "δόξαν",
+       "dóxan"
+      ],
+      [
+       "προφήτην",
+       "profḗtēn"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Nom. pl.",
+      [
+       "ἡμέραι",
+       "hēmérai"
+      ],
+      [
+       "γραφαί",
+       "grafaí"
+      ],
+      [
+       "δόξαι",
+       "dóxai"
+      ],
+      [
+       "προφῆται",
+       "profḗtai"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Gen. pl.",
+      [
+       "ἡμερῶν",
+       "hēmerṓn"
+      ],
+      [
+       "γραφῶν",
+       "grafṓn"
+      ],
+      [
+       "δοξῶν",
+       "doxṓn"
+      ],
+      [
+       "προφητῶν",
+       "profētṓn"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dat. pl.",
+      [
+       "ἡμέραις",
+       "hēmérais"
+      ],
+      [
+       "γραφαῖς",
+       "grafaís"
+      ],
+      [
+       "δόξαις",
+       "dóxais"
+      ],
+      [
+       "προφήταις",
+       "profḗtais"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Ac. pl.",
+      [
+       "ἡμέρας",
+       "hēméras"
+      ],
+      [
+       "γραφάς",
+       "grafás"
+      ],
+      [
+       "δόξας",
+       "dóxas"
+      ],
+      [
+       "προφήτας",
+       "profḗtas"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "Tercera declinación",
+   "nota": "La raíz se ve en el genitivo singular. El dativo plural puede llevar ν final.",
+   "cab": [
+    "Caso",
+    "σάρξ, carne",
+    "πνεῦμα, espíritu",
+    "πόλις, ciudad",
+    "πατήρ, padre"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "Nom. sing.",
+      [
+       "σάρξ",
+       "sarx"
+      ],
+      [
+       "πνεῦμα",
+       "pneúma"
+      ],
+      [
+       "πόλις",
+       "pólis"
+      ],
+      [
+       "πατήρ",
+       "patḗr"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Gen. sing.",
+      [
+       "σαρκός",
+       "sarkós"
+      ],
+      [
+       "πνεύματος",
+       "pneúmatos"
+      ],
+      [
+       "πόλεως",
+       "póleōs"
+      ],
+      [
+       "πατρός",
+       "patrós"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dat. sing.",
+      [
+       "σαρκί",
+       "sarkí"
+      ],
+      [
+       "πνεύματι",
+       "pneúmati"
+      ],
+      [
+       "πόλει",
+       "pólei"
+      ],
+      [
+       "πατρί",
+       "patrí"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Ac. sing.",
+      [
+       "σάρκα",
+       "sárka"
+      ],
+      [
+       "πνεῦμα",
+       "pneúma"
+      ],
+      [
+       "πόλιν",
+       "pólin"
+      ],
+      [
+       "πατέρα",
+       "patéra"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Nom. pl.",
+      [
+       "σάρκες",
+       "sárkes"
+      ],
+      [
+       "πνεύματα",
+       "pneúmata"
+      ],
+      [
+       "πόλεις",
+       "póleis"
+      ],
+      [
+       "πατέρες",
+       "patéres"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Gen. pl.",
+      [
+       "σαρκῶν",
+       "sarkṓn"
+      ],
+      [
+       "πνευμάτων",
+       "pneumátōn"
+      ],
+      [
+       "πόλεων",
+       "póleōn"
+      ],
+      [
+       "πατέρων",
+       "patérōn"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Dat. pl.",
+      [
+       "σαρξί(ν)",
+       "sarxí(n)"
+      ],
+      [
+       "πνεύμασι(ν)",
+       "pneúmasi(n)"
+      ],
+      [
+       "πόλεσι(ν)",
+       "pólesi(n)"
+      ],
+      [
+       "πατράσι(ν)",
+       "patrási(n)"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Ac. pl.",
+      [
+       "σάρκας",
+       "sárkas"
+      ],
+      [
+       "πνεύματα",
+       "pneúmata"
+      ],
+      [
+       "πόλεις",
+       "póleis"
+      ],
+      [
+       "πατέρας",
+       "patéras"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "λύω: presente de indicativo",
+   "nota": "Terminaciones activas -ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν). Las medias y pasivas son iguales en este tiempo.",
+   "cab": [
+    "Persona",
+    "Activa",
+    "Media y pasiva"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "1.ª sing.",
+      [
+       "λύω",
+       "lýō · desato"
+      ],
+      [
+       "λύομαι",
+       "lýomai · soy desatado"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª sing.",
+      [
+       "λύεις",
+       "lýeis · desatas"
+      ],
+      [
+       "λύῃ",
+       "lýē · eres desatado"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª sing.",
+      [
+       "λύει",
+       "lýei · desata"
+      ],
+      [
+       "λύεται",
+       "lýetai · es desatado"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "1.ª pl.",
+      [
+       "λύομεν",
+       "lýomen · desatamos"
+      ],
+      [
+       "λυόμεθα",
+       "lyómetha · somos desatados"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª pl.",
+      [
+       "λύετε",
+       "lýete · desatáis"
+      ],
+      [
+       "λύεσθε",
+       "lýesthe · sois desatados"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª pl.",
+      [
+       "λύουσι(ν)",
+       "lýusi(n) · desatan"
+      ],
+      [
+       "λύονται",
+       "lýontai · son desatados"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "λύω: imperfecto, futuro y aoristo activos",
+   "nota": "Aumento ἐ- en los tiempos pasados del indicativo; -σ- en el futuro; -σα- en el primer aoristo.",
+   "cab": [
+    "Persona",
+    "Imperfecto",
+    "Futuro",
+    "Aoristo"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "1.ª sing.",
+      [
+       "ἔλυον",
+       "élyon · desataba"
+      ],
+      [
+       "λύσω",
+       "lýsō · desataré"
+      ],
+      [
+       "ἔλυσα",
+       "élysa · desaté"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª sing.",
+      [
+       "ἔλυες",
+       "élyes · desatabas"
+      ],
+      [
+       "λύσεις",
+       "lýseis · desatarás"
+      ],
+      [
+       "ἔλυσας",
+       "élysas · desataste"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª sing.",
+      [
+       "ἔλυε(ν)",
+       "élye(n) · desataba"
+      ],
+      [
+       "λύσει",
+       "lýsei · desatará"
+      ],
+      [
+       "ἔλυσε(ν)",
+       "élyse(n) · desató"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "1.ª pl.",
+      [
+       "ἐλύομεν",
+       "elýomen · desatábamos"
+      ],
+      [
+       "λύσομεν",
+       "lýsomen · desataremos"
+      ],
+      [
+       "ἐλύσαμεν",
+       "elýsamen · desatamos"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª pl.",
+      [
+       "ἐλύετε",
+       "elýete · desatabais"
+      ],
+      [
+       "λύσετε",
+       "lýsete · desataréis"
+      ],
+      [
+       "ἐλύσατε",
+       "elýsate · desatasteis"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª pl.",
+      [
+       "ἔλυον",
+       "élyon · desataban"
+      ],
+      [
+       "λύσουσι(ν)",
+       "lýsusi(n) · desatarán"
+      ],
+      [
+       "ἔλυσαν",
+       "élysan · desataron"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "λύω: aoristo pasivo y perfecto",
+   "nota": "La marca -θη- indica la pasiva del aoristo y del futuro. La reduplicación λε- marca el perfecto.",
+   "cab": [
+    "Persona",
+    "Aoristo pasivo",
+    "Perfecto activo",
+    "Perfecto medio y pasivo"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "1.ª sing.",
+      [
+       "ἐλύθην",
+       "elýthēn · fui desatado"
+      ],
+      [
+       "λέλυκα",
+       "lélyka · he desatado"
+      ],
+      [
+       "λέλυμαι",
+       "lélymai · he sido desatado"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª sing.",
+      [
+       "ἐλύθης",
+       "elýthēs · fuiste desatado"
+      ],
+      [
+       "λέλυκας",
+       "lélykas · has desatado"
+      ],
+      [
+       "λέλυσαι",
+       "lélysai · has sido desatado"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª sing.",
+      [
+       "ἐλύθη",
+       "elýthē · fue desatado"
+      ],
+      [
+       "λέλυκε(ν)",
+       "lélyke(n) · ha desatado"
+      ],
+      [
+       "λέλυται",
+       "lélytai · ha sido desatado"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "1.ª pl.",
+      [
+       "ἐλύθημεν",
+       "elýthēmen · fuimos desatados"
+      ],
+      [
+       "λελύκαμεν",
+       "lelýkamen · hemos desatado"
+      ],
+      [
+       "λελύμεθα",
+       "lelýmetha · hemos sido desatados"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª pl.",
+      [
+       "ἐλύθητε",
+       "elýthēte · fuisteis desatados"
+      ],
+      [
+       "λελύκατε",
+       "lelýkate · habéis desatado"
+      ],
+      [
+       "λέλυσθε",
+       "lélysthe · habéis sido desatados"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª pl.",
+      [
+       "ἐλύθησαν",
+       "elýthēsan · fueron desatados"
+      ],
+      [
+       "λελύκασι(ν)",
+       "lelýkasi(n) · han desatado"
+      ],
+      [
+       "λέλυνται",
+       "lélyntai · han sido desatados"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "εἰμί, ser",
+   "nota": "Infinitivo εἶναι; participio ὤν, οὖσα, ὄν.",
+   "cab": [
+    "Persona",
+    "Presente",
+    "Imperfecto",
+    "Futuro"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "1.ª sing.",
+      [
+       "εἰμί",
+       "eimí · soy"
+      ],
+      [
+       "ἤμην",
+       "ḗmēn · era"
+      ],
+      [
+       "ἔσομαι",
+       "ésomai · seré"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª sing.",
+      [
+       "εἶ",
+       "ei · eres"
+      ],
+      [
+       "ἦς",
+       "ēs · eras"
+      ],
+      [
+       "ἔσῃ",
+       "ésē · serás"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª sing.",
+      [
+       "ἐστί(ν)",
+       "estí(n) · es"
+      ],
+      [
+       "ἦν",
+       "ēn · era"
+      ],
+      [
+       "ἔσται",
+       "éstai · será"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "1.ª pl.",
+      [
+       "ἐσμέν",
+       "esmén · somos"
+      ],
+      [
+       "ἦμεν",
+       "ḗmen · éramos"
+      ],
+      [
+       "ἐσόμεθα",
+       "esómetha · seremos"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "2.ª pl.",
+      [
+       "ἐστέ",
+       "esté · sois"
+      ],
+      [
+       "ἦτε",
+       "ḗte · erais"
+      ],
+      [
+       "ἔσεσθε",
+       "ésesthe · seréis"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "3.ª pl.",
+      [
+       "εἰσί(ν)",
+       "eisí(n) · son"
+      ],
+      [
+       "ἦσαν",
+       "ḗsan · eran"
+      ],
+      [
+       "ἔσονται",
+       "ésontai · serán"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titulo": "λύω: infinitivos y participios",
+   "nota": "El participio se declina como un adjetivo (aquí, nominativo masculino singular). Marcas: -ντ- y -μεν-.",
+   "cab": [
+    "Tiempo",
+    "Infinitivo activo",
+    "Infinitivo pasivo",
+    "Participio activo",
+    "Participio medio o pasivo"
+   ],
+   "filas": [
+    {
+     "celdas": [
+      "Presente",
+      [
+       "λύειν",
+       "lýein"
+      ],
+      [
+       "λύεσθαι",
+       "lýesthai"
+      ],
+      [
+       "λύων",
+       "lýōn"
+      ],
+      [
+       "λυόμενος",
+       "lyómenos"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Aoristo",
+      [
+       "λῦσαι",
+       "lýsai"
+      ],
+      [
+       "λυθῆναι",
+       "lythḗnai"
+      ],
+      [
+       "λύσας",
+       "lýsas"
+      ],
+      [
+       "λυθείς",
+       "lytheís"
+      ]
+     ]
+    },
+    {
+     "celdas": [
+      "Perfecto",
+      [
+       "λελυκέναι",
+       "lelykénai"
+      ],
+      [
+       "λελύσθαι",
+       "lelýsthai"
+      ],
+      [
+       "λελυκώς",
+       "lelykṓs"
+      ],
+      [
+       "λελυμένος",
+       "lelyménos"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
