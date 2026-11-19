@@ -226,7 +226,7 @@
             ['5–8', 'III. El verbo', 'Lecciones 9 a 16'],
             ['9–10', 'IV. Palabras clave de la fe', 'Lecciones 17 a 20'],
             ['11–12', 'Taller práctico', 'Lecciones 21 a 24, y repaso'],
-            ['Después', 'El Interlineal griego–español, cuando se publique', 'Lecciones 25 a 45, una por semana'],
+            ['Después', 'El Interlineal griego–español (NT)', 'Lecciones 25 a 45, una por semana'],
           ],
           nota: 'El plan es una sugerencia. Lo importante es la constancia: quince minutos al día rinden más que dos horas una vez al mes.'
         } }
@@ -240,7 +240,8 @@
         'Aprende las palabras en voz alta, con su artículo si son sustantivos: ὁ λόγος, ἡ ἡμέρα, τὸ ἔργον. Así aprendes también su género. Los verbos se aprenden en la forma del diccionario, la primera persona del presente: λύω, «desato». El vocabulario tiene además las tablas modelo del artículo, de los sustantivos y del verbo λύω, para consultar mientras recorres las rutas II y III.',
         { ir: { t: 'Abrir el vocabulario', a: 'vocabulario/' } },
         { h: 'Un consejo sobre las herramientas' },
-        'Este recurso te prepara para usar bien una concordancia con números de Strong y un interlineal. El número de Strong identifica una palabra griega aunque la traducción la vierta de maneras distintas. Lo verás junto a cada palabra del vocabulario.',
+        'Este recurso te prepara para usar bien una concordancia con números de Strong y un interlineal. El número de Strong identifica una palabra griega aunque la traducción la vierta de maneras distintas. Lo verás junto a cada palabra del vocabulario, y también en la ficha de cada palabra del Interlineal griego–español.',
+        { ir: { t: 'Abrir el Interlineal griego–español (NT)', a: '../../interlineal-griego/' } },
         'Por último, estudia con otros si puedes. Los de Berea escudriñaban «cada día» las Escrituras, y lo hacían juntos (Hch 17:11). Un compañero de estudio te ayuda a no abandonar y a corregir errores.',
         { ejercicio: {
           pregunta: '¿Por qué conviene aprender los sustantivos con su artículo, como ὁ λόγος o ἡ ἡμέρα?',
@@ -2058,7 +2059,7 @@
           cab: ['Herramienta', 'Para qué'],
           filas: [
             ['El vocabulario de este recurso', 'Una lección por semana hasta completar las 45, y repasar con el modo de práctica'],
-            ['Interlineal griego–español (NT)', 'Recurso del sitio, en preparación: el Nuevo Testamento palabra por palabra, con su análisis'],
+            ['Interlineal griego–español (NT)', 'Recurso del sitio: el Nuevo Testamento palabra por palabra, con su análisis'],
             ['Concordancia con números de Strong', 'Encontrar todas las apariciones de una palabra griega'],
             ['Un diccionario griego–español del Nuevo Testamento', 'Ver todos los sentidos de una palabra y sus usos'],
             ['Una gramática del griego del Nuevo Testamento', 'Profundizar lo que aquí es una introducción'],
@@ -2073,7 +2074,8 @@
         'Elige un libro breve que conozcas bien en español, como 1 Juan o Filipenses, y lee un versículo por día en griego. Primero en voz alta. Después busca las palabras que no conozcas en el vocabulario. Por último, aplica a cada verbo el método de las seis preguntas. Al terminar el libro, notarás la diferencia.',
         { ir: { t: 'Abrir el vocabulario', a: 'vocabulario/' } },
         { h: 'Lo que viene' },
-        'El paso siguiente en el sitio será el Interlineal griego–español del Nuevo Testamento, en preparación, que mostrará cada palabra con su glosa y su análisis, como ya lo hace el interlineal hebreo. Con lo que aprendiste aquí podrás sacarle todo el provecho. Mientras tanto, si estudias también el Antiguo Testamento, el recurso de hebreo sigue el mismo camino.',
+        'El paso siguiente en el sitio es el Interlineal griego–español del Nuevo Testamento, que muestra cada palabra con su glosa y su análisis, como el interlineal hebreo. Con lo que aprendiste aquí podrás sacarle todo el provecho; su ruta «Cómo usar este recurso» te enseña a evitar los errores más comunes. Mientras tanto, si estudias también el Antiguo Testamento, el recurso de hebreo sigue el mismo camino.',
+        { ir: { t: 'Abrir el Interlineal griego–español (NT)', a: '../../interlineal-griego/' } },
         { ir: { t: 'Ver Vocabulario y gramática básica del hebreo bíblico', a: '../../gramatica-hebrea/' } },
         { h: 'Crecer en gracia y en conocimiento' },
         'Pedro termina su segunda carta con un imperativo de presente: αὐξάνετε, «creced», un crecimiento continuo. Y dice en qué: ἐν χάριτι καὶ γνώσει, «en la gracia y el conocimiento», dos dativos con una sola preposición. El conocimiento es τοῦ κυρίου ἡμῶν καὶ σωτῆρος Ἰησοῦ Χριστοῦ: un artículo para dos títulos, «nuestro Señor y Salvador Jesucristo», la misma persona.',

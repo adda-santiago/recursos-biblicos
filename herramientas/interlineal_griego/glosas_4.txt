@@ -1,0 +1,482 @@
+# Interlineal griego–español · glosas escritas a mano desde el léxico de Strong (parte 4 de 8)
+# lema|glosa · mismas convenciones que glosas_0.txt
+διχοτομέω|castigar duramente
+διϊσχυρίζομαι|afirmar con insistencia
+διόπερ|por lo cual
+δοκίμιον|la prueba
+δοχή|el banquete
+δυναμόω|fortalecer
+δόσις|el dar
+δύνω|ponerse
+δώρημα|el don
+εἰλικρινής|sincero
+εἰρηνικός|pacífico
+εὐεργεσία|el beneficio
+εὐθυδρομέω|navegar en línea recta
+εὐθύνω|dirigir
+εὐκαίρως|a tiempo
+εὐκαιρία|la oportunidad
+εὐλάβεια|la reverencia
+εὐνουχίζω|hacer eunuco
+εὐσεβέω|honrar
+εὐσεβῶς|piadosamente
+εὐτόνως|vigorosamente
+εὐφροσύνη|la alegría
+εὔκαιρος|oportuno
+εὔσπλαγχνος|misericordioso
+ζέω|ser ferviente
+ζεῦγος|el par
+ζωγρέω|pescar
+θάλπω|cuidar
+θαῦμα|el asombro
+θεριστής|el segador
+θριαμβεύω|llevar en triunfo
+θυγάτριον|la hijita
+θυρίς|la ventana
+κάμνω|cansarse
+καίτοι|aunque
+καθήκω|convenir
+καθηγητής|el maestro
+καινότης|la novedad
+κακουχέω|maltratar
+καμμύω|cerrar
+καρδιογνώστης|conocedor de los corazones
+κατάκρισις|la condenación
+κατάσχεσις|la posesión
+καταβάλλω|derribar
+καταδουλόω|esclavizar
+καταδυναστεύω|oprimir
+κατακλάω|partir
+κατακλείω|encerrar
+κατακολουθέω|seguir
+καταλαλιά|la murmuración
+καταμένω|quedarse
+καταπονέω|oprimir
+καταποντίζω|hundirse
+κατασκήνωσις|el nido
+καταστέλλω|apaciguar
+καταστροφή|la destrucción
+καταφεύγω|huir
+καταχέω|derramar
+καταχράομαι|usar mal
+κατεξουσιάζω|ejercer autoridad
+κατοικητήριον|la morada
+καυσόω|arder
+καῦμα|el calor
+κενοφωνία|la palabrería
+κεράμιον|el cántaro
+κεραία|la tilde
+κεφάλαιον|el punto principal
+κιθαρίζω|tocar el arpa
+κιθαρῳδός|el arpista
+κλάσις|el partimiento
+κλίβανος|el horno
+κλινίδιον|la camilla
+κλοπή|el robo
+κλύδων|la ola
+κοδράντης|el cuadrante
+κολάζω|castigar
+κομάω|dejarse crecer el cabello
+κονιάω|blanquear
+κορέννυμι|saciarse
+κορβᾶν|=corbán
+κοσμικός|mundano
+κρέας|la carne
+κρίθινος|de cebada
+κρίνον|el lirio
+κρυφαῖος|secreto
+κρύσταλλος|el cristal
+κυβερνήτης|el piloto
+κυρία|la señora
+κυριακός|del Señor
+κυρόω|ratificar
+κόλασις|el castigo
+κόσμιος|decoroso
+λέντιον|la toalla
+λίβανος|el incienso
+λίνον|el lino
+λίτρα|la libra
+λατομέω|labrar
+λεμά|=lama
+λευκαίνω|blanquear
+λιβανωτός|el incensario
+λικμάω|desmenuzar
+λοίδορος|maldiciente
+λογεία|la ofrenda
+λογικός|racional
+λογισμός|el razonamiento
+λοιμός (II)|la pestilencia
+λουτρόν|el lavamiento
+λύτρον|el rescate
+μάτην|en vano
+μέθυσος|el borracho
+μέμφομαι|culpar
+μήπω|todavía no
+μήτρα|la matriz
+μίσθιος|jornalero
+μακαρίζω|llamar bienaventurado
+μαράνα θᾶ|=maranata
+μεθοδεία|la artimaña
+μελετάω|meditar
+μενοῦνγε|más bien
+μερισμός|el reparto
+μεσημβρία|el mediodía
+μετάγω|dirigir
+μεταίρω|irse
+μεταλλάσσω|cambiar
+μεταστρέφω|trastornar
+μετοικίζω|deportar
+μηδαμῶς|=de ninguna manera
+μισθόω|contratar
+μονή|la morada
+μονόφθαλμος|tuerto
+μωμάομαι|censurar
+μόρφωσις|la apariencia
+νάρδος|el nardo
+νέκρωσις|la muerte
+νήθω|hilar
+ναυαγέω|naufragar
+νεύω|hacer señas
+νομή|el pasto
+νομίμως|legítimamente
+νομοθετέω|establecer por ley
+νυστάζω|cabecear
+νωθρός|tardo
+νῆστις|en ayunas
+ξενία|el alojamiento
+ξύλινος|de madera
+οἰκητήριον|la morada
+οἰκιακός|el de la casa
+οἰκτίρω|compadecerse
+οἰνοπότης|el bebedor de vino
+οὐρανόθεν|del cielo
+οὐσία|los bienes
+πάροινος|dado al vino
+πέλαγος|la profundidad
+πέρυσι|el año pasado
+παιδευτής|el instructor
+παλιγγενεσία|la regeneración
+παντελής|completo
+παράκειμαι|estar presente
+παρίημι|debilitar
+παραβιάζομαι|obligar
+παραινέω|amonestar
+παραλέγομαι|costear
+παραλογίζομαι|engañar
+παραπικρασμός|la provocación
+παρεισέρχομαι|introducirse
+παροικέω|habitar como extranjero
+παροικία|la peregrinación
+παροξυσμός|el desacuerdo
+παροξύνω|irritar
+παροργίζω|provocar a ira
+παχύνω|engrosar
+πεζῇ|a pie
+πεντακόσιοι|quinientos
+περίεργος|entremetido
+περιέχω|contener
+περιαστράπτω|rodear de resplandor
+περιβόλαιον|el manto
+περικεφαλαία|el yelmo
+περιλάμπω|rodear de resplandor
+περιλείπομαι|quedar
+πεῖρα|la experiencia
+πηδάλιον|el timón
+πηλίκος|cuán grande
+πικρός|amargo
+πικρῶς|amargamente
+πιστικός|puro
+πλάσσω|formar
+πλήκτης|pendenciero
+πνίγω|ahogar
+πνευματικῶς|espiritualmente
+πνοή|el aliento
+ποίημα|la hechura
+πολιτάρχης|el magistrado de la ciudad
+πολιτεία|la ciudadanía
+πολιτεύομαι|comportarse como ciudadano
+πολλαπλασίων|mucho más
+πορεία|el viaje
+πορισμός|la ganancia
+πράκτωρ|el alguacil
+πρασιά|el grupo
+πρεσβεία|la embajada
+πρεσβεύω|ser embajador
+προαμαρτάνω|pecar antes
+προβάλλω|echar brotes
+προβάτιον|la ovejita
+προενάρχομαι|comenzar antes
+προεπαγγέλλω|prometer antes
+προετοιμάζω|preparar de antemano
+προκαταγγέλλω|anunciar de antemano
+προπετής|impetuoso
+προπορεύομαι|ir delante
+προσαίτης|el mendigo
+προσαναπληρόω|suplir
+προσανατίθημι|consultar
+προσδοκία|la expectación
+προσκυλίω|hacer rodar
+προσλαλέω|hablar con
+προσοχθίζω|disgustarse
+προσρήσσω|dar con ímpetu
+προτρέχω|correr delante
+προφέρω|sacar
+προφητικός|profético
+προφῆτις|la profetisa
+προϋπάρχω|existir antes
+πρωΐα|la mañana
+πρωϊνός|de la mañana
+πρόγνωσις|la presciencia
+πρόγονος|el antepasado
+πρόνοια|la providencia
+πρῷρα|la proa
+πτερύγιον|el pináculo
+πτοέω|aterrorizar
+πτύον|el aventador
+πτῶσις|la caída
+πυρά|la hoguera
+πυρέσσω|tener fiebre
+πυρράζω|estar rojo
+πυρρός|rojo
+πόμα|la bebida
+πόρρωθεν|de lejos
+σάρδιον|la cornalina
+σάτον|la medida
+σέβασμα|el objeto de culto
+σαβαχθάνι|=sabactani
+σανδάλιον|la sandalia
+σεληνιάζομαι|ser lunático
+σιαγών|la mejilla
+σιγή|el silencio
+σκυθρωπός|triste
+σκῆνος|el tabernáculo
+σμύρνα|la mirra
+σοφίζω|hacer sabio
+σπάω|desenvainar
+σπένδω|derramar como libación
+σπίλος|la mancha
+σπαργανόω|envolver en pañales
+σπαταλάω|vivir en deleites
+σπιλόω|manchar
+στέλλω|evitar
+στεναγμός|el gemido
+στρατεία|la milicia
+στρατιά|el ejército
+στρηνιάω|vivir en lujos
+στυγνάζω|entristecerse
+συγκάθημαι|sentarse con
+συγκαθίζω|sentarse juntos
+συγκακοπαθέω|sufrir penalidades con
+συγκεράννυμι|unir
+συζεύγνυμι|juntar
+συζωοποιέω|dar vida juntamente con
+συκοφαντέω|defraudar
+συμβασιλεύω|reinar con
+συμμέτοχος|copartícipe
+συμπάσχω|padecer con
+συμπέμπω|enviar con
+συμπαθέω|compadecerse
+συμπόσιον|el grupo
+συνέκδημος|el compañero de viaje
+συναθλέω|luchar juntos
+συναθροίζω|reunir
+συναναβαίνω|subir con
+συναντιλαμβάνομαι|ayudar
+συναρμολογέω|ensamblar
+συνεισέρχομαι|entrar con
+συνευωχέομαι|banquetear con
+συνθάπτω|sepultar con
+συνθλάω|quebrantar
+συνθλίβω|apretar
+συνοχή|la angustia
+συντόμως|brevemente
+συσπαράσσω|sacudir con violencia
+συστέλλω|envolver
+συστρέφω|juntar
+συστρατιώτης|el compañero de milicia
+συστροφή|el tumulto
+συσχηματίζω|conformarse
+σχοινίον|la cuerda
+σχολάζω|dedicarse
+σχῆμα|la apariencia
+σωματικός|corporal
+σωρεύω|amontonar
+σύμμορφος|conforme
+σύμφορος|provechoso
+σύνειμι (I)|estar con
+τάραχος|el alboroto
+τάχα|quizás
+τέκτων|el carpintero
+τίτλος|el título
+ταλαίπωρος|miserable
+ταλαιπωρία|la miseria
+ταχινός|inminente
+τελείωσις|el cumplimiento
+τελειότης|la perfección
+τεσσαρεσκαιδέκατος|decimocuarto
+τεσσερακονταετής|de cuarenta años
+τιμωρέω|castigar
+τοιγαροῦν|por tanto
+τρίβολος|el abrojo
+τραυματίζω|herir
+τραχύς|áspero
+τριακόσιοι|trescientos
+τρυφή|el lujo
+τρύβλιον|el plato
+τρῆμα|el ojo de la aguja
+τόκος|el interés
+φάγος|el comilón
+φάντασμα|el fantasma
+φάρμακος|el hechicero
+φήμη|la fama
+φανέρωσις|la manifestación
+φειδομένως|escasamente
+φθόγγος|el sonido
+φιλάργυρος|avaro
+φιλανθρωπία|la amabilidad
+φιλοξενία|la hospitalidad
+φλογίζω|inflamar
+φορτίζω|cargar
+φοῖνιξ|la palmera
+φρήν|el modo de pensar
+φραγελλόω|azotar
+φρόνησις|la prudencia
+φωλεός|la guarida
+φωστήρ|el luminar
+φωτισμός|la iluminación
+χαλεπός|difícil
+χαλιναγωγέω|refrenar
+χαλινός|el freno
+χαλκολίβανον|el bronce bruñido
+χαμαί|en tierra
+χαριτόω|agraciar
+χειραγωγέω|llevar de la mano
+χειροτονέω|designar
+χιών|la nieve
+χλαμύς|el manto
+χολή|la hiel
+χορηγέω|suministrar
+χοῖνιξ|el quénice
+χοῦς|el polvo
+χρεοφειλέτης|el deudor
+χρυσόω|dorar
+χρῆσις|el uso
+ψευδάδελφος|el falso hermano
+ψευδομαρτυρία|el falso testimonio
+ψευδόμαρτυς|el testigo falso
+ψευδόχριστος|el falso cristo
+ψηφίζω|calcular
+ψιχίον|la migaja
+ψωμίζω|dar de comer
+ἀΐδιος|eterno
+ἀγαθοεργέω|hacer el bien
+ἀγγελία|el mensaje
+ἀγνωσία|la ignorancia
+ἀγοραῖος|del mercado
+ἀγριέλαιος|el olivo silvestre
+ἀγρυπνία|el desvelo
+ἀδελφότης|la hermandad
+ἀδιάλειπτος|incesante
+ἀδυνατέω|ser imposible
+ἀθέμιτος|ilícito
+ἀθέτησις|la anulación
+ἀθλέω|competir
+ἀθῷος|inocente
+ἀκάνθινος|de espinas
+ἀκατάκριτος|sin ser condenado
+ἀκατάστατος|inconstante
+ἀκατακάλυπτος|descubierto
+ἀκρασία|la intemperancia
+ἀκριβόω|averiguar con exactitud
+ἀκρογωνιαῖος|angular
+ἀλήθω|moler
+ἀλαζονεία|la jactancia
+ἀλαζών|el jactancioso
+ἀλαλάζω|retiñir
+ἀληθεύω|decir la verdad
+ἀμέμπτως|irreprensiblemente
+ἀμέριμνος|sin preocupación
+ἀμετάθετος|inmutable
+ἀμεταμέλητος|irrevocable
+ἀνάγαιον|el aposento alto
+ἀνάπηρος|manco
+ἀνάπτω|encender
+ἀναίτιος|sin culpa
+ἀναβαθμός|la escalera
+ἀναγεννάω|hacer renacer
+ἀναδέχομαι|recibir
+ἀναδείκνυμι|designar
+ἀναζάω|revivir
+ἀναθεωρέω|observar
+ἀνακαίνωσις|la renovación
+ἀνακαθίζω|incorporarse
+ἀνακαινόω|renovar
+ἀνακαλύπτω|descubrir
+ἀνακεφαλαιόω|resumir
+ἀναλίσκω|consumir
+ἀναλύω|partir
+ἀναπολόγητος|inexcusable
+ἀνασείω|alborotar
+ἀνασπάω|sacar
+ἀνατίθημι|exponer
+ἀναφαίνω|avistar
+ἀνεξιχνίαστος|insondable
+ἀνετάζω|interrogar
+ἀνευρίσκω|hallar
+ἀνθρακιά|las brasas
+ἀνθρωπάρεσκος|el que agrada a los hombres
+ἀνοικοδομέω|reedificar
+ἀνοχή|la paciencia
+ἀντάλλαγμα|el rescate
+ἀντίτυπος|la figura
+ἀνταποκρίνομαι|replicar
+ἀνταπόδομα|la retribución
+ἀντιμισθία|la retribución
+ἀντιπαρέρχομαι|pasar de largo
+ἀνωφελής|inútil
+ἀνόμως|sin ley
+ἀνόσιος|impío
+ἀνώτερος|superior
+ἀξίνη|el hacha
+ἀπαιτέω|reclamar
+ἀπαντάω|salir al encuentro
+ἀπειλέω|amenazar
+ἀπεκδύομαι|despojar
+ἀποβάλλω|desechar
+ἀποβολή|la pérdida
+ἀπογραφή|el censo
+ἀποδοχή|la aceptación
+ἀποκαραδοκία|el anhelo
+ἀποκυέω|engendrar
+ἀπολούω|lavarse
+ἀποπλανάω|extraviar
+ἀποστασία|la apostasía
+ἀποτελέω|consumar
+ἀποτινάσσω|sacudir
+ἀποτομία|la severidad
+ἀποτόμως|severamente
+ἀποχωρίζω|separarse
+ἀπόδεκτος|agradable
+ἀπόθεσις|el despojarse
+ἀπόλαυσις|el disfrute
+ἀρσενοκοίτης|el sodomita
+ἀρχάγγελος|el arcángel
+ἀσάλευτος|inconmovible
+ἀσεβέω|vivir impíamente
+ἀσσάριον|el cuarto
+ἀστήρικτος|inconstante
+ἀστεῖος|hermoso
+ἀστράπτω|relampaguear
+ἀσχημονέω|portarse indecorosamente
+ἀσχημοσύνη|la vergüenza
+ἀτάκτως|desordenadamente
+ἀτμίς|el vapor
+ἀφεδρών|la letrina
+ἀφιλάργυρος|sin avaricia
+ἀφοράω|poner los ojos
+ἀφρίζω|echar espuma
+ἀχάριστος|ingrato
+ἀχρεῖος|inútil
+ἁγιότης|la santidad
+ἁγνεία|la pureza
+ἁγνότης|la pureza

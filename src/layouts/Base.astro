@@ -25,10 +25,12 @@ const PIE = [
   { titulo: 'Herramientas de estudio', items: porEnfoque('herramientas-estudio', 6) },
 ];
 // Navegación principal: cada enlace abre la portada con un filtro, o un recurso
-const interlineal = publicados.find((r) => r.id === 'interlineal-hebreo');
+const interlineales = publicados.filter((r) => r.id === 'interlineal-hebreo' || r.id === 'interlineal-griego');
+// Con un solo interlineal, el enlace lo abre; con los dos (desde la v2.57), la portada los muestra juntos
+const hrefInterlineal = interlineales.length === 1 ? rutaRecurso(interlineales[0].id) : ruta('?q=interlineal');
 const NAV = [
   { t: 'Estudios interactivos', href: ruta(), activo: inicio },
-  ...(interlineal ? [{ t: 'Interlineal', href: rutaRecurso('interlineal-hebreo'), activo: false }] : []),
+  ...(interlineales.length ? [{ t: 'Interlineal', href: hrefInterlineal, activo: false }] : []),
   { t: 'Teología', href: ruta('?enfoque=teologia-sistematica'), activo: false },
   { t: 'Historia y mapas', href: ruta('?enfoque=historia-geografia'), activo: false },
   { t: 'Herramientas', href: ruta('?enfoque=herramientas-estudio'), activo: false },

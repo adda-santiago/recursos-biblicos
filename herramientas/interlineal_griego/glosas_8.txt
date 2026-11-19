@@ -1,0 +1,378 @@
+# Interlineal griego–español · glosas escritas a mano desde el léxico de Strong (parte 8 de 8)
+# lema|glosa · mismas convenciones que glosas_0.txt
+ἄμφοδον|el cruce de caminos
+ἄμωμον|el amomo
+ἄναλος|sin sal
+ἄνηθον|el eneldo
+ἄνθραξ|la brasa
+ἄνοιξις|el abrir
+ἄντικρυς|frente a
+ἄντλημα|el balde
+ἄπειμι (II)|irse
+ἄπειρος|inexperto
+ἄπταιστος|sin caída
+ἄραφος|sin costura
+ἄρκος|el oso
+ἄροτρον|el arado
+ἄρρητος|inefable
+ἄρτιος|completo
+ἄσημος|insignificante
+ἄσιτος|sin comer
+ἄσοφος|necio
+ἄσπονδος|implacable
+ἄτακτος|ocioso
+ἄτομος|el instante
+ἄφαντος|invisible
+ἄφιξις|la partida
+ἄχρηστος|inútil
+ἄψυχος|inanimado
+ἅλωσις|la captura
+ἐγκάθετος|el espía
+ἐγκαίνια|la fiesta de la dedicación
+ἐγκατοικέω|habitar entre
+ἐγκαυχάομαι|gloriarse
+ἐγκομβόομαι|revestirse
+ἐγκοπή|el obstáculo
+ἐγκρίνω|contarse entre
+ἐγκρατής|dueño de sí mismo
+ἐγκρύπτω|esconder en
+ἐγχρίω|untar
+ἐδαφίζω|arrasar
+ἐθίζω|acostumbrar
+ἐθελοθρησκία|el culto voluntario
+ἐθνάρχης|el gobernador
+ἐθνικῶς|como gentil
+ἐκβαίνω|salir
+ἐκβολή|el echar al mar
+ἐκδαπανάω|gastar del todo
+ἐκδιώκω|expulsar
+ἐκδοχή|la expectación
+ἐκζήτησις|la especulación
+ἐκθαυμάζω|maravillarse mucho
+ἐκκαίω|encenderse
+ἐκκολυμβάω|escapar nadando
+ἐκκομίζω|sacar a enterrar
+ἐκκρεμάννυμι|estar pendiente
+ἐκλάμπω|resplandecer
+ἐκλαλέω|decir
+ἐκλανθάνομαι|olvidar del todo
+ἐκνήφω|despertar
+ἐκνεύω|apartarse
+ἐκπερισσῶς|con más insistencia
+ἐκπετάννυμι|extender
+ἐκπηδάω|lanzarse
+ἐκπλήρωσις|el cumplimiento
+ἐκπληρόω|cumplir
+ἐκπορνεύω|entregarse a la fornicación
+ἐκπτύω|desechar
+ἐκστρέφω|pervertir
+ἐκτένεια|la perseverancia
+ἐκταράσσω|alborotar
+ἐκφοβέω|espantar
+ἐκχωρέω|alejarse
+ἐλαιών|el Olivar
+ἐλαττονέω|tener menos
+ἐλαφρία|la ligereza
+ἐλεγμός|la reprensión
+ἐλεφάντινος|de marfil
+ἐμέω|vomitar
+ἐμβάλλω|echar en
+ἐμβατεύω|entremeterse
+ἐμβιβάζω|embarcar
+ἐμμαίνομαι|enfurecerse
+ἐμπίπρημι|incendiar
+ἐμπαιγμονή|la burla
+ἐμπαιγμός|la burla
+ἐμπεριπατέω|andar entre
+ἐμπλοκή|el peinado
+ἐμπνέω|respirar
+ἐμπορία|el comercio
+ἐμπόριον|el mercado
+ἐμφυσάω|soplar
+ἐνάλιος|marino
+ἐνδέχομαι|ser posible
+ἐνδεής|necesitado
+ἐνδύνω|meterse
+ἐνδώμησις|el material
+ἐνειλέω|envolver
+ἐνεός|atónito
+ἐννεύω|hacer señas
+ἐνορκίζω|conjurar
+ἐντρέφω|nutrir
+ἐντρυφάω|recrearse
+ἐντυπόω|grabar
+ἐντόπιος|del lugar
+ἐνυβρίζω|ultrajar
+ἐνωτίζομαι|escuchar
+ἐνύπνιον|el sueño
+ἐξάλλομαι|saltar
+ἐξάπινα|de repente
+ἐξέλκω|arrastrar
+ἐξέραμα|el vómito
+ἐξαίρω|quitar
+ἐξαιτέω|pedir
+ἐξανάστασις|la resurrección
+ἐξαστράπτω|resplandecer
+ἐξεραυνάω|indagar
+ἐξηχέω|divulgarse
+ἐξισχύω|ser capaz
+ἐξολεθρεύω|destruir
+ἐξορκίζω|conjurar
+ἐξορκιστής|el exorcista
+ἐξουδενέω|menospreciar
+ἐξοχή|la distinción
+ἐξυπνίζω|despertar
+ἐπάναγκες|necesariamente
+ἐπάρατος|maldito
+ἐπάρχειος|la provincia
+ἐπέκεινα|más allá de
+ἐπίλοιπος|restante
+ἐπίλυσις|la interpretación
+ἐπίνοια|el pensamiento
+ἐπίορκος|el perjuro
+ἐπαγωνίζομαι|contender ardientemente
+ἐπαθροίζω|aglomerarse
+ἐπακούω|escuchar
+ἐπακροάομαι|escuchar
+ἐπαναμιμνῄσκω|recordar
+ἐπανόρθωσις|la corrección
+ἐπαρχεία|la provincia
+ἐπαυτοφώρῳ|en el acto mismo
+ἐπαφρίζω|espumar
+ἐπειδήπερ|puesto que
+ἐπεισέρχομαι|sobrevenir
+ἐπεισαγωγή|la introducción
+ἐπεκτείνομαι|extenderse hacia
+ἐπενδύτης|la ropa
+ἐπερώτημα|la aspiración
+ἐπιγίνομαι|levantarse
+ἐπιγαμβρεύω|casarse con la cuñada
+ἐπιδιατάσσομαι|añadir disposiciones
+ἐπιδιορθόω|corregir
+ἐπιδύω|ponerse
+ἐπιθανάτιος|condenado a muerte
+ἐπιθυμητής|el codicioso
+ἐπικάλυμμα|el pretexto
+ἐπικέλλω|encallar
+ἐπικαθίζω|sentarse encima
+ἐπικαλύπτω|cubrir
+ἐπικουρία|el auxilio
+ἐπικρίνω|sentenciar
+ἐπιλείπω|faltar
+ἐπιλείχω|lamer
+ἐπιλησμονή|el olvido
+ἐπιμέλεια|el cuidado
+ἐπιμαρτυρέω|testificar
+ἐπιμελῶς|con diligencia
+ἐπινεύω|consentir
+ἐπιορκέω|perjurar
+ἐπιπλήσσω|reprender
+ἐπιποθία|el gran deseo
+ἐπιπορεύομαι|venir
+ἐπιπόθητος|amado
+ἐπιράπτω|coser
+ἐπισιτισμός|la provisión
+ἐπισκευάζομαι|prepararse
+ἐπισκηνόω|reposar sobre
+ἐπισκοπέω|velar
+ἐπισπάομαι|disimular la circuncisión
+ἐπισπείρω|sembrar encima
+ἐπιστήμων|entendido
+ἐπιστομίζω|tapar la boca
+ἐπιστροφή|la conversión
+ἐπισυντρέχω|agolparse
+ἐπισφαλής|peligroso
+ἐπισχύω|insistir
+ἐπισωρεύω|amontonar
+ἐπιτήδειος|necesario
+ἐπιτιμία|la reprensión
+ἐπιτροπή|la comisión
+ἐπιφανής|notable
+ἐπιφαύσκω|alumbrar
+ἐπιχέω|echar encima
+ἐπιχρίω|untar
+ἐπονομάζω|llevar el nombre
+ἐπόπτης|el testigo ocular
+ἐρίζω|contender
+ἐρίφιον|el cabrito
+ἐρείδω|encallar
+ἐρεύγομαι|declarar
+ἐσχάτως|a punto de morir
+ἐφάλλομαι|saltar sobre
+ἐφήμερος|diario
+ἐφευρετής|el inventor
+ἐφφαθά|=efatá
+ἑβδομηκοντάκις|setenta veces
+ἑδραίωμα|el fundamento
+ἑκάστοτε|en todo momento
+ἑκατονταετής|de cien años
+ἑκούσιος|voluntario
+ἑλκόω|estar cubierto de llagas
+ἑορτάζω|celebrar la fiesta
+ἑπτακισχίλιοι|siete mil
+ἑτέρως|de otra manera
+ἑτεροζυγέω|unirse en yugo desigual
+ἑτερόγλωσσος|de otra lengua
+ἑτοιμασία|la preparación
+ἔα|=¡ah!
+ἔγγυος|el fiador
+ἔγερσις|la resurrección
+ἔγκυος|encinta
+ἔδαφος|el suelo
+ἔκγονος|el nieto
+ἔκδηλος|manifiesto
+ἔκδοτος|entregado
+ἔκθαμβος|atónito
+ἔκθετος|abandonado
+ἔκτρωμα|el abortivo
+ἔλεγξις|la reprensión
+ἔλεγχος|la convicción
+ἔλευσις|la venida
+ἔμφυτος|implantado
+ἔνδειγμα|la demostración
+ἔνδυσις|el vestir
+ἔνειμι|=lo que hay dentro
+ἔννυχος|de madrugada
+ἔξυπνος|despierto
+ἔπαυλις|la habitación
+ἔπος|=por decirlo así
+ἕξις|el uso
+ἠχέω|resonar
+ἡγεμονία|el gobierno
+ἡμίωρον|la media hora
+ἡμιθανής|medio muerto
+ἤπερ|que
+ἤρεμος|tranquilo
+ἤτοι|o
+ἦθος|la costumbre
+ἦχος (II)|el estruendo
+ἰκμάς|la humedad
+ἰσάγγελος|igual a los ángeles
+ἰσότιμος|igualmente precioso
+ἰσόψυχος|del mismo ánimo
+ἰῶτα|la jota
+ἱδρώς|el sudor
+ἱερατεύω|ejercer el sacerdocio
+ἱεροπρεπής|reverente
+ἱεροσυλέω|robar templos
+ἱερουργέω|ministrar como sacerdote
+ἱερόθυτος|sacrificado a ídolos
+ἱερόσυλος|el sacrílego
+ἱκανότης|la competencia
+ἱκετηρία|la súplica
+ἱλαρός|alegre
+ἱλαρότης|la alegría
+ἱππικός|de a caballo
+ἱστορέω|visitar
+ἴσως|tal vez
+ὀκνέω|tardar
+ὀκταήμερος|de ocho días
+ὀλίγως|apenas
+ὀλιγοπιστία|la poca fe
+ὀλιγωρέω|menospreciar
+ὀλιγόψυχος|desalentado
+ὀλοθρευτής|el destructor
+ὀλοθρεύω|destruir
+ὀλολύζω|aullar
+ὀνάριον|el asnillo
+ὀνίνημι|tener provecho
+ὀπτάνομαι|aparecerse
+ὀπτός|asado
+ὀπώρα|el fruto
+ὀργίλος|iracundo
+ὀρθοποδέω|andar rectamente
+ὀρθοτομέω|trazar rectamente
+ὀρθρίζω|madrugar
+ὀρθρινός|de madrugada
+ὀφρῦς|la cumbre
+ὀχλέω|atormentar
+ὀχλοποιέω|juntar una turba
+ὀχύρωμα|la fortaleza
+ὁδεύω|viajar
+ὁδοιπορέω|ir de camino
+ὁλοκληρία|la completa sanidad
+ὁλοτελής|completo
+ὁμίχλη|la niebla
+ὁμείρομαι|tener gran afecto
+ὁμιλία|la conversación
+ὁμοίωσις|la semejanza
+ὁμολογουμένως|indiscutiblemente
+ὁμότεχνος|del mismo oficio
+ὁμόφρων|de un mismo sentir
+ὁπλίζω|armarse
+ὁπότε|cuando
+ὁρατός|visible
+ὁροθεσία|el límite
+ὁσίως|santamente
+ὄγκος|el peso
+ὄζω|heder
+ὄλυνθος|el higo verde
+ὄμβρος|el aguacero
+ὄνειδος|el oprobio
+ὄρεξις|la lascivia
+ὄσφρησις|el olfato
+ὄψιμος|tardío
+ὅρμημα|el ímpetu
+ὑάκινθος|el jacinto
+ὑακίνθινος|de jacinto
+ὑγρός|verde
+ὑδροποτέω|beber agua
+ὑδρωπικός|hidrópico
+ὑπέρακμος|pasada la flor de la edad
+ὑπέχω|sufrir
+ὑπείκω|someterse
+ὑπερέκεινα|más allá
+ὑπεραυξάνω|crecer mucho
+ὑπερβαίνω|agraviar
+ὑπερβαλλόντως|en extremo
+ὑπερεκπερισσῶς|muchísimo más
+ὑπερεκτείνω|extralimitarse
+ὑπερεκχύννω|rebosar
+ὑπερεντυγχάνω|interceder
+ὑπερηφανία|la soberbia
+ὑπερνικάω|ser más que vencedor
+ὑπεροράω|pasar por alto
+ὑπερπερισσῶς|en gran manera
+ὑπερπλεονάζω|sobreabundar
+ὑπερυψόω|exaltar hasta lo sumo
+ὑπερφρονέω|tener más alto concepto
+ὑποβάλλω|sobornar
+ὑπογραμμός|el ejemplo
+ὑποζώννυμι|ceñir
+ὑποκρίνομαι|fingir
+ὑπολήνιον|el lagar
+ὑπολείπω|quedar
+ὑπολιμπάνω|dejar
+ὑποπνέω|soplar suavemente
+ὑποστολή|el retroceder
+ὑποστρωννύω|tender
+ὑποτρέχω|navegar al abrigo de
+ὑπόδικος|culpable
+ὑπόλειμμα|el remanente
+ὑπόνοια|la sospecha
+ὑφαίνω|tejer
+ὑφαντός|tejido
+ὑψηλοφρονέω|ser altivo
+ὕλη|el bosque
+ὕπανδρος|casada
+ὗς|la puerca
+ὠνέομαι|comprar
+ὠρύομαι|rugir
+ὡσπερεί|como
+ᾠόν|el huevo
+ῥέδη|el carruaje
+ῥέω|correr
+ῥήτωρ|el orador
+ῥακά|=necio
+ῥητῶς|claramente
+ῥιπή|el abrir y cerrar
+ῥιπίζω|ser echado de un lado a otro
+ῥοιζηδόν|con gran estruendo
+ῥυπαίνω|ser inmundo
+ῥυπαρία|la inmundicia
+ῥυτίς|la arruga
+ῥύπος|la inmundicia
+ῥώννυμι|estar bien
+ῥᾳδιουργία|la maldad
+ῥᾳδιούργημα|la fechoría
+ῥῆγμα|la ruina

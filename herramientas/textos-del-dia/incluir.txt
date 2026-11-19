@@ -61,3 +61,6 @@ Juan 5:17 | persona-y-obra-de-cristo/#persona/1
 Romanos 10:17 | historia-iglesia-2/#misiones/2
 Juan 10:11 | alfabeto-hebreo/#taller/4
 Romanos 11:36 | historia-iglesia-2/#reforma/7
+# v2.57 (Interlineal griego–español): textos que ya existían, fijados a su estación anterior
+Romanos 6:23 | persona-y-obra-de-cristo/#cruz/1
+Romanos 8:1 | escatologia/#temas/3

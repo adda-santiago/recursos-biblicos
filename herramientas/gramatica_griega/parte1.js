@@ -226,7 +226,7 @@
             ['5–8', 'III. El verbo', 'Lecciones 9 a 16'],
             ['9–10', 'IV. Palabras clave de la fe', 'Lecciones 17 a 20'],
             ['11–12', 'Taller práctico', 'Lecciones 21 a 24, y repaso'],
-            ['Después', 'El Interlineal griego–español, cuando se publique', 'Lecciones 25 a 45, una por semana'],
+            ['Después', 'El Interlineal griego–español (NT)', 'Lecciones 25 a 45, una por semana'],
           ],
           nota: 'El plan es una sugerencia. Lo importante es la constancia: quince minutos al día rinden más que dos horas una vez al mes.'
         } }
@@ -240,7 +240,8 @@
         'Aprende las palabras en voz alta, con su artículo si son sustantivos: ὁ λόγος, ἡ ἡμέρα, τὸ ἔργον. Así aprendes también su género. Los verbos se aprenden en la forma del diccionario, la primera persona del presente: λύω, «desato». El vocabulario tiene además las tablas modelo del artículo, de los sustantivos y del verbo λύω, para consultar mientras recorres las rutas II y III.',
         { ir: { t: 'Abrir el vocabulario', a: 'vocabulario/' } },
         { h: 'Un consejo sobre las herramientas' },
-        'Este recurso te prepara para usar bien una concordancia con números de Strong y un interlineal. El número de Strong identifica una palabra griega aunque la traducción la vierta de maneras distintas. Lo verás junto a cada palabra del vocabulario.',
+        'Este recurso te prepara para usar bien una concordancia con números de Strong y un interlineal. El número de Strong identifica una palabra griega aunque la traducción la vierta de maneras distintas. Lo verás junto a cada palabra del vocabulario, y también en la ficha de cada palabra del Interlineal griego–español.',
+        { ir: { t: 'Abrir el Interlineal griego–español (NT)', a: '../../interlineal-griego/' } },
         'Por último, estudia con otros si puedes. Los de Berea escudriñaban «cada día» las Escrituras, y lo hacían juntos (Hch 17:11). Un compañero de estudio te ayuda a no abandonar y a corregir errores.',
         { ejercicio: {
           pregunta: '¿Por qué conviene aprender los sustantivos con su artículo, como ὁ λόγος o ἡ ἡμέρα?',

@@ -1,0 +1,482 @@
+# Interlineal griego–español · glosas escritas a mano desde el léxico de Strong (parte 1 de 8)
+# lema|glosa · mismas convenciones que glosas_0.txt
+αἵρεσις|la secta
+βέβαιος|firme
+βίος|la vida
+βόσκω|apacentar
+γαστήρ|el vientre
+γεμίζω|llenar
+γνώμη|el parecer
+γωνία|la esquina
+δεῦρο|¡ven acá!
+διασκορπίζω|esparcir
+διατρίβω|permanecer
+δωρεάν|gratuitamente
+εἰδωλόθυτος|sacrificado a ídolos
+εὐάρεστος|agradable
+εὐδοκία|la buena voluntad
+εὐώνυμος|izquierdo
+θνῄσκω|morir
+κήρυγμα|la predicación
+κίνδυνος|el peligro
+καθαιρέω|derribar
+κατάγω|bajar
+κατάπαυσις|el reposo
+κατέναντι|frente a
+καταφρονέω|menospreciar
+κλάσμα|el pedazo
+κλαυθμός|el llanto
+κραυγάζω|gritar
+κρούω|llamar a la puerta
+λέων|el león
+λαμπάς|la antorcha
+λαμπρός|resplandeciente
+λεπρός|leproso
+μακράν|lejos
+μαργαρίτης|la perla
+μεστός|lleno
+μεταξύ|entre
+μεταπέμπω|mandar a llamar
+μνᾶ|la mina
+μονογενής|unigénito
+νομικός|intérprete de la ley
+νῆσος|la isla
+οἰκονομία|la administración
+οὐράνιος|celestial
+παρρησιάζομαι|hablar con denuedo
+περίχωρος|circunvecino
+πιπράσκω|vender
+πλεονάζω|abundar
+προέρχομαι|ir delante
+προπέμπω|encaminar
+προσφορά|la ofrenda
+σελήνη|la luna
+στάσις|la revuelta
+στολή|la ropa larga
+τάξις|el orden
+τεῖχος|el muro
+τρέφω|alimentar
+φθείρω|corromper
+φθορά|la corrupción
+φθόνος|la envidia
+φόνος|el homicidio
+χάριν|por causa de
+χρηματίζω|ser avisado por Dios
+χρυσός|el oro
+ἀγαθοποιέω|hacer el bien
+ἀκριβῶς|exactamente
+ἀλείφω|ungir
+ἀναγκάζω|obligar
+ἀναστρέφω|volver
+ἀνατέλλω|salir
+ἀποδοκιμάζω|desechar
+ἀπολαμβάνω|recibir
+ἀποστρέφω|apartar
+ἀποτίθημι|despojarse
+ἀρχισυνάγωγος|el principal de la sinagoga
+ἀσεβής|impío
+ἀστραπή|el relámpago
+ἄβυσσος|el abismo
+ἄζυμος|sin levadura
+ἄμπελος|la vid
+ἄνομος|inicuo
+ἄνω|arriba
+ἄρσην|varón
+ἐκδίκησις|la venganza
+ἐντρέπω|respetar
+ἐπέρχομαι|venir sobre
+ἐπιδίδωμι|entregar
+ἐπιποθέω|anhelar
+ἑξήκοντα|sesenta
+ἔρις|la contienda
+ἔσω|dentro
+ἕβδομος|séptimo
+ὀνειδίζω|reprochar
+ὀνομάζω|nombrar
+ὑστέρημα|la falta
+αἰνέω|alabar
+βάθος|la profundidad
+βεβαιόω|confirmar
+βοηθέω|ayudar
+βοῦς|el buey
+βρέφος|el niño de pecho
+γέννημα|el fruto
+γογγύζω|murmurar
+δάκτυλος|el dedo
+διακόσιοι|doscientos
+διανοίγω|abrir
+διασῴζω|poner a salvo
+διηγέομαι|contar
+δουλόω|esclavizar
+δρέπανον|la hoz
+εἰ δὲ μή|=de otra manera
+εἰσφέρω|meter
+εὐθύς|en seguida
+εὐλογητός|bendito
+εὐνοῦχος|el eunuco
+ζηλωτής|el celoso
+ζιζάνιον|la cizaña
+ζώνη|el cinto
+θησαυρίζω|atesorar
+καλύπτω|cubrir
+καρποφορέω|dar fruto
+κατηχέω|instruir
+κινέω|mover
+κλίνη|la cama
+κοινωνέω|participar
+κοράσιον|la muchacha
+κόπτω|cortar
+κύκλῳ|alrededor
+λιθάζω|apedrear
+λιθοβολέω|apedrear
+μέντοι|sin embargo
+μέτωπον|la frente
+μεγαλύνω|engrandecer
+μεθερμηνεύω|traducir
+μετέχω|participar
+μυριάς|la miríada
+νουθετέω|amonestar
+νύμφη|la novia
+ξηρός|seco
+οἰκέω|habitar
+πάντως|de todos modos
+πατρίς|la patria
+περιτίθημι|poner alrededor
+πορνεύω|fornicar
+πραιτώριον|el pretorio
+προΐστημι|presidir
+προσκόπτω|tropezar
+προσπίπτω|postrarse ante
+πρωτότοκος|primogénito
+σαπρός|malo
+στράτευμα|el ejército
+συγκαλέω|convocar
+συλλέγω|recoger
+συμβαίνω|suceder
+συμβούλιον|el consejo
+σχίσμα|la división
+τάσσω|ordenar
+ταπεινός|humilde
+τεκνίον|el hijito
+χάραγμα|la marca
+ἀγωνίζομαι|luchar
+ἀδόκιμος|reprobado
+ἀναγκαῖος|necesario
+ἀντίκειμαι|oponerse
+ἀπαρχή|las primicias
+ἀπεκδέχομαι|aguardar
+ἀπιστέω|no creer
+ἀποκαθιστάνω|restaurar
+ἀπολογία|la defensa
+ἀργός|ocioso
+ἀρκέω|bastar
+ἁγνός|puro
+ἄμωμος|sin mancha
+ἄφθαρτος|incorruptible
+ἅλας|la sal
+ἐκτός|fuera de
+ἐκφέρω|sacar
+ἐκφεύγω|escapar
+ἐνέργεια|la operación
+ἐναντίος|contrario
+ἐνθάδε|aquí
+ἐξαιρέω|librar
+ἐπιλανθάνομαι|olvidar
+ἐπισυνάγω|juntar
+ἐσθής|el vestido
+ἔνδυμα|el vestido
+ἕλκω|arrastrar
+ἡλικία|la estatura
+ἡμέτερος|nuestro
+ἴσος|igual
+ὀξύς|agudo
+ὀργίζω|enojarse
+ὀσφῦς|el lomo
+ὁρίζω|determinar
+ὅσιος|santo
+ὑπερβολή|la excelencia
+ῥίπτω|arrojar
+βρέχω|llover
+βραχύς|breve
+βρυγμός|el crujir
+γαμίζω|dar en casamiento
+δέκατος|décimo
+δηλόω|declarar
+διαστέλλω|mandar
+διαστρέφω|pervertir
+διατίθημι|disponer
+δοκιμή|la prueba
+δόκιμος|aprobado
+δῶμα|la azotea
+εἰδωλολάτρης|el idólatra
+εὔκοπος|fácil
+ζήτησις|la discusión
+θαρσέω|tener ánimo
+θεῖον|el azufre
+θόρυβος|el alboroto
+καθέζομαι|sentarse
+καθαρισμός|la purificación
+καταπίνω|tragar
+κλίνω|inclinar
+κρεμάννυμι|colgar
+κτάομαι|adquirir
+κυριεύω|enseñorearse
+κόκκος|el grano
+λάμπω|resplandecer
+μαστιγόω|azotar
+μεταλαμβάνω|participar
+μνεία|el recuerdo
+μοιχαλίς|adúltero
+μόλις|con dificultad
+νότος|el sur
+πάλαι|antiguamente
+πανταχοῦ|en todas partes
+παράβασις|la transgresión
+πεντήκοντα|cincuenta
+περιβλέπω|mirar alrededor
+πνέω|soplar
+πολεμέω|pelear
+πονηρία|la maldad
+ποταπός|¿de qué clase?
+πού|en alguna parte
+πρέπω|convenir
+προσμένω|quedarse
+προστάσσω|ordenar
+προσφωνέω|llamar
+πτῶμα|el cadáver
+σαρκικός|carnal
+σκιά|la sombra
+σπεῖρα|la compañía
+στάδιον|el estadio
+στοιχεῖον|el elemento
+στρατεύω|militar
+συγχαίρω|alegrarse con
+συμβιβάζω|enlazar
+συνανάκειμαι|sentarse a la mesa con
+συντρίβω|quebrantar
+σύνεσις|el entendimiento
+τάφος|el sepulcro
+τάχος|la prontitud
+ταπεινοφροσύνη|la humildad
+τράχηλος|el cuello
+φίλημα|el beso
+φθάνω|llegar
+φιμόω|poner bozal
+φλόξ|la llama
+φονεύς|el homicida
+φρέαρ|el pozo
+φυσιόω|envanecer
+χαλάω|bajar
+χεῖλος|el labio
+χρηστός|bondadoso
+ψαλμός|el salmo
+ἀήρ|el aire
+ἀγέλη|el hato
+ἀγανακτέω|indignarse
+ἀεί|siempre
+ἀνθρώπινος|humano
+ἀνταποδίδωμι|recompensar
+ἀξιόω|tener por digno
+ἀπάτη|el engaño
+ἀποδέχομαι|recibir
+ἀπολείπω|dejar
+ἀτιμάζω|deshonrar
+ἀτιμία|la deshonra
+ἀφθαρσία|la inmortalidad
+ἀφορμή|la ocasión
+ἁγνίζω|purificar
+ἁπλότης|la sencillez
+ἄκαρπος|sin fruto
+ἄπειμι (I)|estar ausente
+ἐγκαλέω|acusar
+ἐκδέχομαι|esperar
+ἐκζητέω|buscar con diligencia
+ἐκλογή|la elección
+ἐλευθερόω|libertar
+ἐμπίπτω|caer en
+ἐνίστημι|estar presente
+ἐνδυναμόω|fortalecer
+ἐπίγειος|terrenal
+ἐπίκειμαι|estar puesto encima
+ἐπιδείκνυμι|mostrar
+ἐπιστάτης|el maestro
+ἐπιταγή|el mandato
+ἐποικοδομέω|sobreedificar
+ἐριθεία|la contienda
+ἔκστασις|el éxtasis
+ὀφειλέτης|el deudor
+ὄπισθεν|detrás
+ὑπομιμνῄσκω|recordar
+ὑποπόδιον|el estrado
+ᾠδή|el cántico
+ῥήγνυμι|romper
+ῥομφαία|la espada
+αἰγιαλός|la playa
+αἰσχύνη|la vergüenza
+βάρβαρος|bárbaro
+βάρος|la carga
+βαρέω|cargar
+βαρύς|pesado
+βασανισμός|el tormento
+βδέλυγμα|la abominación
+βουλεύω|resolver
+δίς|dos veces
+διάλεκτος|la lengua
+διαπεράω|cruzar
+διαφθείρω|destruir
+διαφθορά|la corrupción
+διεγείρω|despertar
+διερμηνεύω|interpretar
+δοκός|la viga
+εἰκῇ|en vano
+εἴπερ|si es que
+εὔχομαι|orar
+ζημιόω|perder
+ζυγός|el yugo
+θαρρέω|tener confianza
+θαυμαστός|maravilloso
+θερμαίνω|calentarse
+θνητός|mortal
+θυμίαμα|el incienso
+κάμηλος|el camello
+κάρφος|la paja
+καθότι|por cuanto
+κακόω|maltratar
+κατάρα|la maldición
+κατήγορος|el acusador
+καταλλάσσω|reconciliar
+καταπέτασμα|el velo
+καταφιλέω|besar
+κιβωτός|el arca
+κλείς|la llave
+κραυγή|el clamor
+κόκκινος|escarlata
+κόλπος|el seno
+κόφινος|la canasta
+λανθάνω|pasar inadvertido
+λείπω|faltar
+λειτουργία|el servicio
+λύκος|el lobo
+μάγος|el mago
+μάστιξ|el azote
+μάταιος|vano
+μέλας|negro
+μέριμνα|el afán
+μέτοχος|participante
+μεθύω|embriagarse
+μεσίτης|el mediador
+μεταμέλομαι|arrepentirse
+μετατίθημι|trasladar
+μιμητής|el imitador
+μόσχος|el becerro
+νήφω|ser sobrio
+νόημα|el pensamiento
+πήρα|la alforja
+παιδεία|la disciplina
+παραδέχομαι|recibir
+παρασκευή|la preparación
+παρατηρέω|observar
+πενθερά|la suegra
+πεντακισχίλιοι|cinco mil
+πεποίθησις|la confianza
+περιάγω|recorrer
+περιζώννυμι|ceñir
+πηλός|el lodo
+πλέω|navegar
+πληροφορέω|estar plenamente convencido
+ποιητής|el hacedor
+προκόπτω|avanzar
+προορίζω|predestinar
+πρόσκομμα|el tropiezo
+πρόφασις|el pretexto
+πρᾶξις|el hecho
+πυρετός|la fiebre
+πυρόω|encender
+πώποτε|jamás
+σβέννυμι|apagar
+σημαίνω|dar a entender
+σινδών|la sábana
+σκληρύνω|endurecer
+σκοπέω|mirar
+σπήλαιον|la cueva
+σπεύδω|apresurarse
+στενάζω|gemir
+στρωννύω|tender
+συλλαλέω|hablar con
+συμβάλλω|conferir
+συμφωνέω|ponerse de acuerdo
+συναντάω|salir al encuentro
+συνευδοκέω|consentir
+συντέλεια|el fin
+συντελέω|acabar
+σωφρονέω|ser sensato
+τρώγω|comer
+φαῦλος|malo
+φθαρτός|corruptible
+φιλαδελφία|el amor fraternal
+φορέω|llevar puesto
+φορτίον|la carga
+φύλλον|la hoja
+χειμών|el invierno
+χειροποίητος|hecho a mano
+χρῆμα|el dinero
+ψυχικός|natural
+ἀγών|la lucha
+ἀλλάσσω|cambiar
+ἀνάθεμα|el anatema
+ἀνακλίνω|recostar
+ἀναμιμνῄσκω|recordar
+ἀναπληρόω|completar
+ἀνυπόκριτος|sin fingimiento
+ἀνόητος|insensato
+ἀξίως|dignamente
+ἀπείθεια|la desobediencia
+ἀπειθής|desobediente
+ἀποδημέω|irse lejos
+ἀποθήκη|el granero
+ἀποκόπτω|cortar
+ἀπορέω|dudar
+ἀποτάσσω|despedirse
+ἀποφέρω|llevar
+ἀπωθέω|desechar
+ἀσέβεια|la impiedad
+ἄκρον|el extremo
+ἐγκακέω|desmayar
+ἐγκεντρίζω|injertar
+ἐκδικέω|vengar
+ἐμπτύω|escupir
+ἐνοικέω|habitar en
+ἐξαπατάω|engañar
+ἐξαυτῆς|al instante
+ἐξηγέομαι|contar
+ἐπαινέω|alabar
+ἐπιβαίνω|subir
+ἐπιφάνεια|la manifestación
+ἐραυνάω|escudriñar
+ἐργασία|la ganancia
+ἔνι|=hay
+ἔχθρα|la enemistad
+ἕνδεκα|once
+ἰατρός|el médico
+ὀσμή|el olor
+ὁμοίωμα|la semejanza
+ὁμολογία|la confesión
+ὄναρ|=en sueños
+ὄξος|el vinagre
+ὅπλον|el arma
+ὑποδείκνυμι|mostrar
+ὑπόδειγμα|el ejemplo
+ὑπόκρισις|la hipocresía
+ὕπνος|el sueño
+ὕψος|la altura
+ὡσαννά|=hosanna
+αἰσχύνω|avergonzarse
+αἴτιος|culpable
+αὐτοῦ|aquí
+βάτος (I)|la zarza
+βέβηλος|profano
+βασιλικός|real
+βύσσινος|de lino fino
+γάλα|la leche
+γένεσις|el origen
+γαζοφυλάκιον|el arca de las ofrendas

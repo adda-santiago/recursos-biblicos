@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>Interlineal griego–español (NT) · Recursos Bíblicos</title>
+  <meta name="description" content="Los 27 libros del Nuevo Testamento en griego, palabra por palabra, con transliteración, glosa en español, morfología y el texto en español de la Reina-Valera.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%CE%B1%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@500;600&family=Noto+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
+  <style>
+    /* Interlineal griego–español. Colores de datos: ninguno; solo tokens. */
+    :where(:root) { --bg: #fafaf8; --surface: #fff; --surface-2: #f1f1ed; --ink: #1f2430; --ink-2: #3d4250; --muted: #6b7080; --line: #e4e4df; --line-strong: #cfcfc8; --accent: #9e2b25; --serif: "Newsreader", Georgia, serif; --sans: "Inter", system-ui, sans-serif; --radius: 6px; }
+    :root[data-theme="dark"] { --bg: #15171c; --surface: #1c1f25; --surface-2: #111317; --ink: #ebe9e4; --ink-2: #c9c7c1; --muted: #9a9ca6; --line: #2a2d35; --line-strong: #4a4f5b; --accent: #e0786d; }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.55 var(--serif); }
+    a { color: inherit; }
+    .gr { font-family: 'Noto Serif', 'SBL Greek', 'Gentium Plus', 'Times New Roman', serif; }
+    .cab { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem clamp(1rem, 4vw, 2rem); border-bottom: 1px solid var(--line); }
+    .marca { display: flex; align-items: center; gap: 0.55rem; font: 500 0.84rem var(--sans); color: var(--muted); text-decoration: none; }
+    .marca::before { content: ""; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+    .volver { margin-left: auto; font: 600 0.86rem var(--sans); color: var(--accent); text-decoration: none; border: 1px solid var(--accent); border-radius: 999px; padding: 0.4rem 0.95rem; white-space: nowrap; }
+    .volver:hover, .volver:focus-visible { background: var(--accent); color: var(--bg); }
+    main { max-width: 72rem; margin: 0 auto; padding: 1.2rem clamp(0.8rem, 3vw, 2rem) 4rem; }
+    .sup { font: 500 0.8rem var(--sans); color: var(--muted); margin: 0; }
+    h1 { font: 500 clamp(1.6rem, 4.5vw, 2.2rem)/1.15 var(--serif); margin: 0.15rem 0 0.8rem; }
+    /* barra */
+    .barra { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); margin: 0 calc(-1 * clamp(0.8rem, 3vw, 2rem)); padding: 0.6rem clamp(0.8rem, 3vw, 2rem); display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; }
+    .nav { display: flex; gap: 0.4rem; align-items: center; }
+    .nav select { font: 500 0.92rem var(--sans); padding: 0.45rem 0.5rem; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); }
+    .nav button { font: 600 1rem var(--sans); width: 2.3rem; height: 2.3rem; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink); cursor: pointer; }
+    .nav button:disabled { opacity: 0.35; cursor: default; }
+    .opc { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; font: 500 0.82rem var(--sans); color: var(--ink-2); }
+    .opc label { display: flex; gap: 0.35rem; align-items: center; cursor: pointer; white-space: nowrap; }
+    .opc select { font: 500 0.82rem var(--sans); padding: 0.2rem 0.35rem; margin-left: -0.5rem; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); }
+    .opc select[hidden] { display: none; }
+    .titulo { font: 500 1.35rem/1.2 var(--serif); margin: 1.2rem 0 0.4rem; }
+    .ayuda { font: 500 0.82rem/1.5 var(--sans); color: var(--muted); margin: 0 0 0.6rem; max-width: 46rem; }
+    /* texto */
+    .vers { padding: 0.9rem 0 0.8rem; border-bottom: 1px solid var(--line); scroll-margin-top: 5rem; }
+    .vers.foco { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+    .linea { display: flex; flex-wrap: wrap; gap: 0.55rem 0.35rem; align-items: flex-start; }
+    .n { font: 600 0.78rem var(--sans); color: var(--accent); text-decoration: none; padding: 0.55rem 0.2rem 0 0.4rem; min-width: 1.6rem; text-align: center; }
+    .pal { display: flex; flex-direction: column; align-items: center; gap: 0.05rem; min-width: 3rem; max-width: 11rem; padding: 0.25rem 0.35rem 0.35rem; border: 1px solid transparent; border-radius: 8px; background: none; color: inherit; cursor: pointer; font: inherit; text-align: center; }
+    .pal:hover { border-color: var(--line-strong); background: var(--surface); }
+    .pal.sel { border-color: var(--accent); background: var(--surface); }
+    .pal .gr { font-size: 1.4rem; line-height: 1.45; white-space: nowrap; }
+    .pal .tr { font: italic 400 0.86rem/1.25 var(--serif); color: var(--ink-2); }
+    .pal .es { font: 500 0.8rem/1.25 var(--sans); color: var(--ink); }
+    .pal .mo { font: 500 0.66rem/1.25 var(--sans); color: var(--muted); display: none; }
+    .sin-tr .pal .tr, .sin-es .pal .es { display: none; }
+    .con-mo .pal .mo { display: block; }
+    .sin-rv .rv { display: none; }
+    .rv { font: 400 0.98rem/1.55 var(--serif); color: var(--ink-2); margin: 0.6rem 0.2rem 0; max-width: 52rem; }
+    .rv b { font: 600 0.72rem var(--sans); color: var(--muted); margin-right: 0.3rem; }
+    .nota-num:empty { display: none; }
+    .nota-num { display: block; font: 500 0.76rem var(--sans); color: var(--accent); margin-bottom: 0.15rem; }
+    .cargando { font: 500 0.92rem var(--sans); color: var(--muted); padding: 2rem 0; }
+    /* ficha */
+    .ficha { position: fixed; z-index: 10; right: 0; top: 0; bottom: 0; width: min(26rem, 100vw); background: var(--surface); border-left: 1px solid var(--line-strong); box-shadow: -8px 0 24px rgba(0,0,0,0.08); padding: 1rem 1.2rem 2rem; overflow-y: auto; }
+    .ficha[hidden] { display: none; }
+    .ficha-cab { display: flex; justify-content: space-between; align-items: center; }
+    .ficha-cab h2 { font: 600 0.78rem var(--sans); text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 0; }
+    .ficha-cab button { font: 600 1.1rem var(--sans); width: 2.2rem; height: 2.2rem; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--bg); color: var(--ink); cursor: pointer; }
+    .f-ref { font: 500 0.8rem var(--sans); color: var(--muted); margin: 0.6rem 0 0; }
+    .f-gr { font-size: 2.2rem; line-height: 1.4; margin: 0.2rem 0; }
+    .f-tr { font: 400 1.05rem var(--serif); margin: 0.2rem 0 0.6rem; }
+    .f-tr span { font-style: italic; }
+    .f-tab { width: 100%; border-collapse: collapse; font: 500 0.85rem/1.5 var(--sans); margin-bottom: 1rem; }
+    .f-tab td { border-top: 1px solid var(--line); padding: 0.5rem 0.3rem; vertical-align: top; color: var(--ink-2); }
+    .f-tab th { font: 600 0.72rem var(--sans); text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); text-align: left; vertical-align: top; border-top: 1px solid var(--line); padding: 0.55rem 0.5rem 0.5rem 0; width: 5.2rem; }
+    .f-tab .gr { font-size: 1.2rem; color: var(--ink); }
+    .f-sig { background: var(--surface-2); border-radius: 8px; padding: 0.7rem 0.9rem; margin: 0.4rem 0 1rem; }
+    .f-sig span { font: 600 0.72rem var(--sans); text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent); }
+    .f-sig p { font: 500 1.1rem/1.4 var(--serif); margin: 0.2rem 0 0.15rem; color: var(--ink); }
+    .f-sig small { font: 500 0.78rem/1.45 var(--sans); color: var(--muted); }
+    .nota { font: 500 0.8rem/1.55 var(--sans); color: var(--ink-2); background: var(--surface-2); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 0.55rem 0.8rem; margin: 0.9rem 0 0.2rem; max-width: 52rem; }
+    .nota a, .sin-gr a { color: var(--accent); }
+    .sin-gr { font: 500 0.88rem/1.55 var(--sans); color: var(--ink-2); margin: 0.45rem 0 0; max-width: 46rem; }
+    .vers.falta .linea { flex-wrap: nowrap; }
+    .f-tab small { color: var(--muted); }
+    .f-tab i { font-family: var(--serif); }
+    .credito { font: 500 0.75rem/1.6 var(--sans); color: var(--muted); margin-top: 2.5rem; max-width: 52rem; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    @media (max-width: 640px) {
+      .pal .gr { font-size: 1.2rem; }
+      .pal { min-width: 2.6rem; padding: 0.2rem 0.2rem 0.3rem; }
+      .ficha { top: auto; height: 70vh; width: 100vw; border-left: 0; border-top: 1px solid var(--line-strong); border-radius: 14px 14px 0 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <header class="cab">
+    <a class="marca brand" href="../../../" target="_top">Recursos Bíblicos</a>
+    <a class="volver" href="../">Cómo usar este recurso</a>
+  </header>
+  <main class="no-citas">
+    <p class="sup">Interlineal griego–español (NT)</p>
+    <h1>El Nuevo Testamento palabra por palabra</h1>
+    <div class="barra">
+      <div class="nav">
+        <button type="button" id="prev" aria-label="Capítulo anterior">‹</button>
+        <select id="libro" aria-label="Libro"></select>
+        <select id="cap" aria-label="Capítulo"></select>
+        <button type="button" id="next" aria-label="Capítulo siguiente">›</button>
+      </div>
+      <div class="opc">
+        <label><input type="checkbox" id="o-tr"> Transliteración</label>
+        <label><input type="checkbox" id="o-es"> Glosa</label>
+        <label><input type="checkbox" id="o-mo"> Morfología</label>
+        <label><input type="checkbox" id="o-rv"> Texto en español</label>
+        <select id="o-ver" aria-label="Versión de la Biblia en español"></select>
+      </div>
+    </div>
+    <h2 class="titulo" id="titulo">Mateo 1</h2>
+    <p class="ayuda">Se lee de izquierda a derecha. Debajo de cada palabra van su pronunciación y una glosa: el sentido básico de la palabra, no una traducción. El genitivo lleva «de» y el dativo «a» cuando no hay una preposición delante, y los verbos quedan en infinitivo. Toca una palabra para ver su forma, su palabra de diccionario y cuántas veces aparece.</p>
+    <div id="texto"><p class="cargando">Cargando el texto griego…</p></div>
+    <p class="credito">Texto griego: Nuevo Testamento de Eberhard Nestle (1904), dominio público, en la edición de biblicalhumanities.org (texto de Diego Renato dos Santos, dominio público; morfología, lemas y números de Strong de Ulrik Sandborg-Petersen, CC0). Léxico de referencia: Strong, en la edición de Open Scriptures. Transliteración y glosas en español: Recursos Bíblicos; las glosas dan el sentido básico de cada lema y los verbos quedan en infinitivo. <span id="credito-rv"></span></p>
+  </main>
+  <aside class="ficha no-citas" id="ficha" hidden aria-label="Ficha de la palabra">
+    <div class="ficha-cab"><h2>La palabra</h2><button type="button" id="ficha-cerrar" aria-label="Cerrar">×</button></div>
+    <div id="ficha-cuerpo"></div>
+  </aside>
+  <script src="lexico.js"></script>
+  <script src="../../assets/js/citas.js"></script>
+  <script src="interlineal.js"></script>
+  <script src="../../visor-bridge.js"></script>
+</body>
+</html>

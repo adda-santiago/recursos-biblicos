@@ -1,0 +1,502 @@
+# Interlineal griego–español · glosas escritas a mano desde el léxico de Strong (parte 5 de 8)
+# lema|glosa · mismas convenciones que glosas_0.txt
+ἁλίζω|salar
+ἁπαλός|tierno
+ἁπλοῦς|sencillo
+ἁφή|la coyuntura
+ἄγναφος|nuevo
+ἄγρα|la pesca
+ἄδηλος|incierto
+ἄθεσμος|malvado
+ἄκακος|inocente
+ἄλευρον|la harina
+ἄμαχος|apacible
+ἄμετρος|sin medida
+ἄνιπτος|sin lavar
+ἄνοια|la insensatez
+ἄστοργος|sin afecto natural
+ἄτεκνος|sin hijos
+ἄτερ|sin
+ἄχυρον|la paja
+ἄψινθος|el ajenjo
+ἅλων|la era
+ἐάνπερ|si es que
+ἐγκαινίζω|inaugurar
+ἐγκρατεύομαι|dominarse
+ἐκδιηγέομαι|contar en detalle
+ἐκεῖσε|allá
+ἐκκαθαίρω|limpiar
+ἐκκεντέω|traspasar
+ἐκκλείω|excluir
+ἐκμυκτηρίζω|burlarse
+ἐκπέμπω|enviar
+ἐκτελέω|terminar
+ἐκτενής|ferviente
+ἐκτενῶς|fervientemente
+ἐκτρέφω|criar
+ἐκφύω|brotar
+ἐλαφρός|ligero
+ἐλεήμων|misericordioso
+ἐλεεινός|digno de lástima
+ἐλλογέω|inculpar
+ἐλωΐ|=Eloí
+ἐμβάπτω|mojar
+ἐμπαίκτης|el burlador
+ἐμπλέκω|enredarse
+ἐμπορεύομαι|negociar
+ἐμφανής|manifiesto
+ἐνάρχομαι|comenzar
+ἐνέδρα|la emboscada
+ἐνέργημα|la operación
+ἐναγκαλίζομαι|tomar en brazos
+ἐνδιδύσκω|vestir
+ἐνδοξάζομαι|ser glorificado
+ἐνεδρεύω|acechar
+ἐνευλογέω|bendecir
+ἐνθυμέομαι|pensar
+ἐνισχύω|fortalecer
+ἐνοχλέω|molestar
+ἐνταφιάζω|preparar para la sepultura
+ἐνταφιασμός|la sepultura
+ἐντροπή|la vergüenza
+ἐντός|dentro
+ἐνυπνιάζομαι|soñar
+ἐξαγγέλλω|anunciar
+ἐξανατέλλω|brotar
+ἐξαπορέομαι|desesperar
+ἐξαρτίζω|equipar
+ἐξεγείρω|levantar
+ἐξορύσσω|sacar
+ἐξωθέω|empujar
+ἐπάγγελμα|la promesa
+ἐπίσημος|insigne
+ἐπίστασις|la presión
+ἐπαιτέω|mendigar
+ἐπανέρχομαι|regresar
+ἐπανίστημι|levantarse contra
+ἐπαναπαύομαι|apoyarse
+ἐπεγείρω|incitar
+ἐπενδύω|sobrevestirse
+ἐπεῖδον|mirar
+ἐπηρεάζω|calumniar
+ἐπιδέχομαι|recibir
+ἐπιδημέω|residir
+ἐπιείκεια|la clemencia
+ἐπικατάρατος|maldito
+ἐπιλέγω|escoger
+ἐπιλύω|explicar
+ἐπιούσιος|de cada día
+ἐπιπόθησις|el anhelo
+ἐπιρίπτω|echar sobre
+ἐπισυναγωγή|la reunión
+ἐπιφέρω|añadir
+ἐπιφώσκω|amanecer
+ἐπιχορηγία|el suministro
+ἐποπτεύω|observar
+ἐρεθίζω|estimular
+ἐρυθρός|rojo
+ἐσώτερος|interior
+ἐφημερία|el turno
+ἐφικνέομαι|llegar
+ἑκατονταπλασίων|cien veces más
+ἑκουσίως|voluntariamente
+ἑκών|de buena voluntad
+ἑλίσσω|enrollar
+ἑνότης|la unidad
+ἑξακόσιοι|seiscientos
+ἑρμηνεία|la interpretación
+ἑτεροδιδασκαλέω|enseñar otra doctrina
+ἔγκλημα|la acusación
+ἔκβασις|la salida
+ἔκδικος|vengador
+ἔκπαλαι|desde hace tiempo
+ἔκφοβος|aterrado
+ἔναντι|delante de
+ἔνδικος|justo
+ἔνθεν|de aquí
+ἔννοια|la intención
+ἔννομος|legal
+ἔντευξις|la intercesión
+ἔοικα|parecerse
+ἔριον|la lana
+ἔριφος|el cabrito
+ἔσοπτρον|el espejo
+ἡγεμονεύω|gobernar
+ἡδύοσμον|la menta
+ἡνίκα|cuando
+ἡσύχιος|sosegado
+ἤπιος|amable
+ἥσσων|menor
+ἥττημα|la derrota
+ἧλος|el clavo
+ἰχθύδιον|el pececillo
+ἱεράτευμα|el sacerdocio
+ἱερατεία|el sacerdocio
+ἱκανόω|capacitar
+ἱλάσκομαι|ser propicio
+ἱλασμός|la propiciación
+ἱλαστήριος|el propiciatorio
+ἱματίζω|vestir
+ἱππεύς|el jinete
+ἵλεως|propicio
+ἶρις|el arco iris
+ὀγδοήκοντα|ochenta
+ὀδυρμός|el lamento
+ὀδύνη|el dolor
+ὀθόνη|el lienzo
+ὀνικός|de asno
+ὀπή|la hendidura
+ὀργυιά|la braza
+ὀρεινός|montañoso
+ὀρθός|recto
+ὀρφανός|huérfano
+ὀστράκινος|de barro
+ὀφείλημα|la deuda
+ὀφθαλμοδουλία|el servicio al ojo
+ὁδοιπορία|el viaje
+ὁλόκληρος|íntegro
+ὁμοιοπαθής|de pasiones semejantes
+ὁμοιότης|la semejanza
+ὁρκίζω|conjurar
+ὁρμή|el impulso
+ὁσιότης|la santidad
+ὄμμα|el ojo
+ὄρνις|la gallina
+ὑβριστής|insolente
+ὑπέρογκος|altisonante
+ὑπεναντίος|contrario
+ὑπερεκπερισσοῦ|muchísimo más
+ὑπερλίαν|sumamente
+ὑπεροχή|la eminencia
+ὑπερπερισσεύω|sobreabundar
+ὑποζύγιον|el asno
+ὑποπλέω|navegar al abrigo de
+ὑποτίθημι|exponer
+ὑποτύπωσις|el modelo
+ὑποχωρέω|retirarse
+ὑπωπιάζω|golpear
+ὑστέρησις|la escasez
+ὕαλος|el vidrio
+ὕμνος|el himno
+ὕπαρξις|los bienes
+ὕσσωπος|el hisopo
+ὕψωμα|la altura
+ὠτάριον|la oreja
+ὠφέλεια|el provecho
+ὦμος|el hombro
+ῥάκος|el paño
+ῥαββουνί|=Raboni
+ῥαβδίζω|azotar con varas
+ῥαβδοῦχος|el alguacil
+ῥαντισμός|el rociamiento
+ῥαπίζω|abofetear
+ῥαφίς|la aguja
+ῥιζόω|arraigar
+ῥυπαρός|sucio
+αἰδώς|el pudor
+αἰσθάνομαι|percibir
+αἰσθητήριον|el sentido
+αἰσχροκερδῶς|por ganancia deshonesta
+αἰσχρολογία|la palabra deshonesta
+αἰσχρότης|la deshonestidad
+αἰτίωμα|la acusación
+αἰχμάλωτος|el cautivo
+αἰχμαλωτεύω|llevar cautivo
+αἱματεκχυσία|el derramamiento de sangre
+αἱμορροέω|padecer flujo de sangre
+αἱρετίζω|escoger
+αἱρετικός|que causa divisiones
+αἴγειος|de cabra
+αἴνεσις|la alabanza
+αἴνιγμα|el enigma
+αἴσθησις|el discernimiento
+αὐγάζω|resplandecer
+αὐγή|el alba
+αὐθεντέω|ejercer dominio
+αὐλός|la flauta
+αὐτάρκης|contento
+αὐτοκατάκριτος|condenado por sí mismo
+αὐτόπτης|el testigo ocular
+αὐτόχειρ|con sus propias manos
+αὐχέω|jactarse
+αὐχμηρός|oscuro
+βάσις|el pie
+βάτος (II)|el bato
+βάτραχος|la rana
+βάϊον|la rama de palmera
+βέλος|el dardo
+βήρυλλος|el berilo
+βίαιος|violento
+βίωσις|la manera de vivir
+βαθμός|el grado
+βαθύνω|ahondar
+βαρύτιμος|de mucho precio
+βασανιστής|el verdugo
+βασκαίνω|fascinar
+βατταλογέω|usar vanas repeticiones
+βδελυκτός|abominable
+βελτίων|mejor
+βελόνη|la aguja
+βιαστής|el violento
+βιβρώσκω|comer
+βιόω|vivir
+βλέμμα|la mirada
+βλαβερός|dañino
+βλητέος|que debe echarse
+βοή|el clamor
+βοηθός|el ayudador
+βολή|el tiro
+βοτάνη|la hierba
+βραβεύω|gobernar
+βραδυπλοέω|navegar despacio
+βραδύτης|la tardanza
+βρόχος|el lazo
+βρύχω|crujir
+βρύω|brotar
+βρώσιμος|comestible
+βυθός|lo profundo
+βωμός|el altar
+βόρβορος|el cieno
+βότρυς|el racimo
+βύσσος|el lino fino
+γάγγραινα|la gangrena
+γάζα|el tesoro
+γέλως|la risa
+γέρων|el anciano
+γαμίσκω|dar en casamiento
+γενεαλογέω|contar la genealogía
+γενετή|el nacimiento
+γερουσία|el senado
+γεωργέω|cultivar
+γεώργιον|la labranza
+γλεῦκος|el mosto
+γναφεύς|el lavador
+γνησίως|sinceramente
+γνόφος|la oscuridad
+γνώστης|el conocedor
+γογγυστής|el murmurador
+γραπτός|escrito
+γραώδης|de viejas
+γυμνασία|el ejercicio
+γυμνιτεύω|estar desnudo
+γυναικάριον|la mujercilla
+γυναικεῖος|femenino
+γόης|el embaucador
+γῆρας|la vejez
+δάκνω|morder
+δάμαλις|la becerra
+δάνειον|el préstamo
+δέος|el temor
+δέρμα|la piel
+δέσμη|el manojo
+δήποτε|cualquiera
+δήπου|ciertamente
+δίλογος|de doble lengua
+δίψος|la sed
+δαίμων|el demonio
+δαιμονιώδης|diabólico
+δακρύω|llorar
+δακτύλιος|el anillo
+δανιστής|el acreedor
+δαπάνη|el costo
+δειλία|la cobardía
+δειλιάω|tener miedo
+δεισιδαίμων|muy religioso
+δεισιδαιμονία|la religión
+δεξιολάβος|el lancero
+δευτεραῖος|al segundo día
+δεῖγμα|el ejemplo
+δεῖνα|=fulano
+δημηγορέω|arengar
+δημιουργός|el constructor
+διάγνωσις|la decisión
+διάδοχος|el sucesor
+διάστημα|el intervalo
+διάταγμα|el edicto
+διέξοδος|la salida del camino
+διήγησις|el relato
+διαβάλλω|acusar
+διαγρηγορέω|despertar del todo
+διαδέχομαι|recibir en sucesión
+διακαθαίρω|limpiar del todo
+διακαθαρίζω|limpiar del todo
+διακατελέγχομαι|refutar
+διακούω|oír la causa
+διακωλύω|impedir
+διαλείπω|cesar
+διαλλάσσω|reconciliarse
+διαλύω|dispersar
+διαμάχομαι|contender
+διαμερισμός|la división
+διανέμω|divulgar
+διανεύω|hacer señas
+διανυκτερεύω|pasar la noche
+διανόημα|el pensamiento
+διανύω|terminar
+διαπαρατριβή|la disputa constante
+διαπλέω|atravesar navegando
+διαπραγματεύομαι|ganar negociando
+διασείω|extorsionar
+διαταράσσω|turbarse mucho
+διατελέω|continuar
+διατροφή|el sustento
+διαυγάζω|clarear
+διαυγής|transparente
+διαφεύγω|escapar
+διαφυλάσσω|guardar
+διαχλευάζω|burlarse
+διαχωρίζω|apartarse
+διενθυμέομαι|reflexionar
+διερμηνευτής|el intérprete
+διερωτάω|preguntar por
+διετής|de dos años
+διθάλασσος|de dos mares
+δικαιοκρισία|el justo juicio
+διοπετής|caído del cielo
+διπλόω|duplicar
+δισμυριάς|veinte mil
+δισχίλιοι|dos mil
+διχάζω|poner en disensión
+διϊκνέομαι|penetrar
+διϋλίζω|colar
+διόρθωμα|la reforma
+διόρθωσις|la reforma
+διώκτης|el perseguidor
+δογματίζω|someterse a preceptos
+δοκιμασία|la prueba
+δολιόω|engañar
+δολόω|adulterar
+δουλαγωγέω|poner en servidumbre
+δράσσομαι|atrapar
+δυσβάστακτος|difícil de llevar
+δυσεντέριον|la disentería
+δυσερμήνευτος|difícil de explicar
+δυσνόητος|difícil de entender
+δυσφημέω|difamar
+δυσφημία|la deshonra
+δωδέκατος|duodécimo
+δωδεκάφυλον|las doce tribus
+δόλιος|engañoso
+δότης|el dador
+δύσις|el occidente
+δύσκολος|difícil
+εἰδέα|el aspecto
+εἰδωλεῖον|el templo de ídolos
+εἰκοσιτρεῖς|veintitrés
+εἰρηνοποιέω|hacer la paz
+εἰρηνοποιός|el pacificador
+εἰσδέχομαι|recibir
+εἰσκαλέομαι|invitar a entrar
+εἰσπηδάω|precipitarse dentro
+εἰστρέχω|entrar corriendo
+εἴκω|ceder
+εὐαρέστως|agradablemente
+εὐδία|el buen tiempo
+εὐεργέτης|el bienhechor
+εὐεργετέω|hacer bienes
+εὐθύμως|con buen ánimo
+εὐθύτης|la rectitud
+εὐλαβέομαι|temer
+εὐμετάδοτος|generoso
+εὐνοέω|ponerse de acuerdo
+εὐπάρεδρος|dedicado
+εὐπειθής|benigno
+εὐπερίστατος|que asedia
+εὐποιΐα|la beneficencia
+εὐπορέω|tener recursos
+εὐπορία|la riqueza
+εὐπρέπεια|la hermosura
+εὐπροσωπέω|agradar en apariencia
+εὐρακύλων|=Euroclidón
+εὐρύχωρος|espacioso
+εὐσχημοσύνη|el decoro
+εὐτραπελία|la truhanería
+εὐφημία|la buena fama
+εὐφορέω|producir mucho
+εὐχάριστος|agradecido
+εὐψυχέω|estar animado
+εὔθυμος|animado
+εὔνοια|la buena voluntad
+εὔσημος|claro
+εὔφημος|de buen nombre
+εὖγε|=¡bien!
+ζευκτηρία|la amarra
+ζηλεύω|ser celoso
+θάρσος|el ánimo
+θέλησις|la voluntad
+θέρμη|el calor
+θήκη|la vaina
+θήρα|la trampa
+θανάσιμος|mortífero
+θανατηφόρος|mortal
+θαυμάσιος|maravilloso
+θεά|la diosa
+θεατρίζω|exponer a la burla
+θειότης|la divinidad
+θειώδης|de azufre
+θεοδίδακτος|enseñado por Dios
+θεομάχος|que lucha contra Dios
+θεοσέβεια|la piedad
+θεοσεβής|temeroso de Dios
+θεοστυγής|aborrecedor de Dios
+θεράπων|el siervo
+θεωρία|el espectáculo
+θεόπνευστος|inspirado por Dios
+θεότης|la Deidad
+θηρεύω|cazar
+θηριομαχέω|luchar contra fieras
+θορυβάζω|alborotar
+θρέμμα|el ganado
+θραύω|oprimir
+θρησκός|religioso
+θρόμβος|la gota
+θυμιάω|ofrecer incienso
+θυμιατήριον|el incensario
+θυμομαχέω|estar enojado
+θυμόω|enojarse
+θυρεός|el escudo
+θύελλα|la tempestad
+θύϊνος|de tuya
+κάκωσις|la aflicción
+κέλευσμα|la voz de mando
+κέραμος|la teja
+κέρμα|la moneda
+κίνησις|el movimiento
+κίχρημι|prestar
+καίγε|y también
+καίτοιγε|aunque
+καθά|como
+καθάπτω|prenderse
+καθαίρω|limpiar
+καθαρότης|la purificación
+καθεῖς|=uno por uno
+καθημερινός|diario
+καθοπλίζω|armar
+καθοράω|ver claramente
+καθόλου|en absoluto
+κακοήθεια|la malignidad
+κακοπάθεια|el sufrimiento
+καλάμη|el rastrojo
+καλλιέλαιος|el olivo cultivado
+καλοδιδάσκαλος|maestro del bien
+καλοποιέω|hacer el bien
+καπηλεύω|mercadear
+καρποφόρος|fructífero
+καρτερέω|perseverar
+κατάβασις|la bajada
+κατάδηλος|evidente
+κατάθεμα|la maldición
+κατάλαλος|el murmurador
+κατάλοιπος|restante
+κατάνυξις|el estupor
+κατάρτισις|la perfección
+κατάσκοπος|el espía
+κατάστημα|el porte
+κατήφεια|la tristeza
+καταβαρέω|ser una carga
+καταβαρύνω|cargar
+καταβραβεύω|defraudar
+καταγγελεύς|el predicador
+καταγωνίζομαι|conquistar
+καταδέω|vendar
+καταδίκη|la condena

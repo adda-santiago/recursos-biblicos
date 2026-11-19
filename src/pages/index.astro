@@ -42,6 +42,9 @@ const hoy = dia && { ...dia.texto, estudio: { ...dia.texto.estudio, url: ruta(di
 const totalTextos = dia?.total ?? 0;
 const versionDefecto = versiones.find((v) => v.defecto)!;
 const hayInterlineal = recursos.some((r) => r.id === 'interlineal-hebreo');
+const hayInterlinealG = recursos.some((r) => r.id === 'interlineal-griego');
+// Texto del día: el AT abre el interlineal hebreo y el NT el griego (desde la v2.57)
+const interlinealDe = (t: { he?: string }) => t.he ? (hayInterlineal ? rutaRecurso('interlineal-hebreo') : '') : (hayInterlinealG ? rutaRecurso('interlineal-griego') : '');
 
 // ---------- Facetas (solo valores en uso, en el orden de la taxonomía) ----------
 function opciones<K extends string>(etiquetas: Record<K, string>, usados: string[]) {
@@ -60,7 +63,7 @@ const etiquetasTag = Object.fromEntries(recursos.flatMap((r) => r.data.tags).map
 // ---------- Búsquedas sugeridas (solo las que tienen recursos publicados) ----------
 const SUGERENCIAS = [
   { t: 'Génesis 1 a 11', q: 'creación' }, { t: 'Tabernáculo 3D', q: 'tabernáculo' }, { t: 'Imperios', q: 'imperio' },
-  { t: 'Interlineal hebreo', q: 'interlineal' }, { t: 'Trinidad', q: 'trinidad' }, { t: 'Espíritu Santo', q: 'espíritu santo' },
+  { t: 'Interlineal', q: 'interlineal' }, { t: 'Trinidad', q: 'trinidad' }, { t: 'Espíritu Santo', q: 'espíritu santo' },
   { t: 'Taller de hermenéutica', q: 'interpretar' },
 ];
 
@@ -112,11 +115,11 @@ const POR_PAGINA = 12;
           <div class="hero-texto">
             <p class="sobretitulo"><span class="rojo">Plataforma digital de estudio bíblico</span><span class="raya" aria-hidden="true"></span><span>Recursos y rutas interactivas</span></p>
             <h1 id="titulo-portada">Investigación, exégesis y doctrina bíblica</h1>
-            <p class="bajada">Explora estudios visuales e interactivos paso a paso: interlineal hebreo, reconstrucciones 3D del santuario, mapas de los imperios, líneas de tiempo y estudios de teología.</p>
+            <p class="bajada">Explora estudios visuales e interactivos paso a paso: interlineales hebreo y griego, reconstrucciones 3D del santuario, mapas de los imperios, líneas de tiempo y estudios de teología.</p>
           </div>
           <aside class="hero-nota">
             <p class="rojo etiqueta-icono"><Icono n="pantalla" /> Estudio en línea directo</p>
-            <p>Recorre mapas interactivos, líneas de tiempo, modelos 3D y el texto hebreo con un toque, sin descargar nada ni crear una cuenta.</p>
+            <p>Recorre mapas interactivos, líneas de tiempo, modelos 3D y el texto hebreo y griego con un toque, sin descargar nada ni crear una cuenta.</p>
           </aside>
         </div>
 
@@ -165,7 +168,7 @@ const POR_PAGINA = 12;
               <span class="cita-sello" data-dia-ref>{hoy.ref} ({versionDefecto.abrev})</span>
               <span class="dia-credito" data-dia-credito>{versionDefecto.credito}</span>
               <span class="dia-acciones">
-                {hayInterlineal && <a class="accion" href={`${rutaRecurso('interlineal-hebreo')}#${hoy.libro}/${hoy.cap}/${hoy.v}`} data-dia-interlineal hidden={!hoy.he}><Icono n="idioma" />Ver en el interlineal</a>}
+                {(hayInterlineal || hayInterlinealG) && <a class="accion" href={`${interlinealDe(hoy)}#${hoy.libro}/${hoy.cap}/${hoy.v}`} data-dia-interlineal hidden={!interlinealDe(hoy)}><Icono n="idioma" />Ver en el interlineal</a>}
                 <button type="button" class="accion" data-dia-copiar><Icono n="copiar" /><span>Copiar el texto</span></button>
               </span>
             </footer>
@@ -213,7 +216,7 @@ const POR_PAGINA = 12;
         <a href={`${ruta()}?enfoque=estudio-libro`} data-aplicar><Icono n="pantalla" /><span><strong>100 % en línea</strong><small>Estudios interactivos en el navegador</small></span></a>
         <a href={`${ruta()}?tipo=3d`} data-aplicar><Icono n="cubo" /><span><strong class="rojo">Modelos 3D</strong><small>Tabernáculo, templos y sumo sacerdote</small></span></a>
         <a href={`${ruta()}?enfoque=historia-geografia`} data-aplicar><Icono n="mapa" /><span><strong>Mapas</strong><small>Atlas, imperios y la tierra de Israel</small></span></a>
-        <a href={hayInterlineal ? rutaRecurso('interlineal-hebreo') : `${ruta()}?enfoque=herramientas-estudio`}><Icono n="idioma" /><span><strong>Interlineal</strong><small>Hebreo con glosa y morfología</small></span></a>
+        <a href={hayInterlineal ? rutaRecurso('interlineal-hebreo') : `${ruta()}?enfoque=herramientas-estudio`}><Icono n="idioma" /><span><strong>Interlineal</strong><small>{hayInterlinealG ? 'Hebreo y griego' : 'Hebreo'} con glosa y morfología</small></span></a>
       </div>
     </section>
 
@@ -280,8 +283,8 @@ const POR_PAGINA = 12;
           <article class="rama rama-ancha">
             <span class="rama-icono rojo"><Icono n="idioma" /></span>
             <p class="rama-sobre">Lenguas originales e interlineal</p>
-            <h3>El hebreo del Antiguo Testamento, letra por letra</h3>
-            <p>{enLista(titulos(lenguas, 4))}: del alfabeto y la lectura al vocabulario de 751 palabras y el texto hebreo de los 39 libros, con transliteración, glosa en español y morfología.</p>
+            <h3>El hebreo y el griego de la Biblia, palabra por palabra</h3>
+            <p>{enLista(titulos(lenguas, 4))}: del alfabeto y la lectura al vocabulario y a los interlineales del Antiguo y del Nuevo Testamento, con transliteración, glosa en español y morfología.</p>
             <p class="rama-pie"><span class="gris">{lenguas.length} recursos · {total(lenguas, 'estaciones')} estaciones</span>
               <a class="rojo" href={hayInterlineal ? rutaRecurso('interlineal-hebreo') : `${ruta()}?enfoque=herramientas-estudio`}>Abrir el interlineal<Icono n="flecha" /></a></p>
           </article>
@@ -339,8 +342,8 @@ const POR_PAGINA = 12;
 
   <script is:inline type="application/json" id="datos-catalogo" set:html={JSON.stringify(catalogo)} />
   <script is:inline type="application/json" id="nombres-facetas" set:html={JSON.stringify(nombres)} />
-  <script is:inline define:vars={{ base: ruta(), buzon: ruta('buzon/'), versiones, porPagina: POR_PAGINA, interlineal: hayInterlineal ? rutaRecurso('interlineal-hebreo') : '', totalTextos, bloqueTextos: dia?.bloque ?? 50 }}>
-    window.__AV = { base, buzon, versiones, porPagina, interlineal, totalTextos, bloqueTextos };
+  <script is:inline define:vars={{ base: ruta(), buzon: ruta('buzon/'), versiones, porPagina: POR_PAGINA, interlineal: hayInterlineal ? rutaRecurso('interlineal-hebreo') : '', interlinealG: hayInterlinealG ? rutaRecurso('interlineal-griego') : '', totalTextos, bloqueTextos: dia?.bloque ?? 50 }}>
+    window.__AV = { base, buzon, versiones, porPagina, interlineal, interlinealG, totalTextos, bloqueTextos };
   </script>
 </Base>
 
@@ -354,8 +357,8 @@ const POR_PAGINA = 12;
   const $$ = <T extends Element = HTMLElement>(s: string) => [...document.querySelectorAll<T>(s)];
   const catalogo: Item[] = JSON.parse($("#datos-catalogo").textContent!);
   const NOMBRES: Record<string, Record<string, string>> = JSON.parse($('#nombres-facetas').textContent!);
-  const { base, buzon, versiones, porPagina, interlineal, totalTextos, bloqueTextos } = (window as any).__AV as
-    { base: string; buzon: string; versiones: { id: string; abrev: string; credito: string; defecto: boolean }[]; porPagina: number; interlineal: string; totalTextos: number; bloqueTextos: number };
+  const { base, buzon, versiones, porPagina, interlineal, interlinealG, totalTextos, bloqueTextos } = (window as any).__AV as
+    { base: string; buzon: string; versiones: { id: string; abrev: string; credito: string; defecto: boolean }[]; porPagina: number; interlineal: string; interlinealG: string; totalTextos: number; bloqueTextos: number };
 
   const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
@@ -392,7 +395,7 @@ const POR_PAGINA = 12;
       $('[data-dia-recurso]').textContent = t.estudio.recurso;
       $<HTMLAnchorElement>('[data-dia-enlace]').href = base + t.estudio.a;
       const il = document.querySelector<HTMLAnchorElement>('[data-dia-interlineal]');
-      if (il) { il.hidden = !t.he; il.href = `${interlineal}#${t.libro}/${t.cap}/${t.v}`; }
+      if (il) { const u = t.he ? interlineal : interlinealG; il.hidden = !u; il.href = `${u}#${t.libro}/${t.cap}/${t.v}`; }
       return { es, usada };
     };
     pintarDia();
