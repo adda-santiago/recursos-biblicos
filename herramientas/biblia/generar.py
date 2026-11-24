@@ -76,6 +76,15 @@ CORRECCIONES = [
     ('rv1960', 'lc', 22, 53, 'potestad de la tinieblas', 'potestad de las tinieblas'),
     ('rv1960', 'gn', 11, 2, 'estabecieron', 'establecieron'),
     ('rv1960', '2cr', 3, 1, 'en le monte', 'en el monte'),
+    ('rv1960', 'nm', 32, 8, 'Cades- barnea', 'Cades-barnea'),
+    ('rv1960', 'nm', 33, 16, 'Kibrot- hataava', 'Kibrot-hataava'),
+    ('rv1960', 'nm', 34, 4, 'Cades- barnea', 'Cades-barnea'),
+    ('rv1960', 'nm', 34, 9, 'Hazar- enán', 'Hazar-enán'),
+    ('rv1960', 'dt', 1, 19, 'Cades- barnea', 'Cades-barnea'),
+    ('rv1960', 'dt', 10, 6, 'bene- jaacán', 'bene-jaacán'),
+    ('rv1960', 'dt', 3, 14, 'Basán- havot', 'Basán-havot'),
+    ('rv1960', 'dt', 4, 3, 'Baal- peor', 'Baal-peor'),
+    ('rv1960', 'is', 52, 11, 'lleváislos', 'lleváis los'),
 ]
 
 # Versículos unidos por error en la fuente: (versión, libro, capítulo, versículo, texto correcto del

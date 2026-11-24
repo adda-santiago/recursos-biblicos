@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896">
+<rect width="1200" height="896" fill="#f6f3ec"/>
+<text x="600" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1f2430" text-anchor="middle" font-weight="normal">El campamento de Israel</text>
+<text x="600" y="86" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#6b7080" text-anchor="middle" font-weight="normal">Números 2 y 3: el tabernáculo en el centro, los levitas alrededor y las doce tribus en cuatro grupos</text>
+<rect x="880" y="330" width="250" height="340" rx="12" fill="#2f7d4a28" stroke="#2f7d4a" stroke-width="2"/>
+<text x="1005.0" y="366" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2f7d4a" text-anchor="middle" font-weight="bold">Oriente</text>
+<text x="1005.0" y="390" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2f7d4a" text-anchor="middle" font-weight="normal">186.400</text>
+<text x="1005.0" y="450" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Judá</text>
+<text x="1005.0" y="474" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">74.600</text>
+<text x="1005.0" y="525" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="normal">Isacar</text>
+<text x="1005.0" y="549" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">54.400</text>
+<text x="1005.0" y="600" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="normal">Zabulón</text>
+<text x="1005.0" y="624" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">57.400</text>
+<rect x="330" y="760" width="540" height="110" rx="12" fill="#2a6fb028" stroke="#2a6fb0" stroke-width="2"/>
+<text x="600.0" y="790" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2a6fb0" text-anchor="middle" font-weight="bold">Sur: 151.450</text>
+<text x="420.0" y="826" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Rubén</text>
+<text x="420.0" y="850" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">46.500</text>
+<text x="600.0" y="826" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">Simeón</text>
+<text x="600.0" y="850" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">59.300</text>
+<text x="780.0" y="826" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">Gad</text>
+<text x="780.0" y="850" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">45.650</text>
+<rect x="70" y="330" width="250" height="340" rx="12" fill="#c08a1e28" stroke="#c08a1e" stroke-width="2"/>
+<text x="195.0" y="366" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c08a1e" text-anchor="middle" font-weight="bold">Occidente</text>
+<text x="195.0" y="390" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c08a1e" text-anchor="middle" font-weight="normal">108.100</text>
+<text x="195.0" y="450" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="bold">Efraín</text>
+<text x="195.0" y="474" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">40.500</text>
+<text x="195.0" y="525" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="normal">Manasés</text>
+<text x="195.0" y="549" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">32.200</text>
+<text x="195.0" y="600" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f2430" text-anchor="middle" font-weight="normal">Benjamín</text>
+<text x="195.0" y="624" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">35.400</text>
+<rect x="330" y="120" width="540" height="110" rx="12" fill="#7a3fa028" stroke="#7a3fa0" stroke-width="2"/>
+<text x="600.0" y="150" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#7a3fa0" text-anchor="middle" font-weight="bold">Norte: 157.600</text>
+<text x="420.0" y="186" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="bold">Dan</text>
+<text x="420.0" y="210" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">62.700</text>
+<text x="600.0" y="186" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">Aser</text>
+<text x="600.0" y="210" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">41.500</text>
+<text x="780.0" y="186" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f2430" text-anchor="middle" font-weight="normal">Neftalí</text>
+<text x="780.0" y="210" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#6b7080" text-anchor="middle" font-weight="normal">53.400</text>
+<rect x="380" y="280" width="440" height="440" rx="18" fill="#8a5a2b19" stroke="#8a5a2b" stroke-width="2"/>
+<text x="600" y="306" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#8a5a2b" text-anchor="middle" font-weight="normal">Merari (norte)</text>
+<text x="600" y="706" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#8a5a2b" text-anchor="middle" font-weight="normal">Coat (sur)</text>
+<text x="398" y="500" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#8a5a2b" text-anchor="middle" transform="rotate(-90 398 500)">Gersón (occidente)</text>
+<text x="790" y="500" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#9e2b25" text-anchor="middle" font-weight="bold" transform="rotate(90 790 500)">Moisés, Aarón y los sacerdotes</text>
+<rect x="440" y="380" width="320" height="160" rx="4" fill="#ffffff" stroke="#1f2430" stroke-width="2"/>
+<rect x="470" y="425" width="140" height="70" rx="3" fill="#c08a1e59" stroke="#c08a1e" stroke-width="2"/>
+<text x="540" y="466" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2430" text-anchor="middle" font-weight="normal">Tienda</text>
+<rect x="680" y="450" width="26" height="26" fill="#b03a2e66" stroke="#b03a2e" stroke-width="2"/>
+<text x="693" y="498" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Altar</text>
+<line x1="760" y1="440" x2="760" y2="480" stroke="#f6f3ec" stroke-width="6"/>
+<text x="600" y="572" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#1f2430" text-anchor="middle" font-weight="normal">El tabernáculo</text>
+<text x="600" y="596" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6b7080" text-anchor="middle" font-weight="normal" font-style="italic">Entrada al oriente</text>
+<text x="1110" y="120" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f2430" text-anchor="middle" font-weight="bold">N</text>
+<line x1="1110" y1="128" x2="1110" y2="170" stroke="#1f2430" stroke-width="2"/>
+<polygon points="1110,126 1104,140 1116,140" fill="#1f2430"/>
+<text x="600" y="884" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7080" text-anchor="middle" font-weight="normal">Cifras de Números 1 y 2. Levitas: 22.000 varones de un mes arriba (Nm 3:39). Distancias y proporciones no son a escala.</text>
+</svg>

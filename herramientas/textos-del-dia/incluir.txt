@@ -64,3 +64,9 @@ Romanos 11:36 | historia-iglesia-2/#reforma/7
 # v2.57 (Interlineal griego–español): textos que ya existían, fijados a su estación anterior
 Romanos 6:23 | persona-y-obra-de-cristo/#cruz/1
 Romanos 8:1 | escatologia/#temas/3
+# v2.58 (El Éxodo y el desierto): textos nuevos enlazados a la estación que los estudia
+Éxodo 13:17 | exodo-desierto/#mar/1
+Éxodo 40:34 | exodo-desierto/#sinai/6
+Éxodo 2:23 | exodo-desierto/#liberacion/2
+Éxodo 5:1 | exodo-desierto/#liberacion/4
+Génesis 46:3 | exodo-desierto/#mundo/1

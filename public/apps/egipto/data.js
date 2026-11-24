@@ -287,7 +287,8 @@
           b: { n: 'La fecha tardía', t: 'Muchos estudiosos ubican el Éxodo hacia 1270 a.C., con Ramsés II, porque Éxodo 1:11 menciona la ciudad de Ramesés, que llevaba el nombre de ese faraón.' },
           c: 'El nombre Ramesés aparece también en tiempos de José, mucho antes de Ramsés II (Gn 47:11): el autor usa el nombre que el lugar tenía cuando se escribió o copió el texto. Por eso no obliga a una fecha tardía. Este estudio sigue la cronología que da el texto bíblico.'
         } },
-        'Las rutas que se han propuesto para el Éxodo y la ubicación del monte Sinaí son varias. El mapa muestra la ruta tradicional, por el sur de la península, como una aproximación.'
+        'Las rutas que se han propuesto para el Éxodo y la ubicación del monte Sinaí son varias. El mapa muestra la ruta tradicional, por el sur de la península, como una aproximación. El recurso El Éxodo y el desierto las compara y sigue el viaje completo, de Egipto a las llanuras de Moab.',
+        { ir: { t: 'Estudiar el viaje en El Éxodo y el desierto', a: '../../exodo-desierto/#mundo/1' } }
       ],
       pensar: 'La sangre del cordero en los postes protegió a cada familia la noche de la Pascua (Éx 12:13), y Pablo dice que «nuestra pascua, que es Cristo, ya fue sacrificada» (1 Co 5:7). ¿Qué significa para ti estar cubierto por la sangre de Cristo?'
     },

@@ -178,8 +178,9 @@
         'Gosén estaba en el delta oriental del Nilo, la puerta de Egipto para quien venía de Canaán. Tenía buenos pastos y agua, y estaba cerca de la frontera. Siglos después, allí estarán las ciudades de almacenaje que los israelitas edificaron como esclavos, Pitón y Ramesés (Éx 1:11), y desde allí comenzará el Éxodo. El último paso del mapa muestra la región.',
         { h: 'Cuatrocientos treinta años' },
         'La familia que bajó con setenta personas salió de Egipto como un pueblo: «Partieron los hijos de Israel de Ramesés a Sucot, como seiscientos mil hombres de a pie, sin contar los niños» (Éx 12:37). La promesa de una descendencia como las estrellas se había cumplido en Egipto. Faltaba la promesa de la tierra. Génesis termina con Israel en Egipto, y Éxodo comienza con los nombres de los hijos de Israel que entraron en Egipto con Jacob (Éx 1:1). Los dos libros son una sola historia.',
-        'La tabla reúne todos los viajes entre Canaán y Egipto en Génesis. El recurso El Éxodo y el desierto, en preparación, seguirá el camino de vuelta.',
-        ir('Ver «Moisés y el Éxodo» en Egipto', '../../egipto/#biblia/2')
+        'La tabla reúne todos los viajes entre Canaán y Egipto en Génesis. El recurso El Éxodo y el desierto sigue el camino de vuelta.',
+        ir('Ver «Moisés y el Éxodo» en Egipto', '../../egipto/#biblia/2'),
+        ir('Ver «De José a Moisés» en El Éxodo y el desierto', '../../exodo-desierto/#mundo/1')
       ],
       pensar: 'Dios llevó a Israel a Egipto para que creciera como pueblo apartado antes de darle la tierra. ¿Puede ser que una etapa que te parece un retroceso sea en realidad el lugar donde Dios te está formando?'
     },

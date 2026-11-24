@@ -690,3 +690,32 @@ Marcos 16:17-18
 Juan 18:33 # narración
 Juan 1:40 # narración
 Lucas 8:11 # a mitad de la explicación de la parábola
+# --- Revisión del 20-11-2026 (El Éxodo y el desierto) ---
+Hechos 7:20 # narración
+Éxodo 10:20 # narración
+Juan 6:30-31 # a mitad del diálogo
+Juan 6:31 # a mitad del diálogo
+Juan 6:48-49 # se corta; el pan de vida ya está en otros textos
+Deuteronomio 6:20 # solo la pregunta
+Levítico 27:34 # dato
+Deuteronomio 24:9 # necesita el contexto
+Apocalipsis 16:1 # narración
+Apocalipsis 15:2 # visión sin el cántico
+Deuteronomio 26:5-6 # a mitad de la confesión
+Hechos 7:23 # narración
+1 Reyes 19:8 # narración
+Deuteronomio 25:17-18 # necesita el contexto
+Mateo 22:36 # solo la pregunta
+Salmos 106:32-33 # narración
+Salmos 106:19-20 # narración
+2 Pedro 2:15-16 # advertencia que necesita el contexto
+Éxodo 14:4 # narración
+Éxodo 14:5 # narración
+Éxodo 14:19-20 # narración
+Números 11:18 # narración
+Números 11:24-25 # narración
+Éxodo 31:18 # narración
+Éxodo 32:15-16 # narración
+Isaías 51:9-10 # repetido con 51:10
+Éxodo 17:1 # narración
+Isaías 11:15 # necesita el contexto
